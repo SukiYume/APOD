@@ -4,7 +4,7 @@
 
    在英国脱欧（Brexit）之前，英国家庭之间最大的一个争论就是佳发蛋糕（Jaffa Cake）到底是蛋糕还是饼干的问题。在英国，巧克力饼干要缴纳增值税，巧克力蛋糕不用。佳发蛋糕因为外形以及常被摆在饼干货架上，被很多人认为是饼干，并为是否要缴税的问题在1991年上过法庭。
 
-   <img src="Jaffa_cake.png" alt="Jaffa_cake" style="zoom:10%;" />
+   <img src="Figures/Jaffa_cake.png" alt="Jaffa_cake" style="zoom:10%;" />
 
    这里用对天文瞬变（transient）源分类的方法，对100个传统蛋糕和饼干的食谱训练了两个分类器，一个随机森林和一个支持向量机，两个分类器的准确率分别是95%和91%。而两个分类器均认为，佳发蛋糕绝对是蛋糕。
 
@@ -16,7 +16,7 @@
 
    作者驳斥了关于“天文学的终极目的就是要在星系里殖民”的论调，提出了天文学还有许多其他目的，比如寻找长生不老药。一般星团中恒星年龄一致，大质量恒星演化快，在年老星团中会缺少蓝色OB星。但蓝离散星就是在年老星团中，依然保持年轻。作者在Gaia EDR3的数据中得到了M7的赫罗图，发现了一颗蓝离散星。又用5cm甚小望远镜（5-cm Extremely LIttle TElescope, ELITE）搭载由Joke&Bug开发的FACER（滑稽剧）仪器，观测光变曲线，看起来这颗恒星就很开心。作者得出结论，想要长生不老，就要保持开心。
 
-   <img src="image-20210402105528481.png" alt="image-20210402105528481" style="zoom:80%;" />
+   <img src="Figures/image-20210402105528481.png" alt="image-20210402105528481" style="zoom:80%;" />
 
 3. [Detection of Rotational Variability in Floofy Objects at Optical Wavelengths](https://arxiv.org/abs/2103.16636)
 
@@ -24,7 +24,7 @@
 
    作者很认真地研究了不同的猫猫在打滚的时候，肉眼感受到的“亮度” 是如何改变的，而且是非常细致的研究。作者在文章里处处埋猫梗，单词里只要出现“cat”字母组合的都被高亮了，文章最后的caveat (注意事项) 讨论变成了 "Catveat"；作者还说要把文章投到 Catstrophysical 杂志上去。
 
-   <div align=center><img src="image-20210402104201146.png" alt="image-20210402104201146" style="zoom:50%;" /><img src="image-20210402104109948.png" alt="image-20210402104109948" style="zoom:50%;" /></div>
+   <div align=center><img src="Figures/image-20210402104201146.png" alt="image-20210402104201146" style="zoom:50%;" /><img src="Figures/image-20210402104109948.png" alt="image-20210402104109948" style="zoom:50%;" /></div>
 
 4. [Science Spoofs, Physics Pranks and Astronomical Antics](https://arxiv.org/abs/2103.17057)
 
@@ -58,7 +58,7 @@
 
    提出FRBs是由磁星的地壳断裂引发的，爆发事件率取决于地壳中的磁场强度。地壳断裂会产生阿尔芬波，在磁层中形成一个电荷匮乏的区域，并导致非稳态对等离子体放电。由于跨磁场线的非均匀对子产生，相干等离子体发射产生FRB。同时，FRB相关的XRB是由外部磁场线的快速弛豫产生的。
 
-   <img src="image-20210406105010120.png" alt="image-20210406105010120" style="zoom:50%;" />
+   <img src="Figures/image-20210406105010120.png" alt="image-20210406105010120" style="zoom:50%;" />
 
    在这幅图中，与FRB 200428相关的尖峰硬X射线成分来自于相邻被困火球之间的区域，其具有高截止能量的光谱被认为是共振康普顿散射所致。持续的X射线发射来自于一个被磁层活动加热的热点，其温度演变是由磁星表面冷却所主导的。在这种情况下，磁场较强的磁星往往会产生更亮、更频繁的重复爆发。
 
@@ -108,7 +108,7 @@
 
    对于M3、M5、M13、M15，通过[Al/Fe]丰度将星团分成初代恒星（FG，first generation）和第二代恒星（SG），发现FG和SG有显著差异。
 
-   <img src="image-20210413180227401.png" alt="image-20210413180227401" style="zoom:50%;" />
+   <img src="Figures/image-20210413180227401.png" alt="image-20210413180227401" style="zoom:50%;" />
 
 2. [A new measurement of the Hubble constant using Fast Radio Bursts](https://arxiv.org/abs/2104.04538)
 
@@ -127,7 +127,7 @@
 
    
 
-   <img src="image-20210413180826799.png" alt="image-20210413180826799" style="zoom:50%;" />
+   <img src="Figures/image-20210413180826799.png" alt="image-20210413180826799" style="zoom:50%;" />
 
 3. [Radio Recombination Line Observations at 1.0-1.5 GHz with FAST](https://arxiv.org/abs/2104.05272)
 
@@ -215,7 +215,7 @@
 
    在引力波数据分析中，经常用到关于双星质量、红移和自旋等非微观先验概率，并在参数转换的基础上计算隐含的先验，或者将后验从一个先验重新加权到另一个。这篇文章介绍了一些常用的操作，并提供了一个雅各布表，用来转换质量参数之间的先验，并推到了“有效自旋”参数的先验分析表达式。
 
-   <img src="image-20210421130358754.png" alt="image-20210421130358754" style="zoom:50%;" />
+   <img src="Figures/image-20210421130358754.png" alt="image-20210421130358754" style="zoom:50%;" />
 
 2. [Constraining bright optical counterparts of Fast Radio Bursts](https://arxiv.org/abs/2104.09727)
 
@@ -277,13 +277,13 @@
 
    卫星星系在中心星系周围的分布不是完全随机的，而是显示出`polar and planar`的结构。通过流体动力学模拟孤立星系的卫星星系在二维平面上投影位置的角度分布，发现了统计上的bias。取决于星系的质量、颜色和大尺度环境。这为研究星系演化提供了一个有用的视角，关于卫星吸积、内部演化和与宇宙大尺度结构的相互作用。
 
-   <img src="image-20210428145103376.png" alt="image-20210428145103376" style="zoom:50%;" />
+   <img src="Figures/image-20210428145103376.png" alt="image-20210428145103376" style="zoom:50%;" />
 
 2. [Via Machinae: Searching for Stellar Streams using Unsupervised Machine Learning](https://arxiv.org/abs/2104.12789)
 
    在ANODE（[ANOmaly detection with Density Estimation](https://arxiv.org/abs/2001.04990)，基于密度估计的异常检测，使用条件密度估计和边界插值的非参数估计方法）的基础上，开发Via Machinae算法，用于识别Gaia数据中的冷恒星流，使用位置、自行和光度测量作为输入。
 
-   <img src="image-20210428150746564.png" alt="image-20210428150746564" style="zoom:50%;" />
+   <img src="Figures/image-20210428150746564.png" alt="image-20210428150746564" style="zoom:50%;" />
 
 3. [Multi-Output Random Forest Regression to Emulate the Earliest Stages of Planet Formation](https://arxiv.org/abs/2104.12845)
 
@@ -305,11 +305,11 @@
 
    天王星除了狭长的密集行星环之外，还有一个极其复杂的尘埃环系统，一些尘埃环宽度不到20公里，极其狭窄，并且不接近卫星共振。
 
-   <img src="uranus_resplot3w_020421.png" alt="uranus_resplot3w_020421" style="zoom:50%;" />
+   <img src="Figures/uranus_resplot3w_020421.png" alt="uranus_resplot3w_020421" style="zoom:50%;" />
 
    旅行者号航天器飞过天王星之后，在其高分辨率图像中分辨出了这一尘埃环系统。
 
-   <img src="Voyager_hiphwacim_crop.png" alt="Voyager_hiphwacim_crop" style="zoom:50%;" />
+   <img src="Figures/Voyager_hiphwacim_crop.png" alt="Voyager_hiphwacim_crop" style="zoom:50%;" />
 
 2. [Interferences in the Stochastic Gravitational Wave Background](https://arxiv.org/abs/2104.14231)
 

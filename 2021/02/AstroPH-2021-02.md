@@ -19,7 +19,7 @@
 
    21P/Giacobini-Zinner是被International Cometary Explorer (ICE)访问的第一颗彗星，在1985年。这颗彗星的轨道周期是6.621年，在1998、2005、2012和2018年出现，被SWAN和SOHO观测到。这篇文章比较了1998和2005年从hydrogen image 计算出来的water production rates，发现这颗彗星的产水率在不同的回归周期中没有明显的减少。
 
-   <img src="image-20210203134019931.png" alt="image-20210203134019931" style="zoom:70%;" />
+   <img src="Figures/image-20210203134019931.png" alt="image-20210203134019931" style="zoom:70%;" />
 
 ## 2021-02-04
 
@@ -45,7 +45,7 @@
 
    他们提出一种基于观测数据重建和可视化星系三维表征的方法，并且利用科学可视化软件`Splotch`生成高质量的可视化表征，如下。
 
-   <img src="image-20210204201205602.png" alt="image-20210204201205602" style="zoom:50%;" />
+   <img src="Figures/image-20210204201205602.png" alt="image-20210204201205602" style="zoom:50%;" />
 
    文章里开头提到了一个网址，这个网址是[*Astrophotography by Bob Franke*](http://bf-astro.com/index.htm)，里面有他做Hubble为彩色图像处理的软件。
 
@@ -61,7 +61,7 @@
 
    使用支持向量机对恒星做粗略分类，包括热星、冷星和发射线星，但是训练样本恒星的标签来源不同导致分类器的分类效果并不好。有意思的是文中的一个图，如何给恒星加label。
 
-   <img src="image-20210209003818309.png" alt="image-20210209003818309" style="zoom:80%;" />
+   <img src="Figures/image-20210209003818309.png" alt="image-20210209003818309" style="zoom:80%;" />
 
 2. [Deep reinforcement learning for smart calibration of radio telescopes](https://arxiv.org/abs/2102.03200)
 
@@ -77,13 +77,13 @@
 
    提出一个新模型，周期性重复的FRBs是中子星和它的行星作用的结果。行星位于偏心率极高的椭圆轨道上，经过中子星时受到潮汐力影响，产生碎片，落向中子星，诞生了观测到的FRBs。
 
-   <img src="image-20210210130358307.png" alt="image-20210210130358307" style="zoom:80%;" />
+   <img src="Figures/image-20210210130358307.png" alt="image-20210210130358307" style="zoom:80%;" />
 
 3. [Inferring Time-Dependent Distribution Functions from Kinematic Snapshots](https://arxiv.org/abs/2102.03519)
 
    从孤立的运动学快照中构造无碰撞系统在依赖时间的相位空间中的分布函数。假设最后的分布函数是由spectrum of the system's Koopman operator建立的，这可以将原来的问题简化为将运动快照映射到离散的频谱上，而不是时间相关的函数上。使用CNN，并把模型应用在一个自引力的等温平面上，看到了类似Gaia DR2中看到的相空间的螺旋结构。
 
-   <img src="image-20210210130909266.png" alt="image-20210210130909266" style="zoom:80%;" />
+   <img src="Figures/image-20210210130909266.png" alt="image-20210210130909266" style="zoom:80%;" />
 
 4. [The Kinematic Richness of Star Clusters - II. Stability of Spherical Anisotropic Models with Rotation](https://arxiv.org/abs/2102.04383)
 
@@ -107,7 +107,7 @@
 
    使用Lomb-Scargle分析周期图，使用小波找QPO。
 
-   <img src="image-20210211163843632.png" alt="image-20210211163843632" style="zoom:80%;" />
+   <img src="Figures/image-20210211163843632.png" alt="image-20210211163843632" style="zoom:80%;" />
 
 ## 2021-02-12
 
@@ -121,7 +121,7 @@
 
    两位法国天文学家分析了Fermi卫星在过去12年里观测M31 - 仙女座大星系的数据，得到了M31在高能伽马射线波段的图像。10年前，银河系中著名的Fermi“气泡”结构被Fermi卫星的数据揭示出来，之前曾有天文学家有7年的观测大胆提出M31中也有类似Fermi“气泡”的结构，这篇文章用更新的数据表示，这样的证据非常弱。
 
-   <img src="image-20210215133232940.png" alt="image-20210215133232940" style="zoom:80%;" />
+   <img src="Figures/image-20210215133232940.png" alt="image-20210215133232940" style="zoom:80%;" />
 
 ## 2021-02-16
 
@@ -139,7 +139,7 @@
 
    使用来自Gaia DR2的测光和运动数据来探索与英仙座分子云相关的恒星形成区域的结构。先筛选出Gaia DR2较大范围的恒星，用等龄线选出年龄小于10 Myr的恒星，模型是[Marigo et al.(2013)](https://arxiv.org/abs/1305.4485)中的。下图是恒星数密度分布，选择密度高的地方的中心作为中心点，用astroML.stats中的`fit_bivariate_normal`来对Ra和Dec做了一个双高斯拟合，取其中$3\sigma$的范围作为成员星候选，再对二维的proper motion做双高四拟合，排除$5\sigma$以外的恒星。单高斯拟合，选择$3\sigma$以内的parallax的源。组成新的星团。
 
-   <img src="image-20210217161919884.png" alt="image-20210217161919884" style="zoom:80%;" />
+   <img src="Figures/image-20210217161919884.png" alt="image-20210217161919884" style="zoom:80%;" />
 
 2. [`Oumuamua is not Artificial](https://arxiv.org/abs/2102.07871)
 
@@ -184,7 +184,7 @@
 
    Zwicky Transient Facility是一个光学时域一起，安装在帕尔马天文台的48-inch的Samurl Oschin Telescope上。由16块CCD组成，每次曝光视场是47平方度。但是在i波段滤光片成像中存在明显的大气条纹(atmospheric fringes)，他们使用PCA来消除这种条纹。先从图像中找到条纹占据的特征向量，作为模型，再从每个图像中应用这个变换，得到条纹，图像减条纹，得到正常的图像。
 
-   <div align=center><img src="image-20210223131447096.png" alt="image-20210223131447096" style="zoom:30%;" /><img src="image-20210223131504260.png" alt="image-20210223131504260" style="zoom:30%;" /></div>
+   <div align=center><img src="Figures/image-20210223131447096.png" alt="image-20210223131447096" style="zoom:30%;" /><img src="Figures/image-20210223131504260.png" alt="image-20210223131504260" style="zoom:30%;" /></div>
 
 3. [CRAFTS for Fast Radio Bursts Extending the dispersion-fluence relation with new FRBs detected by FAST](https://arxiv.org/abs/2102.10546)
 
@@ -204,7 +204,7 @@
 
    通过改进尘埃模型和AGN的处理，从伽马射线到射电波长的EBL模型的也取得了进展。随着新设施的上线，以及从伽马射线到射电波长的更统一的研究正在进行，很快就可以测量出精确到1%以内的EBL。在这个水平上，正确的电离模型、对缺失种群或光的认识、来自星团内和光环气体的辐射，以及来自衰变的暗物质的任何信号都变得非常重要。
 
-   <img src="image-20210225223221538.png" alt="image-20210225223221538" style="zoom:50%;" />
+   <img src="Figures/image-20210225223221538.png" alt="image-20210225223221538" style="zoom:50%;" />
 
 ## 2021-02-26
 

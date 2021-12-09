@@ -75,7 +75,7 @@
 
    周期图：We produce periodograms for each energy-resolved lightcurve (reduced to 2 𝑛 bins where 𝑛 is an integer) by applying a fast-Fourier transform (FFT) and a fractionalrms normalisation。
 
-   <img src="image-20210106212458942.png" alt="image-20210106212458942" style="zoom:50%;" />
+   <img src="Figures/image-20210106212458942.png" alt="image-20210106212458942" style="zoom:50%;" />
 
 2. [The young massive star cluster Westerlund 2 observed with MUSE. III. A cluster in motion -- the complex internal dynamics](https://arxiv.org/abs/2101.01694)
 
@@ -107,7 +107,7 @@
 
    是去年12月23日青海的那个火流星。被美国的监视卫星看到（CNEOS），速度$13.6km/s$，爆炸高度$35.5km$，爆炸碎片范围$(+32.3^\circ N;96.3^\circ E)$到$(+30.3^\circ N;96.5^\circ E)$，大约$4000km^2$。用蒙特卡洛做模拟，发现可能来自于小行星带。
 
-   <img src="image-20210108175402917.png" alt="image-20210108175402917" style="zoom:50%;" />
+   <img src="Figures/image-20210108175402917.png" alt="image-20210108175402917" style="zoom:50%;" />
 
 2. [Automatic identification of outliers in Hubble Space Telescope galaxy images](https://arxiv.org/abs/2101.02623)
 
@@ -121,7 +121,7 @@
 
    这次蟹状星云的观测是2016年仪器测试时进行的，也有展示仪器能力的作用。这组科学家对观测到的蟹状星云中气体的不同发射线进行了建模分析，并通过发射线的视向速度构建除了一幅非常完整的3-D图像。主要的结论其实就是蟹状星云的3维轮廓并不像之前预想的那么“椭球”，而是有点“心形”。
 
-   <img src="image-20210111145903429.png" alt="image-20210111145903429" style="zoom:50%;" />
+   <img src="Figures/image-20210111145903429.png" alt="image-20210111145903429" style="zoom:50%;" />
 
 2. [2021-H0 Odyssey: Closed, Phantom and Interacting Dark Energy Cosmologies](https://arxiv.org/abs/2101.03129)
 
@@ -140,7 +140,7 @@
 
    他们也是用的Apogee的那篇文章的选源方法，没说用的APOGEE的DR几，Gaia是DR2，选出了恒星，然后计算猎户座不同区域恒星对之间的距离和速度差，做了个图，说湍流明显存在。
 
-   <img src="image-20210112135856841.png" alt="image-20210112135856841" style="zoom:50%;" />
+   <img src="Figures/image-20210112135856841.png" alt="image-20210112135856841" style="zoom:50%;" />
 
 2. [Iron Mobility During Diagenesis at Vera Rubin Ridge, Gale Crater, Mars](https://arxiv.org/abs/2101.03767)
 
@@ -211,7 +211,7 @@
 
    Velocity Map，在x-y平面上的银河系盘状投影，4张map的颜色分别是模拟的脉冲星的数密度、$v_r$、$v_\phi$、$v_z$。用CNN对脉冲星种群的Velocity Map和Maxwell kick velocity $\sigma_k$和银河系标高$h_c$之间做映射。在有真实测量到的Map之后，就可以用建立好的CNN模型来计算$\sigma_k$和$h_c$。
 
-   <img src="image-20210118155932273.png" alt="image-20210118155932273" style="zoom:50%;" />
+   <img src="Figures/image-20210118155932273.png" alt="image-20210118155932273" style="zoom:50%;" />
 
 2. [Digital color codes of stars](https://arxiv.org/abs/2101.06254)
 
@@ -307,7 +307,7 @@
 
    软伽马暴SGR 0755-2933被Swift/BAT发现，后续有Swift/XRT、NuSTAR和Cahndra对其做软X射线对应体的后续观测，他们使用Lomb-Scargle对三个观测做分析，发现了明显的308s周期，折叠后，看到光变曲线如下图，猜测是双星。
 
-   <img src="image-20210127174538098.png" alt="image-20210127174538098" style="zoom:100%;" />
+   <img src="Figures/image-20210127174538098.png" alt="image-20210127174538098" style="zoom:100%;" />
 
 5. [Science and survival: insights from Astronomy](https://arxiv.org/abs/2101.10346)
 
@@ -323,7 +323,7 @@
 
    叶昊杨的文章。提出了一种高动态范围的射电干涉仪宽场成像方法。该方法改进了广泛使用的W堆叠法，使射电天文学家能够制作出动态范围(峰值:均值)超过$10^6:1$的高保真宽场干涉测量图像。下面是她们改进后的W-stacking方法的步骤。
 
-   <img src="image-20210128134401273.png" alt="image-20210128134401273" style="zoom:80%;" />
+   <img src="Figures/image-20210128134401273.png" alt="image-20210128134401273" style="zoom:80%;" />
 
 ## 2021-01-29
 
@@ -331,5 +331,5 @@
 
    在使用贝叶斯拟合星系旋转曲线时，是否存在一个普遍的加速scale $g_\dagger$，这之中有的拟合声称有，有的没有，这是一个矛盾。他们提出了一个分析，在对SPARC数据库中的旋转曲线进行拟合时，允许牛顿引力常数$G_N$是可变的，以类比最近争论不休的贝叶斯分析中的g†。发现在给$G_N$一个flat 先验时，$G_N$的分布显示在不同星系中$G_N$并不是一个常数，如下图。当使用一个对数正态分布的先验时（基于经验），则可以得到一个几乎是常数的$G_N$。
 
-   <img src="image-20210130005403933.png" alt="image-20210130005403933" style="zoom:80%;" />
+   <img src="Figures/image-20210130005403933.png" alt="image-20210130005403933" style="zoom:80%;" />
 

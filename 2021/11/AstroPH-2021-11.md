@@ -22,13 +22,13 @@
 
    利用混动动力学系统来测试各种统计预测和数据学习模型。提出了一个时间序列数据库，包含了131个已知的混沌动力系统，跨越天体物理学、气候学和生物化学等领域。文章测试了几个实验，`迁移学习改善时间序列分类`、`重要性采样加速模型训练`，`符号回归能有效拟合`一些混沌系统。
 
-   <img src="image-20211102154147438.png" alt="image-20211102154147438" style="zoom:50%;" />
+   <img src="Figures/image-20211102154147438.png" alt="image-20211102154147438" style="zoom:50%;" />
 
 ## 2021-11-03
 
 1. [The Whisper of a Whimper of a Bang: 2400 Days of the Type Ia SN 2011fe Reveals the Decay of 55Fe](https://arxiv.org/abs/2111.01144)
 
-   <img src="image-20211103165236621.png" alt="image-20211103165236621" style="zoom:30%;" />
+   <img src="Figures/image-20211103165236621.png" alt="image-20211103165236621" style="zoom:30%;" />
 
    HST对`2011fe, Ia SN`的多带测光，直到最大光度后的2400天。使用一个简单的放射性衰变模型来模拟光变曲线，发现需要$^{57}{\rm Co}$和$^{55}{\rm Fe}$的能量输入来驱动晚期的光变。
    $$
@@ -45,7 +45,7 @@
 
    `Radio free-free`辐射是星系中恒星形成可靠的`tracer`之一，然而它在GHz波段比同步辐射弱一个数量级，因此用自由辐射测量恒星形成率只能局限于局域宇宙。
 
-   <img src="image-20211103201602969.png" alt="image-20211103201602969" style="zoom:30%;" />
+   <img src="Figures/image-20211103201602969.png" alt="image-20211103201602969" style="zoom:30%;" />
 
    使用VLA的$1.4-3-5-10-34\ GHz$的多频射电`stacking `，以探测宇宙恒星形成高峰期的星系的自由辐射。发现$z\sim0.5-3$的星系在静止参考系$65-90Ghz$的射电辐射比自由+同步辐射的组合预期暗2倍。文章将其解释为高频同步辐射缺失，并利用$0.5\le z\le3$的自由辐射对宇宙恒星形成历史提供了第一个约束。
 
@@ -59,7 +59,7 @@
    - `进一步提出了一个长期存在的问题 - 为什么ONC显示出微弱的膨胀特征，尽管处于引力束缚的状态。`这种膨胀可能是由恒星之间不稳定的N体相互作用驱动的。
    - 观测到各种低质量的恒星形成区的恒星在远至200pc的距离落入`Orion Complex`。
 
-   <img src="image-20211103202637746.png" alt="image-20211103202637746" style="zoom:50%;" />
+   <img src="Figures/image-20211103202637746.png" alt="image-20211103202637746" style="zoom:50%;" />
 
 4. [Dynamics in a stellar convective layer and at its boundary: Comparison of five 3D hydrodynamics codes](https://arxiv.org/abs/2111.01165)
 
@@ -96,7 +96,7 @@
 
    尝试了两种定位方法：脏土的峰值和高斯拟合脏图上的交叉`fringe pattern`，后者于FRB位置的便宜的平均值和标准差都更低。文章的工作将FRB20201124A定位在距离宿主星系光学中心$705\pm26mas$的位置，并于其中恒星形成有关的射电展源一致。
 
-   <img src="image-20211103211527604.png" alt="image-20211103211527604" style="zoom:50%;" />
+   <img src="Figures/image-20211103211527604.png" alt="image-20211103211527604" style="zoom:50%;" />
 
 ## 2021-11-04
 
@@ -108,7 +108,7 @@
 
    2020年12月5日17:28UTC，`Hayabusa-2`返回地球，在南澳上空进入大气层，可见53秒的火球。日本和澳大利亚合作，记录了这次事件的`光学`、`地震-声学`、`光谱`数据，使我们能够深入分析行星际物体撞击地球大气层产生的影响。
 
-   <img src="image-20211104205245640.png" alt="image-20211104205245640" style="zoom:50%;" />
+   <img src="Figures/image-20211104205245640.png" alt="image-20211104205245640" style="zoom:50%;" />
 
 3. [Multiband Detection of Repeating FRB 20180916B](https://arxiv.org/abs/2111.02382)
 
@@ -118,7 +118,7 @@
 
    > 代码里有用到`matplotlib.widgets`，可以用来创建交互式图像，包括矩形索引。
    
-   <img src="image-20211104205628200.png" alt="image-20211104205628200" style="zoom:50%;" />
+   <img src="Figures/image-20211104205628200.png" alt="image-20211104205628200" style="zoom:50%;" />
 
 ## 2021-11-05
 
@@ -128,7 +128,7 @@
 
    在平台上给出了40640颗新的变星候选体，志愿者们确定了10420颗新发现的变星，并将其分类为4234颗脉动变星（正确率89%）、3132颗旋转变星（49%）、2923颗暗淡双星（81%）和131颗未知变星。
 
-   <img src="image-20211105163157885.png" alt="image-20211105163157885" style="zoom:50%;" />
+   <img src="Figures/image-20211105163157885.png" alt="image-20211105163157885" style="zoom:50%;" />
 
 2. [prose: A Python framework for modular astronomical images processing](https://arxiv.org/abs/2111.02814)
 
@@ -140,7 +140,7 @@
 
    使用`ResNet`的基本结构，将脏图转换为分辨率更高的真实图像，同时实现`洁化`和`超分辨率`。
 
-   <img src="image-20211108154427500.png" alt="image-20211108154427500" style="zoom:50%;" />
+   <img src="Figures/image-20211108154427500.png" alt="image-20211108154427500" style="zoom:50%;" />
 
 ## 2021-11-09
 
@@ -148,7 +148,7 @@
 
    观测到的原行星盘的温度无法产生足够形成恒星的吸积率，也不足以解释`CM/CO/CV`型球粒陨石和类地行星的`volatile depletion patterns`。由高吸积率引起的恒星`outburst`可以提供必要的质量以形成恒星，并提供足够的热量来气化行星形成的材料。这样的爆发可以在1AU的距离上再现观测到的`球粒陨石`的丰度。
 
-   <img src="image-20211109145317204.png" alt="image-20211109145317204" style="zoom:50%;" />
+   <img src="Figures/image-20211109145317204.png" alt="image-20211109145317204" style="zoom:50%;" />
 
 2. [Neutrino emission from FRB-emitting magnetars](https://arxiv.org/abs/2111.04121)
 
@@ -162,7 +162,7 @@
 
    将注意力机制加入`LeNet`来训练射电星系分类的模型，代码在[这里](https://github.com/mb010/EquivariantSelfAttention)。
 
-   <img src="image-20211110171811300.png" alt="image-20211110171811300" style="zoom:50%;" />
+   <img src="Figures/image-20211110171811300.png" alt="image-20211110171811300" style="zoom:50%;" />
 
 ## 2021-11-11
 
@@ -178,7 +178,7 @@
 
    使用`U-Net`的变种（GAN），从低分辨率的宇宙学模拟中得到高分辨率的输出。
 
-   <img src="image-20211112222030177.png" alt="image-20211112222030177" style="zoom:50%;" />
+   <img src="Figures/image-20211112222030177.png" alt="image-20211112222030177" style="zoom:50%;" />
 
 ## 2021-11-15
 
@@ -224,7 +224,7 @@
 
 1. [Scintillation Timescales of Bright FRBs Detected by CHIME/FRB](https://arxiv.org/abs/2111.08753)
 
-   <img src="image-20211118132034214.png" alt="image-20211118132034214" style="zoom:50%;" />
+   <img src="Figures/image-20211118132034214.png" alt="image-20211118132034214" style="zoom:50%;" />
 
    分析CHIME的10个FRB在$4-100\ {\rm kHz}$频率带宽的闪烁特征，发现闪烁时标与NE2001对银河系闪烁时标有强烈的相关性。
 
@@ -250,7 +250,7 @@
 
    讨论FRB在磁星上辐射半径和频率的关系，得到了漂移率的频率依赖$\dot\nu\propto\nu^{1+1/\alpha}\rightarrow\nu^3$和时间尺度。磁力线的扭曲可能导致两个方向的漂移。对于同一个FRB，在较低的频率下，爆发的宽度较大。对FRB，重复暴的磁场可能比非重复暴强，爆发宽度也要更宽。
 
-   <img src="image-20211119170245760.png" alt="image-20211119170245760" style="zoom:50%;" />
+   <img src="Figures/image-20211119170245760.png" alt="image-20211119170245760" style="zoom:50%;" />
 
 ## 2021-11-22
 
@@ -284,7 +284,7 @@
 
    [`ACAI`](https://github.com/dmitryduev/acai)作为 ZTF警报事件分类器，使用五种二元分类器来描述数据的特征。
 
-   <img src="image-20211125132857401.png" alt="image-20211125132857401" style="zoom:50%;" />
+   <img src="Figures/image-20211125132857401.png" alt="image-20211125132857401" style="zoom:50%;" />
 
 2. [Disintegrating Exoplanets: Creating Size Constraints by Statistically Peering Through the Debris](https://arxiv.org/abs/2111.12688)
 
@@ -304,7 +304,7 @@
 
    使用LAMOST DR5和Gaia EDR3建构了一个包含46109颗日心距离$d\le4kpc$的巨星样本，在$[Fe/H]$和$[\alpha/Fe]$的图中，厚盘由两个不同的成分组成，有不同的化学性质。
 
-   <img src="image-20211129153951594.png" alt="image-20211129153951594" style="zoom:50%;" />
+   <img src="Figures/image-20211129153951594.png" alt="image-20211129153951594" style="zoom:50%;" />
 
 ## 2021-11-30
 
@@ -312,7 +312,7 @@
 
    使用`Convolutional AE`识别ZTF中分布异常的`周期性变星`，使用`孤立森林`对编码出的特征进行异常值检验，发现异常的大多是 `不规则进化的恒星`，多波段观测表明可能是`红巨星或者渐近巨星支`。
 
-   <img src="image-20211130172432465.png" alt="image-20211130172432465" style="zoom:50%;" />
+   <img src="Figures/image-20211130172432465.png" alt="image-20211130172432465" style="zoom:50%;" />
 
 2. [Search for Low-Energy Signals from Fast Radio Bursts with the Borexino Detector](https://arxiv.org/abs/2111.14500)
 
@@ -322,15 +322,15 @@
 
    `弱引力透镜`用遥远星系图像被前景质量分布引起的微小形变中的相干性来重构质量分布。2010年左右，弱引力透镜开始成熟，出现了若干巡天项目，但是不同项目给出的结果一致嘛？可信嘛？有没有系统偏差？是这个`弱引力透镜无国界`的组织想回答的问题。
 
-   <img src="image-20211130182653104.png" alt="image-20211130182653104" style="zoom:50%;" />
+   <img src="Figures/image-20211130182653104.png" alt="image-20211130182653104" style="zoom:50%;" />
 
    文章考虑了当前6个最重要的弱引力透镜巡天项目，用同一组前景透镜星系作为基准，比较不同项目给出的透镜信号。这6个项目的`天区覆盖`、`使用设备`、`观测深度`、`数据处理分析方法`、`剪切量测量校准方式`、`测光红移估计方法`都有差别，但对同一族前景透镜星系给出的透镜信号整体上比较一致。
 
-   <img src="image-20211130183326038.png" alt="image-20211130183326038" style="zoom:50%;" />
+   <img src="Figures/image-20211130183326038.png" alt="image-20211130183326038" style="zoom:50%;" />
 
    系统差异在$2\sigma$左右，符合我们对这些巡天本身局限性的期待。不过这些比较也展示出了一些比较明确的系统问题：在一定的红移以上，`巡天观测的深度`和`所处天区的恒星密度`都对弱引力透镜分析有系统影响。
 
-   <img src="image-20211130183525430.png" alt="image-20211130183525430" style="zoom:50%;" />
+   <img src="Figures/image-20211130183525430.png" alt="image-20211130183525430" style="zoom:50%;" />
 
    这些结果对未来的弱引力透镜巡天数据分析有重要的指导意义。
 
@@ -338,7 +338,7 @@
 
    宇宙中大部分物质都是电离的，磁场很容易产生，并且由于没有磁单极，磁场极难破坏。河外星系的现有数据可以用发电机的`场放大`和`排序`来解释。场强和场型与弥漫电离气体的流动模式的相似性说明了银河系磁场在动力学上的重要性，可能会影响旋臂的形成、外流和星系的总体演化。
 
-   <img src="image-20211130184831119.png" alt="image-20211130184831119" style="zoom:50%;" />
+   <img src="Figures/image-20211130184831119.png" alt="image-20211130184831119" style="zoom:50%;" />
 
    文章是一片综述，描述银河系磁场的起源、观测等一系列问题。上图是全天RM的分布，文中一图。
 

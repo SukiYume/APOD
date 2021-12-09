@@ -16,7 +16,7 @@
 
    使用Gaia DR2找变星，因为变星的测光不准确度会明显高于恒星。但是Gaia对于每一颗恒星测量的次数不同，测量次数多的恒星G星等的不确定度会偏小，也就是说对于测量次数不同的恒星，$M_G\ vs.\ M_{Gerr}$会有不同的曲线（基线），在找变星的时候要考虑到。
 
-   <img src="image-20201209141218967.png" alt="image-20201209141218967" style="zoom:50%;" />
+   <img src="Figures/image-20201209141218967.png" alt="image-20201209141218967" style="zoom:50%;" />
 
 4. [FUV Observations of the Inner Coma of 46P/Wirtanen](https://arxiv.org/abs/2012.04619)
 
@@ -68,7 +68,7 @@
 
    Multi-dimensional FRB population synthesis可以得到唯一的自洽的FRB族。他们做了两种图，一个是$log\ N\sim\log\ S$，不知道为什么大家都这么喜欢这个。另一个是MC模拟，几个参数$\log\ N - \log\ S\ slope\ \alpha$，spectral index $si$，luminosity index $li$，minimum luminosity $lum_{min}$，maximum luminosity $lim_{max}$，mean intrinsic pulse width $w_{ini,\ mean}$，standard deviation intrinsic pulse width $w_{ini,\ std}$，Macquart idnex $DM_{IGM,\ slope}$，host dispersion measure $DM_{host}$。主要是这图看起来有点意思。
 
-   <img src="image-20201214133021121.png" alt="image-20201214133021121" style="zoom:50%;" />
+   <img src="Figures/image-20201214133021121.png" alt="image-20201214133021121" style="zoom:50%;" />
 
 2. [The International Virtual Observatory Alliance (IVOA) in 2020](https://arxiv.org/abs/2012.05988)
 
@@ -78,7 +78,7 @@
 
    使用生成对抗网络做图像重建（GAN），贝叶斯先验使用目标源的辐射传递模型。
 
-   <img src="image-20201214140333270.png" alt="image-20201214140333270" style="zoom:50%;" />
+   <img src="Figures/image-20201214140333270.png" alt="image-20201214140333270" style="zoom:50%;" />
 
 4.  [Solving Inverse Problems for Spectral Energy Distributions with Deep Generative Networks](https://arxiv.org/abs/2012.06331)
 
@@ -119,7 +119,7 @@
 
    在线匿名调查天体物理学界的人对当前学界研究的障碍和未来的期望。四个方面：open science practices, data access and management, data visualization and multiwavelength astronomy, and data analysis and machine learning。该调查通过电子邮件向主要来自西班牙、意大利、葡萄牙、希腊、法国、德国和英国的多个研究和学术机构分发，同时也在一个只包括专业天文学家的Facebook私人小组内分发。
 
-   <img src="image-20201215191506911.png" alt="image-20201215191506911" style="zoom:70%;" />
+   <img src="Figures/image-20201215191506911.png" alt="image-20201215191506911" style="zoom:70%;" />
 
 4. [A single pulse study of PSR J1022+1001](https://arxiv.org/abs/2012.06709)
 
@@ -157,7 +157,7 @@
 
    第一行原始数据，第二行WGAN生成结果，第三行残差。
 
-   <img src="image-20201216131722485.png" alt="image-20201216131722485" style="zoom:50%;" />
+   <img src="Figures/image-20201216131722485.png" alt="image-20201216131722485" style="zoom:50%;" />
 
 4. [Variational Image Feature Extraction for the EHT](https://arxiv.org/abs/2012.07889)
 
@@ -191,7 +191,7 @@
 
    使用StarcNet（一种多尺度卷积神经网络）对图像中星团做分类，准确率有68.6%（四类）/ 86.0%（两类）。
 
-   <img src="image-20201218235029170.png" alt="image-20201218235029170" style="zoom:50%;" />
+   <img src="Figures/image-20201218235029170.png" alt="image-20201218235029170" style="zoom:50%;" />
 
 ## 2020-12-21
 
@@ -203,7 +203,7 @@
 
    定制的交互式VR工具（称为IDAVIE套件）的开发和结果，这些工具是由星系演化、宇宙网大尺度结构、星系与星系之间的相互作用以及附近星系的气体/运动学的调查和定向观测研究所提供的信息和驱动的。以实现在虚拟现实中查看数据。
 
-   <img src="image-20201221235111942.png" alt="image-20201221235111942" style="zoom:80%;" />
+   <img src="Figures/image-20201221235111942.png" alt="image-20201221235111942" style="zoom:80%;" />
 
 3. [Interactive Cosmology Visualization Using the Hubble UltraDeep Field Data in the Classroom](https://arxiv.org/abs/2012.09994)
 
@@ -219,7 +219,7 @@
 
    马化腾冠名，清华-马化腾巡天望远镜。
 
-   <div align=center><img src="image-20201222140458292.png" alt="image-20201222140458292" style="zoom:23%;" /><img src="image-20201222140519341.png" alt="image-20201222140519341" style="zoom:35%;" /></div>
+   <div align=center><img src="Figures/image-20201222140458292.png" alt="image-20201222140458292" style="zoom:23%;" /><img src="Figures/image-20201222140519341.png" alt="image-20201222140519341" style="zoom:35%;" /></div>
 
 2. [ESCAPE -- addressing Open Science challenges](https://arxiv.org/abs/2012.11534)
 
@@ -233,17 +233,17 @@
 
    使用恒星Av、Parallax、G、Bp、Rp、J、H、K的输入数据，使用卷积神经网络，输出YSO的年龄预测。使用Isochrone给定的恒星年龄来训练。有训练出来的Orion Complex年龄。
 
-   <div align=center><img src="image-20201222142557017.png" alt="image-20201222142557017" style="zoom:50%;" /><img src="image-20201222142604455.png" alt="image-20201222142604455" style="zoom:50%;" /></div>
+   <div align=center><img src="Figures/image-20201222142557017.png" alt="image-20201222142557017" style="zoom:50%;" /><img src="Figures/image-20201222142604455.png" alt="image-20201222142604455" style="zoom:50%;" /></div>
 
    下面这个图有点意思。说是看到了Local Bubble，左图中间的图。
 
-   <div align=center><img src="image-20201222142727482.png" alt="image-20201222142727482" style="zoom:50%;" /><img src="image-20201222142855584.png" alt="image-20201222142855584" style="zoom:50%;" /></div>
+   <div align=center><img src="Figures/image-20201222142727482.png" alt="image-20201222142727482" style="zoom:50%;" /><img src="Figures/image-20201222142855584.png" alt="image-20201222142855584" style="zoom:50%;" /></div>
 
 5. [Photometric and spectroscopic analysis of Comet 29P/Schwassmann-Wachmann 1 activity](https://arxiv.org/abs/2012.10705)
 
    用6-m BTA telescope (SAO RAS, Russia)和1.6-m telescope of the National Laboratory for Astro-physics (LNA, Brazil)在February 20, 2012, and on May 31, 2011观测了29P。发现了CO+和N2+的释放。以及使用图像增强技术研究彗星形态，发现了两个喷流。
 
-   <div align=center><img src="image-20201222143839022.png" alt="image-20201222143839022" style="zoom:50%;" /><img src="image-20201222143921441.png" alt="image-20201222143921441" style="zoom:25%;" /></div>
+   <div align=center><img src="Figures/image-20201222143839022.png" alt="image-20201222143839022" style="zoom:50%;" /><img src="Figures/image-20201222143921441.png" alt="image-20201222143921441" style="zoom:25%;" /></div>
 
 ## 2020-12-23
 
@@ -325,4 +325,4 @@
 
    结果就是把它降维到一维上，看光度之类随广义半径的变化。
 
-   <img src="image-20201229223852117.png" alt="image-20201229223852117" style="zoom:33%;" />
+   <img src="Figures/image-20201229223852117.png" alt="image-20201229223852117" style="zoom:33%;" />
