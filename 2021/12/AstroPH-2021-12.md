@@ -94,3 +94,37 @@
 
 ## 2021-12-10
 
+1. [A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team](https://arxiv.org/abs/2112.04510)
+
+   使用`HST`测量了$z<0.01$的所有合适的`SNe Ia Cepheids`造父变星样本，计算出的哈勃常数为$H_0=73.04\pm1.04\ \rm km/s/Mpc$，和Planck微波背景辐射的测量的偏差接近$5\sigma$。也即局域宇宙的哈勃常数要大于宇宙学途径测量的哈勃常数，造成这一差异的原因尚未可知。
+
+   <img src="Figures/image-20211210182359556.png" alt="image-20211210182359556" style="zoom:50%;" />
+
+2. [The design and implementation of GECAM satellite payload performance monitoring software](https://arxiv.org/abs/2112.04775)
+
+   `The Gravitational wave high-energy Electromagnetic Counterpart All-sky Monitor (GECAM)`是引力波高能电磁对应体全天监测器，今天arXiv贴了一堆关于这个卫星的文章，高能所的卫星，也叫做“怀柔一号”。这个卫星主要是为了发现对应引力波的`伽马射线暴`。
+
+3. [Evidence for a Compact Object in the Aftermath of the Extra-Galactic Transient AT2018cow](https://arxiv.org/abs/2112.04531)
+
+   `The brightest Fast Blue Optical Transients (FBOTs)`，是一类新的天体物理现象，来自银河系外，尚未可知其起源。它们在不到一周的时间内达到最大光度，并在几个月内光度下降，大质量恒星塌缩无法解释，因为大质量恒星是由`镍-56`驱动的，演化更慢。
+
+   文章描述了一个`FBOTs`源的软X射线辐射存在准周期振荡的证据，频率为$224Hz$，也即$4.4ms$，显著性$3.7\sigma$，在60天内持续了10亿个周期。高频的QPOs证明`AT2018cow`是一个致密天体，可能是小于$850M_\odot$的中子星或者黑洞。
+
+   <img src="Figures/image-20211210184733940.png" alt="image-20211210184733940" style="zoom:50%;" />
+
+    Power Density Spectrum，功率谱是傅里叶变换得到的。记光子到达的时间序列为$x(t)$，定义均值和自相关函数为时间平均值：
+   $$
+   \mu_x=\lim_{T\rightarrow\infty}\frac1{2T}\int_{-T}^{T}x(t)dt\\
+   \phi_{xx}(\tau)=\lim_{T\rightarrow\infty}\frac1{2T}\int_{-T}^{T}x(t)x(t+\tau)dt
+   $$
+   由于自相关函数$\phi_{xx}(\tau)=\phi_{xx}(-\tau)$，则PDS可以写为：
+   $$
+   P_{xx}(f)=2\int_0^\infty\phi_{xx}(\tau)\cos(2\pi f\tau)d\tau=\lim_{T\rightarrow\infty}\frac{|X(f)|^2}{2T}\\
+   X(f)=\lim_{T\rightarrow\infty}\int_{-T}^Tx(t)e^{-i2\pi ft}dt
+   $$
+   
+
+   详细内容可见[X-Ray Power Density Spectra of Black Hole Binaries: A New Deadtime Model for the RXTE PCA](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.424.1542&rep=rep1&type=pdf)。
+
+## 2021-12-13
+
