@@ -128,3 +128,9 @@
 
 ## 2021-12-13
 
+1. [Lecture notes on inflation and primordial black holes](https://arxiv.org/abs/2112.05716)
+
+   关于`single-field inflation`和`原初黑洞`的讲义，课程在[这里](https://agenda.infn.it/event/24368/)。`原初黑洞`是由`single-field inflation with ultra-slow-roll`结束时留下的密度涨落产生的。
+
+## 2021-12-14
+
