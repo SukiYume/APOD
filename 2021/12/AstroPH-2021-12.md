@@ -134,3 +134,9 @@
 
 ## 2021-12-14
 
+1. [Synchronous Satellites of Venus](https://arxiv.org/abs/2112.06313)
+
+   长期以来，人们认为金星的同步卫星是不稳定的。文章使用`Poincare's surface of section`技术表明，在金星的`Hill sphere`外运行的同步卫星在几个世纪里是相当稳定的。
+
+## 2021-12-15
+
