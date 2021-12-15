@@ -140,3 +140,11 @@
 
 ## 2021-12-15
 
+1. [The Fast Radio Burst-emitting magnetar SGR 1935+2154 -- proper motion and variability from long-term Hubble Space Telescope monitoring](https://arxiv.org/abs/2112.07023)
+
+   使用HST从2021年6月开始对`SGR 1935+2154`做观测，亮度与之前相比亮了$1.5-2.5$倍，在分钟到小时的时间尺度上没有检测到`近红外波段`的明显变化，同时X射线波段表示这个源处于宁静状态。测量的到的自行速度为$3.1\pm1.5 {\rm mas/yr}$，自行方向表明其起源非常接近`SNR G57.2+08`的几何中心。
+
+   若采用其距离为$6.6\pm0.7{\rm kpc}$，则切向速度为$97\pm48{\rm km/s}$，则这一速度是磁星中`启动速度`最低的。另外一点，在整理现有的少数磁星启动速度时，发现其分布与普通脉冲星启动速度分布完全一致。
+
+## 2021-12-16
+

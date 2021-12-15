@@ -194,7 +194,7 @@
 
 ## 2021-08-13
 
-1. [Habitability Models for Astrobiology](hhttps://arxiv.org/abs/2108.05417)
+1. [Habitability Models for Astrobiology](https://arxiv.org/abs/2108.05417)
 
     天体生物学家一直在提出不同的宜居性模型，但是没有一致性。宜居性模型不仅用于确定环境是否宜居，还可以用于描述哪些因素导致宜居性从低到高的过度。文章回顾了生态学家和天体生物学家使用的一些不同的模型，并建议如何将这些模型纳入新的宜居性标准。
 

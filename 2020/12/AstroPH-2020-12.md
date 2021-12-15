@@ -1,7 +1,3 @@
-# Astro-PH of the Day (APOD)
-
-<p align=right>Yongkun Zhang</p>
-
 ## 2020-12-09
 
 1. [Ground Experiments and Performance Evaluation of the Low-Frequency Radio Spectrometer Onboard the Lander of Chang'e-4 Mission](https://arxiv.org/abs/2012.04347)

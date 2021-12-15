@@ -182,7 +182,7 @@
 
 ## 2021-11-15
 
-1. [First Space-VLBI Observations of Sagittarius A*](https://arxiv.org/abs/2111.06423#)
+1. [First Space-VLBI Observations of Sagittarius A*](https://arxiv.org/abs/2111.06423)
 
    对银河系中心超大质量黑洞的首次`地球-空间`的VLBI观测结果。使用了`RadioAstron`项目的空间望远镜`Spektr-R`和地面上20个望远镜组成的网络，在`1.35cm波长`处进行观测。基线长度达到了地球直径的3.9倍，对应的角分辨率是55mas，源处空间分辨率是$5.5\ {\rm RSch=2GM/c^2}$。
 
