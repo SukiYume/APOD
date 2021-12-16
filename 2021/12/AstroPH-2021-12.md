@@ -148,3 +148,15 @@
 
 ## 2021-12-16
 
+1. [Multi-wavelength quasi-periodic pulsations in a stellar superflare](https://arxiv.org/abs/2112.07734)
+
+   `KIC 8093473`是一颗`M3V`类型的恒星，在对其`White Light`和`Soft X-ray`的观测中，探测到了一个超级耀斑，比已知的太阳耀斑强1000倍。并在`WL`和`SXR`波段分别发现了3小时和1.5小时的QPP，这是第一次在热辐射和非热辐射中同时分析恒星耀斑中的振荡过程，传统上认为这些振荡过程分别来自恒星的色球层和日冕。
+
+   太阳耀斑按照`软X射线`分类，一次X级耀斑的亮度是$10^{-4}{\rm W/m^2}$，按各向同性假设，推算到太阳上亮度为$2.8\times10^{26}{\rm erg/s}$，亮1000倍即$2.8\times10^{29}{\rm erg/s}$，太阳黑体辐射的亮度为$3.8\times10^{33}{\rm erg/s}$。一个$10^{40}{\rm erg}$的快速射电暴相当于太阳一个月内释放的能量。地球所有水总质量（包括所有相存储在任何地方的水）为$1.4\times10^{21}\rm kg$，海水总质量为$1.35\times10^{21}{\rm kg}$，太阳1s释放的能量足够把海水烧开9次（比热容4000，室温20度），一个快速射电暴可以把海水烧开`两千三百万`次。
+
+2. [Principles of Gravitational-Wave Detection with Pulsar Timing Arrays](https://arxiv.org/abs/2112.08064)
+
+   总结了脉冲星计时阵探测引力波的基础知识，以及最近主要脉冲星计时阵的结果。
+
+## 2021-12-17
+
