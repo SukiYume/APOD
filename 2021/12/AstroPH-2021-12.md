@@ -160,3 +160,11 @@
 
 ## 2021-12-17
 
+1. [Revealing the Field Sub-subgiant Population Using a Catalog of Active Giant Stars and Gaia EDR3](https://arxiv.org/abs/2112.09100)
+
+   `Sub-subgiant stars, SSG`，亚次巨星是赫罗图中位于亚巨星/巨星支下方，即相比于正常的巨星又红又暗。这个区域并没有被标准的恒星演化轨迹填充。这样的恒星存在的一种假设是，由于近距离双星中`tidal synchronization`，潮汐锁定导致亚巨星/巨星快速旋转，产生的强磁场抑制了对流，产生了大的星斑，半径膨胀，使平均表面温度和光度降低。
+
+   将巨双星`RS CVns`目录与Gaia EDR3交叉匹配，筛选出在`14Gyr`、`金属丰度高`的等龄线下方的恒星作为SSG候选，共有448颗，其中大部分周期很短，与已知的SSG旋转周期2-20天相符。说明SSG只是`RS CVns`系统演化过程中的一个正常阶段。
+
+## 2021-12-20
+

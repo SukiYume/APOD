@@ -276,7 +276,7 @@
 
 2. [A fast radio burst source at a complex magnetised site in a barred galaxy](https://arxiv.org/abs/2111.11764)
 
-   北大的FRB20201124A的文章，我是合作者之一。
+   北大的FRB20201124A的文章，与我有关。
 
 ## 2021-11-25
 
