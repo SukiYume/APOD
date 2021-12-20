@@ -168,3 +168,9 @@
 
 ## 2021-12-20
 
+1. [Future radioisotope measurements to clarify the origin of deep-ocean 244Pu](https://arxiv.org/abs/2112.09607)
+
+   在地球深海沉积物中发现了$^{244}Pu$，`spanning`过去$10 {\rm Myr}$，这期间附近有超新星的两个$^{60}Fe$的脉冲。$^{244}Pu$是`r-process`过程的产物之一，但不知其是在超新星中产生的，还是更早期的千新星中产生的。可以通过测量其它`r-process`产生的放射性同位素，如深海或者月岩中的$^{129}I$和$^{182}Hf$。
+
+## 2021-12-21
+
