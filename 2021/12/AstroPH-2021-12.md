@@ -174,3 +174,41 @@
 
 ## 2021-12-21
 
+1. [Sudden discharge of young charged magnetars as a new model for FRBs](https://arxiv.org/abs/2112.09782)
+
+   快速射电暴模型，带电的年轻磁星突然放电，由断裂产生的强电场和磁重联加速粒子产生曲率辐射。在总电荷量为$\sim10^{20}C$时，放电和发射的时间尺度是几毫秒，相干脉冲的总发射功率为$P_{tot}\sim10^{42-43}\ \rm erg/s$，频率范围也与观测一致。但无法解释事件率等其它一系列内容。
+
+2. [Luminosity functions consistent with a pulsar-dominated Galactic Center Excess](https://arxiv.org/abs/2112.09699)
+
+   银河系中心区域有`GeV`量级的伽马射线过剩可能是新的毫秒脉冲星群导致的。将这个星群的`几种光度函数`与过剩的通量进行比较，解释这一现象需要的脉冲星总数在$O(10,000-100,000)$之间。
+
+## 2021-12-22
+
+1. [The initial mass function of stars and the star-formation rates of galaxies](https://arxiv.org/abs/2112.10788)
+
+   是《星系的恒星形成率》一书的第二章，`ISBN 9781107184169`。星系的恒星形成率是星系演化的一个重要制约因素，SFR的探针受到恒星质量分布`IMF`的影响。大质量恒星主导星系光度，低质量恒星主导恒星数量，会导致星系气体增加率和气体消耗时间尺度的错误。
+
+   在这一章中，讨论`IMF`和`gwIMF`的基本属性，以及由测量和理论表明`IMF`的系统变化，以及对星系的SFR的影响。
+
+2. [FETCH: A deep-learning based classifier for fast transient classification](https://arxiv.org/abs/1902.06343)
+
+   去年的一个用来做FRB数据分类的网络，简单的CNN，只能做候选体的分类，输入是`时间-频率`和`时间-色散`的数据。
+
+   这是一个所谓的[The Petabyte FRB Search Project](https://github.com/thepetabyteproject)的一部分，其中有一个项目用来做[FBR单脉冲拟合](https://github.com/thepetabyteproject/burstfit)的，有多个参数，包括`中心频率`、`频率带宽`、`到达时间`、`DM`、`峰值流量`、`散射时标`、`宽度`。似然函数是
+   $$
+   \begin{aligned}
+   \mathcal F(f,t | S,\mu_f,\sigma_f,\mu_{DM},\sigma_t,\tau_{sc})&=S\times2.355\sigma_f\times\mathcal{P}_f(t|\mu_{DM},\sigma_t,\tau_{sc})\times\mathcal{G}(f|\mu_f,\sigma_f)\\
+   
+   \mathcal{G}(f|\mu_f,\sigma_f)&=\frac{1}{\sigma_f\sqrt{2\pi}}\exp\left(-\frac12\frac{(x-\mu_f)^2}{\sigma_f^2}\right)\\
+   
+   \mathcal{P}_f(t|\mu_{DM},\sigma_t,\tau_{sc})&=\frac{1}{2\tau_{sc}}\left\{1+\erf\left[\frac{t-(\mu_{DM}+\sigma_t^2/\tau_{sc})}{\sigma_t\sqrt2}\right]\right\}\\
+   &\quad\ \times\exp\left(\frac{\sigma_t^2}{2\tau_{sc}^2}\right)\times\exp\left(\frac{t-\mu_{DM}}{\tau_{sc}}\right)\\
+   
+   \mu_{DM}&=\mu_t-4.148808\times10^3{\rm DM}\left(\frac1{f^2}-\frac1{f_{top}^2}\right)\\
+   
+   \tau_{sc}(f)&=\tau_{sc}\left(\frac f{f_{ref}}\right)^{-4}
+   \end{aligned}
+   $$
+
+## 2021-12-23
+
