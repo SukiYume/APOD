@@ -212,3 +212,42 @@
 
 ## 2021-12-23
 
+1. [Analytical Modelling of Exoplanet Transit Specroscopy with Dimensional Analysis and Symbolic Regression](https://arxiv.org/abs/2112.11600)
+
+   使用量纲分析和符号回归分析系外行星的凌星光谱，从中提取系外行星的物理特性和大气化学成分。这个过程中涉及到的物理量与单位如下表
+
+   | 符号     | 物理量                      | SI单位                 |
+   | -------- | --------------------------- | ---------------------- |
+   | $R_0$    | reference raduis            | $m$                    |
+   | $R_S$    | stellar raduis              | $m$                    |
+   | $k_B$    | Boltzmann constant          | $m^2kg\, s^{-2}K^{-1}$ |
+   | $T$      | temperature                 | $K$                    |
+   | $m$      | mean molecular mass         | $kg$                   |
+   | $g$      | surface gravity             | $m\,s^{-2}$            |
+   | $P_0$    | reference pressure at R0    | $m^{-1}kg\, s^{-2}$    |
+   | $\kappa$ | cross-section per unit mass | $m^2kg^{-1}$           |
+
+   $\pi$定理告诉我们，上述这些量可以组成4个无量纲的量
+   $$
+   \pi_1=\frac{R_0R_Sm^2P_0^2\kappa^2}{k_B^2T^2}\quad \pi_2=\frac{P_0\kappa}{g}\quad\pi_3=\frac{R_0}{R_S}\quad\pi_4=\frac{R_0R_S}{m\kappa}
+   $$
+   由于
+   $$
+   \pi_1=\left(\frac{R_0mg}{k_BT}\right)^2\frac{\pi_2^2}{\pi_3}\qquad \pi_4=\frac{R_0^2}{m\kappa}\frac1{\pi_3}
+   $$
+   因此可以将$\pi_1$和$\pi_4$两个无量纲量化简到
+   $$
+   \pi_1=\frac{R_0mg}{k_BT}\quad \pi_4=\frac{R_0^2}{m\kappa}
+   $$
+   光谱则应该是
+   $$
+   M(\lambda)\sim\left(\frac{R_0}{R_S}\right)^2\times f^2(\pi_1,\pi_2(\lambda),\pi_3,\pi_4(\lambda))
+   $$
+   之后用符号回归拟合光谱
+   $$
+   f(\pi_1,\pi_2,\pi_3,\pi_4)=\frac{\ln(4.4645\pi_2\sqrt{\pi_1})}{\pi_1}
+   $$
+   可以看到$\pi_3$和$\pi_4$是无关变量，与以前从物理出发推导的结果 Heng & Kitzmann (2017) 一致。
+
+## 2021-12-24
+
