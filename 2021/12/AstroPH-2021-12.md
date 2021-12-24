@@ -251,3 +251,17 @@
 
 ## 2021-12-24
 
+1. [Prediction of Astrometric-Microlensing Events from Gaia eDR3 Proper Motions](https://arxiv.org/abs/2112.12152)
+
+   微引力透镜可以以百分之几的精度确定透镜恒星的质量。从Gaia数据中找到大约500,000颗$\mu_{tot}>100{\rm mas/yr}$的高精度测量恒星，并在其路径中搜索背景恒星，预测透镜和源的未来位置，确定预期的位置移动和放大率。
+
+   比如其中有一颗白矮星`4053455379420641152`，在2025年将经过一颗$G=20.25mag$的恒星，导致$\delta\theta_+=1.2^{+2.0}_{-0.5}{\rm mas}$的图像移动。
+
+   <img src="Figures/image-20211224202036405.png" alt="image-20211224202036405" style="zoom:50%;" />
+
+2. [An Early Transition to Magnetic Supercriticality in Star Formation](https://arxiv.org/abs/2112.12644)
+
+   庆道冲的文章，测量HINSA处的圆偏振，以塞曼效应测量磁场强度，证明L1544的磁场强度已经非常微弱。
+
+## 2021-12-27
+
