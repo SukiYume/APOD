@@ -269,3 +269,11 @@
 
 ## 2021-12-28
 
+1. [One Small Step for an Inflaton, One Giant Leap for Inflation: a novel non-Gaussian tail and primordial black holes](https://arxiv.org/abs/2112.13836)
+
+   Even a tiny step in the inflaton potential can change our perception of primordial non-Gaussianities of the curvature perturbation.
+
+   在`single-field`暴涨中，暴涨子势的微小变化也会使曲率扰动分布的尾部产生高度非高斯的形状，这可以使`原初黑洞`数量大大增加，也可以使其完全消失。
+
+## 2021-12-29
+
