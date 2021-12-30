@@ -281,3 +281,11 @@
 
 ## 2021-12-30
 
+1. [Astronomical Image Colorization and upscaling with Generative Adversarial Networks](https://arxiv.org/abs/2112.13865)
+
+   在训练好的`ResNet-18`的基础上`fine-tune`，对天文图像着色并实现超分辨率。
+
+   <img src="Figures/image-20211230154033468.png" alt="image-20211230154033468" style="zoom:50%;" />
+
+## 2021-12-31
+
