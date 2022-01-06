@@ -16,7 +16,7 @@ rcParams['mathtext.rm'] = 'Arial'
 
 ################# 遍历目录中的md文件 #################
 import os, re
-g = os.walk('C:/Users/torch/Desktop/Astro-PH/')
+g = os.walk('../')
 
 markdown_path = []
 for path, _, file_list in g:
@@ -71,10 +71,19 @@ count_data.loc[:, 'Rate'] = count_data.loc[:, 'Count'] / count_data.loc[:, 'Days
 
 ################# 阅读数统计 #################
 plt.figure(figsize=(7, 3))
+ax = plt.subplot(111)
 plt.step(pd.to_datetime(data.drop_duplicates('date').date), np.cumsum(data.groupby('date').count().month.values),
-        color='royalblue')
+        color='royalblue', zorder=0)
+plt.scatter(pd.to_datetime(data.date.values[-1]), len(data), color='r', zorder=1)
+plt.annotate(text=str(len(data)), xy=(pd.to_datetime(data.date.values[-1]), len(data)), 
+             xytext=(pd.to_datetime(data.date.values[-8]), len(data) / 2), weight='bold', color='r',
+             arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color='r'))
 plt.xlabel('Date')
-plt.ylabel('Count')
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['left'].set_visible(False)
+plt.yticks([])
+plt.ylim(0)
 plt.savefig('ReadCount.png', dpi=300, bbox_inches='tight')
 plt.close()
 
