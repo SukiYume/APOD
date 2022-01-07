@@ -56,3 +56,11 @@
 
 ## 2022-01-07
 
+1. [SORA: Stellar Occultation Reduction and Analysis](https://arxiv.org/abs/2201.01799)
+
+   > Planetary Science, Solar System, Light Curve, Software
+
+   恒星掩星可以用来确定掩星体的尺寸、形状、天体测量等信息。LSST观测预期太阳系内天体数量将增加。[SORA](https://github.com/riogroup/SORA)是用来做掩星数据归算的程序，包括从预测掩星事件以及确定天体大小、形状和位置。
+
+## 2022-01-10
+
