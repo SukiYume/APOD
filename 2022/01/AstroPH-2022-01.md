@@ -64,3 +64,11 @@
 
 ## 2022-01-10
 
+1. [Cosmology with one galaxy?](https://arxiv.org/abs/2201.02202)
+
+   > Extragalactic Galaxy, Cosmology, Machine Learning, XGBoost
+
+   暗物质导致宇宙加速膨胀，确定暗物质的性质是宇宙学最重要的目标之一。使用星系的属性，如恒星质量、气体金属性和恒星形成率等训练神经网络模型，得到宇宙学参数。发现在固定$\Omega_b$的情况下，可以在$10\%$的精度下得到$\Omega_m$的值，而且与星系种类无关。所有用来训练的星系属性中，恒星质量、恒星金属丰度和最大圆周运动是影响$\Omega_m$的最重要的属性。代码和数据位于[这里](https://github.com/franciscovillaescusa/Cosmo1gal)。
+
+## 2022-01-11
+
