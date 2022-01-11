@@ -72,3 +72,17 @@
 
 ## 2022-01-11
 
+1. [The AUTOmated Photometry Of Transients (AutoPhOT) pipeline](https://arxiv.org/abs/2201.02635)
+
+   > Stellar, Light Curve, Software
+
+   [AutoPhOT](https://github.com/Astro-Sean/autophot)基于python的自动测光代码，包含孔径测光、PSF测光、模板减法、人工源注入计算极限星等。
+
+2. [The Absence of Periodicity in Repeating FRB](https://arxiv.org/abs/2201.02910)
+
+   > Fast Radio Burst, Periodicity
+
+   如果快速射电暴有严格周期$P$，如果每个事件的到达时间偏离$\pm 0.6P$以内，在周期图中周期$P$的位置依然有明显的峰值。
+
+## 2022-01-12
+
