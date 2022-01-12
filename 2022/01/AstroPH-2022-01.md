@@ -86,3 +86,25 @@
 
 ## 2022-01-12
 
+1. [Energy functions of fast radio bursts derived from the first CHIME/FRB catalogue](https://arxiv.org/abs/2201.03574)
+
+   > Fast Radio Burst, Energy Function, CHIME, Redshift
+
+   快速射电暴能量函数的红移演化，即FRB的数密度与能量的关系，暗示FRB的起源。从CHIME的样本中得到非重复暴的能量函数在$z<1$处表现出`Schechter `函数的形式。并且能量函数和数密度向高红移处下降，与宇宙`恒星质量密度演化`相似，而与`恒星形成率`不同。
+
+   表明非重复暴可能是由老的星族组成，如中子星和黑洞等。
+
+2. [Is FRB 191001 embedded in a supernova remnant?](https://arxiv.org/abs/2201.03723)
+
+   > Fast Radio Burst, Host Galaxy, Supernova Remnant
+
+   `FRB191001`位于一个恒星形成星系的旋臂处，宿主星系的$DM\approx200\ \rm pc\ cm^{-3}$。分析发现其在旋臂中的位置与超新星在旋臂中的分布一致。以SN贡献的DM来看，`core-collapse`要比`thermonuclear runaway`更合适。但是观测到的RM并不能证实射电暴是穿过超新星遗迹的。
+
+3. [A comprehensive photometric and kinematical characteristic of the newly discovered QCs clusters with Gaia EDR3](https://arxiv.org/abs/2201.04015)
+
+   > Stellar, Gaia, Cluster, Kinematics
+
+   [ASteCA](https://github.com/asteca/ASteCA)是用来做星团分析的代码，可以用来确定成员概率、金属性、年龄、距离、总质量、双星比例等。Gaia EDR3在天体测量性能的提高以及新发现的四个疏散星团，使用`ASteCA`进行分析。
+
+## 2022-01-13
+
