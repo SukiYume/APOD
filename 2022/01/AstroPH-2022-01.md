@@ -131,3 +131,11 @@
 
 ## 2022-01-14
 
+1. [The Rate, Amplitude and Duration of Outbursts from Class 0 Protostars in Orion](https://arxiv.org/abs/2201.04647)
+
+   > Stellar, Star Formation, Infrared
+
+   原恒星至少有一半的质量是在`Class 0`截断吸积的。使用$04-17$年`Spizer/IRAC`的红外光度测量，在Orion中看到3个原恒星的`Outbursts`，星等变化$>2\ \rm mag$。探测到的数量给出原恒星爆发的事件率约$438^{+1446}_{-277}$年一次。这样的爆发是由快速的质量下降引起原恒星盘中不稳定波动。
+
+## 2022-01-17
+
