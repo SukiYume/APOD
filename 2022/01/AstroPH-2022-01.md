@@ -139,3 +139,11 @@
 
 ## 2022-01-17
 
+1. [Spectral Power-law Formation by Sequential Particle Acceleration in Multiple Flare Magnetic Islands](https://arxiv.org/abs/2201.05564)
+
+   > High Energy, Magnetic Field, Theory, Flare
+
+   `Magnetic islands`由耀斑电流片上零星的磁重联产生，它收缩并加速粒子。在这项工作中，假设部分粒子依次跳到另一个加速器上，并提高能量与各向异性。这样的顺序过程产生的粒子光谱是幂律的，并且有高能和低能的截断。
+
+## 2022-01-18
+
