@@ -135,7 +135,7 @@
 
    > Stellar, Star Formation, Infrared
 
-   原恒星至少有一半的质量是在`Class 0`截断吸积的。使用$04-17$年`Spizer/IRAC`的红外光度测量，在Orion中看到3个原恒星的`Outbursts`，星等变化$>2\ \rm mag$。探测到的数量给出原恒星爆发的事件率约$438^{+1446}_{-277}$年一次。这样的爆发是由快速的质量下降引起原恒星盘中不稳定波动。
+   原恒星至少有一半的质量是在`Class 0`阶段吸积的。使用$04-17$年`Spizer/IRAC`的红外光度测量，在Orion中看到3个原恒星的`Outbursts`，星等变化$>2\ \rm mag$。探测到的数量给出原恒星爆发的事件率约$438^{+1446}_{-277}$年一次。这样的爆发是由快速的质量下降引起原恒星盘中不稳定波动。
 
 ## 2022-01-17
 
@@ -146,4 +146,32 @@
    `Magnetic islands`由耀斑电流片上零星的磁重联产生，它收缩并加速粒子。在这项工作中，假设部分粒子依次跳到另一个加速器上，并提高能量与各向异性。这样的顺序过程产生的粒子光谱是幂律的，并且有高能和低能的截断。
 
 ## 2022-01-18
+
+马丁路德金纪念日停更
+
+## 2022-01-19
+
+1. [The Magnetic Field versus Density relation in Star-Forming Molecular Clouds](https://arxiv.org/abs/2201.05620)
+
+   > Molecular Cloud, Star Formation, Magnetic Field, Simulation
+
+   使用三位磁流体力学模拟分子云中磁场与密度$B-\rho$的关系，表明低密度和高密度区域是不同的幂律。转折点密度$\rho_T$，与初始阿尔芬马赫数$\mathcal M_{A0}$成正比，意味着其实有分子云的`initial turbulent compression`设定。
+
+   <img src="Figures/image-20220119161022982.png" alt="image-20220119161022982" style="zoom:50%;" />
+
+2. [Physical Publicly Verifiable Randomness from Pulsars](https://arxiv.org/abs/2201.05763)
+
+   > High Energy, Pulsar, Random Number
+
+   使用明亮的毫秒脉冲星的`flux density`作为随机数生成器。
+
+   <img src="Figures/image-20220119161908873.png" alt="image-20220119161908873" style="zoom:50%;" />
+
+3. [Why hot Jupiters can be large but not too large](https://arxiv.org/abs/2201.07008)
+
+   > Planetary Science, Hot Jupiter, Theory
+
+   很大一部分热木星的半径超过1.2个木星半径，这无法用行星演化的标准理论解释，通常认为是潮汐加热导致的。当潮汐加热很强的时候，光度随膨胀增大，到达最大值后减小，此时加热强于冷却，辐射对流边界附近的不透明度近似于$T^4$，热量很难辐射出去，发生失控的膨胀。在这种情况下，热木星的半径不能超过$2.2R_J$，这与观测一致。
+
+## 2022-01-20
 
