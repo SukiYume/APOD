@@ -175,3 +175,11 @@
 
 ## 2022-01-20
 
+1. [A fast radio burst progenitor born in a galaxy merger](https://arxiv.org/abs/2201.07271)
+
+   > Fast Radio Burst, Galaxy Merger, Star Formation, HI
+
+   测量到FRB180916的HI质量大，但分布紊乱，是一个富含气体但宁静的星系，可能最近经历了小合并，增加了HI的质量，扰乱了HI的分布，压缩了FRB附近的HI增加密度，产生FRB的原生体。
+
+## 2022-01-21
+
