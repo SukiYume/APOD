@@ -183,3 +183,21 @@
 
 ## 2022-01-21
 
+1. [First Solar Radio Burst Observations by the Mexican Array Radio Telescope (MEXART) at 140 MHz](https://arxiv.org/abs/2201.07828)
+
+   > Solar System, Flare, Radio
+
+   墨西哥国家空间天气实验室`LANCE`负责协调监测墨西哥上空空间天气影响的一起，其中一个仪器是墨西哥阵列射电望远镜`MEXART`，中心频率是$139.65MHz$，带宽$1.5MHz$。2015年9月至2019年5月期间，在`MEXART`的信号中识别了75个太阳射电暴，其中有5个II型事件和70个III型事件。
+
+   <img src="Figures/image-20220121215529740.png" alt="image-20220121215529740" style="zoom:50%;" />
+
+2. [An Overview of CHIME, the Canadian Hydrogen Intensity Mapping Experiment](https://arxiv.org/abs/2201.07869)
+
+   > Cosmology, CHIME, HI, Radio
+
+   加拿大氢气强度测绘实验`CHIME`是一个在$400-800MHz$运行的漂移扫描射电望远镜，旨在绘制0.8至2.5红移范围内的中性氢，以约束宇宙的膨胀历史。CHIME由4个平行的圆柱反射面组成，南北方向，每个都是$100\times20m$。这使得CHIME视场是沿子午线的$2^\circ$宽的条纹，由于地球自转，每天都能观测到$3/4$的天空。加上FPGA+GPU对信号进行数字化和相关处理，为`宇宙学`、`快速射电暴`、`脉冲星`、`VLBI`和`21cm吸收`生成不同的数据产品。下图是由CHIME数据得到的天空地图。
+
+   <img src="Figures/image-20220121220852233.png" alt="image-20220121220852233" style="zoom:50%;" />
+
+## 2022-01-24
+
