@@ -201,3 +201,15 @@
 
 ## 2022-01-24
 
+1. [Structural properties and classification of variable stars: A study through unsupervised machine learning techniques](https://arxiv.org/abs/2201.08755)
+
+   > Stellar, Variable, Light Curve, Machine Learning, Classification
+
+   光学引力透镜实验[OGLE](https://ogle.astrouw.edu.pl/)有庞大的变星数据库，使用PCA和ICA对光变曲线进行分析，并使用K-means对独立成分进行分类，发现其是一个非常强大的分类工具。下图是`PCA`和`ICA`的一个成分作为周期的函数，颜色是K-means对独立成分分类的结果。
+
+   <img src="Figures/image-20220124165309372.png" alt="image-20220124165309372" style="zoom:50%;" />
+
+   `PCA`的目的是找到一组向量表示，使重构误差最小，向量是正交的。`ICA`是找到一组向量表示，使每个分量最大化独立。`PCA`一般用来做`ICA`数据标准化的预处理步骤。
+
+## 2022-01-25
+
