@@ -213,3 +213,13 @@
 
 ## 2022-01-25
 
+1. [A Comprehensive Study of the Spectral Variation and the Brightness Profile of Young Pulsar Wind Nebulae](https://arxiv.org/abs/2201.09403)
+
+   > High Energy, Pulsar, Nebulae
+
+   研究年轻脉冲星风星云`PWNe`的粒子扩散传输，用包含光子指数$\Gamma$和表面亮度$\Sigma$的径向截面的纯扩散模型拟合星云截面，这一模型曾在`Crab`、`3C58`和`G21.5-0.9`上测试过。除了扩散引起的光谱软化，还计算了同步辐射功率，并建立了表面亮度曲线。大多数的`PWNe`的两个截面都很相似，模型可以很好的描述这两个截面，**表明在`PWNe`中，扩散主导了粒子传输**。另外，扩散参数与脉冲星物理参数之间没有明显的相关性。
+
+   <img src="image-20220125192022528.png" alt="image-20220125192022528" style="zoom:50%;" />
+
+## 2022-01-26
+
