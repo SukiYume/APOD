@@ -2,7 +2,7 @@
 
 # Astro-PH of the Day (APOD)
 
-_✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new) ✨_  
+_✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since December 9, 2020. ✨_  
 
 </div>
 

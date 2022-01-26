@@ -2,7 +2,7 @@
 
 1. [Has the impact flux of small and large asteroids varied through time on Mars, the Earth and the Moon?](https://arxiv.org/abs/2112.15274)
 
-   > Planetary Science, Solar System, Moon, Mars, Asteroid
+   > Planetary Science, Solar System, Lunar, Mars, Asteroid
 
    通常认为太阳系在过去30亿年间小行星的撞击流量是恒定的。地月系统在过去20亿年间出现撞击的峰值，可能与主带小行星碎裂相关。通过研究火星上大于20公里的521个撞击坑的大小和频率分布，表明小型（>5m）和大型（>1km）小行星的流量是耦合的`coupled`，在过去6亿年间没有发生变化。地球上在奥陶纪时期（4.7亿年）形成的大量撞击坑可能是保存偏差，月球上撞击的峰值可能是定年的不确定性导致的。
 
@@ -219,7 +219,29 @@
 
    研究年轻脉冲星风星云`PWNe`的粒子扩散传输，用包含光子指数$\Gamma$和表面亮度$\Sigma$的径向截面的纯扩散模型拟合星云截面，这一模型曾在`Crab`、`3C58`和`G21.5-0.9`上测试过。除了扩散引起的光谱软化，还计算了同步辐射功率，并建立了表面亮度曲线。大多数的`PWNe`的两个截面都很相似，模型可以很好的描述这两个截面，**表明在`PWNe`中，扩散主导了粒子传输**。另外，扩散参数与脉冲星物理参数之间没有明显的相关性。
 
-   <img src="image-20220125192022528.png" alt="image-20220125192022528" style="zoom:50%;" />
+   <img src="Figures/image-20220125192022528.png" alt="image-20220125192022528" style="zoom:50%;" />
 
 ## 2022-01-26
+
+1. [The DRAKE mission: finding the frequency of life in the Cosmos](https://arxiv.org/abs/2201.10226)
+
+   > Astrobiology, Planetary Science, Drake Equation
+
+   `DRAKE`等式描述有生命的世界的发生率，$R_*$恒星形成率，$f_p$恒星系统存在行星的比例，$\eta$恒星系统宜居带行星的数量，$f_L$行星出现生命的比例，$f_i$有生命的世界发展出智能的比例，$f_L$智能发展出通信的比例，$L$文明存在的时标，：
+   $$
+   N=R_*\times f_p\times \eta\times f_L\times f_i\times f_c\times L
+   $$
+   通过对M型恒星宜居带的行星进行凌星光谱的调查，研究$f_L$的不确定度是如何随样本变化的。结果表明，$f_L$的不确定度是$f_L$的观测值的函数，并且抽样误差要远大于观测误差。如果样本$f_L=0$，则50颗行星的调查可以限制$f_L\le0.06$，如果样本$f_L=0.1$，则可以限制到$0.03-0.2$。
+
+2. [Solar Radio-Frequency Reflectivity and Localization of FRB from Solar Reflection](https://arxiv.org/abs/2201.10078)
+
+   > Fast Radio Burst, Solar, Lunar, Localization
+
+   快速射电暴的辐射可以被月球和太阳反射。如果探测到之一的反射，信号和反射信号之间的时间间隔会将FRB定位在天空中狭窄的弧线上；如果探测到二者的反射，两条弧线会相交，可以将FRB严格定位。像`FRB 200428`这样的银河系内FRB足够亮，$25m$的射电望远镜可以探测到月球和太阳的反射。
+
+   这里计算了太阳在`flat sun`的近似下的反射率，FRB在掠入射的情况下，反射率在$\le200\ \rm MHz$下很高，高频反射率低；而在正入射的情况下，反射率只在$\le100\ \rm MHz$下很高。
+
+   <img src="Figures/image-20220126225232898.png" alt="image-20220126225232898" style="zoom:50%;" />
+
+## 2022-01-27
 
