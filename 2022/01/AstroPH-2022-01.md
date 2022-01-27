@@ -245,3 +245,21 @@
 
 ## 2022-01-27
 
+1. [Don't Forget To Look Up](https://arxiv.org/abs/2201.10663)
+
+   > Planetary Science, Comet, Planetary Defense
+
+   一颗直径为10公里的彗星，以$40\ \rm km/s$的接近速度撞击地球，冲击能量大约为`300 Teratons`也即$3\times10^{17}\ \rm kg$ 的TNT，大致与恐龙灭绝事件的能量相似，或许比目前世界上核武器库总和大4万倍。这样的事件将是对人类生存的威胁。如果提前6个月发现这样的事件，使用`an array of penetrators with small nuclear explosive devices`，并用高载重的发射器类似`NASA SLS`或者`SpaceX Starship`，可以缓解这样的事件。
+   
+2. [The 1.28 GHz MeerKAT Galactic Center Mosaic](https://arxiv.org/abs/2201.10541)
+
+   > Milky Way, Galactic center, Radio Interferometry
+
+   银河系中心$200\ \rm pc$的区域包含一个$4\times10^6M_\odot$的超大质量黑洞，大量的分子气体，以及比银盘高两个数量级的恒星形成和宇宙线能量密度。在只距离$8.2\ \rm kpc$的情况下，这一区域可以研究各种高能天体物理现象，从`极端环境中的恒星`，到超大质量黑洞和恒星形成驱动的`反馈过程`。使用`MeerKAT`对银心进行了144小时的观测，覆盖$6.5\ \rm deg^2$，分辨率$4''$，中心频率$1.28\ \rm GHz$。
+
+   <img src="Figures/01_MeerKAT_GC_Galactic_Centre_dual_colour_highres.jpg" alt="01_MeerKAT_GC_Galactic_Centre_dual_colour_highres" style="zoom:50%;" />
+
+   在这里发现了许多新的特征，包括超新星遗迹、非热射电纤维`Non-thermal Radio Filaments`、增强的`Radio Arc Bubble / Sgr A / Sgr B`，这个项目是[SARAO](https://www.sarao.ac.za/media-releases/new-meerkat-radio-image-reveals-complex-heart-of-the-milky-way/)的存档数据研究，数据获取于2018年。
+
+## 2022-01-28
+
