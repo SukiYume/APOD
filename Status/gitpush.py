@@ -19,4 +19,4 @@ def git_push():
     return out
 
 if __name__ == '__main__':
-    git_push()
+    print(git_push())
