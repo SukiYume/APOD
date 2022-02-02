@@ -20,8 +20,8 @@
 
 ## 2022-02-02
 
-1. [The Cosmological Constant as Event Horizon](https://arxiv.org/abs/2202.00641)
+1. [An Isolated Stellar-Mass Black Hole Detected Through Astrometric Microlensing](https://arxiv.org/abs/2201.13296)
 
-   > Cosmology, Dark Energy, General Relativity, Black Hole
+   > Stellar, Black Hole, Microlensing
 
-   广义相对论允许宇宙学常数$\Lambda$的存在，这创造了宇宙膨胀和暗能量的模型。
+   <img src="Figures/image-20220202191324254.png" alt="image-20220202191324254" style="zoom:50%;" />
