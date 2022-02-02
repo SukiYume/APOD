@@ -20,3 +20,8 @@
 
 ## 2022-02-02
 
+1. [The Cosmological Constant as Event Horizon](https://arxiv.org/abs/2202.00641)
+
+   > Cosmology, Dark Energy, General Relativity, Black Hole
+
+   广义相对论允许宇宙学常数$\Lambda$的存在，这创造了宇宙膨胀和暗能量的模型。
