@@ -47,3 +47,21 @@
 
 ## 2022-02-03
 
+1. [Measuring the Expansion or Contraction of Galaxies](https://arxiv.org/abs/2202.00825)
+
+   > Extragalactic Galaxy, Stellar
+
+   星系由于`gaseous`外流损失质量，计算由此产生的的恒星向外的径向迁移，表明其有可能被下一代大型望远镜的高分辨率光谱仪测量。
+   $$
+   v_r=27{\rm cm\,s^{-1}}\left(\frac{L}{L_{MW}}\right)^{1/2}
+   $$
+
+## 2022-02-04
+
+1. [Transformers Can Do Bayesian Inference](https://arxiv.org/abs/2112.10510)
+
+   > Machine Learning, Bayesian Inference, Transformer
+
+   提出`Prior-Data Fitted Networks`，通过机器学习逼近后验，进行有效的贝叶斯推理。`PFNs`可以接近完美的模仿高斯过程，也可以对难以解决的问题进行有效的贝叶斯推理。代码在[这里](https://github.com/automl/TransformersCanDoBayesianInference)。
+
+## 2022-02-07
