@@ -65,3 +65,12 @@
    提出`Prior-Data Fitted Networks`，通过机器学习逼近后验，进行有效的贝叶斯推理。`PFNs`可以接近完美的模仿高斯过程，也可以对难以解决的问题进行有效的贝叶斯推理。代码在[这里](https://github.com/automl/TransformersCanDoBayesianInference)。
 
 ## 2022-02-07
+
+1. [Rediscovering orbital mechanics with machine learning](https://arxiv.org/abs/2202.02306)
+
+   > Machine Learning, GNN, Symbolic regression, Physics
+
+   使用图神经网络从30年的轨道数据模拟太阳系行星和大卫星的动力学，使用符号回归，在假设`平移和旋转等效`以及`牛顿第二/三定律`后，可以搜寻出牛顿引力定律。
+
+## 2022-02-08
+
