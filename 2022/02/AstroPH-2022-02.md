@@ -74,3 +74,19 @@
 
 ## 2022-02-08
 
+1. [Spectroscopic Studies of Type Ia Supernovae Using LSTM Neural Networks](https://arxiv.org/abs/2202.02498)
+
+   > Machine Learning, Supernova, Spectrum
+
+   使用`LSTM`拟合$\rm Ia$型超新星的事件光谱序列。训练好的网络允许使用亮度最大值附近日期的单一光谱准确重建其它时间的光谱序列，表明`SN Ia`最关键的信息可以从最大光度附近的单一光谱得到。
+
+   <img src="Figures/image-20220208153544869.png" alt="image-20220208153544869" style="zoom:50%;" />
+
+2. [UCLCHEMCMC: A MCMC Inference tool for Physical Parameters of Molecular Clouds](https://arxiv.org/abs/2202.02343)
+
+   > ISM, Software
+
+   [UCLCHEMCMC](https://github.com/Marcus-Keil/UCLCHEMCMC)，给定不同发射线的观测值，结合MCMC采样和化学以及辐射转移建模来估计观察到的气体云的物理参数，包括`Density`、`Temperature`、`UV factor`、`R_out`、`CR factor`。
+
+## 2022-02-09
+
