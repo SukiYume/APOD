@@ -90,3 +90,11 @@
 
 ## 2022-02-09
 
+1. [Assessing Planetary Complexity and Potential Agnostic Biosignatures using Epsilon Machines](https://arxiv.org/abs/2202.03699)
+
+   > Exoplanet, Astrobiology, Planetary Science, Time Series
+
+   使用`epsilon machine reconstruction`衡量时间序列的复杂性。对比地球和木星在三个波段反射或者发射光的时间序列，地球的平均复杂性和熵分别比木星高约50%和43%。这种方法或许可以用作生物特征的检测，代码在[这里](https://nicolas.brodu.net/recherche/decisional_states/index.html)。
+
+## 2022-02-10
+
