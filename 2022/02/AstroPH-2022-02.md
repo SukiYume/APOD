@@ -98,3 +98,23 @@
 
 ## 2022-02-10
 
+1. [Can a Single Population Account for the Discriminant Properties in Fast Radio Bursts?](https://arxiv.org/abs/2202.04422)
+
+   >  Fast Radio Burst, Population
+
+   从`重复率`、`持续时间`、`带宽`、`谱指数`、`峰值光度`和`峰值频率`分析CHIME的目录，发现在相干曲率辐射的框架内，`谱指数`和`峰值频率`的分布区别无法用`beamed emission`解释，表明FRB可能存在两个种类。
+
+2. [The Pantheon+ Analysis: Cosmological Constraints](https://arxiv.org/abs/2202.04077)
+
+   > Cosmology, Hubble Tension, Supernovae
+
+   `Pantheon+`对$z=0.001\sim2.26$的1550个`Ia型超新星`光变曲线的分析对宇宙学参数的约束，使用`SN Ia`的系统性误差占$H_0$测量总误差的1/3以下，不能解释目前局域测量和早期宇宙之间的`Hubble tension`。
+
+3. [Comet Fading Begins Beyond Saturn](https://arxiv.org/abs/2202.04126)
+
+   > Planetary Science, Solar System, Comet, Saturn
+
+   长周期彗星`LPCs`经过太阳附近时，第一次经过被发现的概率最高，之后下降，主要原因是在距离太阳$\rm 2-3AU$的距离上热过程导致的碎裂。数值模拟表明，彗星观测错过了大量接近土星的`LCPs`，因为这些彗星在更远的地方就碎裂了。因此，彗星在太阳距离上的演化比之前考虑的要大得多。
+
+## 2022-02-11
+
