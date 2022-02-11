@@ -118,3 +118,11 @@
 
 ## 2022-02-11
 
+1. [The Thresher: Lucky Imaging without the Waste](https://arxiv.org/abs/2202.04686)
+
+   > Optical, Imaging, Stack, Software
+
+   在传统的幸运成像中，只有最清晰的图像会被保留下来作为最终图像，其它图像都被丢弃。这里提出一个多帧去卷积的图像分析方法[The Thresher](https://github.com/jah1994/TheThresher)，不需要事先估计图像的点扩散函数，可以使用所有可用的数据，返回图像信噪比高，并且不会损失角分辨率。
+
+## 2022-02-14
+
