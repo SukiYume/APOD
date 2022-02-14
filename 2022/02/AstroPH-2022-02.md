@@ -126,3 +126,17 @@
 
 ## 2022-02-14
 
+1. [The FRB 20121102A November rain in 2018 observed with the Arecibo Telescope](https://arxiv.org/abs/2202.05705)
+
+   > Fast Radio Burst, FRB121102, AO
+
+   AO在2018年11月对FRB121102在L波段的观测，有849个爆发，事件率最高是$218/hr$，双峰分布等待时间。二维高斯拟合动态谱，发现漂移与持续时间线性相关，并与`sad-trombone`效应一致。没有短周期，无法用单一幂律拟合。
+
+2. [Circular polarisation of fast radio bursts in the curvature radiation scenario](https://arxiv.org/abs/2202.05475)
+
+   > Fast Radio Burst, Polarization, Circular, Theory
+
+   重复或者非重复快速射电暴都发现有圆偏振，曲率辐射可以在辐射束侧面产生圆偏振。在有曲率辐射的情况下，为了在FRB中看到明显的圆偏振，需要更多的爆发、高洛伦兹系数的电子的爆发、中心有缓慢旋转的中子星。中子星不同的旋转周期可能解释一些FRB没有圆偏振，并且可以解释位置角摆动。
+
+## 2022-02-15
+
