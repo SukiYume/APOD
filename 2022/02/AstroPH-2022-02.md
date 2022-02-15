@@ -140,3 +140,13 @@
 
 ## 2022-02-15
 
+1. [Cosmic Kite: Auto-encoding the Cosmic Microwave Background](https://arxiv.org/abs/2202.05853)
+
+   > Cosmology, Machine Learning, VAE
+
+   用`CAMB`计算产生随机宇宙学功率谱数据集，用`编码器-解码器`来找宇宙学参数，解码器部分是从宇宙学参数计算功率谱的模型。结果表明编码器能够估计宇宙学参数，精度与传统方法差不多，但是精度很高，代码在[这里](https://github.com/Martindelosrios/cosmic-kite)。
+
+## 2022-02-16
+
+
+
