@@ -148,5 +148,15 @@
 
 ## 2022-02-16
 
+1. [Astrometric identification of nearby binary stars II -- Astrometric binaries in the Gaia Catalogue of Nearby Stars](https://arxiv.org/abs/2202.06963)
+
+   > Stellar, Gaia, Binary, HR
+
+   使用天体测量误差寻找`Gaia EDR3`尤其是`Gaia Catalogue of Nearby Stars`中的双星。对测量误差进行`local volume`归一化，得到`Local Unit Weight Error`来筛选。
+
+   <img src="Figures/image-20220216151815738.png" alt="image-20220216151815738" style="zoom:50%;" />
+
+## 2022-02-17
+
 
 
