@@ -158,5 +158,59 @@
 
 ## 2022-02-17
 
+1. [The Global Dynamical Atlas of the Milky Way mergers: Constraints from Gaia EDR3 based orbits of globular clusters, stellar streams and satellite galaxies](https://arxiv.org/abs/2202.07660)
 
+   > Milky Way, Galaxy Merger, Gaia, Cluster, Stellar Stream
+
+   银晕由原生星系合并形成，但对这一过程并没有太多认识，尤其是合并的数量、整体动力学特性以及银晕贡献的恒星数量。
+
+   使用Gaia EDR3的170个球状星团、41个星流和46个卫星星系的测量结果，使用`ENLINK`检测到6个星群，包括之前已知的`Sagittarius`、`Cetus`、`Gaia-Sausage/Enceladus`、`LMS-1/Wukong`、`Arjuna/Sequoia/I'itoi`，以及一个新的，叫`Pontus`。
+
+   对这些合并的成员进行了分析，包括成员、轨道特性和金属丰度等。发现银河系三个金属丰度最低的星流`C-19`、`Sylgr`和`Phonenix`，金属丰度分别是$-3.4,-2.9,-2.7\ |\ \rm [Fe/H]=dex$都与`LMS-1/Wukong`有关，表明它是金属含量最低的合并。
+
+   <img src="Figures/image-20220217170027552.png" alt="image-20220217170027552" style="zoom:50%;" />
+
+2. [The velocity distribution of white dwarfs in Gaia EDR3](https://arxiv.org/abs/2202.07672)
+
+   > Stellar, White Dwarf, Gaia, Statistics
+
+   使用`penalised maximum likelihood`估计太阳系附近的白矮星速度分布，显示出与太阳系附近其他恒星相似的结构，反应白矮星收到相同的动力学过程影响。
+
+3. [GIGA-Lens: Fast Bayesian Inference for Strong Gravitational Lens Modeling](https://arxiv.org/abs/2202.07663)
+
+   > Lensing, Modeling, Software
+
+   `GIGA-Lens`使用`Tensorflow`和`JAX`实现的GPU加速的贝叶斯框架，用于强引力透镜系统建模。包括三个部分，多起点梯度下降优化、变分推理后验概率分布、通过哈密顿蒙特卡洛采样。
+
+   `TensorFlow Probability`是一个用于概率推理和统计分析的库，或许可以用于FRB拟合。
+
+   <img src="Figures/image-20220217172743892.png" alt="image-20220217172743892" style="zoom:50%;" />
+
+4. [The Interstellar Medium of Dwarf Galaxies](https://arxiv.org/abs/2202.08231)
+
+   > Dwarf Galaxy, ISM, Review
+
+   矮星系是宇宙中数量最多的星系，表现出与其它星系不同的特性。这篇综述讨论`有大量气体和尘埃的矮星系`的星际介质的`物理和化学特性`。
+
+5. [Introduction to Radio Astronomical Polarimetry](https://arxiv.org/abs/2202.07818)
+
+   > Radio, Polarimetry
+
+   介绍了偏振测量的概念和数学基础，是一个讲习班的笔记。
+
+6. [A fast radio burst with sub-millisecond quasi-periodic structure](https://arxiv.org/abs/2202.08002)
+
+   > Fast Radio Burst, Periodicity
+
+   FRB20201020A位于$\rm 13h51m25s,\ +49^\circ02'06''$，$DM=398.59\ \rm pc/cm^3$，$RM=110\pm69\ \rm rad/m^2$，是非重复暴，有$0.415ms$的准周期性，这样的周期超过了中子星状态方程的限制，因此不可能被解释为脉冲星旋转，因而有可能是磁星磁层中等距发射引起的。
+
+   <img src="Figures/image-20220217174210505.png" alt="image-20220217174210505" style="zoom:50%;" />
+
+7. [Herschel-ATLAS Data Release III: Near-infrared counterparts in the South Galactic Pole field -- Another 100,000 submillimetre galaxies](https://arxiv.org/abs/2202.07687)
+
+   > Galaxy, Terahertz, Infrared, Herschel-ATLAS
+
+   `Herschel Astrophysical Terahertz Large Area Survey, H-ATLAS`的$\rm DR3$，给出南银极亚毫米源的红外对应体。110374 (57%) 个源可以在近红外图像中找到星系，以及一些透镜系统。
+
+## 2022-02-18
 
