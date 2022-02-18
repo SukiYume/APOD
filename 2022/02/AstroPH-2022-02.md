@@ -214,3 +214,13 @@
 
 ## 2022-02-18
 
+1. [The LOFAR view of giant, early-type galaxies: radio emission from active nuclei and star formation](https://arxiv.org/abs/2202.08593)
+
+   > Extragalactic Galaxy, LOFAR, Radio Luminosity
+
+   研究LOFAR探测到的附近宇宙中高亮度的早型星系`ETG`的特性和射电辐射来源。188个巨型`ETG`有LOFAR的图像，其中146个的亮度高于典型亮度$10^{21}\ \rm W/Hz$，其中最亮的是$10^{26}\ \rm W/Hz$。大约三分之二的`gETG`是无法解析的，也就是说大小$<4\ \rm kpc$，这意味着附近宇宙中致密射电源的普遍性。
+
+   <img src="Figures/image-20220218225556184.png" alt="image-20220218225556184" style="zoom:50%;" />
+
+## 2022-02-21
+
