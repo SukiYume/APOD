@@ -224,3 +224,15 @@
 
 ## 2022-02-21
 
+1. [Exploring X-ray variability with unsupervised machine learning I. Self-organizing maps applied to XMM-Newton data](https://arxiv.org/abs/2202.08868)
+
+   > Machine Learning, Self-Organizing Maps, Dimensionality Reduction, Light Curve, High Energy
+
+   `XMM-Newton`在X波段记录了数十万个源的光变曲线，在这样有噪声的大量数据中，直接搜索或者将光变曲线模型拟合到数据上都不可靠。`Self-Organizing Maps, SOM`自组织映射是一种无监督的神经网络，可用于降维和聚类，`MiniSom`可以用来实现。
+
+   使用`EXTraS`目录中的10万个数据训练`SOM`，可以发现`SOM`图中与`Flare`、`Eclipse`、`Dips`、`Linear Light Curve`相关的区域。
+
+   <img src="Figures/image-20220221211811199.png" alt="image-20220221211811199" style="zoom:50%;" />
+
+## 2022-02-22
+
