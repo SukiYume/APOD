@@ -236,3 +236,60 @@
 
 ## 2022-02-22
 
+1. [TIMES II: Investigating the Relation Between Turbulence and Star-forming Environments in Molecular Clouds](https://arxiv.org/abs/2107.13323)
+
+   > Star Formation, Turbulence, ISM, Molecular cloud, PCA
+
+   分子云的数据格式类似于
+   $$
+   T(x_i,y_i,v_j)=T_{ij}\quad {\rm where}\quad i=1,\cdots,n=N_l\times N_b
+   $$
+   使用`PCA`，可以将数据降维到2维，
+   $$
+   Su=\lambda u\quad {\rm where}\quad S_{jk}=\frac1n\sum_{i=1}^nT_{ij}T_{ik}
+   $$
+   `特征值`相当于数据投影到`特征向量方向上`的**方差**。`EigenImage`由特征向量重建：
+   $$
+   I_l(x_i,y_i)=I_l(r_i)=\sum_{j=1}^pT_{ij}u_{jl}
+   $$
+   特征向量$u_l$定义了具有特征速度$\delta v$的光谱窗，光谱由$u_l$加权得到的空间图测量空间距离，即可得到速度弥散与尺度之间的关系，下图是一个例子。
+
+   <img src="Figures/image-20220222142521105.png" alt="image-20220222142521105" style="zoom:50%;" />
+
+   这篇文章使用PCA研究Orion A恒星形成对湍流的影响。$^{13}CO$的PCA得到的比例关系显示
+
+   - 在给定的尺度$L$下，速度弥散$\delta v$在活跃恒星形成区高，$\delta v$随区域内原恒星数密度和总光度增加而增加
+   - $C^{18}O$、$HCO+$、$CS$的$\delta v$通常高于$^{13}CO$，意味着致密气体比弥散气体更具湍流性
+
+2. [Frequency Dependent Polarization of Repeating Fast Radio Bursts -- Implications for Their Origin](https://arxiv.org/abs/2202.09601)
+
+   > Fast Radio Burst, Polarization
+
+   冯毅的文章，可视化由我实现。讲重复暴的偏振度随频率演化，低频偏振度低；不同重复暴的演化趋势可以由$\sigma_{RM}$，也即$RM$的弥散描述，反映了辐射的多径传播，环境的复杂性。
+
+   <img src="Figures/image-20220222143417882.png" alt="image-20220222143417882" style="zoom:50%;" />
+
+3. [Temporal Scattering, Depolarization, and Persistent Radio Emission from Magnetized Inhomogeneous Environments Near Repeating Fast Radio Burst Sources](https://arxiv.org/abs/2202.09602)
+
+   > Fast Radio Burst, Polarization, Theory
+
+   上一篇文章的理论解释。$\sigma_{RM}$和$\tau_s$之间的关联性表明其来自同一区域，可以通过磁化不均匀等离子体屏的多径传播来描述，预测关系应该是$\sigma_{RM}\propto\tau_s^{0.54-0.83}$。
+
+4. [Model-independent classification of events from the first CHIME/FRB Fast Radio Burst catalog](https://arxiv.org/abs/2202.10076)
+
+   > Fast Radio Burst, Population
+
+   对CHIME的Catlog中FRB的轮廓进行相关分析和聚类，发现可以大致分成两类，其中一类相比另一类有较低的亮温度和较大的宽度。
+
+   <img src="Figures/image-20220222144131446.png" alt="image-20220222144131446" style="zoom:50%;" />
+
+5. [Detecting and Monitoring Tidal Dissipation of Hot Jupiters in the Era of SiTian](https://arxiv.org/abs/2202.10031)
+
+   > Exoplanet, Light Curve, SiTian
+
+   热木星凌星`transit`时间变化`TTV`提供了行星潮汐耗散（轨道和旋转能量由于潮汐加热被耗散）的直接观测证据，使用`TTV`探测需要高精度并且足够长的凌星光变曲线。潮汐耗散的热木星的探测率将回答一个关键问题，即行星是在`形成早期`还是由于`扰动`造成的轨道迁移。
+
+   `司天`计划使用72面$1m$的光学望远镜进行时域天文研究，时间分辨率约为$30s$。这里模拟了司天的光变曲线，并使用开发的分析方法进行光变曲线解读，获取凌星时间。
+
+## 2022-02-23
+
