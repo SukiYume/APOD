@@ -293,3 +293,21 @@
 
 ## 2022-02-23
 
+1. [FRB 121102: drastic changes in the burst polarization contrasts with the stability of the persistent emission](https://arxiv.org/abs/2202.10519)
+
+   > Fast Radio Burst, Polarization, PRS
+
+   使用Effelseberg的$1.7\ \rm GHz$数据分析FRB121102的偏振，测量到了目前最高的$RM=1.27\times10^5\ \rm rad/m^2$，以及$15\%$的线偏振。如果假设RM屏不均匀，是一个宽度为$150\ \rm rad/m^2$的高斯平，可以解释这个爆发与其它时间观测到的爆发的偏振度在频率上的变化。
+
+   $<10\%$的通量变化对年轻超新星的模型提出挑战，并且在$4.8\ \rm GHz$下，PRS的偏振度限制在$<25\%$，排除了与爆发共同起源的可能。
+
+2. [Stacked Periodograms as a Probe of Exoplanetary Populations](https://arxiv.org/abs/2202.11050)
+
+   > Exoplanet, Light Curve, Periodograms
+
+   一颗系外行星在周期图中可能没有表现出显著的统计性，但通过周期图叠加可以找到一类系外行星。
+
+   <img src="Figures/image-20220223161138067.png" alt="image-20220223161138067" style="zoom:50%;" />
+
+## 2022-02-24
+
