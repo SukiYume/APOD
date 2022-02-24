@@ -311,3 +311,17 @@
 
 ## 2022-02-24
 
+1. [A Highly Variable Magnetized Environment in a Fast Radio Burst Source](https://arxiv.org/abs/2202.11112)
+
+   > Fast Radio Burst, Polarization
+
+   Sarah他们的文章，讲FRB20190520B的RM变化。
+
+2. [PRECISE localizations of repeating Fast Radio Bursts](https://arxiv.org/abs/2202.11644)
+
+   > Fast Radio Burst, Host Galaxy, Localization
+
+   `EVN` 可以将FRB定位至毫角秒级别。`PRECISE`使用`EVN`的一个子集望远镜阵，每年观测数百小时，为将CHIME/FRB发现的重复暴定位。
+
+## 2022-02-25
+
