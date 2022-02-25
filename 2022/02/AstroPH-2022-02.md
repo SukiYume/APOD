@@ -325,3 +325,21 @@
 
 ## 2022-02-25
 
+1. [The LOFAR Two-metre Sky Survey -- V. Second data release](https://arxiv.org/abs/2202.11733)
+
+   > Radio Continuum, LOFAR
+
+   `LOFAR`的$2\ \rm m\ |\ 120-160\ \rm MHz$巡天数据成图，分辨率是$6''$，并给出$4,396,228$个射电源目录，大部分以前从未在射电波段探测过，估计点源在$0.8\ \rm mJy/beam$亮度以上有$90\%$的完整度。
+
+   <img src="Figures/image-20220225170150073.png" alt="image-20220225170150073" style="zoom:50%;" />
+
+2. [H0 tension or M overestimation?](https://arxiv.org/abs/2202.11852)
+
+   > Cosmology, Hubble Tension
+
+   普朗克测量的$H_0^P$与低红移超新星测量的$H_0^R$之间存在差异。在分析数据时用的绝对星等值$M$是从低红移超新星中获得的。分析低红移超新星的光度距离，使用不同的$(M^P,M^R)$，对应不同的$(H_0^P,H_0^R)$。结果发现，$M$的值会影响局部不均匀性。
+
+   使用$(M^R,H_0^R)$没有明显的不均匀性，使用$(M^P,H_0^P)$发现局部小空隙，导致$M^R$相对于$M^P$高估，并且后者更适合数据，解决了`Hubble Tension`。
+
+## 2022-02-28
+
