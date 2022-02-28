@@ -343,3 +343,17 @@
 
 ## 2022-02-28
 
+1. [R2-D2: Roman and Rubin -- From Data to Discovery](https://arxiv.org/abs/2202.12311)
+
+   > Roman, LSST, Survey, White Paper
+
+   `Roman`是$2.4m$的大视场红外巡天望远镜，视场$0.28\ \rm deg^2$是`Hubble`的100倍，分辨率与`Hubble`相当。`LSST`是工作在$320-1060\ \rm nm$的$8.4m$的光学望远镜，视场$9.6\ \rm deg^2$。两个望远镜有相似的灵敏度，但是再波段、空间分辨率和时域覆盖上互补。由这两个望远镜的数据可以催化丰富而广泛的发现。
+
+2. [A Straight Lightning Bolt?! Observation of a Predicted Macro Dark Matter Signature](https://arxiv.org/abs/2202.12428)
+
+   > Lightning, Macro Dark Matter
+
+   `Straight lightning`认为是宏暗物质的预言，一个足够大的`macro`穿过大气层，产生一个直的等离子体柱，发出荧光。最近在澳大利亚捕捉到了4道非常直的闪电，时间相隔$0.5s$。
+
+   <img src="Figures/image-20220228185744416.png" alt="image-20220228185744416" style="zoom:50%;" />
+
