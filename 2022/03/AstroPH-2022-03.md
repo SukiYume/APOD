@@ -14,3 +14,11 @@
 
 ## 2022-03-02
 
+1. [Homogeneous Transit Timing Analyses of Ten Exoplanet Systems](https://arxiv.org/abs/2203.00299)
+
+   > Stellar, Exoplanet, Light Curve
+
+   分析了10颗系外行星的凌星时间，没有发现行星轨道会有周期性的变化，轨道预计会在可观测的时间尺度上衰减。
+
+## 2022-03-03
+
