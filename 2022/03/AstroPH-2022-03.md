@@ -22,3 +22,11 @@
 
 ## 2022-03-03
 
+1. [Determining Research Priorities for Astronomy Using Machine Learning](https://arxiv.org/abs/2203.00713)
+
+   > Machine Learning, Astronomy
+
+   提取高影响力的天文相关文章的摘要，发现`a sum of the fractional contribution to each topic by all scientific papers`和`Compound Annual Growth Rate of these counts`与2010年美国未来十年天文学发展方向确定的高优先度的研究领域有很好的相关性。
+
+## 2022-03-04
+
