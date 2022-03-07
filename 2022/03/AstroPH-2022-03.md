@@ -41,3 +41,13 @@
 
 ## 2022-03-07
 
+1. [Planetary Genealogy](https://arxiv.org/abs/2203.02203)
+
+   > Planetary Science, Meteorite
+
+   观测新生恒星周围的吸积盘可以帮助理解太阳系形成与演化，陨石中稳定的同位素异常`stable isotope anomalies`可以建立一个“行星同位素谱系”，作为太阳系早期物质流动的追踪器。
+   
+   <img src="Figures/image-20220307122111113.png" alt="image-20220307122111113" style="zoom:50%;" />
+
+## 2022-03-08
+
