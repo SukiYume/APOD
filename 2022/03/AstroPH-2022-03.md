@@ -51,3 +51,13 @@
 
 ## 2022-03-08
 
+1. [Detecting the periodicity of highly irregularly sampled light-curves with Gaussian processes: the case of SDSSJ025214.67-002813.7](https://arxiv.org/abs/2203.03614)
+
+   > Light Curve, Periodicity, Time Domian, Gaussian Process
+
+   `SDSSJ025214.67-002813.7`长达20年的观测，采样极不规则，中间有很长的数据缺失时段。使用`高斯过程`从光变曲线中检测周期性，能够评估周期性的真实性，也可以计算功率谱密度。
+
+## 2022-03-09
+
+
+
