@@ -59,5 +59,11 @@
 
 ## 2022-03-09
 
+1. [Basics of Fourier Analysis for High-Energy Astronomy](https://arxiv.org/abs/2203.04106)
 
+   > Time Domain, Fourier
+
+   傅立叶分析入门理论基础。介绍了连续/离散傅立叶变换，加窗，FFT，功率谱，自相关，交叉光谱，双相干，Lomb-Scargle，短时傅立叶变换，小波和其他技术。
+
+## 2022-03-10
 
