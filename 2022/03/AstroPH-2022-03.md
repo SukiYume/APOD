@@ -67,3 +67,11 @@
 
 ## 2022-03-10
 
+1. [The Low Frequency Perspective on Fast Radio Bursts](https://arxiv.org/abs/2203.04890)
+
+   > Fast Radio Burst, Review
+
+   CHIME在$400-800\,\rm MHz$波段一年时间里发现了500个FRB。低频的观测发现了一个`nearby population`，对其研究可以描述FRB周围环境，以及近域宇宙。这是一篇综述，描述FRB在低频的研究。
+
+## 2022-03-11
+
