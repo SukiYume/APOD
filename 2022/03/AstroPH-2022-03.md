@@ -75,3 +75,23 @@
 
 ## 2022-03-11
 
+1. [Signature of Supersonic Turbulence in Galaxy Clusters](https://arxiv.org/abs/2203.04977)
+
+   > Galaxy, Turbulence
+
+   热星系际介质`ICM`被认为是静止的，观测到的速度弥散很低，其内表面亮度波动表明它的湍流是亚音速的，有`Kolmogorov`的比例关系，表明动能无损级联。最近对星系团中冷气体纤维的观测表明其比例关系比热等离子体更陡峭，表明动能损失。
+
+   使用高分辨率模拟星系团冷纤维的湍流速度结构，结果表明，当冷却时标短于动力学时标时，超音速湍流结构可以被“冻结”在冷气体中，冷气体从中心AGN驱动的外流中冷却并分裂出去，表明超音速外流是`AGN-ICM`相互作用的一个组成部分，AGN活动驱动星系团中湍流。
+
+   <img src="Figures/image-20220311183022849.png" alt="image-20220311183022849" style="zoom:50%;" />
+
+## 2022-03-14
+
+1. [On the radio spectra of Galactic millisecond pulsars](https://arxiv.org/abs/2203.05560)
+
+   > Millisecond Pulsar, Spectra
+
+   在$0.135-6.6\,\rm GHz$波段有179个毫秒脉冲星，MCMC拟合表明`MSP`的流量在$320\,\rm MHz$以下与频率无关，在高频与$\nu^{-1.5}$成正比，后者过高估计了在低频可能看到的`MSP`的数量。
+
+## 2022-03-15
+
