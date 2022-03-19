@@ -95,3 +95,53 @@
 
 ## 2022-03-15
 
+1. [AT2020hur: A Possible Optical Counterpart of FRB 180916B](https://arxiv.org/abs/2203.06994)
+
+   > Fast Radio Burst, Optical
+
+   搜索FRB光学对应体，找到重复暴`FRB20180916B`的光学暂现源`AT2020hur`，位置高度重合，重合概率$0.04\%$，并且后者位于前者的一个活动窗口中。
+
+## 2022-03-16
+
+1. [Simultaneous view of the FRB~180301 with FAST and NICER during a bursting phase](https://arxiv.org/abs/2203.07465)
+
+   > Fast Radio Burst, X-ray
+
+   `NICER`与`FAST`一起看`FRB180301`，`NICER`没看到X-ray的辐射。2021年的观测与2019年比，L波段线偏振度降低，一样没有明显的圆偏振。
+
+2. [Limits on the hard X-ray emission from the periodic fast radio burst FRB 180916.J0158+65](https://arxiv.org/abs/2203.07489)
+
+   > Fast Radio Burst, X-ray
+
+   `Burst Alert Telescope (BAT)`是The Neil Gehrels Swift Observatory的硬X射线望远镜，定位精度可以做到3角分。没有看到`FRB180916`的X-ray辐射。
+
+## 2022-03-17
+
+1. [Magnetic Field Reversal around an Active Fast Radio Burst](https://arxiv.org/abs/2203.08151)
+
+   > Fast Radio Burst, Polarization
+
+   代实的文章，与我有关。讲FRB190520的RM符号反转的事情。
+
+2. [Galaxy And Mass Assembly (GAMA): Data Release 4 and the z < 0.1 total and z < 0.08 morphological galaxy stellar mass functions](https://arxiv.org/abs/2203.08539)
+
+   > Extragalactic Galaxy, GAMA, Mass Function
+
+   `Galaxy And Mass Assembly, GAMA DR4`给出了248682个光谱，覆盖超过$250\,\rm deg^2$的区域。提供了15330个$z<0.08$的星系的图像，所有天体的光度红移以及111830个星系的速度弥散。对不同形态星系的质量函数的估计，结论是在$z<0.1$时，宇宙大爆炸核合成的重子质量的$4.9\%$转化为恒星。
+
+## 2022-03-18
+
+1. [Comparison of the Parkes and FAST FRB DM Distribution](https://arxiv.org/abs/2203.08816)
+
+   > Fast Radio Burst, Dispersion Measure
+
+   FAST和Parkes有相似的多波束接收机，比较两个望远镜观测到的FRB的DM分布，集中在$1000\le DM\le2000\,\rm pc/cm^3$。模型表示，FAST可能很适合用来区分红移演化模型，并且探测`IGM`的氦电离信号。
+
+2. [X-ray Polarization at the Crossroads](https://arxiv.org/abs/2203.09066)
+
+   > High Energy, X-ray, Polarization, Magnetar
+
+   `IXPE`是NASA最近发射的X射线偏振成像探测器。对X射电的偏振测量将回答许多关于磁星的问题，包括其表面的物理状态、是否存在真空双折射以及硬X射线发射的性质。
+
+## 2022-03-21
+
