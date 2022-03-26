@@ -145,3 +145,67 @@
 
 ## 2022-03-21
 
+1. [The IAU Working Definition of an Exoplanet](https://arxiv.org/abs/2203.09520)
+
+   > Exoplanet, Definition
+
+   **行星** - 围绕恒星、褐矮星或者恒星残骸运行，最大质量低于氘聚变的天体（13个木星质量的太阳金属丰度的天体），与中心天体质量比低于$L_4/L_5$不稳定性（$M/M_c<1/25$），最小质量与太阳系内相同，自重足够克服刚体力，并且足以清除轨道周围邻域。
+
+2. [The Life and Times of Giant Molecular Clouds](https://arxiv.org/abs/2203.09570)
+
+   > Star Formation, ISM
+
+   巨分子云形成与演化综述。
+
+## 2022-03-22
+
+1. [Magnetic fields in star formation: from clouds to cores](https://arxiv.org/abs/2203.11179)
+
+   > Star Formation, ISM, Magnetic Field
+
+   回顾磁场在恒星形成过程中作用的研究进展。最近的结果支持磁场在云的次级结果形成种有重要作用，它为分子云中大规模气体流动设定了首选方向，引导物质吸积到纤维和恒星形成中心。
+
+## 2022-03-23
+
+1. [Wide-Band Spectral Variability of Peaked Spectrum Sources](https://arxiv.org/abs/2203.11466)
+
+   > Galaxy, Radio Continuum, Spectrum
+
+   射电连续谱的变化可以用来研究源结构、介质的发射和吸收过程。使用`ATCA`和`MWA`对15个`Peaked Spectrum`源进行了宽带$0.072-10\, \rm GHz$的观测，在$1\,\rm GHz$以上没有检测到光谱变化，其中13个在$1\,\rm MHz$频率下看到了变化，认为是一个直径为$25\,\rm mas$的致密成分的折射导致的闪烁。
+
+   <img src="Figures/image-20220323180042153.png" alt="image-20220323180042153" style="zoom:50%;" />
+
+2. [Update on the Systematics in the ALMA Proposal Review Process after Cycle 8](https://arxiv.org/abs/2203.11334)
+
+   > ALMA, Proposal, Systematics
+
+   `ALMA`提案的系统性分析。第七轮给了评审小组PI的整体名单，第八轮名单都没有。有过ALMA申请经验的提案总体排名更好。第二次提交的排名相比之前有所提高。来自智利、东亚的PI比欧洲和北美的有较差的总体排名，排名没有性别差异。
+
+## 2022-03-24
+
+1. [A time-resolved picture of our Milky Way's early formation history](https://arxiv.org/abs/2203.12110)
+
+   > Milky Way, Stellar, Isochrone
+
+   基于`Yonsei-Yale stellar evolution models`产生的等龄线，结合Gaia和LAMOST数据，产生恒星年龄和金属丰度的大样本。
+
+   在$8\,\rm Gyr$处可以将恒星的金属性分成两部分，较年轻的部分反映银盘形成的晚期，另一部分反映早期阶段银晕和厚盘形成时期。在大爆炸后$0.8\,\rm Gyr$，银河系厚盘开始形成（也即距今$13\,\rm Gyr$之前），恒星大部分形成于这之后$2\,\rm Gyr$。此时`Gaia-Sausage-Enceladus`与银河系合并，并在接下来$5-6\,\rm Gyr$，银河系元素富集了10倍。
+
+   <img src="Figures/image-20220324183916813.png" alt="image-20220324183916813" style="zoom:50%;" />
+
+2. [sympy2c: from symbolic expressions to fast C/C++ functions and ODE solvers in Python](https://arxiv.org/abs/2203.11945)
+
+   > Software, Cosmology
+
+   [sympy2c](https://cosmology.ethz.ch/research/software-lab/sympy2c.html)，`SymPy`的`C++`封装，可从符号表示创建计算公式，在`PyCosmo`中用来求解爱因斯坦-玻尔兹曼方程。
+
+## 2022-03-25
+
+1. [What it takes to measure Reionization with Fast Radio Bursts](https://arxiv.org/abs/2203.12645)
+
+   > Fast Radio Burst, Cosmology
+
+   使用$100$个$z>5$的FRB，`FlexKnot`参数化可以做到对再电离$4\%$精度的约束。
+
+## 2022-03-28
+
