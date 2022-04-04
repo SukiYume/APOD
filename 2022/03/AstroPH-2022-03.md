@@ -163,7 +163,7 @@
 
    > Star Formation, ISM, Magnetic Field
 
-   回顾磁场在恒星形成过程中作用的研究进展。最近的结果支持磁场在云的次级结果形成种有重要作用，它为分子云中大规模气体流动设定了首选方向，引导物质吸积到纤维和恒星形成中心。
+   回顾磁场在恒星形成过程中作用的研究进展。最近的结果支持磁场在云的次级结果形成中有重要作用，它为分子云中大规模气体流动设定了首选方向，引导物质吸积到纤维和恒星形成中心。
 
 ## 2022-03-23
 
@@ -208,4 +208,62 @@
    使用$100$个$z>5$的FRB，`FlexKnot`参数化可以做到对再电离$4\%$精度的约束。
 
 ## 2022-03-28
+
+1. [HST/WFC3 transmission spectroscopy of the cold rocky planet TRAPPIST-1h](https://arxiv.org/abs/2203.13698)
+
+   > Exoplanet, Atmosphere
+
+   `TRAPPIST-1`是一颗超冷矮星，有7颗岩质行星，使用HST观测最外围行星三次凌星的光变曲线，分析行星大气透射光谱，结果表明这颗行星大气平均分子量高、没有大气或者不透明的气溶胶层。进一步定性需要更宽的波段进行更精确的测量，这将是JWST可以做到的。
+
+## 2022-03-29
+
+1. [Status of the IAU Meteor Data Center](https://arxiv.org/abs/2203.13823)
+
+   > Planetary Science, Solar System, Meteor
+
+   IAU的流星数据中心`MDC`有两部分，轨道数据库`OD`和雨量数据库`SD`，后者包含了流星的轨道参数，主要任务是给新的流星雨命名。
+
+2. [Fast Radio Bursts](https://arxiv.org/abs/2203.14198)
+
+   > Fast Radio Bursts, Review
+
+   戴老板写的FRB的综述，作为`Handbook of X-ray and Gamma-ray Astrophysics`的一章，包含了快速射电暴的各个属性，包含DM、RM、散射、闪烁等，以及理论。
+
+3. [Overview of the LAMOST survey in the first decade](https://arxiv.org/abs/2203.14300)
+
+   > Stellar, LAMOST, Review
+
+   发表在*Innovation*上的介绍LAMOST在10年里直到DR8的观测和科学成果。
+
+4. [Exploring the circular polarisation of low-frequency solar radio bursts with LOFAR](https://arxiv.org/abs/2203.14674)
+
+   > Solar Radio Burst, LOFAR, Polarization
+
+   使用LOFAR研究太阳III型暴的圆偏振。对2019年3-4月的六个爆发，`fundamental emission`随频率增加而增加，`harmonic emission`没有这样的趋势。
+
+   <img src="Figures/image-20220329190127323.png" alt="image-20220329190127323" style="zoom:50%;" />
+
+5. [The Environment and Constraints on the Mass of FRB 190520B](https://arxiv.org/abs/2203.14943)
+
+   > Fast Radio Bursts, Calculation
+
+   190520的DM与waiting time不相关，对DM产生变化的区域的特征时间尺度提供了上限$10s$。对比DM和RM的变化，约束磁场$\ge300\mu G$。
+
+## 2022-03-30
+
+1. [Cometary science with CUBES](https://arxiv.org/abs/2203.15579)
+
+   > Planetary Science, Solar System, Comet
+
+   `CUBES`是将放在`Very Large Telescope`上的紫外$305-400\,\rm nm$光谱仪，彗星的气体在这个波段有大量的发射特征，可以研究彗核的化学成分和冰的含量，为早期太阳系模型提供信息。`CUBES`对暗淡彗星的水和气态金属（如`Fel`和`Nil`）敏感，可以促进对彗星的研究。
+
+## 2022-03-31
+
+1. [Periodic stellar variability from almost a million NGTS light curves](https://arxiv.org/abs/2203.15894)
+
+   > Stellar, Light Curve, Gaia
+
+   使用自相关函数`G-ACF`分析下一代凌星巡天`NGTS`中`late-A`到`mid-M`型共16880个恒星的光变周期，在$0.1-130\,\rm d$之间。将周期与Gaia的恒星参数进行比较，发现主序星缺少$15-25\,\rm d$的周期。还观察到一小部分长周期可变的`M-dwarfs`。
+
+   <img src="Figures/image-20220331175824637.png" alt="image-20220331175824637" style="zoom:50%;" />
 
