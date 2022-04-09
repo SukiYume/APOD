@@ -64,11 +64,11 @@
 
    <img src="Figures/image-20220401151950317.png" alt="image-20220401151950317" style="zoom:33%;" />
 
-10. [Insight-HXMT dedicated 33-day observation of SGR J1935+2154 I. Burst Catalog](https://arxiv.org/abs/2203.16855)
+10. [Insight-HXMT dedicated 33-day observation of SGR J1935+2154 I Burst Catalog](https://arxiv.org/abs/2203.16855)
 
-    > High Energy, Magnetar
+   > High Energy, Magnetar
 
-    慧眼对`SGR1935`在2020年33天的观测，探测到75次爆发，其中70个是单脉冲，最大爆发率是$56/day$，等待时间是`LogNormal`，持续时间长的爆发往往发生在事件率相对高的时期。脉冲能量和硬度比与持续时间没有发现关联。
+   慧眼对`SGR1935`在2020年33天的观测，探测到75次爆发，其中70个是单脉冲，最大爆发率是$56/day$，等待时间是`LogNormal`，持续时间长的爆发往往发生在事件率相对高的时期。脉冲能量和硬度比与持续时间没有发现关联。
 
 ## 2022-04-04
 
@@ -81,4 +81,40 @@
    <img src="Figures/image-20220404185558989.png" alt="image-20220404185558989" style="zoom:50%;" />
 
 ## 2022-04-05
+
+1. [Fundamental scales in the kinematic phase of the turbulent dynamo](https://arxiv.org/abs/2204.00828)
+
+   > Turbulence, Magnetic Field
+
+   湍流发电机是将湍流动能转换为磁能的机制。湍流磁场最集中的尺度$k_p$由粘性尺度（湍流动能耗散的尺度）$k_\nu$还是电阻尺度（磁场耗散的尺度）$k_\eta$决定，一直存在一些分歧。使用磁流体动力学湍流进行数值模拟，表明$k_p$与$k_\eta$相关。而雷诺数$Re=100$湍流发电机开始起作用。
+
+## 2022-04-06
+
+1. [Photometric redshift-aided classification using ensemble learning](https://arxiv.org/abs/2204.02080)
+
+   > Machine Learning, Photometry Classification
+
+   在SDSS和WISE光度测量的数据集上使用`XGBoost`、`LightGBM`和`CatBoost`组成的集成学习分类器，来对星系、类星体和恒星进行分类，表现优于之前的随机森林分类器。
+
+## 2022-04-07
+
+1. [First look at the multiphase interstellar medium with synthetic observations of low-frequency Faraday tomography](https://arxiv.org/abs/2204.02774)
+
+   > Radio, Polarization, Rotation Measure, Low Frequency
+
+   `LOFAR`在200MHz以下偏振数据的`Faraday tomography`看到了与HI和尘埃等重性气体相关的法拉第旋转同步辐射偏振。文章模拟了物种不同阶段的气体 - `热的`、`温的`、`完全电离的`到`冷的`中性介质，研究不同气相对200MHz以下的RM和同步辐射偏振强度的合成观测的贡献。
+
+   视线垂直于磁场时，HI和同步辐射偏振强度之间有很强的相关性，与LOFAR观测很像。
+
+   <img src="Figures/image-20220408003721618.png" alt="image-20220408003721618" style="zoom:50%;" />
+
+## 2022-04-08
+
+1. [Serendipitous discovery of radio flaring behaviour from a nearby M dwarf with MeerKAT](https://arxiv.org/abs/2204.03481)
+
+   > Stellar, Radio continuum, Flare
+
+   `MKT J174641.0−321404`距离太阳$12\,\rm pc$，是一颗M型矮星。`MeerKAT`在$1.3\,\rm GHz$看到了这颗恒星的光变，之后的多波段观测表明，在整个电磁波谱内都有耀斑活动，这与`dMe`恒星的预测一致。
+
+## 2022-04-11
 

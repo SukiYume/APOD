@@ -26,9 +26,9 @@ def extract_data(markdown_path):
             if re.match(r'^\d{2}-\d{2}-\d{2}\s+$', data[d]):
                 continue
             date = '20' + re.search(r'(\d{2}-\d{2}-\d{2})', data[d]).group(1)
-            title = re.findall(r'\s+\d\.\s+\[(.+)\]', data[d])
-            arxiv = re.findall(r'\d\.\s+\[.+\]\(h{1,2}ttps.+/(.+)\)', data[d])
-            kw_content = re.split(r'\s+\d\.\s+\[.+\]\(.+\)\s+', data[d])[1:]
+            title = re.findall(r'\s+\d+\.\s+\[(.+)\]', data[d])
+            arxiv = re.findall(r'\d+\.\s+\[.+\]\(h{1,2}ttps.+/(.+)\)', data[d])
+            kw_content = re.split(r'\s+\d+\.\s+\[.+\]\(.+\)\s+', data[d])[1:]
             keyword, content = [], []
             for kc in kw_content:
                 kw = re.search(r'^>\s+([A-Za-z0-9_ \,]+)', kc)
