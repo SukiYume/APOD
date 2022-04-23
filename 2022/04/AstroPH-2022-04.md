@@ -168,3 +168,57 @@
 
 ## 2022-04-18
 
+1. [Insight-HXMT dedicated 33-day observation of SGR J1935+2154 II. Burst Spectral Catalog](https://arxiv.org/abs/2204.07369)
+
+   > Magnetar, X-ray
+
+   在`FRB 200428`爆发后的一个月内，慧眼对`SGR 1935`进行了观测，在$1-250\,\rm keV$能带观测到75次爆发。爆发总体通量比`Fermi`低一个能量级，但依然是幂律分布。
+
+## 2022-04-19
+
+1. [A repeating fast radio burst residing in a magnetar/Be star binary](https://arxiv.org/abs/2204.08124)
+
+   > Fast Radio Burst, Polarization, Theory
+
+   王发印他们的文章，觉得`FRb 20201124A`和`FRB 20190520B`的RM变化是双星系统导致的。
+
+## 2022-04-20
+
+1. [Magnetar bursts due to Alfvén wave nonlinear breakout](https://arxiv.org/abs/2204.08513)
+
+   > Fast Radio Burst, Magnetar, Theory
+
+   三维电动力学模拟说明磁星爆发可以由局部地震发射的阿尔芬波产生，波包传播到外磁层，变得非线性并逃离磁层，形成相对论性喷射物，推开磁力线导致磁重联，使等离子体激发并发射X射线。
+
+## 2022-04-21
+
+1. [Non-detection of CHIME/FRB sources with the Arecibo Observatory](https://arxiv.org/abs/2204.09090)
+
+   > Fast Radio Burst
+
+   用AO的$327\,\rm MHz$接收机探测CHIME的两个重复暴和7个非重复暴，没有探测到爆发，使用Weibull限制事件率为$\lambda=10^{-2}-10^{-1}/\,\rm hr$，意味着可能存在一个低重复率的种群。FAST探测非重复暴可以参考这篇文章。
+
+2. [Narrowband spikes observed during the 13 June 2012 flare in the 800-2000 MHz range](https://arxiv.org/abs/2204.09327)
+
+   > Solar Flare, Radio
+
+   2012年6月13日太阳耀斑在$800-2000\,\rm MHz$上的窄带$\sim5\,\rm MHz$和瞬时$\sim0.01s$的爆发。
+
+   <img src="Figures/image-20220421234351226.png" alt="image-20220421234351226" style="zoom:50%;" />’
+
+3. [Biocosmology: Towards the birth of a new science](https://arxiv.org/abs/2204.09378)
+
+   > Biocosmology
+
+   天体生物学（×）生物宇宙学（√）
+
+## 2022-04-22
+
+1. [The detection efficiency of type Ia supernovae from the Zwicky Transient Facility: Limits on the intrinsic rate of early flux excesses](https://arxiv.org/abs/2204.09705)
+
+   > Supernova, ZTF
+
+   少数`Ia`型超新星会表现出`early flux excess`，但不知这种情况是本来就比较罕见，还是在超新星爆炸早期就探测到比较困难而导致的样本数量少。模拟ZTF探测，在`three day cadence`搜索的情况下，只有10%的`Ia`型超新星会在爆炸早期被探测到。假设其中有部分`early flux excess`的超新星，本征比例是$\sim28^{+13}_{-11}\%$。
+
+## 2022-04-25
+
