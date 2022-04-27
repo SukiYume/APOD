@@ -222,3 +222,27 @@
 
 ## 2022-04-25
 
+1. [Propagation of a fast radio burst through a birefringent relativistic plasma](https://arxiv.org/abs/2204.10816)
+
+   > Fast Radio Burst, Polarization, Theory
+
+   快速射电暴不仅能够研究星系间介质的等离子体，还可能研究产生这些爆发的极端磁-离子介质。`FRB20201124A`的一个爆发表现出频率依赖的圆偏振，与其它源和这个源的其它脉冲都不相同，可能是由辐射传播经过源的磁层内或靠近磁层的相对论性等离子体。
+
+## 2022-04-26
+
+1. [The Moving Mirror model for Fast Radio Bursts](https://arxiv.org/abs/2204.11663)
+
+   > Fast Radio Burst, Theory
+
+   蟹状星云脉冲星的相干辐射是由超相对论的冷等离子体驱动的，相对膨胀的等离子体可以压缩环境磁场，就像一面移动的镜子，产生相干辐射，波长比环境介质的波长短。这里提出类似的机制产生FRB，高的`洛伦兹系数`降低能量和磁场的要求。模型可以解释FRB频率漂移，以及持续时间、能量和没有全波段对应体，预测子脉冲的峰值频率随观测时间推移而下降 - $\omega_{obs}\propto t_{obs}^{-1/2}$。
+
+## 2022-04-27
+
+1. [Deep simultaneous limits on optical emission from FRB 20190520B by 24.4 fps observations with Tomo-e Gozen](https://arxiv.org/abs/2204.12334)
+
+   > Fast Radio Burst, MultiWaveLength, Optical
+
+   日本的一个1米望远镜对`190520`光学视频成像，帧率$24.4\,\rm fps$，FAST探测到11个爆发时，光学没有任何探测，光学流量上限为$0.068\,\rm Jy\cdot ms$。尽管还无法约束射电到光学的SED，如果射电探测到一个$5\,\rm Jy\cdot ms$的爆发，并且光学没有探测的话，可以排除FRB光学波段的发射是由脉冲星磁层的反康普顿散射的可能。
+
+## 2022-04-28
+
