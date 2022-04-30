@@ -246,3 +246,27 @@
 
 ## 2022-04-28
 
+1. [Inferring Late Stage Enrichment of Exoplanet Atmospheres from Observed Interstellar Comets](https://arxiv.org/abs/2204.12653)
+
+   > Exoplanet, Comet, JWST
+
+   两颗`interstellar comets`的发现意味着每颗恒星都会喷出大量物质供给银河系。散射是一个混沌过程，物质可以逃离也可以注入恒星系统。逃逸速度小于轨道速度的行星将有效吸积彗星。目前的系外行星中，热木星、暖木星、亚海王星和超地球等行星可以有效捕获进入的彗星。彗星的富集会对之后的大气成分和化学产生重要影响，因此对星际彗星的探测和成分测量会提供系外行星物质的直接测量。
+
+## 2022-04-29
+
+1. [Formation of periodic FRB in binary systems with eccentricity](https://arxiv.org/abs/2204.13489)
+
+   > Fast Radio Burst, Theory
+
+   `121102`和`180916`有长周期，提出磁星和早型星组成的双星系统模型，磁星的脉冲星风和恒星风相互作用产生FRB，只有在轨道周期的一小部分时间里射电辐射才能传出来。窗口大小取决于偏心率、恒星风特性和观测角度。
+
+   `maser cyclotron`是产生相干辐射的一种机制，回旋加速微波激射。如果FRB是这种机制，脉冲会取决于发射的冲击半径，而这一半径随着轨道变化，可以解释频率漂移。偏振的频率依赖可能是恒星风中小规模湍流的结果。如果生成磁星的超新星爆炸发生在$n\sim100\,\rm cm^{-3}$的云中，则可以解释`121102`的大RM值。
+
+2. [A new technique to determine a pulsar period: the waterfall principal component analysis](https://arxiv.org/abs/2204.13118)
+
+   > Stellar, Pulsar, Period, Time Domain, Software
+
+   使用PCA估计到达时间序列中的周期，代码[在这](https://github.com/tcassanelli/pywpf)。使用不同的可能周期对原始序列重排，变成二维的图像（如下图），计算二维数组PCA，根据评估函数找最可能的周期。
+
+   <img src="Figures/image-20220429163615607.png" alt="image-20220429163615607" style="zoom:50%;" />
+
