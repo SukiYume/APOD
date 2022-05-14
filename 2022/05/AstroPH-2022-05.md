@@ -58,3 +58,67 @@
 
 ## 2022-05-09
 
+1. [Simulating high-time resolution radio-telescope observations](https://arxiv.org/abs/2205.03046)
+
+   > Radio, Signal Simulate, Software
+
+   罗睿的文章，写了个模拟射电望远镜数据的软件，可以模拟脉冲星、FRB，也包含更细节的特征如散射和闪烁，也可以模拟RFI，软件在[这里](https://bitbucket.csiro.au/projects/psrsoft/repos/simulatesearch)。
+
+   <img src="Figures/image-20220510010621285.png" alt="image-20220510010621285" style="zoom:80%;" />
+
+2. [Dust Evolution in the Coma of Distant, Inbound Comet C/2017 K2 (PANSTARRS)](https://arxiv.org/abs/2205.02854)
+
+   > Comet, HST
+
+   `C/2017 K2 (PANSTARRS)`是一颗奥尔特云彗星，在2021年首次穿越内太阳系。用HST在近日点前6AU和8AU的位置观测了这颗彗星，获得光度和偏振测量。发现彗星的颜色和偏振有径向梯度，反射率和偏振距离彗核越远越强。
+
+## 2022-05-10
+
+1. [Four new deeply-eclipsing white dwarfs in ZTF](https://arxiv.org/abs/2205.03431)
+
+   > Stellar, White Dwarf, ZTF
+
+   在`ZTF DR4`中找到9个暗白矮星，其中4个进行了后随观测，分析表明四个系统都有一个$\sim0.1M_\odot$的伴星。在`ZTF DR7`中，搜索到41个暗WD+M双星系统，根据`PanSTARRS`的颜色，确定了两个短周期的`白矮星-褐矮星`双星。
+
+2. [Interstellar planetesimals](https://arxiv.org/abs/2205.04277)
+
+   > Planetary Science, Solar System, Asteroid
+
+   星际小行星综述。在太阳系形成过程中，大量的小行星被行星引力甩到星际空间中，并且不再变化。星际小行星有可能被困在行星和恒星的形成环境中，作为行星形成的种子，帮助克服厘米大小的石块成长为公里大小的障碍。
+
+   在2017年，`Oumuamua`的发现为研究行星的原始构件打开新的窗口，其可能是一个从未见过的行星形成的中间产物。
+
+## 2022-05-11
+
+1. [The jet and resolved features of the central supermassive black hole of M 87 observed with EHT](https://arxiv.org/abs/2205.04623)
+
+   > Radio, Black Hole, EHT
+
+   重处理EHT对M87观测的数据，结果与EHTC公布图像不同。在EHTC的结果中`没有喷流`并且`存在环状结构`，是由于狭窄的FOV设置以及uv数据采样偏差导致的假象，因为EHTC的模拟只考虑了输入图像模型的再现，而没有考虑输入噪声模型的再现。其最佳参数可以增强采样偏差的影响，产生$40\mu as$的环状结构，这不再是正确的图像。
+
+## 2022-05-12
+
+1. [CHES: a space-borne astrometric mission for the detection of habitable planets of the nearby solar-type stars](https://arxiv.org/abs/2205.05645)
+
+   > Planetary Science, Satellite
+
+   `Closeby Habitable Exoplanet Survey (CHES)`，提出的一个新的太空望远镜计划，直径$1.2m$，视场$0.44^\circ\times0.44^\circ$，可以在$500\sim900\,\rm nm$获得$1\mu as$的天体测量精度，运行在L2。从附近恒星宜居带中的类地行星中寻找宜居行星。
+
+## 2022-05-13
+
+1. [The Chinese Hα Solar Explorer (CHASE) mission: An overview](https://arxiv.org/abs/2205.05962)
+
+   > Solar, Ha, Statellite
+
+   「羲和」是发射于2021年10月14日的太阳探测器，对太阳进行$H\alpha$的光谱观测，有两种观测模式。光栅扫描模式获得感兴趣的区域的光谱，分辨率是$0.024\AA$，时间分辨率1分钟。连续成像模式是获得$6689\AA$周围的光球图像。文章介绍了项目的科学目标、仪器概况、数据校准流程和首批结果。**夸父已经鸽了十年了。**
+
+2. [SKYSURF: Constraints on Zodiacal Light and Extragalactic Background Light through Panchromatic HST All-Sky Surface-Brightness Measurements: I. Survey Overview and Methods](https://arxiv.org/abs/2205.06214)
+
+   > Solar System, HST, Zodiacal Light
+
+   使用HST作为绝对光度计的能力，从$249,861$次曝光中测量$0.2-1.7\,\rm\mu m$的天空亮度，并约束从紫外到近红外天空中的弥漫成分，包括黄道光`Zl`、柯伊伯带天体`KBOs`、漫射银河光`DGL`、河外背景光`EBL`。
+
+   <img src="image-20220513193313729.png" alt="image-20220513193313729" style="zoom:80%;" />
+
+## 2022-05-16
+
