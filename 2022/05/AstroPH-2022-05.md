@@ -118,7 +118,94 @@
 
    使用HST作为绝对光度计的能力，从$249,861$次曝光中测量$0.2-1.7\,\rm\mu m$的天空亮度，并约束从紫外到近红外天空中的弥漫成分，包括黄道光`Zl`、柯伊伯带天体`KBOs`、漫射银河光`DGL`、河外背景光`EBL`。
 
-   <img src="image-20220513193313729.png" alt="image-20220513193313729" style="zoom:80%;" />
+   <img src="Figures/image-20220513193313729.png" alt="image-20220513193313729" style="zoom:80%;" />
 
 ## 2022-05-16
+
+1. [Improving Astronomical Time-series Classification via Data Augmentation with Generative Adversarial Networks](https://arxiv.org/abs/2205.06758)
+
+   > Deep Learning, Light Curve, Time Domain, GAN
+
+   使用`T-CGAN`根据`相位`、`振幅`和`类别`生成光变曲线。新东西是不平衡数据集生成模型质量的评估指标，以及识别`Fréchet Inception Distance`不能识别的`GAN`过拟合情况。在`Catalina`和`Zwicky`数据集中测试，使用合成数据训练变星的分类精度得到了提高。
+
+## 2022-05-17
+
+1. [Dancing with the stars: Stirring up extraordinary turbulence in Galactic center clouds](https://arxiv.org/abs/2205.06820)
+
+   > Turbulence, Stellar, ISM, Dynamics
+
+   `Central Molecular Zone, CMZ`的分子云有明显的湍流线宽，并且随云的尺度放缩，这里恒星密度也很高，恒星速度弥散在垂直方向弥散很大，因此年轻的恒星也可以在一生中穿过整个CMZ。计算了穿越CMZ的恒星由于`恒星风`和`动力摩擦`产生的能量沉积率，并与湍流耗散率进行比较。结果表明，`动力摩擦`不是驱动CMZ湍流的主要成分，`恒星风`导致的能量趁机可以解释CMZ湍流水平和随云尺度大小变化的比例。
+
+2. [A hyper flare of a weeks-old magnetar born from a binary-neutron-star merger](https://arxiv.org/abs/2205.07670)
+
+   > Magnetar, High Energy, GRB
+
+   发现一个GRB是磁星的`hyper flare`，比磁星的`giant flare`亮1000倍，光变曲线有80ms的周期，认为是旋转周期。根据磁场强度，限制磁星年龄只有`几周`，而几周内没有超新星，说明磁星可能是由两颗中子星并合产生的。
+
+## 2022-05-18
+
+1. [Model-independent constraints on the baryon fraction in the IGM from fast radio bursts and supernovae data](https://arxiv.org/abs/2205.07926)
+
+   > Fast Radio Burst, Cosmology
+
+   将有定位的FRB的DM数据和超新星数据结合，分析星系间介质重子质量比例$f_{\rm IGM}$，提出一种不依赖模型的方法，证明$f_{\rm IGM}$是随红移不断演化的。
+
+2. [A Highly Variable Magnetized Environment in a Pulsar Binary resembling Fast Radio Bursts](https://arxiv.org/abs/2205.07917)
+
+   > Fast Radio Burst, Pulsar, Polarization, Faraday Conversion
+
+   在球状星团双星`PSR B1744-24A`中发现在轨道相位上表现出RM随机的快速变化，以及脉冲星接近伴星时圆偏振的轮廓变化（法拉第转换）。这个源和重复FRB的相似之处、两个FRB长周期、球状星团中FRB的发现，表明部分FRB是双星系统中。
+
+   <img src="Figures/image-20220518154335063.png" alt="image-20220518154335063" style="zoom:70%;" />
+
+## 2022-05-19
+
+1. [Polarized x-rays from a magnetar](https://arxiv.org/abs/2205.08898)
+
+   > Magnetar, Polarization, High Energy, X-Ray
+
+   使用`IXPE`首次在X射线波段探测到磁星的线偏振。磁星`4U 0142+61`在$2-4\,\rm keV$的线偏振度是14%，在$5.5-8\,\rm keV$是41%，在$4-5\,\rm keV$线偏振下降到一起灵敏度一下。这一发现支持了真空双折射的量子力学效应的存在。
+
+2. [Internet of Spacecraft for Multi-planetary Defense and Prosperity](https://arxiv.org/abs/2205.08567)
+
+   > Satellite, Planetary Defence
+
+   回顾了`K-Pg灭绝`、`车里雅斯宾事件`、`近地天体NEO`等的观测，提出太阳系通信和防御网络框架`SCADN`，卫星分布如下。
+
+   <img src="Figures/image-20220519140833382.png" alt="image-20220519140833382" style="zoom:50%;" />
+
+3. [Categorize Radio Interference using component and temporal analysis](https://arxiv.org/abs/2205.08724)
+
+   > Radio, RFI, Machine Learning, PCA
+
+   用PCA对`Time-Frequency`二维数据降维，根据主成分对RFI进行分类。袁懋的文章。
+
+## 2022-05-20
+
+1. [Extreme solar events](https://arxiv.org/abs/2205.09265)
+
+   > Solar, Flare, Review
+
+   从1895年`Carrington`事件开始回顾极端太阳事件，包括`太阳黑子群`、`太阳耀斑`、`日冕物质抛射`、`太阳质子事件`、`地磁暴`。根据这些空间天气现象的发生频率分布，编制了`100- and 1000-year`事件表格。
+
+2. [A Large Scale Magneto-ionic Fluctuation in the Local Environment of Periodic Fast Radio Burst Source, FRB 20180916B](https://arxiv.org/abs/2205.09221)
+
+   > Fast Radio Burst, Polarization
+
+   CHIME报道`FRB20180916B`在2018.12-2021.12之间探测到44次爆发，其中在2021.04-2021.12之间，RM增加了$50\,\rm rad/m^2$，色散变化很小，说明RM变化是磁场变化导致的。并且爆发之间有很大的RM弥散，认为其周围可能是超新星遗迹或者脉冲星风星云等磁化环境。
+
+3. [A Polarization Pipeline for Fast Radio Bursts Detected by CHIME/FRB](https://arxiv.org/abs/2107.03491)
+
+   > Fast Radio Burst, Polarization, CHIME, Pipline
+
+   CHIME测量偏振的方法，主要想看他们做QU-Fitting的方式。
+   $$
+   \left[Q+iU\right](\lambda,t)=\left[Q+iU\right]_{\rm obs}(\lambda,t)\times e^{2i[RM(\lambda^2-\lambda_0^2)+\psi_0(t)]}
+   $$
+   其中$\psi_0$是$\lambda_0=0$处的PA。由于信噪比的限制，拟合不是很好做，因此先将Q和U`de-rotate`，之后沿频率积分得到$Q/U_{\rm derot}$，解出$\psi_0$：
+   $$
+   \psi_0(t)=\frac12\tan^{-1}\left(\frac{U_{\rm derot}(t)}{Q_{\rm derot}(t)}\right)
+   $$
+
+## 2022-05-23
 
