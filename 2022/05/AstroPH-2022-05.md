@@ -209,3 +209,61 @@
 
 ## 2022-05-23
 
+1. [Reproducibility of the First Image of a Black Hole in the Galaxy M87 from the Event Horizon Telescope (EHT) Collaboration](https://arxiv.org/abs/2205.10267)
+
+   > Radio, EHT, Imaging
+
+   项目提供文档、代码和计算环境来帮助公众重现EHT发布的M87图像，并报告了重复EHT结果过程中遇到的挑战。
+
+2. [The Detection of Transiting Exoplanets by Gaia](https://arxiv.org/abs/2205.10197)
+
+   > Stellar, Variable, Exoplanet, Gaia, Light Curve
+
+   使用`XGBoost`来对Gaia光度测量数据进行分类，找到可能有周期的候选恒星，再用`Box-Least-Square, BLS`找其中的变星。最后找到两颗新的系外行星，命名为`Gaia-1b`和`Gaia-2b`。
+
+   <img src="Figures/image-20220523162128000.png" alt="image-20220523162128000" style="zoom:50%;" />
+
+## 2022-05-24
+
+1. [A statistical primer on exoplanet detection methods](https://arxiv.org/abs/2205.10417)
+
+   > Astrostatistics, Exoplanet
+
+   现在检测系外行星的方法`凌星`和`径向速度`，尽管已经被广泛使用，但是还没有被统计学家论证过。论文研究这些方法的特性。
+
+   - 前者通过确定恒星的光变曲线中是否存在周期来探测行星，对于星光数据往往过于简陋，并且缺乏稳健性。
+   - 后者通过伴星导致的多普勒位移来探测行星，无法探测微弱的多普勒位移，如地球量级的行星导致的类太阳恒星的径向速度的变化。
+     - 试图通过采用当代统计研究中的分析工具来解决这一缺陷。
+
+## 2022-05-25
+
+1. [A Super-Earth Orbiting Near the Inner Edge of the Habitable Zone around the M4.5-dwarf Ross 508](https://arxiv.org/abs/2205.11986)
+
+   > Exoplanet, Radial Velocity
+
+   `Subaru`的近红外径向速度搜索找到了`M4.5 dwarf Ross 508`附近周期为10.77天的一颗超级地球，振幅$3.92^{+0.60}_{-0.58}\,\rm m/s$，对应最小质量$4.00^{+0.53}_{-0.55}$个地球质量，平均日照两是地球的1.4倍，接近宜居带的内边缘。近红外RV搜索可以在寻找像这样的冷M型矮星周围的低质量行星发挥重要作用。
+
+## 2022-05-26
+
+1. [The 2022 Encounter of the Outburst Material from Comet 73P/Schwassmann--Wachmann~3](https://arxiv.org/abs/2205.12473)
+
+   > Comet, Meteor
+
+   武仙座$\tau$流星雨，是由**彗星73P/Schwassmann-Wachmann 3**在1995年爆发时产生的流行物质带来的。2006年`Mikhail Maslov`预测在2022年5月31日，流星流量可以到几百甚至十万。叶泉志这篇文章讲说根据现有证据，可能只有很小的流量。
+
+2. [Searching for quasi-periodic oscillations in astrophysical transients using Gaussian processes](https://arxiv.org/abs/2205.12716)
+
+   > Time Domain, QPO, Gaussian Process
+
+   对准周期震荡的分析可以帮助理解天体物理事件的动态行为，通常在频域上寻找QPO，如Lomb-Scargle。使用高斯过程也可以在时间序列上分析QPO。使用GPs，将QPOs建模为确定耀斑形状上的随机过程，并使用贝叶斯推理得到GP的超参数如QPO频率。在伽马射线暴、磁星耀斑、磁星巨耀斑和模拟太阳耀斑数据上可以做到不错的性能。代码在[这里](https://github.com/MoritzThomasHuebner/QPOEstimation)。
+
+## 2022-05-27
+
+1. [The JWST Early Release Science Program for the Direct Imaging & Spectroscopy of Exoplanetary Systems](https://arxiv.org/abs/2205.12972)
+
+   > Exoplanet, JWST, Imaging
+
+   关于JWST`系外行星系统直接成像`项目的描述，项目总时长54小时，计划在$5\mu m$以上的中红外波长直接观测太阳系外行星，提供详细的光谱，并探测类太阳系冰行星。
+
+## 2022-05-30
+
