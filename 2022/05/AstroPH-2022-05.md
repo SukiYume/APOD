@@ -267,3 +267,55 @@
 
 ## 2022-05-30
 
+1. [Fundamental physics with ESPRESSO: Constraints on Bekenstein and dark energy models from astrophysical and local probes](https://arxiv.org/abs/2205.13848)
+
+   > Cosmology
+
+   在$\Lambda\rm CDM$模型下，使用`ESPRESSO`的测量，对精细结构常数$\alpha$进行约束。工作我看不明白，主要是看这个`意式浓缩`是什么。`ESPRESSO`是`Very Large Telescope`上的高分辨率光谱仪，为超高径向速度精度和高光谱保真度设计，在$378.2-788.7\rm nm$范围内以`140000/190000`的光谱分辨率进行观测，以进行系外行星研究和基础天体物理实验。
+
+## 2022-05-31
+
+1. [First discoveries and localisations of Fast Radio Bursts with MeerTRAP: a real-time, commensal MeerKAT survey](https://arxiv.org/abs/2205.14600)
+
+   > Fast Radio Burst, Discovery, MeerKAT, Galaxy
+
+   用`MeerKAT`发现了三个新的FRB，其中`FRB 20201123A`在200ms时间内有两次爆发，并且被定位在一个星系中。
+
+   <img src="Figures/image-20220531164652223.png" alt="image-20220531164652223" style="zoom:70%;" />
+
+2. [Discovery of a radio-emitting neutron star with an ultra-long spin period of 76 s](https://www.nature.com/articles/s41550-022-01688-x)
+
+   > Pulsar, Discovery, MeerKAT
+
+   用`MeerKAT`发现了一个超长周期$75.88\,\rm s$的脉冲星`PSR J0901-4046`，特征年龄是5.3Myr，一般中子星的自转周期是几毫秒到几十秒，并且随着年龄增大，速度减慢，射电辐射会停止。文章在NA上见刊，没贴到arXiv上。这个脉冲的脉冲形态跟FRB有些类似，并且还存在准周期。
+
+   <img src="Figures/image-20220531165109416.png" alt="image-20220531165109416" style="zoom:50%;" />
+
+3. [Water observed in the atmosphere of τ Bootis Ab with CARMENES/CAHA](https://arxiv.org/abs/2205.14975)
+
+   > Exoplanet, Spectrum, Water
+
+   使用`CARMENES`高分辨光谱仪在近红外，对非凌日热木星$\tau\rm Bootis\ Ab$的热辐射观测中发现了水。水在红外有明显的吸收，大概是在$1.4-1.8\,\rm \mu m$。
+
+4. [How have astronomers cited other fields in the last decade?](https://arxiv.org/abs/2205.14153)
+
+   > Astrostatistics
+
+   统计`2010-2020`年arXiv的天文文章的引用。12600篇天文文章引用了超过14531篇非天文的文章，其中广义相对论是引用最多的，这一趋势与引力波发现高度相关。计算机科学从2015年第一次引用至今，引用量翻了15倍。
+   
+5. [The Great Dimming of Betelgeuse seen by the Himawari-8 meteorological satellite](https://www.nature.com/articles/s41550-022-01680-5)
+
+   > Stellar, Spectrum, Betelgeuse
+
+   参宿四在2019年年底到2020年年初突然变暗，可能因为恒星`表面有效温度下降100K`或者恒星`抛射尘埃遮挡`，要区分这两种情况需要光学到中红外的光谱测光。
+
+   `Himawari-8`从2015年开始每10分钟给地球拍一张照，并且覆盖了从$450\,\rm nm-13.5\,\rm \mu m$的16个波段。尽管是用来观测地球的，但难免拍到一些别的恒星，其中就包括了参宿四。
+
+   从每个时间点的16个波段的辐射组成的SED中可以提取恒星半径、有效温度、尘埃消光、尘埃光深等参数，这样就可以得到高时间分辨率的这四个参数的时间变化。可以看到，参宿四在变暗期间，表面温度下降并且尘埃消光上升，也就是说两个原因对参宿四变暗的贡献几乎是相同的。
+
+   <img src="Figures/41550_2022_1680_Fig2_HTML.png" alt="img" style="zoom:50%;" />
+
+   这种在中红外波段、长时间、高时间分辨率、观测一颗恒星的数据，在目前的天文观测中几乎没有，而气象卫星竟然可以补上这块短板。这篇文章也是贴在了NA，没有挂到arXiv上。
+
+
+
