@@ -283,11 +283,11 @@
 
    <img src="Figures/image-20220531164652223.png" alt="image-20220531164652223" style="zoom:70%;" />
 
-2. [Discovery of a radio-emitting neutron star with an ultra-long spin period of 76 s](https://www.nature.com/articles/s41550-022-01688-x)
+2. [Discovery of a radio-emitting neutron star with an ultra-long spin period of 76 s](https://arxiv.org/abs/2206.01346)
 
    > Pulsar, Discovery, MeerKAT
 
-   用`MeerKAT`发现了一个超长周期$75.88\,\rm s$的脉冲星`PSR J0901-4046`，特征年龄是5.3Myr，一般中子星的自转周期是几毫秒到几十秒，并且随着年龄增大，速度减慢，射电辐射会停止。文章在NA上见刊，没贴到arXiv上。这个脉冲的脉冲形态跟FRB有些类似，并且还存在准周期。
+   用`MeerKAT`发现了一个超长周期$75.88\,\rm s$的脉冲星`PSR J0901-4046`，特征年龄是5.3Myr，一般中子星的自转周期是几毫秒到几十秒，并且随着年龄增大，速度减慢，射电辐射会停止。这个脉冲的脉冲形态跟FRB有些类似，并且还存在准周期。
 
    <img src="Figures/image-20220531165109416.png" alt="image-20220531165109416" style="zoom:50%;" />
 
