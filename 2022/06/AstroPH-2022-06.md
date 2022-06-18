@@ -92,3 +92,231 @@
 
 ## 2022-06-13
 
+1. [Quasi--Periodic Eruptions from Galaxy Nuclei](https://arxiv.org/abs/2206.04698)
+
+   > Galaxy Nuclei, Quasi Period, Eruption
+
+   目前已知的`星系核准周期喷发`，都可以用白矮星绕黑洞高度偏心轨道上的吸积来解释。这里表明，QPE系统中的质量转移始终是高度稳定的，但这种说法与最近文章中相反。这种稳定性可以解释在一些QPE系统中看到的长-短交替爆发的现象。随着引力波发射，白矮星轨道衰减，爆发占据轨道中更大的部分，并且变得更加明亮。
+
+## 2022-06-14
+
+1. [Meta-analysis of photometric and asteroseismic measurements of stellar rotation periods: the Lomb-Scargle periodogram, autocorrelation function, wavelet and rotational splitting analysis for 92 Kepler asteroseismic targets](https://arxiv.org/abs/2206.05411)
+
+   > Asteroseismology, Stellar, Period
+
+   对比`星震`测量和`光度`测量的恒星自转周期，样本包括70颗没有伴星的开普勒类太阳主序星。其中大多数恒星光度测量的周期表现出明显的季节差异，这表明光度测量周期是真正旋转周期的简化特征，尤其是存在较差自转的情况下。有一部分恒星光度测量周期季节变化小，跟星震测量结果一致。
+
+2. [Gaia Data Release 3: Astrophysical parameters inference system (Apsis) I -- methods and content overview](https://arxiv.org/abs/2206.05864)
+
+   > Gaia, Astrophysical Parameter
+
+   Gaia DR3天体物理参数目录介绍。`Apsis`包括16亿天体的分类和概率，4.7亿天体的星际介质特征和距离，包括2D银河系消光地图，600万个类星体红移和140万个星系红移。4.7亿天体的参数，包括等效温度、金属丰度、半径、质量、年龄、DIB、活动指数、$H_\alpha$等效宽度、光谱型和发射线星的进一步分类。
+
+   <img src="Figures/eDR3_flux_hammer_4000x2000_v1.png" alt="eDR3_flux_hammer_4000x2000_v1" style="zoom:50%;" />
+
+   <img src="Figures/c9outr126-skymap-ages-seismic_hp7_colorlabel_1000.png" alt="c9outr126-skymap-ages-seismic_hp7_colorlabel_1000" style="zoom:100%;" />
+
+3. [Gaia Data Release 3: Analysis of the Gaia BP/RP spectra using the General Stellar Parameterizer from Photometry](https://arxiv.org/abs/2206.06138)
+
+   > Gaia, Astrophysical Parameter
+
+    Gaia DR3恒星测光参数介绍。目录包括恒星参数、距离和消光。
+
+   <img src="Figures/skymap_gspphot_preview_0.1radSmooth_VminVmax0_4_SFRZoomInsAdded.png" alt="skymap_gspphot_preview_0.1radSmooth_VminVmax0_4_SFRZoomInsAdded" style="zoom:50%;" />
+
+4. [Gaia DR3 astrometric orbit determination with Markov Chain Monte Carlo and Genetic Algorithms. Systems with stellar, substellar, and planetary mass companions](https://arxiv.org/abs/2206.05439)
+
+   > Gaia, Binary, Planet, Satellite
+
+   Gaia DR3系外行星解决方案。天体测量发现围绕恒星运动的亚恒星质量的天体需要亚毫角秒的精度。这里用MCMC和遗传算法，用开普勒天体轨道模型拟合Gaia DR3在34个 月的天体测量时间序列，确定了1162个天体的轨道。文章里提供了Gaia Archive的检索方法，以及这些系统的轨道周期和偏心率等。
+
+   <video src="Figures/Gaia-TwoBody-Orbit.mp4"></video>
+
+5. [Gaia Data Release 3: Stellar multiplicity, a teaser for the hidden treasure](https://arxiv.org/abs/2206.05595)
+
+   > Gaia, Binary, Planet
+
+   Gaia DR3双星系统目录的说明。
+
+6. [Gaia Data Release 3: Analysis of RVS spectra using the General Stellar Parametriser from spectroscopy](https://arxiv.org/abs/2206.05541)
+
+   > Gaia, Spectroscopic
+
+   Gaia DR3光谱学模块介绍。Gaia上的径向速度光谱学模块`RVS`的`GSP-Spec`测量了大约560万颗恒星包括N、Mg、Si、S、Ca、Ti、Cr、FeI、FeII、Ni、Zr、Ce、Nd的大气化学丰度，`cyanogen`线的等效宽度、DIB特征等化学物理参数。
+
+7. [Gaia Data Release 3 Properties and validation of the radial velocities](https://arxiv.org/abs/2206.05902)
+
+   > Gaia, Radial Velocity
+
+   Gaia DR3径向速度的测量。与APOGEE、GALAH、GES和RAVE都有比较好的一致性。
+
+   <img src="Figures/Hammer_RadialVelProperMotion_1000.jpg" alt="Hammer_RadialVelProperMotion_1000" style="zoom:50%;" />
+
+8. [Gaia Data Release 3: G_RVS photometry from the RVS spectra](https://arxiv.org/abs/2206.05725)
+
+   > Gaia, Spectroscopic, Magnitude
+
+   Gaia DR3光谱估算星等的方法介绍。
+
+9. [Gaia Data Release 3. Stellar chromospheric activity and mass accretion from Ca II IRT observed by the Radial Velocity Spectrometer](https://arxiv.org/abs/2206.05766)
+
+   > Gaia, Spectroscopic, Chromosphere
+
+   Gaia DR3光谱观测的恒星色球层活动。`RVS`波长范围内的`Ca infrared triplet`是晚型恒星色球层中磁场活动的良好诊断方法。这里介绍推断恒星活动指数设计的方法。
+
+10. [Gaia Data Release 3: Chemical cartography of the Milky Way](https://arxiv.org/abs/2206.05534)
+
+    > Gaia, Stellar, Metallicity
+
+    Gaia DR3提供的完整银河系金属丰度的分布。这里用`RVS`测量的560万颗恒星的化学丰度，分析化学与银河结构、恒星运动学和轨道参数之间的关系。
+
+    <img src="Figures/SkyMapChemicalMapping_Fig2_0.31degperpix_300dpi.png" alt="SkyMapChemicalMapping_Fig2_0.31degperpix_300dpi" style="zoom:50%;" />
+
+11. [Gaia Data Release 3: Exploring and mapping the diffuse interstellar band at 862 nm](https://arxiv.org/abs/2206.05536)
+
+    > Gaia, ISM, Dust, Extinction
+
+    Gaia DR3中漫射星际带的分布。`Diffuse interstellar bands, DIBs`是光谱观测中常见的星际吸收特征，但来源仍不清楚。`DIBs`使用`RVS`测量，探索了距离太阳几千pc内银河系的ISM。将DIB与星际红化进行比较，发现DIB载体存在于太阳周期几乎不含尘埃的`local bubble`中。DIB的速度于CO气体速度之间显著的对应关系，表明$862nm$的DIB载体与大分子有关。
+
+    <img src="Figures/image-20220614130752058.png" alt="image-20220614130752058" style="zoom:50%;" />
+
+12. [Gaia Data Release 3: Hot-star radial velocities](https://arxiv.org/abs/2206.05486)
+
+    > Gaia, Stellar, Radial Velocity, Spectroscopic
+
+    Gaia DR3中热恒星的径向速度。DR3中最高的恒星有效温度到了$\rm T_{eff}=14500K$，在DR2中只有$6900K$。这里用RVS获得了热恒星$6900-14500K$的径向速度。
+
+    径向速度是通过比对测光光谱与光谱模板的多普勒频移确定的，在热恒星中，`Ca infrared triplet`和`H Paschen lines`的混淆和系统蓝移会导致RV的系统偏差。这里开发了一个特定的代码来改进光谱模板的选择，避免这种系统偏移。
+
+13. [Gaia Data Release 3: The second Gaia catalogue of Long-Period Variable candidates](https://arxiv.org/abs/2206.05745)
+
+    > Gaia, Variable, Long Period
+
+    Gaia DR3长周期变星目录。这里介绍了`LPVs`目录制作和内容，所有LPV测光深度低至20等，光变幅度大于0.1等。
+
+14. [Gaia Data Release 3. Rotational modulation and patterns of color variations in solar-like variables](https://arxiv.org/abs/2206.05500)
+
+    > Gaia, Stellar, Variable, Magnetic Field
+
+    Gaia DR3中由磁活动导致光变的恒星。这里为这种恒星开发了特定的数据处理流程，以获得这种变星的周期、光度振幅等参数。`周期-振幅`图中证实了DR2中已经发现的`fast rotating stars`的双峰分布，并可以分析恒星`星等-颜色`的变化模式。
+
+15. [Gaia Data Release 3: Pulsations in main sequence OBAF-type stars](https://arxiv.org/abs/2206.06075)
+
+    > Gaia, Stellar, Variable, Pulsation
+
+    Gaia DR3中光谱型为OBAF的中高质量$M\ge1.3M_\odot$的脉动变星目录。包括`beta Cep`、`slowly pulsating B, SPB`、`delta Sct`、 `gamma Dor`。
+
+16. [Gaia Data Release 3 Validating the classification of variable Young Stellar Object candidates](https://arxiv.org/abs/2206.05796)
+
+    > Gaia, Stellar, Variable, YSO
+
+    Gaia DR3年轻变星的目录。
+
+17. [Gaia Data Release 3: Ellipsoidal Variables with Possible Black-Hole or Neutron Star secondaries](https://arxiv.org/abs/2206.06032)
+
+    >  Gaia, Stellar, Binary, Variable
+
+    Gaia DR3中`Ellipsoidal`变星目录。这里给出了6306个短周期的椭圆变星的候选体，其相对较大的光度变化表明可能有一个大质量的伴星，如黑洞或者中子星。
+
+18. [Gaia DR3: Specific processing and validation of all-sky RR Lyrae and Cepheid stars -- The Cepheid sample](https://arxiv.org/abs/2206.06212)
+
+    > Gaia, Stellar, Variable, Cepheid
+
+    Gaia DR3中`Cepheid `变星目录。
+
+19. [Gaia DR3: Specific processing and validation of all-sky RR Lyrae and Cepheid stars -- The RR Lyrae sample](https://arxiv.org/abs/2206.06278)
+
+    > Gaia, Stellar, Variable, RR Lyrae
+
+    Gaia DR3中`RR Lyrae`变星目录。
+
+20. [Data Release 3: the Solar System survey](https://arxiv.org/abs/2206.05561)
+
+    > Gaia, Solar System, Asteroid
+
+    Gaia DR3太阳系天体调查。发布了超过15万个太阳系天体的天体测量参数和光度测量，以及60518个小行星的平均反射光谱。
+
+    <video src="https://dlmultimedia.esa.int/download/public/videos/2022/06/012/orig-2206_012_AR_EN.m4v"></video>
+
+21. [Gaia Data Release 3: The Gaia Andromeda Photometric Survey](https://arxiv.org/abs/2206.05591)
+
+    > Gaia, Galaxy, Andromeda
+
+    Gaia DR3对仙女座星系的光度测量。发布了以M31为中心的120万个天体的光变曲线，最终结果将随DR4一起发布。测量光度时发现，使用三个测光通带之间的相关性可以更清楚地识别变星。
+
+    <img src="Figures/image-20220614133338068.png" alt="image-20220614133338068" style="zoom:50%;" />
+
+22. [Gaia Data Release 3: The extragalactic content](https://arxiv.org/abs/2206.05681)
+
+    > Gaia, Extragalactic Object, Galaxy
+
+    Gaia DR3河外天体测量。使用监督机器学习识别了660万个类星体和480万个星系，使用低分辨率`BP/RP`光谱估计红移，最高红移超过了4。这里概述了和外天体的数据处理和数据产品。
+
+    <img src="Figures/pureQSO-result_7_hires.png" alt="pureQSO-result_7_hires" style="zoom:50%;" />
+
+23. [Gaia Data Release 3: Microlensing Events from All Over the Sky](https://arxiv.org/abs/2206.06121)
+
+    > Gaia, Microlensing
+
+    Gaia DR3微引力透镜目录。介绍了目录内容，数据覆盖2014年倒2017年的34个月，共363个透镜事件，其中90个是新的。数据也可以在[这里](https://www.astrouw.edu.pl/~wyrzykow/GaiaDR3/GaiaDR3_microlensing.html)获得。
+
+## 2022-06-15
+
+1. [Relic jet activity in "Hanny's Voorwerp" revealed by the LOFAR Two metre Sky Survey](https://arxiv.org/abs/2206.06378)
+
+   > Radio, LOFAR, Galaxy
+
+   LOFAR对`IC2497`星系周围的一个高电离区`Hanny's Voorwerp`在150MHz的观测。与eVLA在1.64GHz的观测表明扩展结构发射有陡峭的频率，意味着年龄大于$10^8\rm yr$。
+
+   <img src="Figures/image-20220615142052177.png" alt="image-20220615142052177" style="zoom:50%;" />
+
+2. [Gaia Data Release 3. Summary of the variability processing and analysis](https://arxiv.org/abs/2206.06416)
+
+   > Gaia, Stellar, Variable
+
+   Gaia DR3的变星目录。使用已发表的变星目录作为监督学习的训练集，从Gaia DR3的18亿天体中，分类出1050万个变星。这些变星都有相应的G/GBP/GRP时间序列，进一步可以区分为950万变星和100万个活动星系核或者类星体。最终细分为35种变星，并公布了额外的物理参数。
+
+3. [qrpca: A Package for Fast Principal Component Analysis with GPU Acceleration](https://arxiv.org/abs/2206.06797)
+
+   > Machine Learning, PCA, Software
+
+   `qrpca`可以使用GPU加速的PCA工具。
+
+## 2022-06-16
+
+1. [Hubble Space Telescope Observations of Active Asteroid P/2020 O1 (Lemmon-PANSTARRS)](https://arxiv.org/abs/2206.07703)
+
+   > Solar System, Asteroid, Comet, Hubble
+
+   Hubble对`P/2020 O1`的观测。质量损失在2020年8月达到峰值$<1\,\rm kg/s$，随后四个月下降到0。长时间的质量损失与升华起源一致，表明可能是含冰的主带彗星。光度测量显示了小核（半径420m）和高速旋转（周期小于2hr）。0.1mm颗粒弹射速度与核逃逸速度$0.3m/s$相当，大颗粒弹射速度低于逃逸速度，可能是冰的升华导致。如果确认是水冰升华，`P/2020 O1`将是半主轴最小的冰质小行星。
+
+2. [Mitigating radio frequency interference in CHIME/FRB real-time intensity data](https://arxiv.org/abs/2206.07292)
+
+   > Radio, CHIME, RFI
+
+   CHIME处理RFI的流程。
+
+   <img src="Figures/image-20220616213721282.png" alt="image-20220616213721282" style="zoom:50%;" />
+
+   <img src="Figures/image-20220616213737944.png" alt="image-20220616213737944" style="zoom:50%;" />
+
+## 2022-06-17
+
+1. [Gravitationally lensed quasars in Gaia -- IV. 150 new lenses, quasar pairs, and projected quasars](https://arxiv.org/abs/2206.07714)
+
+   > Gaia, Quasar, Lensing
+
+   Gaia DR2种筛选出来的175个透镜类星体候选的光谱跟踪观测，确认了86个透镜类星体，同时还发现4个新的透镜星系，红移范围$0.62-2.79$。
+
+   <img src="Figures/image-20220617121955929.png" alt="image-20220617121955929" style="zoom:80%;" />
+
+2. [Stellar ages, masses, extinctions and orbital parameters based on spectroscopic parameters of Gaia DR3](https://arxiv.org/abs/2206.07937)
+
+   > Gaia, Stellar, Parameter, Age
+
+   Gaia DR3恒星年龄、质量、消光和轨道参数，数据在[这里](https://ftp.oca.eu/pub/gkordo/GDR3/)。使用校准的大气参数、2MASS和Gaia DR3的测光以及基于视差的距离，用等龄线拟合出恒星的年龄、初始质量和红化值。对有径向速度和天体测量值的恒星推导轨道参数，包括偏心率、远心点、近心点和Zmax。小于9-10Gyr的恒星的年龄估算较为可靠，较老的恒星，估计年龄会更小。消光$A_V<2.5mag$的巨星和主序星年龄的不确定性约为2Gyr。
+
+   <img src="Figures/image-20220617123100181.png" alt="image-20220617123100181" style="zoom:50%;" />
+
+## 2022-06-20
+
