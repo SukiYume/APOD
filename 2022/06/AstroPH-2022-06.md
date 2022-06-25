@@ -320,3 +320,57 @@
 
 ## 2022-06-20
 
+1. [Could the "Wow" signal have originated from a stochastic repeating beacon?](https://arxiv.org/abs/2206.08374)
+
+   > Extraterrestrial Intelligence, SETI
+
+   1977年探测到的`Wow`信号仍然是至今发现的最引人注目的SETI信号。以前的工作很大程度上排除了周期（小于40小时）重复的假设。这里假设`Wow`信号是一个二项分布，推断信号的持续时间和事件率，以及信号是一个二项分布（随机过程）的可能性。
+
+2. [The Longest Delay](https://arxiv.org/abs/2206.08597)
+
+   > Gravitational Lensing, SDSS, Galaxy, Quasar, Light Curve
+
+   推断`SDSS J1004+4112`的时间延迟，是$\Delta t_{DC}=2458.47\pm1.02\,\rm day$，是迄今为止最长的引力透镜。
+
+## 2022-06-21
+
+黑奴解放日停更。
+
+## 2022-06-22
+
+1. [Differential Astrometry with Gaia: Investigating relativistic light deflection close to Jupiter](https://arxiv.org/abs/2206.09886)
+
+   > Astrometry, Gaia, Jupiter
+
+   背景星光经过木星周围会发生偏转。在Gaia视场中，木星是一个明亮的展源，因此测量微弱的光线偏转是极为困难的。这里使用Gaia多次观测到最接近木星的明亮目标星的数据，检测到光线的相对论偏转，证明了Gaia在极端观测条件下的科学性能。
+
+2. [BURSTT: Bustling Universe Radio Survey Telescope for Taiwan](https://arxiv.org/abs/2206.08983)
+
+   > Fast Radio Burst, Telescope
+
+   湾湾提出的探测和定位FRB的望远镜阵`Bustling Universe Radio Survey Telescope for Taiwan, BURSTT`，视场$104\,\rm deg^2$，工作在$300-800\,\rm MHz$。起初由256个天线组成，之后逐渐扩展，预计每年探测到100个明亮的$>100\,\rm Jy\cdot ms$的FRB，并定位到亚角秒。
+
+   <img src="Figures/image-20220622121241496.png" alt="image-20220622121241496" style="zoom:70%;" />
+
+## 2022-06-23
+
+1. [Gaia Data Release 3: Properties of the line broadening parameter derived with the Radial Velocity Spectrometer (RVS)](https://arxiv.org/abs/2206.10986)
+
+   > Gaia, Radial Velocity, Line Broadening
+
+   Gaia DR3的RVS光谱的径向速度和线宽。DR3包括了33,812,183颗有效温度在3100K到14,500K之间的恒星的径向速度。尽管线宽与其它项目，如GALAH、APOGEE和LAMOST的一致性比较好，但是在使用这个测量值仍需谨慎。在$V\sin i$较小时，线宽被高估，$T_{\rm eff}>7500K,\ GRVS>10$时，线宽的质量和意义迅速降低。
+
+   <img src="Figures/image-20220624002123435.png" alt="image-20220624002123435" style="zoom:50%;" />
+
+## 2022-06-24
+
+1. [On the relation between duration and energy of non-repeating fast radio bursts: census with the CHIME data](https://arxiv.org/abs/2206.11330)
+
+   > Fast Radio Burst, Population
+
+   结合无监督机器学习对CHIME的目录中非重复FRB的分类，发现$z<0.3$的非重复FRB的能量和持续时间之间有微弱的相关性，这意味着或许可以从持续时间估计能量，从而提供一个新的宇宙学距离的测量方法。
+
+   <img src="Figures/image-20220624163938255.png" alt="image-20220624163938255" style="zoom:50%;" />
+
+## 2022-06-27
+
