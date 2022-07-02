@@ -374,3 +374,83 @@
 
 ## 2022-06-27
 
+1. [Gaia Data Release 3: Reflectance spectra of Solar System small bodies](https://arxiv.org/abs/2206.12174)
+
+   > Gaia, Solar System, SSO, Astroid
+
+   Gaia DR3中60,518个太阳系天体的平均反射光谱。反射光谱来自于BP/RP光度计的测量结果，其中明亮的SSO的反射率光谱和文献中的结果一致性比较好。
+
+2. [A Flat-Spectrum Radio Transient at 122 Mpc consistent with an Emerging Pulsar Wind Nebula](https://arxiv.org/abs/2206.11911)
+
+   > Radio, Transient, Pulsar, Magnetar, Fast Radio Burst
+
+   `VT 1137-0337`是VLA巡天观测中发现的一个不寻常的射电暂现源，位于一个矮星爆星系中（质量$10^{8.3}M_\odot$，恒星形成率$0.5M_\odot/yr$，光度距离$121.6\,\rm Mpc$，3GHz光度$2.5\times10^{28}\,\rm erg/s/Hz$），射电光谱$\propto\nu^{-0.35\pm0.02}$并且在4年内以每年5%的速度衰减，不能直接用恒星爆炸的冲击来解释，可能是一个有几十年历史的脉冲星风星云，最近才从超新星喷射物中透射出来。
+
+   <img src="Figures/image-20220627170400901.png" alt="image-20220627170400901" style="zoom:50%;" />
+   
+   FRB的PRS的射电光谱、光谱指数和宿主星系的特性与`VT 1137-0337`有惊人的相似之处。
+
+## 2022-06-28
+
+1. [Random Processes With Power Law Spectral Density](https://arxiv.org/abs/2206.12722)
+
+   > Random Process, Spectrum
+
+   提出一个有幂律频谱密度的离散随机过程的统计模型。
+
+## 2022-06-29
+
+1. [Quasars as high-redshift standard candles](https://arxiv.org/abs/2206.13528)
+
+   > Quasar, Cosmology, Redshift, Standard Candle
+
+   类星体的X射线和UV光度之间的非线性关系可以用来推导类星体的距离，并建立红移$z\sim7$的哈勃图，这样的应用是基于红移和光度相互独立的假设。
+
+   这里对130个$z>2.5$的类星体进行逐一分析，并进行了高质量的X射线和紫外光谱观测，发现二者之间的相关性依然存在，并且弥散非常小。因此可以安全地用于推导类星体的距离。
+
+   <img src="Figures/image-20220630002151131.png" alt="image-20220630002151131" style="zoom:50%;" />
+
+2. [An Injection System for the CHIME/FRB Experiment](https://arxiv.org/abs/2206.14079)
+
+   > Fast Radio Burst, CHIME, Simulation
+
+   FRB搜索的选择效应会使观察到的事件出现偏差。这里介绍了CHIME的模拟FRB注入系统，模拟了85,000个FRB并进行搜索，发现注入的FRB的`Fluence`和`SNR`之间的相关性与之前公布的第一个目录相同。但是望远镜的灵敏度随爆发宽度的变化而强烈变化，但是不随色散变化。一个模拟脉冲的代码在[这里](https://github.com/kmsmith137/simpulse)。
+
+3. [Detecting Cosmic Strings with Lensed Fast Radio Bursts](https://arxiv.org/abs/2206.13534)
+
+   > Fast Radio Burst, Cosmology, String
+
+   脉冲星计时观测中的红噪声可能是`Cosmic String`发出的随机引力波，这些`宇宙弦`在大统一能量尺度附近的原始相变中形成。一致的宇宙弦探测器，即`CMB各向异性`和`河外星系透镜`对$G_\mu=10^{-10}-10^{-7}$的`low string tensions`不够敏感。这里表明FRB的强引力透镜是探测这一范围的弦张力的潜在手段。
+
+4. [Audible universe](https://arxiv.org/abs/2206.13542)
+
+   > Fast Radio Burst, Audio, Sonify
+
+   Casey搞的FRB频谱声化，视频[在这](https://www.youtube.com/watch?v=i3x0sBCQ_c8)。
+
+## 2022-06-30
+
+1. [Stellar prospects for FRB gravitational lensing](https://arxiv.org/abs/2206.14310)
+
+   > Fast Radio Burst, Cosmology, Gravitational Lensing
+
+   FRB的引力透镜在宇宙学中的应用。FRB的引力透镜延迟时间尺度从微秒到年，对应的透镜质量横跨15个数量级，前景星系中的恒星透镜将在微秒时间尺度上占主导。
+
+   未来的巡天中，如DSA-2000，将约束致密天体中暗物质的比例，并可能探测到来自中等质量黑洞的`millilensing`事件。另外，FRB的引力透镜还可以直接测量`circumgalactic medium `。
+
+2. [The Astropy Project: Sustaining and Growing a Community-oriented Open-source Project and the Latest Major Release (v5.0) of the Core Package](https://arxiv.org/abs/2206.14220)
+
+   > Astropy, Software
+
+   `Astropy`5.0版本的主要功能。
+
+   <img src="Figures/image-20220630143602084.png" alt="image-20220630143602084" style="zoom:50%;" />
+
+3. [A baseline correction algorithm for FAST](https://arxiv.org/abs/2206.14544)
+
+   > Radio, Spectrum
+
+   紫台的人搞的FAST基线校正，用FFT和包络线校正基线去驻波。
+   
+   <img src="Figures/image-20220630143648067.png" alt="image-20220630143648067" style="zoom:50%;" />
+
