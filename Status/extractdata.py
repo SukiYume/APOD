@@ -52,6 +52,7 @@ def extract_data(markdown_path):
     data = pd.concat(data_list)
     noupdate = data.loc[data.content.str.contains('停更')]
     data = data.loc[~data.content.str.contains('停更')]
+    data = data.sort_values(by='date')
     data = data.reset_index(drop=True)
     
     count_data = pd.DataFrame({'Month': data.drop_duplicates('date').groupby('month').count().date.index.values,

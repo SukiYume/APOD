@@ -92,3 +92,63 @@
 
 ## 2022-07-11
 
+1. [Mapping Milky Way disk perturbations in stellar number density and vertical velocity using Gaia DR3](https://arxiv.org/abs/2207.03492)
+
+   > Gaia, Galaxy, Kinematics
+
+   用`StarHorse`的照片测距信息补充`Gaia DR3`的数据，绘制银河系恒星盘的数量密度和垂直速度，距离太阳几kpc。
+
+## 2022-07-12
+
+1. [Classification of Fermi-LAT unidentified gamma-ray sources using CatBoost gradient boosting decision trees](https://arxiv.org/abs/2207.04725)
+
+   > Machine Learning, Fermi, Classification
+
+   用`CatBoost`对Fermi的$\gamma$射线目录进行分类。
+
+## 2022-07-13
+
+1. [pocoMC: A Python package for accelerated Bayesian inference in astronomy and cosmology](https://arxiv.org/abs/2207.05660)
+
+   > Software, MCMC
+
+   [pocoMC](https://github.com/minaskar/pocomc)用于加速贝叶斯推理的库，
+
+## 2022-07-14
+
+1. [Visualizing the pulsar population using graph theory](https://arxiv.org/abs/2207.06311)
+
+   > Pulsar, Classification
+
+   用PCA分析脉冲星参数，包括自转周期$P$，周期导数$\dot P$，表面磁通密度$B_s$，光柱处磁场$B_{lc}$，能量耗散率$\dot E_{sd}$，特征年龄$\tau_c$，表面电压$\Delta\Phi$，Goldreich-Julian电荷密度$\eta_{GJ}$，尽管其他参数都可以由周期以及周期导数近似表示， 但是在PCA中，周期和周期导数不是主成分，意味着至少有第三个量参与特征空间的构建。这用`Minimum Spanning Tree`来给脉冲星画树，类似基因图谱。
+
+   <img src="Figures/image-20220714095150072.png" alt="image-20220714095150072" style="zoom:50%;" />
+
+## 2022-07-15
+
+1. [Gaia Data Release 3: The first Gaia catalogue of variable AGN](https://arxiv.org/abs/2207.06849)
+
+   > Gaia, AGN
+
+   Gaia DR3的AGN目录。
+
+2. [Precision modeling of Webb's first cluster lens SMACSJ\,0723.3−7327](https://arxiv.org/abs/2207.07101)
+
+   > JWST, Lensing
+
+   `SMACS J0723.3-7323`是红移0.388的大质量星团，这里对JWST在这里观测的引力透镜做模型，如下图。
+
+   <img src="Figures/image-20220715140620142.png" alt="image-20220715140620142" style="zoom:50%;" />
+
+3. [Unscrambling the lensed galaxies in JWST images behind SMACS0723](https://arxiv.org/abs/2207.07102)
+
+   > JWST, Lensing, Galaxy
+
+   从`SMACS J0723.3-7323`的引力透镜中分辨了13个`multiply lensed`星系，并且还找到了一个``爱因斯坦十字``的候选体。
+
+   <img src="Figures/image-20220715143604815.png" alt="image-20220715143604815" style="zoom:50%;" />
+
+## 2022-07-18
+
+
+
