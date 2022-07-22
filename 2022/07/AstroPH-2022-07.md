@@ -150,5 +150,97 @@
 
 ## 2022-07-18
 
+1. [A Probabilistic Autoencoder for Type Ia Supernovae Spectral Time Series](https://arxiv.org/abs/2207.07645)
 
+   > Machine Learning, Supernovae, Spectrum
+
+   用概率自动编码器，从Ia型超新星的光谱时间序列中学习物理参数。
+
+   <img src="Figures/image-20220718155327493.png" alt="image-20220718155327493" style="zoom:50%;" />
+
+2. [Beyond UVJ: Color Selection of Galaxies in the JWST Era](https://arxiv.org/abs/2207.07170)
+
+   > Galaxy, Color Color Selection
+
+   使用$u_s-g_s$和$g_s-i_s$颜色来选择恒星形成星系和宁静星系。常用的方法是$U-V$和$V-J$颜色来选择，但是在$z\ge3$的位置，这种方法选择出来的样本包含大量的尘埃遮蔽星系和强发射线星系。新方法做了改进，并且可以应用于JWST的星系。
+
+   在$0.5<z<6$的星系中做测试，完备性与`UVJ`方法差不多，但是污染少了两倍。
+
+## 2022-07-19
+
+1. [A first look at the SMACS0723 JWST ERO: spectroscopic redshifts, stellar masses and star-formation histories](https://arxiv.org/abs/2207.08778)
+
+   > JWST, Lensing, Galaxy
+
+   JWST观测的`SMACS J0723.3-7327`透镜中的10个NIRSpec（$\lambda_{obs}=1.8-5.2\mu m$，$R=\lambda/\Delta\lambda=1000$）新测量的星系光谱的分析。
+
+   其中$1<z<3$的五个天体有多条红外帕申线（$n\ge4\rightarrow3$），$5<z<9$的五个天体有光学氧和氢巴尔默线（$n\ge3\rightarrow2$）。
+
+   <img src="Figures/image-20220719130109108.png" alt="image-20220719130109108" style="zoom:50%;" />
+
+   与HST的光度测量结合，分析SED，分析恒星质量、平均恒星年龄、以及恒星形成历史等。
+
+2. [One-loop correction to the enhanced curvature perturbation with local-type non-Gaussianity for the formation of primordial black holes](https://arxiv.org/abs/2207.07668)
+
+   > Cosmology, Dark Matter, PBH
+
+   大学同学孟徳双的文章。原初黑洞`Primordial Black Holes, PBHs`可能是冷暗物质的候选，由曲率扰动的过密区域塌缩形成。在暴涨模型中，增强的曲率扰动是非高斯的，因此对曲率功率谱的高阶`loop`修正是不能忽略的，也会改变PBHs的丰度。这里计算的是曲率功率谱的`one-loop`修正。
+
+3. [Radio detection of an elusive millisecond pulsar in the Globular Cluster NGC 6397](https://arxiv.org/abs/2207.07880)
+
+   > Pulsar
+
+   张蕾的文章，我有参与。讲的是用Parkes在球状星团`NGC 6397B`中探测到一个轨道周期为1.97天、自转周期为5.78ms的毫秒脉冲星双星系统。这个轨道周期是球状星团中双星系统最长的，并且与之前的X射线源的轨道周期一致。
+
+4. [PARSEC V2.0: Stellar tracks and isochrones of low and intermediate mass stars with rotation](https://arxiv.org/abs/2207.08642)
+
+   > Stellar, Age, Isochrone, Software
+
+   [PARSEC](http://stev.oapd.inaf.it/PARSEC/index.html) [v2](http://stev.oapd.inaf.it/YBC/)是一个恒星演化轨迹和等龄线工具，覆盖了恒星质量$0.09-14M_\odot$和金属丰度$Z=0.004-0.017$。
+
+5. [TESS light curves of cataclysmic variables I -- Unknown periods in long-known stars](https://arxiv.org/abs/2207.08203)
+
+   > TESS, Variable
+
+   `Transiting Exoplanet Survey Satellite, TESS`将监测超过200,000颗恒星是否因为凌日导致亮度变化，已于2018年发射。
+
+   灾变变星`CVs`的大量光变细节需要长时且不间断的观测，TESS提供的长达一个月的数据很适合这一目标。这里介绍的是在新星中寻找周期性变化。
+
+## 2022-07-20
+
+1. [A Convolutional Neural Network Approach to Supernova Time-Series Classification](https://arxiv.org/abs/2207.09440)
+
+   > Machine Learning, Supernovae, Classification
+
+   普通卷积神经网络对超新星光变曲线做分类。
+
+   <img src="Figures/image-20220720105221741.png" alt="image-20220720105221741" style="zoom:50%;" />
+
+## 2022-07-21
+
+1. [Linear change and minutes variability of solar wind velocity revealed by FAST](https://arxiv.org/abs/2207.09612)
+
+   > Solar System, Solar Wind
+
+   行星际闪烁`Interplanetary Scintillation, IPS`可以用于研究太阳风和空间天气。这里介绍FAST在2020年9月对IPS的观测，发现太阳风速度随频率线性下降，并且在3-5分钟的时间尺度上会发生变化，意味着背景太阳风缓慢变化。
+
+2. [Do Pulsar and Fast Radio Burst dispersion measures obey Benford's law?](https://arxiv.org/abs/2207.09696)
+
+   > Fast Radio Burst, Math
+
+   `Benford's Law`描述的是实际生活中的数字首位的频率分布，1开头的数字大概占到30%
+   $$
+   P(n)=\log_b(n+1)-\log_b(n)=\log_b\left(\frac{n+1}{n}\right)
+   $$
+   这里做的是脉冲星和FRB的DM值的第一位数字的分布发现不服从`Benford's Law`。
+
+## 2022-07-22
+
+1. [Rest-frame near-infrared sizes of galaxies at cosmic noon: objects in JWST's mirror are smaller than they appeared](https://arxiv.org/abs/2207.10655)
+
+   > JWST, Galaxy, Structure
+
+   研究星系大小在宇宙时间中的演化以测试星系形成模型，但是缺乏深度红外成像限制了$z\ge1$的研究。 这里从JWST的EGS深场成像中测量出1000个$\log M_*/M_\odot\ge9,\ 1.0\le z\le2.5$的星系在$4.4\mu m$的大小，并与$1.5\mu m$下的大小进行对比。发现星系的半光度半径在$4.4\mu m$下比$1.5\mu m$下小8%，这一差异随恒星质量增大或者颜色变红而增加。
+
+## 2022-07-25
 
