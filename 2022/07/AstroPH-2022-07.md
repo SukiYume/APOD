@@ -244,3 +244,77 @@
 
 ## 2022-07-25
 
+1. [Globally optimal and scalable N-way matching of astronomy catalogs](https://arxiv.org/abs/2207.11125)
+
+   > Stellar, Cross Match, Software
+
+   新的概率方法做星表之间的交叉匹配，在处理多个目录时比列举所有可能的候选天体更有优势，代码在[这里](https://github.com/tunguyen52/Nway-matching)。
+
+2. [Image Improvement and Restoration in Optical Time Series. I. The Method](https://arxiv.org/abs/2207.10973)
+
+   > Planetary, Lensing, Image Restoration
+
+   流浪行星由于没有束缚在恒星上，所以无法通过传统的系外行星探测方法，如凌日、径向速度、直接成像等方式来搜索。流浪行星经过背景恒星可以造成微引力透镜，或许可以做为在球状星团中搜寻流浪行星的探针。通常对球状星团图像的时间序列做微分，以提取光变事件，并判断其中是否存在微引力透镜。但是在长期观测中，仪器的异常、观测条件的变化会导致PSF失真，从而影响微分的质量。
+
+   这里提出一种迭代图像重建（天文图像修复）方法，在`Scaled Gradient Projection`算法的基础上修改，以恢复恒星的形状，代码在[这里](https://github.com/Yash-10/fc_sgp-star-restoration)。
+
+## 2022-07-26
+
+1. [First Batch of Candidate Galaxies at Redshifts 11 to 20 Revealed by the James Webb Space Telescope Early Release Observations](https://arxiv.org/abs/2207.11558)
+
+   > JWST, Galaxy, Redshift
+
+   HST的红外截止波长是$1.6\mu m$，对应红移11，宇宙年龄4.2亿年，JWST的`NIRCam`延伸到$5\mu m$，对应宇宙年龄千万年，可以带来对第一批恒星和星系形成过程的认识。JWST观测的`SMACS 0723-73`透镜星系团处，使用SED拟合测光红移，找到88个红移大于11的星系，最高的可以到20。黄家生老师他们的文章。
+
+2. [Four New Fast Radio Bursts Discovered in the Parkes 70-cm Pulsar Survey Archive](https://arxiv.org/abs/2207.12332)
+
+   > Fast Radio Burst
+
+   在Parkes历史数据里找到4个新的FRB，宽度$>50ms$普遍长于目前发现的FRB，其中一个FRB的DM是$3338\,\rm pc/cm^{3}$，是目前DM最大的FRB，并且在时间上也比Lorimer Burst早了10年。
+
+## 2022-07-27
+
+1. [Formation of Comets](https://arxiv.org/abs/2207.12731)
+
+   > Planetary, Comet
+
+   彗星形成综述，描述彗星从太阳星云中的尘埃和冰粒到外太阳系小天体的物理演变。
+
+   <img src="Figures/image-20220727163402950.png" alt="image-20220727163402950" style="zoom:50%;" />
+
+2. [How to plan your astronomy research paper in ten steps](https://arxiv.org/abs/2207.12959)
+
+   > Astronomy, Methodology
+
+   十步构建天文论文。
+
+## 2022-07-28
+
+1. [High frequency study of FRB 20180916B using the 100-m Effelsberg radio telescope](https://arxiv.org/abs/2207.13669)
+
+   > Fast Radio Burst, Observation
+
+   Effelsberg在$4-8GHz$对`FRB20180916B`的观测，在一个活动窗口找到了8个爆发，比CHIME的活动峰值早了3.6天，进一步证明随频率增加活动窗口提前。与低频比，爆发宽度更窄并且频谱更宽，偏振度高并且偏振角平坦。爆发表现出银河导致的衍射闪烁，并随时间推移而变化。
+
+   <img src="Figures/image-20220728105938287.png" alt="image-20220728105938287" style="zoom:50%;" />
+
+2. [The Sources of Fast Radio Bursts](https://arxiv.org/abs/2207.13241)
+
+   > Fast Radio Burst, Theory
+
+   `J. I. Katz`的文章，记录了重复FRB和非重复FRB的划分征集，并讨论了不同类别可能的模型，重复FRB可能是黑洞吸积盘，非重复FRB可能是SGR。
+
+## 2022-07-29
+
+1. [The Eclipse Megamovie Project (2017)](https://arxiv.org/abs/2207.13704)
+
+   > Solar System, Eclipse
+
+   北美天文爱好者在2017年8月21日拍摄的日全食的影像数据资料，在[这里](http://eclipsemegamovie.org/)。
+
+2. [Turbulence in the outer heliosphere](https://arxiv.org/abs/2207.14115)
+
+   > Solar System, Turbulence, Review
+
+   关于太阳风（SW）和近地星际介质（LISM）中湍流观测证据、建模工作以及公开的挑战的总数。
+
