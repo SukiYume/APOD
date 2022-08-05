@@ -148,7 +148,7 @@
 
    > Fast Radio Burst, Cosmology
 
-   将有定位的FRB的DM数据和超新星数据结合，分析星系间介质重子质量比例$f_{\rm IGM}$，提出一种不依赖模型的方法，证明$f_{\rm IGM}$是随红移不断演化的。
+   将有定位的FRB的DM数据和超数据结合，分析星系间介质重子质量比例$f_{\rm IGM}$，提出一种不依赖模型的方法，证明$f_{\rm IGM}$是随红移不断演化的。
 
 2. [A Highly Variable Magnetized Environment in a Pulsar Binary resembling Fast Radio Bursts](https://arxiv.org/abs/2205.07917)
 
