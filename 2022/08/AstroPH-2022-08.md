@@ -180,3 +180,79 @@
 
 ## 2022-08-15
 
+1. [Solar and stellar activity cycles -- no synchronization with exoplanets](https://arxiv.org/abs/2208.06190)
+
+   > Solar, Stellar, Periodicity
+
+   太阳和恒星的周期性活动可以由发电机产生的磁场来解释。这里比较了系外行星的特征和其相关恒星的活动变化，发现行星的引力不会影响恒星的周期活动。但是，强大的引力影响可能会完全消除恒星的周期性变化。
+
+## 2022-08-16
+
+1. [A method for reconstructing the Galactic magnetic field using dispersion of fast radio bursts and Faraday rotation of radio galaxies](https://arxiv.org/abs/2208.06417)
+
+   > Fast Radio Burst, Magnetic Field
+
+   根据FRB的RM和DM估计平行于视线方向的银河系磁场$B_{\|}$。其中河外DM贡献是重建磁场的主要障碍，这里通过模拟DM来改善重建的方法。
+
+2. [Detection of weak ubiquitous impulsive nonthermal emissions from the solar corona](https://arxiv.org/abs/2208.07147)
+
+   > Solar Flare
+
+   `nanoflare hypothesis`，弱能量释放是导致日冕加热的最可能的原因。这种微弱的加热事件相关的加速电子产生的辐射（等离子体不稳定产生相干脉冲发射）有希望通过米波射电探测。这里从`Murchison Widefield Array`的数据中分离缓变和脉冲成分，探测到了发生在太阳各处的毫秒级爆发。其中发现了可能是最弱的III型暴以及另一个表现出最弱的准周期脉动的特征。
+
+3. [A polynomial-time algorithm for deciding the Hilbert Nullstellensatz in $\mathscr{P}_n^{\Z_2}$. A proof of P=NP hypothesis](https://arxiv.org/abs/2208.07327)
+
+   > Mathematics
+
+   证明P=NP。我不太信。
+
+## 2022-08-17
+
+1. [The JCMT Transient Survey: Single Epoch Transients and Variability of Faint Sources](https://arxiv.org/abs/2208.07815)
+
+   > JCMT, Stellar, Flare
+
+   用JCMT探测恒星毫米波段的短时耀斑。这里描述了对8个`Gould Belt`恒星形成区的观测，每个区域直径30角分，总共包括1200个YSO，平均观测47次，积分时间半个小时。
+
+   在这些数据中，只找到两个源的耀斑探测，`OMC 2/3 的 JW 566`和`NGC 2023 的 MGM12 2864`。前者耀斑亮度是探测阈值$55\,\rm mJy/beam$的8倍，但是这个亮度的耀斑和探测极限之间没有别的耀斑探测。后者在所有观测的时间尺度上都是高度可变的。
+
+## 2022-08-18
+
+1. [The effects of plasma on the magnification and time delay of strongly lensed fast radio bursts](https://arxiv.org/abs/2208.08208)
+
+   > Fast Radio Burst, Lensing, Theory
+
+   FRB的射电信号在传播过程中会受到星系引力影响产生透镜效应。除此之外，还会受到星系中等离子体的偏转，导致与频率相关的时间延迟。这种引力+等离子体的色散延迟与普通的透镜导致的几何延迟不同，前者导致的频率-时间延迟关系在不同图像中表现出不同的行为。
+
+2. [Faraday conversion in pair-symmetric winds of magnetars and Fast Radio Bursts](https://arxiv.org/abs/2205.13435v2)
+
+   > Fast Radio Burst, Rotation Measure, Polarization
+
+   与2021-11-02第二篇文章有重叠。一条结论是，在强磁场下
+   $$
+   RM\propto \frac{2e^2}{m_e c^2}DM=1.7\times10^4\times DM\, \rm m^{-1}
+   $$
+   即RM与磁场强度无关。
+
+## 2022-08-19
+
+1. [Overview of the DESI Milky Way Survey](https://arxiv.org/abs/2208.08514)
+
+   > Stellar, Survey, Galaxy
+
+   `Dark Energy Spectroscopic Instrument, DESI`是`Kitt Peak National Observatory`的4米光学望远镜上的光谱仪。未来5年，将会在银纬$|b|>20^\circ$的700万颗恒星，包括几个高完备性的恒星类型样本，包括白矮星、距离太阳100pc的低质量恒星和水平支恒星。主要的科学任务是研究银河系结构和恒星演化。
+
+2. [Faraday Rotation Measure Variations of Repeating Fast Radio Burst Sources](https://arxiv.org/abs/2208.08712)
+
+   > Fast Radio Burst, Rotation Measure, Polarization, Theory
+
+   FRB的RM变化可能的物理过程，包括超新星遗迹、恒星风/耀斑的双星系统、脉冲星风星云、大质量黑洞的外流。不太可能是低质量恒星的耀斑引起的，因为这要求短时间发生大的RM变化。杨元培的文章。
+
+3. [Repeating Ultraluminous X-ray Bursts and Repeating Fast Radio Bursts: A Possible Association?](https://arxiv.org/abs/2208.08972)
+
+   > Fast Radio Burst, X-ray
+
+   `Ultraluminous X-ray bursts`是快速上升`1min`缓慢衰减`1hour`的超光速X射线耀斑，通常在河外球状星团中观测到。大多数ULXB只爆发一次，而NGC 5128中之前探测到5个。这里提出了一个解释重复X射线暴的模型，具有超爱丁顿吸积率的中子星和白矮星的双星模型，ULXB是中子星磁极周围的吸积柱产生的。这里觉得重复的ULXB和FRB可能有联系，或许可以对附近银河系外球状星团观测来证实。
+
+## 2022-08-22
+
