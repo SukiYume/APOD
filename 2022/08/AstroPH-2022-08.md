@@ -256,3 +256,59 @@
 
 ## 2022-08-22
 
+1. [New Velocity Measurements of NGC 5128 Globular Clusters out to 130 kpc: Outer Halo Kinematics, Substructure and Dynamics](https://arxiv.org/abs/2208.08997)
+
+   > Stellar, Cluster, Galaxy, Dynamics
+
+   用`Magellan`和`Anglo-Australian`望远镜观测`NGC 5128`周围的球状星团，共174个，其中122新确认，测量了球状星团的径向速度和质量。
+
+   <img src="Figures/image-20220823004709465.png" alt="image-20220823004709465" style="zoom:50%;" />
+
+## 2022-08-23
+
+1. [Prospects of strongly lensed fast radio bursts: Simultaneous measurement of post-Newtonian parameter and Hubble constant](https://arxiv.org/abs/2208.10175)
+
+   > Fast Radio Burst, Cosmology, Gravitational Lensing
+
+   用透镜FRB估计哈勃常数和后牛顿参数。受引力透镜的FRB的不同`image`的时间延迟可能有$\sim10\,\rm days$。
+
+   <img src="Figures/image-20220823213009706.png" alt="image-20220823213009706" style="zoom:50%;" />
+
+## 2022-08-24
+
+1. [Virtual ALMA Tour in VRChat: A Whole New Experience](https://arxiv.org/abs/2208.10740)
+
+   > ALMA, Astronomy
+
+   在VRCHAT里看ALMA，真不愧是日本人整的活。
+
+   <img src="Figures/image-20220824192442168.png" alt="image-20220824192442168" style="zoom:50%;" />
+
+2. [Pulsar Wind Nebulae](https://arxiv.org/abs/2208.11026)
+
+   > Pulsar, Pulsar Wind Nebula, Magnetic Field
+
+   脉冲星风星云是由脉冲星驱动的结构，在整个电磁波段几乎都可探测，并且不同波段形态和光谱行为都不同。脉冲星会不断地向PWN中注入正负电子，但是数量会减少，星风星云的亮度和光谱变化反映了PWN内部的磁场结构和粒子传输。
+
+   这是`Handbook of X-ray and Gamma-ray Astrophysics`的一章，描述PWN在奇迹哥演化阶段的一些特征。
+
+## 2022-08-25
+
+1. [A reanalysis of the latest SH0ES data for H0: Effects of new degrees of freedom on the Hubble tension](https://arxiv.org/abs/2208.11169)
+
+   > Cosmology, Galaxy, Hubble Tension
+
+   重分析`SH0ES`的数据，发现如果`SNIa`的绝对星等$M_B$允许在$D_c=50\,\rm Mpc,\ 160Myrs\ ago$发生`transition`，那么哈勃常数的拟合值就会与Planck一致。用`Mathematica`写的，代码[在这](https://github.com/FOTEINISKARA/A-reanalysis-of-the-SH0ES-data-for-H_0)。
+
+## 2022-08-26
+
+1. [Variability Catalog of Stars Observed During the TESS Prime Mission](https://arxiv.org/abs/2208.11721)
+
+   > TESS, Variable, Catalog
+
+   TESS主要任务期间，以2分钟的观测节奏观测了超过232,000颗恒星，覆盖70%的天空，其中找到了40,000个高置信度的周期变星和50,000个中等置信度变星。下图是周光关系。
+
+   <img src="Figures/image-20220826134235251.png" alt="image-20220826134235251" style="zoom:50%;" />
+
+## 2022-08-29
+
