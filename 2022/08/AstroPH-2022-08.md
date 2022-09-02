@@ -312,3 +312,39 @@
 
 ## 2022-08-29
 
+1. [3-D selection of 167 sub-stellar companions to nearby stars](https://arxiv.org/abs/2208.12720)
+
+   > Exoplanet
+
+   分析`Gaia`和`Hipparcos`天体测量数据中，至少有5次高精度径向速度测量的5108颗恒星，其中有914颗径向速度的周期长于`1000d`，并确定了其中167个冷巨星和68个其他类型的伴星，9个恒星系统之前被直接成像，估计样本中还有10个以上的恒星系统可以被目前的成像系统碳测到，从而将成像的冷巨行星扩大一个数量级。
+
+   <img src="Figures/image-20220829133828760.png" alt="image-20220829133828760" style="zoom:50%;" />
+
+## 2022-08-30
+
+1. [DM-power: an algorithm for high precision dispersion measure with application to fast radio bursts](https://arxiv.org/abs/2208.13677)
+
+   > Fast Radio Burst, Software, Dispersion Measure, DM
+
+   [DM-power](https://github.com/hsiuhsil/DM-power)，在傅里叶域做加权优化FRB的DM，优化子结构。试了一下，很慢，$512\times512$的数据需要7分钟，并且在拉直成分上也有一些问题。比如下图，1/3列是原始DM，2/4列是优化后的DM。
+
+   <img src="Figures/image-20220830140022220.png" alt="image-20220830140022220" style="zoom:50%;" />
+
+## 2022-08-31
+
+1. [Hints of a universal width-energy relation for classified fast radio bursts](https://arxiv.org/abs/2208.13972)
+
+   > Fast Radio Burst
+
+   戴子高的文章，还是之前的说FRB的宽度和能量之前正相关$W\propto E^{0.25}$。另外还有一条，用亮温度
+   $$
+   T_B=\frac{S_pD_A^2}{2\pi k(\nu W)^2}=1.1\times10^{35}{\rm K}\left(\frac{S_p}{\rm Jy}\right)\left(\frac{\nu}{\rm GHz}\right)^{-2}\left(\frac{W}{\rm ms}\right)^{-2}\left(\frac{D_A}{\rm Gpc}\right)^2
+   $$
+   来做FRB分类，并且不同FRB的临界$T_B$是不同的。无论是相干曲率辐射还是同步辐射，都无法再现这一亮温度。
+
+2. [Expanding Fireball in Magnetar Bursts and Fast Radio Bursts](https://arxiv.org/abs/2208.14320)
+
+   > Fast Radio Burst, Theory
+
+   中子星表面产生的等离子体火球`fireball`在其自身压力下沿磁力线膨胀，并产生光子发射和相对论物质流出。这里将膨胀火球演化过程分为五种情况，表明，爆炸辐射可以将外流加速到高洛伦兹系数，并有足够的能量驱动FRB。
+
