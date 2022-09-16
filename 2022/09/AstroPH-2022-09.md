@@ -86,3 +86,89 @@
 
 ## 2022-09-12
 
+1. [Combining Hipparcos and Gaia data for the study of binaries: the BINARYS tool](https://arxiv.org/abs/2209.04210)
+
+   > Stellar, Binary, Gaia, Exoplanet, Software
+
+   [BINARYS](https://gricad-gitlab.univ-grenoble-alpes.fr/ipag-public/gaia/binarys)是用来确定双星系统轨道和单个恒星质量的工具，结合`Hipparcos`和`Gaia EDR3`的天体测量数据。
+
+2. [Empirical constraints on the turbulence in QSO host nebulae from velocity structure function measurements](https://arxiv.org/abs/2209.04344)
+
+   > QSO, Turbulence, VSF
+
+   `QSO, quasi-stellar object; quasar`，类星体。这里使用`VLT`上的`MUSE`测量了四个$z=0.5-1.1$的类星体周围（以类星体为中心的直径为$50-100kpc$）的弥漫介质的光谱，计算了二阶和三阶速度结构函数：
+   $$
+   S_p(r)=\left<\left|v(x)-v(x+r)\right|^p\right>
+   $$
+   其中一个QSO的VSF与Kolmogorov定律（各向同性、均匀且不可压缩湍流）非常一致，确定湍流能量耗散率为$0.2\,\rm cm^2/s^3$。另外三个表现出VSF从大尺度到小尺度微小的下降。最后讨论了观察到的VSF在QSO形成和形成反馈中的意义。
+
+3. [Investigation of a Machine learning methodology for the SKA pulsar search pipeline](https://arxiv.org/abs/2209.04430)
+
+   > SKA, Machine Learning, Anomaly Detection, Object Detection, Pulsar, Software
+
+   SKA中用于脉冲星搜索的流程，使用`Mask R-CNN`识别图像中的候选物体。
+
+   <img src="Figures/image-20220912235513429.png" alt="image-20220912235513429" style="zoom:50%;" />
+
+## 2022-09-13
+
+1. [A measurement of circumgalactic gas around nearby galaxies using fast radio bursts](https://arxiv.org/abs/2209.04455)
+
+   > Fast Radio Burst, CircumGalactic Medium
+
+   `Circumgalactic Medium, CGM`，星系周介质，目前所有种类的星系的CGM中气体分布没有得到良好的约束。由于CGM对FRB的DM会有贡献，所以可以用CHIME的FRB目录来探测。通过对比FRB的位置，与堆叠后星系晕的位置，发现有20-30个FRB与质量为$10^{11}-10^{13}\,M_\odot$的晕相交。 说明CGM的确对DM做出了额外贡献。
+
+   <img src="Figures/image-20220913142334409.png" alt="image-20220913142334409" style="zoom:50%;" />
+
+2. [Repeating Fast Radio Bursts with High Burst Rates by Plate Collisions in Neutron Star Crusts](https://arxiv.org/abs/2209.04774)
+
+   > Fast Radio Burst, Theory
+
+   针对FRB高爆发率的理论，说是`年轻中子星壳层板块碰撞造成`。在这种情景下，对于磁场为$10^{13}G$，自转周期0.01s的中子星，爆发率可以达到$770/h$，预测等待时间分布$P(t)\propto t^{\alpha=-1.75}$，能量分布$N(E)dE\propto E^{\alpha=-1.67}dE$。
+
+3. [Evaluating the efficacy of sonification for signal detection in univariate, evenly sampled light curves using astronify](https://arxiv.org/abs/2209.04465)
+
+   > Astronify, Light Curve
+
+   用`Astronify`声化了一系列不同信噪比，不同凌日信号的光变曲线。将声音文件与光变曲线发给不同的人来做判断。专家与非专家都能从声音文件中判断出高信噪比（SNR=30-100）的信号，低信噪比（SNR=3-5）的信号专家与非专家判断也都相同，但是中等信噪比（SNR=7-10）的情况，使用声音文件专家的判断并不比非专家好，但是视觉判断会好得多。这里提出之后对低信噪比的信号做处理后声化，对于识别信号可能有很大帮助。他们的声化数据在[这里](https://data.ncl.ac.uk/articles/dataset/Tucker-Brown_et_al_-_Astronify_Efficacy_Testing_-_Data/20936749)。
+
+## 2022-09-14
+
+1. [Search for a Black Hole Binary in Gaia DR3 Astrometric Binary Stars with Spectroscopic Data](https://arxiv.org/abs/2209.05632)
+
+   > Stellar, Black Hole, Binary
+
+   从Gaia DR3的双星解决方案的天体测量和光谱数据中找到一个可能的黑洞-红巨星`Gaia DR3 5870569352746779008`双星系统。尽管红巨星的质量无法确定，不过轨道参数估计伴星的质量大于$5.25\,M_\odot$，如果确认是BH双星，那么周期是最长的$1352.25\pm45.5d$。
+
+2. [Software and techniques for VLBI data processing and analysis](https://arxiv.org/abs/2209.06115)
+
+   > VLBI, Radio, Software
+
+   总结了分析VLBI数据时应该了解的最新技术和算法。
+
+   <img src="Figures/image-20220914191730944.png" alt="image-20220914191730944" style="zoom:50%;" />
+
+## 2022-09-15
+
+1. [Detection of a quasi-periodic oscillation at ∼40 mHz in Cen X-3 with Insight-HXMT](https://arxiv.org/abs/2209.06662)
+
+   > High Energy, QPO
+
+   `Cen X-3`是吸积X射线脉冲星，在慧眼数据中找到了$40mHz$的准周期，用的[XRONOS](https://heasarc.gsfc.nasa.gov/xanadu/xronos/xronos.html)，是NASA开发的用于X射线的时域分析软件，之后可以看一看。从$2-20keV$，QPO的rms幅度下降，可能归因于吸积盘在冠状半径附近被截断时的不稳定性。
+
+## 2022-09-16
+
+1. [SOXS mechanical integration and verification in Italy](https://arxiv.org/abs/2209.07182)
+
+   > SOXS, Spectrum, Instrument
+
+   `SOn of X-Shooter, SOXS`是一个中等分辨率（R=4500）的宽频$0.35-2.0\mu m$光谱仪，主要由5个不同的光学子系统`Common Path`、`近红外光谱仪`、`紫外-可见光光谱仪`、`照相机`、`校准`。目前正处于最后组装阶段，计划明年前安装在`La Silla`的NTT上。
+
+2. [Noise2Astro: Astronomical Image Denoising With Self-Supervised NeuralNetworks](https://arxiv.org/abs/2209.07071)
+
+   > Machine Learning, Deep Learning
+
+   使用`Galfit`从图像中提取星系，作为`U-net/DnCNN`的训练集，做天文图像降噪。
+
+## 2022-09-19
+
