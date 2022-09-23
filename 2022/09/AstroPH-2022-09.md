@@ -172,3 +172,51 @@
 
 ## 2022-09-19
 
+1. [Toward an understanding of the properties of neural network approaches for supernovae light curve approximation](https://arxiv.org/abs/2209.07542)
+
+   > Stellar, Light Curve, Machine Learning
+
+   用`多层感知机`、`贝叶斯神经网络`、`Normalizing`等在`PLAsTiCC`的模拟数据和`ZTF`的真实光变曲线数据上进行训练和测试，以估计变源的类型和光变峰值。NN比一般的高斯过程计算复杂度低，并且可以得到类似的计算准确度。代码在这里，叫[Fulu](https://github.com/HSE-LAMBDA/fulu)。
+
+2. [Fourier Domain](https://arxiv.org/abs/2209.07954)
+
+   > Time Series, Fourier Analysis
+
+   周期性和准周期性是系统中基本时间尺度的指标，随机过程有助于揭示湍流吸积过程的性质。是`Timing Analysis" of the "Handbook of X-ray and Gamma-ray Astrophysics`的一章，讲傅立叶分析时间序列的相关方法。
+
+## 2022-09-20
+
+1. [Gaussian Process regression for astronomical time-series](https://arxiv.org/abs/2209.08940)
+
+   > Time Series, Gaussian Process
+
+   用`高斯过程`对时间序列数据建模的综述。介绍了GP的基本数学理论，给出建模时参数选择的建议。回顾了GP在从系外行星导活动星系核的时域数据集上的应用，文章里演示的代码在[这里](https://github.com/dfm/araa-gps)，由[showyourwork](https://github.com/showyourwork/showyourwork)建立。
+
+## 2022-09-21
+
+1. [Baseline correction for FAST radio recombination lines: a modified penalized least squares smoothing technique](https://arxiv.org/abs/2209.09555)
+
+   > Radio, Baseline Correction, Method
+
+   基于`AsLS/arPLS/asPLS`写出来的`rrlPLS`，用于FAST探测`recombination lines`消除RFI使用。
+
+## 2022-09-22
+
+1. [Semi-Supervised Classification and Clustering Analysis for Variable Stars](https://arxiv.org/abs/2209.09957)
+
+   > Stellar, Variable, Machine Learning
+
+   用半监督的方法在`Optical Gravitational Lensing Experiment`、`Catalina Sky Surveys`、`Gaia`的光变曲线数据上做分类。
+
+   步骤是：特征预处理，用`umap`降维后变成二分类的数据，监督训练`umap`转换矩阵，用转换矩阵转换多维数据到两团，用`Radial Basis Function`核的支持向量机训练分类器，最后用SVM预测没打标签的数据。
+
+## 2022-09-23
+
+1. [Comets and meteor showers](https://arxiv.org/abs/2209.10654)
+
+   > Comet, Meteor Shower
+
+   在这一章中，讨论了流星科学的发展和现状，重点是它作为研究彗星的工具的作用，并回顾已经建立的彗星-流星雨之间的联系。
+
+## 2022-09-26
+
