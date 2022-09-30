@@ -220,3 +220,63 @@
 
 ## 2022-09-26
 
+1. [Analysis and Modeling of High-Frequency Emission and Deep Seismic Sources of Sunquakes](https://arxiv.org/abs/2209.11286)
+
+   > Solar, Flare, Sunquake
+
+   `Lindsey`等人最近发表的工作，发现了与2011年7月30日M9.3耀斑相关的10mHz太阳震发射。这里对太阳震进行了独立检验，在8mHz频段发现了一个可能的波前，在10mHz频段不容易辨别波前。
+
+## 2022-09-27
+
+1. [A dynamically discovered and characterized non-accreting neutron star -- M dwarf binary candidate](https://arxiv.org/abs/2209.12141)
+
+   > Stellar, Time Domain, Optical, Radio
+
+   在LAMOST时域光谱中找到一个非射电型中子星，用`Palomar`和`TESS`的高精度测光，测得伴星质量为$1.24M_\odot$，排除主序星的可能，没有过量紫外辐射支持中子星的假设，FAST观测没有探测到脉冲，表明这个中子星目前还没有吸积和脉冲现象。
+
+## 2022-09-28
+
+1. [Modelling the energy distribution in CHIME/FRB Catalog-1](https://arxiv.org/abs/2209.12961)
+
+   > Fast Radio Burst, Energy, Classification
+
+   用CHIME的FRB目录，根据$DM_{IGM}$估计红移，计算能量分布。目录中的FRB部分可用一个`Schechter`方程描述，低能段偏离方程，认为是两类FRB。
+
+2. [A light in the dark: searching for electromagnetic counterparts to black hole-black hole mergers in LIGO/Virgo O3 with the Zwicky Transient Facility](https://arxiv.org/abs/2209.13004)
+
+   > AGN, ZTF, GW, BH
+
+   活动星系核`AGN`的吸积盘中的致密天体合并产生的引力波`GW`最有可能被探测到。并且在这种高密度富含重子的环境中，必定会有电磁对应物。ZTF观测到一些燃烧活动不寻常的AGN，通过对比LIGO/Virgo探测到的双黑洞合并的电磁对应物，找到9个可能的与ZTF对应的事件。
+
+## 2022-09-29
+
+1. [One-off and Repeating Fast Radio Bursts: A Statistical Analysis](https://arxiv.org/abs/2209.13943)
+
+   > Fast Radio Burst, Classification, Energy
+
+   非重复暴比重复暴更亮且更窄。怎么天天有这种垃圾文章。
+
+2. [A long-period pre-ELM system discovered from LAMOST medium-resolution survey](https://arxiv.org/abs/2209.13889)
+
+   > Stellar, Time Domain, Binary
+
+   LAMOST最近时域的文章很多啊。找到一个白矮星和致密天体组成的双星系统，轨道周期是0.607189天，大振幅的椭圆轨道变化和明显的`Balmer/HeI`发射线表明有充满洛希瓣的质量转移，但其15年内没有爆发表明质量转移率很低。光变曲线和径向速度曲线的联合拟合得到轨道倾角是66.5度，对应致密天体是1.09个太阳质量。这个白矮星的温度和光度接近主序星，因此很难从赫罗图上分离这种系统。
+
+   <img src="Figures/image-20220929175032801.png" alt="image-20220929175032801" style="zoom:50%;" />
+
+## 2022-09-30
+
+1. [Searching for young runaways across the sky](https://arxiv.org/abs/2209.14319)
+
+   > Stellar, Cluster, Radial Velocity
+
+   用`HDBSCAN`从GaiaDR3中找500pc以内的星团，使用坐标、自行、视差和年龄做参数。通过回溯恒星的位置，找到3354颗以大于$5km/s$的速度从原始星团中逃逸的恒星。在过程中发现GaiaDR3的径向速度不适合用来描述年龄小于100Myr的低质量恒星的运动学特征，Gaia的RV明显偏大。
+
+   <img src="Figures/image-20220930133124993.png" alt="image-20220930133124993" style="zoom:50%;" />
+
+2. [unTimely: a Full-sky, Time-Domain unWISE Catalog](https://arxiv.org/abs/2209.14327)
+
+   > Catalog, WISE, Time-Domain
+
+   `unTimely`是基于`WISE`和`NEOWISE`的时域目录，从2010年到2020年。主要是为了实现对微弱、快速移动的天体的搜索，如银晕中的Y型矮星和晚型亚矮星，以及其它时域科学的应用，比如十年内中红外波长的类星体光变的全天研究。
+
