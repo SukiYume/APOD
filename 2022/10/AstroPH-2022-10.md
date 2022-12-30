@@ -281,3 +281,69 @@
 
 ## 2022-10-24
 
+1. [Magnetar spin-down glitch clearing the way for FRB-like bursts and a pulsed radio episode](https://arxiv.org/abs/2210.11518)
+
+   > Magnetar, Fast Radio Burst, Glitch
+
+   `NICER`在2020年10月5日探测到`SGR1935`的一次`spin-down glitch`，在随后几天里，出现了三个类似FRB的射电暴。这样时间上的近似表明了一种关联。这里推测，靠近磁极的壳层等离子体脱落产生的星风梳理了磁场线，迅速减少了恒星的角动量，同时暂时改变了磁场的几何形状，产生FRB的发射条件。
+
+   <img src="Figures/image-20221024174917350.png" alt="image-20221024174917350" style="zoom:50%;" />
+
+2. [An Unsupervised Hunt for Gravitational Lenses](https://arxiv.org/abs/2210.11681)
+
+   > Machine Learning, Gravitational Lens
+
+   用模拟的引力透镜数据集做GAN的数据集，同时用半监督学习模型（MixMatch、Pseudo-label、Mean Teacher、$\Pi-model$、VAT）判断lens是否为真，效果要比只用监督学习好得多。不过还是会受到召回率和准确率的限制。
+
+## 2022-10-25
+
+1. [Diverse Polarimetric Features of AGN Jets from Various Viewing Angles: Towards a Unified View](https://arxiv.org/abs/2210.12162)
+
+   > AGN, Simulation, Polarization
+
+   全偏振、广义相对论辐射转移、中等磁场强度的相对论磁流体动力学模拟超大质量黑洞和周围等离子体的图像，以研究偏振特性与观察角度的关系。
+
+   结果证明，喷流的同步辐射偏振会发生法拉第旋转和转换。`edge-on`会看到线偏振消偏振，圆偏振符合不断变化，`face-on`可以看到线偏振，同时圆偏振符号不变。线偏振和圆偏振的测量结合可以约束观测者和黑洞旋转轴之间的倾角以及喷流等离子体特性。
+
+## 2022-10-26
+
+1. [The dispersion measure of Fast Radio Bursts host galaxies: estimation from cosmological simulations](https://arxiv.org/abs/2210.14052)
+
+   > Fast Radio Burst, Dispersion Measure, Simulation
+
+   TNG模拟FRB宿主星系DM，基于两种假设，FRB与SFR正相关（年轻）或者FRB与恒星质量正相关（年老）。结果表明，两种假设模拟出的$DM_{host}$在$z=0$时有明显差异，在$0<z<2$时DM随红移增加，差异随红移下降。DM分布都偏离了LogNormal，中值是$179\,\rm pc/cm^3$。
+
+2. [JWST reveals a possible z∼11 galaxy merger in triply-lensed MACS0647−JD](https://arxiv.org/abs/2210.14123)
+
+   > JWST, Galaxy, Merge, Gravitational Lensing
+
+   `MACS0647-JD`是由HST发现的被Lensing的星系，红移$z\sim11$，Lensing产生了三个图像。这里是JWST对这个系统的重新成像，并表明其中正在发生星系合并。
+
+   <img src="Figures/image-20221026140352161.png" alt="image-20221026140352161" style="zoom:50%;" />
+
+## 2022-10-27
+
+1. [FRB emission mechanisms vs. observations](https://arxiv.org/abs/2210.14268)
+
+   > Fast Radio Burst, Theory, Review
+
+   目前普遍认为FRB是由磁星中磁能释放驱动的相干发射，但是并不清楚确切的发射机制。主要有两种猜测，磁层发射和外部相对论冲击的辐射。这篇文章描述了两种方法的基本原理，并讨论现代观测如何探测。
+
+## 2022-10-28
+
+1. [A shot in the Dark (Ages): a faint galaxy at z=9.76 confirmed with JWST](https://arxiv.org/abs/2210.15639)
+
+   > Galaxy, JWST
+
+   大爆炸后最开始的十亿年，宇宙状态最后一次大的变化就是星系的出现。这个时期星系的紫外线光子电离了星系间的氢，使宇宙对紫外辐射变得透明，时间在$z\sim8$。宇宙历史上最初几亿年的大部分店里光子被认为来自非常暗淡的星系。这里从JWST的观测中确认了光谱红移是$z=9.76$的极低亮度的星系。
+
+   <img src="Figures/image-20221028144242415.png" alt="image-20221028144242415" style="zoom:50%;" />
+
+## 2022-10-31
+
+1. [Impact of Rubin Observatory cadence choices on supernovae photometric classification](https://arxiv.org/abs/2210.15690)
+
+   > Variable, Supernovae
+
+   模拟LSST的观测策略对超新星分类的影响。使用[snmachine](https://github.com/LSSTDESC/snmachine)做分类器。
+
