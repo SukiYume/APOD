@@ -35,20 +35,20 @@ color_list = [
 def x2_func(x, a, b, c):
     return a * x** b + c
 
-def convert_white(ax):
-    ax.tick_params(axis='x', colors='white', which='both')
-    ax.tick_params(axis='y', colors='white', which='both')
-    ax.spines['top'].set_color('white')
-    ax.spines['bottom'].set_color('white')
-    ax.spines['left'].set_color('white')
-    ax.spines['right'].set_color('white')
-    ax.xaxis.label.set_color('white')
-    ax.yaxis.label.set_color('white')
+def convert_white(ax, color='white'):
+    ax.tick_params(axis='x', colors=color, which='both')
+    ax.tick_params(axis='y', colors=color, which='both')
+    ax.spines['top'].set_color(color)
+    ax.spines['bottom'].set_color(color)
+    ax.spines['left'].set_color(color)
+    ax.spines['right'].set_color(color)
+    ax.xaxis.label.set_color(color)
+    ax.yaxis.label.set_color(color)
 
 def plot_arXiv_count():
     data = pd.read_csv('get_monthly_submissions.csv') # https://arxiv.org/stats/monthly_submissions
     popt, _ = curve_fit(x2_func, np.arange(len(data))[:-1], data.submissions[:-1])
-    
+
     plt.figure(figsize=(6, 3))
     ax = plt.subplot(111)
     plt.step(np.arange(len(data)), data.submissions, color='white', lw=0.5)
@@ -119,12 +119,12 @@ def plot_new_count(data):
     plt.figure(figsize=(7, 3))
     ax = plt.subplot(111)
     plt.step(
-        pd.to_datetime(data.drop_duplicates('date').date), 
+        pd.to_datetime(data.drop_duplicates('date').date),
         np.cumsum(data.groupby('date').count().month.values), color=color_list[-1], zorder=0
     )
     plt.scatter(pd.to_datetime(data.date.values[-1]), len(data), color=color_list[1], zorder=1)
     plt.annotate(
-        text=str(len(data)), xy=(pd.to_datetime(data.date.values[-1]), len(data)), 
+        text=str(len(data)), xy=(pd.to_datetime(data.date.values[-1]), len(data)),
         xytext=(pd.to_datetime(data.date.values[-25]), len(data) / 2), weight='bold', color=color_list[1],
         arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color=color_list[1])
     )
@@ -144,7 +144,7 @@ def plot_new_count(data):
     plt.close()
 
 def content_count(data, flag='title'):
-    
+
     if flag == 'title':
         string_all = '\n'.join(data.title.values).lower()
         string_all = re.sub(r'fast radio bursts', 'fast radio burst', string_all)
@@ -154,12 +154,12 @@ def content_count(data, flag='title'):
         string_all = re.sub(r'frb', 'fast_radio_bursts', string_all)
         string_all = re.sub(r'stars', 'star', string_all)
         string_all = re.sub(r'clusters', 'cluster', string_all)
-        
+
         string_list = re.sub('fast_radio_bursts', 'fast radio bursts', string_all)
         string_list = re.sub('milky_way', 'milky way', string_list)
         string_list = string_list.split('\n')
         stop_words_path = 'english.txt'
-        
+
     elif flag=='content':
         string_all, string_list = '', []
         for i in range(len(data)):
@@ -173,7 +173,7 @@ def content_count(data, flag='title'):
             string_list.append(string)
             string_all += string + '\n'
         stop_words_path = 'stop_words.txt'
-    
+
     seg = pkuseg.pkuseg(user_dict='dict.txt', postag=True)
     text = seg.cut(string_all)
     with open(stop_words_path, encoding='utf-8') as f:
@@ -186,7 +186,7 @@ def content_count(data, flag='title'):
     new_text = [re.sub('fast_radio_bursts', 'fast radio bursts', i) for i in new_text]
     new_text = [re.sub('milky_way', 'milky way', i).capitalize() for i in new_text]
     counter = Counter(new_text)
-    
+
     return counter, string_list
 
 def get_keyword_counter(data):
@@ -203,11 +203,11 @@ def plot_word_cloud(counter, flag='title'):
         font_path = 'Font/Canela-Medium-Trial.otf'
     elif flag=='content':
         font_path = 'Font/FZQKBYSJW.TTF'
-    
+
     ######### 词云 #########
     wordcloud = WordCloud(
         font_path = font_path,
-        background_color = "rgba(255, 255, 255, 0)", 
+        background_color = "rgba(255, 255, 255, 0)",
         mode="RGBA",
         prefer_horizontal = 0.7,
         width = 1920,
@@ -216,7 +216,7 @@ def plot_word_cloud(counter, flag='title'):
         margin = 2,
         colormap = ListedColormap(color_list[1:]) # 'Spectral'
     ).generate_from_frequencies(counter)
-    
+
     wordcloud.to_file('Figure/{}.png'.format(flag.capitalize()))
 
 def show_values(axs, orient="v", space=.01):
@@ -226,7 +226,7 @@ def show_values(axs, orient="v", space=.01):
                 _x = p.get_x() + p.get_width() / 2
                 _y = p.get_y() + p.get_height() + (p.get_height()*0.01)
                 value = '{:.0f}'.format(p.get_height())
-                ax.text(_x, _y+1, value, ha="center", color='white', size=8) 
+                ax.text(_x, _y+1, value, ha="center", color=color_list[1], size=8)
         elif orient == "h":
             for p in ax.patches:
                 _x = p.get_x() + p.get_width() + float(space)
@@ -251,12 +251,12 @@ def plot_word_max(counter):
     # font = FontProperties(fname=fname, size=9)
     plt.xticks(rotation=90)
     plt.xlabel('')
-    plt.ylim(0, 130)
-    convert_white(ax)
+    plt.ylim(0, words_max.loc[:, 'count'].max()+20)
+    convert_white(ax, color=color_list[1])
 
     plt.savefig('Figure/KeyCount', dpi=300, bbox_inches='tight', transparent=True)
     plt.close()
-    
+
 def plot_counter_graph(counter, string_list):
 
     words_max = counter.most_common(50)
@@ -295,7 +295,7 @@ def plot_counter_graph(counter, string_list):
        )
        .render("Figure/keyword.html")
     )
-    
+
 if __name__ == '__main__':
     path = '../'
     markdown_path = get_markdown_path(path)
