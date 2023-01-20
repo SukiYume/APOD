@@ -154,7 +154,7 @@
 
    > Fast Radio Burst, Pulsar, Polarization, Faraday Conversion
 
-   在球状星团双星`PSR B1744-24A`中发现在轨道相位上表现出RM随机的快速变化，以及脉冲星接近伴星时圆偏振的轮廓变化（法拉第转换）。这个源和重复FRB的相似之处、两个FRB长周期、球状星团中FRB的发现，表明部分FRB是双星系统中。
+   在球状星团双星`PSR B1744-24A`中发现在轨道相位上表现出RM随机的快速变化，以及脉冲星接近伴星时圆偏振的轮廓变化（法拉第转换）。这个源和重复FRB的相似之处、两个FRB长周期、球状星团中FRB的发现，表明部分FRB在双星系统中。李冬子的文章。
 
    <img src="Figures/image-20220518154335063.png" alt="image-20220518154335063" style="zoom:70%;" />
 

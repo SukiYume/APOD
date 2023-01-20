@@ -1,7 +1,10 @@
 import numpy as np
 import pandas as pd
 import seaborn as sns
+from matplotlib import gridspec
 import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+import matplotlib.patheffects as path_effects
 from scipy.optimize import curve_fit
 plt.style.use('default')
 sns.set_color_codes()
@@ -15,11 +18,9 @@ rcParams['mathtext.cal'] = 'Arial'
 rcParams['mathtext.it'] = 'Arial'
 rcParams['mathtext.rm'] = 'Arial'
 
-import pkuseg, pprint, re
-from matplotlib import gridspec
+import pkuseg, re, calendar
 from collections import Counter
 from wordcloud import WordCloud
-from matplotlib.font_manager import FontProperties
 
 from pyecharts.charts import Graph
 from pyecharts import options as opts
@@ -27,81 +28,121 @@ from pyecharts.globals import ThemeType
 
 from extractdata import get_markdown_path, extract_data
 
+color_list = [
+    "#001219", "#005f73", "#0a9396", "#94d2bd", "#e9d8a6", "#ee9b00", "#ca6702", "#bb3e03", "#ae2012", "#9b2226"
+]
+
 def x2_func(x, a, b, c):
     return a * x** b + c
 
+def convert_white(ax):
+    ax.tick_params(axis='x', colors='white', which='both')
+    ax.tick_params(axis='y', colors='white', which='both')
+    ax.spines['top'].set_color('white')
+    ax.spines['bottom'].set_color('white')
+    ax.spines['left'].set_color('white')
+    ax.spines['right'].set_color('white')
+    ax.xaxis.label.set_color('white')
+    ax.yaxis.label.set_color('white')
+
 def plot_arXiv_count():
-    data = pd.read_csv('get_monthly_submissions.csv')
+    data = pd.read_csv('get_monthly_submissions.csv') # https://arxiv.org/stats/monthly_submissions
     popt, _ = curve_fit(x2_func, np.arange(len(data))[:-1], data.submissions[:-1])
     
-    plt.figure(figsize=(10, 4))
-    plt.step(np.arange(len(data)), data.submissions, color='royalblue', alpha=0.8)
-    plt.plot(np.arange(len(data)), x2_func(np.arange(len(data)), *popt), color='royalblue', lw=20, alpha=0.2)
+    plt.figure(figsize=(6, 3))
+    ax = plt.subplot(111)
+    plt.step(np.arange(len(data)), data.submissions, color='white', lw=0.5)
+    plt.fill_between(np.arange(len(data)), 0, data.submissions, facecolor=color_list[-1], step='pre', alpha=1)
     plt.xticks(6 + 12*np.arange(0, 35, 5), 1992+np.arange(0, 35, 5))
     plt.ylabel('Paper Submissions')
-    path = 'arXivCount-{:.2f}-{}.png'.format(popt[1], '1991714')
-    # plt.savefig(path, dpi=300, bbox_inches='tight')
-    plt.show()
-    
-def plot_apod_status(data, count_data):
-    
-    ############ 计数统计 ############
-    plt.figure(figsize=(7, 5))
-    plt.subplots_adjust(wspace=0, hspace=0)
-    gs = gridspec.GridSpec(5, 1)
-    
-    plt.subplot(gs[0:2, :])
-    plt.bar(data.drop_duplicates('date').groupby('month').count().date.index.values, 
-            data.drop_duplicates('date').groupby('month').count().date.values, color='royalblue', alpha=0.5)
-    plt.ylabel('Days')
-    
-    ax = plt.subplot(gs[2:, :])
-    plt.bar(data.groupby('month').count().loc[:, 'title'].index.values, 
-            data.groupby('month').count().loc[:, 'title'].values, color='r', alpha=0.5)
-    plt.xticks(data.groupby('month').count().loc[:, 'title'].index.values,
-               data.groupby('month').count().loc[:, 'title'].index.values, rotation=90)
-    plt.hlines(count_data.Count.mean(), 0, 12, ls='--', color='r')
-    plt.text(11.5, count_data.Count.mean()*1.05, '{:.2f}'.format(count_data.Count.mean()), color='r')
-    plt.ylabel('Count', color='r')
-    
-    ax = ax.twinx()
-    ax.bar(data.groupby('month').count().loc[:, 'title'].index.values, 
-            data.groupby('month').count().loc[:, 'title'].values / data.drop_duplicates('date').groupby('month').count().date.values, 
-            color='royalblue', alpha=0.5)
-    ax.set_ylim(0, 5)
-    plt.ylabel('Rate', color='royalblue')
-    plt.hlines(count_data.Rate.mean(), 0, 12, ls='--', color='royalblue')
-    plt.text(11.5, count_data.Rate.mean()*1.1, '{:.2f}'.format(count_data.Rate.mean()), color='royalblue')
-    # plt.savefig('ReadCount.png', dpi=300, bbox_inches='tight')
+    plt.xlabel('Year')
+    plt.xlim(6, 378)
+    plt.ylim(0)
+    convert_white(ax)
+
+    plt.savefig('Figure/arxiv', dpi=300, bbox_inches='tight', transparent=True)
     plt.close()
-    
-    ############ arXiv ID ############
-    asd = data.loc[data.arxiv.str.contains(r'\d{4}\.\d{4,5}')].arxiv.str.split('.', expand=True).loc[:, 1].apply(int).values
-    sns.displot(asd, kde=True, bins=20, color='royalblue', edgecolor='white', height=3, aspect=8/4)
+
+def plot_arxiv_id(data):
+    plt.figure(figsize=(6, 3))
+    ax = plt.subplot(111)
+    asd = data.loc[data.arxiv.str.contains(r'\d{4}\.\d{4,5}')].arxiv.str.extract(r'\.(\d{4,5})').loc[:, 0].apply(int).values
+    plt.hist(asd, bins=25, color=color_list[-1], edgecolor='white', lw=0.5)
     plt.xlabel('arXiv ID')
-    # plt.savefig('arXivID.png', dpi=300, bbox_inches='tight')
+    plt.ylabel('Count')
+    convert_white(ax)
+
+    plt.savefig('Figure/arXivID.png', dpi=300, bbox_inches='tight', transparent=True)
+    plt.close()
+
+def plot_monthly_read(data):
+
+    plt.figure(figsize=(6, 3))
+    ax = plt.subplot(111)
+
+    d2021 = data.loc[data.month.str.split('-', expand=True).loc[:, 0].astype(np.int64)==2021].reset_index(drop=True)
+    d2022 = data.loc[data.month.str.split('-', expand=True).loc[:, 0].astype(np.int64)==2022].reset_index(drop=True)
+
+    width = 0.36
+    plt.bar(
+        np.arange(12)-width/2, d2021.groupby('month').count().loc[:, 'title'].values,
+        width=width, color=color_list[-1], alpha=1, edgecolor='white', lw=0.5, label='2021'
+    )
+    plt.bar(
+        np.arange(12)+width/2, d2022.groupby('month').count().loc[:, 'title'].values, 
+        width=width, color=color_list[1], alpha=1, edgecolor='white', lw=0.5, label='2022'
+    )
+
+    plt.xticks(np.arange(12), list(calendar.month_abbr)[1:])
+    plt.legend()
+
+    rate = len(d2021) / 12
+    plt.hlines(rate, -1, 12, ls='--', color=color_list[-1], zorder=-1)
+    plt.text(11+0.02, rate + 1.6, '{:.2f}'.format(rate), color='white')
+    plt.text(11, rate + 2, '{:.2f}'.format(rate), color=color_list[-1]) # path_effects=[path_effects.withStroke(foreground='white',     linewidth=0.5)]
+
+    rate = len(d2022) / 12
+    plt.hlines(rate, -1, 12, ls='--', color=color_list[1], zorder=-1)
+    plt.text(11+0.02, rate - 4.4, '{:.2f}'.format(rate), color='white')
+    plt.text(11, rate - 4, '{:.2f}'.format(rate), color=color_list[1]) # path_effects=[path_effects.withStroke(foreground='white',  linewidth=0.5)]
+
+    plt.xlim(-1, 12)
+    plt.ylim(0, 62)
+    plt.ylabel('Count')
+
+    convert_white(ax)
+
+    plt.savefig('Figure/MonthCount.png', dpi=300, bbox_inches='tight', transparent=True)
     plt.close()
 
 def plot_new_count(data):
-    
-    ################# 阅读数统计 #################
     plt.figure(figsize=(7, 3))
     ax = plt.subplot(111)
-    plt.step(pd.to_datetime(data.drop_duplicates('date').date), np.cumsum(data.groupby('date').count().month.values),
-            color='royalblue', zorder=0)
-    plt.scatter(pd.to_datetime(data.date.values[-1]), len(data), color='r', zorder=1)
-    plt.annotate(text=str(len(data)), xy=(pd.to_datetime(data.date.values[-1]), len(data)), 
-                 xytext=(pd.to_datetime(data.date.values[-8]), len(data) / 2), weight='bold', color='r',
-                 arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color='r'))
+    plt.step(
+        pd.to_datetime(data.drop_duplicates('date').date), 
+        np.cumsum(data.groupby('date').count().month.values), color=color_list[-1], zorder=0
+    )
+    plt.scatter(pd.to_datetime(data.date.values[-1]), len(data), color=color_list[1], zorder=1)
+    plt.annotate(
+        text=str(len(data)), xy=(pd.to_datetime(data.date.values[-1]), len(data)), 
+        xytext=(pd.to_datetime(data.date.values[-25]), len(data) / 2), weight='bold', color=color_list[1],
+        arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color=color_list[1])
+    )
     plt.xlabel('Date')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    ax.spines['left'].set_visible(False)
-    plt.yticks([])
+
+    ax.tick_params(axis='x', colors=color_list[1], which='both')
+    ax.tick_params(axis='y', colors=color_list[1], which='both')
+    ax.spines['bottom'].set_color(color_list[1])
+    ax.spines['left'].set_color(color_list[1])
+    ax.xaxis.label.set_color(color_list[1])
+    ax.yaxis.label.set_color(color_list[1])
+
     plt.ylim(0)
-    plt.savefig('ReadCount.png', dpi=300, bbox_inches='tight')
+    plt.savefig('Figure/ReadCount.png', dpi=300, bbox_inches='tight', transparent=True)
     plt.close()
-    
+
 def content_count(data, flag='title'):
     
     if flag == 'title':
@@ -148,6 +189,36 @@ def content_count(data, flag='title'):
     
     return counter, string_list
 
+def get_keyword_counter(data):
+    data = data.loc[data.keyword!=''].reset_index(drop=True)
+    keyword_list = []
+    for i in data.keyword.str.split(',\s+').values:
+        keyword_list += i
+    counter = Counter(keyword_list)
+    return counter
+
+def plot_word_cloud(counter, flag='title'):
+
+    if flag == 'title' or flag == 'keyword':
+        font_path = 'Font/Canela-Medium-Trial.otf'
+    elif flag=='content':
+        font_path = 'Font/FZQKBYSJW.TTF'
+    
+    ######### 词云 #########
+    wordcloud = WordCloud(
+        font_path = font_path,
+        background_color = "rgba(255, 255, 255, 0)", 
+        mode="RGBA",
+        prefer_horizontal = 0.7,
+        width = 1920,
+        height = 1080,
+        scale = 2,
+        margin = 2,
+        colormap = ListedColormap(color_list[1:]) # 'Spectral'
+    ).generate_from_frequencies(counter)
+    
+    wordcloud.to_file('Figure/{}.png'.format(flag.capitalize()))
+
 def show_values(axs, orient="v", space=.01):
     def _single(ax):
         if orient == "v":
@@ -155,7 +226,7 @@ def show_values(axs, orient="v", space=.01):
                 _x = p.get_x() + p.get_width() / 2
                 _y = p.get_y() + p.get_height() + (p.get_height()*0.01)
                 value = '{:.0f}'.format(p.get_height())
-                ax.text(_x, _y+1, value, ha="center", color='gray', size=8) 
+                ax.text(_x, _y+1, value, ha="center", color='white', size=8) 
         elif orient == "h":
             for p in ax.patches:
                 _x = p.get_x() + p.get_width() + float(space)
@@ -169,43 +240,25 @@ def show_values(axs, orient="v", space=.01):
     else:
         _single(axs)
 
-def plot_word_cloud_counter(counter, flag='title'):
-    
-    if flag == 'title':
-        font_path, colormap, fname = 'cambria.ttc', 'crest', None
-    elif flag=='content':
-        font_path, colormap, fname = 'simsun.ttc', 'RdYlBu', 'C:/Windows/Fonts/simhei.ttf'
-    
-    ######### 词云 #########
-    wordcloud = WordCloud(
-        font_path = font_path,
-        background_color = 'white',
-        prefer_horizontal = 0.7,
-        width = 1920,
-        height = 1080,
-        scale = 2,
-        margin = 2,
-        colormap = colormap # 'Spectral'
-    ).generate_from_frequencies(counter)
-    
-    wordcloud.to_file('{}.png'.format(flag.capitalize()))
-    # plt.imshow(wordcloud)
-    # plt.axis('off')
-    # plt.close()
-    
-    ######### 词频 #########
-    # keywds = [i[0] for i in counter.most_common(50)]
-    # height = [i[1] for i in counter.most_common(50)]
-    # plt.figure(figsize=(10, 4))
-    # p = sns.barplot(keywds, height, palette='RdYlBu')
-    # show_values(p)
+def plot_word_max(counter):
+    words_max = counter.most_common(20)
+    words_max = pd.DataFrame({'word': [i[0] for i in words_max], 'count': [i[1] for i in words_max]})
+    words_max.loc[:, 'count'] = words_max.loc[:, 'count'].astype(np.int64)
+    plt.figure(figsize=(7, 3))
+    ax = plt.subplot(111)
+    p = sns.barplot(words_max, x='word', y='count', palette=sns.color_palette(color_list[1:]))
+    show_values(p)
     # font = FontProperties(fname=fname, size=9)
-    # plt.xticks(rotation=90, fontproperties=font)
-    # # plt.savefig('ContentKeyCount', dpi=300, bbox_inches='tight')
-    # plt.show()
+    plt.xticks(rotation=90)
+    plt.xlabel('')
+    plt.ylim(0, 130)
+    convert_white(ax)
+
+    plt.savefig('Figure/KeyCount', dpi=300, bbox_inches='tight', transparent=True)
+    plt.close()
     
-def plot_counter_graph(counter, string_list, flag='title'):
-    
+def plot_counter_graph(counter, string_list):
+
     words_max = counter.most_common(50)
     words_max_count = np.array([i[1] for i in counter.most_common(50)])
     np.random.shuffle(words_max)
@@ -225,21 +278,22 @@ def plot_counter_graph(counter, string_list, flag='title'):
                     })
                     break
     c = (
-        Graph(init_opts=opts.InitOpts(width="1920px", height="1080px", theme=ThemeType.VINTAGE))
-        .add(
-            "",
-            nodes=nodes,
-            links=links,
-            layout="circular",
-            is_rotate_label=True,
-            linestyle_opts=opts.LineStyleOpts(color="source", curve=0.3),
-            label_opts=opts.LabelOpts(position="right"),
-        )
-        .set_global_opts(
-            title_opts=opts.TitleOpts(title=""),
-            legend_opts=opts.LegendOpts(orient="vertical", pos_left="2%", pos_top="20%"),
-        )
-        .render("{}.html".format(flag))
+       Graph(init_opts=opts.InitOpts(width="1280px", height="720px", theme=ThemeType.DARK))
+       .add(
+           "",
+           nodes=nodes,
+           links=links,
+           categories=[{'name': i} for i in range(len(nodes))],
+           layout="circular",
+           is_rotate_label=True,
+           linestyle_opts=opts.LineStyleOpts(color="source", curve=0.3),
+           label_opts=opts.LabelOpts(position="right"),
+       )
+       .set_global_opts(
+           title_opts=opts.TitleOpts(title=""),
+           legend_opts=opts.LegendOpts(orient="vertical", pos_left="2%", pos_top="20%"),
+       )
+       .render("Figure/keyword.html")
     )
     
 if __name__ == '__main__':
@@ -248,11 +302,16 @@ if __name__ == '__main__':
     data, count_data = extract_data(markdown_path)
     plot_new_count(data)
 #    plot_apod_status(data, count_data)
+#    plot_monthly_read(data)
 
-    counter, string_list = content_count(data, 'title')
-    plot_word_cloud_counter(counter, 'title')
-#    plot_counter_graph(counter, string_list, flag='title')
-    
+    counter = get_keyword_counter(data)
+    plot_word_cloud(counter, 'keyword')
+    plot_word_max(counter)
+
     counter, string_list = content_count(data, 'content')
-    plot_word_cloud_counter(counter, 'content')
+    plot_word_cloud(counter, 'content')
 #    plot_counter_graph(counter, string_list, flag='content')
+
+#    counter, string_list = content_count(data, 'title')
+#    plot_word_cloud(counter, 'title')
+#    plot_counter_graph(counter, string_list, flag='title')

@@ -25,14 +25,19 @@ _✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since Decem
 
 - **Paper Cumulative Count**
   
-  <img src="Status/ReadCount.png" alt="ReadCount" width="900px" />
+  <img src="Status/Figure/ReadCount.png" alt="ReadCount" width="900px" />
 
 ## Word Frequency Statistics
 
-- **Title Segmentation**
+- **KeyWord Frequency**
   
-  <img src="Status/Title.png" alt="Title" width="900px"/>
+  <img src="Status/Figure/KeyCount.png" alt="KeyCount" width="900px"/>
+
+
+- **KeyWord Cloud**
+  
+  <img src="Status/Figure/Keyword.png" alt="Keyword" width="900px"/>
 
 - **Content Segmentation**
   
-  <img src="Status/Content.png" alt="Content" width="900px" />
+  <img src="Status/Figure/Content.png" alt="Content" width="900px" />
