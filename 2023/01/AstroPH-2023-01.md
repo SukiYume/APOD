@@ -200,3 +200,93 @@
 
 ## 2023-01-23
 
+1. [A new limit on intergalactic magnetic fields on sub-kpc scales from fast radio bursts](https://arxiv.org/abs/2301.08259)
+
+   > Fast Radio Burst, Magnetic Field, IGM, Theory
+
+   用CHIME探测的FRB的散射时标推导IGM中亚kpc尺度的磁场上限。
+
+2. [Disintegration of Long-Period Comet C/2021 A1 (Leonard)](https://arxiv.org/abs/2301.08673)
+
+   > Comet, Planetary Science
+
+   HST观测`C/2021 A1`表明，其碎裂后没有大于60m的碎片。`SHO`观测到碎片云，给出碎裂前星核半径$r=0.6\pm0.2km$。考虑到其轨道和大小，其碎裂最初是`rotational breakup`，随着碎裂进行，埋藏的挥发物暴露并强烈升华，加速了` rotational breakup`，导致最终核解体。
+
+   <img src="Figures/image-20230123110223423.png" alt="image-20230123110223423" style="zoom:50%;" />
+
+## 2023-01-24
+
+1. [CHIME/FRB Discovery of 25 Repeating Fast Radio Burst Sources](https://arxiv.org/abs/2301.08762)
+
+   > Fast Radio Burst, Detection
+
+   介绍CHIME在2019.09.30-2021.05.01探测到的25个新的重复FRB，DM从220-1700，最少两个爆发，最多12个爆发。统计上，重复暴的DM和河外DM比非重复暴偏低。校正灵敏度和曝光效应后，重复暴的事件率和非重复暴的事件率上限之间没有明显的区分。
+
+   <img src="Figures/image-20230124224549893.png" alt="image-20230124224549893" style="zoom:50%;" />
+
+   另外还有14个可能是重复暴的候选。
+
+   <img src="Figures/image-20230124224627483.png" alt="image-20230124224627483" style="zoom:50%;" />
+
+2. [PODIUM:A Pulsar Navigation Unit for Science Missions](https://arxiv.org/abs/2301.08744)
+
+   > Pulsar, Instrument
+
+   `PODIUM`是正在设计中的航天器导航装置，使用脉冲星X射线观测来测量航天器到太阳系中心的距离和速度。设计目标是质量6kg，功率20w，体积$\rm 150\ mm\times 240\ mm\times600\ mm$。其中的入射式X望远镜，对于$0.2-10\ \rm keV$的光子能量，有效面积在$25-50\ \rm cm^2$之间，使用`Silicon Drift Detector, SDD`探测脉冲星光子，计时精度低于1usec。
+
+## 2023-01-25
+
+1. [YOLO-CL: Galaxy cluster detection in the SDSS with deep machine learning](https://arxiv.org/abs/2301.09657)
+
+   > Galaxy, Deep Learning, Machine Learning, Object Detection
+
+   用YOLOv3找SDSS中的星系团，之后写文章可以借鉴。
+
+## 2023-01-26
+
+1. [A Study of Stellar Spins in 15 Open Clusters](https://arxiv.org/abs/2301.10249)
+
+   > Stellar, Cluster, Kinematic
+
+   对15个疏散星团中，恒星的光谱和测光数据进行分析，确定恒星的倾角。结果表明，星团并不存在`spin alignment`，自旋方向基本是各向同性的。表明湍流在星团形成过程中主导。
+
+## 2023-01-27
+
+1. [The First Circumbinary Planet Discovered with Radial Velocities](https://arxiv.org/abs/2301.10794)
+
+   > Exoplanet, Radial Velocity
+   
+   `Circumbinary Planet`，环联星运转行星，即环绕双星系统运动的行星。使用`HARPS`和`ESPRESSO`光谱仪测量的径向速度，探测到一颗新的环联星运转行星，是一颗气态巨行星，命名为`TOI-1338/BEBOP-1c`。这个系统之前已经被探测到有一个凌日行星`TOI-1338/BEBOP-1b`。这是第一次只使用径向速度就探测到的CP，也使`TOI-1338/BEBOP-1`成为第二个有多CP的系统。
+   
+   <img src="Figures/image-20230127131046132.png" alt="image-20230127131046132" style="zoom:50%;" />
+
+## 2023-01-30
+
+1. [Expanding Sgr A* dynamical imaging capabilities with an African extension to the Event Horizon Telescope](https://arxiv.org/abs/2301.11384)
+
+   > Instrument, Black Hole, EHT
+
+   `Canary Islands telescope, CNI`和位于纳米比亚的`Africa Millimetre Telescope, AMT`是两个正在计划中的望远镜阵列。这里研究的是，这两个阵列加入EHT后对`Sgr A*`成像的影响。
+
+   <img src="Figures/image-20230131220451394.png" alt="image-20230131220451394" style="zoom:50%;" />
+
+## 2023-01-31
+
+1. [Coherent Curvature Radiation Spectrum by Dynamically Fluctuating Bunches in Magnetospheres](https://arxiv.org/abs/2301.12125)
+
+   > Fast Radio Burst, Theory
+
+   带电`bunches`的相干曲率辐射被认为是FRB和脉冲星的辐射机制，其中`bunch`在磁层中如何形成和消散，形成是离散还是连续的，光谱特征是什么，都是不清楚的问题。这里讨论的是`bunches`的光谱形状，杨元培老师的文章。
+
+2. [Wavelet-enabled Star Classification: A Deep Learning Approach for Identifying Binary and Exoplanet Stars](https://arxiv.org/abs/2301.13115)
+
+   > Stellar, Machine Learning, Classification
+
+   使用深度学习区分光变曲线是`双星系统`还是`有行星的系统`。模型两个输入，一个输入是光变曲线的`mean, standard deviation, variance, kurtosis, skewness`组成的向量，另一个输入是用`PyWavelet`对光变曲线做DWT的输出。测试准确率`79.91%`。
+
+3. [Why stars inflate to and deflate from red giant dimensions, II: replies to critics](https://arxiv.org/abs/2301.12754)
+
+   > Stellar
+
+   这似乎是一篇对线文章。作者`Alvio Renzini`在1992年的文章中说明了`opacity-driven`热不稳定性在恒星演化过程中的作用，包括恒星为什么会成为红巨星，以及在氦燃烧阶段的蓝循环如何形成。作者说多年来很多出版物中不认同这个观点，在这篇文章里，再次说明了不稳定性的主导作用，以及说明这些反对观点是无意义的。
+

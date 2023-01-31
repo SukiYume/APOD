@@ -251,9 +251,13 @@ def plot_word_max(counter):
     # font = FontProperties(fname=fname, size=9)
     plt.xticks(rotation=90)
     plt.xlabel('')
+    plt.yticks([])
+    plt.ylabel('')
     plt.ylim(0, words_max.loc[:, 'count'].max()+20)
     convert_white(ax, color=color_list[1])
-
+    ax.spines['top'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.spines['right'].set_visible(False)
     plt.savefig('Figure/KeyCount', dpi=300, bbox_inches='tight', transparent=True)
     plt.close()
 
