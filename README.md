@@ -15,29 +15,38 @@ _✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since Decem
   </a>
 </p>
 
-## Description
-
-- Read preprints every day.
-- Article selection has strong personal preference biases.
-- Different topics will be involved.
-
-## Article Reading Count
-
-- **Paper Cumulative Count**
-  
-  <img src="Status/Figure/ReadCount.png" alt="ReadCount" width="900px" />
-
-## Word Frequency Statistics
-
-- **KeyWord Frequency**
-  
-  <img src="Status/Figure/KeyCount.png" alt="KeyCount" width="900px"/>
+## <div align="center">Description</div>
 
 
-- **KeyWord Cloud**
-  
-  <img src="Status/Figure/Keyword.png" alt="Keyword" width="900px"/>
+<div align="center">Read preprints every day</div>
+<div align="center">Article selection has strong personal preference biases</div>
+<div align="center">Different topics will be involved</div>
 
-- **Content Segmentation**
-  
-  <img src="Status/Figure/Content.png" alt="Content" width="900px" />
+
+## <div align="center">Article Reading Count</div>
+
+<details open>
+<summary>Paper Cumulative Count</summary>
+</br>
+<div align="center"><img src="Status/Figure/ReadCount.png" alt="ReadCount" width="900px" /></div>
+</details>
+
+## <div align="center">Word Frequency Statistics</div>
+
+<details open>
+<summary>KeyWord Frequency</summary>
+</br>
+<div align="center"><img src="Status/Figure/KeyCount.png" alt="KeyCount" width="900px"/></div>
+</details>
+
+<details open>
+<summary>KeyWord Cloud</summary>
+</br>
+<div align="center"><img src="Status/Figure/Keyword.png" alt="Keyword" width="900px"/></div>
+</details>
+
+<details open>
+</br>
+<summary>Content Segmentation</summary>
+<div align="center"><img src="Status/Figure/Content.png" alt="Content" width="900px" /></div>
+</details>

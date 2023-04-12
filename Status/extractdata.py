@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 def get_markdown_path(path):
-    
+
     g = os.walk(path)
     markdown_path = []
     for path, _, file_list in g:
@@ -11,7 +11,7 @@ def get_markdown_path(path):
             if file_name.startswith('AstroPH'):
                 markdown_path = np.append(markdown_path, os.path.join(path, file_name))
     markdown_path = [re.sub(r'\\+', '/', i) for i in markdown_path]
-    
+
     return markdown_path
 
 def extract_data(markdown_path):
@@ -32,7 +32,7 @@ def extract_data(markdown_path):
             keyword, content = [], []
             for kc in kw_content:
                 kw = re.search(r'^>\s+([A-Za-z0-9_ \,]+)', kc)
-                if kw: 
+                if kw:
                     keyword.append(kw.group(1))
                     content.append(re.search(r'^>\s+[A-Za-z0-9_ \,]+\s+(.+)\s*', kc).group(1))
                 else:
@@ -54,10 +54,10 @@ def extract_data(markdown_path):
     data = data.loc[~data.content.str.contains('停更')]
     data = data.sort_values(by='date')
     data = data.reset_index(drop=True)
-    
+
     count_data = pd.DataFrame({'Month': data.drop_duplicates('date').groupby('month').count().date.index.values,
                                'Days': data.drop_duplicates('date').groupby('month').count().date.values,
                                'Count': data.groupby('month').count().loc[:, 'title'].values})
     count_data.loc[:, 'Rate'] = count_data.loc[:, 'Count'] / count_data.loc[:, 'Days']
-    
+
     return data, count_data
