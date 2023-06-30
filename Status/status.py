@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import seaborn as sns
+import matplotlib
 from matplotlib import gridspec
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
@@ -125,7 +126,7 @@ def plot_new_count(data):
     plt.scatter(pd.to_datetime(data.date.values[-1]), len(data), color=color_list[1], zorder=1)
     plt.annotate(
         text=str(len(data)), xy=(pd.to_datetime(data.date.values[-1]), len(data)),
-        xytext=(pd.to_datetime(data.date.values[-25]), len(data) / 2), weight='bold', color=color_list[1],
+        xytext=(pd.to_datetime(data.date.values[-1]), len(data) / 2), weight='bold', color=color_list[1], ha='center',
         arrowprops=dict(arrowstyle='->', connectionstyle='arc3', color=color_list[1])
     )
     plt.xlabel('Date')
@@ -134,6 +135,7 @@ def plot_new_count(data):
 
     ax.tick_params(axis='x', colors=color_list[1], which='both')
     ax.tick_params(axis='y', colors=color_list[1], which='both')
+    ax.xaxis.set_major_locator(matplotlib.ticker.MaxNLocator(6))
     ax.spines['bottom'].set_color(color_list[1])
     ax.spines['left'].set_color(color_list[1])
     ax.xaxis.label.set_color(color_list[1])
