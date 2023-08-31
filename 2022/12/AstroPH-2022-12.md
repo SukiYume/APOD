@@ -136,7 +136,7 @@
 
    > Machine Learning, Galaxy, Cosmology, Large Scale Structure
 
-   用`AutoEncoder`从离散和不完整的星系分布中重建三位宇宙学密度和速度场。
+   用`AutoEncoder`从离散和不完整的星系分布中重建三维宇宙学密度和速度场。
 
    <img src="Figures/image-20221214163937258.png" alt="image-20221214163937258" style="zoom:50%;" />
 

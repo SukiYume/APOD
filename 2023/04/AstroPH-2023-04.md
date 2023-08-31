@@ -309,7 +309,7 @@
 
    > Galaxy, Milky Way, Magnetic Field, Rotation Measure
 
-   使用河外RM测量、河内脉冲星DM测量、轫致辐射和$H\alpha$谱线的数据测量银河系的电离戒指，给出银河系视线方向磁场强度图，全天磁场强度$4\pm1.1\mu G$。
+   使用河外RM测量、河内脉冲星DM测量、轫致辐射和$H\alpha$谱线的数据测量银河系的电离介质，给出银河系视线方向磁场强度图，全天磁场强度$4\pm1.1\mu G$。
 
    <img src="Figures/image-20230426151745761.png" alt="image-20230426151745761" style="zoom:50%;" />
 

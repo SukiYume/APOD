@@ -241,6 +241,12 @@
 
    `WFST`是科大和紫台搞的一个2.5米光学望远镜，计划今年夏天安装到冷湖基地。计划在`u/g/r/i`波段对天空进行每次$\rm 30\,s\ /\ 6.5\, deg^2$曝光，以探索低红移宇宙的暂现源（包括引力波电磁对映体、爆炸后几小时的超新星、潮汐瓦解事件、fast optical transients），极限星等低于22等。
 
+3. [The temporally evolving energy and waiting time statistics of two repeating fast radio bursts](https://arxiv.org/abs/2306.07585)
+
+   > Fast Radio Burst, Statistics
+
+   用`bent power-law`、`threshold power-law`和`Band function`拟合FRB 121102和20201124A的能量分布，用`bent power-law`和`exponential`拟合等待时间分布。结果没有一个函数是可以通用拟合的。但如何将爆发按观测分开，那么`bent/threshold power-law`可以拟合能量分布，`bent/exp`可以拟合等待时间分布。
+
 ## 2023-06-15
 
 今日停更。
