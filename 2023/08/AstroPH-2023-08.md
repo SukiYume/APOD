@@ -110,7 +110,7 @@
 
    > Transient, Radio, Periodicity
 
-   [A long-period radio transient active for three decades](https://www.nature.com/articles/s41586-023-06202-5)中讲用MWA探测到`GPM J1839-10`，是一个周期21分钟，持续30-300秒，有准周期结构的暂现源。对历史数据（VLA等）的搜索发现其最早于1988年开始重复出现，长时间的数据限制周期导数为$<3.6\times10^{-13}\rm s\,s^{-1}$，超过了中子星死线。
+   [A long-period radio transient active for three decades](https://www.nature.com/articles/s41586-023-06202-5)中讲用MWA探测到`GPM J1839-10`，是一个周期21分钟，持续30-300秒，有准周期结构的暂现源。对历史数据（VLA等）的搜索发现其最早于1988年开始重复出现，长时间的数据限制周期导数为$<3.6\times10^{-13}\rm s\,s^{-1}$，超过了中子星死线。分析代码在[这里](https://github.com/nhurleywalker/GPMTransient)。
 
    <img src="Figures/image-20230809165952609.png" alt="image-20230809165952609" style="zoom:50%;" />
 

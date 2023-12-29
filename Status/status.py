@@ -248,7 +248,7 @@ def plot_word_max(counter):
     words_max.loc[:, 'count'] = words_max.loc[:, 'count'].astype(np.int64)
     plt.figure(figsize=(7, 3))
     ax = plt.subplot(111)
-    p = sns.barplot(words_max, x='word', y='count', palette=sns.color_palette(color_list[1:]))
+    p = sns.barplot(words_max, x='word', y='count', hue='word', palette='Spectral')
     show_values(p)
     # font = FontProperties(fname=fname, size=9)
     plt.xticks(rotation=90)

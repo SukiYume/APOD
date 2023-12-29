@@ -233,7 +233,7 @@
 
 5. [Measuring the Variance of the Macquart Relation in z-DM Modeling](https://arxiv.org/abs/2305.07022)
 
-   > Fast Radio Burs, Cosmology, DM
+   > Fast Radio Burst, Cosmology, DM
 
    来自`cosmic web`的DM的分布宽度由波动参数$F$确定，关系式$\sigma_{DM}=Fz-0.5$。这里使用78个FRB对$F$进行测量，发现在0.4<z<2区间内与`IllustrisTNG`的模拟预测一致。
 

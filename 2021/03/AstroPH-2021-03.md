@@ -251,7 +251,7 @@
 
 ## 2021-03-24
 
-1. [Evolution and mass extinctions as lognormal stochastic processes](https://arxiv.org/abs/2103.12062)
+1. [Evolution and mass extinctions as lognormal stic processes](https://arxiv.org/abs/2103.12062)
 
    Evo-SETI模型 - 将达尔文进化论和人类历史纳入单一的统计图像中。其中用到的数学工具有：
 

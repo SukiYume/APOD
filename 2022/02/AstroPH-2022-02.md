@@ -273,7 +273,7 @@
 
    > Fast Radio Burst, Polarization, Theory
 
-   上一篇文章的理论解释。$\sigma_{RM}$和$\tau_s$之间的关联性表明其来自同一区域，可以通过磁化不均匀等离子体屏的多径传播来描述，预测关系应该是$\sigma_{RM}\propto\tau_s^{0.54-0.83}$。
+   上一篇文章的理论解释。$\sigma_{RM}$和$\tau_s$之间的关联性表明其来自同一区域，可以通过磁化不均匀等离子体屏的多径传播来描述，预测关系应该是$\sigma_{RM}\propto\tau_s^{0.54-0.83}$。杨元培的文章。
 
 4. [Model-independent classification of events from the first CHIME/FRB Fast Radio Burst catalog](https://arxiv.org/abs/2202.10076)
 
