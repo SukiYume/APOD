@@ -8,7 +8,7 @@
 
    从九个已经良好定位在$z<0.5$的宿主星系中的FRB的RM，推导宿主星系的磁场强度。其中值只有$0.5\mu G$，比太阳系周围磁场$6\mu G$要弱，但与`star-forming, disk`星系的$2-10\mu G$下限相对一致。
 
-   <img src="Figures/image-20221003171417592.png" alt="image-20221003171417592" style="zoom:50%;" />
+   <img src="./Figures/image-20221003171417592.png" alt="image-20221003171417592" width="680px" />
 
 ## 2022-10-04
 
@@ -26,7 +26,7 @@
 
    结果表明，$z>3$的星系不像以前认为的那样由不规则和奇异结构主导。在$z\sim6$时，恒星质量和恒星形成率密度都由盘状星系主导，表明宇宙中的大多数恒星可能是在盘状星系中形成的。他们的视觉分类结果将发布在[这里](https://github.com/astroferreira/CEERS_JUNE_VISUAL_CLASSIFICATIONS)。
 
-   <img src="Figures/image-20221005011800571.png" alt="image-20221005011800571" style="zoom:50%;" />
+   <img src="./Figures/image-20221005011800571.png" alt="image-20221005011800571" width="680px" />
 
 ## 2022-10-05
 
@@ -58,7 +58,7 @@
 
    一般认为月球是撞击地球碎片凝聚而成，但是这样的模型很难解释地球和月球岩石相似的同位素组成。这里做了高分辨率的模拟，发现撞击可以立即将质量与成分与月球相似的卫星放入远超地球洛希极限的轨道。
 
-   <video src="Figures/Immediate origin of the Moon as a post-impact satellite - partial disruption-AQmeomxvokM.mp4"></video>
+   <video controls="controls" src="./Figures/Immediate origin of the Moon as a post-impact satellite - partial disruption-AQmeomxvokM.mp4"></video>
 
 3. [FRB−SRB−XRB: Geometric and Relativistic Beaming Constraints of Fast Radio Bursts from the Galactic Magnetar SGR J1935+2154](https://arxiv.org/abs/2210.01904)
 
@@ -88,9 +88,12 @@
 
    用CHIME的目录训练多种监督学习模型，发现重复和非重复FRB可以被良好分类，并且影响最大的因素是`亮温度`和`rest-frame frequency bandwidth`。
    $$
-   T_B=\frac{S_\nu D_A^2}{2\pi k_B(\nu\Delta t)^2}(1+z)^3\\=1.1\times10^{35}K\left(\frac{S_\nu}{\rm Jy}\right)\left(\frac{\nu}{\rm GHz}\right)^{-2}\left(\frac{\Delta t}{\rm ms}\right)\left(\frac{D_L}{\rm Gpc}\right)\frac{1}{1+z}
+   \begin{aligned}
+   T_B&=\frac{S_\nu D_A^2}{2\pi k_B(\nu\Delta t)^2}(1+z)^3\\
+   &=1.1\times10^{35}K\left(\frac{S_\nu}{\rm Jy}\right)\left(\frac{\nu}{\rm GHz}\right)^{-2}\left(\frac{\Delta t}{\rm ms}\right)\left(\frac{D_L}{\rm Gpc}\right)\frac{1}{1+z}
+   \end{aligned}
    $$
-   <img src="Figures/image-20221007211917666.png" alt="image-20221007211917666" style="zoom:50%;" />
+   <img src="./Figures/image-20221007211917666.png" alt="image-20221007211917666" width="680px" />
 
 2. [Machine Learning Classification of Fast Radio Bursts: II. Unsupervised Methods](https://arxiv.org/abs/2210.02471)
 
@@ -184,7 +187,7 @@
 
    大质量`colliding-wind binaries`是ISM中尘埃和化学富集的一个重要来源，不过这种系统中形成的尘埃和化学成分还没有很好的了解。`WR 140`是一个理想的实验室，有明确的轨道周期，每隔7.93年就会有一次可预测的尘埃形成事件。这里用JWST的MIRI、MRS和成像仪观测了过去130年形成的超过17个尘埃层，证实了`carbonaceous dust`的存在，表明`dust-forming WC binaries`可以丰富ISM中的有机化合物和碳质尘埃。
 
-   <img src="Figures/image-20221014002935549.png" alt="image-20221014002935549" style="zoom:50%;" />
+   <img src="./Figures/image-20221014002935549.png" alt="image-20221014002935549" width="680px" />
 
 2. [RAD@home citizen science discovery of an AGN spewing a large unipolar radio bubble onto its merging companion galaxy](https://arxiv.org/abs/2210.06100)
 
@@ -214,7 +217,7 @@
 
    研究ZTF巡天中2103颗`blazars`的光变曲线，从中找到5个QPO信号，从144天到196天不等，用`Lomb-Scargle`和`Weighted Wavelet Z-transform`。光学波段存在的这种准周期信号，可能来自与具有高洛伦兹稀疏的、与观测者视线紧密相连的渐进式喷流，或者来自于等离子体团块沿着喷流中螺旋结构运动。
 
-   <img src="Figures/image-20221017180259548.png" alt="image-20221017180259548" style="zoom:50%;" />
+   <img src="./Figures/image-20221017180259548.png" alt="image-20221017180259548" width="680px" />
 
 ## 2022-10-18
 
@@ -251,7 +254,7 @@
 
    一些FRB中发现了准周期震荡。一个理论，磁星光柱附近的磁重联产生FRB。这里证明FRB的频率、单脉冲宽度和亮度是如何由磁星的周期、磁场、QPO频率和地震能量决定的。
 
-   <img src="Figures/image-20221020003300502.png" alt="image-20221020003300502" style="zoom:50%;" />
+   <img src="./Figures/image-20221020003300502.png" alt="image-20221020003300502" width="680px" />
 
 3. [The Spectroscopic Classification of Astronomical Transients (SCAT) Survey: Overview, Pipeline Description, Initial Results, and Future Plans](https://arxiv.org/abs/2210.09322)
 
@@ -267,7 +270,7 @@
 
    这里做了目前世界上最大的`3D MHD`模拟，模拟极大磁雷诺数下，磁重联如何改变湍流能量级联的经典范式。通过将拉长的电流片分解成小的`plasmoids`，磁重联导致了新范围的湍流能量级联，其中能量转移的速度由`plasmoids`的增长速度控制。因此湍流能谱变陡，谱指数变为-2.2。
 
-   <img src="Figures/image-20221020133134136.png" alt="image-20221020133134136" style="zoom:50%;" />
+   <img src="./Figures/image-20221020133134136.png" alt="image-20221020133134136" width="680px" />
 
 ## 2022-10-21
 
@@ -277,7 +280,7 @@
 
    自适应光学需要对光学湍流和大气参数的正确预测，一般的预测通常使用数值大气模型或者`autoregression`方法。机器学习也用来预测，但准确性不如前两种方法。比如这里用到的方法，随机森林做回归，以两小时的长度作为特征长度去回归一系列参数，来预测AO需要的参数（都在表格里）。
 
-   <img src="Figures/image-20221021145743790.png" alt="image-20221021145743790" style="zoom:50%;" />
+   <img src="./Figures/image-20221021145743790.png" alt="image-20221021145743790" width="680px" />
 
 ## 2022-10-24
 
@@ -287,7 +290,7 @@
 
    `NICER`在2020年10月5日探测到`SGR1935`的一次`spin-down glitch`，在随后几天里，出现了三个类似FRB的射电暴。这样时间上的近似表明了一种关联。这里推测，靠近磁极的壳层等离子体脱落产生的星风梳理了磁场线，迅速减少了恒星的角动量，同时暂时改变了磁场的几何形状，产生FRB的发射条件。
 
-   <img src="Figures/image-20221024174917350.png" alt="image-20221024174917350" style="zoom:50%;" />
+   <img src="./Figures/image-20221024174917350.png" alt="image-20221024174917350" width="680px" />
 
 2. [An Unsupervised Hunt for Gravitational Lenses](https://arxiv.org/abs/2210.11681)
 
@@ -319,7 +322,7 @@
 
    `MACS0647-JD`是由HST发现的被Lensing的星系，红移$z\sim11$，Lensing产生了三个图像。这里是JWST对这个系统的重新成像，并表明其中正在发生星系合并。
 
-   <img src="Figures/image-20221026140352161.png" alt="image-20221026140352161" style="zoom:50%;" />
+   <img src="./Figures/image-20221026140352161.png" alt="image-20221026140352161" width="680px" />
 
 ## 2022-10-27
 
@@ -337,7 +340,7 @@
 
    大爆炸后最开始的十亿年，宇宙状态最后一次大的变化就是星系的出现。这个时期星系的紫外线光子电离了星系间的氢，使宇宙对紫外辐射变得透明，时间在$z\sim8$。宇宙历史上最初几亿年的大部分店里光子被认为来自非常暗淡的星系。这里从JWST的观测中确认了光谱红移是$z=9.76$的极低亮度的星系。
 
-   <img src="Figures/image-20221028144242415.png" alt="image-20221028144242415" style="zoom:50%;" />
+   <img src="./Figures/image-20221028144242415.png" alt="image-20221028144242415" width="680px" />
 
 ## 2022-10-31
 

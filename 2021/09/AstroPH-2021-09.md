@@ -4,7 +4,7 @@
 
    对Vela脉冲星在4天内（每天超过三个小时）的观测数据分析。使用DBSCAN对单脉冲振幅聚类，发现高振幅与较早的到达时间之间有关联。使用`Self-Organizing Maps (SOM) `（[自组织映射的Keras实现](https://github.com/FlorentF9/DESOM)）基于神经网络的无监督聚类，用`Variational AutoEncoder (VAE)`（[VAE的Keras实现](https://github.com/keras-team/keras/blob/master/examples/variational_autoencoder.py)）重建脉冲，将其从噪声中分离出来，发现脉冲分成4个种类，认为支持脉冲在磁层不同高度发射。
 
-   <img src="Figures/image-20210902230108942.png" alt="image-20210902230108942" style="zoom:50%;" />
+   <img src="./Figures/image-20210902230108942.png" alt="image-20210902230108942" width="680px" />
 
 ## 2021-09-02
 
@@ -12,7 +12,7 @@
 
     通过在FRB的前景中加入大视场星系光谱巡天数据，可以改善宇宙重子参数约束。
 
-   <img src="Figures/image-20210902231825585.png" alt="image-20210902231825585" style="zoom:50%;" />
+   <img src="./Figures/image-20210902231825585.png" alt="image-20210902231825585" width="680px" />
 
 ## 2021-09-03
 
@@ -26,7 +26,7 @@
 
    通过`SOM`（聚类，在本页的09-01节中描述过）将模拟的湍流图像中相似像素组合在一起，来分割物理结构。结合多个聚类结果，`statistically-combined ensemble (SCE) `，集成学习实现分割的稳健性。将`SCE`方法应用于磁场主导的等离子体湍流的二位模拟数据快照中。代码在[这里](https://github.com/mkruuse/segmenting-turbulent-simulations-with-ensemble-learning)。
 
-   <img src="Figures/image-20210906142002730.png" alt="image-20210906142002730" style="zoom:50%;" />
+   <img src="./Figures/image-20210906142002730.png" alt="image-20210906142002730" width="680px" />
 
 ## 2021-09-07
 
@@ -40,7 +40,7 @@
 
    当系统没有辐射冷却时，投影后二阶`VSF`的斜率变陡。加入辐射冷却和冷热相气体，冷热相的`VSF`相似，加磁场只使冷相`VSF`变陡，沿视线方向投影使热相`VSF`变陡，使冷相`VSF`变平。
 
-   <img src="Figures/image-20210907181353169.png" alt="image-20210907181353169" style="zoom:50%;" />
+   <img src="./Figures/image-20210907181353169.png" alt="image-20210907181353169" width="680px" />
 
 ## 2021-09-08
 
@@ -48,7 +48,7 @@
 
    分析FRB宿主星系的HI辐射，`NGC3252 - FRB181030A`，`M81 - FRB200120E`，`MW - FRB200428`存在HI的观测数据，结果表明，三个星系都是` interacting galaxies`，HI光谱高度`不对称`，其中一个缺乏原子氢气体。表明FRB与`相互作用导致恒星形成增强`有关，长伽马射线暴和宽线Ic型超新星的宿主星系的光谱更加对称，表明FRB和GRB的发射机制可能是不同的。
 
-   <img src="Figures/image-20210908193323219.png" alt="image-20210908193323219" style="zoom:50%;" />
+   <img src="./Figures/image-20210908193323219.png" alt="image-20210908193323219" width="680px" />
 
 ## 2021-09-09
 
@@ -84,7 +84,7 @@
 
    另外模拟还发现，`恒星形成历史`和`矮星系的形状`有关系。如果整体的恒星形成历史过于“跌宕起伏”，那么频繁的恒星形成反馈 (如超新星爆发) 过程会阻止一个稳定恒星盘的形成。
 
-   <img src="Figures/image-20210914171157366.png" alt="image-20210914171157366" style="zoom:50%;" />
+   <img src="./Figures/image-20210914171157366.png" alt="image-20210914171157366" width="680px" />
 
 2. [Can we illuminate our cities and (still) see the stars?](https://arxiv.org/abs/2109.05310)
 
@@ -101,7 +101,7 @@
 
    最大似然估计确定FRB的模型。分析表明，散射增宽随红移适度增加的模型好于散射增宽非常剧烈或者没有的模型。事件率在红移上是常数的模型好于随恒星形成率变化的模型。
 
-   <img src="Figures/image-20210915135738203.png" alt="image-20210915135738203" style="zoom:50%;" />
+   <img src="./Figures/image-20210915135738203.png" alt="image-20210915135738203" width="680px" />
 
 2. [Discovery of Extra-Planar HI Clouds and a HI Tail in the M101 Galaxy Group with FAST](https://arxiv.org/abs/2109.06430)
 
@@ -113,7 +113,7 @@
 
    对`SN 2018lfe`的光学和光谱成像，认定其为$z=0.3501$的1型超新星，峰值绝对星等$M_r=-22.1$，是最亮的`SLSNe`之一。使用磁星中心引擎模拟光变曲线，发现喷出物质量为$M_{ej}=3.2M_\odot$，磁星自转周期$P=2.9ms$，磁场强度$B=2.8\times10^{14}G$。通过晚期成像和光谱，发现其宿主星系的绝对星等$M_r=-17.85$,金属丰度$Z=0.3Z\odot$，恒星形成率$0.8M_\odot\ yr^{-1}$。
 
-   <img src="Figures/image-20210916173438238.png" alt="image-20210916173438238" style="zoom: 25%;" />
+   <img src="./Figures/image-20210916173438238.png" alt="image-20210916173438238" width="680px" />
 
 ## 2021-09-17
 
@@ -121,13 +121,13 @@
 
    CHIME源表中的FRB的红移分布与恒星形成历史不相符，`结论与9-15第一篇文章相似`。认为`带延迟的恒星形成红移分布`或者`混合模型`可以描述数据。
 
-   <img src="Figures/image-20210917121911720.png" alt="image-20210917121911720" style="zoom:50%;" />
+   <img src="./Figures/image-20210917121911720.png" alt="image-20210917121911720" width="680px" />
 
 2. [Further evidence of shocks in the first-overtone RR Lyrae pulsators: first detection of shock-triggered magnesium emissions](https://arxiv.org/abs/2109.07486)
 
    `LAMOST`中分辨率连续谱观测到一个`non-Blazhko RRc pulsator`的`blueshifted Mg triplet emission`。用`pre-whitening sequence`方法分析光度观测，得到了其星历和相位。通过`Sersic`函数拟合得到了光谱的红移和径向速度。看到了`comoving blueshifted hydrogen and Mg emission`的演化，证实了`shock waves`在`RRc`脉动变星中存在。
 
-   <img src="Figures/image-20210917124811930.png" alt="image-20210917124811930" style="zoom:50%;" />
+   <img src="./Figures/image-20210917124811930.png" alt="image-20210917124811930" width="680px" />
 
 ## 2021-09-20
 
@@ -141,9 +141,9 @@
 
    `traceee`用于从三维空间中检测排列成线段的点，用于从数据中提取移动天体（小行星、卫星和空间碎片）。方法依靠`k-nearest`，通过分组提取线段，在线段交叉时也可能很好的工作。
 
-   <img src="Figures/image-20210921145648522.png" alt="image-20210921145648522" style="zoom:50%;" />
+   <img src="./Figures/image-20210921145648522.png" alt="image-20210921145648522" width="680px" />
 
-   <img src="Figures/image-20210921145703889.png" alt="image-20210921145703889" style="zoom:50%;" />
+   <img src="./Figures/image-20210921145703889.png" alt="image-20210921145703889" width="680px" />
 
 2. [Analyzing the Habitable Zones of Circumbinary Planets Using Machine Learning](https://arxiv.org/abs/2109.08735)
 
@@ -153,7 +153,7 @@
 
    `DECORAS`是基于编码器-解码器神经网络架构，从VLBI观测中提取点源和展源。和传统方法比，文章的方法生成的源目录更完整和干净，在$7.5\sigma$的水平上是完整的，在$5.5\sigma$的水平上可靠性提高了2倍。
 
-   <img src="Figures/image-20210921151037452.png" alt="image-20210921151037452" style="zoom:50%;" />
+   <img src="./Figures/image-20210921151037452.png" alt="image-20210921151037452" width="680px" />
 
 4. [Image Subtraction in Fourier Space](https://arxiv.org/abs/2109.09334)
 
@@ -173,7 +173,7 @@
 
    观测`G305`的$^{12}CO$和$^{13}CO$的3-2线，研究中心OB星对其反馈。使用树状图分析法`dendrogram`将该区域分解成团块。团块质量的CDF和`L/M`比率都比银河系的平均水平平坦，表明反馈触发了恒星形成。
 
-   <img src="Figures/image-20210921152236717.png" alt="image-20210921152236717" style="zoom:50%;" />
+   <img src="./Figures/image-20210921152236717.png" alt="image-20210921152236717" width="680px" />
 
 8. [Search for lensing signatures from the latest fast radio burst observations and constraints on the abundance of primordial black holes](https://arxiv.org/abs/2109.09251)
 
@@ -201,7 +201,7 @@
 
    认为FRB是在脉冲星星风中的小行星的等离子体尾流中产生的。估计至少有几千个20km的小行星才能产生看到的爆发率，并且用星风中的半径-频率映射和湍流的小扰动解释向下漂移的子脉冲、微结构和窄带宽。
 
-   <img src="Figures/image-20210923134552839.png" alt="image-20210923134552839" style="zoom:50%;" />
+   <img src="./Figures/image-20210923134552839.png" alt="image-20210923134552839" width="680px" />
 
 ## 2021-09-24
 
@@ -235,7 +235,7 @@
 
    `星际，星周，河外星系，原恒星盘，以及系外行星大气中分子普查-2021版`，文章把有史以来在以上环境中探测到的分子进行了归类和整理，并且对发现历史和基本性质进行了综述。文章还有发现这些分子的`望远镜积分榜`和贡献这些分子的`天体排行榜`。
 
-   <img src="Figures/image-20210929142954949.png" alt="image-20210929142954949" style="zoom:50%;" />
+   <img src="./Figures/image-20210929142954949.png" alt="image-20210929142954949" width="680px" />
 
 2. [Fast radio bursts as probes of feedback from active galactic nuclei](https://arxiv.org/abs/2109.13472)
 
@@ -247,7 +247,7 @@
 
    多种磁电离介质成分对沿视线的RM有贡献，使用银河系的弥漫偏振辐射`diffuse polarised emission`做测试，评估RM观测中明显的结构是否与遥远的星系周介质`CGM`或前景星际介质`ISM`有关。`Magellanic Leading Arm`周围探测到过RM过剩，这个方向有两个突出的气态天体，麦哲伦臂和Antlia超新星遗迹。在2.3GHz的`S-PASS`图像中发现了狭窄的消偏振丝状物，与报道的RM过剩重叠。认为在`Antlia SNR`区域有陡峭的RM梯度。
 
-   <img src="Figures/image-20211001002654663.png" alt="image-20211001002654663" style="zoom:50%;" />
+   <img src="./Figures/image-20211001002654663.png" alt="image-20211001002654663" width="680px" />
 
    文章分析表明，RM过剩和麦哲伦臂重叠是巧合，建议在未来RM的研究中，检查银河系`Galactic diffuse polarisation maps`。
 
@@ -255,7 +255,7 @@
 
    `ArtPop`是开源的`Artificial Stellar Populations`，用于合成星族和生成完全填充的恒星系统的图像。程序模块相互独立，可以测量当前和未来成像调查的探测效率、计算星族参数、定量比较等龄线模型。程序位于[这里](https://github.com/ArtificialStellarPopulations/ArtPop/)。
 
-   <img src="Figures/image-20211001002847188.png" alt="image-20211001002847188" style="zoom:50%;" />
+   <img src="./Figures/image-20211001002847188.png" alt="image-20211001002847188" width="680px" />
 
 3. [Small Protoplanetary Disks in the Orion Nebula Cluster and OMC1 with ALMA](https://arxiv.org/abs/2109.14592)
 
@@ -263,7 +263,7 @@
 
    另外，与其它附近的恒星形成区比较，两个样本中原行星盘都比较小，表明原行星盘的截断过程是很重要的。
 
-   <img src="Figures/image-20211001003524885.png" alt="image-20211001003524885" style="zoom:50%;" />
+   <img src="./Figures/image-20211001003524885.png" alt="image-20211001003524885" width="680px" />
 
 
 

@@ -20,7 +20,7 @@
 
    用速度结构函数量`Orion / Ophiuchus / Perseus / Taurus`这四个区域恒星的湍流水平，恒星速度用Gaia和APOGEE得到。在有超新星活动的区域，$H\alpha$的VSF表现出能量注入的特征，以及相比恒星和CO更高的振幅，可以解释为超新星的能量传输到ISM的不同阶段，导致$H\alpha$追踪的暖电离阶段出现更高水平的湍流。没有超新星活动的区域，恒星、$H\alpha$和CO的VSF通常是一致的，表明不同阶段湍流耦合良好。
 
-   <img src="Figures/image-20220503173849758.png" alt="image-20220503173849758" style="zoom:50%;" />
+   <img src="./Figures/image-20220503173849758.png" alt="image-20220503173849758" width="680px" />
 
 3. [Diagnostic functions of solar coronal magnetic fields from radio observations](https://arxiv.org/abs/2205.00136)
 
@@ -36,7 +36,7 @@
 
    `恒星质量-金属性关系`和`SFR`之间存在复杂的相关性。
 
-   <img src="Figures/image-20220504225002836.png" alt="image-20220504225002836" style="zoom:50%;" />
+   <img src="./Figures/image-20220504225002836.png" alt="image-20220504225002836" width="680px" />
 
 ## 2022-05-05
 
@@ -46,7 +46,7 @@
 
    俄罗斯拍流星找辐射点。
 
-   <img src="Figures/image-20220505193801540.png" alt="image-20220505193801540" style="zoom:50%;" />
+   <img src="./Figures/image-20220505193801540.png" alt="image-20220505193801540" width="680px" />
 
 ## 2022-05-06
 
@@ -64,7 +64,7 @@
 
    罗睿的文章，写了个模拟射电望远镜数据的软件，可以模拟脉冲星、FRB，也包含更细节的特征如散射和闪烁，也可以模拟RFI，软件在[这里](https://bitbucket.csiro.au/projects/psrsoft/repos/simulatesearch)。
 
-   <img src="Figures/image-20220510010621285.png" alt="image-20220510010621285" style="zoom:80%;" />
+   <img src="./Figures/image-20220510010621285.png" alt="image-20220510010621285" width="680px" />
 
 2. [Dust Evolution in the Coma of Distant, Inbound Comet C/2017 K2 (PANSTARRS)](https://arxiv.org/abs/2205.02854)
 
@@ -118,7 +118,7 @@
 
    使用HST作为绝对光度计的能力，从$249,861$次曝光中测量$0.2-1.7\,\rm\mu m$的天空亮度，并约束从紫外到近红外天空中的弥漫成分，包括黄道光`Zl`、柯伊伯带天体`KBOs`、漫射银河光`DGL`、河外背景光`EBL`。
 
-   <img src="Figures/image-20220513193313729.png" alt="image-20220513193313729" style="zoom:80%;" />
+   <img src="./Figures/image-20220513193313729.png" alt="image-20220513193313729" width="680px" />
 
 ## 2022-05-16
 
@@ -156,7 +156,7 @@
 
    在球状星团双星`PSR B1744-24A`中发现在轨道相位上表现出RM随机的快速变化，以及脉冲星接近伴星时圆偏振的轮廓变化（法拉第转换）。这个源和重复FRB的相似之处、两个FRB长周期、球状星团中FRB的发现，表明部分FRB在双星系统中。李冬子的文章。
 
-   <img src="Figures/image-20220518154335063.png" alt="image-20220518154335063" style="zoom:70%;" />
+   <img src="./Figures/image-20220518154335063.png" alt="image-20220518154335063" width="680px" />
 
 ## 2022-05-19
 
@@ -172,7 +172,7 @@
 
    回顾了`K-Pg灭绝`、`车里雅斯宾事件`、`近地天体NEO`等的观测，提出太阳系通信和防御网络框架`SCADN`，卫星分布如下。
 
-   <img src="Figures/image-20220519140833382.png" alt="image-20220519140833382" style="zoom:50%;" />
+   <img src="./Figures/image-20220519140833382.png" alt="image-20220519140833382" width="680px" />
 
 3. [Categorize Radio Interference using component and temporal analysis](https://arxiv.org/abs/2205.08724)
 
@@ -221,7 +221,7 @@
 
    使用`XGBoost`来对Gaia光度测量数据进行分类，找到可能有周期的候选恒星，再用`Box-Least-Square, BLS`找其中的变星。最后找到两颗新的系外行星，命名为`Gaia-1b`和`Gaia-2b`。
 
-   <img src="Figures/image-20220523162128000.png" alt="image-20220523162128000" style="zoom:50%;" />
+   <img src="./Figures/image-20220523162128000.png" alt="image-20220523162128000" width="680px" />
 
 ## 2022-05-24
 
@@ -281,7 +281,7 @@
 
    用`MeerKAT`发现了三个新的FRB，其中`FRB 20201123A`在200ms时间内有两次爆发，并且被定位在一个星系中。
 
-   <img src="Figures/image-20220531164652223.png" alt="image-20220531164652223" style="zoom:70%;" />
+   <img src="./Figures/image-20220531164652223.png" alt="image-20220531164652223" width="680px" />
 
 2. [Discovery of a radio-emitting neutron star with an ultra-long spin period of 76 s](https://arxiv.org/abs/2206.01346)
 
@@ -289,7 +289,7 @@
 
    用`MeerKAT`发现了一个超长周期$75.88\,\rm s$的脉冲星`PSR J0901-4046`，特征年龄是5.3Myr，一般中子星的自转周期是几毫秒到几十秒，并且随着年龄增大，速度减慢，射电辐射会停止。这个脉冲的脉冲形态跟FRB有些类似，并且还存在准周期。
 
-   <img src="Figures/image-20220531165109416.png" alt="image-20220531165109416" style="zoom:50%;" />
+   <img src="./Figures/image-20220531165109416.png" alt="image-20220531165109416" width="680px" />
 
 3. [Water observed in the atmosphere of τ Bootis Ab with CARMENES/CAHA](https://arxiv.org/abs/2205.14975)
 
@@ -313,7 +313,7 @@
 
    从每个时间点的16个波段的辐射组成的SED中可以提取恒星半径、有效温度、尘埃消光、尘埃光深等参数，这样就可以得到高时间分辨率的这四个参数的时间变化。可以看到，参宿四在变暗期间，表面温度下降并且尘埃消光上升，也就是说两个原因对参宿四变暗的贡献几乎是相同的。
 
-   <img src="Figures/41550_2022_1680_Fig2_HTML.png" alt="img" style="zoom:50%;" />
+   <img src="./Figures/41550_2022_1680_Fig2_HTML.png" alt="img" width="680px" />
 
    这种在中红外波段、长时间、高时间分辨率、观测一颗恒星的数据，在目前的天文观测中几乎没有，而气象卫星竟然可以补上这块短板。这篇文章也是贴在了NA，没有挂到arXiv上。
 

@@ -14,7 +14,7 @@
 
    把开普勒的光变曲线插值直接写入wav文件，以此声化恒星光变曲线数据，并从Gaia数据中找到恒星在HR图上的位置，制作[网站](https://starsounder.space/)。
 
-   <img src="Figures/image-20240102212623736.png" alt="image-20240102212623736" style="zoom:50%;" />
+   <img src="./Figures/image-20240102212623736.png" alt="image-20240102212623736" width="680px" />
 
 ## 2024-01-03
 
@@ -24,7 +24,7 @@
 
    新版[TOPCAT](https://www.star.bris.ac.uk/~mbt/topcat/)加入了corner plot。
 
-   <img src="Figures/image-20240103170302722.png" alt="image-20240103170302722" style="zoom:50%;" />
+   <img src="./Figures/image-20240103170302722.png" alt="image-20240103170302722" width="680px" />
 
 ## 2024-01-04
 
@@ -34,7 +34,7 @@
 
    使用树莓派执行紫外光子计数，可以在$3\times3$和$5\times5$的窗口下实现每秒30帧的读取，这种低成本解决方案可以用于廉价的立方星中。
 
-   <img src="Figures/image-20240104233318403.png" alt="image-20240104233318403" style="zoom:50%;" />
+   <img src="./Figures/image-20240104233318403.png" alt="image-20240104233318403" width="680px" />
 
 ## 2024-01-05
 
@@ -50,7 +50,7 @@
 
    AO在327MHz的3100小时数据中探测到的206个脉冲星的星表。[AO327 星表数据集](http://ao327.nanograv.org/)可用于射电脉冲星的种群分析、时间和频率脉冲轮廓演变研究、脉冲星光束的锥体和核心发射、闪烁、脉冲强度分布等应用。它还是信号处理和脉冲星天文学技术教学的现成资源。
 
-   <img src="Figures/image-20240105183910056.png" alt="image-20240105183910056" style="zoom:50%;" />
+   <img src="./Figures/image-20240105183910056.png" alt="image-20240105183910056" width="680px" />
 
 3. [NGC 2403 XMM4: evidence for a super-Eddington neutron star with a possible transient pulsation](https://arxiv.org/abs/2401.02177)
 
@@ -90,11 +90,11 @@
 
    VLA观测`Fermi-LAT`探测到的某一个$\gamma$射线源时，探测到射电脉冲，后续GBT观测到更多爆发，定位在$Ra=18h18m34.5106s,\ Dec=-15d31m34.1688s$。
 
-   <img src="Figures/image-20240108180529995.png" alt="image-20240108180529995" style="zoom:50%;" />
+   <img src="./Figures/image-20240108180529995.png" alt="image-20240108180529995" width="680px" />
 
    没有找到低于480s的明显周期，爆发都是100%线偏振，有12%的圆偏振，谱指数-2.7，且表现出明显的散射变化。可能是年轻的脉冲星、磁星或者双脉冲星系统。
 
-   <img src="Figures/image-20240108180552214.png" alt="image-20240108180552214" style="zoom:50%;" />
+   <img src="./Figures/image-20240108180552214.png" alt="image-20240108180552214" width="680px" />
 
 2. [A new timestep criterion for N-body simulations](https://arxiv.org/abs/2401.02849)
 
@@ -110,7 +110,7 @@
 
    [Gnuastro](https://codeberg.org/gnuastro/gnuastro)中加入了`astscript-color-faint-gray`新功能，使用非线性变换为较亮的像素分配8bit的RGB值，较暗的像素以反灰度显示。
 
-   <img src="Figures/image-20240109123306947.png" alt="image-20240109123306947" style="zoom:50%;" />
+   <img src="./Figures/image-20240109123306947.png" alt="image-20240109123306947" width="680px" />
 
 2. [An insight into chromatic behaviour of jitter in pulsars and its modelling: A case study of PSR J0437−4715](https://arxiv.org/abs/2401.03660)
 
@@ -126,7 +126,7 @@
 
    用UNET从`NenuFAR`的太阳观测动态谱中分割太阳暴，代码在[这里](https://gitlab.obspm.fr/pmurphy/nenufar_ml)。
 
-   <img src="Figures/image-20240110183548669.png" alt="image-20240110183548669" style="zoom:50%;" />
+   <img src="./Figures/image-20240110183548669.png" alt="image-20240110183548669" width="680px" />
 
 2. [Is it possible to know cosmological fine-tuning?](https://arxiv.org/abs/2401.04190)
 
@@ -150,7 +150,7 @@
 
    PSR B1916+14的子脉冲的偏振位置角与标准模型的偏差与线偏振度和圆偏振度相关，偏差较大的往往是漂移子脉冲。
 
-   <img src="Figures/image-20240112005633222.png" alt="image-20240112005633222" style="zoom:50%;" />
+   <img src="./Figures/image-20240112005633222.png" alt="image-20240112005633222" width="680px" />
 
 ## 2024-01-12
 
@@ -160,7 +160,7 @@
 
    NE2001的[python版本](https://github.com/stella-ocker/mwprop)。
 
-   <img src="Figures/image-20240112155933981.png" alt="image-20240112155933981" style="zoom:50%;" />
+   <img src="./Figures/image-20240112155933981.png" alt="image-20240112155933981" width="680px" />
 
 2. [A spectral data release for 104 Type II Supernovae from the Tsinghua Supernova Group](https://arxiv.org/abs/2401.05889)
 
@@ -188,7 +188,7 @@
 
    用MeerKAT脉冲星计时测量到脉冲星的视差和自行。
 
-   <img src="Figures/image-20240117171230618.png" alt="image-20240117171230618" style="zoom:50%;" />
+   <img src="./Figures/image-20240117171230618.png" alt="image-20240117171230618" width="680px" />
 
 ## 2024-01-18
 
@@ -198,7 +198,7 @@
 
    测量同一个FRB在不同望远镜到达的时间差，探测AU尺度的暗物质子结构。或者同一个望远镜测量到FRB爆发的不同透镜图像到达时间差的时间变化。后者相当于提供了一个等效2000AU的基线，要更灵敏。
 
-   <img src="Figures/image-20240118231937161.png" alt="image-20240118231937161" style="zoom:50%;" />
+   <img src="./Figures/image-20240118231937161.png" alt="image-20240118231937161" width="680px" />
 
 ## 2024-01-19
 
@@ -208,7 +208,7 @@
 
    MeerKAT对`PSR J0514-4002E`的计时结果，这是位于球状星团NGC 1851中偏心的双毫秒脉冲星。伴星是致密天体，质量处于最大中子星和最小黑洞之间，因此要么是一个质量非常大的 NS，要么是一个低质量的 BH。这里认为伴星是由两个早期的NS合并形成。
 
-   <img src="Figures/image-20240119153507087.png" alt="image-20240119153507087" style="zoom:50%;" />
+   <img src="./Figures/image-20240119153507087.png" alt="image-20240119153507087" width="680px" />
 
 2. [Ultra-deep ATCA imaging of 47 Tucanae reveals a central compact radio source](https://arxiv.org/abs/2401.09692)
 
@@ -216,7 +216,7 @@
 
    澳大利亚ATCA阵列对球状星团`47Tuc`做了射电成像，在星团中心发现了一个微弱的平谱射电源，没有光学对应体，多波段数据表明不太可能是AGN、色球活动双星或者涉及白矮星双星，比较合理的解释是一个未被发现的毫秒脉冲星或者一个弱吸积黑洞。
 
-   <img src="Figures/image-20240119154644627.png" alt="image-20240119154644627" style="zoom:50%;" />
+   <img src="./Figures/image-20240119154644627.png" alt="image-20240119154644627" width="680px" />
 
 3. [New-generation Maximum Entropy Method (ngMEM): a Lagrangian-based algorithm for dynamic reconstruction of interferometric data](https://arxiv.org/abs/2401.10177)
 
@@ -230,7 +230,7 @@
 
    关于ADS的前世今生。
 
-   <img src="Figures/image-20240119154257691.png" alt="image-20240119154257691" style="zoom:50%;" />
+   <img src="./Figures/image-20240119154257691.png" alt="image-20240119154257691" width="680px" />
 
 ## 2024-01-22
 
@@ -250,7 +250,7 @@
 
    这个区域包含108,330个点源和517个`compact extended sources`，有新的超新星遗迹，中心有一个X射线磁星。探测到行星状星云的亮端，以及一些前景射电恒星和背景射电星系。
 
-   <img src="Figures/image-20240123214255904.png" alt="image-20240123214255904" style="zoom:50%;" />
+   <img src="./Figures/image-20240123214255904.png" alt="image-20240123214255904" width="680px" />
 
 ## 2024-01-24
 
@@ -262,7 +262,7 @@
 
    模型可以用于解释最近发现的三个长周期射电源，`GLEAM-XJ1627`、`PSR J0901-4046`、`GPM J1839-10`，要解释它们的信号的持续时间和周期，需要的透镜质量分别是$10^4M_\odot$，$4M_\odot$，$10^{3-6}M_\odot$。一台灵敏度为$10\rm mJy$的望远镜可以探测到银河系中大约20个这样的系统。
 
-   <img src="Figures/image-20240124182241291.png" alt="image-20240124182241291" style="zoom:50%;" />
+   <img src="./Figures/image-20240124182241291.png" alt="image-20240124182241291" width="680px" />
 
 ## 2024-01-25
 
@@ -286,7 +286,7 @@
 
    对`eRASSt J045650.3-203750`的多波段观测（X-射线、紫外线、射电），证实其为重复出现的潮汐瓦解时间。长时间的观测发现X射线耀斑的重现时间Trecur发生了快速变化，从300天下降到190天左右，并且在X射线辐射峰值用ATCA探测到连续谱的辐射。重复的TDE可以成为探索银河系意外超大质量黑洞周围动力学的有效工具。
 
-   <img src="Figures/image-20240127204115986.png" alt="image-20240127204115986" style="zoom:50%;" />
+   <img src="./Figures/image-20240127204115986.png" alt="image-20240127204115986" width="680px" />
 
 ## 2024-01-29
 
@@ -310,7 +310,7 @@
 
    [BTSbot](https://github.com/nabeelre/BTSbot)是用ZTF图像和从光变曲线中提取恒星参数做变源分类的工具，用于在ZTF巡天项目中实现实时暂现源分类。
 
-   <img src="Figures/image-20240130161744993.png" alt="image-20240130161744993" style="zoom:50%;" />
+   <img src="./Figures/image-20240130161744993.png" alt="image-20240130161744993" width="680px" />
 
 ## 2024-01-31
 

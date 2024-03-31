@@ -14,7 +14,7 @@
 
    对`AT 2017gge`长时间（1698d）多波段（X射线、紫外、光学、红外）的观测，其光变曲线、黑体温度、半径以及宽$\rm H/He\ I\ \lambda5876$的发射线，都与潮汐瓦解性质一致。 软X射线耀斑较光学峰值延迟了200天，之后观测到了由尘埃对光学TDE光的在辐射产生的红外回波。说明TDE发生在富含气体和尘埃的环境中，不同波段的辐射有不同的来源和位置。
 
-   <img src="Figures/image-20220602184819990.png" alt="image-20220602184819990" style="zoom:50%;" />
+   <img src="./Figures/image-20220602184819990.png" alt="image-20220602184819990" width="680px" />
 
 ## 2022-06-03
 
@@ -32,7 +32,7 @@
 
    `Monitor of All-sky X-ray Image (MAXI)`是日本在ISS上的一个X射线全天监视器，探测到很多在$X/\gamma-Ray$有辐射的新星。
 
-   <img src="Figures/image-20220606142400143.png" alt="image-20220606142400143" style="zoom:50%;" />
+   <img src="./Figures/image-20220606142400143.png" alt="image-20220606142400143" width="680px" />
 
 2. [SN 2020wnt: a slow-evolving carbon-rich superluminous supernova with no O II lines and a bumpy light curve](https://arxiv.org/abs/2206.01662)
 
@@ -42,7 +42,7 @@
 
    光变曲线与流体力学模型比较，其光度或许可以用`radioactive powering`来揭示，其前身可能是一个大质量延展恒星，质量$80M_\odot$，半径$15R_\odot$，爆发能量$45\times10^{51}\,\rm erg$，产生了$4M_\odot$的$^{56}Ni$。在这种情况下，第一个峰值来自爆炸后冷却阶段，主峰来自大量产生的镍。
 
-   <img src="Figures/image-20220606145509990.png" alt="image-20220606145509990" style="zoom:70%;" />
+   <img src="./Figures/image-20220606145509990.png" alt="image-20220606145509990" width="680px" />
 
 ## 2022-06-07
 
@@ -112,9 +112,9 @@
 
    Gaia DR3天体物理参数目录介绍。`Apsis`包括16亿天体的分类和概率，4.7亿天体的星际介质特征和距离，包括2D银河系消光地图，600万个类星体红移和140万个星系红移。4.7亿天体的参数，包括等效温度、金属丰度、半径、质量、年龄、DIB、活动指数、$H_\alpha$等效宽度、光谱型和发射线星的进一步分类。
 
-   <img src="Figures/eDR3_flux_hammer_4000x2000_v1.png" alt="eDR3_flux_hammer_4000x2000_v1" style="zoom:50%;" />
+   <img src="./Figures/eDR3_flux_hammer_4000x2000_v1.png" alt="eDR3_flux_hammer_4000x2000_v1" width="680px" />
 
-   <img src="Figures/c9outr126-skymap-ages-seismic_hp7_colorlabel_1000.png" alt="c9outr126-skymap-ages-seismic_hp7_colorlabel_1000" style="zoom:100%;" />
+   <img src="./Figures/c9outr126-skymap-ages-seismic_hp7_colorlabel_1000.png" alt="c9outr126-skymap-ages-seismic_hp7_colorlabel_1000" width="680px" />
 
 3. [Gaia Data Release 3: Analysis of the Gaia BP/RP spectra using the General Stellar Parameterizer from Photometry](https://arxiv.org/abs/2206.06138)
 
@@ -122,7 +122,7 @@
 
     Gaia DR3恒星测光参数介绍。目录包括恒星参数、距离和消光。
 
-   <img src="Figures/skymap_gspphot_preview_0.1radSmooth_VminVmax0_4_SFRZoomInsAdded.png" alt="skymap_gspphot_preview_0.1radSmooth_VminVmax0_4_SFRZoomInsAdded" style="zoom:50%;" />
+   <img src="./Figures/skymap_gspphot_preview_0.1radSmooth_VminVmax0_4_SFRZoomInsAdded.png" alt="skymap_gspphot_preview_0.1radSmooth_VminVmax0_4_SFRZoomInsAdded" width="680px" />
 
 4. [Gaia DR3 astrometric orbit determination with Markov Chain Monte Carlo and Genetic Algorithms. Systems with stellar, substellar, and planetary mass companions](https://arxiv.org/abs/2206.05439)
 
@@ -130,7 +130,7 @@
 
    Gaia DR3系外行星解决方案。天体测量发现围绕恒星运动的亚恒星质量的天体需要亚毫角秒的精度。这里用MCMC和遗传算法，用开普勒天体轨道模型拟合Gaia DR3在34个 月的天体测量时间序列，确定了1162个天体的轨道。文章里提供了Gaia Archive的检索方法，以及这些系统的轨道周期和偏心率等。
 
-   <video src="Figures/Gaia-TwoBody-Orbit.mp4"></video>
+   <video controls="controls" src="./Figures/Gaia-TwoBody-Orbit.mp4"></video>
 
 5. [Gaia Data Release 3: Stellar multiplicity, a teaser for the hidden treasure](https://arxiv.org/abs/2206.05595)
 
@@ -150,7 +150,7 @@
 
    Gaia DR3径向速度的测量。与APOGEE、GALAH、GES和RAVE都有比较好的一致性。
 
-   <img src="Figures/Hammer_RadialVelProperMotion_1000.jpg" alt="Hammer_RadialVelProperMotion_1000" style="zoom:50%;" />
+   <img src="./Figures/Hammer_RadialVelProperMotion_1000.jpg" alt="Hammer_RadialVelProperMotion_1000" width="680px" />
 
 8. [Gaia Data Release 3: G_RVS photometry from the RVS spectra](https://arxiv.org/abs/2206.05725)
 
@@ -170,7 +170,7 @@
 
     Gaia DR3提供的完整银河系金属丰度的分布。这里用`RVS`测量的560万颗恒星的化学丰度，分析化学与银河结构、恒星运动学和轨道参数之间的关系。
 
-    <img src="Figures/SkyMapChemicalMapping_Fig2_0.31degperpix_300dpi.png" alt="SkyMapChemicalMapping_Fig2_0.31degperpix_300dpi" style="zoom:50%;" />
+    <img src="./Figures/SkyMapChemicalMapping_Fig2_0.31degperpix_300dpi.png" alt="SkyMapChemicalMapping_Fig2_0.31degperpix_300dpi" width="680px" />
 
 11. [Gaia Data Release 3: Exploring and mapping the diffuse interstellar band at 862 nm](https://arxiv.org/abs/2206.05536)
 
@@ -178,7 +178,7 @@
 
     Gaia DR3中漫射星际带的分布。`Diffuse interstellar bands, DIBs`是光谱观测中常见的星际吸收特征，但来源仍不清楚。`DIBs`使用`RVS`测量，探索了距离太阳几千pc内银河系的ISM。将DIB与星际红化进行比较，发现DIB载体存在于太阳周期几乎不含尘埃的`local bubble`中。DIB的速度于CO气体速度之间显著的对应关系，表明$862nm$的DIB载体与大分子有关。
 
-    <img src="Figures/image-20220614130752058.png" alt="image-20220614130752058" style="zoom:50%;" />
+    <img src="./Figures/image-20220614130752058.png" alt="image-20220614130752058" width="680px" />
 
 12. [Gaia Data Release 3: Hot-star radial velocities](https://arxiv.org/abs/2206.05486)
 
@@ -236,7 +236,7 @@
 
     Gaia DR3太阳系天体调查。发布了超过15万个太阳系天体的天体测量参数和光度测量，以及60518个小行星的平均反射光谱。
 
-    <video src="https://dlmultimedia.esa.int/download/public/videos/2022/06/012/orig-2206_012_AR_EN.m4v"></video>
+    <video controls="controls" src="https://dlmultimedia.esa.int/download/public/videos/2022/06/012/orig-2206_012_AR_EN.m4v"></video>
 
 21. [Gaia Data Release 3: The Gaia Andromeda Photometric Survey](https://arxiv.org/abs/2206.05591)
 
@@ -244,7 +244,7 @@
 
     Gaia DR3对仙女座星系的光度测量。发布了以M31为中心的120万个天体的光变曲线，最终结果将随DR4一起发布。测量光度时发现，使用三个测光通带之间的相关性可以更清楚地识别变星。
 
-    <img src="Figures/image-20220614133338068.png" alt="image-20220614133338068" style="zoom:50%;" />
+    <img src="./Figures/image-20220614133338068.png" alt="image-20220614133338068" width="680px" />
 
 22. [Gaia Data Release 3: The extragalactic content](https://arxiv.org/abs/2206.05681)
 
@@ -252,7 +252,7 @@
 
     Gaia DR3河外天体测量。使用监督机器学习识别了660万个类星体和480万个星系，使用低分辨率`BP/RP`光谱估计红移，最高红移超过了4。这里概述了和外天体的数据处理和数据产品。
 
-    <img src="Figures/pureQSO-result_7_hires.png" alt="pureQSO-result_7_hires" style="zoom:50%;" />
+    <img src="./Figures/pureQSO-result_7_hires.png" alt="pureQSO-result_7_hires" width="680px" />
 
 23. [Gaia Data Release 3: Microlensing Events from All Over the Sky](https://arxiv.org/abs/2206.06121)
 
@@ -268,7 +268,7 @@
 
    LOFAR对`IC2497`星系周围的一个高电离区`Hanny's Voorwerp`在150MHz的观测。与eVLA在1.64GHz的观测表明扩展结构发射有陡峭的频率，意味着年龄大于$10^8\rm yr$。
 
-   <img src="Figures/image-20220615142052177.png" alt="image-20220615142052177" style="zoom:50%;" />
+   <img src="./Figures/image-20220615142052177.png" alt="image-20220615142052177" width="680px" />
 
 2. [Gaia Data Release 3. Summary of the variability processing and analysis](https://arxiv.org/abs/2206.06416)
 
@@ -296,9 +296,9 @@
 
    CHIME处理RFI的流程。
 
-   <img src="Figures/image-20220616213721282.png" alt="image-20220616213721282" style="zoom:50%;" />
+   <img src="./Figures/image-20220616213721282.png" alt="image-20220616213721282" width="680px" />
 
-   <img src="Figures/image-20220616213737944.png" alt="image-20220616213737944" style="zoom:50%;" />
+   <img src="./Figures/image-20220616213737944.png" alt="image-20220616213737944" width="680px" />
 
 ## 2022-06-17
 
@@ -308,7 +308,7 @@
 
    Gaia DR2种筛选出来的175个透镜类星体候选的光谱跟踪观测，确认了86个透镜类星体，同时还发现4个新的透镜星系，红移范围$0.62-2.79$。
 
-   <img src="Figures/image-20220617121955929.png" alt="image-20220617121955929" style="zoom:80%;" />
+   <img src="./Figures/image-20220617121955929.png" alt="image-20220617121955929" width="680px" />
 
 2. [Stellar ages, masses, extinctions and orbital parameters based on spectroscopic parameters of Gaia DR3](https://arxiv.org/abs/2206.07937)
 
@@ -316,7 +316,7 @@
 
    Gaia DR3恒星年龄、质量、消光和轨道参数，数据在[这里](https://ftp.oca.eu/pub/gkordo/GDR3/)。使用校准的大气参数、2MASS和Gaia DR3的测光以及基于视差的距离，用等龄线拟合出恒星的年龄、初始质量和红化值。对有径向速度和天体测量值的恒星推导轨道参数，包括偏心率、远心点、近心点和Zmax。小于9-10Gyr的恒星的年龄估算较为可靠，较老的恒星，估计年龄会更小。消光$A_V<2.5mag$的巨星和主序星年龄的不确定性约为2Gyr。
 
-   <img src="Figures/image-20220617123100181.png" alt="image-20220617123100181" style="zoom:50%;" />
+   <img src="./Figures/image-20220617123100181.png" alt="image-20220617123100181" width="680px" />
 
 ## 2022-06-20
 
@@ -350,7 +350,7 @@
 
    湾湾提出的探测和定位FRB的望远镜阵`Bustling Universe Radio Survey Telescope for Taiwan, BURSTT`，视场$104\,\rm deg^2$，工作在$300-800\,\rm MHz$。起初由256个天线组成，之后逐渐扩展，预计每年探测到100个明亮的$>100\,\rm Jy\cdot ms$的FRB，并定位到亚角秒。
 
-   <img src="Figures/image-20220622121241496.png" alt="image-20220622121241496" style="zoom:70%;" />
+   <img src="./Figures/image-20220622121241496.png" alt="image-20220622121241496" width="680px" />
 
 ## 2022-06-23
 
@@ -360,7 +360,7 @@
 
    Gaia DR3的RVS光谱的径向速度和线宽。DR3包括了33,812,183颗有效温度在3100K到14,500K之间的恒星的径向速度。尽管线宽与其它项目，如GALAH、APOGEE和LAMOST的一致性比较好，但是在使用这个测量值仍需谨慎。在$V\sin i$较小时，线宽被高估，$T_{\rm eff}>7500K,\ GRVS>10$时，线宽的质量和意义迅速降低。
 
-   <img src="Figures/image-20220624002123435.png" alt="image-20220624002123435" style="zoom:50%;" />
+   <img src="./Figures/image-20220624002123435.png" alt="image-20220624002123435" width="680px" />
 
 ## 2022-06-24
 
@@ -370,7 +370,7 @@
 
    结合无监督机器学习对CHIME的目录中非重复FRB的分类，发现$z<0.3$的非重复FRB的能量和持续时间之间有微弱的相关性，这意味着或许可以从持续时间估计能量，从而提供一个新的宇宙学距离的测量方法。
 
-   <img src="Figures/image-20220624163938255.png" alt="image-20220624163938255" style="zoom:50%;" />
+   <img src="./Figures/image-20220624163938255.png" alt="image-20220624163938255" width="680px" />
 
 ## 2022-06-27
 
@@ -386,7 +386,7 @@
 
    `VT 1137-0337`是VLA巡天观测中发现的一个不寻常的射电暂现源，位于一个矮星爆星系中（质量$10^{8.3}M_\odot$，恒星形成率$0.5M_\odot/yr$，光度距离$121.6\,\rm Mpc$，3GHz光度$2.5\times10^{28}\,\rm erg/s/Hz$），射电光谱$\propto\nu^{-0.35\pm0.02}$并且在4年内以每年5%的速度衰减，不能直接用恒星爆炸的冲击来解释，可能是一个有几十年历史的脉冲星风星云，最近才从超新星喷射物中透射出来。
 
-   <img src="Figures/image-20220627170400901.png" alt="image-20220627170400901" style="zoom:50%;" />
+   <img src="./Figures/image-20220627170400901.png" alt="image-20220627170400901" width="680px" />
    
    FRB的PRS的射电光谱、光谱指数和宿主星系的特性与`VT 1137-0337`有惊人的相似之处。
 
@@ -408,7 +408,7 @@
 
    这里对130个$z>2.5$的类星体进行逐一分析，并进行了高质量的X射线和紫外光谱观测，发现二者之间的相关性依然存在，并且弥散非常小。因此可以安全地用于推导类星体的距离。
 
-   <img src="Figures/image-20220630002151131.png" alt="image-20220630002151131" style="zoom:50%;" />
+   <img src="./Figures/image-20220630002151131.png" alt="image-20220630002151131" width="680px" />
 
 2. [An Injection System for the CHIME/FRB Experiment](https://arxiv.org/abs/2206.14079)
 
@@ -444,13 +444,13 @@
 
    `Astropy`5.0版本的主要功能。
 
-   <img src="Figures/image-20220630143602084.png" alt="image-20220630143602084" style="zoom:50%;" />
+   <img src="./Figures/image-20220630143602084.png" alt="image-20220630143602084" width="680px" />
 
 3. [A baseline correction algorithm for FAST](https://arxiv.org/abs/2206.14544)
 
    > Radio, Spectrum
 
    紫台的人搞的FAST基线校正，用FFT和包络线校正基线去驻波。
-   
-   <img src="Figures/image-20220630143648067.png" alt="image-20220630143648067" style="zoom:50%;" />
+
+   <img src="./Figures/image-20220630143648067.png" alt="image-20220630143648067" width="680px" />
 

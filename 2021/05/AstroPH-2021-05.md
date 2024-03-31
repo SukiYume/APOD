@@ -38,7 +38,7 @@
 
    天体射电源的地基观测星等和Gaia星等结果非常不一致。
 
-   <img src="Figures/image-20210506133805947.png" alt="image-20210506133805947" style="zoom:50%;" />
+   <img src="./Figures/image-20210506133805947.png" alt="image-20210506133805947" width="680px" />
 
    原因可能有三个：
 
@@ -52,7 +52,7 @@
 
    在2020年7月底，使用耶拿大学天文台的埃歇尔光谱仪`FLECHAS`对C/2020 F3 (NEOWISE)的彗核进行光谱分析。在4685Å和7376Å之间检测到了许多突出的发射特征，`C2 Swan`、`amidogen radical`、`two forbidden lines of oxygen`。另外，只有在2020年7月21日和23日拍摄的彗星光谱中检测到强烈的钠发射，在这两个夜晚之间，钠发射明显减弱，到2020年7月29日，光谱中不再出现Na。下图是光谱的一部分。
 
-   <img src="Figures/image-20210506134934534.png" alt="image-20210506134934534" style="zoom:50%;" />
+   <img src="./Figures/image-20210506134934534.png" alt="image-20210506134934534" width="680px" />
 
 3. [The Three Hundred Project: The stellar angular momentum evolution of cluster galaxies](https://arxiv.org/abs/2105.01676)
 
@@ -64,7 +64,7 @@
 
    使用HST对解体后的C/2019 Y4做了三天观测。分裂成了两个碎片群，C/2019 Y4-A/B。两个碎片群有不同的演化行为，A的寿命短，在3天的活动中显示出明显的质量损失。最初碎裂的原因不能确定，粗略的说是核的自旋破坏或者次表层的冰失控升华，导致大量气体释放。解体前不久观察到彗星发蓝佐证这一点。气体只能由挥发性冰的升华产生，这需要它在$q=0.25AU$的近日点距离上至少存活过一次。推测ATLAS彗星来自一个非均匀的、宽达千米的富冰体内部，这一天体在前一个近日点分裂。
 
-   <img src="Figures/image-20210507204632747.png" alt="image-20210507204632747" style="zoom:50%;" />
+   <img src="./Figures/image-20210507204632747.png" alt="image-20210507204632747" width="680px" />
 
 2. [A Pilot Study of Interplanetary Scintillation with FAST](https://arxiv.org/abs/2105.02783)
 
@@ -98,7 +98,7 @@
 
    磁星和快速射电暴之间或许存在联系。通过对银河系的大小、结构和颜色的最佳估计，创建了银河系的正面图像。依据现有的距离信息，将银河系的磁星、脉冲星和X射线双星放在这个图像上。将`Galactocentric offsets`，`enclosed fluxes` 和` fraction of light distributions`与银河系外的暂现源进行比较，发现FRB在宿主星系上的位置与银河系中子星在银河系上的位置一致。
 
-   <img src="Figures/image-20210511160547974.png" alt="image-20210511160547974" style="zoom:50%;" />
+   <img src="./Figures/image-20210511160547974.png" alt="image-20210511160547974" width="680px" />
 
 4. [A kinematic perspective on the formation process of the stellar groups in the Rosette Nebula](https://arxiv.org/abs/2105.03698)
 
@@ -112,7 +112,7 @@
    $$
    $r$是径向距离，$d$和$V$分别是位置和切向速度在RA和Dec上的分量。
 
-   <img src="Figures/image-20210511161648962.png" alt="image-20210511161648962" style="zoom:50%;" />
+   <img src="./Figures/image-20210511161648962.png" alt="image-20210511161648962" width="680px" />
 
    还研究了位于HIII区气泡周围的三个星团。西部的组与邻近的气体结构在空间上相关，但它们的运动学与气体的运动学没有关系。南部的组没有显示任何相对于NGC 2244的系统运动。这两个组可能是在湍流云的丝状结构中自发形成的。东部组在空间和运动上与从NGC 2244退去的气柱有关。这一组可能是由NGC 2244中大质量恒星的反馈形成的。
 
@@ -124,12 +124,14 @@
 
 6. [Asteroseismic analysis of 15 solar-like oscillating evolved stars](https://arxiv.org/abs/2105.03776)
    $$
-   \frac{M_{sca}}{M_\odot}=\left(\frac{\nu_{max}}{\nu_{max\odot}}\right)^3\left(\frac{\left<\Delta\nu\right>}{\left<\Delta\nu_\odot\right>}\right)^{-4}\left(\frac{T_{eff}}{T_{eff\odot}}\right)^{1.5}\\
-   \frac{R_{sca}}{R_\odot}=\left(\frac{\nu_{max}}{\nu_{max\odot}}\right)\left(\frac{\left<\Delta\nu\right>}{\left<\Delta\nu_\odot\right>}\right)^{-2}\left(\frac{T_{eff}}{T_{eff\odot}}\right)^{0.5}
+   \begin{aligned}
+   &\frac{M_{sca}}{M_\odot}=\left(\frac{\nu_{max}}{\nu_{max\odot}}\right)^3\left(\frac{\left<\Delta\nu\right>}{\left<\Delta\nu_\odot\right>}\right)^{-4}\left(\frac{T_{eff}}{T_{eff\odot}}\right)^{1.5}\\
+   &\frac{R_{sca}}{R_\odot}=\left(\frac{\nu_{max}}{\nu_{max\odot}}\right)\left(\frac{\left<\Delta\nu\right>}{\left<\Delta\nu_\odot\right>}\right)^{-2}\left(\frac{T_{eff}}{T_{eff\odot}}\right)^{0.5}
+   \end{aligned}
    $$
    星震学的观测参数$\Delta\nu$和$\nu_{max}$。天基望远镜的星震学对于理解恒星结构和演化非常重要，CoRoT、Kepler和TESS已经探测到大量类似太阳的振荡演化恒星。这里使用Kepler和CoRoT望远镜观测15颗类太阳恒星的数据，确定恒星的基本参数。发现15颗恒星的质量和半径分别在$0.79-1.47M_\odot$和$1.60-3.15R_\odot$范围内。它们的模型年龄在$2.19-12.75 Gyr$之间。`Fitting reference frequencies increase the accuracy of asteroseismic radius, mass, and age`。
 
-   <img src="Figures/image-20210511164751815.png" alt="image-20210511164751815" style="zoom:50%;" />
+   <img src="./Figures/image-20210511164751815.png" alt="image-20210511164751815" width="680px" />
 
 7. [The Drake Equation at 60: Reconsidered and Abandoned](https://arxiv.org/abs/2105.03984)
 
@@ -147,19 +149,19 @@
 
    从轨道参数估计的角度看，一些条件下的三体系统可以很好的被近似为两个双星系统的组合。但即使在这种近似下，高维参数空间与观测数据之间的复杂关系也是具有挑战性的技术问题。这里提出一种新的方法，使用MCMC框架，引入图模型，以动态自洽的方式描述参数和观测之间的概率关系。考虑了只有天体测量结果（只有自行）、只有径向速度和两类测量都有的情况。对三个经过充分研究的三体系统进行测试，确定了轨道倾角、恒星质量等参数的后验概率分布，结果与研究一致。提供了一个数学形式。
 
-   <div align=center><img src="Figures/image-20210513212003662.png" alt="image-20210513212003662" style="zoom:33.3%;" /><img src="Figures/image-20210513212020821.png" alt="image-20210513212020821" style="zoom:30%;" /></div>
+   <div align=center><img src="./Figures/image-20210513212003662.png" alt="image-20210513212003662" width="680px" /><img src="./Figures/image-20210513212020821.png" alt="image-20210513212020821" width="680px" /></div>
 
 2. [Mars Astrobiological Cave and Internal habitability Explorer (MACIE): A New Frontiers Mission Concept](https://arxiv.org/abs/2105.05281)
 
    火星地表下的可居住性和天体生物学可以通过`lava tube cave`进行评估，而无需钻探。`MACIE`涉及十年调查（2013-2022）的两个关键目标和`MEPAG`的三个目标。机器人架构、自主导航、目标样本选择和分析方面的新进展将使MACIE能够探索火星次表层。
 
-   <img src="Figures/image-20210513212726919.png" alt="image-20210513212726919" style="zoom:50%;" />
+   <img src="./Figures/image-20210513212726919.png" alt="image-20210513212726919" width="680px" />
 
 3. [Six Outbursts of Comet 46P/Wirtanen](https://arxiv.org/abs/2105.05826)
 
    对彗星46P/Wirtanen在2018年近日点附近的光变曲线中发现了六个爆发事件。在5英寸半径的孔径测光中，星等从-0.2变化到-1.6等，对应的尘埃质量在104到106公斤之间，但由于未知的颗粒大小分布，有很大的不确定性。检查了哈勃太空望远镜在一次近日点爆发后约2天拍摄的图像，在图像中没有发现大尺度喷发的证据，意味着喷发物质极限半径约为2米。
 
-   <img src="Figures/image-20210513213408362.png" alt="image-20210513213408362" style="zoom:50%;" />
+   <img src="./Figures/image-20210513213408362.png" alt="image-20210513213408362" width="680px" />
 
 ## 2021-05-14
 
@@ -191,7 +193,7 @@
 
    用NN训练光谱数据，用于恒星光谱分类和恒星参数估计（$T_{eff}(K)$、$\log (L/L_\odot)$、$\log g$、$M/M_{\odot}$、$V_{rot}$）。
 
-   <img src="Figures/image-20210518153433596.png" alt="image-20210518153433596" style="zoom:50%;" />
+   <img src="./Figures/image-20210518153433596.png" alt="image-20210518153433596" width="680px" />
 
 ## 2021-05-19
 
@@ -221,7 +223,7 @@
 
    使用拟建设的`LUVOIR`和`HabEx`观测站的直接成像观测，估计附近类地球的系外行星上夜晚城市灯光的可探测性。使用`Soumi National Polar-orbiting Partnership satellite`的数据来确定地球大气层顶部城市灯光的通量，使用商业的大功率等的光谱来模拟城市灯光的光谱能量分布。估计100个小时的观测，在太阳10pc内的行星的城市化水平为$0.4\sim3\%$时可探测。
 
-   <img src="Figures/image-20210524200109522.png" alt="image-20210524200109522" style="zoom:50%;" />
+   <img src="./Figures/image-20210524200109522.png" alt="image-20210524200109522" width="680px" />
 
 ## 2021-05-25
 
@@ -229,7 +231,7 @@
 
    使用在西班牙马德里的70m天线（DSS-63）探测到来自FRB20200120E的一个脉冲，频率在2.2-2.3GHz之间。这一FRB被CHIME探测到，位置在M81附近。找到其中有100ns的子结构，这椅子结构峰值流量密度为270J，总亮度为$4\times10^{30}\ erg\ s^{-1}Hz^{-1}$，比Crab的nanopulse亮500倍。
 
-   <img src="Figures/image-20210525142633942.png" alt="image-20210525142633942" style="zoom:30%;" />
+   <img src="./Figures/image-20210525142633942.png" alt="image-20210525142633942" width="680px" />
 
 2. [Discovery of Carbon Monoxide in Distant Comet C/2017 K2 (PANSTARRS)](https://arxiv.org/abs/2105.10986)
 
@@ -273,11 +275,11 @@
 
    使用HST对年轻的行星状星云NGC 6302进行了全面的从近紫外到近红外的成像研究。该星云是富含尘埃和分子气体的极端`bi-lobed`、`pinched-waist`的PNe的典型代表。新的WFC3发射线图像清楚地将NGC 6302的`polar lobes`定义为一分为二的尘埃环形赤道结构，以及其中的精细结构（团块、结点和纤维状结构）。
 
-   <img src="Figures/image-20210531222417999.png" alt="image-20210531222417999" style="zoom:50%;" />
+   <img src="./Figures/image-20210531222417999.png" alt="image-20210531222417999" width="680px" />
 
 2. [Development of a new wideband heterodyne receiver system for the Osaka 1.85-m mm-submm telescope -- Corrugated horn & Optics covering 210-375 GHz band](https://arxiv.org/abs/2105.13605)
 
    波纹喇叭是一种经常用于射电望远镜的高性能馈源，它提高了观测效率，能够同时观测重要的发射线，如处于多种激发状态的CO。然而，在毫米/亚毫米波段，由于波长很短，很难制作出狭窄的波纹。通过优化波纹的尺寸，在210-375GHz频段设计了一个具有良好回波损耗、低交叉极化和对称波束模式的锥形波纹喇叭。波纹喇叭被安装在大阪1.85米毫米亚毫米望远镜上，成功地对$^{12}CO$、$^{13}CO$和$C^{18}O$（J=2-1，3-2）进行了同步观测。
 
-   <img src="Figures/image-20210531223735020.png" alt="image-20210531223735020" style="zoom:30%;" />
+   <img src="./Figures/image-20210531223735020.png" alt="image-20210531223735020" width="680px" />
 

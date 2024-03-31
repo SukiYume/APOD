@@ -12,17 +12,17 @@
    $$
    I_j=N_{\bar r}/N
    $$
-   <img src="Figures/image-20211201185419373.png" alt="image-20211201185419373" style="zoom:50%;" />
+   <img src="./Figures/image-20211201185419373.png" alt="image-20211201185419373" width="680px" />
 
 3. [Gravitational wave sources in our Galactic backyard: Predictions for BHBH, BHNS and NSNS binaries detectable with LISA](https://arxiv.org/abs/2111.13704)
 
    文章通过致密双星的演化算法结合银河系结构形成、恒星形成历史、化学演化历史的模型来模拟
 
-   <img src="Figures/image-20211201192051841.png" alt="image-20211201192051841" style="zoom:50%;" />
+   <img src="./Figures/image-20211201192051841.png" alt="image-20211201192051841" width="680px" />
 
    看LISA能够在4-10年的人物事件里探测到多少不同类型的双致密天体
 
-   <img src="Figures/image-20211201192107647.png" alt="image-20211201192107647" style="zoom:50%;" />
+   <img src="./Figures/image-20211201192107647.png" alt="image-20211201192107647" width="680px" />
 
    目前我们对于双致密天体的形成和演化还知之甚少，模拟用到了很多假设，结果也有很大的不确定性。按照文章的预测，LISA在10年的时间里能探测到的双黑洞在9到238个之间，中子星-黑洞对在3-289个之间，双中子星系统在4-57个之间，而数量预测的不确定性在两个数量级左右。文章数据在[这里](https://doi.org/10.5281/zenodo.4699712)，代码在[这里](https://github.com/TomWagg/detecting-DCOs-in-LISA)。
 
@@ -56,7 +56,7 @@
 
    评估了一系列ISM模型、空间分布和光度函数，银河系中可以被`STARE2`探测到的FRB事件的比例。由于ISM的散射，只有一部分可以被探测到。
 
-   <img src="Figures/image-20211207221443861.png" alt="image-20211207221443861" style="zoom:50%;" />
+   <img src="./Figures/image-20211207221443861.png" alt="image-20211207221443861" width="680px" />
 
 ## 2021-12-08
 
@@ -90,7 +90,7 @@
 
    `Pantheon+`是`SH0ES`团队从18个不同时期的SNIa项目给出的1701个超新星的多波段光变曲线。`Pantheon+`样本背后的观测数据涉及了`25个不同的测光系统`和`105个不同的滤光片`。为了保证测光系统定标的可靠性，最新的Pantheon+样本建立了一个模型同时去拟合所有这些测光系统之间的偏差，生成了非常壮观的协方差矩阵，这样每个不同的项目在宇宙学参数测量上的系统误差都可以估计。按照文章的估计，Pantheon+可以把`暗能量`的状态方程参数限制到3%的水平上，并且给出误差在 $1 \rm km/s/Mpc$ 水平的哈勃常数限制。数据和文章发布在[这里](https://pantheonplussh0es.github.io/)。
 
-   <img src="Figures/image-20211210001354494.png" alt="image-20211210001354494" style="zoom:50%;" />
+   <img src="./Figures/image-20211210001354494.png" alt="image-20211210001354494" width="680px" />
 
 ## 2021-12-10
 
@@ -98,7 +98,7 @@
 
    使用`HST`测量了$z<0.01$的所有合适的`SNe Ia Cepheids`造父变星样本，计算出的哈勃常数为$H_0=73.04\pm1.04\ \rm km/s/Mpc$，和Planck微波背景辐射的测量的偏差接近$5\sigma$。也即局域宇宙的哈勃常数要大于宇宙学途径测量的哈勃常数，造成这一差异的原因尚未可知。
 
-   <img src="Figures/image-20211210182359556.png" alt="image-20211210182359556" style="zoom:50%;" />
+   <img src="./Figures/image-20211210182359556.png" alt="image-20211210182359556" width="680px" />
 
 2. [The design and implementation of GECAM satellite payload performance monitoring software](https://arxiv.org/abs/2112.04775)
 
@@ -110,19 +110,22 @@
 
    文章描述了一个`FBOTs`源的软X射线辐射存在准周期振荡的证据，频率为$224Hz$，也即$4.4ms$，显著性$3.7\sigma$，在60天内持续了10亿个周期。高频的QPOs证明`AT2018cow`是一个致密天体，可能是小于$850M_\odot$的中子星或者黑洞。
 
-   <img src="Figures/image-20211210184733940.png" alt="image-20211210184733940" style="zoom:50%;" />
+   <img src="./Figures/image-20211210184733940.png" alt="image-20211210184733940" width="680px" />
 
     Power Density Spectrum，功率谱是傅里叶变换得到的。记光子到达的时间序列为$x(t)$，定义均值和自相关函数为时间平均值：
    $$
-   \mu_x=\lim_{T\rightarrow\infty}\frac1{2T}\int_{-T}^{T}x(t)dt\\
-   \phi_{xx}(\tau)=\lim_{T\rightarrow\infty}\frac1{2T}\int_{-T}^{T}x(t)x(t+\tau)dt
+   \begin{aligned}
+   &\mu_x=\lim_{T\rightarrow\infty}\frac1{2T}\int_{-T}^{T}x(t)dt\\
+   &\phi_{xx}(\tau)=\lim_{T\rightarrow\infty}\frac1{2T}\int_{-T}^{T}x(t)x(t+\tau)dt
+   \end{aligned}
    $$
    由于自相关函数$\phi_{xx}(\tau)=\phi_{xx}(-\tau)$，则PDS可以写为：
    $$
-   P_{xx}(f)=2\int_0^\infty\phi_{xx}(\tau)\cos(2\pi f\tau)d\tau=\lim_{T\rightarrow\infty}\frac{|X(f)|^2}{2T}\\
-   X(f)=\lim_{T\rightarrow\infty}\int_{-T}^Tx(t)e^{-i2\pi ft}dt
+   \begin{aligned}
+   &P_{xx}(f)=2\int_0^\infty\phi_{xx}(\tau)\cos(2\pi f\tau)d\tau=\lim_{T\rightarrow\infty}\frac{|X(f)|^2}{2T}\\
+   &X(f)=\lim_{T\rightarrow\infty}\int_{-T}^Tx(t)e^{-i2\pi ft}dt
+   \end{aligned}
    $$
-   
 
    详细内容可见[X-Ray Power Density Spectra of Black Hole Binaries: A New Deadtime Model for the RXTE PCA](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.424.1542&rep=rep1&type=pdf)。
 
@@ -257,7 +260,7 @@
 
    比如其中有一颗白矮星`4053455379420641152`，在2025年将经过一颗$G=20.25mag$的恒星，导致$\delta\theta_+=1.2^{+2.0}_{-0.5}{\rm mas}$的图像移动。
 
-   <img src="Figures/image-20211224202036405.png" alt="image-20211224202036405" style="zoom:50%;" />
+   <img src="./Figures/image-20211224202036405.png" alt="image-20211224202036405" width="680px" />
 
 2. [An Early Transition to Magnetic Supercriticality in Star Formation](https://arxiv.org/abs/2112.12644)
 
@@ -285,7 +288,7 @@
 
    在训练好的`ResNet-18`的基础上`fine-tune`，对天文图像着色并实现超分辨率。
 
-   <img src="Figures/image-20211230154033468.png" alt="image-20211230154033468" style="zoom:50%;" />
+   <img src="./Figures/image-20211230154033468.png" alt="image-20211230154033468" width="680px" />
 
 ## 2021-12-31
 

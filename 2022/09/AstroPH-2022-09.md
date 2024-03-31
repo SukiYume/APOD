@@ -16,7 +16,7 @@
 
    `FRB 20191107B`的高DM和小散射时标给IGM的湍流强度设定一个上限，量化为散射尺度$SM_{IGM}<8.4\times10^{-7}\,\rm kpc/m^{-30/2}$。与其它FRB一起做统计，没发现DM和散射之间的关联，表明IGM不是FBR散射的主要来源，因此支持以前的研究结果，即宿主星系中源的局域环境最可能主导FRB的散射。
 
-   <img src="Figures/image-20220902155736363.png" alt="image-20220902155736363" style="zoom:80%;" />
+   <img src="./Figures/image-20220902155736363.png" alt="image-20220902155736363" width="680px" />
 
 2. [The JWST Early Release Science Program for Direct Observations of Exoplanetary Systems II: A 1 to 20 Micron Spectrum of the Planetary-Mass Companion VHS 1256-1257 b](https://arxiv.org/abs/2209.00620)
 
@@ -26,7 +26,7 @@
 
    用JWST的NIRSpec IFU和MIRI MRS观测，覆盖$1-20\,\rm \mu m$，分辨率1000-3700。根据与模板褐矮星光谱、分子不透明度和大气模型比较，光谱中找到了水、甲烷、一氧化碳、二氧化碳、钠和钾。`VHS 1256b`的光谱形状收到了不平衡化学和云层的影响。并且第一次对行星质量的伴星探测到了硅酸盐云。
 
-   <img src="Figures/image-20220902161811226.png" alt="image-20220902161811226" style="zoom:50%;" />
+   <img src="./Figures/image-20220902161811226.png" alt="image-20220902161811226" width="680px" />
 
 ## 2022-09-05
 
@@ -62,7 +62,7 @@
 
    基于Parkes的模拟观测产生的数据集，作为数据挑战用于寻找未知类型天体的算法开发。数据中注入了大量模拟的信号，包括脉冲星、FRB、特征不清的信号和未知信号。数据在[这里](https://doi.org/10.25919/fd4f-0g20)。
 
-   <img src="Figures/ParkesSparkesX.png" alt="ParkesSparkesX" style="zoom:50%;" />
+   <img src="./Figures/ParkesSparkesX.png" alt="ParkesSparkesX" width="680px" />
 
 2. [Classifying Transients Using Host Galaxy Photometry](https://arxiv.org/abs/2209.02784)
 
@@ -108,7 +108,7 @@
 
    SKA中用于脉冲星搜索的流程，使用`Mask R-CNN`识别图像中的候选物体。
 
-   <img src="Figures/image-20220912235513429.png" alt="image-20220912235513429" style="zoom:50%;" />
+   <img src="./Figures/image-20220912235513429.png" alt="image-20220912235513429" width="680px" />
 
 ## 2022-09-13
 
@@ -118,7 +118,7 @@
 
    `Circumgalactic Medium, CGM`，星系周介质，目前所有种类的星系的CGM中气体分布没有得到良好的约束。由于CGM对FRB的DM会有贡献，所以可以用CHIME的FRB目录来探测。通过对比FRB的位置，与堆叠后星系晕的位置，发现有20-30个FRB与质量为$10^{11}-10^{13}\,M_\odot$的晕相交。 说明CGM的确对DM做出了额外贡献。
 
-   <img src="Figures/image-20220913142334409.png" alt="image-20220913142334409" style="zoom:50%;" />
+   <img src="./Figures/image-20220913142334409.png" alt="image-20220913142334409" width="680px" />
 
 2. [Repeating Fast Radio Bursts with High Burst Rates by Plate Collisions in Neutron Star Crusts](https://arxiv.org/abs/2209.04774)
 
@@ -146,7 +146,7 @@
 
    总结了分析VLBI数据时应该了解的最新技术和算法。
 
-   <img src="Figures/image-20220914191730944.png" alt="image-20220914191730944" style="zoom:50%;" />
+   <img src="./Figures/image-20220914191730944.png" alt="image-20220914191730944" width="680px" />
 
 ## 2022-09-15
 
@@ -262,7 +262,7 @@
 
    LAMOST最近时域的文章很多啊。找到一个白矮星和致密天体组成的双星系统，轨道周期是0.607189天，大振幅的椭圆轨道变化和明显的`Balmer/HeI`发射线表明有充满洛希瓣的质量转移，但其15年内没有爆发表明质量转移率很低。光变曲线和径向速度曲线的联合拟合得到轨道倾角是66.5度，对应致密天体是1.09个太阳质量。这个白矮星的温度和光度接近主序星，因此很难从赫罗图上分离这种系统。
 
-   <img src="Figures/image-20220929175032801.png" alt="image-20220929175032801" style="zoom:50%;" />
+   <img src="./Figures/image-20220929175032801.png" alt="image-20220929175032801" width="680px" />
 
 ## 2022-09-30
 
@@ -272,7 +272,7 @@
 
    用`HDBSCAN`从GaiaDR3中找500pc以内的星团，使用坐标、自行、视差和年龄做参数。通过回溯恒星的位置，找到3354颗以大于$5km/s$的速度从原始星团中逃逸的恒星。在过程中发现GaiaDR3的径向速度不适合用来描述年龄小于100Myr的低质量恒星的运动学特征，Gaia的RV明显偏大。
 
-   <img src="Figures/image-20220930133124993.png" alt="image-20220930133124993" style="zoom:50%;" />
+   <img src="./Figures/image-20220930133124993.png" alt="image-20220930133124993" width="680px" />
 
 2. [unTimely: a Full-sky, Time-Domain unWISE Catalog](https://arxiv.org/abs/2209.14327)
 

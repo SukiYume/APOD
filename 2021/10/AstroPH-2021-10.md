@@ -4,7 +4,7 @@
 
    心跳变星是偏心轨道上`ellipsoidal binary variables`的一个子类，亮度变化由潮汐形变和其它`proximity`效应引起的，亮度的最强变化发生在双星近邻的时候，光变曲线类似心电图`electrocardiogram signature`。
 
-   <img src="Figures/image-20211001135050660.png" alt="image-20211001135050660" style="zoom:50%;" />
+   <img src="./Figures/image-20211001135050660.png" alt="image-20211001135050660" width="680px" />
 
    `Optical Gravitational Lensing Experiment，OGLE`项目数据档案中发现了991颗心跳变星`heartbeat star HBS`。其中包括512颗银河核球`Galactic bulge`的恒星、439颗大麦云和40颗小麦云的恒星。
 
@@ -18,7 +18,7 @@
    $$
    其中等式左边是由潮汐形变导致的`流量的相对变化`，$S$是振幅，$i$是轨道倾角，$\omega$是角距进动`the argument of the periastron`，$\phi(t)$是近点角`anomaly`随时间变化，$R(t)$是双星距离随时间的变化，$a$是半长轴。
 
-   <img src="Figures/image-20211001142247074.png" alt="image-20211001142247074" style="zoom:50%;" />
+   <img src="./Figures/image-20211001142247074.png" alt="image-20211001142247074" width="680px" />
 
    上文中提到的两种恒星，在HR图上发现位于不同的分支上。提出一个时间序列分析，检测`tidally-excited oscillations，TEOs`，在样本中约5%的恒星发现了这种模式。
 
@@ -42,7 +42,7 @@
 
    跟`2021-08-10 第2篇`内容相近，描述2020年4月对`SGR1935`的`H.E.S.S`的观测，认为观测与`INTEGRAL`和`Fermi-GBM`探测到的磁星的X射线爆发吻合。后续观测中在$E>0.6TeV$没发现明显的信号，给出了`持续性`和`瞬态性`发射的上限。
 
-   <img src="Figures/image-20211005200813946.png" alt="image-20211005200813946" style="zoom:50%;" />
+   <img src="./Figures/image-20211005200813946.png" alt="image-20211005200813946" width="680px" />
 
 ## 2021-10-06
 
@@ -56,7 +56,7 @@
 
    根据`LSST`的观测策略，分析其晚上访问同一天区的时间间隔，目前的模拟在22分钟的位置有个峰值。但这对夜间天体的时变做不到有效的约束，会妨碍`LSST`及时发现广泛的天体物理现象。文章提出了改进搜索时间尺度的方法（与科学无关）。
 
-   <img src="Figures/image-20211007204639720.png" alt="image-20211007204639720" style="zoom:50%;" />
+   <img src="./Figures/image-20211007204639720.png" alt="image-20211007204639720" width="680px" />
 
 ## 2021-10-08
 
@@ -72,7 +72,7 @@
 
    另外，`FDD`在基于`FFT`的脉冲星搜索中提供了额外的性能改进，因为可以省略从`FFT`回到时域的步骤。
 
-   <img src="Figures/image-20211008220352710.png" alt="image-20211008220352710" style="zoom:50%;" />
+   <img src="./Figures/image-20211008220352710.png" alt="image-20211008220352710" width="680px" />
 
 ## 2021-10-11
 
@@ -126,7 +126,7 @@
 
    文章尝试用透镜效应分析FRB，由于单个爆发是ms量级，因此透镜和源之间的相对运动可以忽略不计。通过计算FRB通过透镜后产生的`microimages`的放大率和相对时间延迟，表明来自单个透镜的脉冲叠加产生的光变曲线，可以产生多峰的FRBs。对于`恒星质量的透镜`，脉冲之间的相对时间延迟可以达到$0.1-1\ ms$。
 
-   <img src="Figures/image-20211018130630158.png" alt="image-20211018130630158" style="zoom:50%;" />
+   <img src="./Figures/image-20211018130630158.png" alt="image-20211018130630158" width="680px" />
 
    文章的算法提供了一种生成微透镜光变曲线的方法，可用于约束遥远星系的恒星质量分布。
 
@@ -136,13 +136,13 @@
 
    用`encoder`去除干涉成像中的噪声。
 
-   <img src="Figures/image-20211020043720102.png" alt="image-20211020043720102" style="zoom:50%;" />
+   <img src="./Figures/image-20211020043720102.png" alt="image-20211020043720102" width="680px" />
 
 2. [Uncloaking hidden repeating fast radio bursts with unsupervised machine learning](https://arxiv.org/abs/2110.09440)
 
    使用[UMAP](https://umap-learn.readthedocs.io/en/latest/clustering.html)（一种降维算法，说是“比t-SNE要好”，可以用来聚类）对CHIME的源表进行聚类，发现其中的重复暴可以聚集在一起，并且从非重复暴中找到了188个可能是重复暴的源。
 
-   <img src="Figures/image-20211020044221681.png" alt="image-20211020044221681" style="zoom:50%;" />
+   <img src="./Figures/image-20211020044221681.png" alt="image-20211020044221681" width="680px" />
 
 3. [Escape of Fast Radio Bursts from magnetars' magnetospheres](https://arxiv.org/abs/2110.08435)
 
@@ -158,7 +158,7 @@
 
    > 黑洞的`射电喷流`可以把大量能量和宇宙线粒子高速地`注入`附近的星系际气体环境，并显著地改变射电喷流附近的`热气体分布`，产生一个密度较低的“气泡”结构。在周围密度更高介质的压力梯度中，`“气泡”`会因为浮力而`向外移动`，最终`消散`在星系际介质中，留下复杂的，由`被磁场加速的电子产生的同步加速辐射`组成的“遗迹”。
 
-   <img src="Figures/image-20211020045129213.png" alt="image-20211020045129213" style="zoom:33%;" />
+   <img src="./Figures/image-20211020045129213.png" alt="image-20211020045129213" width="680px" />
 
    几亿年过去了，中心黑洞又经历了`喷发-沉积-再次活跃`的循环。在射电和X射线波段上，天文学家们又在中心星系内看到了新喷流，一轮气势磅礴的射电反馈活动已经开始。而等到新的周期到达顶峰，几百万年已经悄然流过，人类还存不存在都不好说了。
 
@@ -168,7 +168,7 @@
 
    理论模型表明，在`局部湍流`的影响下，`爆发的表观强度`和`大小`在亚秒的尺度上会发生`随频率的演化`，但现在的分辨率很难对这样的精细结构直接成像。
 
-   <img src="Figures/image-20211020195003889.png" alt="image-20211020195003889" style="zoom:50%;" />
+   <img src="./Figures/image-20211020195003889.png" alt="image-20211020195003889" width="680px" />
 
    文章用$80-200MHz$对太阳三型爆发进行观测，时间和频率分辨率分别是0.5s、160kHz，来描述日冕湍流的特征。为了解三型爆发的形态演变，对其进行二维高斯拟合。结果发现日冕中密度波动的强度$\delta N/N$是高度$R$的函数，爆发的弛豫时间和半高宽与频率之间是幂律关系，与模型的结果大致相同。
 
@@ -201,7 +201,7 @@
 
    李广兴的文章。用Gaia的数据筛选银河系YSOs，15149个，研究和分子气体运动的相关性。找到了150个距离小于3kpc的YSO星协，他们的速度方向与银盘平行。计算了速度弥散，湍流耗散率随银河系中心距离的增加而减小。认为这些云是由银河系运动形成的静止的结构，湍流是持续注入维持的。
 
-   <img src="Figures/image-20211025153020608.png" alt="image-20211025153020608" style="zoom:50%;" />
+   <img src="./Figures/image-20211025153020608.png" alt="image-20211025153020608" width="680px" />
 
 ## 2021-10-26
 
@@ -239,7 +239,7 @@
 
    定义`PRS`是亮度大于$10^{29}\ {\rm erg/s/Hz}$的快速射电暴星协，不归因于宿主星系的恒星形成活动。统计表明重复暴并不明显依赖`PRS`。CHIME的事件统计给出每个源的平均重复率在$25-440/{\rm year}$之间，假设FRB的发射束类似脉冲星，则FRB的空间密度在$2.2\times10^2-5.2\times10^4\ Gpc^{-3}$之间，这一密度与新发现的`off-nuclear "wandering" AGN`相似，文章认为一些PRS已经被探测并被误认为是AGN。
 
-   <img src="Figures/image-20211029143005697.png" alt="image-20211029143005697" style="zoom:50%;" />
+   <img src="./Figures/image-20211029143005697.png" alt="image-20211029143005697" width="680px" />
 
 2. [High-Resolution Observations of Bright Boulders on Asteroid Ryugu: 1. Size Frequency Distribution and Morphology](https://arxiv.org/abs/2110.14974)
 
@@ -247,7 +247,7 @@
 
    文章分析了`Hayabusa-2`落地后拍摄的图像，测量了其中一千多块明亮的`boulder`的尺寸，S和C型的`boulder`的尺寸都表现出幂律分布。许多`boulder`嵌入到更大的基岩中，表明它们经历了深度的混合，而不是形成时落在龙宫上的。这与S型`boulder`可能是灾难性破坏期间混入的假说一致。
 
-   <img src="Figures/image-20211029144528810.png" alt="image-20211029144528810" style="zoom:50%;" />
+   <img src="./Figures/image-20211029144528810.png" alt="image-20211029144528810" width="680px" />
 
 
 

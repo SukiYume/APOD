@@ -33,7 +33,7 @@
 
    本文通过对一个叫做`MOA-2011-BLG-191/OGLE-2011-BLG-0462`的银河系核球内微引力透镜天体的观测，`MOA`和`OGLE`是发现它的巡天项目名称，明确看到了前景透镜天体导致的背景恒星的位置和亮度变化，认为是由一个距离地球5000光年的$7M_\odot$的恒星级黑洞引起的。这一事件有很长的光变时标$270天$，下图是地面观测的结果。
 
-   <img src="Figures/image-20220202191324254.png" alt="image-20220202191324254" style="zoom:50%;" />
+   <img src="./Figures/image-20220202191324254.png" alt="image-20220202191324254" width="680px" />
 
    观测给出黑洞运动速度的估计，发现黑洞速度不低，并且与周围恒星不一致，很可能就是从双星系统中被超新星爆发事件踢出来的。
 
@@ -43,7 +43,7 @@
 
    一篇纯数学的文章，图好看。作者是一个本科生，图是他手绘的。
 
-   <img src="Figures/image-20220202194201203.png" alt="image-20220202194201203" style="zoom:50%;" />
+   <img src="./Figures/image-20220202194201203.png" alt="image-20220202194201203" width="680px" />
 
 ## 2022-02-03
 
@@ -80,7 +80,7 @@
 
    使用`LSTM`拟合$\rm Ia$型超新星的事件光谱序列。训练好的网络允许使用亮度最大值附近日期的单一光谱准确重建其它时间的光谱序列，表明`SN Ia`最关键的信息可以从最大光度附近的单一光谱得到。
 
-   <img src="Figures/image-20220208153544869.png" alt="image-20220208153544869" style="zoom:50%;" />
+   <img src="./Figures/image-20220208153544869.png" alt="image-20220208153544869" width="680px" />
 
 2. [UCLCHEMCMC: A MCMC Inference tool for Physical Parameters of Molecular Clouds](https://arxiv.org/abs/2202.02343)
 
@@ -154,7 +154,7 @@
 
    使用天体测量误差寻找`Gaia EDR3`尤其是`Gaia Catalogue of Nearby Stars`中的双星。对测量误差进行`local volume`归一化，得到`Local Unit Weight Error`来筛选。
 
-   <img src="Figures/image-20220216151815738.png" alt="image-20220216151815738" style="zoom:50%;" />
+   <img src="./Figures/image-20220216151815738.png" alt="image-20220216151815738" width="680px" />
 
 ## 2022-02-17
 
@@ -168,7 +168,7 @@
 
    对这些合并的成员进行了分析，包括成员、轨道特性和金属丰度等。发现银河系三个金属丰度最低的星流`C-19`、`Sylgr`和`Phonenix`，金属丰度分别是$-3.4,-2.9,-2.7\ |\ \rm [Fe/H]=dex$都与`LMS-1/Wukong`有关，表明它是金属含量最低的合并。
 
-   <img src="Figures/image-20220217170027552.png" alt="image-20220217170027552" style="zoom:50%;" />
+   <img src="./Figures/image-20220217170027552.png" alt="image-20220217170027552" width="680px" />
 
 2. [The velocity distribution of white dwarfs in Gaia EDR3](https://arxiv.org/abs/2202.07672)
 
@@ -184,7 +184,7 @@
 
    `TensorFlow Probability`是一个用于概率推理和统计分析的库，或许可以用于FRB拟合。
 
-   <img src="Figures/image-20220217172743892.png" alt="image-20220217172743892" style="zoom:50%;" />
+   <img src="./Figures/image-20220217172743892.png" alt="image-20220217172743892" width="680px" />
 
 4. [The Interstellar Medium of Dwarf Galaxies](https://arxiv.org/abs/2202.08231)
 
@@ -204,7 +204,7 @@
 
    FRB20201020A位于$\rm 13h51m25s,\ +49^\circ02'06''$，$DM=398.59\ \rm pc/cm^3$，$RM=110\pm69\ \rm rad/m^2$，是非重复暴，有$0.415ms$的准周期性，这样的周期超过了中子星状态方程的限制，因此不可能被解释为脉冲星旋转，因而有可能是磁星磁层中等距发射引起的。
 
-   <img src="Figures/image-20220217174210505.png" alt="image-20220217174210505" style="zoom:50%;" />
+   <img src="./Figures/image-20220217174210505.png" alt="image-20220217174210505" width="680px" />
 
 7. [Herschel-ATLAS Data Release III: Near-infrared counterparts in the South Galactic Pole field -- Another 100,000 submillimetre galaxies](https://arxiv.org/abs/2202.07687)
 
@@ -220,7 +220,7 @@
 
    研究LOFAR探测到的附近宇宙中高亮度的早型星系`ETG`的特性和射电辐射来源。188个巨型`ETG`有LOFAR的图像，其中146个的亮度高于典型亮度$10^{21}\ \rm W/Hz$，其中最亮的是$10^{26}\ \rm W/Hz$。大约三分之二的`gETG`是无法解析的，也就是说大小$<4\ \rm kpc$，这意味着附近宇宙中致密射电源的普遍性。
 
-   <img src="Figures/image-20220218225556184.png" alt="image-20220218225556184" style="zoom:50%;" />
+   <img src="./Figures/image-20220218225556184.png" alt="image-20220218225556184" width="680px" />
 
 ## 2022-02-21
 
@@ -232,7 +232,7 @@
 
    使用`EXTraS`目录中的10万个数据训练`SOM`，可以发现`SOM`图中与`Flare`、`Eclipse`、`Dips`、`Linear Light Curve`相关的区域。
 
-   <img src="Figures/image-20220221211811199.png" alt="image-20220221211811199" style="zoom:50%;" />
+   <img src="./Figures/image-20220221211811199.png" alt="image-20220221211811199" width="680px" />
 
 ## 2022-02-22
 
@@ -254,7 +254,7 @@
    $$
    特征向量$u_l$定义了具有特征速度$\delta v$的光谱窗，光谱由$u_l$加权得到的空间图测量空间距离，即可得到速度弥散与尺度之间的关系，下图是一个例子。
 
-   <img src="Figures/image-20220222142521105.png" alt="image-20220222142521105" style="zoom:50%;" />
+   <img src="./Figures/image-20220222142521105.png" alt="image-20220222142521105" width="680px" />
 
    这篇文章使用PCA研究Orion A恒星形成对湍流的影响。$^{13}CO$的PCA得到的比例关系显示
 
@@ -267,7 +267,7 @@
 
    冯毅的文章，可视化由我实现。讲重复暴的偏振度随频率演化，低频偏振度低；不同重复暴的演化趋势可以由$\sigma_{RM}$，也即$RM$的弥散描述，反映了辐射的多径传播，环境的复杂性。
 
-   <img src="Figures/image-20220222143417882.png" alt="image-20220222143417882" style="zoom:50%;" />
+   <img src="./Figures/image-20220222143417882.png" alt="image-20220222143417882" width="680px" />
 
 3. [Temporal Scattering, Depolarization, and Persistent Radio Emission from Magnetized Inhomogeneous Environments Near Repeating Fast Radio Burst Sources](https://arxiv.org/abs/2202.09602)
 
@@ -281,7 +281,7 @@
 
    对CHIME的Catlog中FRB的轮廓进行相关分析和聚类，发现可以大致分成两类，其中一类相比另一类有较低的亮温度和较大的宽度。
 
-   <img src="Figures/image-20220222144131446.png" alt="image-20220222144131446" style="zoom:50%;" />
+   <img src="./Figures/image-20220222144131446.png" alt="image-20220222144131446" width="680px" />
 
 5. [Detecting and Monitoring Tidal Dissipation of Hot Jupiters in the Era of SiTian](https://arxiv.org/abs/2202.10031)
 
@@ -307,7 +307,7 @@
 
    一颗系外行星在周期图中可能没有表现出显著的统计性，但通过周期图叠加可以找到一类系外行星。
 
-   <img src="Figures/image-20220223161138067.png" alt="image-20220223161138067" style="zoom:50%;" />
+   <img src="./Figures/image-20220223161138067.png" alt="image-20220223161138067" width="680px" />
 
 ## 2022-02-24
 
@@ -331,7 +331,7 @@
 
    `LOFAR`的$2\ \rm m\ |\ 120-160\ \rm MHz$巡天数据成图，分辨率是$6''$，并给出$4,396,228$个射电源目录，大部分以前从未在射电波段探测过，估计点源在$0.8\ \rm mJy/beam$亮度以上有$90\%$的完整度。
 
-   <img src="Figures/image-20220225170150073.png" alt="image-20220225170150073" style="zoom:50%;" />
+   <img src="./Figures/image-20220225170150073.png" alt="image-20220225170150073" width="680px" />
 
 2. [H0 tension or M overestimation?](https://arxiv.org/abs/2202.11852)
 
@@ -355,5 +355,5 @@
 
    `Straight lightning`认为是宏暗物质的预言，一个足够大的`macro`穿过大气层，产生一个直的等离子体柱，发出荧光。最近在澳大利亚捕捉到了4道非常直的闪电，时间相隔$0.5s$。
 
-   <img src="Figures/image-20220228185744416.png" alt="image-20220228185744416" style="zoom:50%;" />
+   <img src="./Figures/image-20220228185744416.png" alt="image-20220228185744416" width="680px" />
 

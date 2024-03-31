@@ -41,7 +41,7 @@
 
    [SkyPortal](https://github.com/skyportal/skyportal)是一个集成了多个时域巡天数据的平台，并使用ChatGPT生成报告。
 
-   <img src="Figures/image-20230502104208526.png" alt="image-20230502104208526" style="zoom:50%;" />
+   <img src="./Figures/image-20230502104208526.png" alt="image-20230502104208526" width="680px" />
 
 ## 2023-05-03
 
@@ -51,7 +51,7 @@
 
    [PySR](https://github.com/MilesCranmer/PySR)是基于`multi-population 进化算法`，使用[SymbolicRegression.jl](https://github.com/MilesCranmer/SymbolicRegression.jl)作后端的符号回归工具。[文章](https://github.com/MilesCranmer/pysr_paper)中引入了`EmpiricalBench`用于测试不同符号回归算法的实用性。
 
-   <img src="Figures/image-20230503122702389.png" alt="image-20230503122702389" style="zoom:50%;" />
+   <img src="./Figures/image-20230503122702389.png" alt="image-20230503122702389" width="680px" />
 
 2. [An Enigmatic 380 kpc Long Linear Collimated Galactic Tail](https://arxiv.org/abs/2305.01335)
 
@@ -59,7 +59,7 @@
 
    发现一个由S0/a星系和一个高度聚集的气体和恒星尾部组成，延伸380kpc。
 
-   <img src="Figures/image-20230503130217419.png" alt="image-20230503130217419" style="zoom:50%;" />
+   <img src="./Figures/image-20230503130217419.png" alt="image-20230503130217419" width="680px" />
 
 3. [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
 
@@ -67,7 +67,7 @@
 
    用25个ChatGPT赋予不同的人格，模拟人生。让每个人格能够记住当天发生的事情，并对第二天的事情做出决策，以及让他们做出复杂的行为。
 
-   <img src="Figures/image-20230503130510071.png" alt="image-20230503130510071" style="zoom:50%;" />
+   <img src="./Figures/image-20230503130510071.png" alt="image-20230503130510071" width="680px" />
 
 ## 2023-05-04
 
@@ -79,7 +79,7 @@
 
    这里使用`SOFIA HAWC+`尘埃偏振观测`Orion Bar PDR`区域，偏振方向图显示，辐射场方向平均来说不是颗粒对齐方向。
 
-   <img src="Figures/image-20230504192233576.png" alt="image-20230504192233576" style="zoom:50%;" />
+   <img src="./Figures/image-20230504192233576.png" alt="image-20230504192233576" width="680px" />
 
 ## 2023-05-05
 
@@ -95,7 +95,7 @@
 
    过去在`Large Phased Array (LPA) radio telescope`探测到三个色散分别为247、570、1767的FRB。这里在32个频率通道数据中（原来是6通道数据）进行了验证，并没有看到相应的FRB，之前的探测结果可能是由于基线不正确扣除或者噪声不正确估计导致。
 
-   <img src="Figures/image-20230505112303220.png" alt="image-20230505112303220" style="zoom:50%;" />
+   <img src="./Figures/image-20230505112303220.png" alt="image-20230505112303220" width="680px" />
 
 3. [Predicting Stellar Rotation Periods Using XGBoost](https://arxiv.org/abs/2305.02407)
 
@@ -111,7 +111,7 @@
 
    通过对红移2.3处一个大质量星系周边环境的观测，探测到中性氢、氦、电离碳的发射线，延伸到100kpc。碳的丰度表明，这些气体已经富含比氦更重的元素。进一步的光谱和数值模拟分析发现，这些富含重元素的电离气体，极为可能是早先被星系中心的活动星系核喷射到星系周围，通过复合辐射、禁戒跃迁辐射等过程冷却下来，在引力和环境角动量共同作用下，重新回流入星系，形成“循环冷气体流”。对气体动力学建模进一步表明，循环气体流是朝星系流入的，可以促进和维持恒星形成活动。
 
-   <img src="Figures/image-20230505164056134.png" alt="image-20230505164056134" style="zoom:50%;" />
+   <img src="./Figures/image-20230505164056134.png" alt="image-20230505164056134" width="680px" />
 
 5. [Earthquake activity as captured using the network approach](https://arxiv.org/abs/2305.02775)
 
@@ -119,7 +119,7 @@
 
    提出一种评估地震事件`dynamics`的方法，基于不同地震台站之间波形信号的相位，能够监测到相对较小的震级的演变。
 
-   <img src="Figures/image-20230505123854747.png" alt="image-20230505123854747" style="zoom:50%;" />
+   <img src="./Figures/image-20230505123854747.png" alt="image-20230505123854747" width="680px" />
 
 ## 2023-05-08
 
@@ -129,7 +129,7 @@
 
    回顾了机器学习在射电星系形态分类的应用。
 
-   <img src="Figures/image-20230508234850748.png" alt="image-20230508234850748" style="zoom:50%;" />
+   <img src="./Figures/image-20230508234850748.png" alt="image-20230508234850748" width="680px" />
 
 2. [Forbidden planetesimals](https://arxiv.org/abs/2305.03562)
 
@@ -145,7 +145,7 @@
 
    [CWoLA](https://github.com/hep-lbdl/GaiaCWoLa)是一种无标签分类工具，用于异常检测。这里使用`CWoLA`来识别Gaia观测中的冷恒星流。
 
-   <img src="Figures/image-20230510015001530.png" alt="image-20230510015001530" style="zoom:50%;" />
+   <img src="./Figures/image-20230510015001530.png" alt="image-20230510015001530" width="680px" />
 
 2. [Scaling and Universality in the Temporal Occurrence of Repeating FRBs](https://arxiv.org/abs/2305.04738)
 
@@ -155,7 +155,7 @@
 
    这不是很正常的吗，就是个泊松过程，事件率归一化以后，当然一样了，再加上他们用的是CDF，抹掉了许多特征。
 
-   <img src="Figures/image-20230510015610049.png" alt="image-20230510015610049" style="zoom:50%;" />
+   <img src="./Figures/image-20230510015610049.png" alt="image-20230510015610049" width="680px" />
 
 ## 2023-05-10
 
@@ -165,7 +165,7 @@
 
    从嫦娥五号带回来的土中发现了`(NH4)MgCl3(H2O)6`，一种含水和氨的化合物。
 
-   <img src="Figures/image-20230510101026499.png" alt="image-20230510101026499" style="zoom:50%;" />
+   <img src="./Figures/image-20230510101026499.png" alt="image-20230510101026499" width="680px" />
 
 2. [Measurement of ultra-high-energy diffuse gamma-ray emission of the Galactic plane from 10 TeV to 1 PeV with LHAASO-KM2A](https://arxiv.org/abs/2305.05372)
 
@@ -173,7 +173,7 @@
 
    LHAASO探测弥漫银河系γ射线发射`diffuse Galactic γ-ray emission`，这样的辐射主要是宇宙线和ISM之间相互作用产生的，是对宇宙线在银河系的分布、传播和相互作用的重要探测。发现银河系内部（低银纬）和银河系外部（高银纬）的能谱指数都是$-2.99$的幂律。`diffuse emission`在纬度的分布与气体一致，经度的分布与气体有轻微偏差。意味着要么存在额外的发射源，要么宇宙线的强度有空间变化。
 
-   <img src="Figures/image-20230510105305291.png" alt="image-20230510105305291" style="zoom:50%;" />
+   <img src="./Figures/image-20230510105305291.png" alt="image-20230510105305291" width="680px" />
 
 3. [Beyond Mediocrity: How Common is Life?](https://arxiv.org/abs/2305.05395)
 
@@ -197,7 +197,7 @@
 
    在MeerKAT银道面X射线双星的观测中，偶然发现一个`彗星形态的射电星云`，指向之前未被识别的超新星遗迹`G45.24+0.18`。FAST在这个星云附近发现了一颗138ms的脉冲星`PSR J1914+1054g`，MeerKAT将其定位到星云头部位置。色散值约为$418\,\rm pc/cm^3$，对应$7.8-8.8\,\rm kpc$，周期导数$(2.7\pm0.3)\times10^{-14}\,\rm s\,s^{-1}$，特征年龄约为82kyr。如果中子星诞生在附近的超新星遗迹，那么其投影速度为$320-360\,\rm km/s$。但如果特征年龄准确，超新星遗迹不该这么小，或许银道面高密度环境抑制了超新星遗迹的膨胀率。
 
-   <img src="Figures/image-20230511185417228.png" alt="image-20230511185417228" style="zoom:50%;" />
+   <img src="./Figures/image-20230511185417228.png" alt="image-20230511185417228" width="680px" />
 
 ## 2023-05-12
 
@@ -209,7 +209,7 @@
 
    这篇文章观测到了2015年的这个图像，并结合不同的透镜模型，利用图像间的时间延迟，测量宇宙膨胀率。使用与观测结果最一致的两个模型，发现$H_0=66.6^{+4.1}_{-3.3}\,\rm km/s/Mpc$，与高红移处哈勃常数一致。
 
-   <img src="Figures/image-20230512145617014.png" alt="image-20230512145617014" style="zoom:50%;" />
+   <img src="./Figures/image-20230512145617014.png" alt="image-20230512145617014" width="680px" />
 
 2. [The SNR of a Transit](https://arxiv.org/abs/2305.06790)
 
@@ -229,7 +229,7 @@
 
    LOFAR在223小时的观测中，探测到FRB180916B的11次爆发。强化了其周期随频率演化（低频相位推迟且活跃窗口更宽），且探测到明显的散射。RM也在继续减小。
 
-   <img src="Figures/image-20230512154733757.png" alt="image-20230512154733757" style="zoom:50%;" />
+   <img src="./Figures/image-20230512154733757.png" alt="image-20230512154733757" width="680px" />
 
 5. [Measuring the Variance of the Macquart Relation in z-DM Modeling](https://arxiv.org/abs/2305.07022)
 
@@ -245,7 +245,7 @@
 
    [Sub-X](https://github.com/dnswttr/Sub-X)用于从2D/3D的背景射电发射中提取子结构`filamentary structures`，用于研究星系团中弥漫射电发射。
 
-   <img src="Figures/image-20230515170052335.png" alt="image-20230515170052335" style="zoom:50%;" />
+   <img src="./Figures/image-20230515170052335.png" alt="image-20230515170052335" width="680px" />
 
    在2D分析中，发现观测中最亮的是`filaments`，在3D模拟中，射电遗迹`radio relics`不由片状物组成，并且也没发现有投影效应可以隐藏片状结构。
 
@@ -261,7 +261,7 @@
 
    如何让所有人都当第一作者，把所有人名字重叠起来，或者围成一个圈。代码在这里[author-stack-paper](https://github.com/edemaine/author-stack-paper)。
 
-   <img src="Figures/image-20230515171952782.png" alt="image-20230515171952782" style="zoom:50%;" />
+   <img src="./Figures/image-20230515171952782.png" alt="image-20230515171952782" width="680px" />
 
 ## 2023-05-16
 
@@ -284,7 +284,7 @@
 
    汤加火山对帕拉纳尔天文台观测的影响，下图是爆发后对消光的影响。
 
-   <img src="Figures/image-20230516164309973.png" alt="image-20230516164309973" style="zoom:50%;" />
+   <img src="./Figures/image-20230516164309973.png" alt="image-20230516164309973" width="680px" />
 
    尽管爆发发生在一年前，现在仍然能看到`stunning `令人惊叹的的日落。
 
@@ -302,7 +302,7 @@
 
    用GAN生成太阳三型暴，跟LOFAR数据混合做训练集，用YoloV2检测三型暴。
 
-   <img src="Figures/image-20230517165646926.png" alt="image-20230517165646926" style="zoom:50%;" />
+   <img src="./Figures/image-20230517165646926.png" alt="image-20230517165646926" width="680px" />
 
 3. [A Conditional Denoising Diffusion Probabilistic Model for Radio Interferometric Image Reconstruction](https://arxiv.org/abs/2305.09121)
 
@@ -310,9 +310,9 @@
 
    使用`Conditional Denoising Diffusion Probabilistic Model`来做射电干涉成像。在`DDPM`中，前向过程逐渐向图像中加噪声，使其成为完全的高斯图像。反向过程从图像中减噪声，使其恢复成原始图像。在训练过程中，会随机选择一个反向过程的时刻`t`，根据此时刻的带噪声图像和时刻`t`，使用UNet预测此时刻的噪声，并预测噪声为优化目标。
 
-   <img src="Figures/image-20230517174810734.png" alt="image-20230517174810734" style="zoom:50%;" />
+   <img src="./Figures/image-20230517174810734.png" alt="image-20230517174810734" width="680px" />
 
-   <img src="Figures/image-20230517174824033.png" alt="image-20230517174824033" style="zoom:50%;" />
+   <img src="./Figures/image-20230517174824033.png" alt="image-20230517174824033" width="680px" />
 
 4. [Deep learning universal crater detection using Segment Anything Model (SAM)](https://arxiv.org/abs/2304.07764)
 
@@ -320,7 +320,7 @@
 
    用`Segment Anything Model`数陨石坑。
 
-   <img src="Figures/image-20230517181439795.png" alt="image-20230517181439795" style="zoom:50%;" />
+   <img src="./Figures/image-20230517181439795.png" alt="image-20230517181439795" width="680px" />
 
 ## 2023-05-18
 
@@ -362,7 +362,7 @@
    $$
    $L_x$和$L_g$如下图所示。
 
-   <img src="Figures/image-20230522161555677.png" alt="image-20230522161555677" style="zoom:50%;" />
+   <img src="./Figures/image-20230522161555677.png" alt="image-20230522161555677" width="680px" />
 
    在`ASKAP - CRAFT`的观测中，`FRB 20190608B/20210320C/20201124A`分别发现了两个散射屏的证据，离FRB源距离分别小于$16.7/3000/26\,\rm kpc$o的距离。
 
@@ -374,7 +374,7 @@
 
    使用CNN对`LSST`和`SDSS`的超新星不同波长处的光变曲线构成的二维数组做分类。
 
-   <img src="Figures/image-20230522163655386.png" alt="image-20230522163655386" style="zoom:50%;" />
+   <img src="./Figures/image-20230522163655386.png" alt="image-20230522163655386" width="680px" />
 
 4. [Constraints on star formation in Orion A from Gaia](https://arxiv.org/abs/2305.11823)
 
@@ -394,7 +394,7 @@
 
    这里讨论其由白矮星并合形成的可能性。根据观察到的磁白矮星的特性，白矮星并和形成的中子星自转周期约10-100ms，磁场$10^{11}-10^{13}\,\rm G$，当这些中子星通过磁偶极辐射`spin down`后，会自然再现看到的4颗中子星。这样的驱动机制或许是M81球状星团中FRB 20200120E的形成原因。
 
-   <img src="Figures/image-20230523230923700.png" alt="image-20230523230923700" style="zoom:50%;" />
+   <img src="./Figures/image-20230523230923700.png" alt="image-20230523230923700" width="680px" />
 
 2. [VanillaNet: the Power of Minimalism in Deep Learning](https://arxiv.org/abs/2305.12972)
 
@@ -402,7 +402,7 @@
 
    陈汉亭华为那边的文章，设计了[VanillaNet](https://github.com/huawei-noah/VanillaNet)，以更小的模型实现更高的性能，6层可以超过ResNet-34，13层的VanillaNet在ImageNet达到83%的top1精度，超过几百层网络的性能。
 
-   <img src="Figures/image-20230523231437142.png" alt="image-20230523231437142" style="zoom:50%;" />
+   <img src="./Figures/image-20230523231437142.png" alt="image-20230523231437142" width="680px" />
 
 3. [Grad-CAM++: Improved Visual Explanations for Deep Convolutional Networks](https://arxiv.org/abs/1710.11063)
 
@@ -410,7 +410,7 @@
 
    [Grad-CAM++](https://github.com/adityac94/Grad_CAM_plus_plus)，利用最后一个卷积层提取的特征正偏导数的加权组合，来生成深度学习模型良好的视觉解释。
 
-   <img src="Figures/image-20230523232139286.png" alt="image-20230523232139286" style="zoom:50%;" />
+   <img src="./Figures/image-20230523232139286.png" alt="image-20230523232139286" width="680px" />
 
 ## 2023-05-24
 
@@ -420,9 +420,7 @@
 
    化学丰度反应银河系元素富集历史，由于`radial mixing`过程，星际介质丰度梯度随时间演化丢失了。这里使用APOGEE DR17中的红巨星，将银盘中元素的丰度演变映射为`lookback time`和`Rbirth`的函数。发现金属梯度在9/6/4 Gyr前有过三次波动，第一次与`Gaia-Sausage-Enceladus disruption`时间一致，其他的可能与人马座矮星系的穿越有关。
 
-   
-
-   <img src="Figures/image-20230524163616983.png" alt="image-20230524163616983" style="zoom:50%;" />
+   <img src="./Figures/image-20230524163616983.png" alt="image-20230524163616983" width="680px" />
 
 ## 2023-05-25
 
@@ -454,7 +452,7 @@
 
    > Pulsar, Radio, Timing
 
-   老韩他们的文章，FAST对30颗脉冲星的计时解。一个结论是，同一颗脉冲星在FAST不同观测模式、不同波束得到的TOA可以结合到一起，用于做计时解。
+   GPPS他们的文章，FAST对30颗脉冲星的计时解。一个结论是，同一颗脉冲星在FAST不同观测模式、不同波束得到的TOA可以结合到一起，用于做计时解。
 
 3. [RMTable2023 and PolSpectra2023: standards for reporting polarization and Faraday rotation measurements of radio sources](https://arxiv.org/abs/2305.16607)
 
@@ -464,7 +462,7 @@
 
    这里提出[RMTable2023](https://github.com/CIRADA-Tools/RMTable)和[PolSpectra2023](https://github.com/CIRADA-Tools/PolSpectra)，约定用于统一RM表格和偏振光谱的标准。并且在`RMTable2023`中，已经制作了从42个目录中收集的55819个RM的目录。
 
-   <img src="Figures/image-20230529152239118.png" alt="image-20230529152239118" style="zoom:50%;" />
+   <img src="./Figures/image-20230529152239118.png" alt="image-20230529152239118" width="680px" />
 
 4. [An end-to-end strategy for recovering a free-form potential from a snapshot of stellar coordinates](https://arxiv.org/abs/2305.16845)
 
@@ -472,7 +470,7 @@
 
    提出一个端到端的方案，用于从恒星的位置和速度的snapshot中恢复`free-form potential`。使用RNN作为引力势从恒星位置和速度恢复轨道，并使用`PhySO`，在**2023-03-20**中提到的符号回归方案来解释RNN。
 
-   <img src="Figures/image-20230529153114908.png" alt="image-20230529153114908" style="zoom:50%;" />
+   <img src="./Figures/image-20230529153114908.png" alt="image-20230529153114908" width="680px" />
 
 ## 2023-05-30
 
@@ -510,7 +508,7 @@
 
    在2020.10-2021.08期间的8个活动周期中，对FRB 180916进行了多波段的观测，从射电（SRT-336/1547MHz、uGMRT - 400MHz），到光学（Asiago、CMO SAI MSU、CAHA、RTT-150、TNG），到高能（AGILE、Insight-HXMT、INTEGRAL、Swift）。在SRT的336Mhz探测到14个爆发，和uGMRT探测到7个爆发。光学和高能没有暂现源事件探测。
 
-   <img src="Figures/image-20230531103813476.png" alt="image-20230531103813476" style="zoom:50%;" />
+   <img src="./Figures/image-20230531103813476.png" alt="image-20230531103813476" width="680px" />
 
    其中TNG/SiFAP2的观测时间覆盖了uGMRT探测到的爆发，给出$E_{\rm optical}/E_{\rm radio}<1.3\times10^2$。Insight-HMXT的观测时间覆盖了SRT探测到的一个爆发，给出$E_{\rm xray}/E_{\rm radio} \in (0.9-1.3)\times10^7$。
 

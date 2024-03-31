@@ -10,7 +10,7 @@
 
    使用CNN对`Faint Images of the Radio Sky at Twenty Centimeters，FIRST`中的射电星系进行分类：`Fanaroff-Riley, FRI`、`Fanaroff-Riley II, FRII`、`Bent-Tailed, BENT`、`Compact, COMPT`。最佳增强策略是旋转、水平或垂直翻转和增加亮度。平移、缩放和降低亮度会使模型的性能弱化。
 
-   <img src="Figures/image-20210702201152406.png" alt="image-20210702201152406" style="zoom:50%;" />
+   <img src="./Figures/image-20210702201152406.png" alt="image-20210702201152406" width="680px" />
 
 ## 2021-07-05
 
@@ -18,7 +18,7 @@
 
    使用`Bi-LSTM`从`ArXiv`种248,000篇天体物理学相关文章种提取测量值，产生了有超过231,000个天体物理学测量值的数据库。在线界面在[这里](http://numericalatlas.cs.ucl.ac.uk/)。以下是哈勃常数的例子，可以看到过去20年间宇宙学的发展。
 
-   <img src="Figures/image-20210705203921168.png" alt="image-20210705203921168" style="zoom:50%;" />
+   <img src="./Figures/image-20210705203921168.png" alt="image-20210705203921168" width="680px" />
 
 ## 2021-07-06
 
@@ -26,7 +26,7 @@
 
    `46P/Wirtanen`和`103P/Hartley 2` 非常活跃，这样的彗星有很高的产水率，推断出的升华面积与彗核表面积相当。根据`Deep Impact spacecraft`对103P的观测，活跃性似乎是由水冰粒射入彗星，增加了升华的表面积，提高了产水率。2018年46P接近地球，下图是其近红外光谱。
 
-   <img src="Figures/image-20210707222629819.png" alt="image-20210707222629819" style="zoom:50%;" />
+   <img src="./Figures/image-20210707222629819.png" alt="image-20210707222629819" width="680px" />
    
    没有发现`1.5`或者`2.0`或者`3.0`微米的水冰吸收带。彗星核的超活跃性和光谱中缺乏水冰吸收特征，可以由大小为1微米的`冰粒`和少量的低反照率`尘埃`，或者包含大量大块水冰来解释。
 
@@ -42,7 +42,7 @@
 
    超高能宇宙射线`ultra-high-energy cosmic rays, UHECRs `的起源和性质仍然是天体粒子物理学的一个未决问题。单像素望远镜荧光探测器阵列`Fluorescence detector Array of Single-pixel Telescopes, FAST`，是下一代地面`UHECRs`观测站，旨在通过部署大型低成本荧光探测器阵列来覆盖大天区。完整规模的`FAST`由四个20厘米的光电倍增管`photomultiplier tubes`组成，位于直径1.6米的分段镜的焦点上。文章介绍了FAST的最新成果，包括望远镜校准、大气监测、正在进行的电子设备升级、复杂的重建方法的开发以及UHECR的探测。
 
-   <img src="Figures/image-20210708225501250.png" alt="image-20210708225501250" style="zoom:50%;" />
+   <img src="./Figures/image-20210708225501250.png" alt="image-20210708225501250" width="680px" />
 
 ## 2021-07-09
 
@@ -88,16 +88,18 @@
 
    另外，当有Stokes U-V泄漏时，`QU-fitting`要引入一个额外的参数$\tau$：
    $$
-   Q_{mod}'=Q_{mod}\\
-   U_{mod}'=U_{mod}\ cos(2\pi\nu\tau)-V_{mod}\ sin(2\pi\nu\tau)\\
-   V_{mod}'=U_{mod}\ sin(2\pi\nu\tau)+V_{mod}\ cos(2\pi\nu\tau)
+   \begin{aligned}
+   Q_{mod}'&=Q_{mod}\\
+   U_{mod}'&=U_{mod}\ cos(2\pi\nu\tau)-V_{mod}\ sin(2\pi\nu\tau)\\
+   V_{mod}'&=U_{mod}\ sin(2\pi\nu\tau)+V_{mod}\ cos(2\pi\nu\tau)
+   \end{aligned}
    $$
 
 2. [Periodicity Search on X-ray Bursts of SGR J1935+2154 Using 8.5-year Fermi/GBM Data](https://arxiv.org/abs/2107.03800)
 
    使用`Fermi/GBM`从2013年1月至2021年7月对`SGR1935+2154`的X射线暴的253个爆发进行周期搜索。使用LSP，发现有`237天`的周期，占空比约为`58.6%`。
 
-   <img src="Figures/image-20210710010631225.png" alt="image-20210710010631225" style="zoom:30%;" />
+   <img src="./Figures/image-20210710010631225.png" alt="image-20210710010631225" width="680px" />
 
 3. [Science with SKA](https://arxiv.org/abs/2107.03915)
 
@@ -123,7 +125,7 @@
 
    FRB光变曲线的50 ns变化表明，发射是在中子星磁层内的一个紧凑区域产生的，因为当发射的距离$>10^{10}\ cm$时，无法说明问题。
 
-   <img src="Figures/image-20210713003042618.png" alt="image-20210713003042618" style="zoom:50%;" />
+   <img src="./Figures/image-20210713003042618.png" alt="image-20210713003042618" width="680px" />
 
 ## 2021-07-13
 
@@ -131,7 +133,7 @@
 
    脉冲星计时阵可以用来探测频率为`nHz`的引力波，计时观测对脉冲星和地球之间的距离变化敏感，能够精确测量脉冲星的`位置`、`距离`和`速度`，以及`轨道形状`。
 
-   <img src="Figures/image-20210713202216086.png" alt="image-20210713202216086" style="zoom:50%;" />
+   <img src="./Figures/image-20210713202216086.png" alt="image-20210713202216086" width="680px" />
 
    文章通过对`PPTA`的25颗脉冲星进行了`Timing`分析，时间长达24年。在4个脉冲星中发现了`Shapiro Delay`，`PSRs J1017-7156`、``J1125-6014`、`J1545-4550`和`J1732-5049`。PSR J1125-6014的大夏皮罗延迟给出质量为$M_p=1.5\pm0.2M_\odot$。
 
@@ -141,13 +143,13 @@
 
    使用Arecibo的1.4Ghz在`3个小时`内探测到`FRB121102`的`133`个脉冲。Wating time的分布更接近LogNormal，峰值从207s降到75s，认为不符合泊松过程或者Weibull分布。累计能量分布是断幂函数，低能和高能的斜率分别是`-0.4`和`-1.8`，断点为$2.3\times10^{37}erg$。
 
-   <img src="Figures/image-20210714225043312.png" alt="image-20210714225043312" style="zoom:50%;" />
+   <img src="./Figures/image-20210714225043312.png" alt="image-20210714225043312" width="680px" />
 
 2. [Localizing FRBs through VLBI with the Algonquin Radio Observatory 10-m Telescope](https://arxiv.org/abs/2107.05659)
 
    CHIME/FRB的FRB探测出发VLBI定位解决非重复暴的定位问题。使用在`Algonquin Radio Observatory located in Ontario Canada`的一个10米射电望远镜，开发了一个实验VLBI平台，理论精度为`<30 masec`。使用Crab脉冲星验证了定位程序，并分析了各站点之间的时钟稳定性，发现以目前系统的性能，50 masec的定位是可能的。两个站点之间的电离层贡献必须测量到$1e^{-8} pc/cc$的精度，才能从400-800MHz频段的探测中提供合理的定位。
 
-   <img src="Figures/image-20210714233055006.png" alt="image-20210714233055006" style="zoom:50%;" />
+   <img src="./Figures/image-20210714233055006.png" alt="image-20210714233055006" width="680px" />
 
 ## 2021-07-15
 
@@ -161,7 +163,7 @@
 
    是[ExoFrontiers: Big questions in exoplanetary science](https://iopscience.iop.org/bookListInfo/aas-iop-astronomy)这本书的一章。早期研究中，使用简单的`disc models`发现低质量行星的迁移非常快。后来的研究中，在`disc models`中考虑了更多物理，认为迁移的过程可能停止或逆转。在巨行星与行星盘有`非线性相互作用`的情况下，行星迁移应该更慢，并与行星盘的演化有联系。
 
-   <img src="Figures/image-20210716214504058.png" alt="image-20210716214504058" style="zoom:50%;" />
+   <img src="./Figures/image-20210716214504058.png" alt="image-20210716214504058" width="680px" />
 
 2. [Strategies and Advice for the Search for Extraterrestrial Intelligence](https://arxiv.org/abs/2107.07283)
 
@@ -169,13 +171,13 @@
 
    > I cover `passive versus active` searches, `ambiguous versus dispositive` kinds of technosignatures, `commensal or archival searches versus dedicated` ones, c`ommunicative signals versus "artifacts"`, "`active" versus derelict technologies`, searches for `beacons versus eavesdropping`, and `model-based versus anomaly-based` searches.
 
-   <img src="Figures/image-20210716215913934.png" alt="image-20210716215913934" style="zoom:50%;" />
+   <img src="./Figures/image-20210716215913934.png" alt="image-20210716215913934" width="680px" />
 
 3. [System parameters of three short period cataclysmic variable stars](https://arxiv.org/abs/2107.07400)
 
    使用`ULTRACAM`对三颗新的短周期灾变变星的光度测量，从光变曲线中提取`component stars`的轨道、质量和半径。发现质量分别为$0.06\pm0.008M_\odot$、$0.042\pm0.001M_\odot$、$0.042\pm0.004M_\odot$，后两者是低质量的亚恒星、前者在氢燃烧极限的$2\sigma$内。所有这三个新系统都接近[Knigge et al. (2011)](http://dx.doi.org/10.1088/0067-0049/194/2/28)的修改后的 "最佳 "模型演化序列。
 
-   <img src="Figures/image-20210716220646875.png" alt="image-20210716220646875" style="zoom:50%;" />
+   <img src="./Figures/image-20210716220646875.png" alt="image-20210716220646875" width="680px" />
 
 4. [A Fast and Precise Analytic Method of Calculating Galaxy Two-point Correlation Functions](https://arxiv.org/abs/2107.06918)
 
@@ -191,7 +193,7 @@
    $$
    后者球形的计算方式：
 
-   <img src="Figures/image-20210716221908527.png" alt="image-20210716221908527" style="zoom:50%;" />
+   <img src="./Figures/image-20210716221908527.png" alt="image-20210716221908527" width="680px" />
 
 5. [The Gaia Successor in 2021](https://arxiv.org/abs/2107.07177)
 
@@ -207,7 +209,7 @@
 
    这篇文章使用ASKAP低频和中频频段的明亮射电源来研究，使用 `CRAFT`的`snapshot`技术获得的天体位置的测量精度。发现在低频和中频数据中，两帧之间的偏移量分别为0.6和0.3角秒，包括RA和Dec。
 
-   <img src="Figures/image-20210716222854197.png" alt="image-20210716222854197" style="zoom:50%;" />
+   <img src="./Figures/image-20210716222854197.png" alt="image-20210716222854197" width="680px" />
 
 ## 2021-07-19
 
@@ -229,7 +231,7 @@
 
    CHIME探测到三个复杂结构非重复暴，看到其中有`类周期结构`，周期分别是`216.8ms`、`2.8ms`和`10.7ms`。认为这样的短周期性暗示`中子星起源`，并且有利于产生于`中子星磁层`的发射，而不是位于离星体更远的发射区域。
 
-   <img src="Figures/image-20210720220150427.png" alt="image-20210720220150427" style="zoom:50%;" />
+   <img src="./Figures/image-20210720220150427.png" alt="image-20210720220150427" width="680px" />
 
 3. [A bimodal burst energy distribution of a repeating fast radio burst source](https://arxiv.org/abs/2107.08205)
 
@@ -243,9 +245,9 @@
 
    文章研究了现有的Gaia DR2目录中的1229个开放星团的距离、大小和三维空间中的恒星分布。结果显示，在`2kpc`以内，`视差倒数`方法给出的结果与贝叶斯方法接近（`Bayesian approach based on the exponentially decreasing volume density prior`）。
 
-   <img src="Figures/image-20210721230704870.png" alt="image-20210721230704870" style="zoom: 25%;" />
+   <img src="./Figures/image-20210721230704870.png" alt="image-20210721230704870" width="680px" />
 
-   <img src="Figures/image-20210721230713008.png" alt="image-20210721230713008" style="zoom: 25%;" />
+   <img src="./Figures/image-20210721230713008.png" alt="image-20210721230713008" width="680px" />
 
    这两种方法都显示了星团的视线伸长率（由视差不确定性导致的针状形状）对距离的依赖性。当使用任何提到的视差与距离的标准转换时，在500pc以上，无法正确的研究一个开放星团的三维结构。
 
@@ -289,7 +291,7 @@
 
    使用FRB作为河外星系湍流的探测器，把`Scatter`与宿主星系ISM中$H\alpha$​发射看到的气体级联关联起来，发现这样的关联是合理的。
 
-   <img src="Figures/image-20210726164453973.png" alt="image-20210726164453973" style="zoom:50%;" />
+   <img src="./Figures/image-20210726164453973.png" alt="image-20210726164453973" width="680px" />
 
 2. [Modeling Fast Radio Burst Dispersion and Scattering Properties in the First CHIME/FRB Catalog](https://arxiv.org/abs/2107.10858)
 
@@ -307,7 +309,7 @@
 
    陨石坠落的火球的分析方法，空间轨迹拟合误差仅为 $\sim40m$​​​，换算成辐射点和速度误差为3角分和每秒几十米。
 
-   <img src="Figures/image-20210727175543563.png" alt="image-20210727175543563" style="zoom:50%;" />
+   <img src="./Figures/image-20210727175543563.png" alt="image-20210727175543563" width="680px" />
 
 2. [Preview of Comet C/2021 A1 (Leonard) and Its Encounter with Venus](https://arxiv.org/abs/2107.12370)
 
@@ -337,7 +339,7 @@
 
    认为变化的偏振度和PA与脉冲星磁层相似，但圆偏振和RM的变化难以用法拉第旋转解释。高偏振度、平的PA和向下频漂与之前的重复包相似，圆偏振则第一次出现。
 
-   <img src="Figures/image-20210728172505967.png" alt="image-20210728172505967" style="zoom:50%;" />
+   <img src="./Figures/image-20210728172505967.png" alt="image-20210728172505967" width="680px" />
 
 5. [Non-Axisymmetric Precession of Magnetars and Fast Radio Bursts](https://arxiv.org/abs/2107.12911)
 
@@ -359,7 +361,7 @@
 
    在Vela OB2中观察到了明显的膨胀（下图），`N-Body`（使用的是[NBODY6++GPU](https://academic.oup.com/mnras/article/450/4/4070/990854)，[Github](https://github.com/lwang-astro/betanb6pp)）模拟预测，`葫芦娃1-5`和`另一对星团`将在未来100Myr内继续膨胀，并最终解体。
 
-   <img src="Figures/image-20210728220639686.png" alt="image-20210728220639686" style="zoom:50%;" />
+   <img src="./Figures/image-20210728220639686.png" alt="image-20210728220639686" width="680px" />
 
 ## 2021-07-29
 
@@ -369,7 +371,7 @@
 
    文章模拟了不同事件率（多项式、正弦、高斯）函数$\lambda(t)$​​​的`Waiting Time`，用指数`p`描述$\lambda(t)\propto t^p$的多项式的程度。发现幂律斜率是$\alpha=2+1/p$​。
 
-   <img src="Figures/image-20210729103028234.png" alt="image-20210729103028234" style="zoom:50%;" />
+   <img src="./Figures/image-20210729103028234.png" alt="image-20210729103028234" width="680px" />
 
    非线性系统中`p>2`，幂律斜率在$2.0\le\alpha\le2.5$，自组织临界（SOC）的预测值是$\alpha=2$，对太阳耀斑和日冕物质抛射的观测（至少在半个太阳周期内），发现$\alpha_{obs}\approx2.1-2.4$。由于耀斑事件率的变化，导致不是严格的幂律形式。由于幂律拟合的泊松加权误差，与理论上预言的$\alpha$​有偏差。
 
@@ -379,13 +381,13 @@
 
    使用`McDonald Observatory`的两台1米望远镜对`ZTF J0139+5245`所在天区进行长时间的观测（537天，1560张成像，2000+颗恒星），在$26'\times26'$的天区中发现了38个变星，其中27个是新发现或者新分类的。发现了28个候选的`BY Draconis variables`，3个`eclipsing binaries of type EA`，以及7个`eclipsing binaries of type EW`。在对变星进行初步分类时，证明了盖亚`颜色-星等图`（CMD）作为变星研究的强大分类工具的适用性。
 
-   <img src="Figures/image-20210730160721921.png" alt="image-20210730160721921" style="zoom:50%;" />
+   <img src="./Figures/image-20210730160721921.png" alt="image-20210730160721921" width="680px" />
 
 2. [Down-drifting, bandwidth and beaming of fast radio bursts](https://arxiv.org/abs/2107.13549)
 
    FRB在传播过程中，经过一个小的色散之后，遇到一个`screen`，在已经被色散的脉冲上印上`temporally sharp but broadband`的结构（`向下频漂`），继续经过传播路径上得到我们看到的绝大部分的DM。
 
-   <img src="Figures/image-20210730163406543.png" alt="image-20210730163406543" style="zoom:50%;" />
+   <img src="./Figures/image-20210730163406543.png" alt="image-20210730163406543" width="680px" />
 
    漂移率应为：
    $$
@@ -398,7 +400,7 @@
 
    现在对弥散气体的观测受限于`灵敏度`，而且必须对气体的`电离度`、`金属丰度`和`压力`进行精确建模。这里考虑使用FRB的`DM`对`电离气体`的含量进行直接测量。
 
-   <img src="Figures/image-20210730164704879.png" alt="image-20210730164704879" style="zoom:50%;" />
+   <img src="./Figures/image-20210730164704879.png" alt="image-20210730164704879" width="680px" />
 
    在CHIME的474个非重复暴样本中，确定了`24个`与局域宇宙（<40Mpc）相关的源。这些源与其它不与星系相交的样本相比，有$200\pm100\ pc/cm^3$​​​​的DM多余。这个超额量比预期的孤立星系周围的弥散气体要大。这一结果表明，FRB可以被用作测量弥散气体的灵敏的且与模型无关的方法。
 

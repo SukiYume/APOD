@@ -14,7 +14,7 @@
 
    两个FRB宿主星系的不同恒星形成历史表明，FRB有多种形成渠道，且FRB的`progenitors`的`delay-time`分布很广。
 
-   <img src="Figures/image-20230301154206547.png" alt="image-20230301154206547" style="zoom:50%;" />
+   <img src="./Figures/image-20230301154206547.png" alt="image-20230301154206547" width="680px" />
 
 3. [Deep Synoptic Array science: Two fast radio burst sources in massive galaxy clusters](https://arxiv.org/abs/2302.14788)
 
@@ -30,7 +30,7 @@
 
    太阳活动有着大约11年的`Schwabe`周期，但是太阳周期在长度、形状和幅度上都有明显的调制。太阳黑子计数只有400年的历史，不均匀且太短，无法稳定地研究太阳变化的长期规律。$^{14}C$同位素重建太阳活动历史，可以将时间尺度扩展到12个千年。
 
-   <img src="Figures/image-20230301161520610.png" alt="image-20230301161520610" style="zoom:50%;" />
+   <img src="./Figures/image-20230301161520610.png" alt="image-20230301161520610" width="680px" />
 
    这里研究太阳活动在百年-千年时间尺度上的长期变化。结果表明，太阳周期包含一个重要的随机成分，且由于没有类似时钟的相位锁定，意味着缺乏长期记忆。
 
@@ -98,7 +98,7 @@
 
    `Space Advanced Technology demonstration satellite, SATech-01`空间先进技术示范卫星于2022.7发射到500公里高的太阳同步轨道上。其中的`The Solar Upper Transition Region Imager, SUTRI`太阳上过渡区成像仪使用了新开发的`Sc-Si`多层反射镜以及$\rm 2k\times 2k$的`EUV CMOS`，在`Ne VII 46.5nm`光谱线上拍摄全日面图像，滤镜宽度3nm，视场$41.6'\times41.6'$，成像节奏30s，每天太阳观测时间16小时。白老师他们的文章。
 
-   <img src="Figures/image-20230308165001309.png" alt="image-20230308165001309" style="zoom:50%;" />
+   <img src="./Figures/image-20230308165001309.png" alt="image-20230308165001309" width="680px" />
 
 2. [Identification of tidal features in deep optical galaxy images with Convolutional Neural Networks](https://arxiv.org/abs/2303.03407)
 
@@ -114,7 +114,7 @@
 
    从` Atacama Cosmology Telescope`三年（2017-2019）的数据中搜索到了29个暂现源，覆盖了40%的天空，从77GHz到277GHz的频段。其中8个是已知小行星引起的，3个是已经发表的，4个信噪比不高，14个新的瞬变事件，与自转变星或冷星有关。10个事件的光谱平坦或下降，表明来自同步辐射。
 
-   <img src="Figures/image-20230309230933572.png" alt="image-20230309230933572" style="zoom:50%;" />
+   <img src="./Figures/image-20230309230933572.png" alt="image-20230309230933572" width="680px" />
 
 ## 2023-03-10
 
@@ -150,7 +150,7 @@
 
    `Minkowski's Object`和`Death Star Galaxy`是两个著名的罕见事件，观察到射电喷流直接撞击近邻星系。`RAD12`是`RAD@HOME`发现的一个新的罕见事件，射电喷流宿主星系的近邻星系要更大，且喷流是单向的。
 
-   <img src="Figures/image-20230314160428388.png" alt="image-20230314160428388" style="zoom:50%;" />
+   <img src="./Figures/image-20230314160428388.png" alt="image-20230314160428388" width="680px" />
 
 ## 2023-03-15
 
@@ -162,7 +162,7 @@
 
    对`FRB 20190714A`，`halo`贡献了2/3的过剩DM。对`FRB 20200906A`，`halo`贡献较小但不可忽略，需要对IGM进一步分析以确定宇宙对DM的真正贡献。对`FRB 20200430A`和`FRB 20210117A`，前景贡献可忽略，意味着`host`贡献。
 
-   <img src="Figures/image-20230315203452736.png" alt="image-20230315203452736" style="zoom:50%;" />
+   <img src="./Figures/image-20230315203452736.png" alt="image-20230315203452736" width="680px" />
 
 2. [Relative Alignment Between Magnetic Fields and Molecular Gas Structure in Molecular Clouds](https://arxiv.org/abs/2303.07410)
 
@@ -170,7 +170,7 @@
 
    用`三维湍流塌缩云磁流体力学`模拟，比较合成尘埃偏振结构和合成分子线结构。在`trans-Alfvénic （more strongly magnetized)`模拟中，光薄分子密度超过$4\times10^3\,\rm cm^{-3}$时，平行排列会过渡到垂直排列，但是对$^{12}CO$没有这样的转变。在`super-Alfvénic`模拟中，所有分子都不偏向于垂直或者平行排列。
 
-   <img src="Figures/image-20230315205458372.png" alt="image-20230315205458372" style="zoom:50%;" />
+   <img src="./Figures/image-20230315205458372.png" alt="image-20230315205458372" width="680px" />
 
 ## 2023-03-16
 
@@ -180,7 +180,7 @@
 
    使用`variational auto-encoders`和`domain adaptation`降低星系图像的维度，表明40维的`latent variables`可以有效地表征星系样本的大多数形态特征。通过`DA`调整`VAE`网络来增强模型的泛化能力。
 
-   <img src="Figures/image-20230316205549805.png" alt="image-20230316205549805" style="zoom:50%;" />
+   <img src="./Figures/image-20230316205549805.png" alt="image-20230316205549805" width="680px" />
 
 2. [A machine learning-based tool for open cluster membership determination in Gaia DR3](https://arxiv.org/abs/2303.08474)
 
@@ -212,9 +212,9 @@
 
    [$\Phi$-SO](https://github.com/WassimTenachi/PhySO)使用RNN加速符号回归，同时使用量纲分析减少量纲错误的算式。
 
-   <img src="Figures/image-20230321000159826.png" alt="image-20230321000159826" style="zoom:50%;" />
+   <img src="./Figures/image-20230321000159826.png" alt="image-20230321000159826" width="680px" />
 
-   <img src="Figures/image-20230321000215166.png" alt="image-20230321000215166" style="zoom:50%;" />
+   <img src="./Figures/image-20230321000215166.png" alt="image-20230321000215166" width="680px" />
 
 ## 2023-03-21
 
@@ -240,7 +240,7 @@
 
    PRS在矮星系中被发现与中等质量黑洞相关。这里介绍的是LOFAR对矮星系中PRS的观测，并尝试区分FRB宿主与中等质量黑洞。
 
-   <img src="Figures/image-20230323001446046.png" alt="image-20230323001446046" style="zoom:50%;" />
+   <img src="./Figures/image-20230323001446046.png" alt="image-20230323001446046" width="680px" />
 
 2. [Turbulence in Zeeman Measurements from Molecular Clouds](https://arxiv.org/abs/2303.11614)
 
@@ -266,7 +266,7 @@
 
    定义了`DRAGN_hunder`算法，用于从VLASS数据中寻找双射电源，发现了13000个DRAGN的宿主星系和另外234000个单成分射电源。
 
-   <img src="Figures/image-20230324201116330.png" alt="image-20230324201116330" style="zoom:50%;" />
+   <img src="./Figures/image-20230324201116330.png" alt="image-20230324201116330" width="680px" />
 
 2. [Stochastic Recurrent Neural Networks for Modelling Astronomical Time Series: Advantages and Limitations](https://arxiv.org/abs/2303.13197)
 
@@ -274,7 +274,7 @@
 
    Sheng et al. (2022) 中使用SRNN用于AGN的光变曲线。这里描述的是数据限制对模型推理能力的影响。
 
-   <img src="Figures/image-20230324201438920.png" alt="image-20230324201438920" style="zoom:50%;" />
+   <img src="./Figures/image-20230324201438920.png" alt="image-20230324201438920" width="680px" />
 
 ## 2023-03-27
 
@@ -312,7 +312,7 @@
 
    回顾正电子之谜。
 
-   <img src="Figures/image-20230329191216284.png" alt="image-20230329191216284" style="zoom:50%;" />
+   <img src="./Figures/image-20230329191216284.png" alt="image-20230329191216284" width="680px" />
 
 3. [Bayesian Computation in Astronomy: Novel methods for parallel and gradient-free inference](https://arxiv.org/abs/2303.16134)
 
@@ -328,7 +328,7 @@
 
    最近发现有周期的FRB可能是在双星系统中产生。这里研究FRB宿主星系的特性和双星形成率，发现重复FRB的宿主星系倾向于`中子星-大质量星`双星系统的形成。大质量X射线双星的形成率远超FRB，或许可以解释为只有一小部分X射线双星系统才能产生FRB。观察到的PRS长期稳定的亮度与巨耀斑驱动的情况一致。
 
-   <img src="Figures/image-20230331205345992.png" alt="image-20230331205345992" style="zoom:50%;" />
+   <img src="./Figures/image-20230331205345992.png" alt="image-20230331205345992" width="680px" />
 
 2. [Fast radio burst energy function in the presence of DMhost variation](https://arxiv.org/abs/2303.16775)
 
@@ -346,7 +346,7 @@
 
    用`UMAP`对FRB20201124A的特征表格进行分类，发现聚成三类 - `high energy`, `high frequency`, or `low frequency`，反映了FRB在能量和频率上的分布，另外，在FRB20121102A中也发现了类似的结果。
 
-   <img src="Figures/image-20230331210948261.png" alt="image-20230331210948261" style="zoom:50%;" />
+   <img src="./Figures/image-20230331210948261.png" alt="image-20230331210948261" width="680px" />
 
 2. [The FAST Galactic Plane Pulsar Snapshot Survey: II. Discovery of 76 Galactic rotating radio transients and their enigma](https://arxiv.org/abs/2303.17279)
 
@@ -360,11 +360,11 @@
 
    宇宙中如果有`overwhelmingly`非常多的系外行星，星系形成、暗物质和宇宙膨胀的`tension`都可以解释。
 
-   <img src="Figures/image-20230331225333496.png" alt="image-20230331225333496" style="zoom:50%;" />
+   <img src="./Figures/image-20230331225333496.png" alt="image-20230331225333496" width="680px" />
 
    作者认为，既然行星是当前天文学家能提出的每一个问题的答案，那么行星科学就必须是所有科学的基础，因此当前所有的科学经费都应该保留给行星科学。
 
-   <img src="Figures/image-20230331225353617.png" alt="image-20230331225353617" style="zoom:50%;" />
+   <img src="./Figures/image-20230331225353617.png" alt="image-20230331225353617" width="680px" />
 
    Acta Prima Aprila 可能是一个愚人节的搞笑新闻或文章。“Acta”意为“行动”或“行为”，“Prima”意为“第一”，而“Aprila”则是四月的意思。因此，Acta Prima Aprila 可能指的是愚人节的“第一行动”或“第一行为”，即指愚人节的搞笑活动。
 

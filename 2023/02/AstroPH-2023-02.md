@@ -52,7 +52,7 @@
 
    大气干扰会使点扩散函数变化，导致图像模糊。这里使用自编码网络，实现从多次曝光图像中恢复清晰图像。
 
-   <img src="Figures/image-20230207183431750.png" alt="image-20230207183431750" style="zoom:50%;" />
+   <img src="./Figures/image-20230207183431750.png" alt="image-20230207183431750" width="680px" />
 
 2. [Modelling the 2022 τ-Herculid outburst](https://arxiv.org/abs/2302.02915)
 
@@ -82,7 +82,7 @@
 
    对`108P/Ciffreo`的光学观测。这颗彗星形态独特，其彗核周围伴随着一个共同运动的弥散“圆球”，后续观测圆球消失。使用太阳引力核辐射压作用下彗星粒子动力学模型，表明圆球是喷向太阳的粒子被光压反射后掉头产生的`artifact`。
 
-   <img src="Figures/image-20230209161240705.png" alt="image-20230209161240705" style="zoom:50%;" />
+   <img src="./Figures/image-20230209161240705.png" alt="image-20230209161240705" width="680px" />
 
 ## 2023-02-10
 
@@ -100,7 +100,7 @@
 
    通过测量HI的速度梯度`Velocity Gradient Technique, VGT`和柱密度方差 `Column Density Variance`，可以获得两个马赫数$M_s|M_A$，从而测绘银河系磁场强度与方向。
 
-   <img src="Figures/image-20230213152422749.png" alt="image-20230213152422749" style="zoom:50%;" />
+   <img src="./Figures/image-20230213152422749.png" alt="image-20230213152422749" width="680px" />
 
 ## 2023-02-14
 
@@ -124,7 +124,7 @@
 
    在1000个有星震年龄测量的样本上训练VAE，使从恒星光谱推理恒星年龄，代码在[这里](https://github.com/henrysky/astroNN_ages)。
 
-   <img src="Figures/image-20230214141641483.png" alt="image-20230214141641483" style="zoom:50%;" />
+   <img src="./Figures/image-20230214141641483.png" alt="image-20230214141641483" width="680px" />
 
 4. [RFI Flagging in Solar and Space Weather Low Frequency Radio Observations](https://arxiv.org/abs/2302.05523)
 
@@ -132,7 +132,7 @@
 
    测试不同标记RFI的方法在LOFAR太阳数据上的效果（挑战是太阳爆发可能会比RFI更亮）。
 
-   <img src="Figures/image-20230214142228313.png" alt="image-20230214142228313" style="zoom:50%;" />
+   <img src="./Figures/image-20230214142228313.png" alt="image-20230214142228313" width="680px" />
 
 ## 2023-02-15
 
@@ -158,7 +158,7 @@
 
    这个磁星的射电脉冲的平均轮廓表现出不同的特征（如下图），以及此次测量的DM是$697\,\rm pc/cm^3$，2007年的数值是$830\,\rm pc/cm^3$，作者认为是测量方法（结构或者信噪比）不同导致。测量的RM是$-1860\,\rm rad/m^2$。
 
-   <img src="Figures/image-20230216183434978.png" alt="image-20230216183434978" style="zoom:50%;" />
+   <img src="./Figures/image-20230216183434978.png" alt="image-20230216183434978" width="680px" />
 
 2. [The first JWST spectrum of a GRB afterglow: No bright supernova in observations of the brightest GRB of all time, GRB 221009A](https://arxiv.org/abs/2302.07761)
 
@@ -166,7 +166,7 @@
 
    `GRB 221009A`是2022年探测到的，到目前为止最亮的伽马射线暴。这里使用JWST和HST对其余辉进行观测。JWST光谱在0.5-12天内没有明显变化，表明没有超新星或者超新星很暗，HST观测宿主星系是`edge-on`，增加了分离超新星信号的难度。宿主星系与其它`long-GRB`没什么区别，表明这次特别亮与大尺度环境无关。
 
-   <img src="Figures/image-20230216184246587.png" alt="image-20230216184246587" style="zoom:50%;" />
+   <img src="./Figures/image-20230216184246587.png" alt="image-20230216184246587" width="680px" />
 
 ## 2023-02-17
 
@@ -208,9 +208,9 @@
      - **回旋吸收**：由于等离子体中存在低能量或非相对论性的电荷，在某些频段下回旋辐射会被吸收并重新发射出来，并且*产生高度圆偏振*。这种机制需要满足吸收条件。
      - **法拉第转换**：可以*将一种偏振模式转换为另一种*。法拉第转换需要场反转，在双星系统或FRB被超新星遗迹包围时可能实现。
 
-   <img src="Figures/image-20230221170612870.png" alt="image-20230221170612870" style="zoom:50%;" />
+   <img src="./Figures/image-20230221170612870.png" alt="image-20230221170612870" width="680px" />
 
-   <img src="Figures/image-20230221172819058.png" alt="image-20230221172819058" style="zoom:50%;" />
+   <img src="./Figures/image-20230221172819058.png" alt="image-20230221172819058" width="680px" />
 
 2. [Tied-Array Beam Localisation of Radio Transients and Pulsars](https://arxiv.org/abs/2302.09812)
 
@@ -248,7 +248,7 @@
 
    用UMAP对Gaia DR3的BP/RP光谱中，长周期变星的化学成分进行分类，富O和富C的源。
 
-   <img src="Figures/image-20230221183737312.png" alt="image-20230221183737312" style="zoom:50%;" />
+   <img src="./Figures/image-20230221183737312.png" alt="image-20230221183737312" width="680px" />
 
 ## 2023-02-22
 
@@ -276,7 +276,7 @@
 
    `Evryscopes`是一个光学望远镜，由NSF自主，一次曝光覆盖8520平方度的天空。从曝光图像中检测暂现源，对前后两张图像做微分，然后用`VetNet`做分类，探测暂现源。
 
-   <img src="Figures/image-20230223160446559.png" alt="image-20230223160446559" style="zoom:50%;" />
+   <img src="./Figures/image-20230223160446559.png" alt="image-20230223160446559" width="680px" />
 
 ## 2023-02-24
 
@@ -294,7 +294,7 @@
 
    基于SDSS、MaNGA和DESI的星系形态（early/late-type、elliptical/lentiular、edge-on、barred galaxy、T-type）分类[目录](https://archive.cefca.es/ancillary_data/sdss_morphological_catalogues/sdss_morphological_catalogues.tar.gz)。基于此，下图展示了星系的`SFR-StellarMass-HubbleStageT`的关系。
 
-   <img src="Figures/image-20230227160018930.png" alt="image-20230227160018930" style="zoom:50%;" />
+   <img src="./Figures/image-20230227160018930.png" alt="image-20230227160018930" width="680px" />
 
 ## 2023-02-28
 

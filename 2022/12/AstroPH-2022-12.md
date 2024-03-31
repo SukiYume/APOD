@@ -28,7 +28,7 @@
 
    跟上一篇是同一个FRB，不过做的是这个FRB的宿主星系。红移约0.03。
 
-   <img src="Figures/image-20221205190701755.png" alt="image-20221205190701755" style="zoom:50%;" />
+   <img src="./Figures/image-20221205190701755.png" alt="image-20221205190701755" width="680px" />
 
 ## 2022-12-06
 
@@ -38,7 +38,7 @@
 
    说是人工智能在天文中的应用，实际没多少内容。
 
-   <img src="Figures/image-20221206095406191.png" alt="image-20221206095406191" style="zoom:50%;" />
+   <img src="./Figures/image-20221206095406191.png" alt="image-20221206095406191" width="680px" />
 
 2. [The Mysterious Radcliffe Wave](https://arxiv.org/abs/2212.01856)
 
@@ -64,7 +64,7 @@
 
    基于[Mask-RCNN](https://github.com/matterport/Mask_RCNN)的SKA射电连续谱源的目标识别[caesar-rest](https://github.com/SKA-INAF/caesar-rest)。另外有一个模型可以关注[Rotated Mask-RCNN](https://github.com/mrlooi/rotated_maskrcnn)。
 
-   <img src="Figures/image-20221207205559870.png" alt="image-20221207205559870" style="zoom:50%;" />
+   <img src="./Figures/image-20221207205559870.png" alt="image-20221207205559870" width="680px" />
 
 ## 2022-12-08
 
@@ -128,7 +128,7 @@
 
    水最初是在尘埃表面通过`hydrogenation of frozen oxygen`合成的，然后在行星系统形成的各个阶段，水进入了升华/冷冻的循环，最终被纳入行星、小行星和彗星。在地球和早期形成的行星系统中测到的重水数量表面，地球上有相当一部分的水是从太阳系形成的最初阶段继承下来的，年龄有45亿年。
 
-   <img src="Figures/image-20221213172216529.png" alt="image-20221213172216529" style="zoom:50%;" />
+   <img src="./Figures/image-20221213172216529.png" alt="image-20221213172216529" width="680px" />
 
 ## 2022-12-14
 
@@ -138,7 +138,7 @@
 
    用`AutoEncoder`从离散和不完整的星系分布中重建三维宇宙学密度和速度场。
 
-   <img src="Figures/image-20221214163937258.png" alt="image-20221214163937258" style="zoom:50%;" />
+   <img src="./Figures/image-20221214163937258.png" alt="image-20221214163937258" width="680px" />
 
 ## 2022-12-15
 
@@ -156,7 +156,7 @@
 
    II型太阳射电暴是由太阳爆发性事件，如日冕物质抛射（CMEs），驱动的磁流体力学（MHD）冲击引起的。
 
-   <img src="Figures/image-20221216152735755.png" alt="image-20221216152735755" style="zoom:50%;" />
+   <img src="./Figures/image-20221216152735755.png" alt="image-20221216152735755" width="680px" />
 
 ## 2022-12-19
 
@@ -180,7 +180,7 @@
 
    光污染不是视觉天光的唯一机制，人眼内也会有光线散射，并对视网膜检测到的总天空亮度有很大贡献。文章的对这一效应进行量化，表明阻断到达眼睛的直射灯光，可以提升极限星等。
 
-   <img src="Figures/image-20221220125743202.png" alt="image-20221220125743202" style="zoom:50%;" />
+   <img src="./Figures/image-20221220125743202.png" alt="image-20221220125743202" width="680px" />
 
 ## 2022-12-21
 
@@ -196,7 +196,7 @@
 
    用`wavelet-optimized whitening, WOW`来进行图像增强。基本原理是对输入图像的`à trous`小波谱进行`equalization`，规避修改`à trous`变换的边缘，以一直数据不连续产生的不良光晕。
 
-   <img src="Figures/image-20221221150522373.png" alt="image-20221221150522373" style="zoom:50%;" />
+   <img src="./Figures/image-20221221150522373.png" alt="image-20221221150522373" width="680px" />
 
 ## 2022-12-22
 
@@ -214,7 +214,7 @@
 
    CHIME用基带数据干涉做的重复暴定位。宿主星系性质也各不相同，`FRB 20180814A`在$z=0.068$的螺旋星系中，几乎没有恒星形成的迹象，`FRB 20190303A`在$z=0.064$的并合螺旋星系中，有大量的恒星形成。
 
-   <img src="Figures/image-20221223125909452.png" alt="image-20221223125909452" style="zoom:50%;" />
+   <img src="./Figures/image-20221223125909452.png" alt="image-20221223125909452" width="680px" />
 
 ## 2022-12-26
 
@@ -224,7 +224,7 @@
 
    用边缘检测算法从Gaia DR3的数据中找相位螺旋的边界，推测` phase mixing times`。
 
-   <img src="Figures/image-20221226164920872.png" alt="image-20221226164920872" style="zoom:50%;" />
+   <img src="./Figures/image-20221226164920872.png" alt="image-20221226164920872" width="680px" />
 
 ## 2022-12-27
 

@@ -6,7 +6,7 @@
 
    主动学习优化的机器学习，现在越来越多地应用在天文混沌系统的模拟中，如N体问题，用以加快模拟速度。这里展示了在预测`Sitnikov`三体问题时主动学习会降低预测的准确度，因此在星团物理学、星系动力学或者宇宙学模拟中，通过主动学习优化可能是一个隐患。
 
-   <img src="Figures/image-20231203005332082.png" alt="image-20231203005332082" style="zoom:50%;" />
+   <img src="./Figures/image-20231203005332082.png" alt="image-20231203005332082" width="680px" />
 
 ## 2023-12-04
 
@@ -16,7 +16,7 @@
 
    在随机-混沌相空间中对比FRB和磁星普通爆发，不一致说明FRB与磁星的特殊爆发有关联，如FRB200428。
 
-   <img src="Figures/image-20231204172317611.png" alt="image-20231204172317611" style="zoom:50%;" />
+   <img src="./Figures/image-20231204172317611.png" alt="image-20231204172317611" width="680px" />
 
 2. [New Continuum Observations of the Andromeda galaxy M31 with FAST](https://arxiv.org/abs/2312.00441)
 
@@ -24,7 +24,7 @@
 
    FAST观测M31的连续谱成像。
 
-   <img src="Figures/image-20231204173432807.png" alt="image-20231204173432807" style="zoom:50%;" />
+   <img src="./Figures/image-20231204173432807.png" alt="image-20231204173432807" width="680px" />
 
 ## 2023-12-05
 
@@ -36,7 +36,7 @@
 
    根据中心偏移的情况，FRB与Ca-rich transients、SGRB和LGRB不同，结合恒星质量分布情况，发现CC-SNe和FRB的环境可能有相似性。
 
-   <img src="Figures/image-20231206015711686.png" alt="image-20231206015711686" style="zoom:50%;" />
+   <img src="./Figures/image-20231206015711686.png" alt="image-20231206015711686" width="680px" />
 
 2. [A targeted search for FRB counterparts with Konus-Wind](https://arxiv.org/abs/2312.01218)
 
@@ -50,7 +50,7 @@
 
    球状星团的绝对星等和恒星速度弥散有明确的相关关系。这里证明这一相关关系$M_V-\log_{10}\sigma$是线性的，且斜率对于银河系和M31的球状星团系统相同。
 
-   <img src="Figures/image-20231206020339861.png" alt="image-20231206020339861" style="zoom:50%;" />
+   <img src="./Figures/image-20231206020339861.png" alt="image-20231206020339861" width="680px" />
 
    据此，可以根据Gaia对94个银河系球状星团的视差测量，得到速度弥散与距离的关系。
 
@@ -76,7 +76,7 @@
    $$
    L(p,c)=-\sum_{h=0}^{H-1}W(c^h)\lambda(c^h)\log p(c^h|c^{h+1})
    $$
-   <img src="Figures/image-20231206211759712.png" alt="image-20231206211759712" style="zoom:50%;" />
+   <img src="./Figures/image-20231206211759712.png" alt="image-20231206211759712" width="680px" />
 
 ## 2023-12-07
 
@@ -86,7 +86,7 @@
 
    提出FRB模型，中等质量黑洞对白矮星的潮汐瓦解触发重复FRB，估计光度和时间尺度分别为$L\sim1.96\times 10^{40}\,\rm erg/s$和$\Delta t\sim1.14\,\rm ms$，预计的重复FRB的事件率$10\,\rm yr^{-1}Gpc^{-3}$。
 
-   <img src="Figures/image-20231207223744079.png" alt="image-20231207223744079" style="zoom:50%;" />
+   <img src="./Figures/image-20231207223744079.png" alt="image-20231207223744079" width="680px" />
 
 2. [A robust method for filling in masked data in astronomical images](https://arxiv.org/abs/2312.03064)
 
@@ -96,7 +96,7 @@
    $$
    F_{x,y}=\frac{1}{2d+1}\sum_{n=-d}^dF_{x+d,y+n}
    $$
-   <img src="Figures/image-20231207225707467.png" alt="image-20231207225707467" style="zoom:50%;" />
+   <img src="./Figures/image-20231207225707467.png" alt="image-20231207225707467" width="680px" />
 
 ## 2023-12-08
 
@@ -106,7 +106,7 @@
 
    对天文学中的各个领域进行简单介绍，旨在引导学生了解天体物理学这一广泛领域。
 
-   <img src="Figures/image-20231208165303034.png" alt="image-20231208165303034" style="zoom:50%;" />
+   <img src="./Figures/image-20231208165303034.png" alt="image-20231208165303034" width="680px" />
 
 2. [The Breakthrough Listen Search for Intelligent Life: Technosignature Search of 97 Nearby Galaxies](https://arxiv.org/abs/2312.03943)
 
@@ -116,7 +116,7 @@
    
    对等效各向同性辐射功率在$10^{26}\,\rm W$做出了限制，相当于Kardashev Type II civilizations。下面的图是用DBSCAN对找到的信号进行聚类，其中一类中的信号的图像。
    
-   <img src="Figures/image-20231208173238185.png" alt="image-20231208173238185" style="zoom:50%;" />
+   <img src="./Figures/image-20231208173238185.png" alt="image-20231208173238185" width="680px" />
 
 ## 2023-12-11
 
@@ -128,11 +128,11 @@
 
    测量到的速度弥散$2.26\pm0.08\,\rm km/s$，超过维里平衡要求的$1.73\,\rm km/s$。最值得注意的是，发现每颗恒星相对于其邻居的速度与恒星质量呈负相关。
 
-   <img src="Figures/image-20231211204701408.png" alt="image-20231211204701408" style="zoom:50%;" />
+   <img src="./Figures/image-20231211204701408.png" alt="image-20231211204701408" width="680px" />
 
    统计ONC中心到恒星的空间向量和恒星自行的速度向量，发现向量相差0度的恒星要比相差180度的多，说明ONC恒星有膨胀的趋势，在90度的峰值说明星团有顺时针旋转的倾向。
 
-   <img src="Figures/image-20231211204604164.png" alt="image-20231211204604164" style="zoom:50%;" />
+   <img src="./Figures/image-20231211204604164.png" alt="image-20231211204604164" width="680px" />
 
 2. [NEural Engine for Discovering Luminous Events (NEEDLE): identifying rare transient candidates in real time from host galaxy images](https://arxiv.org/abs/2312.04968)
 
@@ -140,7 +140,7 @@
 
    根据暂现源的光变信息、宿主星系图像和探测图像等，从广泛的暂现源中找`偏好矮星系的超光度超新星（SLSNe）`和`发生在成核星系中心的潮汐破坏事件`（TDEs）。
 
-   <img src="Figures/image-20231211205356252.png" alt="image-20231211205356252" style="zoom:50%;" />
+   <img src="./Figures/image-20231211205356252.png" alt="image-20231211205356252" width="680px" />
 
 ## 2023-12-12
 
@@ -180,7 +180,7 @@
 
    上周的文章，讲的是因为星系三维形状和指向之间的内禀相关性对宇宙学测量的影响。有趣的是，她给自己的文章绘制轻松幽默、图文并茂的[总结](https://cmlamman.github.io/doc/fakeRSD_spectra_summary.pdf)。
 
-   <img src="Figures/image-20231213015641315.png" alt="image-20231213015641315" style="zoom:50%;" />
+   <img src="./Figures/image-20231213015641315.png" alt="image-20231213015641315" width="680px" />
 
 ## 2023-12-13
 
@@ -190,7 +190,7 @@
 
    MeerKAT在1.3GHz对银道面的连续谱巡天，角分辨率$8''$，灵敏度$10-20\,\rm \mu Jy$，数据会发布在[这里](https://doi.org/10.48479/3wfd-e270)。
 
-   <img src="Figures/image-20231213185933906.png" alt="image-20231213185933906" style="zoom:50%;" />
+   <img src="./Figures/image-20231213185933906.png" alt="image-20231213185933906" width="680px" />
 
 ## 2023-12-14
 
@@ -200,7 +200,7 @@
 
    用`Allen Telescope Array`对FRB 20220192A的观测，541小时探测到35次爆发，流量在$4-431\,\rm Jy\cdot ms$，子结构之间时间间隔的中位数$5.82\pm1.16\,\rm ms$，发现中心频率与带宽的正相关。这是SETI Inst.的设施，由42个6.1米的镜子组成。
 
-   <img src="Figures/image-20231214131749093.png" alt="image-20231214131749093" style="zoom:50%;" />
+   <img src="./Figures/image-20231214131749093.png" alt="image-20231214131749093" width="680px" />
 
 2. [An Argentinian window to the fast transient sky and to the very high resolution observations](https://arxiv.org/abs/2312.08292)
 
@@ -216,7 +216,7 @@
 
    找ZTF中的`double eclipsing binary`，这是四联星。用BLS先从光变曲线中找一次周期信号，减去后再用BLS找周期信号。
 
-   <img src="Figures/image-20231215172040030.png" alt="image-20231215172040030" style="zoom:50%;" />
+   <img src="./Figures/image-20231215172040030.png" alt="image-20231215172040030" width="680px" />
 
 ## 2023-12-18
 
@@ -228,7 +228,7 @@
 
    结果表明，时变电子质量模型和Majoron模型被排除，其中时变电子质量+空间曲率+早期暗能量模型会把Hubble Tension降低到$1.0-2.9\,\sigma$。但这11个模型都没有达到足够的统计意义使其成为宇宙学的和谐模型。
 
-   <img src="Figures/image-20231218155342672.png" alt="image-20231218155342672" style="zoom:50%;" />
+   <img src="./Figures/image-20231218155342672.png" alt="image-20231218155342672" width="680px" />
 
 ## 2023-12-19
 
@@ -248,7 +248,7 @@
 
    多次观测展示了，木星的旋转磁层，对木卫四的射电探测，诸多背景星系以及这个明亮的射电变源`PSR J2009-2026`，持续了45分钟，虽然定性上与闪烁一致，但放大事件的规模和特征时间尺度都很奇怪。
 
-   <img src="Figures/image-20231220205602367.png" alt="image-20231220205602367" style="zoom:50%;" />
+   <img src="./Figures/image-20231220205602367.png" alt="image-20231220205602367" width="680px" />
 
 2. [Celestial Machine Learning: Discovering the Planarity, Heliocentricity, and Orbital Equation of Mars with AI Feynman](https://arxiv.org/abs/2312.12315)
 
@@ -272,7 +272,7 @@
 
    在CHIME有基带数据的爆发中，找到了7个亮度极高且异常复杂的爆发，表现出很多的上漂移以及$<50\mu s$的微结构。爆发的形态与磁层模型和相对论激波一致。
 
-   <img src="Figures/image-20231222224841153.png" alt="image-20231222224841153" style="zoom:50%;" />
+   <img src="./Figures/image-20231222224841153.png" alt="image-20231222224841153" width="680px" />
 
 ## 2023-12-25
 
@@ -282,7 +282,7 @@
 
    FRB等待时间双峰分布普遍表现出左峰低于右峰，认为可能是磁层中传播效应导致。在FRB传播过程中，会诱导带电粒子做圆周运动，形成电流环，产生与背景磁场方向相反的感应磁场。随着有效磁场强度的变化，后续FRB的吸收概率会受到影响，因此时间延迟较小的爆发更容易被吸收，也会对流量产生影响。
 
-   <img src="Figures/image-20231225173421959.png" alt="image-20231225173421959" style="zoom:50%;" />
+   <img src="./Figures/image-20231225173421959.png" alt="image-20231225173421959" width="680px" />
 
 2. [Milliarcsecond Localisation of the Hyperactive Repeating FRB 20220912A](https://arxiv.org/abs/2312.14490)
 
@@ -302,7 +302,7 @@
 
    在VLA的15GHz波段探测到FRB20201124A的compact PRS，大概$20\mu\rm Jy$。
 
-   <img src="Figures/image-20231227204041070.png" alt="image-20231227204041070" style="zoom:50%;" />
+   <img src="./Figures/image-20231227204041070.png" alt="image-20231227204041070" width="680px" />
 
    如果PRS提供了FRB的RM，那么PRS的亮度和RM之间存在简单的线性关系
    $$
@@ -310,7 +310,7 @@
    $$
    其中$\zeta_e$是观测波段中同步辐射非热电子和热电子的比例，$\gamma_{th}$是热电子的洛伦兹因子，$R$是等离子体屏的半径。这次的发现补充了低RM部分的观测，这与年轻的磁星作为FRB的中心引擎，而周围的电离星云为PRS提供动力的模型基本一致。
 
-   <img src="Figures/image-20231227205332084.png" alt="image-20231227205332084" style="zoom:50%;" />
+   <img src="./Figures/image-20231227205332084.png" alt="image-20231227205332084" width="680px" />
 
 2. [Edge-on Low-surface-brightness Galaxy Candidates Detected from SDSS Images Using YOLO](https://arxiv.org/abs/2312.15712)
 

@@ -30,11 +30,11 @@
 
    下图是使用的训练数据集，左图是science image，中间的图是没有彗星的照片，右图是用[ZOGY](https://arxiv.org/abs/1601.02655)算法减掉参考图像得到的彗星残余图。
 
-   <img src="Figures/image-20210301231013571.png" alt="image-20210301231013571" style="zoom:50%;" />
+   <img src="./Figures/image-20210301231013571.png" alt="image-20210301231013571" width="680px" />
 
    这个是网络结构，代码在[这里](https://github.com/dmitryduev/tails)。
 
-   <img src="Figures/image-20210301231515435.png" alt="image-20210301231515435" style="zoom:50%;" />
+   <img src="./Figures/image-20210301231515435.png" alt="image-20210301231515435" width="680px" />
 
 ## 2021-03-02
 
@@ -48,7 +48,7 @@
 
    使用傅立叶变换的图像频域特征，提出了一种从图像中检测和分析准周期线状结构的方法。所开发的方法适用于各种准周期结构的检测和分析，如地质分层、褶皱和断层，以及一般的纹理分析。
 
-   <img src="Figures/image-20210302164203077.png" alt="image-20210302164203077" style="zoom:50%;" />
+   <img src="./Figures/image-20210302164203077.png" alt="image-20210302164203077" width="680px" />
 
 ## 2021-03-03
 
@@ -85,7 +85,7 @@
 
    paper-and-pencil calculator是宇宙学的诺莫图（Nomogram，列线图）是一种利用图像来进行计算（查图）的工具。是一个二维的图像，用来进行非精确的计算。它可以用普朗克任务的参数找到标准宇宙学模型的红移、距离、宇宙年龄、物理和角度大小、光度和视星等之间的关系。
 
-   <img src="Figures/image-20210304211451618.png" alt="image-20210304211451618" style="zoom:50%;" />
+   <img src="./Figures/image-20210304211451618.png" alt="image-20210304211451618" width="680px" />
 
 ## 2021-03-05
 
@@ -99,7 +99,7 @@
 
    使用长波阵列塞维利亚塔站（LWA-SV）新的宽带成像仪对86个流星射电余辉（MRAs）进行观测，使用log-normal和powerlaw拟合光谱。前者拟合时，光谱在30-40MHz之间的频率表现出转折，似乎是一个更好的函数拟合光谱。log-normal turnover frequency和MRAs的高度有微弱的相关性。
 
-   <img src="Figures/image-20210308235945869.png" alt="image-20210308235945869" style="zoom:50%;" />
+   <img src="./Figures/image-20210308235945869.png" alt="image-20210308235945869" width="680px" />
 
 ## 2021-03-09
 
@@ -243,7 +243,7 @@
 
    如果用太阳作为引力透镜，可以在550AU的最小距离（及以上），看到太阳另一边任何的射电信号。跨星际距离的比特率误差（BER）只有在使用太阳作为引力透镜时，BER才小到可以用来通信。由太阳和另一颗恒星的两个引力透镜投诚的恒星之间的无线电桥的对准时非常严格的，但是由于两颗恒星的透镜对系统整体天线增益的贡献非常巨大，所以可以节省很大的发射功率。
 
-   <img src="Figures/image-20210323154830303.png" alt="image-20210323154830303" style="zoom:50%;" />
+   <img src="./Figures/image-20210323154830303.png" alt="image-20210323154830303" width="680px" />
 
 2. [Astrocladistics: Multivariate Evolutionary Analysis in Astrophysics](https://arxiv.org/abs/1005.5636)
 

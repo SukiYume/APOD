@@ -14,7 +14,7 @@
 
    2007年的时候，`Galaxy Zoo`，一个基于志愿者的科学项目为星系分类提供了大量的帮助。现在这里用简单的CNN做SDSS星系分类，不同于以往分类方式，这里将星系分成10类。
 
-   <img src="Figures/image-20221102145128234.png" alt="image-20221102145128234" style="zoom:50%;" />
+   <img src="./Figures/image-20221102145128234.png" alt="image-20221102145128234" width="680px" />
 
 ## 2022-11-03
 
@@ -40,7 +40,7 @@
 
    [Astronomaly](https://astronomaly.readthedocs.io/en/latest/index.html)是一个`Active Anomaly Detection`方法，这里用在MeerKAT上，找到了一个奇怪四边形结构的源，但不清楚如何形成，距离也无法确定。
 
-   <img src="Figures/image-20221107223130643.png" alt="image-20221107223130643" style="zoom:50%;" />
+   <img src="./Figures/image-20221107223130643.png" alt="image-20221107223130643" width="680px" />
 
 2. [Diverse Properties of Molecular Gas in the Host Galaxies of Fast Radio Bursts](https://arxiv.org/abs/2211.02279)
 
@@ -48,7 +48,7 @@
 
    用ALMA看几个FRB的宿主星系的气体。
 
-   <img src="Figures/image-20221107223830050.png" alt="image-20221107223830050" style="zoom:50%;" />
+   <img src="./Figures/image-20221107223830050.png" alt="image-20221107223830050" width="680px" />
 
 ## 2022-11-08
 
@@ -80,9 +80,9 @@
 
    对`参宿四`在过去23年的UBVRI的光变观测，使用`photodiode`避免饱和并且包含了CCD不会有的U波段光度测量。发现了405天和2160天的周期。另外，`参宿四`在2019年底的`Great Dimming`事件中，U-B色指数表现出奇特变化。
 
-   <img src="Figures/image-20221111164551892.png" alt="image-20221111164551892" style="zoom:50%;" />
+   <img src="./Figures/image-20221111164551892.png" alt="image-20221111164551892" width="680px" />
 
-   <img src="Figures/image-20221111165235548.png" alt="image-20221111165235548" style="zoom:50%;" />
+   <img src="./Figures/image-20221111165235548.png" alt="image-20221111165235548" width="680px" />
 
 3. [On the injection scale of the turbulence in the partially ionized very local interstellar medium](https://arxiv.org/abs/2211.04496)
 
@@ -121,10 +121,11 @@
 
    盘状星系旋转曲线的速度测量值有相关性，在拟合动力学模型时往往会忽略这一点。这里用高斯过程拟合，分解数据相关性
    $$
-   K_{ij}=A_k\exp\left[-\frac12\left(\frac{|R_i-R_j|}{s_k}\right)^2\right]\\
-   \log \mathcal{L}(\theta_V,\theta_k)=-\frac12\mathbf{V}^T_{res}K^{-1}\mathbf{V}_{res}-\frac12\log|K|
+   \begin{aligned}
+   &K_{ij}=A_k\exp\left[-\frac12\left(\frac{|R_i-R_j|}{s_k}\right)^2\right]\\
+   &\log \mathcal{L}(\theta_V,\theta_k)=-\frac12\mathbf{V}^T_{res}K^{-1}\mathbf{V}_{res}-\frac12\log|K|
+   \end{aligned}
    $$
-   
 
    其中$V_{res,i}=V_{rot,i}-V_{model}(R_i|\theta_V)$。这对于获得星系中发光和暗物质分布的无偏估计非常重要。
 
@@ -152,7 +153,7 @@
 
    DSA对`FRB 20220912A`的定位，`Ra=23:09:04.9, Dec=+48:42:25.4`，误差分别是2s和1s。红移0.0771，与`PSO J347.2702+48.7066`星系重合。星系恒星形成率$0.1\,M_\odot/yr$，对色散贡献小于$50\,pc/cm^3$。
 
-   <img src="Figures/image-20221118011317453.png" alt="image-20221118011317453" style="zoom:50%;" />
+   <img src="./Figures/image-20221118011317453.png" alt="image-20221118011317453" width="680px" />
 
 ## 2022-11-18
 
@@ -190,7 +191,7 @@
 
    老韩他们GPPS项目的HI成图。有一条新认知，在定标流程中，根据噪声管定出天线温度后，还根据测量定标源的数据，定出主波束效率，将天线温度转换为亮温度。
 
-   <img src="Figures/image-20221122164524356.png" alt="image-20221122164524356" style="zoom:50%;" />
+   <img src="./Figures/image-20221122164524356.png" alt="image-20221122164524356" width="680px" />
 
 ## 2022-11-23
 

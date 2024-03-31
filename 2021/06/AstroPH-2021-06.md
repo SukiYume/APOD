@@ -4,7 +4,7 @@
 
    解释FRB 121102为一个相互作用的中子星双星系统，其轨道周期为159天。通过在轨道上引入一个偏心率来`develop a binary comb model`。
 
-   <img src="Figures/image-20210601152036954.png" alt="image-20210601152036954" style="zoom:50%;" />
+   <img src="./Figures/image-20210601152036954.png" alt="image-20210601152036954" width="680px" />
 
 2. [Eclipsing White Dwarf Binaries in Gaia and the Zwicky Transient Facility](https://arxiv.org/abs/2105.14028)
 
@@ -30,19 +30,19 @@
 
    使用CNN和`LEXACTUM`框架训练引力透镜检测器，以加速在LSST和SKA时代的图像处理效率。在空间和地面数据集上，每幅图像只要0.0061s和0.0594s。数据集位于[这里](http://metcalf1.difa.unibo.it/blf-portal/gg_challenge.html)，19个G，就是发布出来让大家训练模型的。
 
-   <img src="Figures/image-20210604224149734.png" alt="image-20210604224149734" style="zoom:50%;" />
+   <img src="./Figures/image-20210604224149734.png" alt="image-20210604224149734" width="680px" />
 
 2. [PyAutoLens: Open-Source Strong Gravitational Lensing](https://arxiv.org/abs/2106.01384)
 
    `PyAutoLens`是用来做全自动的星系和星系团的强引力透镜建模的，支持直接成像和干涉仪数据。API可以实现光线追踪来建立强引力透镜样本通过使用`analytic light` 和`mass profiles`。示例脚本、数据集和HowToLens讲座开源在[这里](https://github.com/Jammy2211/autolens_workspace)。
 
-   <img src="Figures/image-20210604224836413.png" alt="image-20210604224836413" style="zoom:50%;" />
+   <img src="./Figures/image-20210604224836413.png" alt="image-20210604224836413" width="680px" />
 
 3. [Morphological classification of galaxies with deep learning: comparing 3-way and 4-way CNNs](https://arxiv.org/abs/2106.01571)
 
    CNN对星系形态分类。分为三类：椭圆`elliptical`、透镜`lenticular`、螺旋`spiral`，或者分为四类：再加上不规则/杂色`irregular/miscellaneous`。下图中C2是文章中使用的CNN结构，在14034幅SDSS的图像上，这个架构在三类和四类的分类上都可以表现出不错的性能。如果做二元分类，椭圆和螺旋星系是最容易区分的，螺旋和不规则是最难区分的。
 
-   <img src="Figures/image-20210604225029472.png" alt="image-20210604225029472" style="zoom:50%;" />
+   <img src="./Figures/image-20210604225029472.png" alt="image-20210604225029472" width="680px" />
 
 4. [Investigative Study on Preprint Journal Club as an Effective Method of Teaching Latest Knowledge in Astronomy](https://arxiv.org/abs/2106.01688)
 
@@ -60,7 +60,7 @@
 
    尘埃结构的`angular extension`产生的`dips`与恒星周期相关。磁层吸积，导致吸积柱及其底部遮蔽恒星，可以解释大部分观察到的光曲线。尽管与该模型兼容，但许多恒星的倾角`inclination angles`是适中`moderate `的，并不排除`inner disk warp`以外的机制来解释`dipper`的光变曲线。
 
-   <img src="Figures/image-20210607140233343.png" alt="image-20210607140233343" style="zoom:50%;" />
+   <img src="./Figures/image-20210607140233343.png" alt="image-20210607140233343" width="680px" />
 
 ## 2021-06-08
 
@@ -72,7 +72,7 @@
 
    从基本的等离子体理论出发，描述来自背景射电源的偏振通过此话、电离介质的传播，描述法拉第旋转。用图形来说明线偏振波分解为右/左圆偏振，这些偏振模式相位的时间和空间传播，以及由此产生的偏振方向的物理旋转。描述了一个既能法拉第旋转又能发射偏振辐射的介质的情况，并展示了螺旋形磁场如何构建或破坏法拉第旋转。
    
-   <img src="Figures/image-20210608181816575.png" alt="image-20210608181816575" style="zoom:50%;" />
+   <img src="./Figures/image-20210608181816575.png" alt="image-20210608181816575" width="680px" />
 
 ## 2021-06-09
 
@@ -84,7 +84,7 @@
    $$
    使用颜色$C$和金属丰度$[Fe/H]$拟合一个多项式，拟合结果如下，得到有效温度，平均误差在$\pm50K$。
 
-   <img src="Figures/image-20210609143951204.png" alt="image-20210609143951204" style="zoom:50%;" />
+   <img src="./Figures/image-20210609143951204.png" alt="image-20210609143951204" width="680px" />
 
 2. [How much water was delivered from the asteroid belt to the Earth after its formation?](https://arxiv.org/abs/2106.03999)
 
@@ -100,7 +100,7 @@
 
    CHIME/FRB项目从2018年7月25日到2019年7月1日之间， 在400-800MHz探测到535个FRB，其中有61个脉冲来自之前确认过的18个重复暴，也即目录中有474个非重复暴。重复暴和非重复暴的天空位置和DM分布一致，但是重复暴的脉冲宽度和光谱带宽和非重复暴不同。通过模拟注入脉冲事件校准选择效应，证明在600MHz处，本应占据整个群体很大一部分的，`Scatter`时间超过10ms的事件只有一小部分被CHIME探测到。`Fluence`的幂律分布指数$\alpha=-1.4$。`DM`大的事件对应大的$\alpha$， `DM`小的事件对应小的$\alpha$，当`DM`与距离相关时，这是自然的结果。在600MHz的5Jyms的天空事件率为$818\pm64/sky/day$。
 
-   <img src="Figures/image-20210609151126142.png" alt="image-20210609151126142" style="zoom:50%;" />
+   <img src="./Figures/image-20210609151126142.png" alt="image-20210609151126142" width="680px" />
 
 4. [No Evidence for Galactic Latitude Dependence of the Fast Radio Burst Sky Distribution](https://arxiv.org/abs/2106.04353)
 
@@ -112,25 +112,25 @@
    $$
    其中$G$是望远镜增益，$\Delta\nu$是观测带宽，$w_b$是`broadened pulse width`，$w_i$是`intrinsic pulse width`。下图是CHIME的视场中归一化的灵敏度。
 
-   <img src="Figures/image-20210609152827925.png" alt="image-20210609152827925" style="zoom:30%;" />
+   <img src="./Figures/image-20210609152827925.png" alt="image-20210609152827925" width="680px" />
 
 5. [CHIME/FRB Catalog 1 results: statistical cross-correlations with large-scale structure](https://arxiv.org/abs/2106.04354)
 
    CHIME的FRB与`WISExSCOS`、`DESI-BGS`、`DESI-LRG`巡天的星系目录的`angular cross-correlations`。在三个巡天目录中，FRB与红移在$0.3\lesssim z\lesssim0.5$的星系之间存在统计显著相关性，并发现了FRB有大的宿主星系DM（$\sim400pc\ cm^{-3}$）的统计相关性。
 
-   <img src="Figures/image-20210609153800343.png" alt="image-20210609153800343" style="zoom:50%;" />
+   <img src="./Figures/image-20210609153800343.png" alt="image-20210609153800343" width="680px" />
 
 6. [Fast Radio Burst Morphology in the First CHIME/FRB Catalog](https://arxiv.org/abs/2106.04356)
 
    CHIME/FRB的`Flux`随频率和时间的变化，观察到4种形态原型`simple broadband`、 `simple narrowband`、`temporally complex` 、和`downward drifting`。确认了重复暴宽度较大并且带宽较窄，可能是由于`beaming`、`propagation effects`或者`intrinsic to the populations`导致的。
 
-   <img src="Figures/image-20210609155815001.png" alt="image-20210609155815001" style="zoom:33%;" />
+   <img src="./Figures/image-20210609155815001.png" alt="image-20210609155815001" width="680px" />
 
 7. [Detecting Pulsars with Neural Networks: A Proof of Concept](https://arxiv.org/abs/2106.04407)
 
    传统的脉冲星搜索要从射电望远镜的时间和频率数据中发现周期性信号，同时确定DM，并消除RFI，计算复杂。这里使用`CNN`的变种`Temporal Convolutional Networks`，实现有效的抑制RFI和仪器不稳定的影响，消除DM，发现周期性信号。在周期性搜索的时候，使用FFT和FFA来扩展整个流程，方法能够识别微弱的脉冲星，并保持较低的误报率。网络可以在普通消费级的GPU上实时运行预测信号中是否有脉冲星存在。代码位于[这里](https://github.com/larskuenkel/DeepPulsarNet)。
 
-   <img src="Figures/image-20210609160500521.png" alt="image-20210609160500521" style="zoom:50%;" />
+   <img src="./Figures/image-20210609160500521.png" alt="image-20210609160500521" width="680px" />
 
 ## 2021-06-10
 
@@ -144,7 +144,7 @@
 
    使用`APOGEE`和`Gaia EDR3`的数据构建银河盘的动力学模型，整个银河中心半径在$5\le R\le19.5kpc$之间，使用`spherically-aligned Jeans Anisotropic Method`来建立恒星速度和速度弥散的模型，拟合到`kinematic maps`上。最佳拟合表明，暗物质晕的对数密度斜率为$\alpha_{DM}=-1.602\pm0.078_{syst}$，暗物质的密度是$\rho_{DM}=(8.92\pm0.56_{syst})\times10^{-3}M_\odot\ pc^{-3}$。（有机会可以试试下面图的配色）
 
-   <img src="Figures/image-20210611174431566.png" alt="image-20210611174431566" style="zoom:30%;" />
+   <img src="./Figures/image-20210611174431566.png" alt="image-20210611174431566" width="680px" />
 
 2. [A Strange Star Scenario for the Formation of Eccentric Millisecond Pulsar PSR J1946+3417](https://arxiv.org/abs/2106.05717)
 
@@ -194,7 +194,7 @@
 
    `Main` FRB事件可能会留下一个有高自由能的相对论性等离子团块。当等离子体经历`collisionless relaxation`时，会发射相干电磁波。这些电磁波可以作为快速射电余辉`fast radio afterglow`被观测到，其频率和强度不断降低。与会的峰值频率随时间的推移而减少，$\nu\propto t^{-3/2}$。
 
-   <img src="Figures/image-20210621213749290.png" alt="image-20210621213749290" style="zoom:40%;" />
+   <img src="./Figures/image-20210621213749290.png" alt="image-20210621213749290" width="680px" />
 
 2. [The host galaxy and persistent radio counterpart of FRB 20201124A](https://arxiv.org/abs/2106.09710)
 
@@ -233,7 +233,7 @@
 
    这一块底片上暂现源的事件率远远高于已知暂现源光学对应体的探测率，包括闪烁的矮星`flaring dwarf stars`、FRB、GRB或者微引力透镜。一种可能的解释是未知类型的污染产生不同强度的点源，并在半径为10角分的范围内产生了某种集中机制`some mechanism of concentration`。另一种可能性是来自地球同步轨道附近的物体的快速`t<0.5s`的太阳反射。确认后一种情况`latter scenario`的途径是，从别的底片中寻找多个暂现源后随一条线的图像。
 
-   <img src="Figures/image-20210623132230413.png" alt="image-20210623132230413" style="zoom:50%;" />
+   <img src="./Figures/image-20210623132230413.png" alt="image-20210623132230413" width="680px" />
 
 ## 2021-06-24
 
@@ -245,7 +245,7 @@
 
    使用ASKAP对FRB20201124A的宿主星系进行定位，红移为$z=0.0979\pm0.0001$，恒星形成率$2.1M_\odot yr^{-1}$，金属丰度$12+\log(O/H)\approx9.0$，恒星质量为$2\times10^{10}M_\odot$，尘埃消光为$1-1.5mag$，年龄为$5-6Gyr$。
 
-   <img src="Figures/image-20210624215749009.png" alt="image-20210624215749009" style="zoom:50%;" />
+   <img src="./Figures/image-20210624215749009.png" alt="image-20210624215749009" width="680px" />
 
 ## 2021-06-25
 
@@ -264,7 +264,7 @@
    $$
    一个模型：一定比例的地外文明随着时间的推移均匀的扩展到宇宙学规模。结合自我暗示假设（Self Indication Assumption，`SIA`）的`anthropics `方法，估计如果在巡天中发现零、一或者更多这样的文明，可以推断出什么。结果SIA对 - 像我们这样的文明存活下来并开始扩张的机会，- 扩张的最大可行速度，给出了悲观的估计。
 
-   <img src="Figures/image-20210628183935371.png" alt="image-20210628183935371" style="zoom:50%;" />
+   <img src="./Figures/image-20210628183935371.png" alt="image-20210628183935371" width="680px" />
 
 ## 2021-06-29
 
@@ -272,7 +272,7 @@
 
    2020年4-5月，SGR J1935+2154发出了数百次短爆，成为最`prolific transient`的磁星之一。费米/伽马射线暴监测仪观测到了一个130秒的暴发`forest`，其中包括一些具有特殊时间曲线的暴发。介绍了对这个事件的时间分辨光谱分析结果。在整个130秒的事件中普遍存在的热光谱成分。
 
-   <img src="Figures/image-20210629164053210.png" alt="image-20210629164053210" style="zoom:50%;" />
+   <img src="./Figures/image-20210629164053210.png" alt="image-20210629164053210" width="680px" />
 
 2. [The eROSITA Final Equatorial-Depth Survey (eFEDS): The Catalog of Galaxy Clusters and Groups](https://arxiv.org/abs/2106.14518)
 

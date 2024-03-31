@@ -6,7 +6,7 @@
 
    用`normalizing flow`和`mixture density estimation`估计测光红移。作者列表有点意思，有沈佳士、黄崧、丁源森、蔡峥。
 
-   <img src="Figures/image-20231101232757392.png" alt="image-20231101232757392" style="zoom:50%;" />
+   <img src="./Figures/image-20231101232757392.png" alt="image-20231101232757392" width="680px" />
 
 ## 2023-11-02
 
@@ -24,7 +24,7 @@
    - FRB 20190117A，$ra=331.6579^\circ\pm14^{''}\quad dec=17.3688^\circ\pm17^{''}$
    - FRB 20190606A，$ra=218.714^\circ\pm61^{''}\quad dec=53.313^\circ\pm58^{''}$
 
-   <img src="Figures/image-20231102210126501.png" alt="image-20231102210126501" style="zoom:50%;" />
+   <img src="./Figures/image-20231102210126501.png" alt="image-20231102210126501" width="680px" />
 
    有一系列文章会在2024年出来。
 
@@ -50,7 +50,7 @@
 
    总结了法国天体物理学界与快速射电暴相关的研究，最后分享了对快速射电暴科学未来的一些见解。目前观测到FRB爆发的频率从110MHz-8GHz，NenuFAR在10-85MHz观测FRB，期望看到更低频的FRB。
 
-   <img src="Figures/image-20231108162638590.png" alt="image-20231108162638590" style="zoom:50%;" />
+   <img src="./Figures/image-20231108162638590.png" alt="image-20231108162638590" width="680px" />
 
 ## 2023-11-07
 
@@ -75,13 +75,13 @@
 
    用`Topological Data Analysis (TDA)`拓扑数据分析来分析CHIME的FRB参数（包括下表中的数据）。
 
-   <img src="Figures/image-20231108165537006.png" alt="image-20231108165537006" style="zoom:50%;" />
+   <img src="./Figures/image-20231108165537006.png" alt="image-20231108165537006" width="680px" />
 
    TDA使用拓扑（研究空间的形状和连通性）从复杂和高维数据集中推断数据中的相关特征，两个主要工具包括`Persistent Homology`和`Mapper`，前者专注于捕获随着过滤参数变化而持续演变的特征，适合于理解数据的全局拓扑特征，后者有助于复杂数据形状和结构的表征。
 
    分析使用[Ripser](https://github.com/scikit-tda/ripser.py)和[kepler-mapper](https://github.com/scikit-tda/kepler-mapper)进行，这两个都是属于[scikit-tda](https://github.com/scikit-tda)的包，用于对数据进行TDA分析。在流形空间中发现这些FRB聚成了三类，并认为TDA是探索FRB现象多样性和复杂性的有力工具。
 
-   <img src="Figures/image-20231108171708929.png" alt="image-20231108171708929" style="zoom:50%;" />
+   <img src="./Figures/image-20231108171708929.png" alt="image-20231108171708929" width="680px" />
 
 2. [Linear to circular conversion in the polarized radio emission of a magnetar](https://arxiv.org/abs/2311.04195)
 
@@ -89,9 +89,9 @@
 
    射电磁星XTE J1810-197周期5.54s，用Parkes观测发现随着时间推移，线偏振和圆偏振之间会相互转换。可能是磁层或者近场传播效应导致。
 
-   <img src="Figures/image-20231108173530404.png" alt="image-20231108173530404" style="zoom:50%;" />
+   <img src="./Figures/image-20231108173530404.png" alt="image-20231108173530404" width="680px" />
 
-   <img src="Figures/image-20231108174323815.png" alt="image-20231108174323815" style="zoom:50%;" />
+   <img src="./Figures/image-20231108174323815.png" alt="image-20231108174323815" width="680px" />
 
 ## 2023-11-09
 
@@ -109,7 +109,7 @@
 
    光学望远镜观测`AR Sco`的9年的光变曲线，周期成分发生了变化，与岁差进动一致。
 
-   <img src="Figures/image-20231110154003375.png" alt="image-20231110154003375" style="zoom:50%;" />
+   <img src="./Figures/image-20231110154003375.png" alt="image-20231110154003375" width="680px" />
 
 ## 2023-11-13
 
@@ -119,7 +119,7 @@
 
    CHIME的[fitburst](https://github.com/CHIMEFRB/fitburst)终于放出来了，用`Exponentially Modified Gaussians`和`Running Power Law`对爆发进行建模并拟合，对闪烁也有一定的说法。
 
-   <img src="Figures/image-20231113221127956.png" alt="image-20231113221127956" style="zoom:50%;" />
+   <img src="./Figures/image-20231113221127956.png" alt="image-20231113221127956" width="680px" />
 
 2. [Dynamics of baryon ejection in magnetar giant flares: implications for radio afterglows, r-process nucleosynthesis, and fast radio bursts](https://arxiv.org/abs/2311.05681)
 
@@ -143,7 +143,7 @@
 
    用弱监督模型分类光变曲线。识别光变曲线和功率谱的最佳窗口并放大，进行特征提取，使模型能够处理不同尺度和采样间隔数据。代码在[这里](https://github.com/ckm3/Deep-LC)。
 
-   <img src="Figures/image-20231115175622784.png" alt="image-20231115175622784" style="zoom:50%;" />
+   <img src="./Figures/image-20231115175622784.png" alt="image-20231115175622784" width="680px" />
 
 ## 2023-11-16
 
@@ -155,7 +155,7 @@
 
    猜测FRB的爆发会产生谐波，谐波频率是原始爆发频率的一半，亮度也是原始爆发的一半，类似下图的爆发。
 
-   <img src="Figures/image-20231116152849921.png" alt="image-20231116152849921" style="zoom:50%;" />
+   <img src="./Figures/image-20231116152849921.png" alt="image-20231116152849921" width="680px" />
 
 2. [Asteroseismic Modelling of Fast Rotators and its Opportunities for Astrophysics](https://arxiv.org/abs/2311.08453)
 
@@ -165,7 +165,7 @@
 
    在恒星演化过程中，自旋会在恒星内部引发多种动力学现象，引导着整个恒星内部的角动量和化学元素迁移，其影响不断累积，决定了当恒星耗尽氢时内核的氦含量与恒星生命末期的重元素产量。
 
-   <img src="Figures/image-20231116183031813.png" alt="image-20231116183031813" style="zoom:50%;" />
+   <img src="./Figures/image-20231116183031813.png" alt="image-20231116183031813" width="680px" />
 
 ## 2023-11-17
 
@@ -175,7 +175,7 @@
 
    基于[Exoplanet](https://www.exoplanet.eu/)目录中的系外行星参数，估计它们的射电辐射（行星的射电辐射主要发生在低频<100MHz，周期与行星轨道相同，由回旋maser产生）。或许可以考虑FAST观测申请。
 
-   <img src="Figures/image-20231117155316731.png" alt="image-20231117155316731" style="zoom:50%;" />
+   <img src="./Figures/image-20231117155316731.png" alt="image-20231117155316731" width="680px" />
 
 2. [A Collection of German Science Interests in the Next Generation Very Large Array](https://arxiv.org/abs/2311.10056)
 
@@ -193,7 +193,7 @@
 
    这里是基于simsiam，开发[LenSiam](https://github.com/kuanweih/LenSiam)，用于强引力透镜图像表征。常用的图像增强会改变透镜属性，比如图像放大会改变爱因斯坦半径，因此引入了一种透镜增强方法，通过固定透镜模型改变源星系保留透镜属性。预训练的lensiam可以用于下游任务。
 
-   <img src="Figures/image-20231120185845276.png" alt="image-20231120185845276" style="zoom:50%;" />
+   <img src="./Figures/image-20231120185845276.png" alt="image-20231120185845276" width="680px" />
 
 ## 2023-11-21
 
@@ -205,7 +205,7 @@
 
    这个宿主星系是一个恒星形成星系，恒星形成率$1.7M_\odot/yr$，与红移1处的星系相同，与其它FRB的宿主星系性质也类似。估计FRB的环爆环境有500的色散过量。
 
-   <img src="Figures/image-20231121165252025.png" alt="image-20231121165252025" style="zoom:50%;" />
+   <img src="./Figures/image-20231121165252025.png" alt="image-20231121165252025" width="680px" />
 
 ## 2023-11-22
 
@@ -215,7 +215,7 @@
 
    用LOFAR国际基线的150MHz波段，对Lockman Hole区域6.6平方度的35个射电星系中心区域进行观测，分辨率是0.3角秒。同时结合FIRST的1.4GHz和VLA的3GHz观测测量谱指数。在这些星系中发现了各种形态与频谱特征（flat/steep/peaked），以及确认了之前认为是restarted sample中的5个。
 
-   <img src="Figures/image-20231122171809951.png" alt="image-20231122171809951" style="zoom:50%;" />
+   <img src="./Figures/image-20231122171809951.png" alt="image-20231122171809951" width="680px" />
 
 2. [MeerKAT 1.3 GHz Observations of Supernova Remnants](https://arxiv.org/abs/2311.12140)
 
@@ -223,15 +223,15 @@
 
    MeerKAT在856-1712MHz对高纬度超新星遗迹的观测，分辨率普遍为8-10角秒。超新星遗迹样本中有一半以上有blowouts/ears，有共同的特征。
 
-   <img src="Figures/image-20231122173646843.png" alt="image-20231122173646843" style="zoom:50%;" />
+   <img src="./Figures/image-20231122173646843.png" alt="image-20231122173646843" width="680px" />
 
    其中`G15.1-1.6`是一个HII区，而不是SNR。
 
-   <img src="Figures/image-20231122173709820.png" alt="image-20231122173709820" style="zoom:50%;" />
+   <img src="./Figures/image-20231122173709820.png" alt="image-20231122173709820" width="680px" />
 
    `G327.6+14.6`与一个延展的偏振喷流背景AGN重叠，从中测量到了法拉第旋转的证据。
 
-   <img src="Figures/image-20231122173849366.png" alt="image-20231122173849366" style="zoom:50%;" />
+   <img src="./Figures/image-20231122173849366.png" alt="image-20231122173849366" width="680px" />
 
 3. [The first Ka-band (26.1-35 GHz) blind line survey towards Orion KL](https://arxiv.org/abs/2311.12276)
 
@@ -239,7 +239,7 @@
 
    用天马的Ka波段26.1-35GHz对OrionKL区域进行谱线盲搜，识别出592个高斯成分，其中257条射电重组线`radio recombination lines (RRLs)`，318条线是来自37个分子，其中10个分子在天马的Q波段巡天中没有被探测到。强调了Ka波段对同时测量RRL和分子谱线非常有用。
 
-   <img src="Figures/image-20231122175931924.png" alt="image-20231122175931924" style="zoom:50%;" />
+   <img src="./Figures/image-20231122175931924.png" alt="image-20231122175931924" width="680px" />
 
 4. [The Rapid ASKAP Continuum Survey V: cataloguing the sky at 1367.5 MHz and the second data release of RACS-mid](https://arxiv.org/abs/2311.12369)
 
@@ -247,7 +247,7 @@
 
    ASKAP在1367.5MHz的[连续谱源星表](https://doi.org/10.25919/p524-xb81)，覆盖了$DEC<+49^\circ$的天空，36200平方度，包括了3,105,668个射电源。目录在1.6mJy以上是完备的。[另一份星表](https://doi.org/10.25919/p8ns-da63)是原始RACS-mid图像中的源列表合并成，没有额外的卷积和去重，以避免丢失时变信号。
 
-   <img src="Figures/image-20231122180641335.png" alt="image-20231122180641335" style="zoom:50%;" />
+   <img src="./Figures/image-20231122180641335.png" alt="image-20231122180641335" width="680px" />
 
 ## 2023-11-23
 
@@ -263,7 +263,7 @@
 
    用速度梯度技术`Velocity Gradient technique, VGT`，在13CO数据上研究银河系旋臂上filament的磁场方向`magnetic field orientation`。与尘埃偏振发射相比，速度梯度技术使我们能够利用速度信息来分离前景和背景，并从中可靠地确定磁场的方向。
 
-   <img src="Figures/image-20231123201036899.png" alt="image-20231123201036899" style="zoom:50%;" />
+   <img src="./Figures/image-20231123201036899.png" alt="image-20231123201036899" width="680px" />
 
    大多数filament的磁场都与银盘一致，表明银河剪切可能是塑造filament的原因。在$\le10\,\rm pc$的分辨率下，磁场可以保持规则，湍流穿越时间比剪切时间短，这表明湍流运动不能有效地破坏磁场的规则方向。在一些filament中发现的不连续性可能是由filament重组、引力塌缩和恒星反馈等过程造成的。
 
@@ -281,7 +281,7 @@
 
    如果FRB由磁星产生，那么或许可以从FRB的子结构尺度推断其周期。
 
-   <img src="Figures/image-20231127170318899.png" alt="image-20231127170318899" style="zoom:50%;" />
+   <img src="./Figures/image-20231127170318899.png" alt="image-20231127170318899" width="680px" />
 
 2. [Timing relationships and resulting communications challenges in relativistic travel](https://arxiv.org/abs/2311.14039)
 
@@ -301,7 +301,7 @@
 
    通过`ANN2SNN`转换，将最近邻域算法`NLN`和自动编码器架构转换为脉冲神经网络执行，代码在[SNN-RFI](https://github.com/pritchardn/SNN-NLN)。尽管在LOFAR和MeerKAT数据集上表现不如原始NLN算法，但是这一方法消除了NLN中计算和内存密集的采样步骤。 这也是第一项SNNs应用于天文学的工作。
 
-   <img src="Figures/image-20231127180045223.png" alt="image-20231127180045223" style="zoom:50%;" />
+   <img src="./Figures/image-20231127180045223.png" alt="image-20231127180045223" width="680px" />
 
 ## 2023-11-28
 
@@ -313,7 +313,7 @@
 
    由于目前并没有观测到有明显透镜的FRB，因此在$10^5-10^6\,\rm Mpc^{-1}$尺度区域，原始曲率扰动的振幅应该小于$8\times10^{-2}$，与`LOGO-Virgo-KAGRA`探测到的双黑洞的质量范围吻合。
 
-   <img src="Figures/image-20231128164215505.png" alt="image-20231128164215505" style="zoom:50%;" />
+   <img src="./Figures/image-20231128164215505.png" alt="image-20231128164215505" width="680px" />
 
 2. [Discovery of a young, highly scattered pulsar PSR J1032-5804 with the Australian SKA Pathfinder](https://arxiv.org/abs/2311.14880)
 
@@ -321,7 +321,7 @@
 
    在ASKAP巡天中，搜索高圆偏振的源，发现了一个年轻的高散射脉冲星`PSR J1032-5804`，周期78.7ms，DM 819，RM -2000，在3GHz的散射时标22ms，估计1GHz的散射是3845ms。多波段观测表明脉冲星周围存在脉冲星风星云和超新星遗迹。
 
-   <img src="Figures/image-20231128165237379.png" alt="image-20231128165237379" style="zoom:50%;" />
+   <img src="./Figures/image-20231128165237379.png" alt="image-20231128165237379" width="680px" />
 
    结果凸显了从射电连续谱中识别极度散射脉冲星的可能性，未来巡天中可能有机会发现更多极端脉冲星，比如高度散射、高度间歇和高度加速的脉冲星。
 
@@ -339,7 +339,7 @@
 
    MeerKAT观测CRAFT巡天中探测到的非重复FRB 20230718A宿主星系的HI，得到红移0.0357。发现这个FRB的宿主星系正在与近邻一个伴星系相互作用（由HI气体桥为证）。
 
-   <img src="Figures/image-20231129195158927.png" alt="image-20231129195158927" style="zoom:50%;" />
+   <img src="./Figures/image-20231129195158927.png" alt="image-20231129195158927" width="680px" />
 
 2. [Triple Flares within Five Years in ztf18aanlzzf: An Enhanced Tidal Disruption Rate in ULIRGs?](https://arxiv.org/abs/2311.16726)
 
@@ -349,7 +349,7 @@
 
    表明ULIRG中TDE发生率较高。
 
-   <img src="Figures/image-20231129203500050.png" alt="image-20231129203500050" style="zoom:50%;" />
+   <img src="./Figures/image-20231129203500050.png" alt="image-20231129203500050" width="680px" />
 
 ## 2023-11-30
 
@@ -359,7 +359,7 @@
 
    根据多波段不均匀采样的超新星光变曲线，用`probabilisticRNN`拟合超新星爆发和亮度峰值的时间，并给出误差。
 
-   <img src="Figures/image-20231130222111018.png" alt="image-20231130222111018" style="zoom:50%;" />
+   <img src="./Figures/image-20231130222111018.png" alt="image-20231130222111018" width="680px" />
 
 2. [Simulation of ionizing radiation in cell phone camera image sensors](https://arxiv.org/abs/2311.17253)
 
@@ -367,5 +367,5 @@
 
    分布式高能宇宙射线天文台[DECO](https://www-old.wipac.wisc.edu/deco)，使用大家的手机摄像头观测高能宇宙线。下面是app的截图和事件示例。
 
-   <img src="Figures/image-20231130222540281.png" alt="image-20231130222540281" style="zoom:50%;" />
+   <img src="./Figures/image-20231130222540281.png" alt="image-20231130222540281" width="680px" />
 

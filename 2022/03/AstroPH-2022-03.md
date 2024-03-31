@@ -47,7 +47,7 @@
 
    观测新生恒星周围的吸积盘可以帮助理解太阳系形成与演化，陨石中稳定的同位素异常`stable isotope anomalies`可以建立一个“行星同位素谱系”，作为太阳系早期物质流动的追踪器。
    
-   <img src="Figures/image-20220307122111113.png" alt="image-20220307122111113" style="zoom:50%;" />
+   <img src="./Figures/image-20220307122111113.png" alt="image-20220307122111113" width="680px" />
 
 ## 2022-03-08
 
@@ -83,7 +83,7 @@
 
    使用高分辨率模拟星系团冷纤维的湍流速度结构，结果表明，当冷却时标短于动力学时标时，超音速湍流结构可以被“冻结”在冷气体中，冷气体从中心AGN驱动的外流中冷却并分裂出去，表明超音速外流是`AGN-ICM`相互作用的一个组成部分，AGN活动驱动星系团中湍流。
 
-   <img src="Figures/image-20220311183022849.png" alt="image-20220311183022849" style="zoom:50%;" />
+   <img src="./Figures/image-20220311183022849.png" alt="image-20220311183022849" width="680px" />
 
 ## 2022-03-14
 
@@ -173,7 +173,7 @@
 
    射电连续谱的变化可以用来研究源结构、介质的发射和吸收过程。使用`ATCA`和`MWA`对15个`Peaked Spectrum`源进行了宽带$0.072-10\, \rm GHz$的观测，在$1\,\rm GHz$以上没有检测到光谱变化，其中13个在$1\,\rm MHz$频率下看到了变化，认为是一个直径为$25\,\rm mas$的致密成分的折射导致的闪烁。
 
-   <img src="Figures/image-20220323180042153.png" alt="image-20220323180042153" style="zoom:50%;" />
+   <img src="./Figures/image-20220323180042153.png" alt="image-20220323180042153" width="680px" />
 
 2. [Update on the Systematics in the ALMA Proposal Review Process after Cycle 8](https://arxiv.org/abs/2203.11334)
 
@@ -191,7 +191,7 @@
 
    在$8\,\rm Gyr$处可以将恒星的金属性分成两部分，较年轻的部分反映银盘形成的晚期，另一部分反映早期阶段银晕和厚盘形成时期。在大爆炸后$0.8\,\rm Gyr$，银河系厚盘开始形成（也即距今$13\,\rm Gyr$之前），恒星大部分形成于这之后$2\,\rm Gyr$。此时`Gaia-Sausage-Enceladus`与银河系合并，并在接下来$5-6\,\rm Gyr$，银河系元素富集了10倍。
 
-   <img src="Figures/image-20220324183916813.png" alt="image-20220324183916813" style="zoom:50%;" />
+   <img src="./Figures/image-20220324183916813.png" alt="image-20220324183916813" width="680px" />
 
 2. [sympy2c: from symbolic expressions to fast C/C++ functions and ODE solvers in Python](https://arxiv.org/abs/2203.11945)
 
@@ -241,7 +241,7 @@
 
    使用LOFAR研究太阳III型暴的圆偏振。对2019年3-4月的六个爆发，`fundamental emission`随频率增加而增加，`harmonic emission`没有这样的趋势。
 
-   <img src="Figures/image-20220329190127323.png" alt="image-20220329190127323" style="zoom:50%;" />
+   <img src="./Figures/image-20220329190127323.png" alt="image-20220329190127323" width="680px" />
 
 5. [The Environment and Constraints on the Mass of FRB 190520B](https://arxiv.org/abs/2203.14943)
 
@@ -265,5 +265,5 @@
 
    使用自相关函数`G-ACF`分析下一代凌星巡天`NGTS`中`late-A`到`mid-M`型共16880个恒星的光变周期，在$0.1-130\,\rm d$之间。将周期与Gaia的恒星参数进行比较，发现主序星缺少$15-25\,\rm d$的周期。还观察到一小部分长周期可变的`M-dwarfs`。
 
-   <img src="Figures/image-20220331175824637.png" alt="image-20220331175824637" style="zoom:50%;" />
+   <img src="./Figures/image-20220331175824637.png" alt="image-20220331175824637" width="680px" />
 

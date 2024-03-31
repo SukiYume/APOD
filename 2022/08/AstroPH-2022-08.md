@@ -20,7 +20,7 @@
 
    这里使用`global force-free`电动力学模拟证明，两颗磁场强度远低于磁星的中子星的碰撞可以产生FRB。
 
-   <img src="Figures/image-20220801184153038.png" alt="image-20220801184153038" style="zoom:50%;" />
+   <img src="./Figures/image-20220801184153038.png" alt="image-20220801184153038" width="680px" />
 
 ## 2022-08-02
 
@@ -64,7 +64,7 @@
 
    研究被`SMACS J0723.3-7327`星系团`lensing`的星系`Sparkler`，周围的致密源`sparkles`。在JWST/NIRCam中没有空间分辨，在JWST/NIRISS光谱中有`OIII`的发射，但是没有恒星形成的迹象，认为这些星团是在$z=1.378$的`evolved`球状星团，SED拟合年龄大约是$3.9-4.1Gyr$，在大爆炸后0.5Gyr形成。如果被证实，这些星团可能是宇宙中最早被观测到的停止恒星形成的天体之一。
 
-   <img src="Figures/image-20220804171740326.png" alt="image-20220804171740326" style="zoom:50%;" />
+   <img src="./Figures/image-20220804171740326.png" alt="image-20220804171740326" width="680px" />
 
 ## 2022-08-05
 
@@ -74,7 +74,7 @@
 
    张同杰他们的文章。FAST的SETI终端看系外行星，找到1140MHz的频漂信号，特征与假定的ETI技术特征一致，但是偏振特征排除其是地外信号的可能性。
 
-   <img src="Figures/image-20220805143032311.png" alt="image-20220805143032311" style="zoom:50%;" />
+   <img src="./Figures/image-20220805143032311.png" alt="image-20220805143032311" width="680px" />
 
 ## 2022-08-08
 
@@ -84,7 +84,7 @@
 
    `Multi-mode Cepheids`变星以一种以上的模式脉动，为测试恒星模型和脉动理论提供了一种独立的手段，并且还可以用来推导金属性。到目前为止，银河系中一行发现209个双模Cepheids，主要是`Optical Gravitational Lensing Experiment's (OGLE)`目录。这里从ZTF DR5中找到72个，包含OGLE中的30个。周期也很一致，如下“Petersen diagram”中显示。
 
-   <img src="Figures/image-20220808101745645.png" alt="image-20220808101745645" style="zoom:50%;" />
+   <img src="./Figures/image-20220808101745645.png" alt="image-20220808101745645" width="680px" />
 
 ## 2022-08-09
 
@@ -94,7 +94,7 @@
 
    做了很细致的N体模拟地球周围最多可以有多少颗卫星稳定运行。计算表明，卫星的最大数量取决于卫星的质量，最多可以有$7\pm1$个`Ceres`谷神星、$4\pm1$个`Pluto`冥王星、$3\pm1$个`Luna`质量的卫星。下图分别是3/5/8个`Ceres`绕地球运动时的轨道稳定性。
 
-   <img src="Figures/image-20220809102343033.png" alt="image-20220809102343033" style="zoom:50%;" />
+   <img src="./Figures/image-20220809102343033.png" alt="image-20220809102343033" width="680px" />
 
 2. [FRBSTATS: A web-based platform for visualization of fast radio burst properties](https://arxiv.org/abs/2208.03508)
 
@@ -120,9 +120,9 @@
 
    [DELIGHT](https://github.com/fforster/delight)，用CNN来辨别`Transients`的宿主星系，想用在LSST实时光变警报流中。输入是暂现源位置为中心的多分辨率图像（是一组相同像素数的图像，像素大小随视场变大），输出暂现源和预测的宿主星系之间的二维矢量。训练数据是16791个星系以及距离星系中心1角分以内的暂现源坐标。
 
-   <img src="Figures/image-20220809111742441.png" alt="image-20220809111742441" style="zoom:50%;" />
+   <img src="./Figures/image-20220809111742441.png" alt="image-20220809111742441" width="680px" />
 
-   <img src="Figures/image-20220809111755278.png" alt="image-20220809111755278" style="zoom:50%;" />
+   <img src="./Figures/image-20220809111755278.png" alt="image-20220809111755278" width="680px" />
 
 6. [Galaxy source counts at 7.7 μm, 10 μm and 15 μm with the James Webb Space Telescope](https://arxiv.org/abs/2208.03954)
 
@@ -138,7 +138,7 @@
 
    `ESPRESSO`是VLT上的光谱仪，从2018年开始运行，主要做系外行星科学，大口径与高分辨率光谱仪能够探测到小型、低质量的行星，并且研究行星大气。这里介绍了`ESPRESSO`的第一批结果。
 
-   <img src="Figures/image-20220810092735777.png" alt="image-20220810092735777" style="zoom:50%;" />
+   <img src="./Figures/image-20220810092735777.png" alt="image-20220810092735777" width="680px" />
 
 ## 2022-08-11
 
@@ -148,7 +148,7 @@
 
    使用Gaia EDR3的测光数据，筛选`Hyades`疏散星团的恒星成员。将类太阳的MESA演化模型与单星序列进行比较，发现$[Fe/H]=+0.25$的非旋转MESA模型对质量高于0.85和低于0.25$M_\odot$的恒星拟合得很好，这质量区间内的，模型则低估了恒星的光度。
    
-   <img src="Figures/image-20220811221548565.png" alt="image-20220811221548565" style="zoom:50%;" />
+   <img src="./Figures/image-20220811221548565.png" alt="image-20220811221548565" width="680px" />
 
 ## 2022-08-12
 
@@ -168,7 +168,7 @@
 
    这里是FAST的HI观测，发表在Nature上。数据显示出一个大的HI结构（0.6Mpc），包括一个与碎片场相关的展源（0.4Mpc）和一个弯曲的弥散特征（0.5Mpc）。弥散特征可能是SQ早期阶段潮汐相互作用产生的。
 
-   <img src="Figures/image-20220812110947538.png" alt="image-20220812110947538" style="zoom:50%;" />
+   <img src="./Figures/image-20220812110947538.png" alt="image-20220812110947538" width="680px" />
 
 3. [Evidencing the interaction between science fiction enthusiasm and career aspirations in the UK astronomy community](https://arxiv.org/abs/2208.05825)
 
@@ -262,7 +262,7 @@
 
    用`Magellan`和`Anglo-Australian`望远镜观测`NGC 5128`周围的球状星团，共174个，其中122新确认，测量了球状星团的径向速度和质量。
 
-   <img src="Figures/image-20220823004709465.png" alt="image-20220823004709465" style="zoom:50%;" />
+   <img src="./Figures/image-20220823004709465.png" alt="image-20220823004709465" width="680px" />
 
 ## 2022-08-23
 
@@ -272,7 +272,7 @@
 
    用透镜FRB估计哈勃常数和后牛顿参数。受引力透镜的FRB的不同`image`的时间延迟可能有$\sim10\,\rm days$。
 
-   <img src="Figures/image-20220823213009706.png" alt="image-20220823213009706" style="zoom:50%;" />
+   <img src="./Figures/image-20220823213009706.png" alt="image-20220823213009706" width="680px" />
 
 ## 2022-08-24
 
@@ -282,7 +282,7 @@
 
    在VRCHAT里看ALMA，真不愧是日本人整的活。
 
-   <img src="Figures/image-20220824192442168.png" alt="image-20220824192442168" style="zoom:50%;" />
+   <img src="./Figures/image-20220824192442168.png" alt="image-20220824192442168" width="680px" />
 
 2. [Pulsar Wind Nebulae](https://arxiv.org/abs/2208.11026)
 
@@ -308,7 +308,7 @@
 
    TESS主要任务期间，以2分钟的观测节奏观测了超过232,000颗恒星，覆盖70%的天空，其中找到了40,000个高置信度的周期变星和50,000个中等置信度变星。下图是周光关系。
 
-   <img src="Figures/image-20220826134235251.png" alt="image-20220826134235251" style="zoom:50%;" />
+   <img src="./Figures/image-20220826134235251.png" alt="image-20220826134235251" width="680px" />
 
 ## 2022-08-29
 
@@ -318,7 +318,7 @@
 
    分析`Gaia`和`Hipparcos`天体测量数据中，至少有5次高精度径向速度测量的5108颗恒星，其中有914颗径向速度的周期长于`1000d`，并确定了其中167个冷巨星和68个其他类型的伴星，9个恒星系统之前被直接成像，估计样本中还有10个以上的恒星系统可以被目前的成像系统碳测到，从而将成像的冷巨行星扩大一个数量级。
 
-   <img src="Figures/image-20220829133828760.png" alt="image-20220829133828760" style="zoom:50%;" />
+   <img src="./Figures/image-20220829133828760.png" alt="image-20220829133828760" width="680px" />
 
 ## 2022-08-30
 
@@ -328,7 +328,7 @@
 
    [DM-power](https://github.com/hsiuhsil/DM-power)，在傅里叶域做加权优化FRB的DM，优化子结构。试了一下，很慢，$512\times512$的数据需要7分钟，并且在拉直成分上也有一些问题。比如下图，1/3列是原始DM，2/4列是优化后的DM。
 
-   <img src="Figures/image-20220830140022220.png" alt="image-20220830140022220" style="zoom:50%;" />
+   <img src="./Figures/image-20220830140022220.png" alt="image-20220830140022220" width="680px" />
 
 ## 2022-08-31
 

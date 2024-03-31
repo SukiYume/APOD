@@ -6,7 +6,7 @@
 
    用VLA在2020年和2021年对FRB20190520B的PRS，发现3GHz存在流量下降。讨论了PRS的起源，认为致密吸积天体可以解释PRS的时间和光谱特性。
 
-   <img src="Figures/image-20230801224154595.png" alt="image-20230801224154595" style="zoom:50%;" />
+   <img src="./Figures/image-20230801224154595.png" alt="image-20230801224154595" width="680px" />
 
 2. [A radio pulsar phase from SGR J1935+2154 provides clues to the magnetar FRB mechanism](https://arxiv.org/abs/2307.16124)
 
@@ -20,7 +20,7 @@
 
    用EVN在1658.49MHz对Crab进行观测，探测到了65951个巨脉冲，证实相距很近的巨脉冲串的可能性比随机发生的脉冲串要大。
 
-   <img src="Figures/image-20230801230857569.png" alt="image-20230801230857569" style="zoom:50%;" />
+   <img src="./Figures/image-20230801230857569.png" alt="image-20230801230857569" width="680px" />
 
 ## 2023-08-02
 
@@ -44,7 +44,7 @@
 
    在地球上，技术发展需要燃烧，这需要氧含量高于18%。这表明，只有大气中氧气浓度相当高的行星才有能力发展“先进的技术”，从而能够探测到技术信号。
 
-   <img src="Figures/image-20230805025043475.png" alt="image-20230805025043475" style="zoom:50%;" />
+   <img src="./Figures/image-20230805025043475.png" alt="image-20230805025043475" width="680px" />
 
 ## 2023-08-04
 
@@ -54,7 +54,7 @@
 
    104m/s倾斜撞击沙子的实验。结果表明，即使掠射角只有10度，撞击坑也有几乎圆形的边缘，但是撞击激发的地震脉冲强度取决于撞击角。
 
-   <img src="Figures/image-20230805025544025.png" alt="image-20230805025544025" style="zoom:50%;" />
+   <img src="./Figures/image-20230805025544025.png" alt="image-20230805025544025" width="680px" />
 
 ## 2023-08-07
 
@@ -68,7 +68,7 @@
 
    `KHi`湍流可以有效地阻尼弯曲波的振荡，并在日冕环中产生加热效应。
    
-   <img src="Figures/image-20230807160802709.png" alt="image-20230807160802709" style="zoom:50%;" />
+   <img src="./Figures/image-20230807160802709.png" alt="image-20230807160802709" width="680px" />
 
 ## 2023-08-08
 
@@ -86,7 +86,7 @@
 
    在[A deep-learning search for technosignatures from 820 nearby stars](https://www.nature.com/articles/s41550-022-01872-z)中，使用[SETIGEN](https://github.com/bbrzycki/setigen)生成训练数据，并使用$\rm \beta-VAE$加上随机森林训练ETI信号搜索模型[GBT-SETI](https://github.com/PetchMa/ML_GBT_SETI)，并在GBT的部分数据中找到8个有趣的信号。
 
-   <img src="Figures/image-20230808155845908.png" alt="image-20230808155845908" style="zoom:50%;" />
+   <img src="./Figures/image-20230808155845908.png" alt="image-20230808155845908" width="680px" />
 
    这篇文章中证明使用他们的方法也能找到这8个信号。
 
@@ -104,7 +104,7 @@
 
    用MeerKAT对FRB121102的PRS进行了五次观测，前四次流量稳定，第五次PRS流量下降1/3。另外，MeerKAT的灵敏度很高，在2s的图像中，可以探测到1.3GHz处超过2.4mJy的任何FRB，因此可以用来定位所有CHIME探测到的FRB。
 
-   <img src="Figures/image-20230809164447799.png" alt="image-20230809164447799" style="zoom:50%;" />
+   <img src="./Figures/image-20230809164447799.png" alt="image-20230809164447799" width="680px" />
 
 2. [A long-period radio transient active for three decades: population study in the neutron star and white dwarf rotating dipole scenarios](https://arxiv.org/abs/2307.10351)
 
@@ -112,11 +112,11 @@
 
    [A long-period radio transient active for three decades](https://www.nature.com/articles/s41586-023-06202-5)中讲用MWA探测到`GPM J1839-10`，是一个周期21分钟，持续30-300秒，有准周期结构的暂现源。对历史数据（VLA等）的搜索发现其最早于1988年开始重复出现，长时间的数据限制周期导数为$<3.6\times10^{-13}\rm s\,s^{-1}$，超过了中子星死线。分析代码在[这里](https://github.com/nhurleywalker/GPMTransient)。
 
-   <img src="Figures/image-20230809165952609.png" alt="image-20230809165952609" style="zoom:50%;" />
+   <img src="./Figures/image-20230809165952609.png" alt="image-20230809165952609" width="680px" />
 
    这个暂现源是在0.5s的时间切片里直接看到的，在VLA数据中也是，之所以之前没在VLA数据中探测到，是因为VLA的数据大多都是积分起来的，并没有做时间切片。下图展示了时间分辨率、色散和散射对探测的影响，纵坐标是光变的特征时标，当其小于时间分辨率时，探测不到，所以不需要做任何事情，斜实线上方表示色散带来的时间延迟短于光变时标，此时也不需要做任何事情，爆发可以直接被探测。点虚线上方表示散射时标短于光变时标，下方则探测不到。因此只有很小的一个参数空间需要消色散才能有所发现。 [scattering_delay_comparison.pdf](Figures\scattering_delay_comparison.pdf)  [delay_scattering.py](Figures\delay_scattering.py) 
 
-   <img src="Figures/image-20230809170326134.png" alt="image-20230809170326134" style="zoom:50%;" />
+   <img src="./Figures/image-20230809170326134.png" alt="image-20230809170326134" width="680px" />
 
    这篇arxiv文章中讲，白矮星可以允许长周期射电发射的出现，但是还没有机制可以解释爆发为什么这么明亮。
 
@@ -136,7 +136,7 @@
 
    用`Class Activation Map, CAM`来做ASKAP星系图像分割与分类，CAM就是我们之前在ResNet上用的看权重分类图，他们的代码在[这里](https://github.com/Nikhel1/Gal-CAM)。
 
-   <img src="Figures/image-20230818135628324.png" alt="image-20230818135628324" style="zoom:50%;" />
+   <img src="./Figures/image-20230818135628324.png" alt="image-20230818135628324" width="680px" />
 
 2. [Source of radio emissions induced by the Galilean moons Io, Europa and Ganymede: in situ measurements by Juno](https://arxiv.org/abs/2308.05541)
 
@@ -144,7 +144,7 @@
 
    朱诺号探测到的木星极光射电辐射。在木星，极光的射电辐射的一部分是由木卫一二三引起的。
 
-   <img src="Figures/image-20230818135923862.png" alt="image-20230818135923862" style="zoom:50%;" />
+   <img src="./Figures/image-20230818135923862.png" alt="image-20230818135923862" width="680px" />
 
 ## 2023-08-14
 
@@ -162,7 +162,7 @@
 
    报告了DSA探测到的25个非重复FBR的偏振信息，测到了20个FRB的RM在$4-4670\rm\, rad/m^2$，其中9个有超过70%的线偏振度，3个有明显圆偏振，5个没有偏振，认为散射屏内随机的RM变化不是消偏振的原因。
 
-   <img src="Figures/image-20230818141741753.png" alt="image-20230818141741753" style="zoom:50%;" />
+   <img src="./Figures/image-20230818141741753.png" alt="image-20230818141741753" width="680px" />
 
    跟银河系脉冲星的偏振度进行比较，发现FRB的偏振度与最年轻的脉冲星（特征年龄小于10万年）之间有显著的相似性，提出假设——FRB的辐射是高度线偏振的，在磁层内的传播导致圆偏振和消偏振。、
 
@@ -172,7 +172,7 @@
 
    结合DSA新定位的10个非重复FRB和已经发表的15个定位的FRB，发现FRB河外RM主要由宿主星系贡献。并发现FRB宿主星系ISM磁场强度通常大于银河脉冲星的磁场强度，表明FRB宿主星系的ISM此话程度增加了。
 
-   <img src="Figures/image-20230818142345103.png" alt="image-20230818142345103" style="zoom:50%;" />
+   <img src="./Figures/image-20230818142345103.png" alt="image-20230818142345103" width="680px" />
 
 3. [White dwarf Random Forest classification through Gaia spectral coefficients](https://arxiv.org/abs/2308.07090)
 
@@ -214,7 +214,7 @@
 
    JWST对`NGC 6720`的观测。
 
-   <img src="Figures/image-20230821163734658.png" alt="image-20230821163734658" style="zoom:50%;" />
+   <img src="./Figures/image-20230821163734658.png" alt="image-20230821163734658" width="680px" />
 
 ## 2023-08-22
 
@@ -226,7 +226,7 @@
 
    FRB可以实现测量ns级别的透镜时间延迟，微透镜的时间延迟是ms级。微透镜图像之间的角间距是微角秒量级，因此无法用地面望远镜分辨。
 
-   <img src="Figures/image-20230822195200699.png" alt="image-20230822195200699" style="zoom:50%;" />
+   <img src="./Figures/image-20230822195200699.png" alt="image-20230822195200699" width="680px" />
 
    这里建议使用ISM的闪烁来分辨微透镜图像，并估算单个FRB闪烁微透镜事件可以限制哈勃常数在6%的不确定性，30个事件可以限制到$<1\%$。
 
@@ -238,7 +238,7 @@
 
    对太阳附近6kpc以内的3.3kw颗恒星运动学的统计分析。测量到太阳相对于附近恒星的速度，以及银河系不同半径下的旋转速度。做运动学分析或者需要知道银河系旋转曲线对恒星的影响可以看这篇。
 
-   <img src="Figures/image-20230823214117671.png" alt="image-20230823214117671" style="zoom:50%;" />
+   <img src="./Figures/image-20230823214117671.png" alt="image-20230823214117671" width="680px" />
 
 2. [Towards an astronomical foundation model for stars with a Transformer-based model](https://arxiv.org/abs/2308.10944)
 
@@ -248,7 +248,7 @@
 
    表明，利用多个巡天观测的数据和参数来建立一个基础模型，以预测未测量的观测数据和参数，是完全有可能实现的。
 
-   <img src="Figures/image-20230823215228311.png" alt="image-20230823215228311" style="zoom:50%;" />
+   <img src="./Figures/image-20230823215228311.png" alt="image-20230823215228311" width="680px" />
 
 ## 2023-08-24
 
@@ -260,7 +260,7 @@
 
    文章认为这些窄爆发和宽爆发可能是不同起源，并分别对应着不同种类的太阳射电暴，因为按照窄爆发的色散改正以后，宽爆发仍然表现出$\sim100\rm\, MHz/ms$的漂移。
 
-   <img src="Figures/image-20230824161105122.png" alt="image-20230824161105122" style="zoom:50%;" />
+   <img src="./Figures/image-20230824161105122.png" alt="image-20230824161105122" width="680px" />
 
 2. [Validating the Sub-Burst Slope Law: A Comprehensive Multi-Source Spectro-Temporal Analysis of Repeating Fast Radio Bursts](https://arxiv.org/abs/2308.11729)
 
@@ -272,7 +272,7 @@
    $$
    其中$\nu_{\rm obs}$是中心频率，$t_D$是`delay time`，$t_w$是观测到的`duration`。这里通过对多个FRB的spectral-time进行统计，证实了这一规律。
 
-   <img src="Figures/image-20230824162508779.png" alt="image-20230824162508779" style="zoom:50%;" />
+   <img src="./Figures/image-20230824162508779.png" alt="image-20230824162508779" width="680px" />
 
 ## 2023-08-25
 
@@ -288,7 +288,7 @@
    $$
    其中$E_{B*}$是磁能，$\nu L_\nu$是PRS光度，给出190520的PRS的年龄在$4-1900\,\rm yr$间。
 
-   <img src="Figures/image-20230825151030379.png" alt="image-20230825151030379" style="zoom:50%;" />
+   <img src="./Figures/image-20230825151030379.png" alt="image-20230825151030379" width="680px" />
 
 2. [The Petabyte Project](https://arxiv.org/abs/2308.12432)
 
@@ -304,7 +304,7 @@
 
    用GAN在[setigen](https://github.com/bbrzycki/setigen)生成的人造信号上训练以代替`setigen`生成SETI信号。
 
-   <img src="Figures/image-20230828151913617.png" alt="image-20230828151913617" style="zoom:50%;" />
+   <img src="./Figures/image-20230828151913617.png" alt="image-20230828151913617" width="680px" />
 
 2. [Gammapy: present status and future roadmap](https://arxiv.org/abs/2308.13389)
 
@@ -350,5 +350,5 @@
 
    图很炫酷，他们这相当于一个会议总结，会议期间确定的特别有希望的领域是，大型巡天数据挖掘、远红外波长全天巡天、射电天文干涉巡天以及太阳系中的人造信号。
 
-   <img src="Figures/image-20230831163944948.png" alt="image-20230831163944948" style="zoom:50%;" />
+   <img src="./Figures/image-20230831163944948.png" alt="image-20230831163944948" width="680px" />
 

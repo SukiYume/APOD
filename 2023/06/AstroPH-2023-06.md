@@ -47,9 +47,9 @@
 
    M型矮星会产生射电暴（像太阳一样），其子结构或者精细结构可以用于研究恒星的等离子体和磁场特征。这里使用FAST对已知耀斑恒星`AD Leo`进行高时间分辨率的观测。在第一天的观测发现了频率漂移率一致的条纹状爆发，类似于`Jovian S-bursts`。第二天的观测发现了随机的圆球状爆发，类似于`solar radio spikes`。这样的观测表明，`AD Leo`的发射是由电子回旋加速的不稳定性驱动的，可能与恒星耀斑或者行星相互作用有关。
 
-   <img src="Figures/image-20230602155645696.png" alt="image-20230602155645696" style="zoom:50%;" />
+   <img src="./Figures/image-20230602155645696.png" alt="image-20230602155645696" width="680px" />
 
-   <img src="Figures/image-20230602155723694.png" alt="image-20230602155723694" style="zoom:50%;" />
+   <img src="./Figures/image-20230602155723694.png" alt="image-20230602155723694" width="680px" />
 
 5. [Morphological Classification of Radio Galaxies using Semi-Supervised Group Equivariant CNNs](https://arxiv.org/abs/2306.00031)
 
@@ -59,7 +59,7 @@
 
    使用`Group Equivariant Convolutional Neural Network, G-CNN`作为`A Simple Framework for Contrastive Learning of Visual Representations, SimCLR`和`Bootstrap Your Own Latent, BYOL`的编码器，使用射电星系数据进行表征学习`representation learning`，也即一种自监督学习。之后使用少量标记的星系，结合全连接分类器进行微调。结果表明，这种半监督分类器的性能超过了全监督的`G-CNN`的性能。
 
-   <img src="Figures/image-20230602160429545.png" alt="image-20230602160429545" style="zoom:50%;" />
+   <img src="./Figures/image-20230602160429545.png" alt="image-20230602160429545" width="680px" />
 
 ## 2023-06-05
 
@@ -69,7 +69,7 @@
 
    在FAST观测中探测到三个`low-power`活动星系核的HI吸收。
 
-   <img src="Figures/image-20230605144309244.png" alt="image-20230605144309244" style="zoom:50%;" />
+   <img src="./Figures/image-20230605144309244.png" alt="image-20230605144309244" width="680px" />
 
 2. [Distance of PSR B0458+46 indicated by FAST HI absorption observations](https://arxiv.org/abs/2306.01246)
 
@@ -77,7 +77,7 @@
 
    对`PSR B0458+46`进行HI观测，定标后，按脉冲星周期折叠，对pulse-on和pulse-off部分分别时间平均并相减，得到HI吸收谱。根据HI速度，估计吸收云的距离在$2.7^{+0.9}_{-0.8}\,\rm  kpc$，位于英仙臂之外。吸收意味着脉冲星在吸收云后，所以`PSR B0458+46`也在英仙臂之外，因此与`SNR HB9`无关。
 
-   <img src="Figures/image-20230605145720512.png" alt="image-20230605145720512" style="zoom:50%;" />
+   <img src="./Figures/image-20230605145720512.png" alt="image-20230605145720512" width="680px" />
 
 3. [Lensing reconstruction from the cosmic microwave background polarization with machine learning](https://arxiv.org/abs/2306.01516)
 
@@ -91,7 +91,7 @@
 
    用`MASK RCNN`对射电星系进行分割并分类，代码将会发布在[HeTu-V2](https://github.com/lao19881213/RGC-Mask-Transfiner)。
 
-   <img src="Figures/image-20230605151319588.png" alt="image-20230605151319588" style="zoom:50%;" />
+   <img src="./Figures/image-20230605151319588.png" alt="image-20230605151319588" width="680px" />
 
 ## 2023-06-06
 
@@ -117,7 +117,7 @@
 
    检验ASKAP上FRB搜索流程`FREDDA`的完备性，在DM小于3000时，FREDDA可以找到85%的信号。
 
-   <img src="Figures/image-20230607140313868.png" alt="image-20230607140313868" style="zoom:50%;" />
+   <img src="./Figures/image-20230607140313868.png" alt="image-20230607140313868" width="680px" />
 
 ## 2023-06-08
 
@@ -141,7 +141,7 @@
 
    `FLIMFLAM`巡天在FRB 190520附近$3\,\rm deg^2$的区域内观测到701个星系，其中有两个$M_{\rm halo}>10^{14}M_\odot$星系团在特征半径$r_{200}$内跟FRB相交，减去这两个星系团晕贡献的DM，FRB宿主星系贡献的DM为$DM_{\rm host}=339.1^{+122.3}_{-173.5}\,\rm pc/cm^3$，这一数值与$H_\alpha$辐射测量估计一致。
 
-   <img src="Figures/image-20230609145721086.png" alt="image-20230609145721086" style="zoom:50%;" />
+   <img src="./Figures/image-20230609145721086.png" alt="image-20230609145721086" width="680px" />
 
 2. [Dear Magellanic Clouds, welcome back!](https://arxiv.org/abs/2306.04837)
 
@@ -149,7 +149,7 @@
 
    N体模拟LMC第二次绕穿银河系，可能会再给银河系带来4-6个卫星星系。模拟代码在[这里](https://zenodo.org/record/8015660)。
 
-   <video src="Figures/movie.mp4"></video>
+   <video controls="controls" src="./Figures/movie.mp4"></video>
 
 3. [Model Independent Periodogram for Scanning Astrometry](https://arxiv.org/abs/2306.05063)
 
@@ -167,8 +167,10 @@
    $$
    计算归一化（中心化）矩阵
    $$
-   A_{ij}=a_{ij}-\bar{a_{i\cdot}}-\bar{a_{\cdot j}}+\bar{a_{\cdot\cdot}}\\
-   B_{ij}=b_{ij}-\bar{b_{i\cdot}}-\bar{b_{\cdot j}}+\bar{b_{\cdot\cdot}}\\
+   \begin{aligned}
+   &A_{ij}=a_{ij}-\bar{a_{i\cdot}}-\bar{a_{\cdot j}}+\bar{a_{\cdot\cdot}}\\
+   &B_{ij}=b_{ij}-\bar{b_{i\cdot}}-\bar{b_{\cdot j}}+\bar{b_{\cdot\cdot}}\\
+   \end{aligned}
    $$
    最后计算这一测试周期$P$下的PDC
    $$
@@ -189,7 +191,7 @@
 
    对比学习在星系分类中的应用。
 
-   <img src="Figures/image-20230612100938479.png" alt="image-20230612100938479" style="zoom:50%;" />
+   <img src="./Figures/image-20230612100938479.png" alt="image-20230612100938479" width="680px" />
 
 3. [Posterior predictive checking for gravitational-wave detection with pulsar timing arrays: I. The optimal statistic](https://arxiv.org/abs/2306.05558)
 
@@ -197,7 +199,7 @@
 
    在脉冲星计时阵中探测背景引力波的贝叶斯信噪比`OS SNR`定义。并且在NANOGrav - 12.5年数据中进行检验，发现相比于平均信噪比`SNR`，这里定义的信噪比并不支持NANOGrav信号足够显著。
 
-   <img src="Figures/image-20230612155124050.png" alt="image-20230612155124050" style="zoom:50%;" />
+   <img src="./Figures/image-20230612155124050.png" alt="image-20230612155124050" width="680px" />
 
 4. [Comment on the feasibility of carbon burning in Betelgeuse: a response to "The evolutionary stage of Betelgeuse inferred from its pulsation periods," [arXiv:2306.00287](https://arxiv.org/abs/2306.00287)](https://arxiv.org/abs/2306.05600)
 
@@ -205,7 +207,7 @@
 
    [Saio et al. 2023](https://arxiv.org/abs/2306.00287)中认为参宿四在2020年的`Great Dimming`是脉动引起的光变，并认为参宿四已经开始进行碳燃烧。但是参宿四的角直径测量与此模型要求的恒星半径有冲突。这里展示了对参宿四长期的光度测量，并讨论了大光变是由于`onstructive mode interference`造成的。
 
-   <img src="Figures/image-20230612160902946.png" alt="image-20230612160902946" style="zoom:50%;" />
+   <img src="./Figures/image-20230612160902946.png" alt="image-20230612160902946" width="680px" />
 
 5. [Improving the open cluster census. II. An all-sky cluster catalogue with Gaia DR3](https://arxiv.org/abs/2303.13424)
 
@@ -261,7 +263,7 @@
 
    介绍了PSF的不同物理因素，包括光学的、探测器的和大气的成分，提出了一个可以复用的PSF观测模型，并讨论了用于地面和空间望远镜的参数化和非参数化的PSF模型的优缺点。讨论了PSF的验证方法，并讨论了与弱引力透镜有关的几个指标。最后讨论了天文望远镜PSF建模的挑战和未来方向。
 
-   <img src="Figures/image-20230616212432440.png" alt="image-20230616212432440" style="zoom:50%;" />
+   <img src="./Figures/image-20230616212432440.png" alt="image-20230616212432440" width="680px" />
 
 2. [Imagery Tracking of Sun Activity Using 2D Circular Kernel Time Series Transformation, Entropy Measures and Machine Learning Approaches](https://arxiv.org/abs/2306.08270)
 
@@ -269,7 +271,7 @@
 
    将太阳2D表面辐射按照下图所示方式转换为1D序列，每个点是半径为7像素的圆。
 
-   <img src="Figures/image-20230616230627775.png" alt="image-20230616230627775" style="zoom:50%;" />
+   <img src="./Figures/image-20230616230627775.png" alt="image-20230616230627775" width="680px" />
 
    用两种办法分类此时的太阳是否爆发
 
@@ -290,7 +292,7 @@
 
    `Stars with Photometrically Young Gaia Luminosities Around the Solar System, SPYGLASS`项目旨在对太阳系附近的年轻恒星进行无偏搜索。
 
-   <img src="Figures/image-20230616234201234.png" alt="image-20230616234201234" style="zoom:50%;" />
+   <img src="./Figures/image-20230616234201234.png" alt="image-20230616234201234" width="680px" />
 
    这里使用HDBSCAN搜索太阳附近的`Young Associations`。结果暗示`Orion Complex`、`Perseus OB2`和`subregions of Vela`之间有直接的结构联系。
 
@@ -300,7 +302,7 @@
 
    探测到`J191213.72-441045.1`是一个白矮星/M矮星双星系统，轨道周期4.03小时，其中白矮星表现出5.30分钟的脉冲发射。在此之前，只有天蝎座中`AR Sco`这一白矮星双星系统中的白矮星表现出1.97分钟的脉冲发射。
 
-   <img src="Figures/image-20230616234725957.png" alt="image-20230616234725957" style="zoom:50%;" />
+   <img src="./Figures/image-20230616234725957.png" alt="image-20230616234725957" width="680px" />
 
 ## 2023-06-19
 
@@ -330,7 +332,7 @@
 
    发现一个极端消零的射电脉冲星`PSR J1710-3452`，自转周期10.4s，只零星探测到明亮单脉冲。奇怪的是，脉冲星都有这种准周期性的结构吗？
 
-   <img src="Figures/image-20230621143625347.png" alt="image-20230621143625347" style="zoom:50%;" />
+   <img src="./Figures/image-20230621143625347.png" alt="image-20230621143625347" width="680px" />
 
 ## 2023-06-22
 
@@ -340,7 +342,7 @@
 
    用GPPS的数据在`PSR B2111+46`的`nulling`期间探测到脉冲。
 
-   <img src="Figures/image-20230622183245332.png" alt="image-20230622183245332" style="zoom:50%;" />
+   <img src="./Figures/image-20230622183245332.png" alt="image-20230622183245332" width="680px" />
 
 ## 2023-06-23
 
@@ -354,7 +356,7 @@
 
    这里在HST的紫外成像中，找到了三个独立的引力透镜像，来自爆炸后5.8小时的在红移3位置的超新星。测量到其爆炸前半径为$533^{+154}_{-119}M_\odot$，与红超巨星一致。
 
-   <img src="Figures/image-20230623142215571.png" alt="image-20230623142215571" style="zoom:50%;" />
+   <img src="./Figures/image-20230623142215571.png" alt="image-20230623142215571" width="680px" />
 
 2. [Modelling Slope Microclimates in the Mars Planetary Climate Model](https://arxiv.org/abs/2306.12449)
 
@@ -376,7 +378,7 @@
 
    用`orthogonal fast Lyapunov indicator`绘制`Draconids`和`Leonids`流星雨的`chaos maps`。
 
-   <img src="Figures/image-20230626182000108.png" alt="image-20230626182000108" style="zoom:50%;" />
+   <img src="./Figures/image-20230626182000108.png" alt="image-20230626182000108" width="680px" />
 
 ## 2023-06-27
 
@@ -386,7 +388,7 @@
 
    构建神经网络模型，对数据和仪器响应进行空间和时间建模。用于MeerKAT快速去卷积成像，搜索暂现源。
 
-   <img src="Figures/image-20230627204644013.png" alt="image-20230627204644013" style="zoom:50%;" />
+   <img src="./Figures/image-20230627204644013.png" alt="image-20230627204644013" width="680px" />
 
 ## 2023-06-28
 
@@ -402,7 +404,7 @@
 
    用小波变换分析AGN的X射线辐射中的准周期性。
 
-   <img src="Figures/image-20230628152137886.png" alt="image-20230628152137886" style="zoom:50%;" />
+   <img src="./Figures/image-20230628152137886.png" alt="image-20230628152137886" width="680px" />
 
 3. [Machine learning in solar physics](https://arxiv.org/abs/2306.15308)
 
@@ -426,7 +428,7 @@
 
    用CNN拟合`ASKAP成图图像`和`图像流量分10个区间，每个区间的源的数量`。
 
-   <img src="Figures/image-20230629183149764.png" alt="image-20230629183149764" style="zoom:50%;" />
+   <img src="./Figures/image-20230629183149764.png" alt="image-20230629183149764" width="680px" />
 
 3. [A new method for short duration transient detection in radio images: Searching for transient sources in MeerKAT data of NGC 5068](https://arxiv.org/abs/2306.16383)
 
@@ -440,7 +442,7 @@
 
    CPTA在14nHz附近探测到信噪比为$4.6\sigma$的信号，作为背景引力波的证据。今天同样还有别的PTA文章发布，结论类似，包括[European PTA](https://arxiv.org/abs/2306.16224)、[NANOGrav](https://arxiv.org/abs/2306.16213)和[Parkes PTA](https://arxiv.org/abs/2306.16215)。
 
-   <img src="Figures/image-20230629184401165.png" alt="image-20230629184401165" style="zoom:50%;" />
+   <img src="./Figures/image-20230629184401165.png" alt="image-20230629184401165" width="680px" />
 
 ## 2023-06-30
 

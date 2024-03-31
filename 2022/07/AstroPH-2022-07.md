@@ -28,7 +28,7 @@
 
    [Nearest-Latent-Neighbours](https://github.com/mesarcik/nln)是基于`Auto-Encoder`的无监督学习器。这里用`NLN`做RFI识别，数据用的是传统方法标记并排除过RFI的干净数据，代码在[这里](https://github.com/mesarcik/RFI-NLN)。
 
-   <img src="Figures/image-20220704131137964.png" alt="image-20220704131137964" style="zoom:50%;" />
+   <img src="./Figures/image-20220704131137964.png" alt="image-20220704131137964" width="680px" />
 
 ## 2022-07-05
 
@@ -38,7 +38,7 @@
 
    用YOLOv5找LIGO中的双中子星并和事件。
 
-   <img src="Figures/image-20220705221808044.png" alt="image-20220705221808044" style="zoom:50%;" />
+   <img src="./Figures/image-20220705221808044.png" alt="image-20220705221808044" width="680px" />
 
 ## 2022-07-06
 
@@ -68,7 +68,7 @@
 
    用`Transformer Encoder`去除光变曲线中的噪声，在`Transiting Exoplanet Space Satellite, TESS`数据上做测试。比如下图，黑点是输入，红线是输出，绿线是中值滤波。
 
-   <img src="Figures/image-20220707185827231.png" alt="image-20220707185827231" style="zoom:50%;" />
+   <img src="./Figures/image-20220707185827231.png" alt="image-20220707185827231" width="680px" />
 
 ## 2022-07-08
 
@@ -80,7 +80,7 @@
 
    在2021年本次新星爆发中，LAT光变曲线快速上升到峰值$>0.1\rm GeV$，峰值持续1天，随后幂律下降，45天后消失。在爆发开始后2.2天，高能光子发射量翻了一倍，可能是一个局部的冲击加速事件。$\gamma$射线和光学光度之间的比率恒定为$2.8\times10^{-3}$，但在爆发第一天，比率小了5倍，可能是冲击发展的最初阶段，$\gamma$射线被喷射物吸收。
 
-   <img src="Figures/image-20220708230308179.png" alt="image-20220708230308179" style="zoom:50%;" />
+   <img src="./Figures/image-20220708230308179.png" alt="image-20220708230308179" width="680px" />
 
    `Swift-XRT`在$2-10\rm keV$的光变曲线可以追踪冲击加热气体的轫致辐射导致的硬X射线发射，在第6天达到峰值，比GeV和光学能量晚。
 
@@ -122,7 +122,7 @@
 
    用PCA分析脉冲星参数，包括自转周期$P$，周期导数$\dot P$，表面磁通密度$B_s$，光柱处磁场$B_{lc}$，能量耗散率$\dot E_{sd}$，特征年龄$\tau_c$，表面电压$\Delta\Phi$，Goldreich-Julian电荷密度$\eta_{GJ}$，尽管其他参数都可以由周期以及周期导数近似表示， 但是在PCA中，周期和周期导数不是主成分，意味着至少有第三个量参与特征空间的构建。这用`Minimum Spanning Tree`来给脉冲星画树，类似基因图谱。
 
-   <img src="Figures/image-20220714095150072.png" alt="image-20220714095150072" style="zoom:50%;" />
+   <img src="./Figures/image-20220714095150072.png" alt="image-20220714095150072" width="680px" />
 
 ## 2022-07-15
 
@@ -138,7 +138,7 @@
 
    `SMACS J0723.3-7323`是红移0.388的大质量星团，这里对JWST在这里观测的引力透镜做模型，如下图。
 
-   <img src="Figures/image-20220715140620142.png" alt="image-20220715140620142" style="zoom:50%;" />
+   <img src="./Figures/image-20220715140620142.png" alt="image-20220715140620142" width="680px" />
 
 3. [Unscrambling the lensed galaxies in JWST images behind SMACS0723](https://arxiv.org/abs/2207.07102)
 
@@ -146,7 +146,7 @@
 
    从`SMACS J0723.3-7323`的引力透镜中分辨了13个`multiply lensed`星系，并且还找到了一个``爱因斯坦十字``的候选体。
 
-   <img src="Figures/image-20220715143604815.png" alt="image-20220715143604815" style="zoom:50%;" />
+   <img src="./Figures/image-20220715143604815.png" alt="image-20220715143604815" width="680px" />
 
 ## 2022-07-18
 
@@ -156,7 +156,7 @@
 
    用概率自动编码器，从Ia型超新星的光谱时间序列中学习物理参数。
 
-   <img src="Figures/image-20220718155327493.png" alt="image-20220718155327493" style="zoom:50%;" />
+   <img src="./Figures/image-20220718155327493.png" alt="image-20220718155327493" width="680px" />
 
 2. [Beyond UVJ: Color Selection of Galaxies in the JWST Era](https://arxiv.org/abs/2207.07170)
 
@@ -176,7 +176,7 @@
 
    其中$1<z<3$的五个天体有多条红外帕申线（$n\ge4\rightarrow3$），$5<z<9$的五个天体有光学氧和氢巴尔默线（$n\ge3\rightarrow2$）。
 
-   <img src="Figures/image-20220719130109108.png" alt="image-20220719130109108" style="zoom:50%;" />
+   <img src="./Figures/image-20220719130109108.png" alt="image-20220719130109108" width="680px" />
 
    与HST的光度测量结合，分析SED，分析恒星质量、平均恒星年龄、以及恒星形成历史等。
 
@@ -214,7 +214,7 @@
 
    普通卷积神经网络对超新星光变曲线做分类。
 
-   <img src="Figures/image-20220720105221741.png" alt="image-20220720105221741" style="zoom:50%;" />
+   <img src="./Figures/image-20220720105221741.png" alt="image-20220720105221741" width="680px" />
 
 ## 2022-07-21
 
@@ -280,7 +280,7 @@
 
    彗星形成综述，描述彗星从太阳星云中的尘埃和冰粒到外太阳系小天体的物理演变。
 
-   <img src="Figures/image-20220727163402950.png" alt="image-20220727163402950" style="zoom:50%;" />
+   <img src="./Figures/image-20220727163402950.png" alt="image-20220727163402950" width="680px" />
 
 2. [How to plan your astronomy research paper in ten steps](https://arxiv.org/abs/2207.12959)
 
@@ -296,7 +296,7 @@
 
    Effelsberg在$4-8GHz$对`FRB20180916B`的观测，在一个活动窗口找到了8个爆发，比CHIME的活动峰值早了3.6天，进一步证明随频率增加活动窗口提前。与低频比，爆发宽度更窄并且频谱更宽，偏振度高并且偏振角平坦。爆发表现出银河导致的衍射闪烁，并随时间推移而变化。
 
-   <img src="Figures/image-20220728105938287.png" alt="image-20220728105938287" style="zoom:50%;" />
+   <img src="./Figures/image-20220728105938287.png" alt="image-20220728105938287" width="680px" />
 
 2. [The Sources of Fast Radio Bursts](https://arxiv.org/abs/2207.13241)
 

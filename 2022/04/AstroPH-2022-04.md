@@ -6,7 +6,7 @@
 
    在天文期刊中增加`黑夜模式`。
 
-   <img src="Figures/image-20220401141425983.png" alt="image-20220401141425983" style="zoom:50%;" />
+   <img src="./Figures/image-20220401141425983.png" alt="image-20220401141425983" width="680px" />
 
 2. [Worry No More, The Hubble Tension is Relieved: A Truly Direct Measurement of the Hubble Constant from Mooniversal Expansion](https://arxiv.org/abs/2203.16551)
 
@@ -14,7 +14,7 @@
 
    使用月球的退行速度计算本地宇宙的哈勃常数$H_0=v/d=63.01\pm1.79\,\rm km/s/Mpc$，其中$d$是地月距离，与普朗克测量结果一致，说明Hubble Tension确实是距离阶梯系统不稳定的结果。
 
-   <img src="Figures/image-20220401142151324.png" alt="image-20220401142151324" style="zoom:50%;" />
+   <img src="./Figures/image-20220401142151324.png" alt="image-20220401142151324" width="680px" />
 
 3. [Could fresh lava be (warm) dark matter?](https://arxiv.org/abs/2203.16563)
 
@@ -22,7 +22,7 @@
 
    暗物质可以根据其对星系的影响进行分类，包括冷暗物质`CDM`、温暗物质`WDM`、自作用暗物质`SIDM`和模糊暗物质`FDM`。为了庆祝冰岛`Fagradalsfjall`火山爆发一周年，探讨岩浆作为`WDM`的候选者。首先，根据亲身经历，岩浆确实是温的，而且与产生源脱离后就会变黑。
 
-   <img src="Figures/image-20220401142650665.png" alt="image-20220401142650665" style="zoom:50%;" />
+   <img src="./Figures/image-20220401142650665.png" alt="image-20220401142650665" width="680px" />
 
 4. [Taurine in Taurus. An Over-Caffeinated Search for Coffee in Space](https://arxiv.org/abs/2203.16598)
 
@@ -30,7 +30,7 @@
 
    当你熬夜过度，身体空虚，会导致*意想不到*的发现…在短短$1/4$天里，开发了`Large Astrocomical Taurine Tester Experiment`拿铁实验，看向`HL Tau`，发现大量的`taurine`气体勾勒出一杯咖啡，`HL Tau`的环境结构是宇宙咖啡师表演的拿铁艺术。
 
-   <img src="Figures/image-20220401142832693.png" alt="image-20220401142832693" style="zoom:50%;" />
+   <img src="./Figures/image-20220401142832693.png" alt="image-20220401142832693" width="680px" />
 
 5. [COWS all tHE way Down (COWSHED) I: Could cow based planetoids support methane atmospheres?](https://arxiv.org/abs/2203.16609)
 
@@ -62,7 +62,7 @@
 
    使用ALMA对`Taffy`星系的CO进行$0.2$角秒$60\,\rm pc$观测，与窄带$\rm Pa\alpha$、中红外、射电连续谱和X射线以及光学光谱进行比较。这个星系最近经理了一次碰撞，产生了高度湍流的气体桥，由狭窄的纤维和团块组成。这些纤维中大都没有恒星形成，并且明显低于正常星系的KS关系。这些云是一个高度湍流的多相介质中的暂现结构，抑制恒星形成。
 
-   <img src="Figures/image-20220401151950317.png" alt="image-20220401151950317" style="zoom:33%;" />
+   <img src="./Figures/image-20220401151950317.png" alt="image-20220401151950317" width="680px" />
 
 10. [Insight-HXMT dedicated 33-day observation of SGR J1935+2154 I Burst Catalog](https://arxiv.org/abs/2203.16855)
 
@@ -78,7 +78,7 @@
 
    使用`cVAE`对千新星的光谱进行训练，进行参数推断。
 
-   <img src="Figures/image-20220404185558989.png" alt="image-20220404185558989" style="zoom:50%;" />
+   <img src="./Figures/image-20220404185558989.png" alt="image-20220404185558989" width="680px" />
 
 ## 2022-04-05
 
@@ -106,7 +106,7 @@
 
    视线垂直于磁场时，HI和同步辐射偏振强度之间有很强的相关性，与LOFAR观测很像。
 
-   <img src="Figures/image-20220408003721618.png" alt="image-20220408003721618" style="zoom:50%;" />
+   <img src="./Figures/image-20220408003721618.png" alt="image-20220408003721618" width="680px" />
 
 ## 2022-04-08
 
@@ -124,7 +124,7 @@
 
    使用多波段`COSMOS-XS`巡天的$3\,\rm GHz$的数据，推断`恒星形成星系, SFG`的射电`光度函数`。发现红移到$z\sim4.6$的1300个`SFG`的光度有强烈的红移演化趋势。拟合恒星形成率密度`SFRD`，发现其上升直到$z\sim1.8$，随后更快下降。
 
-   <img src="Figures/image-20220411184433579.png" alt="image-20220411184433579" style="zoom:50%;" />
+   <img src="./Figures/image-20220411184433579.png" alt="image-20220411184433579" width="680px" />
 
 ## 2022-04-12
 
@@ -180,7 +180,7 @@
 
    > Fast Radio Burst, Polarization, Theory
 
-   王发印他们的文章，觉得`FRB 20201124A`和`FRB 20190520B`的RM变化是双星系统导致的。
+   觉得`FRB 20201124A`和`FRB 20190520B`的RM变化是双星系统导致的。
 
 ## 2022-04-20
 
@@ -204,7 +204,7 @@
 
    2012年6月13日太阳耀斑在$800-2000\,\rm MHz$上的窄带$\sim5\,\rm MHz$和瞬时$\sim0.01s$的爆发。
 
-   <img src="Figures/image-20220421234351226.png" alt="image-20220421234351226" style="zoom:50%;" />’
+   <img src="./Figures/image-20220421234351226.png" alt="image-20220421234351226" width="680px" />’
 
 3. [Biocosmology: Towards the birth of a new science](https://arxiv.org/abs/2204.09378)
 
@@ -268,5 +268,5 @@
 
    使用PCA估计到达时间序列中的周期，代码[在这](https://github.com/tcassanelli/pywpf)。使用不同的可能周期对原始序列重排，变成二维的图像（如下图），计算二维数组PCA，根据评估函数找最可能的周期。
 
-   <img src="Figures/image-20220429163615607.png" alt="image-20220429163615607" style="zoom:50%;" />
+   <img src="./Figures/image-20220429163615607.png" alt="image-20220429163615607" width="680px" />
 

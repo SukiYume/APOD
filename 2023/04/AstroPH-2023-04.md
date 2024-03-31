@@ -6,7 +6,7 @@
 
    目前探测到多少来自致密天体并和导致的引力波事件，不同文献数字不同，ChatGPT都回答不了这个问题。这里给了一个[数据库](http://www.broekgaarden.nl/floor/wordpress/elementor-967/)，统计了目前的探测数量，和文献中预言的未来新的探测器将会探测到的数量。
 
-   <img src="Figures/image-20230403152618535.png" alt="image-20230403152618535" style="zoom:50%;" />
+   <img src="./Figures/image-20230403152618535.png" alt="image-20230403152618535" width="680px" />
 
 2. [Party Planning the Next True Happy New Year: Lunar Orbital Evolution Epochs with Integer Synodic Months Per Year](https://arxiv.org/abs/2303.17697)
 
@@ -14,7 +14,7 @@
 
    `cyclostratigraphic`、`paleontological`、`tidal rhythmite`的数据证明，在过去数十亿年的时间里，太阳、地球和月球之间的角动量相互作用改变了地球和月球的轨道，因此也改变了一个月的长度。这里估计了下一次地球轨道年是整数个月的时间，大约在2.52亿年后。
 
-   <img src="Figures/image-20230403153821411.png" alt="image-20230403153821411" style="zoom:50%;" />
+   <img src="./Figures/image-20230403153821411.png" alt="image-20230403153821411" width="680px" />
 
 3. [Interstellar Objects and Exocomets](https://arxiv.org/abs/2303.17980)
 
@@ -32,7 +32,7 @@
 
    `YZ Ceti`是一个缓慢旋转的M矮星，最近的类地行星轨道周期是2天。通过2-4GHz的观测，发现在相似的轨道阶段，有两个相干爆发。尽管还不能排除是恒星磁场活动的可能，但仍然使`YZ Ceti`成为一个值得长期检测的目标。
 
-   <img src="Figures/image-20230404160808142.png" alt="image-20230404160808142" style="zoom:50%;" />
+   <img src="./Figures/image-20230404160808142.png" alt="image-20230404160808142" width="680px" />
 
 2. [An Astronomers Guide to Machine Learning](https://arxiv.org/abs/2304.00512)
 
@@ -48,7 +48,7 @@
 
    Parkes对FRB180301的观测，覆盖0.7-4GHz的波段，在1.8-4GHz没有探测到爆发，在1.1GHz爆发数量达到峰值。发现DM随时间的变化$-2.7\pm0.2\, \rm pc\,cm^{-3}\,yr^{-1}$。RM发生了明显的变化，且有符号反转。大部分爆发都没有表现出偏振，有偏振的爆发的线偏振随频率降低，且没有偏振位置角的变化，与早期测量结果不同。这些测量结果，以及其它重复暴中观测到的极端偏振特性，表明FRB的progenitors处于动态磁等离子体环境中。
 
-   <img src="Figures/image-20230405162656127.png" alt="image-20230405162656127" style="zoom:50%;" />
+   <img src="./Figures/image-20230405162656127.png" alt="image-20230405162656127" width="680px" />
 
 2. [Astronomical image time series classification using CONVolutional attENTION (ConvEntion)](https://arxiv.org/abs/2304.01236)
 
@@ -56,7 +56,7 @@
 
    不从光变曲线中分类，直接从原始光学图像分类变源。将不同波段的单个源的光学图像重排序，使用3DCNN降采样，生成适合Attention模型的序列，加上位置编码，也即图像时间序列，用于分类。
 
-   <img src="Figures/image-20230405163407905.png" alt="image-20230405163407905" style="zoom:50%;" />
+   <img src="./Figures/image-20230405163407905.png" alt="image-20230405163407905" width="680px" />
 
 ## 2023-04-06
 
@@ -66,7 +66,7 @@
 
    对CHIME用基带数据定位的那批FRB找宿主星系，大概找到了3个比较可靠。
 
-   <img src="Figures/image-20230406163903158.png" alt="image-20230406163903158" style="zoom:50%;" />
+   <img src="./Figures/image-20230406163903158.png" alt="image-20230406163903158" width="680px" />
 
 2. [Measurements of the Crab Pulsar's Giant Radio Pulse Amplitude Power-Law Index Using Low-Frequency Arecibo and Green Bank Telescope Observations](https://arxiv.org/abs/2304.02589)
 
@@ -74,7 +74,7 @@
 
    用AO和GBT探测Crab低频巨脉冲，拟合幂律指数分别是$-2.63\pm0.05$和$-3.6\pm0.5$，于之前低频观测结果大致一致。
 
-   <img src="Figures/image-20230406164151017.png" alt="image-20230406164151017" style="zoom:50%;" />
+   <img src="./Figures/image-20230406164151017.png" alt="image-20230406164151017" width="680px" />
 
 3. [On the correct computation of all Lyapunov exponents in Hamiltonian dynamical systems](https://arxiv.org/abs/2304.02503)
 
@@ -82,7 +82,7 @@
 
    Lyapunov指数是衡量混沌性的有用指标，于1980年发布。然而在哈密顿系统中，`the expected result of pairs of opposite exponents is not always obtained with enough precision.`。这里指出，`deviation vectors`的初始顺序很重要，以及如何排序以获得一个正确结果。
 
-   <img src="Figures/image-20230406164654165.png" alt="image-20230406164654165" style="zoom:50%;" />
+   <img src="./Figures/image-20230406164654165.png" alt="image-20230406164654165" width="680px" />
 
 ## 2023-04-07
 
@@ -102,7 +102,7 @@
 
    这里使用南极层自动气象站的数据，使用LSTM神经网络来预测视宁度，未来20分钟的预测的误差为0.12角秒，且可以在一秒钟内完成视宁度的计算。
 
-   <img src="Figures/image-20230410204558460.png" alt="image-20230410204558460" style="zoom:50%;" />
+   <img src="./Figures/image-20230410204558460.png" alt="image-20230410204558460" width="680px" />
 
 ## 2023-04-11
 
@@ -114,7 +114,7 @@
 
    这里使用`The Ground-based Wide-angle Camera array, GWAC`探测到了GRB201223A的光学发射，与$\gamma$射线发射吻合，后期的亮度颠簸与余辉开始一致。
 
-   <img src="Figures/image-20230411170552737.png" alt="image-20230411170552737" style="zoom:50%;" />
+   <img src="./Figures/image-20230411170552737.png" alt="image-20230411170552737" width="680px" />
 
 ## 2023-04-12
 
@@ -132,7 +132,7 @@
 
    使用CNN对射电星系形态进行分类。做了adaptation，第一个是数据预处理时使用PCA，旋转星系图像将星系的主成分与坐标轴对齐。另一个是引导CNN在样本中寻找特定的特征。这样的调整可以使训练更稳定且减少训练轮数。
 
-   <img src="Figures/image-20230412194559792.png" alt="image-20230412194559792" style="zoom:50%;" />
+   <img src="./Figures/image-20230412194559792.png" alt="image-20230412194559792" width="680px" />
 
 ## 2023-04-13
 
@@ -154,7 +154,7 @@
 
    使用[langchain](https://github.com/hwchase17/langchain)框架进行之后的操作。在`langchain`中，压缩后的文本使用`text-embedding-ada-002`进行`embedding`，也即特征提取成向量。使用GPT4将`expert query`和`chat history`处理成单独的问题并`embedding`，之后使用[FAISS](https://github.com/facebookresearch/faiss)将输入的问题和`embedded`的问题进行相似性搜索，最后由GPT4输出答案。
 
-   <img src="Figures/image-20230413210836632.png" alt="image-20230413210836632" style="zoom:50%;" />
+   <img src="./Figures/image-20230413210836632.png" alt="image-20230413210836632" width="680px" />
 
    使用`langchain`的具体[示例](https://github.com/liaokongVFX/LangChain-Chinese-Getting-Started-Guide)。
 
@@ -166,7 +166,7 @@
 
    用目标检测跟踪卫星。
 
-   <img src="Figures/image-20230414171435263.png" alt="image-20230414171435263" style="zoom:50%;" />
+   <img src="./Figures/image-20230414171435263.png" alt="image-20230414171435263" width="680px" />
 
 ## 2023-04-17
 
@@ -176,7 +176,7 @@
 
    用英文标注星系，用[SpaCy](https://spacy.io/models/en#en_core_web_lg)提取相似标签，用随机森林训练星系图像匹配标签。
 
-   <img src="Figures/image-20230417211227280.png" alt="image-20230417211227280" style="zoom:50%;" />
+   <img src="./Figures/image-20230417211227280.png" alt="image-20230417211227280" width="680px" />
 
 2. [Lossy Compression of Large-Scale Radio Interferometric Data](https://arxiv.org/abs/2304.07050)
 
@@ -209,7 +209,7 @@
 
    过去几年研究发现恒星丰度和年龄之间有一定的关系。使用APOGEE和Kapler观测的具有星震年龄的红巨星训练XGBoost，并使用模型估计了APOGEE观测到的约18w颗红巨星的光谱年龄。证实了2-5Gyr年龄段的金属丰度梯度比较陡峭，更大年龄段的金属丰度梯度主要由径向迁移产生。
 
-   <img src="Figures/image-20230418153940705.png" alt="image-20230418153940705" style="zoom:50%;" />
+   <img src="./Figures/image-20230418153940705.png" alt="image-20230418153940705" width="680px" />
 
 ## 2023-04-19
 
@@ -227,7 +227,7 @@
 
    训练了两个分层随机森林模型，分别对应于ZTF的两个波段，将天体分为17类 - 非光变恒星和星系、三个瞬变类、五个随机光变类和七个周期光变类。
 
-   <img src="Figures/image-20230419170918279.png" alt="image-20230419170918279" style="zoom:50%;" />
+   <img src="./Figures/image-20230419170918279.png" alt="image-20230419170918279" width="680px" />
 
 ## 2023-04-20
 
@@ -237,7 +237,7 @@
 
    使用`ASKAP WALLABY`、`FAST HI`和`ALFALFA`的数据，研究`NGC 4636`中`ram-pressure`和潮汐相互作用的影响，引入了`光学盘边缘的外力强度`和`HI盘剥离程度`来量化和分解这两种效应对HI气体剥离的影响。
 
-   <img src="Figures/image-20230420180104786.png" alt="image-20230420180104786" style="zoom:50%;" />
+   <img src="./Figures/image-20230420180104786.png" alt="image-20230420180104786" width="680px" />
 
 2. [The SunPy Project: An Interoperable Ecosystem for Solar Data Analysis](https://arxiv.org/abs/2304.097940)
 
@@ -253,7 +253,7 @@
 
    在GBT旁边有8个6米的小镜子，距离CHIME有3333公里，配合CHIME做VLBI，定位FRB。目前测试对Crab定位有0.1-0.2角秒的系统误差，主要来自于钟差，与光学仪器提供的分辨率0.05角秒相当。
 
-   <img src="Figures/image-20230421153149389.png" alt="image-20230421153149389" style="zoom:50%;" />
+   <img src="./Figures/image-20230421153149389.png" alt="image-20230421153149389" width="680px" />
 
 2. [Constraining the Molecular Gas Content of Fast Radio Burst (FRB) Host Galaxies](https://arxiv.org/abs/2304.10377)
 
@@ -261,7 +261,7 @@
 
    用ALMA看CRAFT探测到的5个FRB的宿主星系的`CO 3-2`发射，星系的红移$z\sim0.16-0.48$，从其中三个星系探测到信号。使用随金属丰度变化的`CO-H2`转换系数，估计星系的气体质量。这5个FRB的宿主星系的`气体质量-恒星质量`关系与目前宇宙中的恒星形成星系一致，气体比例为$\mu_{gas}=0.1$，气体耗尽时间为$t_{dep}\ge1Gyr$。
 
-   <img src="Figures/image-20230421153754751.png" alt="image-20230421153754751" style="zoom:50%;" />
+   <img src="./Figures/image-20230421153754751.png" alt="image-20230421153754751" width="680px" />
 
 3. [VarIabiLity seLection of AstrophysIcal sources iN PTF (VILLAIN) II. Supervised classification of variable sources](https://arxiv.org/abs/2304.09905)
 
@@ -275,7 +275,7 @@
 
    超亮超新星是宇宙中能量最高的恒星爆发，其能量来源仍未可知。这里是对`SN 2017egm`的观测，是一个贫氢亚类超新星`SLSNe-I`。其亮度在最大亮度后100-350天发生颠簸，挑战了目前的模型。与总质量为$6.8-7.7M_\odot$的`circumstellar shells`的连续相互作用可以解释。
 
-   <img src="Figures/image-20230421155308230.png" alt="image-20230421155308230" style="zoom:50%;" />
+   <img src="./Figures/image-20230421155308230.png" alt="image-20230421155308230" width="680px" />
 
 ## 2023-04-24
 
@@ -293,7 +293,7 @@
 
    韩金林组做的用[CoAtNet](https://github.com/chinhsuanwu/coatnet-pytorch)做的脉冲星候选体分类，使用到脉冲星信号折叠后的`Phase-Time`、`Phase-Frequency`、`DM-ReducedChi2`、`Phase-Intensity`数据作输入。
 
-   <img src="Figures/image-20230425185526757.png" alt="image-20230425185526757" style="zoom:50%;" />
+   <img src="./Figures/image-20230425185526757.png" alt="image-20230425185526757" width="680px" />
 
 2. [The Performance of FAST with Ultra-Wide Bandwidth Receiver at 500-3300 MHz](https://arxiv.org/abs/2304.11895)
 
@@ -301,7 +301,7 @@
 
    FAST的新超宽带的性能，覆盖`500-3300MHz`，分成四个独立波段，每个波段有`1048576=1024x1024`个通道，实现光谱分辨率为`1 kHz`。天线增益约为`14.3-7.7 K/Jy`，孔径效率为`0.56-0.3`，系统温度`88-130K`。
 
-   <img src="Figures/image-20230425190353733.png" alt="image-20230425190353733" style="zoom:50%;" />
+   <img src="./Figures/image-20230425190353733.png" alt="image-20230425190353733" width="680px" />
 
 ## 2023-04-26
 
@@ -311,11 +311,11 @@
 
    使用河外RM测量、河内脉冲星DM测量、轫致辐射和$H\alpha$谱线的数据测量银河系的电离介质，给出银河系视线方向磁场强度图，全天磁场强度$4\pm1.1\mu G$。
 
-   <img src="Figures/image-20230426151745761.png" alt="image-20230426151745761" style="zoom:50%;" />
+   <img src="./Figures/image-20230426151745761.png" alt="image-20230426151745761" width="680px" />
 
    以及银河系色散图。
 
-   <img src="Figures/image-20230426151816421.png" alt="image-20230426151816421" style="zoom:50%;" />
+   <img src="./Figures/image-20230426151816421.png" alt="image-20230426151816421" width="680px" />
 
 ## 2023-04-27
 
@@ -325,7 +325,7 @@
 
    用`Mask RCNN + PointRend`从模拟时间-频率数据中分割星系HI信号。
 
-   <img src="Figures/image-20230427144531163.png" alt="image-20230427144531163" style="zoom:50%;" />
+   <img src="./Figures/image-20230427144531163.png" alt="image-20230427144531163" width="680px" />
 
 2. [Plasma lensing with magnetic field and a small correction to the Faraday rotation measurement](https://arxiv.org/abs/2304.13210)
 
@@ -333,9 +333,9 @@
 
    等离子体透镜诱发双折射，除了法拉第旋转外，信号的几何延迟会引起线偏振的旋转，与频率的四次方相关。另外也会导致色散关系改变。
 
-   <img src="Figures/image-20230427152320789.png" alt="image-20230427152320789" style="zoom:50%;" />
+   <img src="./Figures/image-20230427152320789.png" alt="image-20230427152320789" width="680px" />
 
-   <img src="Figures/image-20230427152447938.png" alt="image-20230427152447938" style="zoom:50%;" />
+   <img src="./Figures/image-20230427152447938.png" alt="image-20230427152447938" width="680px" />
 
 ## 2023-04-28
 
@@ -351,5 +351,5 @@
 
    用`Transformer`分类TESS的光变曲线，并检查注意力图谱。
 
-   <img src="Figures/image-20230428183006447.png" alt="image-20230428183006447" style="zoom:50%;" />
+   <img src="./Figures/image-20230428183006447.png" alt="image-20230428183006447" width="680px" />
 

@@ -26,7 +26,7 @@
 
    这一关系应包含在`fundamental mode`脉动的变星都包含进来，并且由于周期分布有一定的宽度，因此使用这一关系研究单个长周期变星的年龄时需要谨慎考虑弥散。
 
-   <img src="Figures/image-20220104170805281.png" alt="image-20220104170805281" style="zoom:50%;" />
+   <img src="./Figures/image-20220104170805281.png" alt="image-20220104170805281" width="680px" />
 
 ## 2022-01-05
 
@@ -157,7 +157,7 @@
 
    使用三位磁流体力学模拟分子云中磁场与密度$B-\rho$的关系，表明低密度和高密度区域是不同的幂律。转折点密度$\rho_T$，与初始阿尔芬马赫数$\mathcal M_{A0}$成正比，意味着其实有分子云的`initial turbulent compression`设定。
 
-   <img src="Figures/image-20220119161022982.png" alt="image-20220119161022982" style="zoom:50%;" />
+   <img src="./Figures/image-20220119161022982.png" alt="image-20220119161022982" width="680px" />
 
 2. [Physical Publicly Verifiable Randomness from Pulsars](https://arxiv.org/abs/2201.05763)
 
@@ -165,7 +165,7 @@
 
    使用明亮的毫秒脉冲星的`flux density`作为随机数生成器。
 
-   <img src="Figures/image-20220119161908873.png" alt="image-20220119161908873" style="zoom:50%;" />
+   <img src="./Figures/image-20220119161908873.png" alt="image-20220119161908873" width="680px" />
 
 3. [Why hot Jupiters can be large but not too large](https://arxiv.org/abs/2201.07008)
 
@@ -189,7 +189,7 @@
 
    墨西哥国家空间天气实验室`LANCE`负责协调监测墨西哥上空空间天气影响的一起，其中一个仪器是墨西哥阵列射电望远镜`MEXART`，中心频率是$139.65MHz$，带宽$1.5MHz$。2015年9月至2019年5月期间，在`MEXART`的信号中识别了75个太阳射电暴，其中有5个II型事件和70个III型事件。
 
-   <img src="Figures/image-20220121215529740.png" alt="image-20220121215529740" style="zoom:50%;" />
+   <img src="./Figures/image-20220121215529740.png" alt="image-20220121215529740" width="680px" />
 
 2. [An Overview of CHIME, the Canadian Hydrogen Intensity Mapping Experiment](https://arxiv.org/abs/2201.07869)
 
@@ -197,7 +197,7 @@
 
    加拿大氢气强度测绘实验`CHIME`是一个在$400-800MHz$运行的漂移扫描射电望远镜，旨在绘制0.8至2.5红移范围内的中性氢，以约束宇宙的膨胀历史。CHIME由4个平行的圆柱反射面组成，南北方向，每个都是$100\times20m$。这使得CHIME视场是沿子午线的$2^\circ$宽的条纹，由于地球自转，每天都能观测到$3/4$的天空。加上FPGA+GPU对信号进行数字化和相关处理，为`宇宙学`、`快速射电暴`、`脉冲星`、`VLBI`和`21cm吸收`生成不同的数据产品。下图是由CHIME数据得到的天空地图。
 
-   <img src="Figures/image-20220121220852233.png" alt="image-20220121220852233" style="zoom:50%;" />
+   <img src="./Figures/image-20220121220852233.png" alt="image-20220121220852233" width="680px" />
 
 ## 2022-01-24
 
@@ -207,7 +207,7 @@
 
    光学引力透镜实验[OGLE](https://ogle.astrouw.edu.pl/)有庞大的变星数据库，使用PCA和ICA对光变曲线进行分析，并使用K-means对独立成分进行分类，发现其是一个非常强大的分类工具。下图是`PCA`和`ICA`的一个成分作为周期的函数，颜色是K-means对独立成分分类的结果。
 
-   <img src="Figures/image-20220124165309372.png" alt="image-20220124165309372" style="zoom:50%;" />
+   <img src="./Figures/image-20220124165309372.png" alt="image-20220124165309372" width="680px" />
 
    `PCA`的目的是找到一组向量表示，使重构误差最小，向量是正交的。`ICA`是找到一组向量表示，使每个分量最大化独立。`PCA`一般用来做`ICA`数据标准化的预处理步骤。
 
@@ -219,7 +219,7 @@
 
    研究年轻脉冲星风星云`PWNe`的粒子扩散传输，用包含光子指数$\Gamma$和表面亮度$\Sigma$的径向截面的纯扩散模型拟合星云截面，这一模型曾在`Crab`、`3C58`和`G21.5-0.9`上测试过。除了扩散引起的光谱软化，还计算了同步辐射功率，并建立了表面亮度曲线。大多数的`PWNe`的两个截面都很相似，模型可以很好的描述这两个截面，**表明在`PWNe`中，扩散主导了粒子传输**。另外，扩散参数与脉冲星物理参数之间没有明显的相关性。
 
-   <img src="Figures/image-20220125192022528.png" alt="image-20220125192022528" style="zoom:50%;" />
+   <img src="./Figures/image-20220125192022528.png" alt="image-20220125192022528" width="680px" />
 
 ## 2022-01-26
 
@@ -241,7 +241,7 @@
 
    这里计算了太阳在`flat sun`的近似下的反射率，FRB在掠入射的情况下，反射率在$\le200\ \rm MHz$下很高，高频反射率低；而在正入射的情况下，反射率只在$\le100\ \rm MHz$下很高。
 
-   <img src="Figures/image-20220126225232898.png" alt="image-20220126225232898" style="zoom:50%;" />
+   <img src="./Figures/image-20220126225232898.png" alt="image-20220126225232898" width="680px" />
 
 ## 2022-01-27
 
@@ -257,7 +257,7 @@
 
    银河系中心$200\ \rm pc$的区域包含一个$4\times10^6M_\odot$的超大质量黑洞，大量的分子气体，以及比银盘高两个数量级的恒星形成和宇宙线能量密度。在只距离$8.2\ \rm kpc$的情况下，这一区域可以研究各种高能天体物理现象，从`极端环境中的恒星`，到超大质量黑洞和恒星形成驱动的`反馈过程`。使用`MeerKAT`对银心进行了144小时的观测，覆盖$6.5\ \rm deg^2$，分辨率$4''$，中心频率$1.28\ \rm GHz$。
 
-   <img src="Figures/01_MeerKAT_GC_Galactic_Centre_dual_colour_highres.jpg" alt="01_MeerKAT_GC_Galactic_Centre_dual_colour_highres" style="zoom:50%;" />
+   <img src="./Figures/01_MeerKAT_GC_Galactic_Centre_dual_colour_highres.jpg" alt="01_MeerKAT_GC_Galactic_Centre_dual_colour_highres" width="680px" />
 
    在这里发现了许多新的特征，包括超新星遗迹、非热射电纤维`Non-thermal Radio Filaments`、增强的`Radio Arc Bubble / Sgr A / Sgr B`，这个项目是[SARAO](https://www.sarao.ac.za/media-releases/new-meerkat-radio-image-reveals-complex-heart-of-the-milky-way/)的存档数据研究，数据获取于2018年。
 
@@ -271,7 +271,7 @@
 
    这篇综述讨论了过去十年的星震学发展，主要是`Kepler`和`TESS`的光变曲线，包括大质量的上主序OBAF恒星、前主序星、奇异星、脉动变星、白矮星、亚矮星和潮汐相互作用的密近双星。
 
-   <img src="Figures/image-20220128182641461.png" alt="image-20220128182641461" style="zoom:50%;" />
+   <img src="./Figures/image-20220128182641461.png" alt="image-20220128182641461" width="680px" />
 
 2. [The EXPRES Stellar Signals Project II. State of the Field in Disentangling Photospheric Velocities](https://arxiv.org/abs/2201.10639)
 
@@ -289,7 +289,7 @@
 
    `EXPRES`恒星信号项目测试了不同的方法将恒星的活动和行星导致的质心位置偏移分离开来。结果表明，不同的方法都有一定的效果，但是也都无法持续的将RV RMS降低到$1\ \rm m/s$的水平，并且不同的方法返回的`RV`结果也不一致。
 
-   <img src="Figures/image-20220128184106515.png" alt="image-20220128184106515" style="zoom:50%;" />
+   <img src="./Figures/image-20220128184106515.png" alt="image-20220128184106515" width="680px" />
 
 ## 2022-01-31
 

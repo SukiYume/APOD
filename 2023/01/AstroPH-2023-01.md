@@ -84,7 +84,7 @@
 
    在距离太阳系31.1pc的位置，有一颗M2.5矮星`TOI-700`，发现这颗恒星的宜居带内有一颗$0.95R_\oplus$的行星。
 
-   <img src="Figures/image-20230111155057301.png" alt="image-20230111155057301" style="zoom:50%;" />
+   <img src="./Figures/image-20230111155057301.png" alt="image-20230111155057301" width="680px" />
 
 ## 2023-01-12
 
@@ -122,7 +122,7 @@
 
    在银河系中心`Sgr A*`附近发现了一个孤立的、有陡峭速度梯度的云。每个速度通道中`CO 1-2`的强度峰表明，`蝌蚪`围绕着质量为$10^5\,\rm M_\odot$的点源做开普勒运动。由于其空间紧凑以及其他波段下没有明亮的对应体，该天体可能是一个中等质量的黑洞。
 
-   <img src="Figures/image-20230113122755854.png" alt="image-20230113122755854" style="zoom:50%;" />
+   <img src="./Figures/image-20230113122755854.png" alt="image-20230113122755854" width="680px" />
 
 ## 2023-01-16
 
@@ -140,7 +140,7 @@
 
    用最小生成树给脉冲星分类。
 
-   <img src="Figures/image-20230116163008859.png" alt="image-20230116163008859" style="zoom:50%;" />
+   <img src="./Figures/image-20230116163008859.png" alt="image-20230116163008859" width="680px" />
 
 ## 2023-01-17
 
@@ -212,7 +212,7 @@
 
    HST观测`C/2021 A1`表明，其碎裂后没有大于60m的碎片。`SHO`观测到碎片云，给出碎裂前星核半径$r=0.6\pm0.2km$。考虑到其轨道和大小，其碎裂最初是`rotational breakup`，随着碎裂进行，埋藏的挥发物暴露并强烈升华，加速了` rotational breakup`，导致最终核解体。
 
-   <img src="Figures/image-20230123110223423.png" alt="image-20230123110223423" style="zoom:50%;" />
+   <img src="./Figures/image-20230123110223423.png" alt="image-20230123110223423" width="680px" />
 
 ## 2023-01-24
 
@@ -222,11 +222,11 @@
 
    介绍CHIME在2019.09.30-2021.05.01探测到的25个新的重复FRB，DM从220-1700，最少两个爆发，最多12个爆发。统计上，重复暴的DM和河外DM比非重复暴偏低。校正灵敏度和曝光效应后，重复暴的事件率和非重复暴的事件率上限之间没有明显的区分。
 
-   <img src="Figures/image-20230124224549893.png" alt="image-20230124224549893" style="zoom:50%;" />
+   <img src="./Figures/image-20230124224549893.png" alt="image-20230124224549893" width="680px" />
 
    另外还有14个可能是重复暴的候选。
 
-   <img src="Figures/image-20230124224627483.png" alt="image-20230124224627483" style="zoom:50%;" />
+   <img src="./Figures/image-20230124224627483.png" alt="image-20230124224627483" width="680px" />
 
 2. [PODIUM:A Pulsar Navigation Unit for Science Missions](https://arxiv.org/abs/2301.08744)
 
@@ -258,7 +258,7 @@
    
    `Circumbinary Planet`，环联星运转行星，即环绕双星系统运动的行星。使用`HARPS`和`ESPRESSO`光谱仪测量的径向速度，探测到一颗新的环联星运转行星，是一颗气态巨行星，命名为`TOI-1338/BEBOP-1c`。这个系统之前已经被探测到有一个凌日行星`TOI-1338/BEBOP-1b`。这是第一次只使用径向速度就探测到的CP，也使`TOI-1338/BEBOP-1`成为第二个有多CP的系统。
    
-   <img src="Figures/image-20230127131046132.png" alt="image-20230127131046132" style="zoom:50%;" />
+   <img src="./Figures/image-20230127131046132.png" alt="image-20230127131046132" width="680px" />
 
 ## 2023-01-30
 
@@ -268,7 +268,7 @@
 
    `Canary Islands telescope, CNI`和位于纳米比亚的`Africa Millimetre Telescope, AMT`是两个正在计划中的望远镜阵列。这里研究的是，这两个阵列加入EHT后对`Sgr A*`成像的影响。
 
-   <img src="Figures/image-20230131220451394.png" alt="image-20230131220451394" style="zoom:50%;" />
+   <img src="./Figures/image-20230131220451394.png" alt="image-20230131220451394" width="680px" />
 
 ## 2023-01-31
 

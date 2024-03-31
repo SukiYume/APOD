@@ -12,7 +12,7 @@
 
    用VAE对JWST的星系图像做训练，并用中间隐藏层向量做`Hierarchical clustering`聚类。发现早起宇宙由盘状星系主导。
 
-   <img src="Figures/image-20230704001326233.png" alt="image-20230704001326233" style="zoom:50%;" />
+   <img src="./Figures/image-20230704001326233.png" alt="image-20230704001326233" width="680px" />
 
 3. [Modelling repetition in zDM: a single population of repeating fast radio bursts can explain CHIME data](https://arxiv.org/abs/2306.17403)
 
@@ -28,7 +28,7 @@
 
    用[语义表征的自监督学习方法](https://github.com/abhisheksambyal/Self-supervised-learning-by-context-prediction)从LOFAR数据中做异常检验。
 
-   <img src="Figures/image-20230705003223643.png" alt="image-20230705003223643" style="zoom:50%;" />
+   <img src="./Figures/image-20230705003223643.png" alt="image-20230705003223643" width="680px" />
 
 ## 2023-07-05
 
@@ -60,7 +60,7 @@
 
    对FRB180916的统计，周期16.35天，活跃窗口5.0天。DM双峰分布，左峰随频率增加而增加，右峰相反。等待时间也双峰分布，且峰值时间与爆发性质无关（无论是前一个爆发还是后一个爆发）。延迟时间差和频率相关的DM与等离子体透镜模型一致，认为其传播路径上受到等离子体透镜效应的影响。
 
-   <img src="Figures/image-20230707025607232.png" alt="image-20230707025607232" style="zoom:50%;" />
+   <img src="./Figures/image-20230707025607232.png" alt="image-20230707025607232" width="680px" />
 
 4. [Microsecond-duration bursts from FRB 20121102A](https://arxiv.org/abs/2307.02303)
 
@@ -68,7 +68,7 @@
 
    在GBT高频观测FRB121102的基带数据中找到持续时间为微秒量级的爆发，偏振特征与普通爆发一致。
 
-   <img src="Figures/image-20230707025702102.png" alt="image-20230707025702102" style="zoom:50%;" />
+   <img src="./Figures/image-20230707025702102.png" alt="image-20230707025702102" width="680px" />
 
 5. [First Image of the Sun with MeerKAT Solar Observations: Opening a New Frontier in Solar Physics](https://arxiv.org/abs/2307.01895)
 
@@ -76,7 +76,7 @@
 
    MeerKAT在L波段对太阳的成像结果。尽管存在明显的流量缺失，但这打开了MeerKAT一个具有巨大发现潜力的大门。
 
-   <img src="Figures/image-20230707025733934.png" alt="image-20230707025733934" style="zoom:50%;" />
+   <img src="./Figures/image-20230707025733934.png" alt="image-20230707025733934" width="680px" />
 
 6. [Unintended electromagnetic radiation from Starlink satellites detected with LOFAR between 110 and 188 MHz](https://arxiv.org/abs/2307.02316)
 
@@ -84,7 +84,7 @@
 
    LOFAR探测到星链在低频的奇怪辐射。
 
-   <img src="Figures/image-20230707025808298.png" alt="image-20230707025808298" style="zoom:50%;" />
+   <img src="./Figures/image-20230707025808298.png" alt="image-20230707025808298" width="680px" />
 
 7. [Sub-arcsecond resolution imaging of M 51 with the International LOFAR Telescope](https://arxiv.org/abs/2307.02365)
 
@@ -92,7 +92,7 @@
 
    LOFAR对M51的亚角秒成像，并讨论了在如此低频下探测到的超新星与其他波段的比较。
    
-   <img src="Figures/image-20230707025834324.png" alt="image-20230707025834324" style="zoom:50%;" />
+   <img src="./Figures/image-20230707025834324.png" alt="image-20230707025834324" width="680px" />
 
 ## 2023-07-07
 
@@ -101,7 +101,7 @@
    > Fast Radio Burst, Statistics, Classification, Machine Learning
 
    用UMAP对FRB121102的爆发参数进行降维，用HDBSCAN聚成4类。
-   <img src="Figures/image-20230707150538221.png" alt="image-20230707150538221" style="zoom:50%;" />
+   <img src="./Figures/image-20230707150538221.png" alt="image-20230707150538221" width="680px" />
 
 ## 2023-07-10
 
@@ -111,7 +111,7 @@
 
    DSA-100目前是由63个4.65m的望远镜组成的阵列，基线2.5km。这篇文章发布了DSA第一批共11个非重复FRB的定位结果与宿主星系分析。
 
-   <img src="Figures/image-20230710220348476.png" alt="image-20230710220348476" style="zoom:50%;" />
+   <img src="./Figures/image-20230710220348476.png" alt="image-20230710220348476" width="680px" />
 
    这些FRB的色散、散射和能量与已知非重复FRB相似，大多数宿主星系也都在进行恒星形成。与之前工作不同的是，这11个星系中有4个质量超过$10^{11}M_\odot$。恒星形成历史的分布表明`delay-time`分布在100Myr-10Gyr，这要求与老恒星相关的`progenitor`形成方案的存在。
 
@@ -121,9 +121,9 @@
 
    用Effelsberg测量银心附近四颗脉冲星的RM。`PSR J1746-2850`的RM为$-12234\,\rm rad/m^2$，并且在年的时间尺度上会变化300-400，表明处在强磁场环境中。`PSR J1746-2850`的RM结构函数的幂律指数为1.87，与各向同性湍流的预期相当。其DM也变化超过$50\,\rm pc/cm^3$。`PSR J1746-2849`和`PSR J1746-2850`虽然角距离接近，但二者的RM的差异表明CMZ中存在至少$70\mu G$的磁场，这也可以解释该区域射电图像中缺乏偏振。
 
-   <img src="Figures/image-20230710220514824.png" alt="image-20230710220514824" style="zoom:50%;" />
+   <img src="./Figures/image-20230710220514824.png" alt="image-20230710220514824" width="680px" />
 
-   <img src="Figures/image-20230710220454873.png" alt="image-20230710220454873" style="zoom:50%;" />
+   <img src="./Figures/image-20230710220454873.png" alt="image-20230710220454873" width="680px" />
 
 3. [Pulsar discovery prospect of FASTA](https://arxiv.org/abs/2307.03422)
 
@@ -137,7 +137,7 @@
 
    用[LIME](https://github.com/marcotcr/lime)解释星系分类模型预测行为。
 
-   <img src="Figures/image-20230710222213384.png" alt="image-20230710222213384" style="zoom:50%;" />
+   <img src="./Figures/image-20230710222213384.png" alt="image-20230710222213384" width="680px" />
 
 ## 2023-07-11
 
@@ -149,7 +149,7 @@
 
    另外在超强X射线源`ULXs`的背景下对FRB相关的X射线对应体进行了限制，发现目前的FRB的X射线值排除了亮度高于$10^{40}\,\rm erg/s$的ULXs。使用CHIME/FRB目录和现有ULX星表，找空间中重合的ULX/FRB对，在NGC2633中发现了两个ULX，在空间上与重复暴`FRB 20180908B`重合。
 
-   <img src="Figures/image-20230711153704828.png" alt="image-20230711153704828" style="zoom:50%;" />
+   <img src="./Figures/image-20230711153704828.png" alt="image-20230711153704828" width="680px" />
 
 2. [Cosmography from well-localized Fast Radio Bursts](https://arxiv.org/abs/2307.04711)
 
@@ -167,7 +167,7 @@
 
    这个结果说明，要么FRB都是重复的，并且重复间隔分布非常广，活跃重复的比较罕见。要么不重复的FRB就是与重复FRB不一样。
 
-   <img src="Figures/image-20230712235818153.png" alt="image-20230712235818153" style="zoom:50%;" />
+   <img src="./Figures/image-20230712235818153.png" alt="image-20230712235818153" width="680px" />
 
 2. [Constraints on the Intergalactic and Local Dispersion Measure of Fast Radio Bursts with the CHIME/FRB far side-lobe events](https://arxiv.org/abs/2307.05262)
 
@@ -175,7 +175,7 @@
 
    上一片文章中探测到的10个FRB，发现这些时间的流量是CHIME主瓣事件的500倍，因此这样的样本统计上应该比主瓣样本近20倍。估计这10个FRB的DM来自IGM的贡献约为300附近，对应红移0.3。这个位置有助于约束重子缺失。
 
-   <img src="Figures/image-20230712235852776.png" alt="image-20230712235852776" style="zoom:50%;" />
+   <img src="./Figures/image-20230712235852776.png" alt="image-20230712235852776" width="680px" />
 
 3. [The GECAM Real-Time Burst Alert System](https://arxiv.org/abs/2307.04999)
 
@@ -183,7 +183,7 @@
 
    用北斗短报文做GECAM探测GRB的通讯触发。
    
-   <img src="Figures/image-20230712235939600.png" alt="image-20230712235939600" style="zoom:50%;" />
+   <img src="./Figures/image-20230712235939600.png" alt="image-20230712235939600" width="680px" />
 
 ## 2023-07-13
 
@@ -207,7 +207,7 @@
 
    拟合后研究形态学，并发现DM、RM、散射时标、带宽等，都没有表现出周期变化。每个周期的爆发次数与泊松过程一致。周期值也没发生变化，并给出周期导数的上限$1.5\times10^{-4}\,\rm day^{-1}$。
 
-   <img src="Figures/image-20230713225810904.png" alt="image-20230713225810904" style="zoom:50%;" />
+   <img src="./Figures/image-20230713225810904.png" alt="image-20230713225810904" width="680px" />
 
 2. [Exponential distance relation (aka Titius-Bode law) in extra solar planetary systems](https://arxiv.org/abs/2307.06070)
 
@@ -229,7 +229,7 @@
 
    尽管其持续时间长，但是其`prompt emission`和宿主星系的特性表明它起源于致密天体并合。随着$\gamma$射线的消失，延展的X射线成分出现了，意味着磁星的出现。并且发现在`prompt emission`阶段，高能波段出现了一个消色散的时间断裂，可能由狭窄喷流导致。张彬彬他们的文章，似乎投的Nature。
 
-   <img src="Figures/image-20230713231448327.png" alt="image-20230713231448327" style="zoom:50%;" />
+   <img src="./Figures/image-20230713231448327.png" alt="image-20230713231448327" width="680px" />
 
 4. [JASMINE: Near-Infrared Astrometry and Time Series Photometry Science](https://arxiv.org/abs/2307.05666)
 
@@ -243,7 +243,7 @@
 
    `TESS`卫星的13.7天的周期限制了搜索周期长于13天的恒星。这里使用CNN来从恒星光变曲线中估计周期，输入是光变曲线的小波变换，经过最简单的CNN，输出是自转周期和不确定度。
 
-   <img src="Figures/image-20230713232844025.png" alt="image-20230713232844025" style="zoom:50%;" />
+   <img src="./Figures/image-20230713232844025.png" alt="image-20230713232844025" width="680px" />
 
 ## 2023-07-14
 
@@ -261,7 +261,7 @@
 
    用VAE对Gaia DR3的BP/RP光谱进行无监督学习。输入是BP/RP光谱，输出除了光谱外，还有BP/RP Scatter的估计。
    
-   <img src="Figures/image-20230714131002226.png" alt="image-20230714131002226" style="zoom:50%;" />
+   <img src="./Figures/image-20230714131002226.png" alt="image-20230714131002226" width="680px" />
 
 ## 2023-07-17
 
@@ -275,7 +275,7 @@
 
    估计了FRB位置PRS的光度上限$L_{6.0\,\rm GHz}\le2.6\times10^{27}\rm erg/s/Hz$，比已知的PRS低两个数量级。然而，如果假设磁星的能量注入率是恒定的，并且年龄$\ge10^5$年，那么这个上限仍然与磁星云和超新星云的模型一致。
 
-   <img src="Figures/image-20230717205809229.png" alt="image-20230717205809229" style="zoom:50%;" />
+   <img src="./Figures/image-20230717205809229.png" alt="image-20230717205809229" width="680px" />
 
 ## 2023-07-18
 
@@ -285,7 +285,7 @@
 
    用ZTF的图像和图像中提取出的14个特征做输入，用CNN对变源进行分类。
 
-   <img src="Figures/image-20230718152245939.png" alt="image-20230718152245939" style="zoom:50%;" />
+   <img src="./Figures/image-20230718152245939.png" alt="image-20230718152245939" width="680px" />
 
 2. [Outlier Detection in the DESI Bright Galaxy Survey](https://arxiv.org/abs/2307.07664)
 
@@ -293,7 +293,7 @@
 
    用VAE对星系光谱进行特征提取，并对提取出来的特征向量中，搜索低概率天体。一般的异常星系表现出不规则或者双峰发射线、或者来自星系并合、`blended sources`、罕见类星体、宽吸收线系统等。
 
-   <img src="Figures/image-20230718152654627.png" alt="image-20230718152654627" style="zoom:50%;" />
+   <img src="./Figures/image-20230718152654627.png" alt="image-20230718152654627" width="680px" />
 
 3. [A Measurement of Hubble Constant Using Cosmographic Approach from Fast Radio Bursts and SNe Ia](https://arxiv.org/abs/2307.08285)
 
@@ -309,7 +309,7 @@
 
    不自然的窄带信号被认为是有技术特征的信号。但RFI也会产生窄带辐射。信号通过湍流ISM后会产生闪烁。这里估计了这种对窄带信号搜索敏感的闪烁时间尺度，并讨论了检测这种信号的方法。
 
-   <img src="Figures/image-20230719144356854.png" alt="image-20230719144356854" style="zoom:50%;" />
+   <img src="./Figures/image-20230719144356854.png" alt="image-20230719144356854" width="680px" />
 
 ## 2023-07-20
 
@@ -319,7 +319,7 @@
 
    CSST[模拟星表](https://nadc.china-vo.org/data/data/csst-trilegal/f)。
 
-   <img src="Figures/image-20230720184217973.png" alt="image-20230720184217973" style="zoom:50%;" />
+   <img src="./Figures/image-20230720184217973.png" alt="image-20230720184217973" width="680px" />
 
 2. [Prospects for Detecting Fast Radio Bursts in Globular Clusters of Nearby Galaxies](https://arxiv.org/abs/2210.04907)
 
@@ -337,7 +337,7 @@
 
    CHIME-TONE用3300km长基线的VLBI定位FRB20210603A，在红移0.177的edge-on星系，星系表现出近期有恒星形成。
 
-   <img src="Figures/image-20230721153643095.png" alt="image-20230721153643095" style="zoom:50%;" />
+   <img src="./Figures/image-20230721153643095.png" alt="image-20230721153643095" width="680px" />
 
 ## 2023-07-21
 
@@ -375,7 +375,7 @@
 
    整合过往文章中的`Magnetic Star`，给了一个目录。
 
-   <img src="Figures/image-20230725160544965.png" alt="image-20230725160544965" style="zoom:50%;" />
+   <img src="./Figures/image-20230725160544965.png" alt="image-20230725160544965" width="680px" />
 
 ## 2023-07-26
 
@@ -385,7 +385,7 @@
 
    用VAE做Orion Data Cude降噪，代码在[这里](https://github.com/einigl/line-cubes-denoising)。
 
-   <img src="Figures/image-20230726172429078.png" alt="image-20230726172429078" style="zoom:50%;" />
+   <img src="./Figures/image-20230726172429078.png" alt="image-20230726172429078" width="680px" />
 
 ## 2023-07-27
 
@@ -395,7 +395,7 @@
 
    `GRS 1915+105`是一个有相对论性喷流的`fast-spinning black-hole X-ray binary`，在X射线波段有$1-10|34|67\rm Hz$的准周期振荡。这次报道FAST在射电波段探测到$5\rm Hz$的准周期震荡，并且在振荡期间有圆偏振出现。
 
-   <img src="Figures/image-20230727190632839.png" alt="image-20230727190632839" style="zoom:50%;" />
+   <img src="./Figures/image-20230727190632839.png" alt="image-20230727190632839" width="680px" />
 
 2. [Deep learning-based radiointerferometric imaging with GAN-aided training](https://arxiv.org/abs/2307.14100)
 
@@ -403,7 +403,7 @@
 
    用`wGAN`生成射电星系数据，用`Radio Interferometer Measurement Equation, RIME`模拟生成`visibility`，用`SRResNet`将不完整的uv空间的实部和虚部图重建成完整的两张图，这样再经过一步傅里叶变换就可以得到成图不需要clean。
 
-   <img src="Figures/image-20230727192917394.png" alt="image-20230727192917394" style="zoom:50%;" />
+   <img src="./Figures/image-20230727192917394.png" alt="image-20230727192917394" width="680px" />
 
 ## 2023-07-28
 
@@ -419,7 +419,7 @@
 
    因此，即使有高精度定位和深度跟踪，一些FRB的宿主星系可能也很难被探测到。
 
-   <img src="Figures/image-20230728161738013.png" alt="image-20230728161738013" style="zoom:50%;" />
+   <img src="./Figures/image-20230728161738013.png" alt="image-20230728161738013" width="680px" />
 
 2. [Individual and Averaged Power Density Spectra of X-ray bursts from SGR J1935+2154: Quasiperiodic Oscillation Search and Slopes](https://arxiv.org/abs/2307.14884)
 
@@ -427,7 +427,7 @@
 
    用`Power Density Spectra, PDS`找SGR1935的X射线暴发中的QPO。单个爆发中没有找到明显的QPO信号，但是多个爆发表现出可能的40Hz的QPO。
 
-   <img src="Figures/image-20230728162339346.png" alt="image-20230728162339346" style="zoom:50%;" />
+   <img src="./Figures/image-20230728162339346.png" alt="image-20230728162339346" width="680px" />
 
 3. [Photometry of Type II Supernova SN 2023ixf with a Worldwide Citizen Science Network](https://arxiv.org/abs/2307.14347)
 
@@ -435,7 +435,7 @@
 
    由全球`Unistellar Network`对SN2023ixf进行测光，115台望远镜进行了252次观测，测量到峰值光度为$M_V=-18.18\pm0.09$。
 
-   <img src="Figures/image-20230728162750614.png" alt="image-20230728162750614" style="zoom:50%;" />
+   <img src="./Figures/image-20230728162750614.png" alt="image-20230728162750614" width="680px" />
 
 ## 2023-07-31
 
@@ -451,4 +451,4 @@
 
    用ResNet18对HST图像中，近距离螺旋星系$D<20\,\rm Mpc$中的星团进行分类，代码在[这里](https://archive.stsci.edu/hlsp/phangs-hst)。在验证的时候发现模型准确率和星系距离之间存在微弱的负相关，但是对距离分bin并分别进行训练并不能提高分类的准确度。
 
-   <img src="Figures/image-20230731230400260.png" alt="image-20230731230400260" style="zoom:50%;" />
+   <img src="./Figures/image-20230731230400260.png" alt="image-20230731230400260" width="680px" />

@@ -12,7 +12,7 @@
 
    使用Gaia DR2找变星，因为变星的测光不准确度会明显高于恒星。但是Gaia对于每一颗恒星测量的次数不同，测量次数多的恒星G星等的不确定度会偏小，也就是说对于测量次数不同的恒星，$M_G\ vs.\ M_{Gerr}$会有不同的曲线（基线），在找变星的时候要考虑到。
 
-   <img src="Figures/image-20201209141218967.png" alt="image-20201209141218967" style="zoom:50%;" />
+   <img src="./Figures/image-20201209141218967.png" alt="image-20201209141218967" width="680px" />
 
 4. [FUV Observations of the Inner Coma of 46P/Wirtanen](https://arxiv.org/abs/2012.04619)
 
@@ -26,11 +26,11 @@
 
 1. [A repository of vanilla long term integrations of the Solar System](https://arxiv.org/abs/2012.05177)
 
-   使用N-body code `REBOUND`，辛积分器（symplectic integrator，为哈密顿方程数值解设计）`WHFast`，在Jacobi coorbinates中进行太阳系积分，为了获得高精度，使用了17阶的 symplectic correctors和modified kick step。数据生成使用了2.4GHz的至强CPU六核年，并释放了200kg的$CO_2$，代码和数据位于https://zenodo.org/record/4299102。
+   使用N-body code `REBOUND`，辛积分器（symplectic integrator，为哈密顿方程数值解设计）`WHFast`，在Jacobi coorbinates中进行太阳系积分，为了获得高精度，使用了17阶的 symplectic correctors和modified kick step。数据生成使用了2.4GHz的至强CPU六核年，并释放了200kg的$CO_2$，代码和数据位于[这里](https://zenodo.org/record/429910)。
 
 2. [Real-time triggering capabilities for Fast Radio Bursts at the MeerKAT telescope](https://arxiv.org/abs/2012.05173)
 
-   Fast radio bursts (FRBs; Lorimer et al. 2007; Thornton et al. 2013) are luminous shortduration (about ms) extra-galactic radio transients of yet unclear nature (for recent reviews see Petroff et al. 2019; Cordes & Chatterjee 2019). MeerKAT是位于南非的射电望远镜阵，可以实时搜索并定位爆发。软件发布在: https://www.meertrap.org
+   Fast radio bursts (FRBs; Lorimer et al. 2007; Thornton et al. 2013) are luminous shortduration (about ms) extra-galactic radio transients of yet unclear nature (for recent reviews see Petroff et al. 2019; Cordes & Chatterjee 2019). MeerKAT是位于南非的射电望远镜阵，可以实时搜索并定位爆发。软件发布在[这里](https://www.meertrap.org)。
 
 3. [he Brightness of OneWeb Satellites](https://arxiv.org/abs/2012.05100)
 
@@ -52,7 +52,7 @@
 
 2. [Classification of Fermi-LAT sources with deep learning using energy and time spectra](https://arxiv.org/abs/2012.05251)
 
-   4FGL-DR2 catlog（gll_psc_v23.fits，https://fermi.gsfc.nasa.gov/ssc/data/access/lat/10yr_catalog/）。使用DNN做分类，输入是光子能谱（photon energy spectrum）和时间序列（time series）。对于AGN和PSE的分类，有$97.59\pm0.35\%$的准确率，对于脉冲星的分类，YNG和MSP的准确率达到（$87.25\pm3.82\%$）。
+   4FGL-DR2 catlog，[gll_psc_v23.fits](https://fermi.gsfc.nasa.gov/ssc/data/access/lat/10yr_catalog/)。使用DNN做分类，输入是光子能谱（photon energy spectrum）和时间序列（time series）。对于AGN和PSE的分类，有$97.59\pm0.35\%$的准确率，对于脉冲星的分类，YNG和MSP的准确率达到（$87.25\pm3.82\%$）。
 
 3. [Charting the Galactic acceleration field I. A search for stellar streams with Gaia DR2 and EDR3 with follow-up from ESPaDOnS and UVES](https://arxiv.org/abs/2012.05245)
 
@@ -64,31 +64,33 @@
 
    Multi-dimensional FRB population synthesis可以得到唯一的自洽的FRB族。他们做了两种图，一个是$log\ N\sim\log\ S$，不知道为什么大家都这么喜欢这个。另一个是MC模拟，几个参数$\log\ N - \log\ S\ slope\ \alpha$，spectral index $si$，luminosity index $li$，minimum luminosity $lum_{min}$，maximum luminosity $lim_{max}$，mean intrinsic pulse width $w_{ini,\ mean}$，standard deviation intrinsic pulse width $w_{ini,\ std}$，Macquart idnex $DM_{IGM,\ slope}$，host dispersion measure $DM_{host}$。主要是这图看起来有点意思。
 
-   <img src="Figures/image-20201214133021121.png" alt="image-20201214133021121" style="zoom:50%;" />
+   <img src="./Figures/image-20201214133021121.png" alt="image-20201214133021121" width="680px" />
 
 2. [The International Virtual Observatory Alliance (IVOA) in 2020](https://arxiv.org/abs/2012.05988)
 
-   国际虚拟天文台联合会，International Virtual Observatory Alliance (IVOA) is an organisation that debates and agrees the technical standards that are needed to make the VO possible.。https://wiki.ivoa.net/twiki/bin/view/IVOA
+   国际虚拟天文台联合会，International Virtual Observatory Alliance ([IVOA](https://wiki.ivoa.net/twiki/bin/view/IVOA)) is an organisation that debates and agrees the technical standards that are needed to make the VO possible.。
 
 3. [Neural network based image reconstruction with astrophysical priors](https://arxiv.org/abs/2012.05947)
 
    使用生成对抗网络做图像重建（GAN），贝叶斯先验使用目标源的辐射传递模型。
 
-   <img src="Figures/image-20201214140333270.png" alt="image-20201214140333270" style="zoom:50%;" />
+   <img src="./Figures/image-20201214140333270.png" alt="image-20201214140333270" width="680px" />
 
 4.  [Solving Inverse Problems for Spectral Energy Distributions with Deep Generative Networks](https://arxiv.org/abs/2012.06331)
 
    使用深度生成网络从不可靠或者比较少的测量中重建光谱能量分布（SEDs）。
-   
+
 5. [Gaia pulsars and where to find them in EDR3](https://arxiv.org/abs/2012.06335)
 
    相关（其实是同一个人写的） - [Gaia pulsars and where to find them](https://arxiv.org/abs/2011.08075)
 
    脉冲星的位置不确定度只有0.5arcsec，在DR2中找1534个脉冲星的伴星，找到了22个与已知脉冲星匹配，和8个可能的伴星。对于有掩食的毫秒脉冲星和三个有低质量白矮星作为伴星的毫秒脉冲星都满足以下条件：
    $$
-   M_G \le 2.7(G_{BP}-G_{RP}) + 10.5\\
-   M_G > 3.7(G_{BP}-G_{RP}) + 2.4\\
-   H_g > 5.3(G_{BP}-G_{RP}) + 5.9 \quad where\quad H_g=m_g+5\log_{10}\frac{\mu}{mas\ yr^{-1}}-10 + A_g \quad where \quad \mu = \sqrt{\mu_\alpha^2+\mu_\delta^2}
+   \begin{aligned}
+   M_G &\le 2.7(G_{BP}-G_{RP}) + 10.5\\
+   M_G &> 3.7(G_{BP}-G_{RP}) + 2.4\\
+   H_g &> 5.3(G_{BP}-G_{RP}) + 5.9 \quad where\quad H_g=m_g+5\log_{10}\frac{\mu}{mas\ yr^{-1}}-10 + A_g \quad where \quad \mu = \sqrt{\mu_\alpha^2+\mu_\delta^2}
+   \end{aligned}
    $$
 
 ## 2020-12-15
@@ -99,7 +101,6 @@
    $$
    N_{cum}(>E)=A\left[\left(\frac{E}{E_b}\right)^{\alpha_1\omega}+\left(\frac{E}{E_b}\right)^{\alpha_2\omega}\right]^{-1/\omega}
    $$
-   
 
    使用Goodness-of-Fit检查拟合优劣：
    $$
@@ -115,7 +116,7 @@
 
    在线匿名调查天体物理学界的人对当前学界研究的障碍和未来的期望。四个方面：open science practices, data access and management, data visualization and multiwavelength astronomy, and data analysis and machine learning。该调查通过电子邮件向主要来自西班牙、意大利、葡萄牙、希腊、法国、德国和英国的多个研究和学术机构分发，同时也在一个只包括专业天文学家的Facebook私人小组内分发。
 
-   <img src="Figures/image-20201215191506911.png" alt="image-20201215191506911" style="zoom:70%;" />
+   <img src="./Figures/image-20201215191506911.png" alt="image-20201215191506911" width="680px" />
 
 4. [A single pulse study of PSR J1022+1001](https://arxiv.org/abs/2012.06709)
 
@@ -135,10 +136,12 @@
    $$
    转换方法
    $$
-   X = (N+h)\ cos\phi\ cos\lambda \\
-   Y = (N+h)\ cos\phi\ sin\lambda \\
-   Z = [N(1-e^2)+h]\ sin\phi \\
-   N = a/\sqrt{1-e^2sin^2\phi}\quad a = 6378137\ m,\ b =6356752.3142451795\ m, e^2 = (a^2-b^2/a^2)
+   \begin{aligned}
+   X &= (N+h)\ cos\phi\ cos\lambda \\
+   Y &= (N+h)\ cos\phi\ sin\lambda \\
+   Z &= [N(1-e^2)+h]\ sin\phi \\
+   N &= a/\sqrt{1-e^2sin^2\phi}\quad a = 6378137\ m,\ b =6356752.3142451795\ m, e^2 = (a^2-b^2/a^2)
+   \end{aligned}
    $$
 
 2. [Chromatic periodic activity down to 120 MHz in a Fast Radio Burst](https://arxiv.org/abs/2012.08348)
@@ -153,7 +156,7 @@
 
    第一行原始数据，第二行WGAN生成结果，第三行残差。
 
-   <img src="Figures/image-20201216131722485.png" alt="image-20201216131722485" style="zoom:50%;" />
+   <img src="./Figures/image-20201216131722485.png" alt="image-20201216131722485" width="680px" />
 
 4. [Variational Image Feature Extraction for the EHT](https://arxiv.org/abs/2012.07889)
 
@@ -171,7 +174,7 @@
 
 1. [Systematics-insensitive Periodogram for finding periods in TESS observations of long-period rotators](https://arxiv.org/abs/2012.08972)
 
-   使用线性模型，消除仪器系统差和正弦分量，然后用Lomb-Scargle做周期分析。针对TESS开发，创建一个$s\times t$的稀疏矩阵，只在块对角线上有值，旨在消除TESS14天的观测效应，https://github.com/christinahedges/TESS-SIP。
+   [TESS-SIP](https://github.com/christinahedges/TESS-SIP)，使用线性模型，消除仪器系统差和正弦分量，然后用Lomb-Scargle做周期分析。针对TESS开发，创建一个$s\times t$的稀疏矩阵，只在块对角线上有值，旨在消除TESS14天的观测效应。
 
 2. [A Resource for Creating a Website to Promote Your Scientific Work](https://arxiv.org/abs/2012.08553)
 
@@ -181,13 +184,13 @@
 
 1. [Isochrone fitting in the Gaia era. III. Distances, ages and masses from UniDAM using Gaia eDR3 data](https://arxiv.org/abs/2012.09690)
 
-   他们开发过的工具[UniDAM](https://github.com/minzastro/unidam)，[A Unified tool to estimate Distances, Ages, and Masses (UniDAM) from spectrophotometric data](https://www.aanda.org/articles/aa/abs/2017/08/aa30090-16/aa30090-16.html#FN1)]可以从分光光度数据和Gaia EDR3视差的组合中可以估算距离、年龄和质量。
-   
+   他们开发过的工具[UniDAM](https://github.com/minzastro/unidam)，[A Unified tool to estimate Distances, Ages, and Masses (UniDAM) from spectrophotometric data](https://www.aanda.org/articles/aa/abs/2017/08/aa30090-16/aa30090-16.html#FN1)可以从分光光度数据和Gaia EDR3视差的组合中可以估算距离、年龄和质量。
+
 2. [StarcNet: Machine Learning for Star Cluster Identification](https://arxiv.org/abs/2012.09327)
 
    使用StarcNet（一种多尺度卷积神经网络）对图像中星团做分类，准确率有68.6%（四类）/ 86.0%（两类）。
 
-   <img src="Figures/image-20201218235029170.png" alt="image-20201218235029170" style="zoom:50%;" />
+   <img src="./Figures/image-20201218235029170.png" alt="image-20201218235029170" width="680px" />
 
 ## 2020-12-21
 
@@ -199,7 +202,7 @@
 
    定制的交互式VR工具（称为IDAVIE套件）的开发和结果，这些工具是由星系演化、宇宙网大尺度结构、星系与星系之间的相互作用以及附近星系的气体/运动学的调查和定向观测研究所提供的信息和驱动的。以实现在虚拟现实中查看数据。
 
-   <img src="Figures/image-20201221235111942.png" alt="image-20201221235111942" style="zoom:80%;" />
+   <img src="./Figures/image-20201221235111942.png" alt="image-20201221235111942" width="680px" />
 
 3. [Interactive Cosmology Visualization Using the Hubble UltraDeep Field Data in the Classroom](https://arxiv.org/abs/2012.09994)
 
@@ -207,7 +210,7 @@
 
 4. [The updated BaSTI stellar evolution models and isochrones: II. alpha-enhanced calculations](https://arxiv.org/abs/2012.10085)
 
-   BaSTI依据恒星演化模型绘制等龄线的工具，这篇文章介绍的是更新的版本。等龄线包括了20Myr-14.5Gyr的年龄范围，包括前主序。http://basti-iac.oa-teramo.inaf.it/。（他们这个界面和今天的第一篇文章的界面很像）
+   BaSTI依据恒星演化模型绘制等龄线的[工具](http://basti-iac.oa-teramo.inaf.it/)，这篇文章介绍的是更新的版本。等龄线包括了20Myr-14.5Gyr的年龄范围，包括前主序。（他们这个界面和今天的第一篇文章的界面很像）
 
 ## 2020-12-22
 
@@ -215,7 +218,7 @@
 
    马化腾冠名，清华-马化腾巡天望远镜。
 
-   <div align=center><img src="Figures/image-20201222140458292.png" alt="image-20201222140458292" style="zoom:23%;" /><img src="Figures/image-20201222140519341.png" alt="image-20201222140519341" style="zoom:35%;" /></div>
+   <div align=center><img src="./Figures/image-20201222140458292.png" alt="image-20201222140458292" width="680px" /><img src="./Figures/image-20201222140519341.png" alt="image-20201222140519341" width="680px" /></div>
 
 2. [ESCAPE -- addressing Open Science challenges](https://arxiv.org/abs/2012.11534)
 
@@ -229,17 +232,17 @@
 
    使用恒星Av、Parallax、G、Bp、Rp、J、H、K的输入数据，使用卷积神经网络，输出YSO的年龄预测。使用Isochrone给定的恒星年龄来训练。有训练出来的Orion Complex年龄。
 
-   <div align=center><img src="Figures/image-20201222142557017.png" alt="image-20201222142557017" style="zoom:50%;" /><img src="Figures/image-20201222142604455.png" alt="image-20201222142604455" style="zoom:50%;" /></div>
+   <div align=center><img src="./Figures/image-20201222142557017.png" alt="image-20201222142557017" width="680px" /><img src="./Figures/image-20201222142604455.png" alt="image-20201222142604455" width="680px" /></div>
 
    下面这个图有点意思。说是看到了Local Bubble，左图中间的图。
 
-   <div align=center><img src="Figures/image-20201222142727482.png" alt="image-20201222142727482" style="zoom:50%;" /><img src="Figures/image-20201222142855584.png" alt="image-20201222142855584" style="zoom:50%;" /></div>
+   <div align=center><img src="./Figures/image-20201222142727482.png" alt="image-20201222142727482" width="680px" /><img src="./Figures/image-20201222142855584.png" alt="image-20201222142855584" width="680px" /></div>
 
 5. [Photometric and spectroscopic analysis of Comet 29P/Schwassmann-Wachmann 1 activity](https://arxiv.org/abs/2012.10705)
 
    用6-m BTA telescope (SAO RAS, Russia)和1.6-m telescope of the National Laboratory for Astro-physics (LNA, Brazil)在February 20, 2012, and on May 31, 2011观测了29P。发现了CO+和N2+的释放。以及使用图像增强技术研究彗星形态，发现了两个喷流。
 
-   <div align=center><img src="Figures/image-20201222143839022.png" alt="image-20201222143839022" style="zoom:50%;" /><img src="Figures/image-20201222143921441.png" alt="image-20201222143921441" style="zoom:25%;" /></div>
+   <div align=center><img src="./Figures/image-20201222143839022.png" alt="image-20201222143839022" width="680px" /><img src="./Figures/image-20201222143921441.png" alt="image-20201222143921441" width="680px" /></div>
 
 ## 2020-12-23
 
@@ -249,7 +252,7 @@
 
 2. [Fourier domain excision of periodic radio frequency interference](https://arxiv.org/abs/2012.11630)
 
-   RFI有一些非常明亮，容易消除。有一些很弱，但是有周期性，这种干扰信号的存在会淹没天体的信号，用C封装好的工具https://github.com/ymaan4/rficlean。三个步骤消除RFI：
+   RFI有一些非常明亮，容易消除。有一些很弱，但是有周期性，这种干扰信号的存在会淹没天体的信号，用C封装好的[工具](https://github.com/ymaan4/rficlean)。三个步骤消除RFI：
 
    - 0按块读入数据，用FFTW做DFT，识别出周期信号的RFI剔除，然后IDFT替换掉原始数据。
    - 计算块的均值和方差（如果是白噪声的信号，那均值和方差应该相对稳定），找到离群的区块，用相邻的未被污染的区块代替。
@@ -321,4 +324,4 @@
 
    结果就是把它降维到一维上，看光度之类随广义半径的变化。
 
-   <img src="Figures/image-20201229223852117.png" alt="image-20201229223852117" style="zoom:33%;" />
+   <img src="./Figures/image-20201229223852117.png" alt="image-20201229223852117" width="680px" />

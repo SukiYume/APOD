@@ -6,7 +6,7 @@
 
    用`normalizing flow`来给星系群体建模，通过最小化星系群的合成光度测量与观测数据之间的瓦瑟斯坦距离`Wasserstein distance`来逼近星系群分布。
 
-   <img src="Figures/image-20231002193053775.png" alt="image-20231002193053775" style="zoom:50%;" />
+   <img src="./Figures/image-20231002193053775.png" alt="image-20231002193053775" width="680px" />
 
 ## 2023-10-03
 
@@ -18,7 +18,7 @@
 
    认为球状星团可以产生宇宙学距离的FRB，与SGR1935一起，支持FRB多个起源。
 
-   <img src="Figures/image-20231003181806748.png" alt="image-20231003181806748" style="zoom:50%;" />
+   <img src="./Figures/image-20231003181806748.png" alt="image-20231003181806748" width="680px" />
 
 2. [Escaping of Fast Radio Bursts](https://arxiv.org/abs/2310.01177)
 
@@ -34,7 +34,7 @@
 
    这里报告了对太阳长期观测的结果，观测到高亮温度、宽带宽和高圆偏振的太阳射电暴类似极光的射电辐射。辐射源位于太阳黑子的上方，那里存在一个强会聚磁场。认为这样的太阳暴或者其它具有大型星斑的恒星上产生的爆发，形成机制与行星极光一致。
 
-   <img src="Figures/image-20231003192108866.png" alt="image-20231003192108866" style="zoom:50%;" />
+   <img src="./Figures/image-20231003192108866.png" alt="image-20231003192108866" width="680px" />
 
 ## 2023-10-04
 
@@ -58,7 +58,7 @@
 
    用[高斯混合模型](https://github.com/pmelchior/pygmmis)分辨星系结构。
 
-   <img src="Figures/image-20231005211508308.png" alt="image-20231005211508308" style="zoom:50%;" />
+   <img src="./Figures/image-20231005211508308.png" alt="image-20231005211508308" width="680px" />
 
 2. [AstroCLIP: Cross-Modal Pre-Training for Astronomical Foundation Models](https://arxiv.org/abs/2310.03024)
 
@@ -66,7 +66,7 @@
 
    [AstroCLIP](https://github.com/PolymathicAI/AstroCLIP)将星系光学图像和光谱共同embedding，进行自监督对比学习预训练。通过接入别的输出层，可以用于输出星系的物理特性，如质量或者红移。
 
-   <img src="Figures/image-20231005212611198.png" alt="image-20231005212611198" style="zoom:50%;" />
+   <img src="./Figures/image-20231005212611198.png" alt="image-20231005212611198" width="680px" />
 
 ## 2023-10-06
 
@@ -76,7 +76,7 @@
 
    统计太阳爆发的射电流量和X射线种类，发现二者正相关，意味着可以通过射电流量大致估计X射线爆发的等级。
 
-   <img src="Figures/image-20231009144843376.png" alt="image-20231009144843376" style="zoom:50%;" />
+   <img src="./Figures/image-20231009144843376.png" alt="image-20231009144843376" width="680px" />
 
 2. [Wavelet transforms of microlensing data: Denoising, extracting intrinsic pulsations, and planetary signals](https://arxiv.org/abs/2310.03338)
 
@@ -92,7 +92,7 @@
 
    提出一个仅使用星系光度轮廓加一个自由参数的新模型来拟合星系旋转曲线。
 
-   <img src="Figures/image-20231009144722391.png" alt="image-20231009144722391" style="zoom:50%;" />
+   <img src="./Figures/image-20231009144722391.png" alt="image-20231009144722391" width="680px" />
 
 ## 2023-10-10
 
@@ -110,7 +110,7 @@
 
    测到了复发新星`V2487 Oph`的轨道周期18.1小时，是目前已知周期最长的灾变变星之一，用[PyAstronomy](https://github.com/sczesla/PyAstronomy)中的gLSP。并拍到了其处处于耀斑状态时的光谱，在下图中可以看到有$-2000\,\rm km/s$和$1200\,\rm km/s$的HII发射。
 
-   <img src="Figures/image-20231010201804296.png" alt="image-20231010201804296" style="zoom:50%;" />
+   <img src="./Figures/image-20231010201804296.png" alt="image-20231010201804296" width="680px" />
 
 ## 2023-10-11
 
@@ -122,7 +122,7 @@
 
    这里使用HESS在Vela的宽带光中探测到新的辐射成分，将伽马射线的能量扩展到20TeV，比之前唯一在TeV有辐射的Crab高一个数量级。
 
-   <img src="Figures/image-20231011153201022.png" alt="image-20231011153201022" style="zoom:50%;" />
+   <img src="./Figures/image-20231011153201022.png" alt="image-20231011153201022" width="680px" />
 
 2. [Defining Millisecond Pulsars](https://arxiv.org/abs/2310.06230)
 
@@ -130,7 +130,7 @@
 
    用混合高斯模型对脉冲星进行聚类，定义毫秒脉冲星$P\le16\,\rm ms$。
 
-   <img src="Figures/image-20231011172020290.png" alt="image-20231011172020290" style="zoom:50%;" />
+   <img src="./Figures/image-20231011172020290.png" alt="image-20231011172020290" width="680px" />
 
 3. [Radiation Modes in FRB 20220912A Microshots and a Crab PSR nanoshot](https://arxiv.org/abs/2310.06173)
 
@@ -154,7 +154,7 @@
 
    历史上第二亮的GRB GRB230307A，具有能量依赖的快速上升指数衰减（FRED）特征的单宽脉冲形状。对其分析表明其宽脉冲是由许多快速变化的短脉冲组成的，而不是许多短脉冲叠加在一个慢分量上。这一特征与ICMART图像是一致的。
    
-   <img src="Figures/image-20231013021838167.png" alt="image-20231013021838167" style="zoom:50%;" />
+   <img src="./Figures/image-20231013021838167.png" alt="image-20231013021838167" width="680px" />
 
 ## 2023-10-13
 
@@ -164,7 +164,7 @@
 
    探测到`SN 2022jli`，一颗剥离包络型超新星，衰减光变曲线有12.4天的周期性振荡，晚期光谱中检测到$H\alpha$发射，并有周期性的速度偏移，表明这是一颗双星系统中的大质量恒星发生的爆发。
 
-   <img src="Figures/image-20231013204911997.png" alt="image-20231013204911997" style="zoom:50%;" />
+   <img src="./Figures/image-20231013204911997.png" alt="image-20231013204911997" width="680px" />
 
 ## 2023-10-16
 
@@ -180,7 +180,7 @@
 
    看到M87黑洞喷流方向以11年的准周期发生偏移。
 
-   <img src="Figures/image-20231016163142371.png" alt="image-20231016163142371" style="zoom:50%;" />
+   <img src="./Figures/image-20231016163142371.png" alt="image-20231016163142371" width="680px" />
 
 3. [Methods for Averaging Spectral Line Data](https://arxiv.org/abs/2310.09076)
 
@@ -206,7 +206,7 @@
 
    筛选CHIME中低色散（$<100\,\rm pc/cm^3$）和高银纬（$>10^\circ$）中的非重复暴，与红移在$0.027-0.071$之间中等以上恒星形成率的星系进行交叉匹配，根据CHIME对4个非重复FRB 20181223C、20190418A、20191220A和20190425A的基带定位，发现这些FRB的宿主星系都是螺旋星系，认为超新星是形成FRB的主要渠道。并据此推断，在局域宇宙中，重复和非重复FRB的宿主性质没有差别，且这4个非重复FRB的事件率与CHIME对重复暴采样的事件率是一致的，因此鼓励后续观测。
 
-   <img src="Figures/image-20231018003952946.png" alt="image-20231018003952946" style="zoom:50%;" />
+   <img src="./Figures/image-20231018003952946.png" alt="image-20231018003952946" width="680px" />
 
 3. [Is the M81 Fast Radio Burst Host Globular Cluster Special?](https://arxiv.org/abs/2310.10328)
 
@@ -218,7 +218,7 @@
    $$
    其中$\rho$是星团恒星密度，$\sigma$是星团恒星速度弥散，$V$是星团体积。
 
-   <img src="Figures/image-20231018004428158.png" alt="image-20231018004428158" style="zoom:50%;" />
+   <img src="./Figures/image-20231018004428158.png" alt="image-20231018004428158" width="680px" />
 
 ## 2023-10-18
 
@@ -228,7 +228,7 @@
 
    用JWST的近红外探测器`G395H`对岩质行星`GJ 1132 b`进行的两次凌日观测，第一次观测符合以H2O为主的大气层，第二次观测与无特征光谱一致。没有发现两次观测之间的仪器的系统效应，最合理的解释是随机噪声采样导致了两种观测结果。认为JWST研究行星大气需要重复观测。
 
-   <img src="Figures/image-20231018133230349.png" alt="image-20231018133230349" style="zoom:50%;" />
+   <img src="./Figures/image-20231018133230349.png" alt="image-20231018133230349" width="680px" />
 
 ## 2023-10-19
 
@@ -256,7 +256,7 @@
 
    介绍如何实施机器学习模型并以确保结果准确性、研究结果可重现性和方法的实用性的方式报告它们的结果。
 
-   <img src="Figures/image-20231020210921885.png" alt="image-20231020210921885" style="zoom:50%;" />
+   <img src="./Figures/image-20231020210921885.png" alt="image-20231020210921885" width="680px" />
 
 ## 2023-10-23
 
@@ -266,7 +266,7 @@
 
    用Transformer ViT从DESI的DR1中搜寻低表面亮度星系（LSBGs, fainter than the night sky，在理解星系演化和宇宙学模型方面起着至关重要的作用），找到了4083个新的LSBG，发现与星系团中心的LSBG相比，星系团边缘的LSBG越来越蓝，体积也越来越大。
 
-   <img src="Figures/image-20231023174918882.png" alt="image-20231023174918882" style="zoom:50%;" />
+   <img src="./Figures/image-20231023174918882.png" alt="image-20231023174918882" width="680px" />
 
 ## 2023-10-24
 
@@ -284,7 +284,7 @@
 
    获取银河系YSO星团的三维速度，模拟YSO-分子云在星系势中的运动。结论是，星系的剪切将分子云拉伸成星系尺度的细丝，恒星反馈造成的膨胀为ISM注入了特殊的速度。同时认为Radcliffe Wave也是这么形成的。
 
-   <img src="Figures/image-20231025001651474.png" alt="image-20231025001651474" style="zoom:50%;" />
+   <img src="./Figures/image-20231025001651474.png" alt="image-20231025001651474" width="680px" />
 
 ## 2023-10-25
 
@@ -308,7 +308,7 @@
    $$
    其中$P_i(\theta_j)$是第$i$次曝光的第$j$个区间的$\theta$数量，$\bar P(\theta_j)$是所有曝光中第$j$个区间$\theta$的平均值。
 
-   <img src="Figures/image-20231025221218123.png" alt="image-20231025221218123" style="zoom:50%;" />
+   <img src="./Figures/image-20231025221218123.png" alt="image-20231025221218123" width="680px" />
 
 2. [Tully-Fisher relation](https://arxiv.org/abs/2310.16053)
 
@@ -330,7 +330,7 @@
 
    对CHIME的爆发做P-Pdot折叠，发现可能存在一点周期导数，认为长自转是导致周期的原因。但这样无法解释RM变化，于是引入一个中子星伴星，预测RM是周期性变化的。
 
-   <img src="Figures/image-20231026180147649.png" alt="image-20231026180147649" style="zoom:50%;" />
+   <img src="./Figures/image-20231026180147649.png" alt="image-20231026180147649" width="680px" />
 
 2. [Deep machine learning for meteor monitoring: advances with transfer learning and gradient-weighted class activation mapping](https://arxiv.org/abs/2310.16826)
 
@@ -338,7 +338,7 @@
 
    用ResNet34对相机图像进行分类，找其中含有流星的帧，用Grad-CAM（通过将最后一个卷积层的激活度与该卷积层特征图的梯度平均值相乘，来帮助识别感兴趣的区域）来确定流星的位置。
 
-   <img src="Figures/image-20231026180334148.png" alt="image-20231026180334148" style="zoom:50%;" />
+   <img src="./Figures/image-20231026180334148.png" alt="image-20231026180334148" width="680px" />
 
 ## 2023-10-27
 
@@ -348,7 +348,7 @@
 
    分析CHIME在2020年到2022年探测到SGR 1935的5个射电爆发。用贝叶斯对这些爆发建模，证实2020年4月的爆发，射电成分先于高能对应物的对应峰值出现。2022年10月的爆发于X射线爆发同时，并且于GBT探测到的射电爆发到达时间一致。估计了SGR 1935的FRB类事件率$0.005^{+0.082}_{-0.004}个/天$，高于$10\,\rm kJy\,ms$的流量。
 
-   <img src="Figures/image-20231028000817054.png" alt="image-20231028000817054" style="zoom:50%;" />
+   <img src="./Figures/image-20231028000817054.png" alt="image-20231028000817054" width="680px" />
 
 ## 2023-10-30
 
@@ -358,7 +358,7 @@
 
    用`Mask R-CNN`识别木卫二断裂冰层区域的冰块，和土卫六上的云层，用于识别有趣的图像，减少卫星数据传输量。
 
-   <img src="Figures/image-20231030220322795.png" alt="image-20231030220322795" style="zoom:50%;" />
+   <img src="./Figures/image-20231030220322795.png" alt="image-20231030220322795" width="680px" />
 
 ## 2023-10-31
 
@@ -374,7 +374,7 @@
 
    用符号回归+随机森林，找星系-黑洞质量共同演化的方程。
 
-   <img src="Figures/image-20231101234302350.png" alt="image-20231101234302350" style="zoom:50%;" />
+   <img src="./Figures/image-20231101234302350.png" alt="image-20231101234302350" width="680px" />
 
 3. [Investigating scaling relations in X-ray reverberating AGN using symbolic regression](https://arxiv.org/abs/2310.18584)
 

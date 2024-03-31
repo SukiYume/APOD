@@ -11,7 +11,7 @@
 
    全天空覆盖将使人们深入了解导致成功的相对论喷流，而不是冲击爆发事件，或核心坍缩超新星喷流完全失败的条件。
 
-   <img src="Figures/image-20230901191641035.png" alt="image-20230901191641035" style="zoom:50%;" />
+   <img src="./Figures/image-20230901191641035.png" alt="image-20230901191641035" width="680px" />
 
 2. [Automatic conversion of Pop music into chiptunes for 8-bit pixel art](https://github.com/LemonATsu/pop-to-8bit)
 
@@ -55,7 +55,7 @@
 
    这些数值意味着其位于海王星沙漠（距离恒星很近缺少海王星大小的区域）的中间位置，重元素在其质量中占主导地位。它可能是数次原行星碰撞的结果，也可能是高偏心率行星的最终状态。
 
-   <img src="Figures/image-20230906235845933.png" alt="image-20230906235845933" style="zoom:50%;" />
+   <img src="./Figures/image-20230906235845933.png" alt="image-20230906235845933" width="680px" />
 
 ## 2023-09-07
 
@@ -83,7 +83,7 @@
 
    这里发现的是一个X射线光变，表现出几周的准周期爆发。
 
-   <img src="Figures/image-20230907164151043.png" alt="image-20230907164151043" style="zoom:50%;" />
+   <img src="./Figures/image-20230907164151043.png" alt="image-20230907164151043" width="680px" />
 
 ## 2023-09-08
 
@@ -93,7 +93,7 @@
 
    Residual-to-Residual DNN series for high-Dynamic range imaging，用于干涉阵成像。
 
-   <img src="Figures/image-20230908155433346.png" alt="image-20230908155433346" style="zoom:50%;" />
+   <img src="./Figures/image-20230908155433346.png" alt="image-20230908155433346" width="680px" />
 
 ## 2023-09-11
 
@@ -141,7 +141,7 @@
 
    报告帕克太阳探测器在千米波段探测到太阳III型暴的基波谐波对。
 
-   <img src="Figures/image-20230913225833261.png" alt="image-20230913225833261" style="zoom:50%;" />
+   <img src="./Figures/image-20230913225833261.png" alt="image-20230913225833261" width="680px" />
 
 4. [AstroLLaMA: Towards Specialized Foundation Models in Astronomy](https://arxiv.org/abs/2309.06126)
 
@@ -189,7 +189,7 @@
 
    在`Kilodegree Automatic Transient Survey`的数据上用VitTransformer分类变源。输入两帧图像，输出是变源的概率。每一帧图像由参考图像、当前帧图像和残差图像拼成。
 
-   <img src="Figures/image-20230919142516528.png" alt="image-20230919142516528" style="zoom:50%;" />
+   <img src="./Figures/image-20230919142516528.png" alt="image-20230919142516528" width="680px" />
 
    后面还做测试，将三帧图像两两计算并输出是变源的概率，会得到三个概率，三局两胜，可以进一步提高分类准确性。代码在[这里](https://github.com/TimeDevBlocker/TransientViT)，是新疆星明天文台的一个项目。
 
@@ -199,7 +199,7 @@
 
    用别人已经训练好的星系分类CNN模型，做DESI星系图像特征提取，用PCA降维后，用isolation forest做异常检测。发现如果只用异常检测结果不会很好，还需要加上主动学习。找到8个强透镜源，1609个星系并合源以及18个从未识别的异常形态的源。
 
-   <img src="Figures/image-20230919153927491.png" alt="image-20230919153927491" style="zoom:50%;" />
+   <img src="./Figures/image-20230919153927491.png" alt="image-20230919153927491" width="680px" />
 
 3. [Fast Radio Bursts: Electromagnetic Counterparts to Extreme Mass Ratio Inspirals](https://arxiv.org/abs/2309.09448)
 
@@ -215,7 +215,7 @@
 
    用`Otsu's thresholding method`从光变曲线中变化的成分。
 
-   <img src="Figures/image-20230921194908914.png" alt="image-20230921194908914" style="zoom:50%;" />
+   <img src="./Figures/image-20230921194908914.png" alt="image-20230921194908914" width="680px" />
 
 ## 2023-09-21
 
@@ -225,7 +225,7 @@
 
    基于Galaxy Zoo公民投票的星系分类结果训练分类模型，用于DESI中的星系分类，代码在[这里](https://github.com/mwalmsley/zoobot)，目录在[这里](https://zenodo.org/record/8360385)。
 
-   <img src="Figures/image-20230921195826412.png" alt="image-20230921195826412" style="zoom:50%;" />
+   <img src="./Figures/image-20230921195826412.png" alt="image-20230921195826412" width="680px" />
 
 ## 2023-09-22
 
@@ -258,7 +258,7 @@
 
    CHIME探测到的非重复暴之后有新的爆发探测会被归类为重复暴，随着 CHIME 运行时间的增加，非重复FRB的探测率下降。因此认为FRB的理论模型需要包含这些低重复率的FRB。
 
-   <img src="Figures/image-20230926210741383.png" alt="image-20230926210741383" style="zoom:50%;" />
+   <img src="./Figures/image-20230926210741383.png" alt="image-20230926210741383" width="680px" />
 
 2. [Periodic Variable Star Classificaion with Deep Learning: Handling Data Imbalance in an Ensemble Augmentation Way](https://arxiv.org/abs/2309.13629)
 
@@ -274,7 +274,7 @@
 
    `Astro-COLIBRI`是一个用于提醒用户世界各地天文台新发现的暂现源，包括超新星、GRB、GW等。有手机App。
 
-   <img src="Figures/image-20230928161148732.png" alt="image-20230928161148732" style="zoom:50%;" />
+   <img src="./Figures/image-20230928161148732.png" alt="image-20230928161148732" width="680px" />
 
 ## 2023-09-28
 
@@ -284,7 +284,7 @@
 
    用炒菜锅做天线接收HI信号。在B站上也有[从零开始的射电天文](https://www.bilibili.com/video/BV1Sh411b7fV/)低成本实现射电望远镜接收HI信号。
 
-   <img src="Figures/image-20230928161459773.png" alt="image-20230928161459773" style="zoom:50%;" />
+   <img src="./Figures/image-20230928161459773.png" alt="image-20230928161459773" width="680px" />
 
 ## 2023-09-29
 
@@ -294,4 +294,4 @@
 
    从恒星光变曲线推断恒星参数，如表面重力等。之前的工作主要从光变曲线的功率谱进行分析，或者用CNN从光变曲线推断恒星属性。但CNN只能提取短程关联，为此，使用Transformer来从光变曲线提取恒星参数。
 
-   <img src="Figures/image-20230930003912155.png" alt="image-20230930003912155" style="zoom:50%;" />
+   <img src="./Figures/image-20230930003912155.png" alt="image-20230930003912155" width="680px" />

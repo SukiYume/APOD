@@ -4,7 +4,7 @@
 
    使用高红移FRB的DM约束氢再电离历史，测量再电离光深$\tau$。在宇宙历史的前10亿年（红移$z>5$）中产生的100个FRB将$\tau$的精度约束到11%，再电离的中点`midpoint of reionization`约束到6%，1000个将精度提高到9%和3%。
 
-   <img src="Figures/image-20210802165546976.png" alt="image-20210802165546976" style="zoom:50%;" />
+   <img src="./Figures/image-20210802165546976.png" alt="image-20210802165546976" width="680px" />
 
 2. [Machine Learning of Interstellar Chemical Inventories](https://arxiv.org/abs/2107.14610)
 
@@ -12,11 +12,11 @@
 
    通过无监督机器学习把分子表示成多维矢量，通过对这个矢量观测实现天体的化学成分识别。有监督的回归可以再现整个化学库的丰度并预测尚未看到的分子的丰度。
 
-   <img src="Figures/image-20210802202427345.png" alt="image-20210802202427345" style="zoom:50%;" />
+   <img src="./Figures/image-20210802202427345.png" alt="image-20210802202427345" width="680px" />
 
    开发的库在[这里](https://github.com/laserkelvin/umda)，将其应用到`金牛座分子云`中，结果如下图。
 
-   <img src="Figures/image-20210802193154547.png" alt="image-20210802193154547" style="zoom:50%;" />
+   <img src="./Figures/image-20210802193154547.png" alt="image-20210802193154547" width="680px" />
 
 ## 2021-08-03
 
@@ -30,23 +30,23 @@
 
    样本中只有12对天体在过去两万年之间显示出收敛的趋，这与五六千年前一个大天体的分裂吻合，导致2P/Encke、几个和TC相关的NEA是s和现在金牛座的TF。
 
-   <img src="Figures/image-20210803134249537.png" alt="image-20210803134249537" style="zoom:50%;" />
+   <img src="./Figures/image-20210803134249537.png" alt="image-20210803134249537" width="680px" />
 
 3. [Touching the Stars: Using High-Resolution 3D Printing to Visualize Stellar Nurseries](https://arxiv.org/abs/2108.00014)
 
    使用`ENZO adaptive mesh refinement (AMR) code`模拟分子云形态，使用3D打印打印出分子云的三维结构，在九种不同的情况下：`真实分子云“正常”物理参数`、`低马赫数`、`高马赫数`、`低阿尔芬马赫数`、`高阿尔芬马赫数`、`低维里系数`、`高维里参数`、`纯solenoidal湍流`、`纯压缩湍流`。
 
-   <img src="Figures/image-20210803141027768.png" alt="image-20210803141027768" style="zoom:50%;" />
+   <img src="./Figures/image-20210803141027768.png" alt="image-20210803141027768" width="680px" />
 
 4. [A Machine-Learning-Based Direction-of-Origin Filter for the Identification of Radio Frequency Interference in the Search for Technosignatures](https://arxiv.org/abs/2108.00559)
 
    传统识别射频干扰的方法主要是起源方向过滤器`DoO`，如果一个信号在天空的多个方向被检测到，根据频率和频率漂移率，将信号归类为RFI。使用CNN来检测在一次扫描中出现的信号是否也存在与另一个扫描中。CNN将经过传统`DoO`方法处理后仍需人工检查的数量减少了6-16倍。
 
-   <img src="Figures/image-20210803142004529.png" alt="image-20210803142004529" style="zoom:50%;" />
+   <img src="./Figures/image-20210803142004529.png" alt="image-20210803142004529" width="680px" />
 
 5. [An 8% Determination of the Hubble Constant from localized Fast Radio Bursts](https://arxiv.org/abs/2108.00581)
 
-   使用FRB测量哈勃常数。假设$DM_{host}$是`LogNormal`分布，计算$DM_{IGM}$​。王发印的无用工作。
+   使用FRB测量哈勃常数。假设$DM_{host}$是`LogNormal`分布，计算$DM_{IGM}$​。
    $$
    DM_{IGM}=\frac{3cH_0\Omega_b f_{IGM}}{8\pi Gm_p}\int_0^z\frac{\chi(z)(1+z)}{\sqrt{\Omega_m(1+z)^3+\Omega_\Lambda}}dz
    $$
@@ -63,7 +63,7 @@
 
    闪烁是由多路径传播引起的图像之间的干扰造成的，可以用来探测散射等离子体以及辐射源和散射屏的速度。使用`uGMRT`和`Effelsberg`观测FRB20201124A，时间接近的暴有类似的闪烁模式，通过关联这样的爆发对，可以测量闪烁的时间尺度。
 
-   <img src="Figures/image-20210803150252946.png" alt="image-20210803150252946" style="zoom:50%;" />
+   <img src="./Figures/image-20210803150252946.png" alt="image-20210803150252946" width="680px" />
 
    结果显示了各向异性的散射方向，并推断出闪烁速度为$VISS\approx(62\pm7)\sqrt{dl/2kpc}\ km/s$​​。
 
@@ -73,13 +73,13 @@
 
    使用`ELISa`生成双星的光变曲线，两类 - `detached`和`over-contact`，使用`LSTM+一维CNN`做分类。
 
-   <img src="Figures/image-20210804181237403.png" alt="image-20210804181237403" style="zoom:50%;" />
+   <img src="./Figures/image-20210804181237403.png" alt="image-20210804181237403" width="680px" />
 
 2. [Characterizing the FRB host galaxy population and its connection to transients in the local and extragalactic Universe](https://arxiv.org/abs/2108.01282)
 
    `FRB20180301A `被`Karl G. Jansky Very Large Array`探测并定位到$z=0.3304$​​​的一个恒星形成星系。`FRB20191228A`和`FRB20200906A`被`ASKAP`发现并定位在$z=0.2430$和$z=0.3688$​​两个宿主星系。结合之前定位的13个FRB，分析宿主星系特性，发现重复暴和非重复暴的宿主星系没有明显区别。FRB的宿主星系是中等恒星形成，质量略偏离恒星形成主序。
 
-   <img src="Figures/image-20210804182548140.png" alt="image-20210804182548140" style="zoom:50%;" />
+   <img src="./Figures/image-20210804182548140.png" alt="image-20210804182548140" width="680px" />
 
    恒星形成和低电离核发射线区（`LINER`）发射是FRB宿主星系电离的主要来源，FRB的空间偏移（与星系有效半径成正比）与晚期和早期星系中的球状星团（GCs）的空间偏移大多不同。
 
@@ -87,9 +87,12 @@
 
    使用14个有红移和Scatter时标的FRB，来估计`星系间介质`、`星系晕`和`宿主星系盘`对`DM`和`Scatter`的贡献。`散射`由`宿主星系`主导，使得散射时标可以用来估计`宿主星系的DM`，也可以用来估计散射-色散的`综合红移`。
    $$
-   \tau(DM_{\mathfrak l}, \nu, z_{\mathfrak l}, z_s)\simeq0.48ms\times\frac{A_r\tilde FG(z_{\mathfrak l}, z_s)DM_{\mathfrak l, 100}^2}{\nu^4(1+z_{\mathfrak l}^3)} \qquad G=\frac{\int_{layer}ds\ s(1-s/d)}{\int_{host}ds\ s(1-s/d)}\approx\frac{2d_{sl}d_{lo}}{Ld_{so}}
+   \begin{aligned}
+   &\tau(DM_{\mathfrak l}, \nu, z_{\mathfrak l}, z_s)\simeq0.48ms\times\frac{A_r\tilde FG(z_{\mathfrak l}, z_s)DM_{\mathfrak l, 100}^2}{\nu^4(1+z_{\mathfrak l}^3)}\\
+   &G=\frac{\int_{layer}ds\ s(1-s/d)}{\int_{host}ds\ s(1-s/d)}\approx\frac{2d_{sl}d_{lo}}{Ld_{so}}
+   \end{aligned}
    $$
-   <img src="Figures/image-20210804210701681.png" alt="image-20210804210701681" style="zoom:50%;" />
+   <img src="./Figures/image-20210804210701681.png" alt="image-20210804210701681" width="680px" />
 
    假定宿主星系$DM=50pc\ cm^{-3}$的情况下，只用DM估计的红移偏差为0.1，综合红移估计偏差小4-10倍。
 
@@ -107,9 +110,9 @@
 
    研究了2014年10月的10个`confined flare events`耀斑事件，发现这些事件与延伸到9.4-15.4GHz的`microwave continuum burst `有关，这些事件的峰值频率高于4.995GHz，低于17GHz，中值9GHz，`没有`探测到能量超过300KeV的硬X射线，说明这种耀斑事件中缺乏有效的使电子加速到高能的方式。
 
-   <img src="Figures/image-20210806145738123.png" alt="image-20210806145738123" style="zoom:50%;" />
+   <img src="./Figures/image-20210806145738123.png" alt="image-20210806145738123" width="680px" />
 
-   <img src="Figures/image-20210806145753361.png" alt="image-20210806145753361" style="zoom:50%;" />
+   <img src="./Figures/image-20210806145753361.png" alt="image-20210806145753361" width="680px" />
 
 ## 2021-08-09
 
@@ -117,7 +120,7 @@
 
    使用单一的`satellite-to-planet mass ratio`参数，来实现系外卫星的折叠搜索（本应是折叠两次，行星一次、卫星一次）。应用在`Kepler-973b`上，表现出8分钟的 `transit timing variations，TTV`，并且TTV是单个行星导致的可能性被排除，卫星上限是`Ganymede-sized`。
 
-   <img src="Figures/image-20210809212202846.png" alt="image-20210809212202846" style="zoom:50%;" />
+   <img src="./Figures/image-20210809212202846.png" alt="image-20210809212202846" width="680px" />
 
 ## 2021-08-10
 
@@ -129,7 +132,7 @@
 
    SGR1935在2020年看到一个FRB，在这之前`Switft-BAT` 、`H.E.S.S.`和`INTEGRAL`看到了X射线暴。
 
-   <img src="Figures/image-20210810204902164.png" alt="image-20210810204902164" style="zoom:50%;" />
+   <img src="./Figures/image-20210810204902164.png" alt="image-20210810204902164" width="680px" />
 
 ## 2021-08-11
 
@@ -137,17 +140,17 @@
 
    选取Gaia赫罗图上`主序以下`的，ZTF光变曲线中表现出椭圆`光变`，轨道`周期小于6个小时`的恒星系统，有`51`个亮于18等的。
 
-   <img src="Figures/image-20210811150305921.png" alt="image-20210811150305921" style="zoom:50%;" />
+   <img src="./Figures/image-20210811150305921.png" alt="image-20210811150305921" width="680px" />
 
    获得了21个系统的`many-epoch spectra`，确认了他们都是在洛希瓣有填充物的双星。其中13个正在进行质量转移，8个可能刚刚停止。大多数的次星都比已知的灾变变星（CVs）温度更高，并且温度高于7000K的次星似乎已经`detached`，冷的次星仍在进行质量转移。
 
-   <img src="Figures/image-20210811143103376.png" alt="image-20210811143103376" style="zoom:50%;" />
+   <img src="./Figures/image-20210811143103376.png" alt="image-20210811143103376" width="680px" />
 
 2. [WALLABY Pre-Pilot Survey: HI Content of the Eridanus Supergroup](https://arxiv.org/abs/2108.04410)
 
    使用ASKAP的L波段全天盲搜`WALLABY`观测波江座`Eridanus`的超星系群，发现了51个HI源，其中12个是背景星系。所有探测到的星系中都存在扭曲的HI形态，表明正在进行潮汐相互作用，大多数都在形成恒星。并且这些星系不遵循`原子气体分数`与`恒星质量`之间的一般趋势，表明比例关系随着环境密度的变化而变化。有个3D模型，在[这里](https://sketchfab.com/3d-models/wallaby-eridanus-supergroup-vs-cf3-density-2d92e8a9f4b74f4293d9fabb9a6e73b3)。
 
-   <img src="Figures/image-20210811152301754.png" alt="image-20210811152301754" style="zoom:50%;" />
+   <img src="./Figures/image-20210811152301754.png" alt="image-20210811152301754" width="680px" />
 
 3. [Observational effects of banded repeating FRBs](https://arxiv.org/abs/2108.04474)
 
@@ -161,13 +164,13 @@
 
    使用脉冲星计时阵，如`NANOGrav`，`EPTA`，`PPTA`探测随机引力波背景（SGWB）。在广义相对论中，`Hellings-Downs`曲线用来描述两颗脉冲星的信号到达时间和之间角度的关系。文章计算了`analogous overlap reduction function`，包括了`偏振`和`引力子质量`的修正，与HD曲线进行比较。主要结果就是模拟HD曲线的完整分析形式，为未来探测引力波做准备。
 
-   <img src="Figures/image-20210812174957557.png" alt="image-20210812174957557" style="zoom:50%;" />
+   <img src="./Figures/image-20210812174957557.png" alt="image-20210812174957557" width="680px" />
 
 2. [Clean catalogues of blue horizontal-branch stars using Gaia EDR3](https://arxiv.org/abs/2108.05172)
 
    水平支`Blue horizontal-branch`的恒星非常古老，可以用来研究银河系结构和形成历史。使用Gaia EDR3的数据和已有的水平支恒星目录交叉匹配，获得Gaia下的筛选标准。
 
-   ```mysql
+   ```sql
    # 使用parallax筛选
    SELECT * FROM gaiaedr3.gaia_source
    WHERE parallax_over_error > 5 AND parallax > 0
@@ -204,21 +207,21 @@
 
    ASKAP上的变星和缓变暂现源巡天`Variables and Slow Transients Survey (VAST) `旨在探测光变时间尺度为`5s ~ 5y`的射电源。文章介绍VAST第一阶段（2019.8-2020.8，在888MHz的中心频率下进行的，162小时）的观测和初步结果，$RMS=0.24mJy/beam$，角分辨率$12-20arcsec$​​，观测了113个`field`，每个`field`观测的整合时间是12分钟，重复5-13次，间隔1天到8个月。巡天面积5131平方度，发现了28个变源，7个是一致的脉冲星，7个是恒星，4个是以前没有报道的源。剩下的14个源，2个是活动星系和，6个与星系有关，6个没有多波段的对应体，无法确定。
 
-   <img src="Figures/image-20210816162732329.png" alt="image-20210816162732329" style="zoom:50%;" />
+   <img src="./Figures/image-20210816162732329.png" alt="image-20210816162732329" width="680px" />
 
 2. [First Frequency-Time-Resolved Imaging Spectroscopy Observations of Solar Radio Spikes](https://arxiv.org/abs/2108.06191)
 
    `Solar Radio Spikes`持续时间短、窄带宽、在GHz-MHz的精细结构，表明在日冕中存在着亚秒量级的小规模能量释放，起源不知。
 
-   <img src="Figures/image-20210816165037609.png" alt="image-20210816165037609" style="zoom:50%;" />
+   <img src="./Figures/image-20210816165037609.png" alt="image-20210816165037609" width="680px" />
 
-   <img src="Figures/image-20210816165046755.png" alt="image-20210816165046755" style="zoom:50%;" />
+   <img src="./Figures/image-20210816165046755.png" alt="image-20210816165046755" width="680px" />
 
 3. [Canis Major OB1 stellar groups contents revealed by Gaia](https://arxiv.org/abs/2108.06234)
 
    使用[HDBSCAN](https://hdbscan.readthedocs.io/en/latest/)对大犬座OB1`CMa OB1`附近的恒星聚类，用等龄线拟合不同的星团。几个年轻的星团CMa05、CMa06、CMa07和CMa08，被证实是CMa OB1的一部分。这些星团很符合单一场景的恒星形成，有一个共同的形成机制，并且遭受了多次恒星形成的事件。
 
-   <img src="Figures/image-20210816165836930.png" alt="image-20210816165836930" style="zoom:50%;" />
+   <img src="./Figures/image-20210816165836930.png" alt="image-20210816165836930" width="680px" />
 
 4. [Ghosts without runaway](https://arxiv.org/abs/2108.06294)
 
@@ -238,7 +241,7 @@
 
    文章表明，如果时间序列是`non-stationary`的，QPO的程度会被高估，如果QPO只存在于时间序列中的一部分，而噪声水平在整个时间序列中是变化的，就会出现这种影响，像下图这样。
 
-   <img src="Figures/image-20210818170402359.png" alt="image-20210818170402359" style="zoom:50%;" />
+   <img src="./Figures/image-20210818170402359.png" alt="image-20210818170402359" width="680px" />
 
    文章证实了以前报道的太阳耀斑数据的结果中存在这种偏差，最后提出一些建议，帮助识别一个分析是否收到这种偏差的影响。
 
@@ -248,7 +251,7 @@
 
    如果快速射电暴在磁星磁层内部发射，必须与外磁层中半径为$10^9-10^{10}\ cm$的低密度等离子体相互作用。这个区域散射截面很大，FRB会压缩磁层，能量就被场和散射吸收。散射光可以到$\gamma$波段，引发$e^{\pm}$`avalanche`，进一步增加不透明度，使FRB的辐射无法释放出来。排除了半径$R\ll10^{10}\ cm$的发射。
 
-   <img src="Figures/image-20210819173801968.png" alt="image-20210819173801968" style="zoom:50%;" />
+   <img src="./Figures/image-20210819173801968.png" alt="image-20210819173801968" width="680px" />
 
 ## 2021-08-20
 
@@ -262,7 +265,7 @@
 
    认为FRB180916的周期与进动`precession period`有关，射电辐射由进动的喷流产生。由`disk`驱动的模型需要很小的`viscous parameter`，$\alpha\le10^{-8}$，意味着这个模型不可信。由`潮汐力`驱动的模型，考虑由中子星和白矮星组成的双星系统，正在发生质量转移。由于盘面和轨道面之间的夹角，白矮星的潮汐力驱动喷流的进动。相关的进动大概是几天到几百天，取决于吸积率和成分质量。
 
-   <img src="Figures/image-20210824010033098-16301489878881.png" alt="image-20210824010033098" style="zoom:50%;" />
+   <img src="./Figures/image-20210824010033098-16301489878881.png" alt="image-20210824010033098" width="680px" />
 
 2. [FAST early pulsar discoveries: Effelsberg follow-up](https://arxiv.org/abs/2108.09121)
 
@@ -276,7 +279,7 @@
    $$
    \left[\begin{matrix}
    I'\\Q'\\U'\\V'
-   \end{matrix}\right] = 
+   \end{matrix}\right] =
    \left[\begin{matrix}
    1&0&0&0\\
    0&cos\theta&0&sin\theta\\
@@ -293,13 +296,13 @@
    \end{matrix}\right]\\
    \Phi(\lambda)=\Phi_0+GRM(\lambda^\alpha-\lambda_0^\alpha)
    $$
-   <img src="Figures/image-20210825005924036-16301489878882.png" alt="image-20210825005924036" style="zoom:50%;" />
+   <img src="./Figures/image-20210825005924036-16301489878882.png" alt="image-20210825005924036" width="680px" />
 
 2. [New continuum and polarization observations of the Cygnus Loop with FAST](https://arxiv.org/abs/2108.09631)
 
    使用FAST看`Cygnus Loop supernova remnant`的连续谱和偏振。观测结果以前的观测结果一致，验证数据校准程序。还获得了8个银河系外源的RM，证明宽频覆盖有助于克服RM测定的模糊性。
 
-   <img src="Figures/image-20210825010254614-16301489878883.png" alt="image-20210825010254614" style="zoom:50%;" />
+   <img src="./Figures/image-20210825010254614-16301489878883.png" alt="image-20210825010254614" width="680px" />
 
 3. [Estimating the contribution of foreground halos to the FRB 180924 dispersion measure](https://arxiv.org/abs/2108.09881)
 
@@ -309,7 +312,7 @@
 
    宇宙光学背景`COB`和宇宙近红外背景`CNIRB`的各向异性能够解决宇宙学中的一些关键问题。文章模拟了CSST的超深场`CSST-UDF`的COB和CNIRB的`角功率谱`。在$r\sim0.620\mu m$、$i\sim0.760\mu m$、$z\sim0.915\mu m$、$y\sim0.965\mu m$波段$5\sigma$的检测极限星等分别是28.3、28.2、27.6、26.7。
 
-   <img src="Figures/image-20210825012153085-16301489878885.png" alt="image-20210825012153085" style="zoom:50%;" />
+   <img src="./Figures/image-20210825012153085-16301489878885.png" alt="image-20210825012153085" width="680px" />
 
    生成模拟数据，合并图像并移除亮源，获得了$I=200-2000000$从角秒到度的角功率谱，用包含`intrahalo light (IHL)`的多参数模型拟合，对参数的约束提高了3-4倍。
 
@@ -329,7 +332,7 @@
 
    研究了一类新的宜居行星，有大量的海洋和富含$H_2$的大气，被称为`Hycean worlds`。研究了这种世界的主体属性（质量、半径和温度）、可居住性潜力以及可观测到的生物特征。于类地行星相比，海洋行星可能大得多，并且宜居带`habitable zone`也比类地行星宽。使用JWST可以很容易的检测到一些可能存在于冰洋大气中的微生物，这可以成为此类观测的理想目标。
 
-   <img src="Figures/image-20210826233831540-16301489878884.png" alt="image-20210826233831540" style="zoom:50%;" />
+   <img src="./Figures/image-20210826233831540-16301489878884.png" alt="image-20210826233831540" width="680px" />
 
 ## 2021-08-27
 
@@ -337,7 +340,7 @@
 
    磁性化学组成特殊星`Magnetic chemically peculiar，mCP`有非常复杂的大气层，可以研究原子扩散、磁场和恒星自转的相互作用，化学元素在其表面非均匀分布，旋转轴和磁轴的不一致，会导致观测数据的变化。测光可变的`mCP`被称为`alpha2 Canum Venaticorum，ACV`变星。光变曲线有特征如下
 
-   <img src="Figures/image-20210827162305113-16301489878886.png" alt="image-20210827162305113" style="zoom:50%;" />
+   <img src="./Figures/image-20210827162305113-16301489878886.png" alt="image-20210827162305113" width="680px" />
 
    不同的测光通带中的反相位变化，是ACV的一个独特特征。从ZTF的周期性变星目录中选择候选ACV变星，根据光变曲线筛选出86颗可能的ACV，其中15个有LAMOST光谱，这15个都被确认为ACV。这说明ZTF非常适合搜索ACV，然而现有的ZTF变星目录中没有考虑这一类变星。
 
@@ -347,7 +350,7 @@
 
    `FRB20181030A`是CHIME探测到的一个低DM的重复暴，$DM=103.5pc/cm^3$，使用基带数据定位在5.3角分的范围，确定`NGC 3252`是最可能的宿主星系，偶然重合的概率$<2.5\times10^{-3}$，红移因此为0.05。`NGC 3252`是一个正在形成的螺旋星系，距离`20Mpc`，估计PRS在3GHz的的亮度上限为$2\times10^{26}erg/s/Hz$，比121102暗1500倍。
 
-   <img src="Figures/image-20210830175131174.png" alt="image-20210830175131174" style="zoom:50%;" />
+   <img src="./Figures/image-20210830175131174.png" alt="image-20210830175131174" width="680px" />
 
 ## 2021-08-31
 
