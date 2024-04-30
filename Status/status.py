@@ -243,12 +243,12 @@ def show_values(axs, orient="v", space=.01):
         _single(axs)
 
 def plot_word_max(counter):
-    words_max = counter.most_common(20)
+    words_max = counter.most_common(10)
     words_max = pd.DataFrame({'word': [i[0] for i in words_max], 'count': [i[1] for i in words_max]})
     words_max.loc[:, 'count'] = words_max.loc[:, 'count'].astype(np.int64)
     plt.figure(figsize=(7, 3))
     ax = plt.subplot(111)
-    p = sns.barplot(words_max, x='word', y='count', hue='word', palette='Spectral')
+    p = sns.barplot(words_max, x='word', y='count', hue='word', palette=color_list)
     show_values(p)
     # font = FontProperties(fname=fname, size=9)
     plt.xticks(rotation=90)
