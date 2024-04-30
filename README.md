@@ -30,7 +30,7 @@ _✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since Decem
 <details open>
 <summary>Paper Cumulative Count</summary>
 </br>
-<div align="center"><img src="Status/Figure/ReadCount.png" alt="ReadCount" width="900px" /></div>
+<div align="center"><img src="./Status/Figure/ReadCount.png" alt="ReadCount" width="900px" /></div>
 </details>
 
 ## <div align="center">Word Frequency Statistics</div>
@@ -38,17 +38,17 @@ _✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since Decem
 <details open>
 <summary>KeyWord Frequency</summary>
 </br>
-<div align="center"><img src="Status/Figure/KeyCount.png" alt="KeyCount" width="900px"/></div>
+<div align="center"><img src="./Status/Figure/KeyCount.png" alt="KeyCount" width="900px"/></div>
 </details>
 
 <details open>
 <summary>KeyWord Cloud</summary>
 </br>
-<div align="center"><img src="Status/Figure/Keyword.png" alt="Keyword" width="900px"/></div>
+<div align="center"><img src="./Status/Figure/Keyword.png" alt="Keyword" width="900px"/></div>
 </details>
 
 <details open>
 </br>
 <summary>Content Segmentation</summary>
-<div align="center"><img src="Status/Figure/Content.png" alt="Content" width="900px" /></div>
+<div align="center"><img src="./Status/Figure/Content.png" alt="Content" width="900px" /></div>
 </details>
