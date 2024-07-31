@@ -100,7 +100,7 @@
 
    用贝叶斯信息准则`Bayesian information criterion, BIC`，检验CHIME/FRB与恒星形成历史之间是高斯/对数正态/幂律延迟。结论是对数正态延迟更好，FRB追踪SFH模型被否定。能量函数与红移无关，幂律指数为1.8。
 
-3. [An emission-state-switching radio transient with a 54-minute period](https://www.nature.com/articles/s41550-024-02277-w)
+3. [An emission state switching radio transient with a 54 minute period](https://arxiv.org/abs/2407.12266)
 
    > Pulsar, Transient, Observation
 
