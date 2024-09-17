@@ -1,6 +1,5 @@
 ## 2024-09-02
 
-<<<<<<< HEAD
 1. [Deep learning approach for identification of HII regions during reionization in 21-cm observations -- III. image recovery](https://arxiv.org/abs/2408.16814)
 
    > HI, Deep Learning
@@ -83,5 +82,61 @@
 
 ## 2024-09-16
 
-=======
->>>>>>> 22bfbc0efcb1bd248abb3ccd14fe88a1a2404ef6
+1. [A Radio Technosignature Search of TRAPPIST-1 with the Allen Telescope Array](https://arxiv.org/abs/2409.08313)
+
+   > Exoplanet, Astrobiology, SETI
+
+   地外智慧生命处于通信或者科学的目的，可能会向他们附近的其它行星发射雷达信号。因此，从地球上看那些行星-行星掩星（PPOs）系统，就有可能探测到这些信号的溢出。
+
+   使用窄带技术特征搜索代码[turboSETI](https://github.com/UCBerkeleySETI/turbo_seti)结合[NbeamAnalysis](https://github.com/SETIatHCRO/ATA-Utils/tree/master/NbeamAnalysis)信号过滤工具，从`Allen Telescope Array`望远镜阵列观在2022年10月底观测`TRAPPIST-1 `的0.9-9.3GHz的数据中找SETI信号，使用[NbodyGradient](https://github.com/Tusay/NbodyGradient.jl)预测行星-行星掩食的时刻，最后发现2264个信号在掩食窗口，但是没有非人类来源的信号。
+
+   <img src="./Figures/image-20240916223500581.png" alt="image-20240916223500581" width="680px" />
+
+## 2024-09-17
+
+1. [Kinematic study of the Orion Complex: Analysing the young stellar clusters from big and small structures](https://arxiv.org/abs/2409.09206)
+
+   > Stellar, Cluster, Orion, Kinematics
+
+   在Gaia DR3的5D运动学参数空间中，用HDBSCAN对Orion的恒星进行聚类，加入APOGEE和GALAH DR3的径向速度进行运动学分析，发现Orion OB1 association在膨胀，以及$\lambda$ Orion的膨胀。
+
+   <img src="./Figures/image-20240917191154244.png" alt="image-20240917191154244" width="680px" />
+
+2. [Minor planets, asteroids, comets and interplanetary dust within 30 au](https://arxiv.org/abs/2409.09540)
+
+   > Planetary Science, Solar, Asteroid
+
+   讨论小天体群（小行星、彗星、尘埃粒子）的形成和演化。
+
+   <img src="./Figures/image-20240917191407801.png" alt="image-20240917191407801" width="680px" />
+
+3. [Exploring the time variability of the Solar Wind using LOFAR pulsar data](https://arxiv.org/abs/2409.09838)
+
+   > Pulsar, DM, Solar
+
+   用脉冲星计时阵的DM数据测量太阳风。发现1AU处的电子密度与脉冲星的黄道纬度（ELAT）之间存在很强的相关性。$\left|{\rm ELAT}\right|<3^\circ$的脉冲星的平均电子密度明显更高。我们观察到不同脉冲星的电子密度具有不同的时间模式。
+
+   <img src="./Figures/image-20240917191746934.png" alt="image-20240917191746934" width="680px" />
+
+4. [The CRAFT Coherent (CRACO) upgrade I: System Description and Results of the 110-ms Radio Transient Pilot Survey](https://arxiv.org/abs/2409.10316)
+
+   > Transient, Instrument, Survey
+
+   CRACO是ASKAP升级的暂现源巡天，寻找FRB、脉冲星和超长周期天体（ULPO）。调试阶段的时间分辨率是110ms，消多个色散，然后在$空间\times时间\times色散$空间上做boxcar来找信号。发现了两个FRB、4个脉冲星和两个新的RRAT，并通过其子脉冲结构探测到了一个已知的 ULPO，GPM J1839-10。在110ms的灵敏度是11.6 Jy ms。
+
+   <img src="./Figures/image-20240917192435870.png" alt="image-20240917192435870" width="680px" />
+
+   CRACO目前的时间分辨率是13.8ms，预计2024年底之前做到1.7ms的时间分辨率，灵敏度为1.5 Jy ms，可以探测到比CRAFT多10倍的FRB，也即每天0.5-2个FRB。
+
+5. [Sherpa: An Open Source Python Fitting Package](https://arxiv.org/abs/2409.10400)
+
+   > Astronomy, Software
+
+   [Sherpa](https://github.com/sherpa/sherpa)是用于天文数据分析的工具，其中使用了各种统计和优化方法对数据进行拟合。
+
+   <img src="./Figures/image-20240917193141775.png" alt="image-20240917193141775" width="680px" />
+
+## 2024-09-18
+
+
+

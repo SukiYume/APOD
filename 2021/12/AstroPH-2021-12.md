@@ -38,11 +38,7 @@
 
 1. [Why haven't the observed high-frequency QPOs been produced by (MHD) computer simulations of black hole accretion disks?](https://arxiv.org/abs/2112.01415)
 
-<<<<<<< HEAD
    将[Wagoner & Tandon (2021)](https://iopscience.iop.org/article/10.3847/1538-4357/ac1868/meta)的一些预测与[Reynolds & Miller (2009)](https://iopscience.iop.org/article/10.1088/0004-637X/692/1/869/meta)的`MHD`数值模拟进行比较，看来，MHD模拟的运行时间不够长，数值阻尼也不够小，无法产生观察到的`高频QPOs`。
-=======
-   将[Wagoner & Tandon (2021)](https://iopscience.iop.org/article/10.3847/1538-4357/ac1868/meta)的一些预测与[Reynolds & Miller (2009)]()的`MHD`数值模拟进行比较，看来，MHD模拟的运行时间不够长，数值阻尼也不够小，无法产生观察到的`高频QPOs`。
->>>>>>> 22bfbc0efcb1bd248abb3ccd14fe88a1a2404ef6
 
 ## 2021-12-06
 
