@@ -152,11 +152,7 @@
 
    > ISM, Dust
 
-<<<<<<< HEAD
    [Dustribution](https://github.com/Thavisha/Dustribution)用高斯过程，根据Gaia DR2、2MASS和AllWISE的恒星消光和距离，建立太阳附近2.8kpc以内的全天[三维尘埃密度和消光图](https://www.mwdust.com)，数据在[这里](https://zenodo.org/records/11448780)。在可视化的网站中，有一个非常丝滑的三维data cube的展示，应该是用`three.js`自己实现的，也可以用在FAST数据的data cube的展示。
-=======
-   [Dustribution](https://github.com/Thavisha/Dustribution)用高斯过程，根据Gaia DR2、2MASS和AllWISE的恒星消光和距离，建立太阳附近2.8kpc以内的全天[三维尘埃密度和消光图](www.mwdust.com)，数据在[这里](https://zenodo.org/records/11448780)。在可视化的网站中，有一个非常丝滑的三维data cube的展示，应该是用`three.js`自己实现的，也可以用在FAST数据的data cube的展示。
->>>>>>> 22bfbc0efcb1bd248abb3ccd14fe88a1a2404ef6
 
    <img src="./Figures/poster_ar.webp" alt="img" width="680px" />
 
