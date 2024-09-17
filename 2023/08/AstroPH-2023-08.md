@@ -114,7 +114,11 @@
 
    <img src="./Figures/image-20230809165952609.png" alt="image-20230809165952609" width="680px" />
 
+<<<<<<< HEAD
    这个暂现源是在0.5s的时间切片里直接看到的，在VLA数据中也是，之所以之前没在VLA数据中探测到，是因为VLA的数据大多都是积分起来的，并没有做时间切片。下图展示了时间分辨率、色散和散射对探测的影响，纵坐标是光变的特征时标，当其小于时间分辨率时，探测不到，所以不需要做任何事情，斜实线上方表示色散带来的时间延迟短于光变时标，此时也不需要做任何事情，爆发可以直接被探测。点虚线上方表示散射时标短于光变时标，下方则探测不到。因此只有很小的一个参数空间需要消色散才能有所发现。 [scattering_delay_comparison.pdf](./Figures/scattering_delay_comparison.pdf)  [delay_scattering.py](./Figures/delay_scattering.txt)
+=======
+   这个暂现源是在0.5s的时间切片里直接看到的，在VLA数据中也是，之所以之前没在VLA数据中探测到，是因为VLA的数据大多都是积分起来的，并没有做时间切片。下图展示了时间分辨率、色散和散射对探测的影响，纵坐标是光变的特征时标，当其小于时间分辨率时，探测不到，所以不需要做任何事情，斜实线上方表示色散带来的时间延迟短于光变时标，此时也不需要做任何事情，爆发可以直接被探测。点虚线上方表示散射时标短于光变时标，下方则探测不到。因此只有很小的一个参数空间需要消色散才能有所发现。 [scattering_delay_comparison.pdf](Figures\scattering_delay_comparison.pdf)  [delay_scattering.py](Figures\delay_scattering.py) 
+>>>>>>> 22bfbc0efcb1bd248abb3ccd14fe88a1a2404ef6
 
    <img src="./Figures/image-20230809170326134.png" alt="image-20230809170326134" width="680px" />
 

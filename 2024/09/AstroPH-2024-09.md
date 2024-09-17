@@ -1,5 +1,6 @@
 ## 2024-09-02
 
+<<<<<<< HEAD
 1. [Deep learning approach for identification of HII regions during reionization in 21-cm observations -- III. image recovery](https://arxiv.org/abs/2408.16814)
 
    > HI, Deep Learning
@@ -82,3 +83,5 @@
 
 ## 2024-09-16
 
+=======
+>>>>>>> 22bfbc0efcb1bd248abb3ccd14fe88a1a2404ef6

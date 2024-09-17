@@ -49,7 +49,11 @@
 
    <img src="./Figures/image-20230602155645696.png" alt="image-20230602155645696" width="680px" />
 
+<<<<<<< HEAD
    <img src="./Figures/image-20240912220450811.png" alt="image-20240912220450811" width="680px" />
+=======
+   <img src="./Figures/image-20230602155723694.png" alt="image-20230602155723694" width="680px" />
+>>>>>>> 22bfbc0efcb1bd248abb3ccd14fe88a1a2404ef6
 
 5. [Morphological Classification of Radio Galaxies using Semi-Supervised Group Equivariant CNNs](https://arxiv.org/abs/2306.00031)
 
