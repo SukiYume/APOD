@@ -1,21 +1,21 @@
+<h1 align='center' class='h1-center'> Astro-PH of the Day (APOD) </h1>
+
 <div align="center">
 
-# Astro-PH of the Day (APOD)
-
-_✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since December 9, 2020. ✨_  
+_✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since December 9, 2020. ✨_
 
 <img src="https://counter.seku.su/cmoe?name=APOD&theme=r34" /><br>
 
 </div>
 
-<p align="center">
+<div style="display: flex; justify-content: center;">
   <a href="https://github.com/SukiYume/APOD">
     <img src="https://img.shields.io/badge/%E6%AF%8F%E6%97%A5%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86-APOD-da282a" alt="release">
-  </a>
+  </a> &nbsp; &nbsp;
   <a href="https://github.com/SukiYume/APOD/stargazers">
     <img src="https://img.shields.io/github/stars/SukiYume/APOD.svg?label=Stars&logo=github" alt="release">
   </a>
-</p>
+</div>
 
 ## <div align="center">Description</div>
 
