@@ -138,5 +138,59 @@
 
 ## 2024-09-18
 
+1. [Escape of fast radio bursts from magnetars](https://arxiv.org/abs/2409.10732)
+
+   > Fast Radio Burst, Theory
+
+   研究FRB在磁星风中的传播，假设风是强磁化的，由正负电子对组成。结果表明，FRB应该在距离磁星很远的地方产生$R>10^{12}\,\rm cm$，或者磁星风的结构在耀斑期间发生强烈变化，以允许在半径$R<10^{12}\,\rm cm$处的FRB逃逸。
+
+2. [Fast radio bursts as a probe of gravity on cosmological scales](https://arxiv.org/abs/2409.11163)
+
+   > Fast Radio Burst, Cosmology
+
+   讨论使用FRB的色散相关性和宇宙剪切力相结合来改进对`Horndeski gravity`的约束，从`stage-4 cosmic shear mock survey`和`1e4 FRB`推断`kinetic braiding` 和`Planck mass run rate`，代码在[这里](https://github.com/DennisNeumann97/frb_horndeski_forecast)。
+
+3. [Exploring the Key Features of Repeating Fast Radio Bursts with Machine Learning](https://arxiv.org/abs/2409.11173)
+
+   > Fast Radio Burst, Classification, Machine Learning
+
+   根据CHIME的拟合参数，对重复暴和非重复暴的数据做t-SNE降维并聚类。发现CHIME的`spectral running`对分类至关重要。
+
+4. [Vision foundation models: can they be applied to astrophysics data?](https://arxiv.org/abs/2409.11175)
+
+   > Astronomy, Deep Learning
+
+   使用几种视觉基础模型在光学和射电图像上做训练。结果表明，与传统监督学习相比，特定基础模型提取的特征可以提高光学星系图像分类的准确性，在射电图像上也能取得不错的性能，不过在射电数据上不如传统的监督训练结果。
+
+## 2024-09-19
+
+1. [A VLBI Calibrator Grid at 600MHz for Fast Radio Transient Localizations with CHIME/FRB Outriggers](https://arxiv.org/abs/2409.11476)
+
+   > Fast Radio Burst, Instrument
+
+   构建了一个包含200颗致密天体校准源星表，适用于GHz波段30毫角秒的VLBI观测。用于 CHIME/FRB-Outriggers的FRB定位。
+
+2. [A search for persistent radio sources toward repeating fast radio bursts discovered by CHIME/FRB](https://arxiv.org/abs/2409.11533)
+
+   > Fast Radio Burst, Galaxy, PRS
+
+   对CHIME的37个有角秒定位的FRB进行的PRS搜索，发现20181030A和20190417A的宿主星系中不存在恒星形成或活动星系核，因此可能是PRS。可以在磁星、超星云、伽马射线暴余辉或超新星喷出物模型的背景下得到合理的解释，但是这两个FRB也都符合在星云模型中预测射电流量和RM的关系。
+
+   <img src="./Figures/image-20240919194253874.png" alt="image-20240919194253874" width="680px" />
+
+3. [Bright unintended electromagnetic radiation from second-generation Starlink satellites](https://arxiv.org/abs/2409.11767)
+
+   > Astronomy, Radio, RFI, Satellite
+
+   来自荷兰的一组天文学家最近利用欧洲低频射电阵列LOFAR的观测，指出第二代星链卫星产生的射电干扰时上一代的30多倍(已经考虑了卫星距离不同的影响)，可能会对射电观测产生影响。
+
+   <img src="./Figures/image-20240919194450455.png" alt="image-20240919194450455" width="680px" />
+
+   这个射电信号强度已经在国际电信联盟（International Telecommunications Union）为射电天文学分配的150.05-153 MHz频段内超过了推荐的辐射量阈值。
+
+   <img src="./Figures/image-20240919194426148.png" alt="image-20240919194426148" width="680px" />
+
+## 2024-09-20
+
 
 
