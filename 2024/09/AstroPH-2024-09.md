@@ -192,5 +192,23 @@
 
 ## 2024-09-20
 
+1. [Rotation Measure study of FRB 20180916B with the uGMRT](https://arxiv.org/abs/2409.12584)
 
+   > Fast Radio Burst, Observation, Polarization
+
+   uGMRT对FRB20180916B的观测，探测到它的RM线性上升后保持稳定在$-58.75\,\rm rad/m^2$。
+
+   <img src="./Figures/image-20240920175405083.png" alt="image-20240920175405083" width="680px" />
+
+2. [The Twisting of Radio Waves in a Randomly Inhomogeneous Plasma](https://arxiv.org/abs/2409.12365)
+
+   > Radio, Polarization, Theory
+
+   光的偏振矢量沿着非平面曲线传播时，会经历额外的旋转，导致消偏振。`geometric depolarization (GDP)`。
+
+   <img src="./Figures/image-20240920175315775.png" alt="image-20240920175315775" width="680px" />
+
+## 2024-09-23
+
+​	
 
