@@ -210,5 +210,91 @@
 
 ## 2024-09-23
 
-​	
+ 1. [The Variability of Persistent Radio Sources of Fast Radio Bursts](https://arxiv.org/abs/2409.13170)
+
+    > Fast Radio Burst, PRS, Observation
+
+    杨嬡媛的文章，VLA对FRB121102和190520的PRS观测。
+
+ 2. [Statistical properties and cosmological applications of fast radio bursts](https://arxiv.org/abs/2409.13247)
+
+    > Fast Radio Burst, Statistics
+
+    总结了利用大样本FRB的统计分析和宇宙学应用，包括能量函数、重复FRB的等待时间分布、宇宙中 缺失重子和环星系介质的探测、宇宙学参数的测量、再电离历史的探索、FRB的引力透镜研究等。
+
+ 3. [The Near-Ultraviolet eXplorer (NUX): a ground-based wide-field near-UV telescope to search for near-UV transients](https://arxiv.org/abs/2409.13577)
+
+    > Transient, NUV, Instrument
+
+    近紫外暂现源探测器，由4个小型地面望远镜（36cm）组成，视场17平方度，分辨率2.6角秒，对300-350nm波段进行2.5分钟的曝光观测，以提高对数天、数小时的瞬变物理过程的认识。
+
+ 4. [Venus Phosphine: Updates and lessons learned](https://arxiv.org/abs/2409.13438)
+
+    > Planetary Science, Astrobiology, Venus
+
+    金星大气中磷化氢的探测结果经受住了各种挑战，并获得了来自PVP数据档案的独立支持，促成了金星大气长期监测计划JCMT-Venus，这里介绍这一计划的最新成果。指出磷化氢的发现并不构成生命的证据，只是磷化氢的证据。
+
+    <img src="./Figures/image-20240923171942333.png" alt="image-20240923171942333" width="680px" />
+
+## 2024-09-24
+
+1. [Interpreting Multi-band Galaxy Observations with Large Language Model-Based Agents](https://arxiv.org/abs/2409.14807)
+
+   > Galaxy, Deep Learning, LLM
+
+   提出`mephisto`，使用`CIGALE`的SED模型，给LLM输入星系的SED、SED模型和拟合质量指标，让LLM推理拟合的好不好。如果拟合的不好，采用树搜索改进SED模型，从过去的拟合历史中提取有用的知识，并将其整合到知识库中。最终实现SED拟合，并解释星系多波段观测数据。
+
+   <img src="./Figures/image-20240924144418686.png" alt="image-20240924144418686" width="680px" />
+
+## 2024-09-25
+
+1. [Novel understanding of Cosmological Phenomena using Fast Radio Bursts](https://arxiv.org/abs/2409.15526)
+
+   > Fast Radio Burst, Cosmology
+
+   探讨高频引力波产生FRB的可能，以及修正引力对FRB引力透镜的影响，从而对原初黑洞站暗物质的比例施加约束。
+
+   结果表明，修正引力在透镜效应上引入了屏蔽效应，类似于等离子体对光线的散射效应。进一步讨论了即将到来的HIRAX射电望远镜对FRB和透镜FRB的探测率。
+
+2. [Gaussian Process Models Impact the Inferred Properties of Giant Planets around Active Stars](https://arxiv.org/abs/2409.15407)
+
+   > Variable, Gaussian Process
+
+   用高斯过程拟合光变曲线，推断恒星周边行星的最小质量和偏心率等参数，受高斯过程框架选择的影响，推测参数的变化幅度搞到67%和95%。
+
+## 2024-09-26
+
+1. [A PyTorch Benchmark for High-Contrast Imaging Post Processing](https://arxiv.org/abs/2409.16466)
+
+   > Exoplanet, Machine Learning
+
+   [torchKLIP](https://github.com/astrochialinko/torchKLIP)用于系外行星的直接成像。系外行星的直接成像是一项极具挑战性的任务，需要将微弱的行星信号从其宿主恒星的强光中区分出来，而宿主恒星的强光通常会被称为 “斑点 ”的时变恒星噪声所掩盖。减去斑点噪声的主要算法采用基于本征的点扩散函数（PSF）拟合技术，从恒星斑点噪声中分辨出行星信号。
+
+   <img src="./Figures/image-20240926205414681.png" alt="image-20240926205414681" width="680px" />
+
+## 2024-09-27
+
+1. [Millinovae: a new class of transient supersoft X-ray sources](https://arxiv.org/abs/2409.17338)
+
+   > Stellar, Transient, Novae
+
+   白矮星吸积盘累积的气体达到临界温度发生新星爆发，这里发现了`OGLE-mNOVA-11`在光学爆发期间发出了supersoft X-ray，但是没有检测到质量抛射（没有发生经典新星爆发）。作者称这种现象是`millinovae`，其光学亮度是经典新星的千分之一，这些天体可能代表一类新的、尚未发现的恒星群。
+
+2. [Preferential Occurrence of Fast Radio Bursts in Massive Star-Forming Galaxies](https://arxiv.org/abs/2409.16964)
+
+   > Fast Radio Burst, Galaxy, Observation, Statistics
+
+   对DSA发现的30个FRB的宿主星系的光学观测发现，FRB倾向于在大质量恒星形成星系中出现，低质量FRB宿主星系的恒星形成活动低于背景星系。可能是由于大质量恒星形成星系中更有可能发生恒星并合产生磁星。
+
+   <img src="./Figures/image-20240930003211003.png" alt="image-20240930003211003" width="680px" />
+
+## 2024-09-30
+
+1. [A determination of the cosmic microwave background temperature using Galactic molecules](https://arxiv.org/abs/2409.18270)
+
+   > ISM, Cosmology
+
+   测量了银河系弥漫分子云中CN的激发温度，测量值为$T=2.725\pm0.015K$，与宇宙微波背景温度的直接测定值一致。
+
+
 
