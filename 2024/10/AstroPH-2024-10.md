@@ -141,3 +141,33 @@
 
 ## 2024-10-09
 
+今日停更
+
+## 2024-10-10
+
+1. [Exploring Magnetic Fields in Molecular Clouds through Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2410.07032)
+
+   > ISM, Deep Learning
+
+   用`Denoising Diffusion Probabilistic Models`从柱密度、偏振角、视向非热速度弥散三个通道来估计磁场强度，表现优于传统DCF方法的估计。
+
+   <img src="./Figures/image-20241011221051809.png" alt="image-20241011221051809" width="680px" />
+
+2. [Constraining the dispersion measure redshift relation with simulation-based inference](https://arxiv.org/abs/2410.07084)
+
+   > Fast Radio Burst, Cosmology
+
+   用定位的FRB的DM来估计宇宙学参数，基于`simulation-based inference`。
+
+## 2024-10-11
+
+1. [Investigating the sightline of a highly scattered FRB through a filamentary structure in the local Universe](https://arxiv.org/abs/2410.07307)
+
+   > Fast Radio Burst, Scattering
+
+   FRB 20200723B是目前CHIME探测到的散射时标最大的单成分爆发，其宿主星系最有可能是NGC 4602。分析认为散射来自其宿主星系内部。
+
+   <img src="./Figures/image-20241011223036479.png" alt="image-20241011223036479" width="680px" />
+
+## 2024-10-14
+
