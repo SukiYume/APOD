@@ -171,3 +171,66 @@
 
 ## 2024-10-14
 
+1. [SETI in 2022](https://arxiv.org/abs/2410.08253)
+
+   > SETI, Review
+
+   回顾了2022年的SETI研究，包括：
+
+   - 实际搜索结果（16篇论文），涉及Breakthrough Listen项目、太阳引力透镜搜索、VASCO项目等。
+   - 搜索方法和仪器（11篇论文），包括对下一代VLA、PANOSETI项目、小尺寸光学望远镜等的讨论。
+   - 目标和频率选择（4篇论文），探讨了通过分析系外行星宿主恒星位置来推断星际通信网络的拓扑结构等。
+   - 技术签名的发展（17篇论文），包括对星际通信形式、恒星演化与技术签名、大气和地质技术签名等的讨论。
+   - ETI理论（26篇论文），涉及德雷克方程、费米悖论、星际迁移、星际探测器等。
+   - SETI的社会方面（6篇论文），包括对SETI的历史分析、对地缘政治风险的批判、文化影响等。
+
+## 2024-10-15
+
+1. [A search using GEO600 for gravitational waves coincident with fast radio bursts from SGR 1935+2154](https://arxiv.org/abs/2410.09151)
+
+   > Fast Radio Burst, Magnetar, Gravitational Wave
+
+   在GEO600探测器的数据中找SGR1935的FRB对应的引力波，没有找到引力波信号。
+
+2. [Polarization Characteristics of the Hyperactive FRB 20240114A](https://arxiv.org/abs/2410.10172)
+
+   > Fast Radio Burst, Observation
+
+   GBT观测FRB20240114A，事件率最高260每小时。
+
+3. [Fast Radio Burst Tomography of the Unseen Universe](https://arxiv.org/abs/1903.06535)
+
+   > Fast Radio Burst, Review
+
+   Ravi写的FRB科学白皮书。
+
+   <img src="./Figures/image-20241016132024987.png" alt="image-20241016132024987" width="680px" />
+
+## 2024-10-16
+
+1. [AI Foundation Model for Heliophysics: Applications, Design, and Implementation](https://arxiv.org/abs/2410.10841)
+
+   > Solar, Deep Learning
+
+   太阳动力学天文台（Solar Dynamics Observatory, SDO）提供了连续的高分辨率太阳观测数据，这些数据被广泛应用于太阳和日球物理领域的研究。
+
+   这里使用SDO的AIA的七个极紫外线（EUV）波段图像和HMI（太阳磁场和磁流体动力学成像仪）的矢量磁图，采用`Long-Short Spectral Transformer`进行了训练，结果表明模型能够学习并预测太阳活动。
+
+   <img src="./Figures/image-20241016132238369.png" alt="image-20241016132238369" width="680px" />
+
+   文章还展示了使用扩散模型生成的AIA-EUV通道的初步结果。
+
+   <img src="./Figures/image-20241016132302117.png" alt="image-20241016132302117" width="680px" />
+
+2. [Serendipitous observation of a white dwarf companion to a JWST/MIRI coronagraphic calibrator](https://arxiv.org/abs/2410.11568)
+
+   > White Dwarf, Observation, JWST
+
+   使用JWST的中红外仪器MIRI进行观测时，发现了HD 218261的伴星，是一颗有效温度约为10,000 K，半径约为太阳的0.8倍的白矮星。
+
+   <img src="./Figures/image-20241016132743066.png" alt="image-20241016132743066" width="680px" />
+
+   这颗恒星原本是作为观测系外行星HR 8799的日冕观测校准星。这些结果表明，使用MIRI进行精确的中红外光度测量白矮星伴星是可能的，这为研究近距离双星系统中的白矮星开辟了新的可能性。
+
+## 2024-10-17
+
