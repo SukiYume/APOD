@@ -234,3 +234,31 @@
 
 ## 2024-10-17
 
+1. [Basic Data Processing of Gravitational Waves](https://arxiv.org/abs/2410.11858)
+
+   > Gravitational Wave, Method, Review
+
+   引力波数据处理综合指南，从引力波和LIGO和Virgo使用的检测技术开始，涵盖了信号处理的基本知识，包括傅里叶分析、滤波和二次啁啾信号的生成，并探讨了噪声分析以及`Generalized Likelihood Ratio Test`等信号检测方法。
+
+2. [MeerKAT observations of pair-plasma induced birefringence in the double pulsar eclipses](https://arxiv.org/abs/2410.12510)
+
+   > Pulsar, Binary, Polarization
+
+   `PSR J0737-3039A/B`是几乎完美的`edge-on`双中子星系统，快速旋转的脉冲星A被慢速旋转的脉冲星B的磁场掩盖。
+
+   使用MeerKAT观测，研究食变时的偏振特性。在校正脉冲星B的旋转后对光变曲线进行平均，发现出现了大量的圆偏振和线偏振位置角的快速变化，这些变化发生在脉冲星A的发射部分透射脉冲星B磁层的阶段。证实食变是等离子体同步吸收的结果。
+
+   <img src="./Figures/image-20241017190906480.png" alt="image-20241017190906480" width="680px" />
+
+## 2024-10-18
+
+1. [Pushchino multibeam pulsar search -- V. The bright FRB 20190203 detected at 111 MHz](https://arxiv.org/abs/2410.13561)
+
+   > Fast Radio Burst, Observation
+
+   `Pushchino`在111MHz探测到一个色散为134的非重复FRB20190203，并且没有看到任何短伽马射线暴。
+
+   <img src="./Figures/image-20241018182049063.png" alt="image-20241018182049063" width="680px" />
+
+## 2024-10-21
+
