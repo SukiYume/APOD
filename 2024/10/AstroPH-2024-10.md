@@ -262,3 +262,81 @@
 
 ## 2024-10-21
 
+1. [Little time for oscillation: Fast disruption of the Radcliffe Wave by Galactic motions](https://arxiv.org/abs/2410.14603)
+
+   > ISM, Radcliffe Wave
+
+   李广兴的文章，认为之前那篇说`Radcliffe Wave在振荡`的文章，把Radcliffe Wave看的太简单了。
+
+   他们模拟了本地星际气体的三维演化，发现剪切会在45Myr的时间尺度上将Radcliffe Wave拉伸到当前长度的两倍，但在这个时间尺度上，垂直振荡只发生了半个周期。
+
+## 2024-10-22
+
+1. [The disappearance of a massive star marking the birth of a black hole in M31](https://arxiv.org/abs/2410.14778)
+
+   > Stellar, Black Hole
+
+   报告了M31中一个大质量超巨星`M31-2014-DS1`，于2014年在红外波段发现，光度在之后的一千天没有变化，再之后的一千天急速减弱，且没有探测到光学爆发，可以解释为恒星回落到一个新形成的黑洞中。可能是黑洞形成的直接观测。
+
+   <img src="./Figures/image-20241022221310146.png" alt="image-20241022221310146" width="680px" />
+
+2. [Cthulhu: An Open Source Molecular and Atomic Cross Section Computation Code for Substellar Atmospheres](https://arxiv.org/abs/2410.14751)
+
+   > Exoplanet, Software
+
+   [Cthulhu](https://cthulhu.readthedocs.io/en/latest/)，克苏鲁，根据原子和分子线计算系外行星或者褐矮星的光谱模型。
+
+   <img src="./Figures/image-20241022221610494.png" alt="image-20241022221610494" width="680px" />
+
+## 2024-10-23
+
+1. [A probe of the maximum energetics of fast radio bursts through a prolific repeating source](https://arxiv.org/abs/2410.17024)
+
+   > Fast Radio Burst, Observation
+
+   对FRB20220912A从2022年10月到2023年2月，共1500个小时的观测，探测到130次高能量爆发，爆发的能量分布在高能端变平，与FRB20201124A一样（作者也是Hessels那帮人）。
+
+2. [A Repeating Fast Radio Burst Source in a Low-Luminosity Dwarf Galaxy](https://arxiv.org/abs/2410.17044)
+
+   > Fast Radio Burst, Galaxy, Observation
+
+   对FRB20190208A的定位，使用EVN在1.4GHz观测了65.6个小时，探测到一次爆发，定位在$RA=18h54m11.27s,\, Dec=+46d55m21.67s$，误差为260毫角秒。
+
+   使用GBT积分3.2小时探测到宿主星系，i波段星等为27.32等，是目前为止最暗的FRB宿主星系，而且EVN和VLA没有看到PRS。
+
+   <img src="./Figures/image-20241023165132800.png" alt="image-20241023165132800" width="680px" />
+
+3. [Coniferest: a complete active anomaly detection framework](https://arxiv.org/abs/2410.17142)
+
+   > Astronomy, Machine Learning, Anomaly Detection
+
+   [coniferest](https://github.com/snad-space/coniferest)基于`Isolation forest`、`Active Anomaly Discovery`和`Pineforest`的天文异常检测工具。
+
+## 2024-10-24
+
+1. [Rare Event Classification with Weighted Logistic Regression for Identifying Repeating Fast Radio Bursts](https://arxiv.org/abs/2410.17474)
+
+   > Fast Radio Burst, Machine Learning, Classification
+
+   用加权逻辑回归基于FRB的参数分类重复和非重复FRB。
+
+2. [Blast: a Web Application for Characterizing the Host Galaxies of Astrophysical Transients](https://arxiv.org/abs/2410.17322)
+
+   > Transient, Galaxy, Software
+
+   [Blast](https://blast.scimma.org/)接收暂现源警报的实时数据流，将暂现源与宿主星系进行匹配，并对宿主星系的重合档案成像数据进行光度测量。
+
+   <img src="./Figures/image-20241024162802144.png" alt="image-20241024162802144" width="680px" />
+
+## 2024-10-25
+
+1. [Exploring the Universe with SNAD: Anomaly Detection in Astronomy](https://arxiv.org/abs/2410.18875)
+
+   > Astronomy, Machine Learning, Anomaly Detection, Method
+
+   [SNAD](https://snad.space/)是一个国际项目，主要重点是利用主动学习和其他机器学习算法在大规模巡天中探测天文异常现象。
+
+   本文对 SNAD 项目进行了回顾，总结了团队几年来取得的进展和成就，包括`Superluminous supernova candidates`、`Red dwarf flares`、`Catalog of artefacts`。
+
+## 2024-10-28
+
