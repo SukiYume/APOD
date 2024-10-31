@@ -302,7 +302,7 @@
 
    对FRB20190208A的定位，使用EVN在1.4GHz观测了65.6个小时，探测到一次爆发，定位在$RA=18h54m11.27s,\, Dec=+46d55m21.67s$，误差为260毫角秒。
 
-   使用GBT积分3.2小时探测到宿主星系，i波段星等为27.32等，是目前为止最暗的FRB宿主星系，而且EVN和VLA没有看到PRS。
+   使用GTC积分3.2小时探测到宿主星系，i波段星等为27.32等，是目前为止最暗的FRB宿主星系，而且EVN和VLA没有看到PRS。
 
    <img src="./Figures/image-20241023165132800.png" alt="image-20241023165132800" width="680px" />
 
@@ -339,4 +339,72 @@
    本文对 SNAD 项目进行了回顾，总结了团队几年来取得的进展和成就，包括`Superluminous supernova candidates`、`Red dwarf flares`、`Catalog of artefacts`。
 
 ## 2024-10-28
+
+1. [The role of magnetic and rotation axis alignment in driving fast radio burst phenomenology](https://arxiv.org/abs/2410.19043)
+
+   > Fast Radio Burst, Theory
+
+   FRB产生于磁星极轴附近，对于重复FRBs，如果它们的磁轴和自转轴之间的夹角较小，那么它们的极帽区域几乎总是面向观测者，因此，爆发的时间间隔将由产生爆发的机制决定，而不会反映出中子星的潜在周期性。
+
+   <img src="./Figures/image-20241028181213455.png" alt="image-20241028181213455" width="680px" />
+
+2. [Wideband Monitoring of FRB 180916.J0158+6 Across a Half-Decade Bandwidth Using the Upgraded GMRT](https://arxiv.org/abs/2409.20307)
+
+   > Fast Radio Burst, Observation
+
+   uGMRT对FRB180916的观测，在250-500MHz探测到4次爆发，在550-750MHz探测到4次爆发。
+
+3. [TRAPUM pulsar and transient search in the Sextans A and B galaxies and discovery of background FRB 20210924D](https://arxiv.org/abs/2410.04658)
+
+   > Fast Radio Burst, Survey, Observation
+
+   `TRansients And PUlsars with MeerKAT, TRAPUM`对`Sextans A/B`星系进行了三次2小时的观测，没有发现脉冲星，看到一个FRB20210924D。
+
+## 2024-10-29
+
+1. [A parametric study of population inversions in relativistic plasmas through nonresonant interactions with Alfvén waves and their applications to Fast Radio Bursts](https://arxiv.org/abs/2410.21022)
+
+   > Fast Radio Burst, Theory
+
+   `Synchrotron maser`产生FRB需要`population inversion`，这里证明阿尔芬波和相对论性等离子体之间的非共振相互作用可以产生种群反转。该机制在靠近磁星光速圆柱面时可以产生GHz的FRB信号，并且该信号可以在没有明显阻尼的情况下逃离磁星环境。
+
+2. [Generative Simulations of The Solar Corona Evolution With Denoising Diffusion : Proof of Concept](https://arxiv.org/abs/2410.20843)
+
+   > Solar, Deep Learning
+
+   用`DDPM`生成日冕的未来演变，代码在[这里](https://github.com/gfrancisco20/video_diffusion)。
+
+   <img src="./Figures/image-20241029185654825.png" alt="image-20241029185654825" width="680px" />
+
+## 2024-10-30
+
+1. [Semi-supervised Spectral Classification of DESI White Dwarfs by Dimensionality Reduction](https://arxiv.org/abs/2410.22221)
+
+   > Stellar, White Dwarf, Machine Learning
+
+   用tSNE对DESI EDR的白矮星光谱进行降维，识别具有氦特征的白矮星和灾变变星。
+
+   <img src="./Figures/image-20241030164356495.png" alt="image-20241030164356495" width="680px" />
+
+## 2024-10-31
+
+1. [frb-voe: A Real-time Virtual Observatory Event Alert Service for Fast Radio Bursts](https://arxiv.org/abs/2410.22468)
+
+   > Fast Radio Burst, Software
+
+    介绍`frb-voe`，是一个使射电天文台通过低延迟虚拟天文台事件广播的软件。CHIME现在用的就是它，还可以提交到TNS上。
+
+   <img src="./Figures/image-20241031215653206.png" alt="image-20241031215653206" width="680px" />
+
+2. [Performance of the Segment Anything Model in Various RFI/Events Detection in Radio Astronomy](https://arxiv.org/abs/2410.22497)
+
+   > Radio, Astronomy, RFI
+
+   使用[HQ-SAM](https://github.com/SysCV/sam-hq)分割射电图像中的射频干扰和太阳射电暴。`HQ-SAM`表现由于原始的`SAM`，在RFI检测上优于`SumThreshold`。
+
+   <img src="./Figures/image-20241031220042495.png" alt="image-20241031220042495" width="680px" />
+
+   也可以找`II/III`类太阳射电暴。
+
+   <img src="./Figures/image-20241031220019079.png" alt="image-20241031220019079" width="680px" />
 
