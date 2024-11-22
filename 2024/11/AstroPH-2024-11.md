@@ -172,7 +172,61 @@
 
 ## 2024-11-18
 
+1. [The Last Arecibo Message](https://arxiv.org/abs/2411.09790)
 
+   > Astronomy
+
+   阿雷西博信息是 1974 年 11 月 16 日从阿雷西博天文台向太空发送的简短二进制编码通信，旨在展示人类的技术实力。
+
+   2018 年底，为纪念这一信息发布 45 周年，阿雷西博天文台发起了 “新阿雷西博信息 ”竞赛。经过一系列挑战，我们的 Boriken Voyagers 团队于 2020 年 8 月被评为竞赛优胜者。本文介绍了最初为阿雷西博望远镜开发的 “最后的阿雷西博信息”。如果说最初的信息是 “我们是一种生命形式，伸出手来建立联系”，那么我们的信息则是 “我们已经准备好共同探索宇宙”。
+
+   <img src="./Figures/image-20241118184345356.png" alt="image-20241118184345356" width="680px" />
+
+## 2024-11-19
+
+1. [An Extreme Stellar Prominence Eruption Observed by LAMOST Time-Domain Spectroscopy](https://arxiv.org/abs/2411.11076)
+
+   > Stellar, Burst, Spectral
+
+   LAMOST看到M矮星`LAMOST J044431.62+235627.9`上的一次极端恒星爆发，伴随着一次持续时间超过 160.4 分钟的超级辉光。在耀斑峰值附近，$H\alpha$线表现出明显的蓝端增强。
+
+   <img src="./Figures/image-20241119230607469.png" alt="image-20241119230607469" width="680px" />
+
+## 2024-11-20
+
+1. [DESI 2024 VII: Cosmological Constraints from the Full-Shape Modeling of Clustering Measurements](https://arxiv.org/abs/2411.12022)
+
+   > Cosmology, DESI
+
+   DESI第一年测量的宇宙学结果。
+
+## 2024-11-21
+
+1. [HiFAST: An HI Data Calibration and Imaging Pipeline for FAST III. Standing Wave Removal](https://arxiv.org/abs/2411.13016)
+
+   > HI, RFI
+
+   用FFT去除FAST观测数据中的驻波。
+
+## 2024-11-22
+
+1. [Unsupervised Machine Learning for Classifying CHIME Fast Radio Bursts and Investigating Empirical Relations](https://arxiv.org/abs/2411.14040)
+
+   > Fast Radio Burst, Statistics, Machine Learning
+
+   用UMAP、k-means和HDBSCAN从CHIME的FRB参数表中对重复/非重复FRB进行聚类，发现一些不明显的相关关系，比如散射时标-脉冲宽度，散射时标-亮温度之间可能存在相关关系。
+
+   <img src="./Figures/image-20241122152148804.png" alt="image-20241122152148804" width="680px" />
+
+2. [3D Localization of FRB 20190425A for Its Potential Host Galaxy and Implications](https://arxiv.org/abs/2411.13973)
+
+   > Fast Radio Burst, Localization
+
+   定义了`Trigger-Magnitude-Distance`来从CHIME观测到的FRB的位置估计其宿主星系。
+
+   <img src="./Figures/image-20241122152415514.png" alt="image-20241122152415514" width="680px" />
+
+## 2024-11-25
 
 
 
