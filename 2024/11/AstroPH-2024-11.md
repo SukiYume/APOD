@@ -228,5 +228,110 @@
 
 ## 2024-11-25
 
+1. [Unusual intra-burst variations of polarization states in FRB 20210912A and FRB 20230708A : Effects of plasma birefringence?](https://arxiv.org/abs/2411.14784)
 
+   > Fast Radio Burst, Polarization
 
+   ASKAP探测到两个非重复FRB20230708A和20210912A，表现出线偏振和圆偏振随时间的变化，以及RM值在爆发之间的变化。
+
+   <img src="./Figures/image-20241125173916189.png" alt="image-20241125173916189" width="680px" />
+
+## 2024-11-26
+
+1. [A 44-minute periodic radio transient in a supernova remnant](https://arxiv.org/abs/2411.15739)
+
+   > Transient, White Dwarf Pulsar
+
+   DART探测到周期44分钟的变源。
+
+   <img src="./Figures/image-20241127044859016.png" alt="image-20241127044859016" width="680px" />
+
+2. [Detection of X-ray Emission from a Bright Long-Period Radio Transient](https://arxiv.org/abs/2411.16606)
+
+   > Transient, White Dwarf Pulsar, High Energy
+
+   ASKAP探测到跟DRAT相同的变源，同时还观测到X射线的辐射，认为是磁星或者是白矮星。
+
+   <img src="./Figures/image-20241127045416115.png" alt="image-20241127045416115" width="680px" />
+
+3. [Structure Functions of Rotation Measures Revealing the Origin of Fast Radio Bursts](https://arxiv.org/abs/2411.15546)
+
+   > Fast Radio Burst, Period
+
+   从FRB的RM结构函数里找周期，南大那些人的文章。
+
+   <img src="./Figures/image-20241127045606391.png" alt="image-20241127045606391" width="680px" />
+
+4. [Long term monitoring of FRB~20121102 with the Nançay Radio Telescope and multi-wavelength campaigns including INTEGRAL](https://arxiv.org/abs/2411.16419)
+
+   > Fast Radio Burst, Observation
+
+   对FRB121102的长期观测，使用`INTEGRAL`没探测到的Gamma-Ray的辐射，给了个上限。报告NRT在2016-2020年间探测到的119个爆发。
+
+5. [Minimum Entropy Indicator for Evaluating Dispersion Measure](https://arxiv.org/abs/2411.16023)
+
+   > Radio, Dispersion Measure
+
+   用脉冲轮廓的熵最小时找正确的DM。
+
+6. [The FAST Galactic Plane Pulsar Snapshot survey: VI. The discovery of 473 new pulsars](https://arxiv.org/abs/2411.15961)
+
+   > Pulsar, Catalog
+
+   GPPS探测到的脉冲星表。
+
+7. [Anomaly Detection and RFI Classification with Unsupervised Learning in Narrowband Radio Technosignature Searches](https://arxiv.org/abs/2411.16556)
+
+   > SETI, Machine Learning
+
+   用HDBSCAN降低找SETI信号的误报率。
+
+## 2024-11-27
+
+1. [An analytical model for the dispersion measure of Fast Radio Burst host galaxies](https://arxiv.org/abs/2411.17682)
+
+   > Fast Radio Burst, Cosmology
+
+   扩展了`baryonification (BCM)`方法，估计FRB宿主星系的DM贡献。
+
+## 2024-11-28
+
+1. [A VLBI Calibration System with Real-time Pulsar Gating for FRB Localization using CHIME/FRB Outriggers](https://arxiv.org/abs/2411.17801)
+
+   > Fast Radio Burst, Localization, Method
+
+   用100个脉冲星做校准源，用于CHIME/FRB Outrigger的各个望远镜精确定位FRB，可以做到50mas的定位精度。
+
+2. [Timing analysis of rotating radio transients discovered with MeerKAT](https://arxiv.org/abs/2411.18149)
+
+   > Transient, Timming
+
+   对MeerKAT探测到的4个RRAT做计时。由于RRATs的脉冲到达时间非常稀疏，对其进行时间分析比常规脉冲星更为困难，目前只有少数RRATs具有连贯的时间解决方案。
+
+   使用DSPSR消色散，使用[clfd](https://github.com/v-morello/clfd)消RFI，并使用TEMPO2拟合时间模型。对于没有现有时间模型的源，使用[RRATsoLve](https://github.com/v-morello/rratsolve)暴力算法确定周期。
+
+3. [Leveraging Transfer Learning for Astronomical Image Analysis](https://arxiv.org/abs/2411.18206)
+
+   > Astronomy, Deep Learning, Anomaly Detection
+
+   用在ImageNet上预训练好的EfficientNet对天文图像进行特征提取，在特征空间中找相似的图像和不同的图像。可以用于AGN检测、星系属性估计、强引力透镜检测、时间序列异常检测、以及大规模异常检测。
+
+   <img src="./Figures/image-20241204154510736.png" alt="image-20241204154510736" width="680px" />
+
+4. [Learning the Evolution of Physical Structure of Galaxies via Diffusion Models](https://arxiv.org/abs/2411.18440)
+
+   > Galaxy, Redshift, Deep Learning
+
+   研究如何利用红移（redshift）条件化的去噪扩散概率模型（DDPM）生成星系图像，并验证这些模型是否能够准确捕捉星系的物理特性。
+
+   利用U-Net架构的时间步长来学习条件分布$p(X_z|z)$。模型从带有高斯噪声的初始星系图像开始，通过迭代去噪过程生成清晰的星系图像。
+
+5. [Variability of hot sub-luminous stars and binaries: Machine learning analysis of Gaia DR3 multi-epoch photometry](https://arxiv.org/abs/2411.18609)
+
+   > Stellar, Variable, Machine Learning
+
+   用Lomb-Scargle周期图和Lafler-Kinman统计量等方法，提取了恒星光变曲线的84个特征。使用UMAP和t-SNE对特征降维，使用GMM聚类，识别出三个团体`具有显著变异性的热亚矮星`、`非变星`和`激变变星`。
+
+   <img src="./Figures/image-20241204155413011.png" alt="image-20241204155413011" width="680px" />
+
+   
