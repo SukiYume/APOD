@@ -111,3 +111,30 @@
 
 ## 2024-12-05
 
+1. [Universal Constants and Energy Integral in Self-Organized Criticality Systems](https://arxiv.org/abs/2412.03481)
+
+   > Transient, SOC
+
+   对于SOC系统，其flux的幂律指数应该是$\alpha_F=9/5=1.8$，fluence的幂律指数是$\alpha_E=5/3=1.67$。使用NASA天文数据库系统（ADS）搜索和识别相关关键词，从已发表的文献中提取了23种天体物理现象的观测数据。
+
+   - 标准的 SOC 模型（能量分布的幂律斜率与1.67一致）——`太阳耀斑、恒星耀斑、日冕物质抛射（CME）、极光、耀斑、银河系快速射电暴（FRB）、活动星系核（AGN）、伽马射线暴（GRB）等、 伽马射线暴（GRB）、软伽马射线中继器（SGB）和黑洞系统（BH）`
+   - 非标准的 SOC 模型（能量分布的幂律斜率偏离1.67）——`相干太阳射电暴、随机射电暴、太阳高能粒子（SEP）、宇宙射线和脉冲星闪烁`
+
+## 2024-12-06
+
+1. [Time-Frequency Correlation of Repeating Fast Radio Bursts: Correlated Aftershocks Tend to Exhibit Downward Frequency Drifts](https://arxiv.org/abs/2412.04313)
+
+   > Fast Radio Burst, Statistics
+
+   统计FAST观测的重复FRB爆发，两两之间的时间差和峰值频率的差。发现更短的时间间隔内峰值频率下降。
+
+2. [Automated galaxy sizes in Euclid images using the Segment Anything Model](https://arxiv.org/abs/2412.03642)
+
+   > Galaxy, Deep Learning
+
+   用分割一切来测量Euclid观测到的星系的大小，SAM识别的星系大小与手动测量的结果相比，平均偏差约为3%，并且SAM在不同星系形态、红移和视大小下的性能相对稳定。
+
+   <img src="./Figures/image-20241206214527629.png" alt="image-20241206214527629" swidth="680px" />
+
+## 2024-12-09
+
