@@ -138,3 +138,77 @@
 
 ## 2024-12-09
 
+1. [Prospects for Observing Astrophysical Transients with GeV Neutrinos](https://arxiv.org/abs/2412.05087)
+
+   > Transient, High Energy
+
+   研究了各种暂现源【包括经典新星、超新星、潮汐破坏事件（TDEs）、快速蓝光光学瞬变（FBOTs）、伽马射线暴（GRBs）和快速射电暴（FRBs）】产生的中微子的量，能否用现在的高能中微子探测器（比如iceCube）探测到。
+
+   结果发现，所有暂现源产生的中微子的量都远低于探测阈值，在未来十年不太可能被探测到。
+
+## 2024-12-10
+
+1. [StarWhisper Telescope: Agent-Based Observation Assistant System to Approach AI Astrophysicist](https://arxiv.org/abs/2412.06412c)
+
+   > Astronomy, LLM
+
+   基于LLM的望远镜观测辅助系统。
+
+   使用Qwen 2.5 instruct 14B作为LLM，结合Chain of Thought，通过工作流，输入观测目标，筛选出适合不同站点和望远镜的天体对象，考虑观测时间和季节等因素。通过UDP协议发送序列功能至N.I.N.A.，实现观测列表加载和自动观测控制。使用X-OPSTEP管道处理观测数据，包括图像预处理、星历解算、光度校准和图像减法等。
+
+2. [Binary and Grouped Open Clusters: A New Catalogue](https://arxiv.org/abs/2412.05376)
+
+   > Stellar, Cluster, Catalog
+
+   使用`Hunt & Reffert (2023, 2024)`中的星团列表，结合潮汐力估计，识别双星系统和多星系统。
+
+3. [A Novel Technosignature Search in the Breakthrough Listen Green Bank Telescope Archive](https://arxiv.org/abs/2412.05786)
+
+   > Radio, SETI
+
+   假设射电数据没有信号的地方是高斯的，有信号的地方偏离高斯。使用`Fisher kurtosis`来识别这些信号，从中找可能的SETI信号。
+
+## 2024-12-11
+
+1. [M dwarfs quasi-periodic pulsations at a time resolution of 1 s](https://arxiv.org/abs/2412.07580)
+
+   > Stellar, Periodicity
+
+   使用6米BTA望远镜在U波段对最近的M矮星（如EV Lac、Wolf 359、Wolf 424、V577 Mon和UV Ceti）进行了70小时的观测，时间分辨率为1秒。使用经验模态分解（EMD）找其中的QPO。
+
+## 2024-12-12
+
+1. [CRAFTS for HI cosmology: I. data analysis and preliminary results](https://arxiv.org/abs/2412.08173)
+
+   > Radio, Galaxy, Cosmology
+
+   杨文秀的文章，处理CRAFTS数据找星系做宇宙学。
+
+## 2024-12-13
+
+1. [On the Use of Letters of Recommendation in Astronomy and Astrophysics Graduate Admissions](https://arxiv.org/abs/2412.08715)
+
+   > Astronomy
+
+   认为现在天文学研究生录取中，推荐信用处不大、带有偏见且带来了极大的工作量。希望改为学生提交作品集+导师提供简短背景介绍。
+
+2. [herakoi: a sonification experiment for astronomical data](https://arxiv.org/abs/2412.09152)
+
+   > Astronomy, Astronify
+
+   [herakoi](https://github.com/herakoi/herakoi)使用`MediaPipe Hand Landmarker`模型通过摄像头实时检测和跟踪用户的手部位置，将检测到的手部坐标映射到选定图像的像素坐标上，定义触摸区域，将触摸区域的视觉属性（如颜色和亮度）转换为虚拟MIDI键盘上选定乐器的声音属性。颜色与音高相对应，亮度与音量相对应。
+
+3. [Galaxy Morphological Classification with Manifold Learning](https://arxiv.org/abs/2412.09358)
+
+   > Galaxy, Machine Learning, Classification
+
+   用`Locally Linear Embedding`对星系图像降维，用`multinomial regression`进行分类。这篇文章不重要，查了一下流行降维的方法的适用取向
+
+   - **线性数据**：PCA 或 Isomap。
+   - **非线性数据（小数据集）**：t-SNE 或 LLE。
+   - **非线性数据（大数据集）**：UMAP 或自编码器。
+   - **注重局部结构**：t-SNE 或 LLE。
+   - **注重全局结构**：Isomap 或 UMAP。
+
+## 2024-12-16
+
