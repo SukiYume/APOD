@@ -212,3 +212,112 @@
 
 ## 2024-12-16
 
+1. [Bounding the photon mass with gravitationally lensed fast radio bursts](https://arxiv.org/abs/2412.09806)
+
+   > Fast Radio Burst, Cosmology
+
+   用FRB的引力透镜限制光子质量，上限可以用透镜FRB的时间延迟和流量比得到。
+
+2. [A catalogue of complex radio sources in the Rapid ASKAP Continuum Survey created using a Self-Organising Map](https://arxiv.org/abs/2412.10183)
+
+   > Radio, Machine Learning, Classification
+
+   用`Self-Organising Maps`对ASKAP的多高斯源进行无监督机器学习，以识别和分类射电源的形态。
+
+## 2024-12-17
+
+1. [FRB 20230708A, a quasi-periodic FRB with unique temporal-polarimetric morphology](https://arxiv.org/abs/2412.11347)
+
+   > Fast Radio Burst, Observation
+
+   ASKAP探测到FRB20230708A，定位在红移0.105的星系中，表现出复杂的形态，有$1.7\sigma$的7.267ms的准周期，表现出明显的圆偏振转换，但不太可能是法拉第转换。
+
+   <img src="./Figures/image-20241217185532328.png" alt="image-20241217185532328" width="680px" />
+
+2. [PSR J1631-4722: The Discovery of a Young and Energetic Pulsar in the Supernova Remnant G336.7+0.5](https://arxiv.org/abs/2412.11345)
+
+   > Pulsar, Supernova, Observation
+
+   发现与超新星遗迹（SNR）和/或脉冲星风星云（PWN）相关联的脉冲星，这对于揭示其形成历史和脉冲星风动力学至关重要。
+
+   <img src="./Figures/image-20241217190632747.png" alt="image-20241217190632747" width="680px" />
+
+   在ASKAP的连续谱巡天中看到一个致密射电源，用Parkes的观测找到了一个118ms的脉冲星。
+
+## 2024-12-18
+
+1. [Representation learning for fast radio burst dynamic spectra](https://arxiv.org/abs/2412.12394)
+
+   > Fast Radio Burst, Statistics, Deep Learning
+
+   用[FRBakery](https://github.com/SRON-API-DataMagic/Rep_Learn_FRB/tree/main/FRBakery)生成FRB动态谱，分别使用PCA和卷积自编码器来学习动态谱中的特征。PCA在重建简单爆发时表现良好，但在处理复杂爆发时效果不佳。IOB-CAE在重建复杂爆发时表现出色，能够保留更多的细节和关键特征。
+
+   <img src="./Figures/image-20241218135055056.png" alt="image-20241218135055056" width="680px" />
+
+2. [High precision spectro-temporal analysis of ultra-fast radio bursts using per-channel arrival times](https://arxiv.org/abs/2412.12404)
+
+   > Fast Radio Burst, Statistics
+
+   统计FRB的频率漂移率和持续时间的关系。
+
+   <img src="./Figures/image-20241218141027731.png" alt="image-20241218141027731" width="680px" />
+
+3. [Low-frequency Probes of the Persistent Radio Sources associated with Repeating FRBs](https://arxiv.org/abs/2412.13121)
+
+   > Fast Radio Burst, PRS
+
+   uGMRT看FRB20220912A、FRB20240114A和FRB20240619D的PRS。FRB20220912A的宿主星系的射电发射，流量密度为$435\pm53\,\rm\mu Jy/beam$，推测主要与恒星形成活动有关。FRB20240114A的PRS在650MHz的流量密度为$65.6\pm8.1\,\rm\mu Jy/beam$。FRB20240619D附近有AGN，没探测到PRS。
+
+   <img src="./Figures/image-20241218141752088.png" alt="image-20241218141752088" width="680px" />
+
+4. [Ultra-long period compact sources: a glimpse into observational breakthroughs and theoretical challenges](https://arxiv.org/abs/2412.12763)
+
+   > Radio, Transient, LPT, Review
+
+   总结到目前为止探测到的12个长周期射电源，和可能的辐射机制。其中3个确认是白矮星脉冲星，其余的性质不清楚。
+
+   <img src="./Figures/image-20241218143257276.png" alt="image-20241218143257276" width="680px" />
+
+5. [Sun-like stars produce superflares roughly once per century](https://arxiv.org/abs/2412.12265)
+
+   > Stellar, Flare
+
+   统计开普勒光变曲线中，主序星的耀斑发射。这种耀斑发生的事件率随能量上升而下降，幂律拟合的指数$\alpha=1.97\pm0.3$。将其向低能端延伸，可以与太阳耀斑联系起来，表明两者可能由相同的物理机制产生。
+
+   <img src="./Figures/image-20241218144617213.png" alt="image-20241218144617213" width="680px" />
+
+   类似太阳的恒星大约每世纪会产生一次超级耀斑。这一结果比太阳活动记录中的任何耀斑都要强大得多。
+
+6. [Milky Way Disk](https://arxiv.org/abs/2412.12252)
+
+   > Galaxy, Review
+
+   Gaia mission提供了革命性的数据，使得我们对银河系盘面的看法发生了转变。指出，银河系盘面不是一个静态的系统，而是一个受到多种扰动的动态系统。
+
+## 2024-12-19
+
+1. [Montage and Radio Astronomy](https://arxiv.org/abs/2412.13213)
+
+   > Radio, Astronomy
+
+   [Montage](https://github.com/Caltech-IPAC/MontageNotebooks)图像拼接引擎在射电天文学中的应用。Montage用于将VLA发现并由ASKAP定位的FRB的后续图像进行拼接，以识别宿主星系。以及创建LoTSS-DR2数据的拼接法拉第立方体，并通过旋转测量合成算法构建法拉第矩图，以探测我们银河系的磁离子结构。
+
+   <img src="./Figures/image-20241219164513146.png" alt="image-20241219164513146" width="680px" />
+
+## 2024-12-20
+
+1. [Energy and polarization based on-line interference mitigation in radio interferometry](https://arxiv.org/abs/2412.14775)
+
+   > Radio, RFI, Method
+
+   使用
+
+   - `spectral kurtosis`，一种基于能量的高阶统计量，能够更灵敏地检测低能量RFI。
+   - `directional statistics`计算偏振向量的方向
+
+   来识别RFI信号。
+
+   <img src="./Figures/image-20241220151525252.png" alt="image-20241220151525252" width="680px" />
+
+## 2024-12-23
+
