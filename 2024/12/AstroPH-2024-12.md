@@ -321,3 +321,91 @@
 
 ## 2024-12-23
 
+1. [X-ray polarization of the magnetar 1E 1841-045 in outburst](https://arxiv.org/abs/2412.16036)
+
+   > Magnetar, High Energy
+
+   对磁星1E 1841-045的IXPE和NuSTAR观测数据进行分析，发现软X射线的成分来自磁层中的电子康普顿散射，硬X射线部分由逆康普顿散射和次级对撞激波同步辐射产生。
+
+2. [Two-Part Interplanetary Type II Solar Radio Bursts](https://arxiv.org/abs/2412.15961)
+
+   > Solar, Flare
+
+   研究了2003年和2012年两次相似的太阳射电爆发事件，这些事件被称为双部分行星际II型太阳射电爆发。发现宽频带II型太阳射电爆发通常是由CME前缘的弓形激波产生的，F-H发射带可能是由CME侧翼激波或单独的白光激波产生的。
+
+   <img src="./Figures/image-20241223161527377.png" alt="image-20241223161527377" width="680px" />
+
+## 2024-12-24
+
+1. [Electrodynamics and dissipation in the binary magnetosphere of pre-merger neutron stars](https://arxiv.org/abs/2412.16280)
+
+   > Pulsar, Simulation
+
+   通过三维全自由度电动力学模拟，研究双中子星能量释放。磁场线没有连接的双星，可以通过KH不稳定性产生显著的耗散。具有倾斜磁层的双星可以通过KH不稳定性，也可以通过双星的磁重联产生耀斑释放能量。
+
+## 2024-12-25
+
+1. [Demise of Kreutz Sungrazing Comet C/2024 S1 (ATLAS)](https://arxiv.org/abs/2412.18039)
+
+   > Solar System, Comet, Observation
+
+   大多数的`Kreutz`彗星都是近日点前几天才被发现，限制了研究其物理性质的机会。C/2024 S1是一个`Kreutz sungrazer`，用北欧光学望远镜观测了从0.9AU到0.4AU的变化，发现0.7AU开始解体，彗核活动随距离的变化不可预测，散射截面在0.075AU达到峰值后迅速减弱。彗核被摧毁是`旋转不稳定性`和`升华`共同导致的。
+
+   <img src="./Figures/image-20250101181158127.png" alt="image-20250101181158127" width="680px" />
+
+2. [Skynet's "Astrophotography of the Multi-Wavelength Universe!" Curriculum](https://arxiv.org/abs/2412.17928)
+
+   > Astronomy
+
+   简要介绍构成天网新课程[多波长宇宙天体摄影！（简称 MWU！）](https://tinyurl.com/mwu-syllabus)的各个模块。
+
+   <img src="./Figures/image-20250101181513540.png" alt="image-20250101181513540" width="680px" />
+
+## 2024-12-26
+
+今日停更
+
+## 2024-12-27
+
+今日停更
+
+## 2024-12-30
+
+1. [Quantifying the memory and dynamical stability of magnetar bursts](https://arxiv.org/abs/2412.18821)
+
+   > Fast Radio Burst, Statistics
+
+   统计4个磁星爆发的动态稳定性，发现等待时间并非完全随机，但两个 SGR 的能量与完全随机组织一致。此外，等待时间和能量都表现出弱混沌。在随机性-混沌相空间中，SGR 和重复快速射电暴（FRBs）没有明显区别。
+
+   <img src="./Figures/image-20250101181844322.png" alt="image-20250101181844322" width="680px" />
+
+2. [Quasi-steady emission from repeating fast radio bursts can be explained by magnetar wind nebula](https://arxiv.org/abs/2412.19358)
+
+   > Fast Radio Burst, PRS, Theory
+
+   用`磁星风星云`解释FRB的PRS能量来源。
+
+3. [Identifying New γ-Ray Sources in All-Sky Surveys Based on Fermipy's Advanced Algorithm](https://arxiv.org/abs/2412.18767)
+
+   > High Energy, Catalog
+
+   使用银河系漫反射模型将整个天空划分为72个区域，使用`Fermipy`多线程并行找新源。覆盖了Fermi所有15.41年的巡天数据，发现了1379个源，其中497个的信噪比超过5，还有44个1GeV以上的变源。
+
+   <img src="./Figures/image-20250101182405893.png" alt="image-20250101182405893" width="680px" />
+
+## 2024-12-31
+
+1. [Ten (or more!) reasons to register your software with the Astrophysics Source Code Library](https://arxiv.org/abs/2412.19941)
+
+   > Astronomy, Software
+
+   10个将你的代码注册到[ASCL])(http://ascl.net/)的理由，包括注册简单，可以被ADS、WoS、Google Scholars找到。
+
+2. [Galaxy Spectra Networks (GaSNet). III. Generative pre-trained network for spectrum reconstruction, redshift estimate and anomaly detection](https://arxiv.org/abs/2412.21130)
+
+   > Galaxy, Machine Learning, Classification
+
+   用U-Net重建星系光谱，实现分类、红移估计和异常检测。结果表明，生成网络在光谱建模中能以更高的效率达到与经典 PCA 方法相当的精度。
+
+   <img src="./Figures/image-20250101183104691.png" alt="image-20250101183104691" width="680px" />
+
