@@ -151,5 +151,89 @@
 
 ## 2025-01-13
 
+1. [BASSET: Bandpass-Adaptive Single-pulse SEarch Toolkit -- Optimized Sub-Band Pulse Search Strategies for Faint Narrow-Band FRBs](https://arxiv.org/abs/2501.05875)
+
+   > Fast Radio Burst, Software, Search
+
+   曹锦煌的文章，窄带FRB搜索。
+
+## 2025-01-14
+
+1. [Science objectives of the Einstein Probe mission](https://arxiv.org/abs/2501.07362)
+
+   > High Energy, Instrument, Review
+
+   EP的科学任务，包括快速外星系瞬变源（FXRTs，预计每年可以检测到数十个FXRTs）、伽马射线暴（GRBs，预计每年可以检测到约1.5个高红移GRBs）、超新星遗迹（SNR）、活动星系核（AGN，研究其X射线光度和光谱演化）和白矮星（WD）等。
+
+## 2025-01-15
+
+1. [Discovery of 26 new Galactic radio transients by MeerTRAP](https://arxiv.org/abs/2501.08224)
+
+   > Transient, Observation, Radio
+
+   MeerTRAP探测到的26个新的河内暂现源，其中大部分是RRAT。根据基带数据的图像做到角秒定位，从而得到5个源的计时解，得知这些RRAT具有几百万年的年龄和较低的表面磁场强度。测量了另外8个暂现源的自转周期，其中一个的周期似乎长约17.5秒。大多数暂现源只出现过一次。
+
+   <img src="./Figures/image-20250115153203041.png" alt="image-20250115153203041" width="680px" />
+
+2. [Inadequate turbulent support in low-metallicity molecular clouds](https://arxiv.org/abs/2501.07636)
+
+   > ISM, Turbulence
+
+   测量银河系分子云的维里参数，发现银河系外盘的低金属丰度的分子云的湍流弱于靠近太阳的富金属分子云。说明在低金属丰度的银河系外盘，磁场成为了支持分子云的主要机制。
+
+   <img src="./Figures/image-20250115164347219.png" alt="image-20250115164347219" width="680px" />
+
+## 2025-01-16
+
+1. [An Ultra-Wideband Dual Polarization Antenna Array for the Detection and Localization of Bright Fast Radio Transients in the Milky Way](https://arxiv.org/abs/2501.08764)
+
+   > Fast Radio Burst, Instrument
+
+   提出了一种紧凑的临时天线阵列，旨在对银河系内的 FRB 进行有效探测和定位。该天线在1200-1800 MHz范围内工作，由三个子阵列组成，呈L形放置，用于源定位。
+
+   <img src="./Figures/image-20250116174708830.png" alt="image-20250116174708830" width="680px" />
+
+## 2025-01-17
+
+1. [Probing Cosmology with 92 Localized Fast Radio Bursts and DESI BAO](https://arxiv.org/abs/2501.09260)
+
+   > Fast Radio Burst, Cosmology
+
+   使用92个定位了的FRB，结合DESI BAO、PantheonPlus和CMB数据，约束了暗能量的状态方程。结果倾向于动态暗能量模型，与标准ΛCDM模型存在显著差异。
+
+   通过FRBs单独估计哈勃常数，显示出不同的趋势，表明准确的银河系电子密度模型对于解决哈勃张力至关重要。
+
+   <img src="./Figures/image-20250117170508974.png" alt="image-20250117170508974" width="680px" />
+
+2. [A universal break in energy functions of three hyperactive repeating fast radio bursts](https://arxiv.org/abs/2501.09248)
+
+   > Fast Radio Burst, Statistics
+
+   统计FRB的能量分布，认为有拐折是星震。
+
+3. [An Intermediate-mass Black Hole Lurking in A Galactic Halo Caught Alive during Outburst](https://arxiv.org/abs/2501.09580)
+
+   > Black Hole, MultiWavelength, Observation
+
+   多波段观测`EP240222a`
+
+   - X射线光谱显示出软的特征，表明其可能是一个IMBH-TDE。光谱分析显示，其内盘温度约为210 eV，符合IMBH的预期。
+   - 光学光谱显示出显著的He II和Hα发射线，进一步支持了TDE的诊断。光谱分析确定了其红移为0.032。
+   - 光变曲线显示出长期的上升阶段、显著的爆发阶段和平坦的平台阶段，符合IMBH-TDE的典型特征。
+
+   这是首次在星系晕中探测到的一个中等质量黑洞的潮汐瓦解事件。
+
+   <img src="./Figures/image-20250117171327353.png" alt="image-20250117171327353" width="680px" />
+
+4. [The emission of interpulses by a 6.45-hour period coherent radio transient](https://arxiv.org/abs/2501.09133)
+
+   > Transient, LPT, Observation
+
+   `ASKAP J1839-0756`是ASKAP新探测到的长周期变源，周期6.45小时，显示出主脉冲和较弱的中脉冲，表明其具有有序的双极磁场，可能来自一个紧凑的天体，如中子星。
+
+   <img src="./Figures/image-20250117174427903.png" alt="image-20250117174427903" width="680px" />
+
+## 2025-01-20
+
 
 
