@@ -170,7 +170,7 @@ def content_count(data, flag='title'):
             string = re.sub(r'\<img.+?\>', '', string)
             string = re.sub(r'\<p.+?\>', '', string)
             string = re.sub(r'\</p\>', '', string)
-            string = re.sub(r'`(.+?)`', '\g<1>', string)
+            string = re.sub(r'`(.+?)`', r'\g<1>', string)
             string = re.sub(r'\${1,2}.+?\${1,2}', '', re.sub(r'\n', '', string))
             string_list.append(string)
             string_all += string + '\n'
@@ -194,7 +194,7 @@ def content_count(data, flag='title'):
 def get_keyword_counter(data):
     data = data.loc[data.keyword!=''].reset_index(drop=True)
     keyword_list = []
-    for i in data.keyword.str.split(',\s+').values:
+    for i in data.keyword.str.split(r',\s+').values:
         keyword_list += i
     counter = Counter(keyword_list)
     return counter

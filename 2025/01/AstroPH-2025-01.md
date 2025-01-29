@@ -235,5 +235,174 @@
 
 ## 2025-01-20
 
+1. [The cosmic evolution of FRBs inferred from CHIME/FRB Catalog 1](https://arxiv.org/abs/2501.09810)
 
+   > Fast Radio Burst, Statistics, Cosmology
+
+   对CHIME的FRB目录进行统计，发现FRB的能量分布可以用Schechter函数描述，指数为-1.94。FRB源可能由年轻和年老两种通道组合形成。
+
+   预计下一代射电望远镜每年在$z\ge6$时能探测到几十个FRB，具备系统等效通量密度$\le1\,\rm Jy$和瞬时天空覆盖200平方度的望远镜应能在$z\ge6$时每年探测到$1.4\times10^3$个 FRBs，在$z\ge6$时每年探测到$243^{+250}_{-162}$FRBs。
+
+2. [So long Kolmogorov: the forward and backward turbulence cascades in a supernovae-driven, multiphase interstellar medium](https://arxiv.org/abs/2501.09855)
+
+   > ISM, Turbulence, Simulation
+
+   通过对超新星驱动的多相星际介质的模拟发现，超新星爆炸不仅驱动了湍流，还通过不可压缩模式的逆级联和可压缩模式的相互作用，形成了独特的湍流特性。
+
+   <img src="./Figures/image-20250120222926698.png" alt="image-20250120222926698" width="680px" />
+
+## 2025-01-21
+
+今日停更
+
+## 2025-01-22
+
+1. [A highly magnetized long-period radio transient exhibiting unusual emission features](https://arxiv.org/abs/2501.10528)
+
+   > Transient, LPT, Observation
+
+   MeerKAT对GPM J1839-10的观测（三十年那个），降采样到12ms的时间分辨率用TransientX进行单脉冲搜索。在15次观测中，只在最后3次观测找到了爆发。用ACF和PSD找到了1.97s的准周期。
+
+   <img src="./Figures/image-20250122142058369.png" alt="image-20250122142058369" width="680px" />
+
+   测量了三个脉冲的RM，发现线偏振和圆偏振在不同相位间波动，圆极化分数高达约95%。PA摆动显示出复杂的相位变化，并在特定相位出现正交极化模式。在P2脉冲的子脉冲中观察到频率依赖的线极化到圆极化的转换。
+
+   <img src="./Figures/image-20250122142122271.png" alt="image-20250122142122271" width="680px" />
+
+   观测结果支持长周期磁星模型，并暗示LPRTs、磁星和FRBs之间可能存在联系。
+
+2. [DECH: Software Package for Astronomical Spectral Data Processing and Analysis](https://arxiv.org/abs/2501.12207)
+
+   > Spectrum, Software
+
+   [DECH](http://www.gazinur.com/Download.html)用于处理光谱数据，提供从图像预处理到光谱提取、波长校准、连续谱归一化、等值宽度测量（提供多种方法测量等值宽度，包括直接积分、高斯、洛伦兹和Voigt拟合）和径向速度测量等一系列功能。
+
+3. [WALLABY Pilot Survey: kNN identification of perturbed galaxies through HI morphometrics](https://arxiv.org/abs/2501.10563)
+
+   > Galaxy, Machine Learning, Classification
+
+   用k近邻对WALLABY的HI星系的形态参数（包括集中性、不对称性、平滑度、Gini、M20和Sersic指数。使用STATMORPH工具计算这些参数）进行分类，识别扰动星系。
+
+4. [GPU Accelerated Image Quality Assessment-Based Software for Transient Detection](https://arxiv.org/abs/2501.10653)
+
+   > Transient, Software
+
+   在成像数据中找暂现源，通过前后两张微分的方法。之前有人提出`低信息相似性指数, LISI`的方法
+   $$
+   {\rm LISI}(x, y)=D\frac{\sum_{i=1}^N\frac{|x_i+y_i|}{|x_i-y_i|+C_1}}{\max\left(\sum_{i=1}^Nx_i, \sum_{i=1}^Ny_i\right)+C_2}
+   $$
+   其中x和y是输入图像，C是小常数。以及augLISI
+   $$
+   {\rm augLISI}(x, y)=1-\frac{\sum_{i=1}^N|x_i+y_i||x_i-y_i|}{\sum_{i=1}^Nx_i+\sum_{i=1}^Ny_i+C}
+   $$
+
+   - LISI对所有强度级别的变化都非常敏感，即使变化很小，LISI值的范围较广。
+   - augLISI对显著变化更敏感，对小变化的敏感性较低，能够有效识别源差异并忽略噪声变化。
+
+   <img src="./Figures/image-20250122152022842.png" alt="image-20250122152022842" width="680px" />
+
+   LISI在图像的角落和由CLEAN波束卷积引起的结构中产生低值，而augLISI则能更好地定位瞬变，减少误报。这里实现了GPU版本的[LISI](https://github.com/egbdfX/gpuLISI)和[augLISI](https://github.com/egbdfX/gpuAugLISI)。
+
+5. [Observational signatures of mixing-induced cooling in the Kelvin-Helmholtz instability](https://arxiv.org/abs/2501.11324)
+
+   > Solar, Simulation
+
+   太阳大气中存在冷（约10^4K）而密集的物质，如日珥和日冕雨，这些物质与热（约10^6K）而稀薄的日冕物质混合。湍流可以驱动这些物质之间的混合，导致中间温度（约10^5K）的光谱线发射增强，通常归因于混合层内的湍流加热。然而，辐射冷却在中等温度下非常有效，数值模拟表明辐射冷却可以远远超过湍流加热。
+
+   使用[PIP](https://github.com/AstroSnow/PIP)进行非维度形式的辐射磁流体动力学方程的演化。模拟包括密度、速度、磁场和压力等变量。使用CHIANTI v9和自定义的辐射损失函数来计算辐射损失。
+
+   <img src="./Figures/image-20250122153213156.png" alt="image-20250122153213156" width="680px" />
+
+   数值模拟显示，混合过程本身可以导致暖光谱线发射的增加，而不需要加热。辐射损失在混合层中非常有效，导致热能净减少。因此，在日珥-日冕界面观测到的暖光谱线发射增加可能是混合的结果，而不是加热的标志。
+
+6. [Classification of HI Galaxy Profiles Using Unsupervised Learning and Convolutional Neural Networks: A Comparative Analysis and Methodological Cases of Studies](https://arxiv.org/abs/2501.11657)
+
+   > Galaxy, Machine Learning, Classification
+
+   对星系HI轮廓进行分类。用到了[Shapelet](https://tslearn.readthedocs.io/en/latest/user_guide/shapelets.html)变换，Shapelet Transform 的目标是找到那些能够**最好地分离不同类别**的 shapelets，并利用它们对整个时间序列进行变换，生成一个新的特征空间。
+
+   - **解释性强**：Shapelet 是时间序列的子序列，具有明显的物理或模式意义。
+   - **降维能力**：通过提取 shapelets，可以有效减少时间序列的高维性和冗余信息。
+   - **适用性广**：经过 Shapelet Transform 后，可以结合任何传统分类算法。
+
+## 2025-01-23
+
+1. [FindPOTATOs: Minor Planet Observation Linking Software](https://arxiv.org/abs/2501.12922)
+
+   > Planetary Science, Software
+
+   [FindPOTATOs](https://github.com/nugent-lab/FindPOTATOS-stable/)是一个灵活且健壮的链接算法，能够在噪声数据中找到小行星轨迹片段。
+
+## 2025-01-24
+
+1. [COOL Research DAO Whitepaper -- Towards community-owned astrophysics for everyone](https://arxiv.org/abs/2501.13160)
+
+   > Astronomy, Software
+
+   [COOL Research DAO](https://coolresearch.io/)利用互联网上的开放结构和区块链技术，提供了一个去中心化、透明和民主的平台，用于进行和组织科学研究。通过DAO，研究产品、社区和资金可以开放给所有人，通过开放访问和透明的资源分配实现。
+
+## 2025-01-27
+
+1. [Empirical estimation of host galaxy dispersion measure towards well localized fast radio bursts](https://arxiv.org/abs/2501.14063)
+
+   > Fast Radio Burst, Galaxy, Statistics
+
+   通过对十二个已定位的FRB宿主星系的DM进行经验估计，发现宿主星系的DM与宿主星系的恒星质量和恒星形成率之间存在正相关关系。
+
+   <img src="./Figures/image-20250129020511359.png" alt="image-20250129020511359" width="680px" />
+
+2. [A flaring radio counterpart to a fast radio burst reveals a newborn magnetized engine](https://arxiv.org/abs/2501.14247)
+
+   > Fast Radio Burst, Galaxy, Observation, PRS
+
+   观测FRB20240114A的宿主星系，看到了FRS（flaring radio source）。
+
+   <img src="./Figures/image-20250129020820820.png" alt="image-20250129020820820" width="680px" />
+
+   FRS的时间和光谱特性与其他已知的爆发性天体（如超新星和低光度活动星系核）相似，表明FRB引擎可能涉及爆炸和吸积/喷流过程。FRS的磁场强度和大小表明其可能处于PRS的早期阶段，暗示其他活跃FRB的PRS可能是其后期演化阶段。
+
+3. [Artificial Intelligence Could Have Predicted All Space Weather Events Associated with the May 2024 Superstor](https://arxiv.org/abs/2501.14684)
+
+   > Solar, Deep Learning
+
+   这篇论文提出了多种AI方法来预测空间天气事件。具体来说：
+
+   - **活动区分类:** 使用Vision Transformer（ViT）对AR13664的形态演化进行分类。首先，对磁图进行预处理（归一化、裁剪和填充），然后进行数据增强。接着，将数据分为训练集、验证集和测试集，并应用ViT模型进行分类。
+   - **耀斑预测:** 采用基于视频的深度学习方法，通过一系列卷积神经网络（CNN）和一个长短期记忆网络（LSTM）来预测太阳耀斑的发生。构建24小时长的AR13664磁图视频，每36分钟一个时间点，通过优化过程预测未来24小时内M类以上耀斑的发生。
+   - **CME传播时间预测:** 使用物理驱动的神经网络模型，结合气动阻力的确定性模型来预测CME的传播时间。输入参数包括CME初始速度、质量、角宽度、太阳风数密度和速度。通过锥模型和半经验模型获取CME的速度、轨迹和质量，并结合太阳风密度和速度进行预测。
+   - **地磁暴预测:** 利用LSTM网络，结合太阳风和地磁场的实时测量数据，预测地磁暴的强度和影响。输入参数包括磁场向量和太阳风速度向量的模、太阳风温度、磁螺旋度、动能和磁能等。
+
+## 2025-01-28
+
+1. [Constraints on fast radio burst population from the first CHIME/FRB catalog from Hierarchical Bayesian Inference](https://arxiv.org/abs/2501.15530)
+
+   > Fast Radio Burst, Statistics
+
+   使用层次贝叶斯推断方法对CHIME/FRB目录数据的分析，发现当前的FRB样本并不追踪恒星形成历史，这与之前的研究结果一致。
+
+2. [Mapping Galaxy Images Across Ultraviolet, Visible and Infrared Bands Using Generative Deep Learning](https://arxiv.org/abs/2501.15149)
+
+   > Galaxy, Deep Learning
+
+   [Galaxy Band Conversion](https://github.com/yazaazou/Galaxy-Band-Conversion)基于CycleGAN结构，将星系观测数据在不同紫外、可见光和红外波段之间进行转换。模型能够成功地进行波段插值和外推，生成的图像与真实数据高度一致。
+
+   <img src="./Figures/image-20250129021824528.png" alt="image-20250129021824528" width="680px" />
+
+## 2025-01-29
+
+1. [Constraining the Milky Way's Dispersion Measure Using FRB and X-ray Data](https://arxiv.org/abs/2501.16770)
+
+   > Fast Radio Burst, Statistics, ISM
+
+   比较FRB的银河系贡献的DM与 O VII和O VIII吸收线的关系。发现DM~MW~与O VII吸收线有正相关关系，与O VIII吸收线相关性不显著，表明银河系中高温气体少。结果说明DM~MW~贡献不仅来自盘，还来自晕，特别是较高温度的气体贡献较小。
+
+2. [Nonlinear fitting of undersampled discrete datasets in astronomy](https://arxiv.org/abs/2501.17163)
+
+   > Astronomy, Method
+
+   大多数光学和红外天文数据集是由光探测器上的规则形状像素采样的离散值表示的。现有的非线性优化算法（如Levenberg-Marquardt算法）通常在像素中心评估拟合函数，而不是在像素区域内积分，这可能导致拟合结果不准确，特别是在数据欠采样的情况下。
+
+   文章认为使用数值或者解析积分来改进非线性拟合，可以显著提高低信噪比下的你和精度。
+
+## 2025-01-30
 
