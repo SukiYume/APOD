@@ -8,17 +8,10 @@ _✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since Decem
 
 </div>
 
-<div style="
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    gap: 10px;
-">
-    <a href="https://github.com/SukiYume/APOD"><img src="https://img.shields.io/badge/%E6%AF%8F%E6%97%A5%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86-APOD-da282a" alt="release"></a>
-    <a href="https://github.com/SukiYume/APOD/stargazers"><img src="https://img.shields.io/github/stars/SukiYume/APOD.svg?label=Stars&logo=github" alt="release"></a>
-</div>
+<p align="center">
+  <a href="https://github.com/SukiYume/APOD"><img src="https://img.shields.io/badge/%E6%AF%8F%E6%97%A5%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86-APOD-da282a" alt="release"></a>
+  <a href="https://github.com/SukiYume/APOD/stargazers"><img src="https://img.shields.io/github/stars/SukiYume/APOD.svg?label=Stars&logo=github" alt="release"></a>
+</p>
 
 
 ## <div align="center">Description</div>
