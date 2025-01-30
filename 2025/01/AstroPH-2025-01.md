@@ -406,3 +406,13 @@
 
 ## 2025-01-30
 
+1. [Detection of Oscillation-like Patterns in Eclipsing Binary Light Curves using Neural Network-based Object Detection Algorithms](https://arxiv.org/abs/2501.17538)
+
+   > Light Curve, Deep Learning, Object Detection
+
+   使用目标检测识别蚀变双星光变曲线中的振荡模式。
+
+   <img src="./Figures/image-20250130174916260.png" alt="image-20250130174916260" width="680px" />
+
+## 2025-01-31
+
