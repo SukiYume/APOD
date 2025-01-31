@@ -416,3 +416,17 @@
 
 ## 2025-01-31
 
+1. [Constraining the Effect of Baryonic Feedback on the Matter Power Spectrum with Fast Radio Bursts](https://arxiv.org/abs/2501.17922)
+
+   > Fast Radio Burst, Statistics, Cosmology
+
+   用快速射电暴（FRBs）来约束重子反馈对物质功率谱的影响。
+
+2. [TRIPP: A General Purpose Data Pipeline for Astronomical Image Processing](https://arxiv.org/abs/2501.18142)
+
+   > Transient, Optical, Method
+
+   介绍了一个名为TRIPP（Transient Image Processing Pipeline）的天文图像处理数据方法，用于检测天文数据中的瞬变和可变源。
+
+   通过差分成像为所有源生成光变曲线，之后计划使用机器学习提取瞬变源。
+
