@@ -132,3 +132,111 @@
 
 ## 2025-02-10
 
+1. [Broadband γ-ray spectrum of supernova remnant Cassiopeia A](https://arxiv.org/abs/2502.04848)
+
+   > High Energy, Observation
+
+   Cassiopeia A（Cas A）作为银河系中最亮的射电源之一，通过分析Fermi-LAT和LHAASO的观测数据，检测到Cas A区域有一个点状源，发现了30 GeV以上的新的光谱特征。该特征在1 TeV以上非常软，尽管SBPL和对数幂律模型都能很好地拟合LHAASO数据，但它们在10 TeV以上的预测截然不同，暗示了不同的亚PeV粒子加速过程。
+
+   <img src="./Figures/image-20250210202000499.png" alt="image-20250210202000499" width="680px" />
+
+## 2025-02-11
+
+1. [The Host Galaxy of the Hyperactive Repeating FRB 20240114A: Behind a Galaxy Cluster](https://arxiv.org/abs/2502.05587)
+
+   > Fast Radio Burst, Galaxy, Observation
+
+   FRB20240114A的宿主星系的光学观测，红移0.1306，宿主星系提供200单位的DM。重复FRB和非重复FRB的星系恒星形成率分布不同。
+
+   <img src="./Figures/image-20250211155841373.png" alt="image-20250211155841373" width="680px" />
+
+2. [The dispersion measure and scattering of Fast Radio Bursts: contributions from multi-components, and clues for the intrinsic properties](https://arxiv.org/abs/2502.05838)
+
+   > Fast Radio Burst, Statistics
+
+   统计FRB的DM和散射，发现FRB的红移可以通过DM和散射的信息进行估计，但加上散射的信息并未显著提高估计的准确性。
+
+3. [GDL 1.1, a smart and green language](https://arxiv.org/abs/2502.05913)
+
+   > Astronomy, Software
+
+   [GDL](https://github.com/gnudatalanguage/gdl)继承了IDL的功能，避免了python的GIL，变成了一个解释性语言。
+
+## 2025-02-12
+
+1. [Exoplanet Transit Candidate Identification in TESS Full-Frame Images via a Transformer-Based Algorithm](https://arxiv.org/abs/2502.07542)
+
+   > Light Curve, Deep Learning
+
+   使用Transformer结合卷积嵌入，识别TESS光变曲线中存在凌日现象的概率。
+
+2. [The New Science of Unidentified Aerospace-Undersea Phenomena (UAP)](https://arxiv.org/abs/2502.06794)
+
+   > Astronomy, SETI, Review
+
+   详细回顾了从1933年至今的全球和政府对不明飞行物（UAP）的研究历史，涵盖了多个国家和时期的研究努力。包括美国的“罗斯威尔事件”、法国的“幽灵火箭”等。
+
+## 2025-02-13
+
+1. [Fast Radio Bursts as cosmological proxies: estimating the Hubble constant](https://arxiv.org/abs/2502.08509)
+
+   > Fast Radio Burst, Cosmology, Statistics
+
+   使用定位的FRB测量哈勃常数，给了98个定位的FRB，但是引用不靠谱。
+
+2. [FEASTS: The Fate of Gas and Star Formation in Interacting Galaxies](https://arxiv.org/abs/2502.08218)
+
+   > Galaxy, Statistics
+
+   使用FAST扩展目标样本调查（FEASTS，王菁他们的数据）的高灵敏度HI数据，选择具有显著HI潮汐特征的相互作用系统和随机选择的孤立星系作为对照样本。
+
+   发现相互作用星系的HI分布更广，膨胀更大，并且在系统的两端堆积。次星系的恒星形成率普遍受到抑制，表明气体去除的影响大于气体压缩和流入的影响。
+
+## 2025-02-14
+
+1. [Altitude Estimation of Radio Frequency Interference Sources via Interferometric Near Field Corrections](https://arxiv.org/abs/2502.08867)
+
+   > Radio, RFI
+
+   通过干涉近场校正估计射频干扰源的高度。
+
+   1. **远场相位调整:**
+      使用pyuvdata包对数据进行远场相位调整，以确保信号来自远场的假设成立。这需要对源的位置有精确的了解。
+
+   2. **波束成形:**
+      通过平均所有可见度，将阵列波束集中在图像空间的单个“像素”上，从而隔离该像素内的源强度。这种方法用于估计任何无线电源的强度。
+
+   3. **近场校正:**
+      对于近场对象，应用近场校正以将其聚焦。通过假设阵列和对象之间的径向焦距，计算几何校正。公式如下：
+      $$
+      f_x=f_{\rm dist}\times\cos(\phi)\times\sin(\theta)
+      f_y=f_{\rm dist}\times\sin(\phi)
+      f_z=f_{\rm dist}\times\cos(\phi)\times\cos(\theta)
+      $$
+      
+
+      其中，$f_{\rm dist}$是假设的焦距，$\phi$和$\theta$是对象的方位角和极角。
+
+   4. **相位校正:**
+      计算近场相位校正：
+      $$
+      \Delta\phi_{i, j}=\exp^{i2\pi\frac{\Delta w_{i,j}}{\lambda}}
+      $$
+      
+
+      其中$\Delta w_{i,j}=w_{{\rm near-field},i,j}-w_{{\rm far-field},i,j}$是近场和远场的延迟差，$\lambda$是观测波长。
+
+      使用Murchison Widefield Array（MWA）的Phase I观测数据，观测ID为1061313128，持续时间为两分钟，频率范围为167到198 MHz，估计了RFI发射源的平均高度为11.7公里，速度为792公里/小时，表明其可能是一架飞机。
+
+      <img src="./Figures/image-20250214134629654.png" alt="image-20250214134629654" width="680px" />
+
+2. [Searching for axion dark matter gegenschein of the Vela supernova remnant with FAST](https://arxiv.org/abs/2502.08913)
+
+   > Radio, High Energy
+
+   轴子作为暗物质候选粒子之一。如果在银河系暗物质晕中嵌入轴子，它们的激发衰变将使我们能够观测到一个反像（“轴子反光”），其频率等于轴子质量的一半，位于明亮射电源的相反方向。
+
+   使用FAST观测Vela超新星遗迹的轴子反光图像，没有探测到的有效的信号，可以在某一个质量范围内给出轴子-光子耦合强度上限。
+
+## 2025-02-17
+
