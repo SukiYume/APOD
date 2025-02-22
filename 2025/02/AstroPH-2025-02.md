@@ -240,3 +240,107 @@
 
 ## 2025-02-17
 
+1. [Contemporaneous optical-radio observations of a fast radio burst in a close galaxy pair](https://arxiv.org/abs/2502.10153)
+
+   > Fast Radio Burst, Observation, Galaxy
+
+   MeerTRAP探测到FRB20230808F，色散653.2。在FRB到达后3.4秒开始MeerLICHT开始光学观测，尝试寻找光学对应体，没有找到。通过SALT光谱观测，确定FRB的宿主星系为一对近距离的星系，红移为0.3472。
+
+   <img src="./Figures/image-20250217140406732.png" alt="image-20250217140406732" width="680px" />
+
+   他们用[CHIME的方法](https://doi.org/10.1051/0004-6361/202243339)（不是Nature那篇，是后来AA的那篇，方法类似）检测准周期，信号不显著。
+
+2. [ExoMiner++ on TESS with Transfer Learning from Kepler: Transit Classification and Vetting Catalog for 2-min Data](https://arxiv.org/abs/2502.09790)
+
+   > Transient, Deep Learning, Light Curve
+
+   `ExoMiner++`用多特征解决TESS数据中行星信号分类的问题。
+
+   <img src="./Figures/image-20250217141010182.png" alt="image-20250217141010182" width="680px" />
+
+## 2025-02-18
+
+1. [A very young tau-Herculid meteor cluster observed during a 2022 shower outburst](https://arxiv.org/abs/2502.11580)
+
+   > Meteor, Statistics
+
+   在2022年5月31日，两台摄像机在8.5秒内探测到52颗流星。使用FishScan软件手动测量流星记录，并使用Boltrack程序的新模块计算流星的大气轨迹。模拟不同ZHR下的流星出现概率，发现观测到的流星群不是随机出现的，而是流星雨中的一个真实流星群。
+
+   流星群的质量分布显示出两个不同的幂律斜率，质量大于0.08克的碎片，幂律指数为-2.1。
+
+   <img src="./Figures/image-20250218130009785.png" alt="image-20250218130009785" width="680px" />
+
+2. [A Catalog of Local Universe Fast Radio Bursts from CHIME/FRB and the KKO Outrigger](https://arxiv.org/abs/2502.11217)
+
+   > Fast Radio Burst, Observation, Localization
+
+   通过CHIME和KKO对81个FRB的定位，使用PATH算法识别到21个FRB宿主星系，并获得了19个星系的光谱红移。
+
+   <img src="./Figures/image-20250218132414332.png" alt="image-20250218132414332" width="680px" />
+
+3. [A Possible Four-Month Periodicity in the Activity of FRB 20240902A](https://arxiv.org/abs/2502.11215)
+
+   > Fast Radio Burst, Periodicity
+
+   他题目写错了。根据CHIME的[Repeater的数据](https://www.chime-frb.ca/repeaters/FRB20240209A)看到FRB20240209A的周期，大概123.6天，但只有三个周期。
+
+   <img src="./Figures/image-20250218132707672.png" alt="image-20250218132707672" width="680px" />
+
+4. [Repeating fast radio bursts from synchrotron maser radiation in localized plasma blobs: Application to FRB 20121102A](https://arxiv.org/abs/2502.11103)
+
+   > Fast Radio Burst, Theory
+
+   提出重复的FRBs是由弱磁化等离子体中局部等离子团块内的同步辐射激微波辐射引起的，该等离子体相对论性地向观测者移动。
+
+5. [Image Pre-Processing Framework for Time-Domain Astronomy in the Artificial Intelligence Era](https://arxiv.org/abs/2502.10783)
+
+   > Astronomy, Deep Learning
+
+   介绍了一个用于时间域天文学图像预处理的框架，旨在通过集成针对图形处理单元（GPU）架构优化的关键算法来提高图像预处理的效率。
+
+   <img src="./Figures/image-20250218133906260.png" alt="image-20250218133906260" width="680px" />
+
+## 2025-02-19
+
+1. [Improved constraints on the Faraday rotation towards eight fast radio bursts using dense grids of polarized radio galaxies](https://arxiv.org/abs/2502.12263)
+
+   > Fast Radio Burst, Polarization, Observation
+
+   对8个FRB的2-4GHz的VLA观测，测量RM，限制FRB周围1平方度范围的银河系RM。发现与Hutschenreuter et al. 2022的结果相差几个单位到40个单位。将结果推广到已知偏振的FRB，可能错误的估计了30%的FRB的宿主星系RM。
+
+   <img src="./Figures/image-20250219140835628.png" alt="image-20250219140835628" width="680px" />
+
+## 2025-02-20
+
+1. [White Dwarf Variability](https://arxiv.org/abs/2502.13258)
+
+   > White Dwarf, Light Curve, Variable
+
+   总结了白矮星光变机制及其对恒星物理结构和形成的影响。白矮星的光变主要有三种机制：恒星脉动、自转和双星系统中的潮汐变形。
+
+   <img src="./Figures/image-20250220170048827.png" alt="image-20250220170048827" width="680px" />
+
+## 2025-02-21
+
+1. [Constraints on optical and near-infrared variability in the localisation of the long-period radio transient GLEAM-X J1627-52](https://arxiv.org/abs/2502.14688)
+
+   > Transient, LPT, Optical
+
+   对GLEAM-X J1627-52周围的光学和近红外源进行详细搜索，未能发现明显的对应体。
+
+   <img src="./Figures/image-20250221131757408.png" alt="image-20250221131757408" width="680px" />
+
+2. [The Thousand-Pulsar-Array programme on MeerKAT XVII: Discovery of beating radio emission variability in PSR J1514-4834](https://arxiv.org/abs/2502.14481)
+
+   > Pulsar, Periodicity
+
+   PSR J1514-4834表现出复杂次脉冲调制模式，包括快速振幅调制和漂移次脉冲的共存现象。
+
+   <img src="./Figures/image-20250221133211192.png" alt="image-20250221133211192" width="680px" />
+
+   对MeerKAT观测数据的堆叠图进行二维傅里叶变换，发现漂移次脉冲的周期约为40P，而闪烁（快速振幅调制）的周期约为2P（即0.45秒）。
+
+   通过计算傅里叶相位相关性，验证了次脉冲的漂移和闪烁特征确实存在拍频特征。傅里叶相位的相关性表明这些特征是由两个独立的周期性过程引起的。
+
+## 2025-02-24
+
