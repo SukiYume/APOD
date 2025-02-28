@@ -344,3 +344,79 @@
 
 ## 2025-02-24
 
+1. [Reducing false positives in strong lens detection through effective augmentation and ensemble learning](https://arxiv.org/abs/2502.14936)
+
+   > Gravitational Lensing, Deep Learning
+
+   使用数据增强（平方根拉伸图像动态范围）与多个深度学习分类模型一起使用，减少透镜识别的误报率。
+
+2. [Machine Learning in Stellar Astronomy: Progress up to 2024](https://arxiv.org/abs/2502.15300)
+
+   > Stellar, Deep Learning, Machine Learning, Review
+
+   总结了机器学习在恒星天文学中的应用进展，强调了其在`恒星对象识别与分类`以及`天文物理参数`推断中的重要作用。
+
+## 2025-02-25
+
+1. [Effects of localisation precision on identified fast radio burst host galaxy magnitudes](https://arxiv.org/abs/2502.16791)
+
+   > Fast Radio Burst, Localization, Galaxy
+
+   研究`PATH`（暂现源与宿主星系关联概率的工具）在识别FRB宿主星系的潜在偏差。使用ASKAP的定位精度0.5''的样本，将定位不确定性提高到10''，发现直到不确定性比2''更高的时候，宿主星系才发生重大变化。
+
+2. [Hyper-active repeating fast radio bursts from rotation modulated starquakes on magnetars](https://arxiv.org/abs/2502.16626)
+
+   > Fast Radio Burst, Statistics
+
+   罗佳伟的文章，讲余震是等待时间的左峰。
+
+3. [Asteroid shape inversion with light curves using deep learning](https://arxiv.org/abs/2502.16455)
+
+   > Asteroid, Light Curve, Deep Learning
+
+   使用深度学习方法，利用小行星的光变曲线，重建小行星三维点云结构。
+
+   <img src="./Figures/image-20250225155747373.png" alt="image-20250225155747373" width="680px" />
+
+4. [Astronomical image denoising by self-supervised deep learning and restoration processes](https://arxiv.org/abs/2502.16807)
+
+   > Astronomy, Deep Learning
+
+   使用[Self2Self](https://github.com/zimugh/Denoising-TDR/)对天文图像进行降噪，提高信号信噪比。
+
+## 2025-02-26
+
+1. [A Deep Neural Network Approach to Compact Source Removal](https://arxiv.org/abs/2502.18345)
+
+   > Astronomy, Optical, Deep Learning
+
+   基于[pytorch-inpainting-with-partial-conv](https://github.com/naoto0804/pytorch-inpainting-with-partial-conv)模块实现的U-Net结构，实现从天文图像中去除compact object。代码在[这里](https://github.com/xMediMadix/compact-source-removal)。
+
+   <img src="./Figures/image-20250226183210258.png" alt="image-20250226183210258" width="680px" />
+
+## 2025-02-27
+
+1. [Bias-corrected Fast Radio Bursts Population and Spectra Using CHIME Injection Data](https://arxiv.org/abs/2502.19138)
+
+   > Fast Radio Burst, Statistics
+
+   对CHIME/FRB的目录进行纠偏，统计光度函数。对非重复暴幂律指数为-2.50，非重复暴和重复暴的所有爆发都用上得到的幂律指数是-1.91。认为非重复暴和重复暴可能起源不同。
+
+2. ["Frog-eyes" in Astronomy: Monitoring Binary Radial Velocity Variations Through A Pair of Narrow-Band Filters](https://arxiv.org/abs/2502.18567)
+
+   > Stellar, Radial Velocity, Instrument
+
+   之前在LAMOST数据中发现了一系列双星系统。为了提高搜索效率，这里提出使用一对窄带滤光片A带（位于强吸收线附近）和C带（位于相邻的连续谱上）。A带用于捕捉由于双星系统中主星的径向速度变化引起的通量变化，而C带则记录任何其他通量变化。通过比较A带和C带的观测结果，可以提取出双星系统的径向速度曲线。
+
+## 2025-02-28
+
+1. [H I absorption line and anomalous dispersion in the radio pulses of PSR B1937+21](https://arxiv.org/abs/2502.19934)
+
+   > Pulsar, HI
+
+   姜金辰的文章，用脉冲星做HI吸收线，限制PSR B1937+21的运动学距离为9.4kpc。
+
+   <img src="./Figures/image-20250228182344473.png" alt="image-20250228182344473" width="680px" />
+
+
+
