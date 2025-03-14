@@ -10,8 +10,6 @@
 
 ## 2025-03-04
 
-
-
 1. [The Host Galaxy of FRB 20190520B and Its Unique Ionized Gas Distribution](https://arxiv.org/abs/2503.01740)
 
    > Fast Radio Burst, Galaxy, Observation
@@ -107,4 +105,135 @@
       - **磁场演化:** 磁场的演化通过欧姆耗散和霍尔效应描述，磁场衰减会影响磁星的热光度。
 
 ## 2025-03-10
+
+1. [The Chemical Composition of the Sun](https://arxiv.org/abs/2503.05402)
+
+   > Solar, Review
+
+   通过对太阳光球层、太阳风、日冕和中微子的综合分析，提供了太阳化学成分的详细信息。
+
+   <img src="./Figures/image-20250310152947723.png" alt="image-20250310152947723" width="680px" />
+
+## 2025-03-11
+
+1. [Constraints on Evolutions of Fundamental Constants from Clustering of Fast Radio Burst Dispersion Measure](https://arxiv.org/abs/2503.06120)
+
+   > Fast Radio Burst, Cosmology
+
+   通过分析FRB的DM与前景星系的交叉相关信号，约束精细结构常数$\alpha$的演化。
+
+2. [First detection of variable radio emission originating from the infant planetary system V1298 Tau](https://arxiv.org/abs/2503.05952)
+
+   > Stellar, Radio, Observation
+
+   `V1298 Tau`是一颗非常年轻且磁活动活跃的K1V恒星，并且有着多行星系统。这里使用VLA、uGMRT和SRT进行观测，在VLA的C波段探测到射电流量。
+
+   - 射电辐射的高峰值出现在光学光曲线的最小值相位附近，表明射电辐射可能与恒星磁活动相关。
+   - 所有检测到的射电辐射均未显示显著的圆偏振，表明射电辐射可能不是由电子回旋脉泽发射机制产生的。
+
+   <img src="./Figures/image-20250311141328326.png" alt="image-20250311141328326" width="680px" />
+
+## 2025-03-12
+
+1. [A Neural Symbolic Model for Space Physics](https://arxiv.org/abs/2503.07994)
+
+   > Deep Learning, Symbolic Regression
+
+   [PhyE2E](https://github.com/Jie0618/PhysicsRegression)是一个新的AI模型，用于通过符号回归发现物理公式。
+
+   1. **预训练语言模型**：首先，使用现有的物理公式对大型语言模型（LLM）进行微调，使其能够生成与物理公式统计分布一致的公式。
+   2. **端到端模型**：其次，基于Transformer模型训练一个端到端的公式回归模型，将数据矩阵直接转换为逆波兰表示法的符号公式。
+   3. **公式分解技术**：为了降低搜索复杂度，开发了一种公式分解技术，能够将没有非线性（或对数非线性）关系的变量分组，生成一系列更简单的子公式。
+   4. **优化算法**：利用最先进的遗传算法（GA）和蒙特卡罗树搜索（MCTS）方法进一步细化预测的公式。
+
+   <img src="./Figures/image-20250312125736531.png" alt="image-20250312125736531" width="680px" />
+
+   `PhyE2E`的准确率要比`Feynman`等符号回归方法高40%，也用在了太阳黑子活动周期的拟合上。他们图搞得不错。
+
+   <img src="./Figures/image-20250312125801186.png" alt="image-20250312125801186" width="680px" />
+
+2. [A radio transient with unusually slow periodic emission](https://arxiv.org/abs/2503.08033)
+
+   > Radio, Transient, LPT, Observation
+
+   MWA发现的`GLEAM-X J 162759.5-523504.3`，靠近银盘，在低频72-231MHz，周期18.18分钟，高线偏振度，没有X射线发射。2022年发表在Nature上，现在统称这类源是长周期射电源。
+
+   <img src="./Figures/image-20250312130129409.png" alt="image-20250312130129409" width="680px" />
+
+3. [A long-period radio transient active for three decades](https://arxiv.org/abs/2503.08036)
+
+   > Radio, Transient, LPT, Observation
+
+   MWA发现的`GPMJ1839-10`，周期21分钟，脉冲持续时间30-300s，有准周期结构，并且在VLA历史数据中发现，活动持续了30多年。
+
+   <img src="./Figures/image-20250312130339638.png" alt="image-20250312130339638" width="680px" />
+
+4. [The discovery of a 41-second radio pulsar PSR J0311+1402 with ASKAP](https://arxiv.org/abs/2503.07936)
+
+   > Radio, Transient, Pulsar, Observation
+
+   ASKAP发现的`PSR J0311+1402`，周期40.9s的脉冲星。
+
+   - **脉冲星特性:** PSR J0311+1402表现出低线性极化（约25%）和圆极化（约5%），光谱指数较陡（约-2.3），这些特征与正常脉冲星相似。
+   - **自转衰减:** 其自转衰减特性使其位于脉冲星死亡线以下，表明其无线电发射可能无法仅由旋转能量驱动。
+   - **位置:** PSR J0311+1402位于银河系高纬度区域，与其他LPTs不同，显示出较低的极化和较高的银河系纬度。
+
+   <img src="./Figures/image-20250312130550548.png" alt="image-20250312130550548" width="680px" />
+
+5. [Probing Globular Cluster with MeerKAT and FAST: A Pulsar Polarization Census](https://arxiv.org/abs/2503.08291)
+
+   > Pulsar, Observation
+
+   张蕾的文章，使用MeerKAT和FAST望远镜对8个球状星团中的43颗脉冲星进行了观测。
+
+6. [Utilizing localized fast radio bursts to constrain their progenitors and the expansion history of the Universe](https://arxiv.org/abs/2503.08441)
+
+   > Fast Radio Burst, Cosmology
+
+   根据110个定位的FRB，选择了24个有散射时标测量的样本估计哈勃常数，在1sigma置信区间内兼容不同的测量结果。
+
+7. [CSST Strong Lensing Preparation: Fast Modeling of Galaxy-Galaxy Strong Lenses in the Big Data Era](https://arxiv.org/abs/2503.08586)
+
+   > Gravitational Lensing, Deep Learning
+
+   [TinyLensGPU](https://github.com/caoxiaoyue/TinyLensGpu)是使用GPU对引力透镜进行建模的工具。
+
+   - 使用JAX库进行GPU加速，通过XLA库编译Python代码，实现高效的GPU执行。
+   - 采用nautilus-sampler算法，利用神经网络增强嵌套采样，减少对局部最优解的敏感性，从而提高采样效率。
+
+   <img src="./Figures/image-20250312152709903.png" alt="image-20250312152709903" width="680px" />
+
+## 2025-03-13
+
+1. [AGILE observations of a sample of repeating Fast Radio Burst sources](https://arxiv.org/abs/2503.08951)
+
+   > Fast Radio Burst, High Energy
+
+   研究FRB的高能对应体。筛选重复暴的爆发时间戳，搜索AGILE卫星的MCAL（硬X射线观测）、GRID（伽马射线观测）和SuperAGILE（硬X射线成像）探测器中对应时间点的高能信号，没有发现任何天体物理信号，但推导出的通量上限为理解FRB的高能对应物提供了重要信息。
+
+2. [FAST Discovery of A Gas-rich and Ultra-faint Dwarf Galaxy: KK153](https://arxiv.org/abs/2503.08999)
+
+   > Galaxy, HI, Observation
+
+   朱明他们的文章，使用FAST漂移扫描模式观测星系KK153，是一个富含气体的星系，动力学质量是重子质量的60倍。KK153的发现为研究宇宙再电离理论提供了新的挑战，因为其低质量和高气体含量的特征与现有的宇宙再电离模型存在差异。
+
+   <img src="./Figures/image-20250313190601026.png" alt="image-20250313190601026" width="680px" />
+
+3. [Exploring symbolic regression and genetic algorithms for astronomical object classification](https://arxiv.org/abs/2503.09220)
+
+   > Galaxy, Symbolic Regression
+
+   根据SDSS DR17中星表的参数（比如不同波段星等、红移等），使用符号回归对天体进行分类（恒星、星系、活动星系核）。
+
+## 2025-03-14
+
+1. [Anomaly Detection to identify Transients in LSST Time Series Data](https://arxiv.org/abs/2503.09699)
+
+   > Stellar, Machine Learning, Anomaly Detection
+
+   使用孤立森林`iForest`在无信号光变曲线上进行训练，实现对LSST光变曲线的异常检测，来探测变星，包括点状微引力透镜事件（ML）、二元微引力透镜（Binary ML）、以及由扩展物体引起的微引力透镜：NFW亚晕和玻色星（BS）。
+
+   实验表明，至少需要20个观测时间戳才能可靠地过滤掉无信号光变曲线，而大约需要30个时间戳才能可靠地捕捉到瞬变现象。训练数据和模型在[这里](https://zenodo.org/records/15005108)。
+
+## 2025-03-17
 

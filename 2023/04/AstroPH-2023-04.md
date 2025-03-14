@@ -339,7 +339,7 @@
 
 ## 2023-04-28
 
-1. [Classifying FRB spectrograms using nonlinear dimensionality reduction techniques](https://arxiv.org/abs/2304.139120)
+1. [Classifying FRB spectrograms using nonlinear dimensionality reduction techniques](https://arxiv.org/abs/2304.13912)
 
    > Fast Radio Burst, Machine Learning, Classification
 
