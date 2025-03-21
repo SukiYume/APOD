@@ -237,3 +237,196 @@
 
 ## 2025-03-17
 
+1. [Novel Methods for Simulating Astrophysical Plasmas and the Coherent Emission in Fast Radio Bursts](https://arxiv.org/abs/2503.10888)
+
+   > Fast Radio Burst, Theory, Simulation
+
+   通过一维粒子模拟研究了相对论性电磁冲击波中的粒子能量分布，发现粒子反转状态可能支持同步辐射激微波发射。
+
+## 2025-03-18
+
+1. [How stable are the impact factors of major astrophysics journals](https://arxiv.org/abs/2503.12372)
+
+   > Astronomy
+
+   研究了主要天体物理学期刊的影响因子在过去十年（2015-2024）内的稳定性，包括ApJ、AJ、ApJL、ApJS、AA、JCAP、MNRAS。其中AJ和ApJL影响因子升高，其余降低。
+
+   <img src="./Figures/image-20250318140714794.png" alt="image-20250318140714794" width="680px" />
+
+2. [A second-scale periodicity in an active repeating fast radio burst source](https://arxiv.org/abs/2503.12013)
+
+   > Fast Radio Burst, Periodicity, Statistics
+
+   在FRB 20201124A第一次集中活跃期的其中两天，发现了1.7s的周期，其余日期没有。
+
+   <img src="./Figures/image-20250318140922503.png" alt="image-20250318140922503" width="680px" />
+
+3. [AstroSat-CZTI searches for hard X-ray prompt emission from Fast Radio Bursts](https://arxiv.org/abs/2503.12452)
+
+   > Fast Radio Burst, High Energy
+
+   通过对AstroSat-CZTI数据的系统搜索，未能发现任何FRBs的X射线对应体，但提供了有意义的X射线通量和通量上限。
+
+   <img src="./Figures/image-20250318141200383.png" alt="image-20250318141200383" width="680px" />
+
+4. [Exploring a tentative link between FRBs and pulsars with broad energy distributions and applications for nearby FRB survey strategies](https://arxiv.org/abs/2503.13210)
+
+   > Fast Radio Burst, Statistics
+
+   分析FRB和具有宽能量分布的脉冲星，发现它们的能量分布在高能尾部表现出相似的幂律特性。尽管样本量有限，但这些结果表明高亮度FRB可能自然地从低亮度无线电脉冲衍生而来。此外，文章还讨论了针对附近FRB的详细观测策略，建议结合FAST和Parkes cryoPAF的观测以发现新的FRB。
+
+5. [A Study on the Evolutionary Period Changes of Short-period Type II Cepheids](https://arxiv.org/abs/2503.12164)
+
+   > Stellar, Variable
+
+   II型造父变星（T2Cs）是一类低质量恒星，表现出径向脉动。它们位于赫罗图上的经典造父变星和RR Lyrae星之间，对距离测量和恒星演化研究具有重要意义。
+
+   通过扩展样本量和利用长时间基线数据，揭示了短周期BL Her星的周期变化。研究发现既有周期增加也有周期减少的现象，这与传统的红移演化模型不符，但与最新的理论模型一致。这些发现支持了Gravo-Nuclear Loops（GNLs）的存在，提供了对低质量恒星氦燃烧混合过程的新见解。
+
+6. [Ring or no ring -- Revisiting the Multiphase Nuclear Environment in M31](https://arxiv.org/abs/2503.12346)
+
+   > Galaxy, ISM
+
+   李宗男的文章。使用了新获得的JCMT CO(3-2)和IRAM CO(1-0)观测数据，以及VLA和FAST的HI观测数据和CFHT/SITELLE的光谱成像数据研究M31的多相气体结构的核环现象。认为M31的核气体结构不是一个持续旋转的环，而是由最近形成的、具有显著倾斜的不对称螺旋臂组成。
+
+   <img src="./Figures/image-20250318141720230.png" alt="image-20250318141720230" width="680px" />
+
+## 2025-03-19
+
+1. [On Using Gradient Dynamic Spectra (GraDS) to Study Type-II Solar Radio Bursts](https://arxiv.org/abs/2503.13876)
+
+   > Solar, Flare, Statistics
+
+   使用梯度动态频谱（Gradient Dynamic Spectra, GraDS）来研究II型太阳射电暴。`GraDS`就是对每个频率通道做时间微分得到的结果，可以借鉴到FRB的研究上。
+
+   <img src="./Figures/image-20250319162534053.png" alt="image-20250319162534053" width="680px" />
+
+   早期研究表明，大部分II型射电暴起源于CME驱动的冲击波，分带现象可以用于估计冲击波前沿的磁场强度。然而，确定一个给定的II型射电暴是否确实具有分带现象仍然是一个挑战。通过对2014年9月28日的II型射电暴数据的分析，发现该事件不符合上游-下游场景，而是显示出复杂的发射形态。
+
+2. [The emission geometry of pulsars with interpulses](https://arxiv.org/abs/2503.13824)
+
+   > Pulsar, Statistics
+
+   用RVM拟合有中间脉冲的脉冲星的PA，是16颗来自FAST的脉冲星。发现对于5颗脉冲星，中脉冲发射可能来自与主脉冲相同的磁极；对于11颗脉冲星，中脉冲和主脉冲发射来自相反的磁极。
+
+## 2025-03-20
+
+1. [Enhanced Astrometry of the Rapid ASKAP Continuum Survey for Precise Localisation of Fast Radio Bursts](https://arxiv.org/abs/2503.14856)
+
+   > Fast Radio Burst, Localization, Method
+
+   澳大利亚平方公里阵列探路者（ASKAP）通过Rapid ASKAP Continuum Survey（RACS）发现了许多FRBs，但RACS的初始天体测量精度存在系统误差，影响了FRB的定位精度。
+
+   <img src="./Figures/image-20250320183349303.png" alt="image-20250320183349303" width="680px" />
+
+   这里通过交叉匹配RACS与WISE目录来改进RACS天体测量精度的方法，修正后的RACS-Low1目录在银河平面以外的区域表现良好（定位精度好于半个角秒），但在复杂区域仍需进一步优化。
+
+2. [Is the Radcliffe wave turbulent?](https://arxiv.org/abs/2503.15345)
+
+   > Radcliffe Wave, Statistics
+
+   Radcliffe波是一种在银河系中发现的波动现象，其形成机制可能包括与卫星星系的潮汐相互作用和Kelvin-Helmholtz不稳定性。在这些机制中，湍流可能是生成的副产品。写我们的论文的时候可以参考他们的背景。
+
+   使用Li&Chen 2022、Konietzka et al. 2024、Zhu et al., 2024等文章中，年轻气体示踪物的z方向的速度数据，分别计算傅里叶功率谱和结构函数。
+
+   <img src="./Figures/image-20250320195222913.png" alt="image-20250320195222913" width="680px" />
+
+   发现不同数据集得到的功率谱的幂律指数相近
+
+   - 功率谱在大波数（小空间尺度）上表现出q^-3的行为，在大空间尺度（小波数）上显示出q^-2的行为
+   - 结构函数在大空间滞后上显示出对数斜率为1，在小空间滞后上显示出对数斜率为2，这对应于1D湍流功率谱的k^-2依赖性
+
+   得出结论，Radcliffe波中存在可压缩的Burgers湍流。湍流的时间尺度在最大空间尺度上为约500-900百万年，表明湍流大约在500-900百万年前生成。湍流区域的深度在垂直于Radcliffe波方向的方向上约为400-500 pc。
+
+   
+
+3. [Optical and Near-Infrared Contemporaneous Polarimetry of C/2023 A3 (Tsuchinshan-ATLAS)](https://arxiv.org/abs/2503.14896)
+
+   > Comet, Planetary Science, Spectrum
+
+   彗星作为太阳系中最原始的天体之一，保留了大约46亿年前太阳系形成时期的信息。通过对彗星的偏振观测，可以获得关于彗星尘埃颗粒的光学性质、单体大小和孔隙率等信息。
+
+   通过对C/2023 A3彗星的广泛偏振和光谱观测，确认了其尘埃颗粒的光学性质与其他彗星相似。研究结果表明，彗星尘埃的物理特性在Oort云彗星和短周期彗星之间具有较大的一致性。
+
+   <img src="./Figures/image-20250320194115663.png" alt="image-20250320194115663" width="680px" />
+
+4. [Euclid Quick Data Release (Q1) - Data release overview](https://arxiv.org/abs/2503.15302)
+
+   > Survey, Data Release, Catalog
+
+   Euclid任务，是一个由欧洲空间局（ESA）发起的空间任务，旨在通过弱引力透镜和星系团聚来研究暗物质和暗能量。Euclid使用Korsch望远镜和两个仪器（VIS和NISP）进行观测，覆盖了14,000平方度的天区。
+
+   <img src="./Figures/image-20250320194613938.png" alt="image-20250320194613938" width="680px" />
+
+   今天他们发了34篇文章，介绍了Euclid Quick Data Release (Q1) 的数据发布。涵盖了三个Euclid深场（EDF-N、EDF-S、EDF-F）和一个Lynd's Dark Nebula 1641区域，包含约3000万个天体。
+
+5. [Euclid Quick Data Release (Q1): The Strong Lensing Discovery Engine A -- System overview and lens catalogue](https://arxiv.org/abs/2503.15324)
+
+   > Survey, Data Release, Gravitational Lensing
+
+   从欧几里得 Q1 数据的 63 个平方度里里找到了 500 多个优质的强引力透镜系统，其中还包含数十个 disk lenses，4 个更稀有的双环透镜，还有 NGC6505。
+
+   <img src="./Figures/image-20250320200656226.png" alt="image-20250320200656226" width="680px" />
+
+6. [Data Release 1 of the Dark Energy Spectroscopic Instrument](https://arxiv.org/abs/2503.14745)
+
+   > Survey, Data Release, Cosmology
+
+   揭示暗能量的本质以及宇宙加速膨胀的物理机制，这是物理学和科学中最重要的未解之谜之一。DESI项目旨在通过测量重子声波振荡（BAO）特征和红移空间畸变来对暗能量的状态方程、大尺度结构的引力驱动增长以及中微子质量的总和进行精确约束，并探索原初暴胀的观测特征。
+
+   介绍了暗能量光谱仪（DESI）数据发布1（DR1）的内容和成果，测量了大约1870万个独特目标的红移，使其成为迄今为止最大的外星系红移样本。
+
+   <img src="./Figures/image-20250320202528056.png" alt="image-20250320202528056" width="680px" />
+
+   今天宇宙学发了N多论文。
+
+   <img src="./Figures/image-20250320202713539.png" alt="image-20250320202713539" width="680px" />
+
+## 2025-03-21
+
+1. [Prompt Periodicity in the GRB 211211A Precursor: Black-hole or magnetar engine?](https://arxiv.org/abs/2503.15613)
+
+   > GRB, QPO, Periodicity
+
+   分析了GRB 211211A前兆现象的时间序列数据，使用Lomb-Scargle和STFT看转周期，发现21.6Hz的准周期，可能是由早期喷流-盘耦合机制引起的。
+
+   <img src="./Figures/image-20250321191751592.png" alt="image-20250321191751592" width="680px" />
+
+2. [Compression fronts from fast radio bursts](https://arxiv.org/abs/2503.16054)
+
+   > Fast Radio Burst, Theory, Simulation
+
+   总结了FRB与磁星风的相互作用，发现FRB在*r<rstoch*的区域会显著加热和压缩等离子体，导致其能量损失。FRB在*r>rstoch*的区域则主要通过驱动压缩波来加速等离子体。
+
+3. [Neuromorphic Cameras in Astronomy: Unveiling the Future of Celestial Imaging Beyond Conventional Limits](https://arxiv.org/abs/2503.15883)
+
+   > Astronomy, Instrument
+
+   现有的CCD和CMOS传感器在处理快速变化的动态现象时存在局限性，特别是在满月夜等高亮度背景下，这些传感器的动态范围有限，容易出现饱和效应。
+
+   使用神经形态相机来解决传统相机在天文成像中的局限性。**神经形态相机的工作原理**：每个像素包含光电二极管、差分放大器和比较器，模拟视网膜的光感受器、双极细胞和开关神经元。光电二极管检测光强，差分放大器计算光强变化，比较器在亮度变化超过阈值时生成正负事件。
+
+   1. **光度响应**：通过对包含HILTNER 600的恒星场进行光度测量，发现暗淡恒星的V波段星等与真实星等之间存在线性关系，误差百分比在3%以内。
+
+      <img src="./Figures/f4a04f1817cfa7b75f57cd803c278755-image.png" alt="img" style="zoom:50%;" />
+
+      
+
+   2. **高动态范围成像**：使用Trapezium星团进行观测，成功捕捉到亮度在5.3到14.2之间的气体云结构，并与哈勃空间望远镜的光学图像一致。
+
+      <img src="./Figures/caa153fe2860fcd309a01332c20b3fc1-image.png" alt="img" style="zoom:50%;" />
+
+      
+
+   3. **高时间分辨率结果**：使用200毫米多布森望远镜捕捉国际空间站（ISS）和Atlas Centaur-2火箭体的图像，未出现运动模糊。
+
+      <img src="./Figures/ebb2fb9b751a93591ef3f642f3cc65f5-image.png" alt="img" style="zoom:50%;" />
+
+      
+
+   4. **偶然观测到的月球陨石**：在观测过程中偶然检测到光迹，分析其角速度后推测这些光迹可能是由接近月球表面的陨石撞击产生的。
+
+      <img src="./Figures/b7cc284baf2d0623065585204c196ecc-image.png" alt="img" style="zoom:50%;" />
+
+## 2025-03-24
+
