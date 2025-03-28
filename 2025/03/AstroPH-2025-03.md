@@ -378,9 +378,8 @@
 
    <img src="./Figures/image-20250320202528056.png" alt="image-20250320202528056" width="680px" />
 
-   今天宇宙学发了N多论文。
+   今天宇宙学发了N多论文，DES Multiprobe (x4)、DESI DR2 (x8)、ACT DR6 (x3)、Euclid Q1 (x34)。
 
-   <img src="./Figures/image-20250320202713539.png" alt="image-20250320202713539" width="680px" />
 
 ## 2025-03-21
 
@@ -408,25 +407,224 @@
 
    1. **光度响应**：通过对包含HILTNER 600的恒星场进行光度测量，发现暗淡恒星的V波段星等与真实星等之间存在线性关系，误差百分比在3%以内。
 
-      <img src="./Figures/f4a04f1817cfa7b75f57cd803c278755-image.png" alt="img" style="zoom:50%;" />
+      <img src="./Figures/f4a04f1817cfa7b75f57cd803c278755-image.png" alt="img" width="680px" />
 
       
 
    2. **高动态范围成像**：使用Trapezium星团进行观测，成功捕捉到亮度在5.3到14.2之间的气体云结构，并与哈勃空间望远镜的光学图像一致。
 
-      <img src="./Figures/caa153fe2860fcd309a01332c20b3fc1-image.png" alt="img" style="zoom:50%;" />
+      <img src="./Figures/caa153fe2860fcd309a01332c20b3fc1-image.png" alt="img" width="680px" />
 
       
 
    3. **高时间分辨率结果**：使用200毫米多布森望远镜捕捉国际空间站（ISS）和Atlas Centaur-2火箭体的图像，未出现运动模糊。
 
-      <img src="./Figures/ebb2fb9b751a93591ef3f642f3cc65f5-image.png" alt="img" style="zoom:50%;" />
+      <img src="./Figures/ebb2fb9b751a93591ef3f642f3cc65f5-image.png" alt="img" width="680px" />
 
       
 
    4. **偶然观测到的月球陨石**：在观测过程中偶然检测到光迹，分析其角速度后推测这些光迹可能是由接近月球表面的陨石撞击产生的。
 
-      <img src="./Figures/b7cc284baf2d0623065585204c196ecc-image.png" alt="img" style="zoom:50%;" />
+      <img src="./Figures/b7cc284baf2d0623065585204c196ecc-image.png" alt="img" width="680px" />
 
 ## 2025-03-24
+
+1. [Deep-TAO: The Deep Learning Transient Astronomical Object data set for Astronomical Transient Event Classification](https://arxiv.org/abs/2503.16714)
+
+   > Transient, Deep Learning, Dataset
+
+   [Deep-TAO](https://github.com/MachineLearningUniandes/)是用于瞬变源分类的数据集。数据基于Catalina实时瞬变巡天（CRTS）的公开数据，覆盖了从2007年开始的观测数据。包括3807个瞬变序列和12500个非瞬变序列（64x64的光学图片），包含五种瞬变类别（blazars、active galactic nuclei、cataclysmic variables、supernovae和其他未确定的事件）以及非瞬变对象。
+
+   <img src="./Figures/image-20250324161132558.png" alt="image-20250324161132558" width="680px" />
+
+2. [Multi-category solar radio burst detection based on task-aligned one-stage object detection model](https://arxiv.org/abs/2503.16483)
+
+   > Solar, Flare, Deep Learning
+
+   建立了一个基于e-CALLISTO的SRB光谱图像数据集，并注释了五种类型的暴发事件。提出了一个基于[TOOD的SRB检测模型](https://github.com/onewangqianqian/MobileNetVitv2-TOOD)，通过MobileViTv2骨干网络进行全局时空特征提取，并通过通道注意力增强的FPN进行特征融合。最后，采用任务对齐的模型进行分类和定位检测，实现了SRB事件的自动识别和检测。模型在数据集上达到了79.9%的mAP@50和95.1%的召回率。
+
+3. [JWST's little red dots: an emerging population of young, low-mass AGN cocooned in dense ionized gas](https://arxiv.org/abs/2503.16595)
+
+   > Galaxy, LRD, JWST
+
+   JWST在高红移处发现了大量具有宽氢氦线的星系，有着异常大的黑洞质量和极弱的X射线和射电发射，这些星系被称为“小红点”（LRD），可能是由超大质量黑洞（SMBH）驱动或由强烈的恒星形成驱动。
+
+   使用JWST/NIRSpec的中分辨率光谱，分析了红移在3.4到6.7之间的12个对象和红移在2.32到6.76之间的18个对象的叠加光谱，测量Hα线的固有宽度来估算黑洞的质量。
+
+   <img src="./Figures/image-20250324161850115.png" alt="image-20250324161850115" width="680px" />
+
+   发现Hα线的宽线成分主要由电子散射引起，而非典型的多普勒运动。电子柱密度和紧凑的大小表明SMBH吸积是主要的能量来源。表明LRD是一类年轻的、低质量的SMBH，被密集的电离气体包裹，处于接近爱丁顿极限的吸积状态。这些发现解决了LRD的一些谜团，如黑洞质量过大和缺乏X射线和射电检测。
+
+4. [Unravelling the dynamics of cosmic vortices: Probing a Kelvin-Helmholtz instability in the jet of 3C 84](https://arxiv.org/abs/2503.16647)
+
+   > Galaxy, Radio, VLBI
+
+   使用EVN在22GHz的频率下对3C84的喷流进行观测，在喷流图像上，垂直于喷流轴进行局部切片，并使用双峰函数拟合，区分出两个峰值，分别对应绿色线程（T1）和蓝色线程（T2）。通过计算共振K-H模式的波长，确定喷流的内部和外部介质的马赫数、速度、密度比和声速。发现其丝状结构可以由K-H不稳定性描述。
+
+   <img src="./Figures/image-20250324162457258.png" alt="image-20250324162457258" width="680px" />
+
+## 2025-03-25
+
+1. [Why the DESI Results Should Not Be A Surprise](https://arxiv.org/abs/2503.17659)
+
+   > DESI, Cosmology, Dark Energy
+
+   DESI（Dark Energy Spectroscopic Instrument）的最新结果表明，暗能量的密度可能是时间依赖的。这些结果与标准宇宙学模型ΛCDM存在显著冲突。
+
+   文章从基本理论的角度论证了暗能量密度的时间依赖性不应令人惊讶。至少在有效场论的框架下，一个具有裸宇宙常数的模型是非幺正的。
+
+2. [Decoding FRB energetics and frequency features hidden by observational incompleteness](https://arxiv.org/abs/2503.18084)
+
+   > Fast Radio Burst, Statistics
+
+   使用高斯拟合FRB的频谱，认为只有亮爆发才是窄带的，弱爆发的窄带是观测的选择效应。
+
+   <img src="./Figures/image-20250325220029339.png" alt="image-20250325220029339" width="680px" />
+
+3. [The Impact of Accretion on FRB Radiation Mechanisms in Binary Systems: Constraints and Implications](https://arxiv.org/abs/2503.18651)
+
+   > Fast Radio Burst, Theory
+
+   总结了吸积对双星系统中FRB辐射机制的影响，结果表明，为了在吸积物质存在下产生可观测的FRBs，中子星必须具有强磁场，表明产生可观测FRBs的中子星可能是磁星。
+
+   <img src="./Figures/image-20250325220358989.png" alt="image-20250325220358989" width="680px" />
+
+4. [Deep learning-based identification of precipitation clouds from all-sky camera data for observatory safety](https://arxiv.org/abs/2503.18670)
+
+   > Astronomy, Deep Learning
+
+   伊朗国家天文台的全天空相机，捕获640x480像素的图像，曝光时间为60秒，夜间每分钟拍摄一帧。使用`EfficientNet`预测图像中有云还是有雨，提高望远镜的效率并最大化可用的观测时间。
+
+5. [Detection method for periodic radio emissions from an exoplanet's magnetosphere or a star-planet interaction](https://arxiv.org/abs/2503.18733)
+
+   > Radio, Periodicity, Planetary Science
+
+   探测系外行星或恒星-行星相互作用的射电信号是探测行星磁场唯一的方法。由于系外行星磁场通常较弱，难以通过成像技术直接探测，因此需要间接方法来探测这些信号。
+
+   使用Lomb-Scargle检测不均匀采样信号中的周期信号。
+
+   - 模拟了一个周期为12.9小时的信号，并随机保留了2.65%的数据点。随后，模拟了更现实的观测条件，将保留的数据分为多个8小时的间隔，间隔时间为23.93小时。能检测到模拟信号
+   - NenuFAR射电望远镜对木星射电发射的观测数据。数据覆盖了超过六年的时间，总观测时长约为1400小时。将信号分割为每5MHz一段，积分后使用LSP成功检测到了木星的自转周期和由木星与其卫星Io相互作用引起的发射的会合周期。
+
+   <img src="./Figures/image-20250325222009852.png" alt="image-20250325222009852" width="680px" />
+
+6. [New Tests on Lorentz Invariance Violation Using Energy-Resolved Polarimetry of Gamma-Ray Bursts](https://arxiv.org/abs/2503.18277)
+
+   > GRB, High Energy, Cosmology, Statistics
+
+   洛伦兹不变性破缺（LIV）的一个表现是真空双折射，它会导致来自天体源的线偏振光子的偏振平面发生能量依赖性的旋转。
+
+   使用五个明亮伽马射线暴的瞬时γ射线发射的能量分辨偏振测量来限制真空双折射效应，并推导出洛伦兹不变性破缺的参数η的约束。结果表明，η的约束值显著优于以往的多波段光学偏振观测，且统计上更为稳健。
+
+7. [Self-Organized Criticality Across Thirteen Orders of Magnitude in the Solar-Stellar Connection](https://arxiv.org/abs/2503.18136)
+
+   > Solar, Stellar, Flare, Statistics
+
+   研究太阳和恒星耀斑的大小分布，发现这些耀斑跨越数量级符合同一个幂律分布，与自组织临界现象（FD-SOC，如分形、经典扩散、无标度和体积-通量比例关系）模型的预测一致。预测能量通量的幂律指数是$\alpha_F=9/5$，能量的秘密率指数是$\alpha_E=5/3$。
+
+   - **软X射线热能:** 通过SXT/Yohkoh、EIT/SOHO、TRACE和GOES等仪器观测到的太阳耀斑数据，涵盖了从纳米耀斑到大型耀斑的能量范围。
+   - **硬X射线非热能:** 通过ISEE-3/ICE和HXRBS/SMM数据集观测到的太阳非热耀斑能量分布。
+   - **白光辐射能:** 通过KEPLER任务观测到的恒星耀斑数据，特别是G型恒星的耀斑。
+
+   <img src="./Figures/image-20250325222450560.png" alt="image-20250325222450560" width="680px" />
+
+8. [Redshift Distributions of Fast Radio Bursts Inferred Using Clustering in Dispersion Measure Space](https://arxiv.org/abs/2503.18604)
+
+   > Fast Radio Burst, Statistics
+
+   利用FRB在色散量（DM）空间中的聚类来推断其红移分布，而不需要精确建模宿主星系和源周围环境的DM贡献。
+
+   通过假设FRBs具有恒定的共动数密度，并在某个红移处引入高斯截止来表示仪器的信噪比阈值，通过计算不同DM区间和红移区间的角功率谱来重建真实的红移分布。
+
+9. [Solar Radio Burst Detection Based on Deformable DETR](https://arxiv.org/abs/2503.18287)
+
+   > Solar, Flare, Deep Learning
+
+   使用DETR做太阳耀斑射电信号的目标检测。
+
+   <img src="./Figures/image-20250325223553754.png" alt="image-20250325223553754" width="680px" />
+
+10. [Generative AI for Validating Physics Laws](https://arxiv.org/abs/2503.17894)
+
+    > Astronomy, Deep Learning
+
+    Stefan-Boltzmann定律描述了恒星的光度与其绝对温度的关系
+    $$
+    L=4\pi R^2\sigma T^4
+    $$
+    其中L是光度，R是恒星半径，T是表面温度，$\sigma$是Stefan-Boltzmann常数。
+
+    使用Gaia DR3数据集中的主序星样本，最终样本包含240颗恒星，包含恒星的表面温度、半径、绝对星等和光度。使用因果分析中的潜在结果框架，每个恒星在不同温度下有不同的潜在光度值。通过模拟这些反事实场景，计算温度对光度的因果效应。
+
+    <img src="./Figures/image-20250325224431159.png" alt="image-20250325224431159" width="680px" />
+
+    结果显示，温度对光度的影响呈右偏分布，大多数恒星的温度影响较小，而高温恒星的光度增加显著。这表明温度增加通常会导致光度增加，与理论预期一致。
+
+    <img src="./Figures/image-20250325224344535.png" alt="image-20250325224344535" width="680px" />
+
+## 2025-03-26
+
+1. [A depolarisation census of ASKAP fast radio bursts](https://arxiv.org/abs/2503.19749)
+
+   > Fast Radio Burst, Polarization, Statistics
+
+   研究ASKAP的12个非重复暴的消偏振现象，其中FRB 20230526A表现出明显的消偏振，但是没有在FRB位置发现明显的PRS。对比了$\sigma_{RM}$和RPS广度之间的关系。研究支持这样一种假设，即重复FRB和非重复FRB有一个共同的起源，并且非重复FRB代表了相对于重复FRB的一个较老的群体。
+
+   <img src="./Figures/image-20250326140037785.png" alt="image-20250326140037785" width="680px" />
+
+2. [Classification of Radio Sources Through Self-Supervised Learning](https://arxiv.org/abs/2503.19111)
+
+   > Radio, Deep Learning, Classification
+
+   使用`SimCLR`进行自监督与训练（对比学习），使用ResNet18作为编码器，投影向量为256维。训练过程中使用NT-Xent损失函数，在LoTSS-DR2的数据集上进行训练。展示了使用自监督学习对LoTSS-DR2中多样化形态的射电源进行分类的能力。
+
+   <img src="./Figures/image-20250326140355594.png" alt="image-20250326140355594" width="680px" />
+
+3. [Discovery of Quasi-periodic Eruptions in the Tidal Disruption Event and Extreme Coronal Line Emitter AT2022upj: implications for the QPE/TDE fraction and a connection to ECLEs](https://arxiv.org/abs/2503.19013)
+
+   > High Energy, Periodicity, QPO
+
+   准周期性爆发（QPEs）是从超大质量黑洞（SMBHs）附近出现的软X射线瞬变现象，通常出现在低质量星系核中。目前已知的QPE宿主星系约有十个。研究表明，一些QPE与新形成的吸积流有关，这些吸积流可能源自TDEs。
+
+   <img src="./Figures/image-20250326140701799.png" alt="image-20250326140701799" width="680px" />
+
+   通过观测和分析AT2022upj的光度曲线和光谱数据来研究QPEs的方法。具体来说，
+
+   - **光度曲线分析:** 通过对AT2022upj的长期光学（ZTF g-/r波段）、紫外（Swift UVW1）和X射线（0.3-10 keV）光度曲线的分析，识别出QPEs的特征。
+   - **光谱分析:** 使用NICER的时间分辨光谱方法，分析了QPEs的光谱特性，以确定其温度和亮度。
+   - **模型拟合:** 使用FitTeD代码对晚期平缓阶段的光度曲线进行拟合，以评估吸积盘的性质。
+
+   在AT2022upj中发现了八个QPEs，具有不同的重现时间和持续时间。QPEs与ECLEs之间可能存在关联，表明ECLEs可能是形成QPEs的高效环境。
+
+## 2025-03-27
+
+1. [The Extreme Faraday Effect in Fast Radio Bursts](https://arxiv.org/abs/2503.20154)
+
+   > Fast Radio Burst, Theory
+
+   参考翁苏明老师的报告，指出极端法拉第效应导致线偏振的爆发在传播过程中可以分离成左右旋独立的两个爆发，并且会产生频率漂移。
+
+   <img src="./Figures/image-20250327165924644.png" alt="image-20250327165924644" width="680px" />
+
+2. [Lossy Compression of Scientific Data: Applications Constrains and Requirements](https://arxiv.org/abs/2503.20031)
+
+   > Astronomy, Method
+
+   总结了**气候**、**燃烧**、**宇宙学**、**磁约束聚变**、**光源**、**分子动力学模拟**、**量子电路模拟**、**地震学**、**系统日志**对有损压缩的需求和约束。管现有的有损压缩技术在某些方面表现良好，但仍存在许多未满足的需求，特别是在高精度、高性能和长寿命的数据存储方面。
+   
+   <img src="./Figures/image-20250327170256043.png" alt="image-20250327170256043" width="680px" />
+
+## 2025-03-28
+
+1. [Age Estimation of the Radcliffe Wave from Open Star Clusters](https://arxiv.org/abs/2503.21019)
+
+   > Radcliffe Wave, Stellar, Cluster, Statistics
+
+   通过分析不同年龄的开放星团的坐标和速度来估计Radcliffe波的特征，并确定仍属于这一波的开放星团的最大年龄。
+
+   - 使用Hunt和Reffert（2023）目录中的4780个开放星团，根据年龄将开放星团分为四组：小于10 Myr、10-30 Myr、30-50 Myr和50-70 Myr。
+   - 对于平均年龄为40 Myr和61 Myr的开放星团，发现其垂直位置和速度的波动特性与Radcliffe波不一致，得出**Radcliffe波与年龄不超过30 Myr的开放星团相关联**。
+   - 同时发现Radcliffe波的径向运动速度约为10 pc Myr^-1，认为Radcliffe波可能是由超新星爆炸产生的冲击波引起的，这些冲击波不仅来自北极星云的外边界，还来自一个更大规模的扩展前沿。
+
+## 2025-03-31
 
