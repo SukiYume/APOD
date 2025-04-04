@@ -628,3 +628,21 @@
 
 ## 2025-03-31
 
+1. [dolphin: A fully automated forward modeling pipeline powered by artificial intelligence for galaxy-scale strong lenses](https://arxiv.org/abs/2503.22657)
+
+   > Gravitational Lensing, Deep Learning
+
+   [DOLPHIN](https://github.com/ajshajib/dolphin)使用U-Net做语义分割实现对引力透镜的正向建模。
+
+   <img src="./Figures/image-20250331114121607.png" alt="image-20250331114121607" width="680px" />
+
+2. [Tracing the Heliospheric Magnetic Field via Anisotropic Radio-Wave Scattering](https://arxiv.org/abs/2503.22553)
+
+   > Solar, Flare
+
+   太阳射电爆发在传播过程中会受到介质中密度不规则性的散射影响。文章通过多视角观测III型太阳无线电爆发和各向异性无线电波传播模拟，展示磁场不仅引导发射电子，还通过介质中的各向异性散射影响无线电波的传播路径。
+
+   <img src="./Figures/image-20250331114348855.png" alt="image-20250331114348855" width="680px" />
+
+   使用来自四个不同航天器的无线电数据（Parker Solar Probe/FIELDS、Solar Orbiter/RPW、STEREO A/WAVES和WIND/WAVES），观测频率范围为0.9 MHz到0.2 MHz，观测结果显示，无线电波的强度和到达时间在不同航天器上存在显著差异，表明无线电波沿磁场线传播。无线电波的峰值强度随频率降低而向东偏移。
+
