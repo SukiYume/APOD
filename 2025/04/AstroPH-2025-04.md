@@ -270,3 +270,108 @@
 
 ## 2025-04-07
 
+1. [The EMPI Code for Plasma-Induced Effects on Radio Waves I: Non-Magnetized Media and Applications to Fast Radio Bursts](https://arxiv.org/abs/2504.03273)
+
+   > Fast Radio Burst, Simulation
+
+   介绍EMPI代码，用于模拟射电信号通过冷等离子体传播时的相互作用，包括色散、等离子体透镜、闪烁和散射。
+
+2. [The flat tail in the burst energy distribution of FRB 20240114A](https://arxiv.org/abs/2504.03569)
+
+   > Fast Radio Burst, Observation
+
+   黄玉祥的文章，拿昆明40米看FRB20240114A，探测到几个爆发搞搞能量函数。
+
+3. [The AI Cosmologist I: An Agentic System for Automated Data Analysis](https://arxiv.org/abs/2504.03424)
+
+   > Astronomy, LLM
+
+   [AI Cosmologist](https://github.com/adammoss/aicosmologist)使用LLM Agent，用于自动化宇宙学数据分析。包括规划代理、编码代理、执行代理、分析代理、综合代理和文献代理。每个代理利用大型语言模型（LLMs）进行特定功能，保持独立决策能力。在Galaxy Zoo和Quijote数据集上进行了测试。
+
+   <img src="./Figures/image-20250407190118015.png" alt="image-20250407190118015" width="680px" />
+
+4. [Comparative Statistics of Solar Flares and Flare Stars](https://arxiv.org/abs/2504.02943)
+
+   > Stellar, Solar, Flare, Statistics
+
+   比较太阳耀斑（来自Chandrayaan-2 XSM目录和GOES数据库）和恒星耀斑（来自来自TESS卫星观测到的四个恒星）的等待时间分布，使用对数正态的宽度、偏度和峰度进行描述。太阳耀斑的对数正态宽度于噪声过程，恒星耀斑的对数正态宽度为0.683，接近噪声过程的宽度，表明没有记忆效应。
+
+## 2025-04-08
+
+1. [Metal-rich stellar counterpart of the Radcliffe Wave and the 3D chemical footprints of the Milky Way spiral arms](https://arxiv.org/abs/2504.03843)
+
+   > Stellar, Radcliffe Wave
+
+   研究了银河系旋臂的三维金属丰度分布。发现了一个与Radcliffe波相位一致的金属富集星体结构，称为扩展的Radcliffe波。该结构延伸至少4 kpc，垂直幅度接近270 pc，并包含原始的Radcliffe波。
+
+   <img src="./Figures/image-20250408213228116.png" alt="image-20250408213228116" width="680px" />
+
+2. [CHIME/FRB Outriggers: Design Overview](https://arxiv.org/abs/2504.05192)
+
+   > Fast Radio Burst, Instrument
+
+   介绍CHIME/FRB Outtriggers的设计和观测能力，目前有两个台站在工作，第三个台站正在调试。
+
+3. [Observations of fast radio variations in microquasars by FAST](https://arxiv.org/abs/2504.04719)
+
+   > Radio, Black Hole, Periodicity, QPO
+
+   微类星体，即包含吸积黑洞的致密天体，这些天体会产生相对论性喷流。介绍FAST观测到的GRS1915的QPO。
+
+   <img src="./Figures/image-20250408213711067.png" alt="image-20250408213711067" width="680px" />
+
+## 2025-04-09
+
+1. [Observing radio transients with Phased ALMA: Pulses from the Galactic Centre magnetar](https://arxiv.org/abs/2504.06234)
+
+   > Transient, Radio, Magnetar
+
+   用ALMA找单脉冲，ALMA的时间分辨率可以做到8us。在ALMA观测Sgr A*的历史数据中，找到了来自PSR J1745-2900这个磁星的8个爆发，能量大概是1e29 erg，累积能量分布的幂律指数是-2.4。
+
+   <img src="./Figures/image-20250409131411363.png" alt="image-20250409131411363" width="680px" />
+
+## 2025-04-10
+
+1. [Probable evidence for a transient mega-electron volt emission line in the GRB 221023A](https://arxiv.org/abs/2504.06968)
+
+   > High Energy, Observation, GRB
+
+   在GRB 221023A的光谱中探测到的约2.1 MeV的窄发射特征，NC的文章。
+
+   <img src="./Figures/image-20250410164304681.png" alt="image-20250410164304681" width="680px" />
+
+2. [Evidence for repeating fast radio bursts association with fast super-twisted magnetars](https://arxiv.org/abs/2504.06645)
+
+   > Fast Radio Burst, Theory
+
+   假设爆发是由沿着磁星磁层磁场线流动的超相对论等离子体产生的，根据几何模型拟合CHIME探测到的FRB 20180814A和FRB 20180916B的十几个爆发，推断出这些源具有快速的自转和高环形磁场。
+
+3. [Radio emission across the entire rotation phases of pulsars](https://arxiv.org/abs/2504.06545)
+
+   > Pulsar, Polarization
+
+   研究了脉冲星在整个旋转相位中产生的射电辐射。
+
+   <img src="./Figures/image-20250410165141565.png" alt="image-20250410165141565" width="680px" />
+
+## 2025-04-11
+
+1. [Polarization Angle Orthogonal Jumps in Fast Radio Bursts](https://arxiv.org/abs/2504.07449)
+
+   > Fast Radio Burst, Theory
+
+   屈元鸿的文章，研究FRB 20201124A中PA正交跳跃的起源。
+
+   - **相干叠加**：当两个电磁波相干叠加时，PA跳跃发生在线性极化达到最小值且圆极化达到最大值时，总极化度保持不变。PA跳跃需要两个正交模式的振幅相当。
+   - **非相干叠加**：非相干叠加可能导致去极化。观测数据似乎更符合非相干叠加的情况。
+
+2. [Discovery of extreme Quasi-Periodic Eruptions in a newly accreting massive black hole](https://arxiv.org/abs/2504.07169)
+
+   > High Energy, Black Hole, Periodicity, QPO
+
+   通过对SDSS1335+0728星系的观测，发现了极端的QPEs，扩展了我们对QPEs形成通道的理解。研究表明，QPEs不仅与“标准”的TDEs有关，还与新形成的吸积流更广泛地相关。
+
+   <img src="./Figures/image-20250411154725018.png" alt="image-20250411154725018" width="680px" />
+
+## 2025-04-14
+
