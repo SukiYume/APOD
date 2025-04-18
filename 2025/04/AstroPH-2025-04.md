@@ -375,3 +375,150 @@
 
 ## 2025-04-14
 
+1. [The Host Galaxies of Fast Radio Bursts Track a Combination of Stellar Mass and Star Formation, Similar to Type Ia Supernovae](https://arxiv.org/abs/2504.08038)
+
+   > Fast Radio Burst, Galaxy
+
+   提出了一个新的统计框架来研究FRB宿主星系，结果表明FRB宿主星系的分布最好用**恒星质量和恒星形成率的线性组合**来描述。这与Ia型超新星的宿主星系有相似之处，暗示FRB的起源可能与Ia型超新星类似。
+
+   <img src="./Figures/image-20250414151429381.png" alt="image-20250414151429381" width="680px" />
+
+2. [AstroLLaVA: towards the unification of astronomical data and natural language](https://arxiv.org/abs/2504.08583)
+
+   > Astronomy, Deep Learning, LLM
+
+   使用NASA的Astronomy Picture of the Day（APOD）、欧洲南方天文台（ESO）的公共图像档案和NASA/ESA哈勃太空望远镜（HST）的公共图像档案，在LlaMA7B+CLIP ViT-L/14模型上训练一个视觉语言模型。数据在[这里](https://huggingface.co/datasets/UniverseTBD/AstroLLaVA_convos)，代码在[这里](https://github.com/UniverseTBD/AstroLLaVA)。
+
+   在Galaxy 10 DECaLS数据集上进行了评估。结果显示，AstroLLaVA 7B在分类任务上的表现与其他LLaVA模型相当，表明视觉编码器可能是性能瓶颈。
+
+   <img src="./Figures/image-20250414161835616.png" alt="image-20250414161835616" width="680px" />
+
+3. [Exploring the origin of multi-periodic pulsations during a white-light flare](https://arxiv.org/abs/2504.08321)
+
+   > Solar, Flare, Periodicity
+
+   分析2024年5月10日发生在NOAA 13664活动区的一个X4.0级耀斑，在多个波段识别出多个准周期，包括约2分钟、3分钟、8分钟、14分钟和18分钟的准周期，探讨其可能的起源机制。
+
+   - **2分钟准周期:** 在硬X射线和无线电波段检测到，可能与磁重联的准周期性有关，可能作为强耀斑的前兆。
+   - **3分钟准周期:** 在硬X射线、无线电波、紫外线和极紫外线波段同时检测到，可能是由慢磁声波从太阳黑子本影泄漏引起的。
+   - **8分钟准周期:** 在硬X射线、无线电波、紫外线、极紫外线、Lyα和白光波段同时检测到，可能与间歇性磁重联引起的非热电子加速有关。
+   - **14分钟准周期:** 在软X射线和高温度极紫外线波段检测到，可能与高温等离子体的反复加热有关。
+   - **18分钟准周期:** 仅在低能量软X射线波段检测到，可能与不同耀斑区域的能量释放过程有关。
+
+   <img src="./Figures/image-20250414162050012.png" alt="image-20250414162050012" width="680px" />
+
+4. [Dataset of artefacts for machine learning applications in astronomy](https://arxiv.org/abs/2504.08053)
+
+   > Astronomy, Deep Learning
+
+   基于ZTF DR3的光学图像数据，使用主动异常检测算法PiNEFoREsT来识别伪影，构建了一个用于机器学习的[伪影数据集](https://zenodo.org/records/15076426)，包括265个探测器伪影标签、825个光学系统伪影标签和123个外部伪影标签。
+
+   <img src="./Figures/image-20250414164354031.png" alt="image-20250414164354031" width="680px" />
+
+5. [ZTF IC 10 variable catalog](https://arxiv.org/abs/2504.08045)
+
+   > Stellar, Variable
+
+   研究了高质量变星如何影响其所在环境，特别是它们对邻近星系IC 10的影响。代码在[这里](https://github.com/ZehaoJin/Transients-in-IC-10)
+
+   根据ZTF DR15的r和g波段数据，以IC-10为圆心，225角秒为半径，搜索天体。通过拟合光曲线到恒定亮度模型，计算生存函数$S_k(\chi^2)$来检测变星，找到变星后使用LSP找周期。
+
+   <img src="./Figures/image-20250414164929416.png" alt="image-20250414164929416" width="680px" />
+
+   在r波段识别出1388个非变星、150个非周期性变星和37个周期性变星；在g波段识别出767个非变星、85个非周期性变星和12个周期性变星。通过与之前的变星目录和机器学习分类工具UPSILoN的结果进行交叉验证，确保分类的可靠性。发现了一些闪烁的超巨星、候选亮蓝变星、周期性的超巨星和可能的米拉变星。
+
+## 2025-04-15
+
+1. [Discovery of a high-velocity cloud of the Milky Way as a potential dark galaxy](https://arxiv.org/abs/2504.09419)
+
+   > Milky Way, ISM, Galaxy
+
+   发现了一个具有暗星系特征的紧凑气体团块AC G185.0-11.5，其距离约为277.7 kpc，属于本地群的外星物体。由于其缺乏分子气体和光学对应体，AC G185.0-11.5可能是一个罕见的暗星系。朱明他们的文章，发在Science Advances上。
+
+   <img src="./Figures/image-20250415143051495.png" alt="image-20250415143051495" width="680px" />
+
+2. [Broadband Polarized Radio Emission Detected from Starlink Satellites Below 100 MHz with NenuFAR](https://arxiv.org/abs/2504.10032)
+
+   > Satellite, RFI, Radio
+
+   使用NenuFAR检测到的Starlink卫星在100 MHz以下的发射，主要集中在54-66 MHz之间，流量超过500 Jy，且高度偏振，可能与硬件配置或机载电子设备有关。
+
+   <img src="./Figures/image-20250415143630328.png" alt="image-20250415143630328" width="680px" />
+
+3. [Searching for quasi-periodicities in short transients: the curious case of GRB 230307A](https://arxiv.org/abs/2504.10153)
+
+   > High Energy, Periodicity, QPO, GRB
+
+   对GRB 230307A的分析发现了两个显著的QPO信号，分别在1.2 Hz和2.9 Hz附近。
+
+   <img src="./Figures/image-20250415144132933.png" alt="image-20250415144132933" width="680px" />
+
+4.  [The Thousand-Pulsar-Array programme on MeerKAT -- XVI. Mapping the Galactic magnetic field with pulsar observations](https://arxiv.org/abs/2504.09722)
+
+   > Pulsar, Polarization, RM, Milky Way
+
+   使用MeerKAT千脉冲星阵列项目的数据集，对1,097颗脉冲星进行了19,697次观测，结合之前记录的741次测量，形成了一个包含1,838颗脉冲星的测量目录。提供了迄今为止最全面的银河系磁场测量。研究发现，银河系磁场大致呈双对称的螺旋结构，且相对于银河平面具有反对称性。
+
+   <img src="./Figures/image-20250415144401129.png" alt="image-20250415144401129" width="680px" />
+
+## 2025-04-16
+
+1. [Bright bursts with sub-millisecond structures of FRB 20230607A in a highly magnetized environment](https://arxiv.org/abs/2504.11173)
+
+   > Fast Radio Burst, Observation
+
+   周德江的文章，FAST观测FRB 20230607A，RM特别大。
+
+2. [A possible wave-optical effect in lensed FRBs](https://arxiv.org/abs/2504.10523)
+
+   > Fast Radio Burst, Gravitational Lensing
+
+   通过模拟展示了引力透镜和等离子体散射对FRB信号的潜在影响。结果表明，即使在只检测到一个图像的情况下，也可以通过波光学干涉特征识别出强引力透镜的FRB。
+
+3. [Probing Primordial Power Spectrum and Non-Gaussianities With Fast Radio Bursts](https://arxiv.org/abs/2504.10570)
+
+   > Fast Radio Burst, Cosmology
+
+   使用三个或四个探测器进行实验的几何设置。通过测量不同探测器之间的Shapiro时间延迟，可以获得关于引力势的信息。其功率谱可以过原初曲率扰动的傅里叶变换得到。因此可以通过FRB计时来探测原初功率谱和非高斯性。
+
+## 2025-04-17
+
+1. [Understanding the impact of satellites on radio astronomy observations](https://arxiv.org/abs/2504.11561)
+
+   > Astronomy, Radio, Satellite, RFI
+
+   射电波段卫星的活动状况。
+
+   <img src="./Figures/image-20250417145506948.png" alt="image-20250417145506948" width="680px" />
+
+## 2025-04-18
+
+1. [Cosmological Parameters Estimate from Persistent Radio Sources of Fast Radio Bursts](https://arxiv.org/abs/2504.13132)
+
+   > Fast Radio Burst, Cosmology
+
+   根据杨元培的提出的经验规律**PRS的光度正比于FRB的RM**，从而结合PRS光度与DM约束哈勃常数。
+
+2. [The Intergalactic Medium](https://arxiv.org/abs/2504.12539)
+
+   > IGM, Review
+
+   星系际介质（IGM）占据宇宙中大部分重子物质，是理解宇宙大尺度结构和星系演化的重要资源。
+
+   1. **IGM的定义和一般性质**：
+      - **定义和相互关系**：IGM被定义为存在于星系之间的重子物质和空间，与星系在宇宙时间和环境中共同演化。
+      - **密度和温度**：IGM的平均密度约为每立方米一个氢原子的四分之一，远低于星系内的密度。IGM主要由光子主导，因此被认为是光学薄的。
+   2. **早期发现和关键观测**：
+      - **类星体的发现**：类星体的光谱显示了红移小于类星体本身的中性氢和金属的吸收线，揭示了IGM的存在。
+      - **Lyman-α森林**：高红移类星体的观测显示了一系列密集的吸收线，表明IGM中存在大量中性氢原子。
+   3. **物理建模**：
+      - **密度和温度的关系**：IGM的密度和温度之间存在紧密的相关性，反映了光加热和绝热冷却的平衡。
+      - **电离状态**：IGM的电离状态由高能光子和碰撞电离决定，通常处于高度电离状态。
+   4. **类星体光谱学**：
+      - **吸收线的建模**：通过建模吸收线的等效宽度和曲线增长，可以推断IGM的物理性质。
+      - **观测分类**：根据列密度将HI吸收线系统分类为Lyman-α森林、Lyman极限系统和阻尼Lyman-α系统。
+   5. **未来前景**：
+      - **其他观测技术**：除了类星体光谱学，快速射电暴、热Sunyaev-Zeldovich效应、X射线发射和多重视线等技术也可以用于探测IGM。
+
+## 2025-04-21
+
