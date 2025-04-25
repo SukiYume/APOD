@@ -522,3 +522,105 @@
 
 ## 2025-04-21
 
+1. [Cosmological Evolution of Fast Radio Bursts and The Star Formation Rate](https://arxiv.org/abs/2504.13343)
+
+   > Fast Radio Burst, Statistics
+
+   根据CHIME的表格，使用Efron- Petrosian和Lynden-Bell方法估计FRB的红移演化，发现FRB的光度函数可以用断幂函数拟合。并且FRB的与恒星形成率SFR不同，FRB形成率随红移迅速降低，与短伽马射线暴sGRB形成率相似（由致密星并合形成，其形成率对恒星形成率有延迟），支持FRB的磁星起源。
+
+## 2025-04-22
+
+1. [FRB cosmology with the RM-PRS Luminosity Correlation](https://arxiv.org/abs/2504.15119)
+
+   > Fast Radio Burst, Cosmology
+
+   使用PRS光度和RM的经验关系约束哈勃常数。
+
+## 2025-04-23
+
+1. [Tidal phenomena in the Galactic Center: The Curious Case of X7](https://arxiv.org/abs/2504.15337)
+
+   > Milky Way, ISM, Kinematics
+
+   银河系中心存在多个神秘的尘埃源，其中X7位于距离超大质量黑洞Sagittarius A（Sgr A）仅约0.02秒差距的位置。X7由于受到Sgr A的潮汐力作用而逐渐拉长，预计在2035年左右会完全解体，这可能会影响Sgr A的吸积率。然而，X7的起源和性质仍然未知。
+
+   <img src="./Figures/image-20250423152554638.png" alt="image-20250423152554638" width="680px" />
+
+   通过将X7和已知恒星的轨道外推到过去，找到它们之间的时间和来源，最小化它们之间的三维分离和速度差异。结果显示，X7可能起源于S33/S0-30与一个场对象（如恒星质量黑洞或木星质量物体）的擦碰事件。
+
+2. [A characteristic optical variability time scale in jetted active galactic nuclei: a large gamma-ray emission sample](https://arxiv.org/abs/2504.15638)
+
+   > High Energy, Gamma Ray, GPR, Statistics
+
+   使用[celerite](https://github.com/exoplanet-dev/celerite2)对AGN的gamma射线光变曲线进行高斯过程回归，拟合阻尼时间尺度和变化幅度。结果表明，高效吸积AGNs的光学可变性可能起源于标准吸积盘中的紫外辐射半径，与喷流中的冲击加速有关；而低效吸积AGNs的可变性时间尺度与电子的逃逸时间尺度一致。
+
+## 2025-04-24
+
+1. [CHIME All-sky Multiday Pulsar Stacking Search (CHAMPSS): System Overview and First Discoveries](https://arxiv.org/abs/2504.16293)
+
+   > Pulsar, Instrument, CHIME
+
+   从CHIME全天巡天的数据中搜索脉冲星，通过消色散后堆叠功率谱提高周期性信号信噪比。
+
+   <img src="./Figures/image-20250424145648965.png" alt="image-20250424145648965" width="680px" />
+
+2. [MeerKAT L-band observations of the Ophiuchus galaxy cluster. Detection of synchrotron threads and jellyfish galaxies](https://arxiv.org/abs/2504.16158)
+
+   > Radio, Galaxy, Search
+
+   通过MeerKAT L波段观测研究了Ophiuchus星系团，发现了嵌入在弥漫晕中的同步辐射细丝和首次识别的“水母星系”。
+
+   <img src="./Figures/image-20250424145851483.png" alt="image-20250424145851483" width="680px" />
+
+3. [The FAST Discovery of a Millisecond Pulsar Hidden in the Harmonics of PSR J2129+1210A (M15A)](https://arxiv.org/abs/2504.16872)
+
+   > Pulsar, Observation
+
+   在球状星团M15中通过FAST望远镜发现了一个孤立的中子星脉冲星M15O（J2129+1210O），其自转周期接近于已知明亮脉冲星M15A的第10次谐波。
+
+   <img src="./Figures/image-20250424150027709.png" alt="image-20250424150027709" width="680px" />
+
+## 2025-04-25
+
+1. [The First Photometric Evidence of a Transient/Variable Source at z>5 with JWST](https://arxiv.org/abs/2504.17007)
+
+   > Transient, Optical, JWST
+
+   使用JADES和CONGRESS两个项目获取的JWST/NIRCam图像数据，覆盖了GOODS-N区域。JADES项目在2023年2月3日获取了第一组图像，CONGRESS项目在2024年2月12-18日获取了第二组图像。对两组图像做差分，搜索变源。首次发现了红移大于5的瞬变/可变源AT 2023adya。
+
+   <img src="./Figures/image-20250425160610962.png" alt="image-20250425160610962" width="680px" />
+
+2. [An extremely soft and weak fast X-ray transient associated with a luminous supernova](https://arxiv.org/abs/2504.17034)
+
+   > Transient, High Energy
+
+   对`EP250108a`进行多波段观测，证实其是一个extremely soft and weak fast X射线暂现源，与一颗明亮的Ic-BL型超新星SN 2025kg相关联。
+
+   <img src="./Figures/image-20250425160827537.png" alt="image-20250425160827537" width="680px" />
+
+3. [Detection and Characterization of Quasi-Periodic Oscillations in Seyfert Galaxy NGC 4151](https://arxiv.org/abs/2504.17436)
+
+   > Galaxy, AGN, Periodicity
+
+   活动星系核（AGN）中的超大质量黑洞在吸积物质过程中释放出强烈的能量。X射线光谱主要来自吸积盘附近的区域，其辐射变异性揭示了吸积过程和环境屏蔽效应的动态变化。准周期振荡（QPO）是一种特殊的X射线和γ射线发射源现象，表现为X射线光曲线的周期性波动，但在AGN中较为罕见。
+
+   在Chandra和XMM-Newton对NGC 4151的观测数据中，使用WWZ和LSP探测到QPO信号。
+
+   <img src="./Figures/image-20250425161128287.png" alt="image-20250425161128287" width="680px" />
+
+4. [The Hubble Image Similarity Project](https://arxiv.org/abs/2504.17688)
+
+   > Optical, Astronomy, Deep Learning
+
+   Hubble图像相似性项目（HISP），使用[OpenNGC](https://github.com/mattiaverga/OpenNGC)目录中获取NGC对象的图像样本，选择了具有不同形态结构的对象，并对图像进行了预处理，生成了固定大小的裁剪图像。由人工进行评审图像的相似度。
+
+   <img src="./Figures/image-20250425163634887.png" alt="image-20250425163634887" width="680px" />
+
+5. [The NewEra model grid](https://arxiv.org/abs/2504.17597)
+
+   > Stellar, Spectrum
+
+   开发了一个新的LTE模型网格[NewEra](https://doi.org/10.25592/uhhfdm.16722)，提供了广泛的参数范围和高采样率的合成光谱数据。
+
+## 2025-04-28
+
