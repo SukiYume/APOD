@@ -624,3 +624,47 @@
 
 ## 2025-04-28
 
+1. [Are FRBs emitted from rotating magnetospheres? Searching for periodicity in polarized bursts](https://arxiv.org/abs/2504.18176)
+
+   > Fast Radio Burst, Polarization
+
+   想从FRB的偏振位置角的时间序列里找自转周期。
+
+   <img src="./Figures/image-20250428210924442.png" alt="image-20250428210924442" width="680px" />
+
+## 2025-04-29
+
+1. [A hydrodynamical simulations-based model that connects the FRB DM--redshift relation to suppression of the matter power spectrum via feedback](https://arxiv.org/abs/2504.18745)
+
+   > Fast Radio Burst, Cosmology
+
+   通过快速射电暴（FRBs）的色散测量（DM）来约束重子反馈对物质功率谱的影响。
+
+2. [CGM cloud sizes from refractive FRB scattering](https://arxiv.org/abs/2504.19562)
+
+   > Fast Radio Burst, Cosmology
+
+   通过FRB的散射来约束星系周围介质（CGM）中冷气体云的大小。
+
+   <img src="./Figures/image-20250429141150554.png" alt="image-20250429141150554" width="680px" />
+
+3. [Rotation and Dispersion Measure Evolution of Repeating Fast Radio Bursts Propagating through a Magnetar Flare Ejecta](https://arxiv.org/abs/2504.18761)
+
+   > Fast Radio Burst, Theory
+
+   通过磁星耀斑喷射物来解释FRB的DM和RM变化，论文指出，FRB 20220529的RM变化可能是由于磁星耀斑喷射物引起的，而FRB 20200428D的RM变化不明显则可能是由于其源活动较低。在磁星X射线爆发后约105秒内搜索FRB，以验证该模型。
+
+## 2025-04-30
+
+1. [FALCO: a Foundation model of Astronomical Light Curves for time dOmain astronomy](https://arxiv.org/abs/2504.20290)
+
+   > Spectrum, Light Curve, Deep Learning
+
+   天文台搞的使用transformer在开普勒的光变曲线上做分类。
+
+2. [The H2 Glow of a Quiescent Molecular Cloud Observed with JWST](https://arxiv.org/abs/2504.20164)
+
+   > ISM, Observation
+
+   理解星际介质（ISM）的小尺度结构对于研究恒星形成过程中的物理过程至关重要。小于100 AU的尺度上，湍流耗散和气体碎裂等现象可能显现出来。这篇文章用JWST揭示了金牛座分子云边界区域的H2发射结构。
+
