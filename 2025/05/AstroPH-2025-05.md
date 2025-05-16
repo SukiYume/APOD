@@ -108,3 +108,91 @@
 
 ## 2025-05-12
 
+1. [Periodic variation of magnetoionic environment of a fast radio burst source](https://arxiv.org/abs/2505.06006)
+
+   > Fast Radio Burst, Polarization, Periodicity
+
+   北大的文章，在FRB20201124A的长期观测里找到RM变化的周期性，约26天。
+
+   <img src="./Figures/image-20250512143744025.png" alt="image-20250512143744025" width="680px" />
+
+## 2025-05-13
+
+1. [Why is the Star Formation Rate Proportional to Dense Gas Mass?](https://arxiv.org/abs/2505.07764)
+
+   > ISM, Statistics
+
+   焦斯汗的文章，统计恒星形成率（SFR）与密集气体质量之间的比例关系。
+
+   <img src="./Figures/image-20250513145349970.png" alt="image-20250513145349970" width="680px" />
+
+2. [EP241021a: a months-duration X-ray transient with luminous optical and radio emission](https://arxiv.org/abs/2505.07665)
+
+   > High Energy, Observation
+
+   对EP241021a的多波段观测（X射线-EP、光学-Kech、射电-VLA/MeerKAT/VLBA/ATCA）。EP241021a的
+
+   - X射线爆发持续约100秒，随后在1.5天内下降超过三个数量级。在接下来的7天内保持平稳，之后以$t^{-1.2}$的速度衰减，最终在30天后变得不可检测。
+   - 光学对应体在X射线触发后1.8天内被检测到，并在20天后出现第二次光学增亮。
+   -  射电对应体在X射线触发后8.4天被检测到，射电频谱能量分布显示出高亮度，类似于长伽马射线暴和喷流TDE。
+
+## 2025-05-14
+
+1. [MeerKAT discovery of a hyperactive repeating fast radio burst source](https://arxiv.org/abs/2505.08372)
+
+   > Fast Radio Burst, Observation
+
+   MeerKAT探测到FRB 20240619D，是一个活跃的重复FRB，共检测到249个爆发事件，其中UHF波段46个，L波段177个，S波段26个。在L波段事件率最高。100%线偏振，少数圆偏振，没有光学对应体。
+
+   <img src="./Figures/image-20250514161419417.png" alt="image-20250514161419417" width="680px" />
+
+## 2025-05-15
+
+1. [A Possible Problem with the Sunspot Number](https://arxiv.org/abs/2505.08832)
+
+   > Solar, Statistics
+
+   自2014年7月至2015年12月期间，太阳黑子数与F10.7（太阳微波辐射常用指标，主要由热轫致辐射（TB）和回旋共振（GR）产生）的变化关系出现异常，而F10.7与HMI测量的磁通量关系正常。由于SILSO未公开原始太阳黑子观测数据，无法独立验证SN的推导过程。
+
+   <img src="./Figures/image-20250515141125385.png" alt="image-20250515141125385" width="680px" />
+
+## 2025-05-16
+
+1. [Diversity of Exoplanets](https://arxiv.org/abs/2505.09754)
+
+   > Exoplanet, Review
+
+   综述了低质量系外行星（包括超级地球和迷你海王星）的研究进展。
+
+   1. **行星半径和质量测量**：通过凌星法和径向速度法测量行星的半径和质量。低质量行星的半径和质量分布广泛，存在显著的差异。超级地球和迷你海王星的质量和半径范围较大，而水世界的半径较小。
+
+      <img src="./Figures/image-20250516194446067.png" alt="image-20250516194446067" width="680px" />
+
+   2. **大气成分分析**：通过低分辨率和高分辨率的光谱分析来研究行星大气的成分。不同类型的行星大气成分差异显著。超级地球和迷你海王星的大气中可能含有氢、氦和水蒸气，而水世界的大气中主要含有水蒸气。
+
+   3. **行星分类和特征描述**：根据行星的半径和质量将其分类为不同的类型，如超级地球、迷你海王星和水世界。
+
+      <img src="./Figures/image-20250516194617126.png" alt="image-20250516194617126" width="680px" />
+
+      - **初始阶段**：行星形成始于原行星盘中的固体颗粒凝聚，形成星子和小行星体。这个阶段的物质组成受温度和压力的影响。
+      - **碰撞和迁移**：行星体通过碰撞和迁移增长，最终形成行星。这个过程中可能发生大气逃逸和化学分馏。
+      - **巨行星的影响**：巨行星的形成和迁移对其他行星的轨道和生长有显著影响，可能导致行星的吸积或抛射。
+
+2. [Imaging and spectropolarimetric observations of a band-split type II solar radio burst with LOFAR](https://arxiv.org/abs/2505.10243)
+
+   > Solar, Flare, Observation
+
+   II型太阳射电暴的频带分裂现象，起源于激波的两个不同区域，而不是激波前后的同一区域。两个子带的圆偏振度相似，表明两个区域的磁场强度相似，且辐射区域的等离子体几乎没有变化。
+
+   <img src="./Figures/image-20250516194804384.png" alt="image-20250516194804384" width="680px" />
+
+3. [A possible periodic RM evolution in the repeating FRB 20220529](https://arxiv.org/abs/2505.10463)
+
+   > Fast Radio Burst, Polarization, Periodicity
+
+   觉得FRB 20220529的RM有个200天的周期。
+
+   <img src="./Figures/image-20250516194936239.png" alt="image-20250516194936239" width="680px" />
+
+## 2025-05-19
+
