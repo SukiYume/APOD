@@ -196,3 +196,93 @@
 
 ## 2025-05-19
 
+1. [Was there a (super)nova in 1408?](https://arxiv.org/abs/2505.10728)
+
+   > Astronomy
+
+   重新评估了1408年“客星”现象，认为其很可能是一次经典新星爆发。通过对原始明代记录的详细分析，结合现代天文学数据，论文提出了CK Vul作为可能的候选对象。
+
+## 2025-05-20
+
+1. [The CHIME/FRB Discovery of the Extremely Active Fast Radio Burst Source FRB 20240114A](https://arxiv.org/abs/2505.13297)
+
+   > Fast Radio Burst, Observation
+
+   CHIME对FRB20240114A的观测，探测到5个爆发，爆发率为0.03个/小时，比其它非重复暴的事件率高49倍。基带数据中没看到闪烁，测量RM在320左右，线偏振度为45%。
+
+   <img src="./Figures/image-20250520162003616.png" alt="image-20250520162003616" width="680px" />
+
+2. [SpiderCat: A Catalog of Compact Binary Millisecond Pulsars](https://arxiv.org/abs/2505.11691)
+
+   > Pulsar, Catalog
+
+   [SpiderCAT](https://astro.phys.ntnu.no/SpiderCAT/)是一个银河系中所有已知双星毫秒脉冲星（MSPs）的多波段目录。其中包含32个确认的红背，49个确认的黑寡妇，23个红背候选者，和5个黑寡妇候选者。
+
+   MSPs主要集中在低纬度区域，大多数源位于$|b|<30^\circ$，显示出在银河平面附近的集中趋势。伴星质量范围从0.006到0.5太阳质量，红背和黑寡妇的轨道周期中位数分别为6.2小时和3.6小时。
+
+   <img src="./Figures/image-20250520162321966.png" alt="image-20250520162321966" width="680px" />
+
+## 2025-05-21
+
+1. [No Evidence for Second-Scale Periodicity in FRB 20201124A from FAST Observations](https://arxiv.org/abs/2505.14219)
+
+   > Fast Radio Burst, Periodicity
+
+   检查了FRB20201124A第一批FAST观测数据的到达时间，没有探测到显著的秒级周期，跟之前黄永锋他们的文章结论冲突。
+
+2. [Counterpart-Induced Millisecond-Scale Truncation Mechanism of Fast Radio Bursts](https://arxiv.org/abs/2505.14413)
+
+   > Fast Radio Burst, Theory
+
+   解释FRB毫秒量级持续时间的理论。认为是光子束在传播过程中通过逆康普顿散射，产生侧向散射光子，这些光子随后通过Breit-Wheeler过程产生电子-正电子对，导致等离子体密度指数增长。反应截面尺度对应于毫秒级的时间尺度，与FRB持续时间一致。
+
+   FRBs的持续时间可能由其传播过程中的高能光子密度决定，而不仅仅是其发射机制的限制。
+
+3. [An Edge AI Solution for Space Object Detection](https://arxiv.org/abs/2505.13468)
+
+   > Astronomy, Deep Learning
+
+   介绍了GELAN-ViT-SE模型和[SODv2](https://github.com/AEL-Lab/satellite-object-detection-dataset-v2)数据集。GELAN-ViT-SE结合Squeeze-and-Excitation（SE）层、Vision Transformers（ViT）和YOLOv9框架实现空间卫星的目标检测。实验表明引入SE块可以提高检测精度，同时保持相似的计算效率。
+
+   <img src="./Figures/image-20250521154611082.png" alt="image-20250521154611082" width="680px" />
+
+## 2025-05-22
+
+1. [BLINK: an End-To-End GPU High Time Resolution Imaging Pipeline for Fast Radio Burst Searches with the Murchison Widefield Array](https://arxiv.org/abs/2505.15204)
+
+   > Fast Radio Burst, Software
+
+   [BLINK](https://github.com/PaCER-BLINK-Project)是用在MWA上快速成像的工具，包括构建交叉功率谱、网格化和2DFFT等过程。
+
+   <img src="./Figures/image-20250523212908260.png" alt="image-20250523212908260" width="680px" />
+
+2. [Eclipsing white dwarf from the Zwicky Transient Facility: II. Seven eclipsing double white dwarfs](https://arxiv.org/abs/2505.15580)
+
+   > Stellar, Variable, White Dwarf
+
+   在ZTF数据中发现了七颗具有轨道周期在45分钟到3小时之间的食双白矮星。研究表明，这些系统大多是低质量的氦核白矮星双星，其中两颗显示出小偏心率，这是首次在致密双白矮星系统中测量到的现象。
+
+   <img src="./Figures/image-20250523213309858.png" alt="image-20250523213309858" width="680px" />
+
+## 2025-05-23
+
+1. [A pulsar-helium star compact binary system formed by common envelope evolution](https://arxiv.org/abs/2505.15896)
+
+   > Pulsar, Binary, Observation
+
+   使用FAST对`PSR J1928+1815`的长期观测。计时结果表明这是一个轨道几乎为圆的，通过共同包层演化形成的脉冲星-氦星双星系统。
+
+   <img src="./Figures/image-20250523195938093.png" alt="image-20250523195938093" width="680px" />
+
+   通过观测到的周期性射电发射中断，推断伴星是一颗氦星，质量在$1-1.6M_\odot$之间。伴星的光学（PanSTARRS1）和红外（UKIRT ）的数据未检测到任何信号，进一步支持了这一结论。
+
+2. [MeerKAT Discovery of an Infalling Cold Gas Tail onto the Nearby Barred Spiral Galaxy, NGC 5643](https://arxiv.org/abs/2505.15983)
+
+   > Galaxy, HI, Observation
+
+   MeerKAT对棒旋星系NGC 5643的HI观测，发现其HI延伸超过恒星盘，显示出形态和运动学上的不对称，北部尾部的气体以逆时针方向旋转，与星系盘的旋转方向相反，表明可能是从环境中吸积的气体，周围有6个低HI质量的星系。
+
+   <img src="./Figures/image-20250523201953067.png" alt="image-20250523201953067" width="680px" />
+
+## 2025-05-26
+
