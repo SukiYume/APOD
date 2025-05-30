@@ -286,3 +286,88 @@
 
 ## 2025-05-26
 
+1. [Two Periodic Activity Epochs in FRB 20201124A: Coincident with Critical RM Evolution Epochs and Its Implications](https://arxiv.org/abs/2505.17880)
+
+   > Fast Radio Burst, Periodicity, Statistics
+
+   之前在FRB 20201124A的两天数据中找到爆发的短周期，发现这两个短周期在Be双星模型预测的RM转折点处。
+
+   <img src="./Figures/image-20250526155915428.png" alt="image-20250526155915428" width="680px" />
+
+   认为在这两个观测窗口期间，磁星恰好穿过Be星的盘面。盘面-磁星在这两个几何位置的相互作用可能抑制了磁星低纬度的多极磁场，从而增强了极冠区辐射的主导地位，使得周期性活动可被探测到。
+
+2. [High-time-resolution properties of 35 fast radio bursts detected by the Commensal Real-time ASKAP Fast Transients Survey](https://arxiv.org/abs/2505.17497)
+
+   > Fast Radio Burst, Observation
+
+   对ASKAP探测到的35个FRB的高时间分辨率动态谱Figures/分析，所有FRBs可能都由多个成分组成，高度散射的FRBs中成分可能被掩盖。
+
+   <img src="./Figures/image-20250526160251624.png" alt="image-20250526160251624" width="680px" />
+
+3. [AstroMLab 4: Benchmark-Topping Performance in Astronomy Q&A with a 70B-Parameter Domain-Specialized Reasoning Model](https://arxiv.org/abs/2505.17592)
+
+   > Astronomy, Deep Learning, LLM
+
+   [AstroSage-Llama-3.1-70B](https://huggingface.co/AstroMLab/AstroSage-70B)
+
+   - **持续预训练（CPT）:** 使用了超过25万篇arXiv预印本、近3万篇与天文学相关的Wikipedia文章和互联网可用的教科书，进行了2.5个时代的训练，使用了AMD Instinct MI250X GPU，耗时约168,000 GPU小时。
+   - **监督微调（SFT）:** 使用了NVIDIA的Llama-Nemotron-Post-Training-Dataset、OpenHermes 2.5数据集以及自定义的天文学问答数据集，进行了0.6个时代的训练，耗时约13,000 GPU小时。
+   - **模型合并:** 使用mergekit库，将AstroSage-70B-SFT与其他几种预训练模型进行混合，最终模型的组成包括70% AstroSage-70B-SFT、15% Llama-3.1-Nemotron-70B-Instruct、7.5% Meta-Llama-3.3-70B-Instruct和7.5% Meta-Llama-3.1-70B-Instruct。
+   - 具备显式推理能力，可以在推理时通过设置系统提示来激活，生成逐步的推理过程，然后再提供最终答案。
+
+   <img src="./Figures/image-20250526160645726.png" alt="image-20250526160645726" width="680px" />
+
+## 2025-05-27
+
+1. [100 Proof: HI Observations of 100 Nearby Dwarf Galaxies with the 100-meter Green Bank Telescope](https://arxiv.org/abs/2505.19248)
+
+   > Galaxy, HI, Radio, Observation
+
+   使用GBT对附近105个矮星系的HI观测结果，检测到了77个星系的HI信号。
+
+   <img src="./Figures/image-20250527124129731.png" alt="image-20250527124129731" width="680px" />
+
+## 2025-05-28
+
+1. [gallifrey: JAX-based Gaussian process structure learning for astronomical time series](https://arxiv.org/abs/2505.20394)
+
+   > Astronomy, Machine Learning
+
+   [gallifrey](https://github.com/ChrisBoettner/gallifrey)通过顺序蒙特卡罗算法进行贝叶斯核结构学习，在天文时间序列建模上，自动化发现高斯过程（GP）的最优核。
+
+   <img src="./Figures/image-20250528170550379.png" alt="image-20250528170550379" width="680px" />
+
+2. [robostrategy: Field and Target Assignment Optimization in the Sloan Digital Sky Survey V](https://arxiv.org/abs/2505.21328)
+
+   > Astronomy, Survey, Instrument
+
+   用于SDSS-V的高效规划长期大规模多目标光谱学项目的算法（线性规划求解的问题）。
+
+## 2025-05-29
+
+1. [MWA and VLA Observations of Diffuse Radio Lobes in M 87](https://arxiv.org/abs/2505.21929)
+
+   > Galaxy, Observation, Radio
+
+   MWA+VLA对M87的观测，能量和功率估算表明，AGN喷流可以提供足够的能量来驱动整个系统。
+
+   <img src="./Figures/image-20250529101823959.png" alt="image-20250529101823959" width="680px" />
+
+## 2025-05-30
+
+1. [Measuring pulsar profile variations with 2-D Gaussian process regression](https://arxiv.org/abs/2505.23413)
+
+   > Pulsar, Machine Learning
+
+   [psrcelery](https://arxiv.org/pdf/2505.23413)通过二维高斯过程回归，测量脉冲星在时间-相位图上的变化。应用在Jodrell Bank Observatory的26颗脉冲星上，在其中21个脉冲星中检测到明显的轮廓变化，使用PCA发现脉冲星spin down与形状变化之间有关联。
+
+   <img src="./Figures/image-20250530112150738.png" alt="image-20250530112150738" width="680px" />
+
+2. [A Be star-black hole binary with a wide orbit from LAMOST time-domain survey](https://arxiv.org/abs/2505.23151)
+
+   > Stellar, Black Hole
+
+   老一套，在LAMOST的RV数据中找到了一个Be星-黑洞双星系统。
+
+   <img src="./Figures/image-20250530112504525.png" alt="image-20250530112504525" width="680px" />
+
