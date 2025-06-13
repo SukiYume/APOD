@@ -145,7 +145,215 @@
 
    <img src="./Figures/image-20250606143717589.png" alt="image-20250606143717589" width="680px" />
 
-## 2025-06-07
+## 2025-06-09
 
 
+
+1. [Detection of multiple X-ray quasi-periodic oscillations in IGR J19294+1816 with Insight-HXMT](https://arxiv.org/pdf/2506.05771)
+
+   > High Energy, QPO
+
+   使用[HEASOFT/Powspec](https://heasarc.gsfc.nasa.gov/xanadu/xronos/examples/powspec.html)对IGR J19294+1816做准周期性分析。python中 [Stingray](https://github.com/StingraySoftware/stingray)有类似的功能实现，以及[pycwt](https://github.com/regeirk/pycwt)做小波分析。
+
+   <img src="./Figures/image-20250609121356307.png" alt="image-20250609121356307" width="680px" />
+
+2. [Correlation of Burst Behaviour with Magnetar Age](https://arxiv.org/abs/2506.05910)
+
+   > Magnetar, Statistics
+
+   磁星的爆发行为与其年龄密切相关，年轻磁星由于内部磁场的高应力和大范围的应力区域，表现出更多的高能量爆发；而老磁星由于磁场衰减和应力区域的减少，表现出较少的低能量爆发。
+
+   <img src="./Figures/image-20250609121557348.png" alt="image-20250609121557348" width="680px" />
+
+3. [The polarization of strongly lensed point-like radio sources](https://arxiv.org/abs/2506.05772)
+
+   > Transient, Radio, Polarization, Theory, Gravitational Lensing
+
+   研究强引力透镜下的偏振现象，特别是磁化介质引起的双折射效应及其对光传播路径的影响。
+
+   - 在弱磁场下，几何延迟和几何旋转与法拉第旋转具有相似的频率依赖性，且其幅度更大。
+   - 在强磁场下，等离子体介质中的偏转角度较小，放大曲线出现复杂的结构，两种偏振模式的图像可能会分裂。
+
+## 2025-06-10
+
+1. [A Python client for the ATLAS API](https://arxiv.org/abs/2506.06403)
+
+   > Astronomy, Software
+
+   小行星地球撞击最后警报系统（The Asteroid Terrestrial-impact Last Alert System, ATLAS）是一个全天光学天空观测系统，其观测周期为 24 至 48 小时。[atlasapiclient](https://github.com/HeloiseS/atlasapiclient)是可以接入ATLAS数据的PythonAPI。
+
+2. [100,000 Crab giant pulses at 215 MHz detected with an SKA-Low prototype station](https://arxiv.org/abs/2506.07422)
+
+   > Pulsar, Observation, Statistics
+
+   SKA-Low原型站EDA2对Crab的观测，观测频率再200-231.25MHz，时间分辨率0.96768ms。
+
+   - **巨脉冲样本:** 总共检测到约95000个巨脉冲，这是迄今为止在低频段报道的最大样本。
+
+     <img src="./Figures/image-20250610113811745.png" alt="image-20250610113811745" width="680px" />
+
+   - **流量分布:** 巨脉冲的流量分布可以用单一幂律描述，幂律指数为-3.17±0.02。主脉冲和中间脉冲的流量分布指数分别为-3.13±0.02和-3.59±0.06。
+
+     <img src="./Figures/image-20250610113922511.png" alt="image-20250610113922511" width="680px" />
+
+   - **散射展宽时间:** 散射展宽时间与色散测量值呈强正相关，相关系数约为0.7。散射展宽时间的频谱指数为-3.6±0.1。
+
+     <img src="./Figures/image-20250610114012589.png" alt="image-20250610114012589" width="680px" />
+
+   - **频率依赖性:** 观测到的最大光谱亮度接近一些重复FRBs的最弱脉冲。
+
+3. [The FAST Globular Cluster Pulsar Survey (GC FANS)](https://arxiv.org/abs/2506.07970)
+
+   > Pulsar, Observation
+
+   FAST对41个球状星团在2017-2025年之间的观测，从其中14个球状星团中找到60个脉冲星，其中55个是毫秒脉冲星，34个是双星系统，M71D是一颗具有大特征年龄的双中子星系统（DNS），可能是在GC早期演化过程中形成的。
+
+   对FAST天区内的GC脉冲星样本进行了统计分析，发现大多数GC的脉冲星种群类似于银河系盘中的MSP种群，可能是由于较低的恒星密度。
+
+4. [Mapping the Spatial Distribution of Fast Radio Bursts within their Host Galaxies](https://arxiv.org/abs/2506.06453)
+
+   > Fast Radio Burst, Galaxy, Statistics
+
+   研究ASKAP定位的37个FRB在其宿主星系中的空间分布。
+
+   <img src="./Figures/image-20250610115107488.png" alt="image-20250610115107488" width="680px" />
+
+   - 大多数FRBs的位置与其宿主星系的恒星盘面一致，表明这些FRBs可能与大质量恒星的形成有关。
+   - 尽管一些FRBs与旋臂结构相关联，但大多数FRBs的位置并不强烈依赖于高恒星形成效率。
+   - 仅有少数FRBs倾向于起源于球状星团，这表明磁星的形成可能通过动态通道发生。
+
+   <img src="./Figures/image-20250610115150466.png" alt="image-20250610115150466" width="680px" />
+
+5. [A Novel Fine Spectral Structure of Solar Radio Bursts with Periodic Beaded Stripes Observed by CBSm of CMP-II](https://arxiv.org/abs/2506.06819)
+
+   > Solar, Flare, Observation
+
+   子午工程二期的茶山宽带太阳射电频谱仪（CBSm）观测太阳，看到了频谱上的周期性珠状条纹结构。条纹的漂移率通常为-1到-10 MHz/s，持续时间约0.4-0.7秒，周期约0.5-0.8秒。珠状结构的周期约为0.1秒，频率间隔约为0.8 MHz，带宽约为0.6 MHz。通过DART数据，发现射电源位于活动区AR 13664的亮化环上方，磁场拓扑结构复杂，存在显著的剪切运动。
+
+   <img src="./Figures/image-20250610115545098.png" alt="image-20250610115545098" width="680px" />
+
+   提出了基于双等离子体共振（DPR）不稳定性的新机制来解释周期性条纹的形成，认为辐射源自UH波通过模式转换产生，UH波由高能电子的DPR不稳定性激发。珠状结构归因于低频磁流体动力学（MHD）波对UH波增长的调制。未来将通过更多的类似事件分析和数值模拟，进一步理解波的增长和调制发射过程。
+
+6. [ASKAP-EMU radio continuum detection of planetary nebula NGC 5189: the "Infinity" nebula](https://arxiv.org/abs/2506.06768)
+
+   > Galaxy, Radio, Observation
+
+   ASKAP对NGC 5189的射电连续谱测量结果，通过Hubble Space Telescope（HST）的Wide Field Camera 3（WFC3）图像与ASKAP-EMU图像的射电轮廓进行对比，发现射电形态与光学形态高度一致，特别是内层两个气体包层的轮廓对齐，这些包层被认为是低电离结构，是围绕中心Wolf-Rayet星的post-common-envelope PNe的特征。
+
+   <img src="./Figures/image-20250610115748968.png" alt="image-20250610115748968" width="680px" />
+
+7. [Searching for Historical Extragalactic Optical Transients Associated with Fast Radio Bursts](https://arxiv.org/abs/2506.06420)
+
+   > Fast Radio Burst, MultiWavelength
+
+   使用CHIME-KKO系统和文献中的FRBs样本，结合TNS数据库中的光学瞬变目录，通过红移、位置、时间一致性来找FRB与超新星的关联。
+
+   <img src="./Figures/image-20250610120036673.png" alt="image-20250610120036673" width="680px" />
+
+   在83个CHIME-KKO FRBs中没有发现显著的位置或红移关联，唯一的例外是与FRB 20180916B相关的潜在光学对应物AT 2020hur。模拟结果显示，在CHIME/FRB Outrigger的检测率下，需要约22,700个FRBs才能产生一个偶然的FRB-SN匹配。
+
+8. [A giant planet transiting a 0.2 solar mass host star](https://arxiv.org/abs/2506.07931)
+
+   > Stellar, Variable, Exoplanet
+
+   报道了围绕一颗质量为0.207太阳质量的恒星TOI-6894发现的一颗巨型行星TOI-6894 b。
+
+   - **行星特性**：TOI-6894 b的质量为0.168木星质量，半径为0.855木星半径，密度较低，可能含有12地球质量的金属。
+   - **轨道特性**：行星的轨道周期为3.37天，轨道偏心率为0.029，宿主恒星的有效温度为3007K。
+   - **大气特征**：行星的大气主要由甲烷化学主导，预计其传输光谱特征将显著高于其他行星。
+
+   <img src="./Figures/image-20250610120210439.png" alt="image-20250610120210439" width="680px" />
+
+## 2025-06-11
+
+1. [Measurement of the Dispersion Galaxy Cross-Power Spectrum with the Second CHIME/FRB Catalog](https://arxiv.org/abs/2506.08932)
+
+   > Fast Radio Burst, Statistics
+
+   使用CHIME/FRB第二版目录中的2873个FRB与DESI的星系数据进行相关，测量FRB色散度与星系的角交叉功率谱。通过将背景FRBs的色散与前景星系的位置进行交叉相关，可以研究等离子体和星系在0.1到50 Mpc尺度上的相对空间分布，这些分布受到星系形成反馈过程的强烈影响。
+
+   结果显示，在5.1sigma显著性水平上首次明确检测到了由于宇宙结构引起的FRB色散度的空间相关性。
+
+2. [Unlocking the hidden potential of pulsar astronomy](https://arxiv.org/abs/2506.08056)
+
+   > Pulsar, Astronomy, Review
+
+   探讨了脉冲星在天文学和基础物理学之外的社会和工业领域的扩展应用。
+
+   1. **脉冲星检测**：
+      - **检测挑战**：脉冲星具有低通量密度、信号色散和周期性等特点，检测难度较大。
+      - **观测系统**：描述了适合检测脉冲星的最紧凑观测系统，指出相对简单和小型的接收系统可以检测到最亮的脉冲星Vela。
+      - **灵敏度计算**：使用辐射计方程估算不同系统的灵敏度，并展示了不同系统温度下的最小可检测通量密度。
+   2. **定位和导航**：
+      - **应用潜力**：脉冲星作为银河系内的天体，不受人类干扰，适用于全球尺度的导航和定位。
+      - **技术实现**：介绍了基于脉冲星的时间和位置测量方法，展示了如何通过观测多个脉冲星来确定三维位置。
+      - **实际案例**：讨论了Insight-HXMT卫星和SEXTANT项目中的脉冲星导航应用。
+   3. **时间和频率确定及同步**：
+      - **观测系统**：描述了脉冲星观测中使用的精确时间系统，如氢脉泽和GPS同步。
+      - **时间标准**：讨论了如何利用脉冲星观测来提取和验证时间标准，以及如何通过多台望远镜之间的时间同步来实现高精度的时间传递。
+   4. **空间天气监测**：
+      - **应用方法**：通过观测脉冲星的色散测量（DM）和旋转测量（RM）来研究太阳风和日冕物质抛射（CME）。
+      - **数据收集**：展示了如何利用脉冲星观测来补充现有的太阳风和CME测量方法，提供独立的数据支持。
+   5. **随机数生成**：
+      - **应用潜力**：脉冲星的信号波动可以用于生成随机数序列，适用于需要高安全性和不可预测性的应用场景。
+      - **技术实现**：讨论了如何从脉冲星的强度波动中提取随机数序列，并展示了如 何通过多台望远镜验证生成的随机数序列。
+   6. **数据处理和算法开发**：
+      - **数据集利用**：介绍了利用脉冲星搜索数据集进行机器学习和量子计算算法的开发。
+      - **实际应用**：展示了如何利用这些数据集训练量子机器学习算法，并探索其在其他领域的应用潜力。
+   7. **仪器校准和新设备调试**：
+      - **校准方法**：利用脉冲星的稳定脉冲轮廓和偏振特性来校准射电望远镜系统和校准场。
+      - **实际应用**：展示了如何通过观测脉冲星来校准天线极化和波束形状。
+   8. **公共参与和教育**：
+      - **教育价值**：脉冲星观测具有教育和艺术价值，可以通过实时观测和数据集提供科学发现的机会。
+      - **实际案例**：介绍了通过Einstein at Home项目向公众介绍脉冲星的工作。
+
+3. [AstroQ: Automated Scheduling of Cadenced Astronomical Observations](https://arxiv.org/abs/2506.08195)
+
+   > Astronomy, Software
+
+   [AstroQ](https://github.com/jluby127/AstroQ)用于调度具有不同节奏需求和可访问性约束的观测任务。
+
+4. [Observatory Science with eXTP](https://arxiv.org/abs/2506.08367)
+
+   > High Energy, Instrument
+
+   增强型X射线时变和偏振（eXTP）望远镜的天文观测科学，该望远镜计划于2030年发射，旨在研究天体物理学中的极端条件和现象。观测目标包括
+
+   - **耀星**：研究恒星耀斑和日冕物质抛射（CMEs），特别是M矮星的超级耀斑。
+   - **超新星遗迹和脉冲星风星云**：研究磁湍流和放大机制，以及粒子加速过程。
+   - **激变变星**：研究物质吸积到白矮星的过程及其混合机制。
+   - **X射线双星**：研究低质量X射线双星和中质量黑洞的存在。
+   - **超亮X射线源**：研究中间质量黑洞和强磁场的影响。
+   - **活动星系核**：研究喷流的形成和粒子加速机制。
+   - **基于脉冲星的定位和时间保持**：利用毫秒脉冲星进行自主定位和时间保持。
+
+## 2025-06-12
+
+1. [Can repeating and non-repeating FRBs be drawn from the same population?](https://arxiv.org/abs/2506.09138)
+
+   > Fast Radio Burst, Statistics
+
+   统计重复和非重复FRB的数密度，是一个统一的幂律分布，认为是相同起源。发现重复暴的比例仅在提高灵敏度或增加曝光时间时轻微上升。这种微弱的依赖关系可能会被误认为并非所有 FRB 都会重复。
+
+## 2025-06-13
+
+1. [Discovery and Localization of the Swift-Observed FRB 20241228A in a Star-forming Host Galaxy](https://arxiv.org/abs/2506.10961)
+
+   > Fast Radio Burst, Galaxy, Observation, Localization
+
+   CHIME Outriggers对FRB 20241228A进行了探测和定位，在一个恒星形成星系中，ra / 14h25m32.58s， dec / 12d01m30.15s，红移为0.1614。
+
+   <img src="./Figures/image-20250613172253215.png" alt="image-20250613172253215" width="680px" />
+
+   CHIME/FRB在2024年12月28日探测到FRB 20241228A，实时信噪比大于50。约112秒后，Neil Gehrels Swift天文台的X射线望远镜（XRT）对源进行了观测，这是迄今为止对非重复FRB的最快跟进。
+
+2. [Searching for radio pulses from radio-quiet gamma-ray pulsars with FAST](https://arxiv.org/abs/2506.10565)
+
+   > Pulsar, Observation
+
+   采用周期性搜索和单脉冲搜索的方法，利用FAST对22个“射电宁静”伽马射线脉冲星进行观测。成功探测到PSR J1813-1246的射电脉冲信号，对其他21个脉冲星未探测到射电信号。
+
+   <img src="./Figures/image-20250613172427224.png" alt="image-20250613172427224" width="680px" />
+
+## 2025-06-16
 
