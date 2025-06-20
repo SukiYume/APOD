@@ -1,3 +1,5 @@
+
+
 ## 2025-06-02
 
 1. [Physics beyond the Standard Model with the DSA-2000](https://arxiv.org/abs/2505.23892)
@@ -356,4 +358,193 @@
    <img src="./Figures/image-20250613172427224.png" alt="image-20250613172427224" width="680px" />
 
 ## 2025-06-16
+
+1. [Discovery of an HI 21 cm absorption system at z=2.327 with CHIME](https://arxiv.org/abs/2506.11269)
+
+   > HI, Galaxy, Observation
+
+   CHIME探测到红移为2.327的射电源NVSS J164725+375218的HI吸收。
+
+   <img src="./Figures/image-20250616135845778.png" alt="image-20250616135845778" width="680px" />
+
+2. [A nanosecond-duration radio pulse originating from the defunct Relay 2 satellite](https://arxiv.org/abs/2506.11462)
+
+   > Transient, Radio, RFI
+
+   ASKAP在2024年6月13日探测到一个持续时间为30纳秒、平均流量至少为300 kJy的射电脉冲，色散值为$2.26\times10^{-5}\,\rm pc/cm^3$，与电离层模型一致。通过分析近场时间延迟，确定脉冲源为已退役的Relay 2卫星。
+
+   <img src="./Figures/image-20250616140503221.png" alt="image-20250616140503221" width="680px" />
+
+   假设带宽为336 MHz，计算得入射功率为 $10^{-11}\,\rm W/m^2$。脉冲在大部分频率上是线偏振的，但在800 MHz和1 GHz附近变为100%圆偏振。
+
+   <img src="./Figures/image-20250616140534116.png" alt="image-20250616140534116" width="680px" />
+
+3. [A Hyperactive FRB Pinpointed in an SMC-Like Satellite Host Galaxy](https://arxiv.org/abs/2506.11915)
+
+   > Fast Radio Burst, Galaxy
+
+   使用EVN对FRB20240114A进行定位，使用GTC看星系光谱。
+
+   <img src="./Figures/image-20250616141503710.png" alt="image-20250616141503710" width="680px" />
+
+   FRB 20240114A定位在一个低金属丰度的矮星系中，距离核约0.5kpc，红移为z=0.1300。其宿主星系是一个更大星系系统的卫星星系，类似于小麦哲伦云绕银河系运行的情况。
+
+   通过对FRB的DM进行分析，发现主要贡献来自于前景晕，这解释了该FRB异常高的DM值。发现FRB
+
+## 2025-06-17
+
+1. [Statistical Machine Learning for Astronomy -- A Textbook](https://arxiv.org/abs/2506.12230)
+
+   > Astronomy, Machine Learning, Statistics
+
+   丁源森写的统计的书，示例代码在[statml](https://github.com/tingyuansen/statml)。
+
+2. [SpaceTrack-TimeSeries: Time Series Dataset towards Satellite Orbit Analysis](https://arxiv.org/abs/2506.13034)
+
+   > Astronomy, Machine Learning, Satellite
+
+   随着航空航天技术的快速发展和低地球轨道（LEO）卫星星座的大规模部署，天文观测和深空探索面临的挑战日益显著。研究需求包括高精度轨道数据、卫星定位分析、星座配置和深空卫星动力学的综合分析。
+
+   [SpaceTrack-TimeSeries](https://github.com/sjtugzx/SpaceTrack-TimeSeries)从Space-Track平台收集TLE数据和Starlink星历数据。
+
+3. [PEARLS: Twenty-One Transients Found in the Three-Epoch NIRCam Observations in the Continuous Viewing Zone of the James Webb Space Telescope](https://arxiv.org/abs/2506.12175)
+
+   > Transient
+
+   JWST发现的21个暂现源，并通过光谱分析确认了其中一个为Ia型超新星。
+
+   <img src="./Figures/image-20250617140607013.png" alt="image-20250617140607013" width="680px" />
+
+## 2025-06-18
+
+1. [Deep learning inference with the Event Horizon Telescope II. The Zingularity framework for Bayesian artificial neural networks](https://arxiv.org/abs/2506.13875)
+
+   > VLBI, Deep Learning, EHT
+
+   [Zingularity](https://gitlab.com/mjanssen2308/zingularity)使用Tensorflow Probability库，结合TFRecord数据格式和Horovod分布式深度学习框架，处理EHT的数据。
+
+   <img src="./Figures/image-20250618133404386.png" alt="image-20250618133404386" width="680px" />
+
+2. [Detecting fast-variation pulsations in solar hard X-ray and radio emissions](https://arxiv.org/abs/2506.14433)
+
+   > Solar, Flare, Periodicity
+
+   分析了2025年1月19日发生在NOAA 13959活动区的一次C级太阳耀斑。
+
+   <img src="./Figures/image-20250618133801499.png" alt="image-20250618133801499" width="680px" />
+
+   通过FFT和Morlet小波分析方法，检测到约1秒的QPPs。快速变化的QPPs可能与非热电子的周期性加速有关，这些电子由间歇性磁重联加速。1秒的周期可能由电流环和磁岛的合并不稳定性调制。
+
+   <img src="./Figures/image-20250618133824458.png" alt="image-20250618133824458" width="680px" />
+
+3. [Large Language Models -- the Future of Fundamental Physics?](https://arxiv.org/abs/2506.14757)
+
+   > Astronomy, Deep Learning, LLM
+
+   探讨了大型语言模型（LLMs）在基础物理学中的应用潜力，特别是其在处理和分析SKA（Square Kilometer Array）数据方面的能力。使用Qwen2.5在[21cmFASTv3](https://doi.org/10.21105/joss.02582)的Lightcone数据的基础上实现参数回归和生成。
+
+4. [SETI@home: Data Acquisition and Front-End Processing](https://arxiv.org/abs/2506.14718)
+
+   > SETI
+
+   SETI@home项目通过互联网将时间域数据分发给全球超过一百万台志愿者计算机进行分析。
+
+   - 项目使用相干积分技术，将数据变换使得漂移信号的功率集中在单个离散傅里叶变换（DFT）bin中。相干搜索覆盖了±100Hz/s范围内的123000个多普勒漂移率。
+   - 数据主要来自阿雷西博天文台的L波段平坦馈源和ALFA接收器，观测时间从1999年到2006年，总计386天。数据记录了2.5MHz带宽的信号，采样率为2.5Msps，每个样本为2位复数。
+   - 寻找不同类型的型号（尖峰、高斯、脉冲、三重脉冲和自相关），识别出数十亿次检测，去掉RFI后，剩下2000万个候选信号。
+
+   <img src="./Figures/image-20250618143922684.png" alt="image-20250618143922684" width="680px" />
+
+5. [FAST Pulsar Database: II. Scattering profiles of 122 Pulsars](https://arxiv.org/abs/2506.14519)
+
+   > Pulsar, Observation, Scattering
+
+   GPPS观测的122颗脉冲星的散射特征。发现旋臂后面的脉冲星由于密度波动较大，显示出更强的散射效应。另外，脉冲星的偏振位置角也在散射轮廓尾部趋于平坦。
+
+   <img src="./Figures/image-20250618144332834.png" alt="image-20250618144332834" width="680px" />
+
+6. [Multiple machine-learning as a powerful tool for the star clusters analysis](https://arxiv.org/abs/2506.13951)
+
+   > Stellar, Cluster, Machine Learning
+
+   使用多种机器学习方法分析星团。
+
+   - 使用Gaia-EDR3数据，结合多种机器学习算法（如pyUPMASK、ASteCA、Kmeans、GMM和HDBSCAN）进行星团分析。这些算法分别用于确定成员星概率和开放星团参数。
+   - 结合肘部法、t-SNE、Kmeans和GMM算法将归一化数据分为6个簇，验证了C21的结果。
+
+## 2025-06-19
+
+1. [Detection of over 37,000 giant pulses per hour from PSR J1823-3021A with UHF baseband observations from MeerKAT](https://arxiv.org/abs/2506.14887)
+
+   > Pulsar, Giant Pulse, Observation, Statistics
+
+   PSR J1823-3021A是球状星团NGC 6624中发现的毫秒脉冲星。
+
+   使用MeerKAT望远镜的PTUSE后端，在2023年7月对PSR J1823-3021A进行了约50分钟的基带观测，中心频率为816 MHz，带宽为544 MHz，使用5.3微秒的时间分辨率进行分析。以信噪比阈值为7，巨脉冲事件率超过37000每小时，比L波段的探测率高13.5倍。
+
+   <img src="./Figures/image-20250619131454160.png" alt="image-20250619131454160" width="680px" />
+
+   巨脉冲能量分布是米绿，谱指数分布是高斯型，到达时间是泊松分布，整体偏振度较低，散射时标平均值为5.5微秒。
+
+2. [Revealing Limitation in the Standard Cosmological Model: A Redshift-Dependent Hubble Constant from Fast Radio Bursts](https://arxiv.org/abs/2506.14947)
+
+   > Fast Radio Burst, Cosmology
+
+   使用114个定位了的FRB，通过ANN（输入+两个隐藏->输出）拟合DM-z的关系，发现哈勃常数随红移增加而显著减小。
+
+   <img src="./Figures/image-20250619132107125.png" alt="image-20250619132107125" width="680px" />
+
+3. [Astronomical Cardiology: A Search For Heartbeat Stars Using Gaia and TESS](https://arxiv.org/abs/2506.14869)
+
+   > Stellar, Variable
+
+   从Gaia DR3目录中选取了181,529个单线光谱双星（SB1）和5,376个双线光谱双星（SB2）作为样本，从TESS中获取光变曲线，使用Lomb-Scargle周期图和Phase dispersion minimization（PDM）识别Heartbeat Stars。
+
+   最终识别出112个新的HB系统，其中包括4个由Solanki等人（2025）发现的系统。使用Kumar等（1995）的解析模型对心跳星的光变曲线进行拟合，测量了它们的轨道周期、偏心率、倾角和近星点角。
+
+   <img src="./Figures/image-20250619140312296.png" alt="image-20250619140312296" width="680px" />
+
+   ---
+
+   Phase Dispersion Minimization（PDM）是一种用于不规则时间序列寻找周期信号的非参数方法，最早由 Stellingwerf（1978）提出。它的核心思想是：对于一个假设周期 $P$，将观测数据折叠（fold）到相位上，检验数据在各相位区间内的离散程度（dispersion），并以**最小化相位内离散**作为最佳周期的判据。
+
+   对于时间序列（时间-测量值-测量误差）进行数据预处理（若序列存在长时漂移，可先用多项式拟合或高通滤波去除趋势，以免影响周期检索），使用不同的周期进行折叠
+   $$
+     \phi_i = \frac{t_i \bmod P}{P},\quad 0 \le \phi_i < 1
+   $$
+   将$(\phi_i, x_i)$ 对按 $\phi_i$ 排序，后分bin，计算箱内方差，对第 $j$ 个箱，包含 $N_j$ 个点，箱内方差
+   $$
+     s_j^2 = \frac{1}{N_j - 1}\sum_{i\in\mathrm{bin}_j} (x_i - \bar{x}_j)^2,
+     \quad \bar{x}_j = \frac{1}{N_j}\sum_{i\in\mathrm{bin}_j} x_i
+   $$
+   总样本方差
+
+   $$
+     s^2 = \frac{1}{N - 1}\sum_{i=1}^N (x_i - \bar{x})^2,
+     \quad \bar{x} = \frac{1}{N}\sum_{i=1}^N x_i
+   $$
+   最后计算相位离散统计量 $\Theta$
+
+   $$
+     \Theta(P) = \frac{\displaystyle\sum_{j=1}^M (N_j - 1)\,s_j^2}{(N - 1)\,s^2}
+   $$
+
+   **当 $\Theta$ 趋近于 0，表示折叠后的光变曲线在各相位箱内高度集中，周期 $P$ 更有可能正确；当 $\Theta$ 趋近于 1，则与随机噪声无异。**
+
+   绘制 $\Theta(P)$ 曲线，找到局部极小值对应的 $P$ 值。可以用 Monte Carlo 重抽样或 “随机相位打乱” 来估计极小值的显著性。在极小值附近细化周期网格，或用曲线拟合（如多项式拟合 $\Theta(P)$ 曲线）来获得更高分辨率的最佳周期。
+
+   PDM的加权与改进方法
+
+   * **误差加权**：在方差计算中引入测量误差权重 $w_i = 1/\sigma_i^2$。
+   * **自适应分箱**：令每箱点数大致相等，以平衡信噪比与相位分辨率。
+   * **滑动窗口**：使用重叠分箱或滑动平均减少峰值虚假噪声。
+   * **多周期检测**：检测到一个周期后，可剔除对应频率成分，再对残差进行二次检索。
+
+   ---
+
+## 2025-06-20
+
+今日停更。
+
+## 2025-06-23
 
