@@ -548,3 +548,183 @@
 
 ## 2025-06-23
 
+1. [Real-time Broadband RFI Excision for the Upgraded GMRT](https://arxiv.org/abs/2506.17131)
+
+   > Radio, RFI, uGMRT
+
+   通过计算每个天线极化的奈奎斯特采样时间序列的中位数绝对偏差（MAD），得到MAD的中位数（MoM），标记超过阈值的部分为RFI。
+
+2. [IIb or not IIb: A Catalog of ZTF Kilonova Imposters](https://arxiv.org/abs/2506.15900)
+
+   > Variable, Stellar, Classification
+
+   ZTF观测到的光学暂现源（FOTs）中有一些千新星（KNe），实际上是其他类型的暂现源。这里通过暂现源光度分析（包括计算上升和衰减速率、峰值颜色和半高全宽等指标），以便在没有光谱数据的情况下看它们是否真的是KNe。
+
+   通过光度学分析，可以有效地识别和排除许多KNe的冒名者。尽管没有一个单一的指标可以完全区分所有类型的暂现源，但通过结合多种指标，可以提高识别KNe候选者的准确性。
+
+3. [Identifying Ring Galaxies in DESI Legacy Imaging Surveys Using Machine Learning Methods](https://arxiv.org/abs/2506.16090)
+
+   > Galaxy, Classification, Deep Learning
+
+   用两遍Swin Transformer来分类环星系，第一遍二分类区分环星系/非环星系，第二遍对环星系进一步分类环星系和螺旋星系、棒旋螺旋星系。
+
+   <img src="./Figures/image-20250623120301374.png" alt="image-20250623120301374" width="680px" />
+
+4. [Can AI Dream of Unseen Galaxies? Conditional Diffusion Model for Galaxy Morphology Augmentation](https://arxiv.org/abs/2506.16233)
+
+   > Galaxy, Deep Learning
+
+   在训练好的SD-v1.5模型基础上，是用Galaxy Zoo 2数据集（该数据集包含志愿者标注的视觉特征和星系图像对）进行全参数微调。模型用于增强机器学习训练数据中的星系形态多样性，以解决天文学中大规模调查数据集的代表性不足问题。
+
+   <img src="./Figures/image-20250623120707847.png" alt="image-20250623120707847" width="680px" />
+
+5. [Exoplanet Classification through Vision Transformers with Temporal Image Analysis](https://arxiv.org/abs/2506.16597)
+
+   > Exoplanet, Light Curve, Deep Learning
+
+   将开普勒的光变曲线转换为Gramian Angular Fields（GAFs）和Recurrence Plots（RPs），然后是用ViT进行分类，发现是用RPs效果好。
+
+   ---
+
+   **Recurrence Plot (RP)**
+
+   Recurrence Plot（复现图、复现图谱）是一种可视化方法，用于揭示动态系统（尤其是时间序列）在相空间中轨迹的“复现”性质。它将一维时间序列嵌入到多维相空间，通过比较相空间中任意两时刻的状态向量之间的距离，绘制出一个二维图像。
+
+   - 给定时间序列 $\{x_t\}_{t=1}^N$，选取嵌入维度$m$和时间延迟$\tau$，构造状态向量
+
+     $\mathbf{X}_i=\left[x_i,x_{i+\tau},x_{i+2\tau}, \cdots, x_{i+(m-1)\tau}\right], i=1,\cdots, N-(m-1)\tau$
+
+   - 计算所有状态向量两两间的距离（通常选用欧氏距离）
+
+     $d_{i,j}=\|\mathbf{X}_i-\mathbf{X}_j\|_2$
+
+   - 根据阈值 $\varepsilon$ 构造二值矩阵
+
+     $R_{i,j}=\left\{\begin{aligned}
+     &1, &d_{i,j}\le\varepsilon\\
+     &0, &d_{i,j}>\varepsilon\\
+     \end{aligned}\right.$
+
+   - 在二维平面上，若 Ri,j=1R_{i,j}=1 则绘制一个点，否则留空。
+
+   - RP 能揭示周期性、趋势、突变等动态特征；可进一步计算定量指标（如复现率 RR、熵 ENTR、最长对角线长度 Lmax 等）进行分析。通过观察复现图的局部结构，可识别时间序列中的异常点或突变时刻。
+
+     <img src="./Figures/image-20250623122623564.png" alt="image-20250623122623564" width="680px" />
+
+   ------
+
+   **Gramian Angular Field (GAF)**
+    Gramian Angular Field（格拉姆角场）是一种将时间序列转换为图像的方法，主要用于利用图像处理或深度学习模型（如卷积神经网络）对时间序列进行分类、回归等任务。它通过角度编码和 Gram 矩阵的概念，将一维序列映射到二维图像空间。
+
+   - 归一化到$[-1, 1]$
+
+   - 角度编码$\phi_t=\arccos(\tilde x_t), \tilde x_t=\cos(\phi_t), \phi_t\in[0, \pi]$
+
+   - Gram矩阵
+
+     - **Gramian Angular Summation Field (GASF)**
+
+       ${\rm GASF}_{i,j}=\cos(\phi_i+\phi_j)=\tilde x_i\tilde x_j-\sqrt{1-\tilde x_i^2}\sqrt{1-\tilde x_j^2}$
+
+     - **Gramian Angular Difference Field (GADF)**
+
+       ${\rm GADF}_{i,j}=\sin(\phi_i-\phi_j)=\tilde x_j\sqrt{1-\tilde x_i^2}-\tilde x_i\sqrt{1-\tilde x_j^2}$
+
+   - **保留时序依赖**：通过角度运算与 Gram 矩阵，既保留了原始数值信息，也编码了时间点间的全局相互作用。**适配深度学习**：生成的图像可以直接作为 CNN 的输入，捕捉空间纹理特征，用于分类、聚类、预测等。**适用范围**：在心电信号分析、故障检测、气象预报、金融市场预测等多种时序领域获得成功。
+
+     <img src="./Figures/image-20250623122901380.png" alt="image-20250623122901380" width="680px" />
+
+   ---
+
+## 2025-06-24
+
+1. [Identifying Long Radio Transients with Accompanying X-Ray Emission as Disk-Jet Precessing Black Holes: The Case of ASKAP J1832-0911](https://arxiv.org/abs/2506.17389)
+
+   > Transient, Theory, LPT
+
+   ASKAP J1832-0911是一个LPT，认为其可能是中等质量黑洞吸积盘进动和Blandford-Znajek喷流引起的，而不是磁星或白矮星模型。
+
+2. [Comparative analysis of machine learning techniques for feature selection and classification of Fast Radio Bursts](https://arxiv.org/abs/2506.18854)
+
+   > Fast Radio Burst, Statistics, Machine Learning
+
+   在CHIME/FRB目录的几个主要参数，结合PCA、t-SNE、k-means、HDBSCAN、谱聚类等方法进行重复/非重复FRB分类，结果表明，t-SNE+ Spectral Clustering在包含所有特征的配置下表现最佳。
+
+   <img src="./Figures/image-20250624135148935.png" alt="image-20250624135148935" width="680px" />
+
+3. [Identifying Anomalous DESI Galaxy Spectra with a Variational Autoencoder](https://arxiv.org/abs/2506.17376)
+
+   > Galaxy, Spectrum, Deep Learning, Anomaly Detection
+
+   是用VAE对DESI的光谱进行降维和重建，找异常光谱。
+
+## 2025-06-25
+
+1. [FRB 20250316A: A Brilliant and Nearby One-Off Fast Radio Burst Localized to 13 parsec Precision](https://arxiv.org/abs/2506.19006)
+
+   > Fast Radio Burst, Observation
+
+   CHIME探测到FRB20250316A，并使用Outriggers进行定位。流量有1.2kJy，色散为161.82，没有PRS。
+
+   <img src="./Figures/image-20250625125623619.png" alt="image-20250625125623619" width="680px" />
+
+2. [James Webb Space Telescope Observations of the Nearby and Precisely-Localized FRB 20250316A: A Potential Near-IR Counterpart and Implications for the Progenitors of Fast Radio Bursts](https://arxiv.org/abs/2506.19007)
+
+   > Fast Radio Burst, Galaxy, Observation
+
+   JWST对FRB20250316A的观测，在FRB定位区域内发现了一个微弱的光源（NIR-1），其F150W2绝对星等约为-2.5 mag，距离FRB定位中心约40 mas。
+
+   <img src="./Figures/image-20250625125815754.png" alt="image-20250625125815754" width="680px" />
+
+   通过对比NIR-1的亮度和颜色，排除了其作为球状星团、年轻星团、红超巨星、红巨星、孤立磁星、超新星遗迹或脉冲星风星云的可能性。NIR-1的亮度与红巨星或大质量主序星相符，但由于大质量主序星的寿命较短，这种解释的可能性较低。NIR-1可能是FRB 20250316A的前身星的伴星，或者是一个尘埃回声。如果NIR-1是尘埃回声，预计它会在未来的观测中逐渐变暗。
+
+## 2025-06-26
+
+1. [Symbiotic star candidates in Gaia Data Release 3](https://arxiv.org/abs/2506.20505)
+
+   > Stellar, Machine Learning
+
+   共生星是双星系统，由冷巨星和热致密伴星组成，对理解恒星演化具有重要意义。然而，已确认的共生星数量远低于理论预测。
+
+   从SIMBAD数据库中识别出已知的共生星，使用随机森林分类器，结合Gaia数据中的距离、光度、颜色和天梯测量信息，训练一个分类器来识别共生星候选体。成功识别出1674个共生星候选体，并从中筛选出25个高潜力候选体。
+
+## 2025-06-27
+
+1. [The Low Mass Dwarf Host Galaxy of Non-Repeating FRB 20230708A](https://arxiv.org/abs/2506.20774)
+
+   > Fast Radio Burst, Galaxy, Observation
+
+   VLT对12个ASKAP探测到FRB的宿主星系的光谱观测。发现FRB 20230708A的宿主星系是一个低光度、低金属丰度的信息，也是迄今为止已知的最暗非重复FRB宿主星系，其光度比之前报道的最暗非重复FRB宿主星系低约3倍。
+
+   <img src="./Figures/image-20250627155907351.png" alt="image-20250627155907351" width="680px" />
+
+2. [Radio emission from flaring stars and brown dwarfs](https://arxiv.org/abs/2506.21169)
+
+   > Radio, Stellar, Light Curve
+
+   使用GaiaDR2中的褐矮星目录，和Seli et al (2025)的耀发变星的目录，在VLASS中搜索对应的射电发射。结果没有发现褐矮星的射电辐射，在耀星样本中发现了 55 个射电对应体，其中七个有同时的 TESS 观测。并且光学耀斑的发生与射电变化之间没有明显的联系。
+
+   <img src="./Figures/image-20250627161503726.png" alt="image-20250627161503726" width="680px" />
+
+3. [The Rayleigh Criterion: Resolution Limits of Astronomical Periodograms](https://arxiv.org/abs/2506.20864)
+
+   > Periodicity, Method
+
+   将经典光学中的 Rayleigh 判据（两个信号要可分辨，频率差需大于观测时基线的倒数）推广到天文周期图分析中，给出分辨两正弦信号所需的最小频率间隔$|f_1-f_2|\ge2R=\frac{2}{T}$（$T$ 为观测时基线）。
+
+   **要发现一个振荡信号，其频率必须大于$2R$，否则无法与零频分开，并且对周期图的过度插值并不能提高真正的分辨率。**
+
+   - 在不均匀抽样下，同一正弦信号可能在 Lomb–Scargle 周期图中被错误地分裂成两峰，但它们的间隔小于 $2R$，属于同一信号的泄露伪像。
+
+     <img src="./Figures/image-20250627164834348.png" alt="image-20250627164834348" width="680px" />
+
+   - 即使将频率网格密度提高几十倍，也无法将间隔小于 $2R$ 的双信号分开，频域分辨率受限于观测时基线。
+
+     <img src="./Figures/image-20250627164908345.png" alt="image-20250627164908345" width="680px" />
+
+   - 通过改变总观测时长 $T$，只有在 $T\ge 2/P$（即频率 $f>2R$）时，周期图才能准确分出接近的两个振荡。
+
+     <img src="./Figures/image-20250627164946379.png" alt="image-20250627164946379" width="680px" />
+
+## 2025-06-30
+
