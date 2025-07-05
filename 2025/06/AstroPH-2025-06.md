@@ -728,3 +728,17 @@
 
 ## 2025-06-30
 
+1. [Constraining the Faint-End Slope of the FRB Energy Function Using CHIME/FRB Catalog-1 and Local Volume Galaxies](https://arxiv.org/abs/2506.21753)
+
+   > Fast Radio Burst, Statistics
+
+   将CHIME的FRB与Local Volume中的星系（从HECATE目录中选择21Mpc以内的495个星系）的位置进行相关，未发有关联的FRB和星系。
+
+   在此基础上，使用HECATE目录中的恒星形成率（SFR）和恒星质量（SM）数据，约束FRB能量分布的暗端。SFR模型和SM模型的$\gamma$约束结果一致，表明FRB群体可能由亮、宇宙学爆发主导。
+
+2. [Quantifying Radio Source Morphology](https://arxiv.org/abs/2506.21906)
+
+   > Radio, Galaxy, Method, Morphology
+
+   对射电星系的形态进行量化，定义了ABCDE（不对称性、模糊性、集中性、无序性和延伸性）和源度量（两个叶瓣之间的不对称性和角度）。发现大多数度量之间是独立的，相关系数在-0.01到0.3之间，除了不对称性和比率不对称性和无序性与延伸性。
+
