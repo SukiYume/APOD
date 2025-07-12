@@ -147,3 +147,307 @@
 
 ## 2025-07-07
 
+今日停更
+
+## 2025-07-08
+
+1. [Siberian radioheliograph image classification using ensemble of CLIP, EfficientNet and CatBoost models](https://arxiv.org/abs/2507.04211)
+
+   > Solar, Deep Learning, Radio
+
+   [SRH](https://github.com/EgorovYaroslav/SRH)使用深度学习对西伯利亚射电日像仪(SRH)图像进行分类。使用CLIP「通过文本提示自动标注数据，进行零样本图像分类，"photo of a circle"表示"GOOD"，"photo of noise"表示"BAD"」、EfficientNet-B0和CatBoost分别进行图像分类，最后将EfficientNet、CLIP和CatBoost模型的预测结果结合到一个轻量级的前馈神经网络（FFNN）中，形成一个集成分类器。
+
+   <img src="./Figures/image-20250712201822111.png" alt="image-20250712201822111" width="680px" />
+
+2. [Discoveries of fine structures and secondary pulses in coherent radio emission from a magnetic massive star](https://arxiv.org/abs/2507.03882)
+
+   > Stellar, Radio, Flare, Observation
+
+   MeerKAT对B恒星 HD 142990 在800-1670MHz波段的观测。
+
+   <img src="./Figures/image-20250712202026076.png" alt="image-20250712202026076" width="680px" />
+
+   发现了次级脉冲，可能是由于恒星磁层中的传播效应引起的。
+
+   <img src="./Figures/image-20250712202212956.png" alt="image-20250712202212956" width="680px" />
+
+   发现了精细结构，其起源则需要进一步的高时间分辨率和宽带观测来揭示。这一关测揭示了主序射电脉冲星（MRP）的复杂射电脉冲特性。
+
+   <img src="./Figures/image-20250712202236789.png" alt="image-20250712202236789" width="680px" />
+
+3. [CHIME/FRB Discovery of an Unusual Circularly Polarized Long-Period Radio Transient with an Accelerating Spin Period](https://arxiv.org/abs/2507.05139)
+
+   > LPT, Transient, Observation
+
+   CHIME发现长周期暂现源（LPT）CHIME J1634+44，该源具有841秒的脉冲周期和4206秒的次级周期，后一周期可能与双星活动有关。是首个已知发射完全圆偏振射电暴的LPT，也是首个表现出显著自旋加速的LPT（周期导数为负值$\dot P--9.03\times10^{-12}s/s$）。
+
+   <img src="./Figures/image-20250712202619780.png" alt="image-20250712202619780" width="680px" />
+
+   坐标(RA, Dec) = (16h34m29.96s±0.5", +44d50m13.5s±1.1")，色散22，峰值流量密度0.42-12 Jy，持续时间70-1100ms，Swift/XRT未检测到对应源排除了活跃磁星的可能性。
+
+4. [Strongly polarised radio pulses from a new white-dwarf-hosting long-period transient](https://arxiv.org/abs/2507.05078)
+
+   > LPT, Transient, Observation
+
+   LOFAR发现ILT J163430+445010，跟上一篇CHIME发现的LPT是同一个源，通过LOFAR两米巡天（LoTSS）对Stokes V暂现源的盲搜发现的。检测到19个脉冲，每个脉冲的总极化分数约为100%，脉冲持续时间不超过10秒。
+
+   在紫外（GALEX MIS）和光学（UNIONS）巡天中检测到微弱的对应体，结合GALEX和UNIONS数据，拟合得到白矮星的有效温度范围为15000K到33000K，质量大于0.78太阳质量。
+
+   <img src="./Figures/image-20250712202951095.png" alt="image-20250712202951095" width="680px" />
+
+   每五个周期后产生两个脉冲，间隔两到三个周期的等待时间。可能是双星系统中5:2或5:3自旋-轨道共振的结果，伴星（可能是超冷矮星或另一颗白矮星）诱导白矮星产生射电辐射。
+
+5. [First detection of Circular Polarization in radio continuum towards a Massive Protostar](https://arxiv.org/abs/2507.04913)
+
+   > Stellar, Radio, Observation
+
+   首次在大质量原恒星IRAS 18162-2048的射电连续谱中检测到圆偏振，并提出两种可能的发射机制：回旋同步辐射和法拉第转换。假设回旋同步辐射是主要原因，估计原恒星附近的磁场强度为20-35 G。
+
+   <img src="./Figures/image-20250712203139901.png" alt="image-20250712203139901" width="680px" />
+
+6. [Introduction to the China Space Station Telescope (CSST)](https://arxiv.org/abs/2507.04618)
+
+   > Instrument, Review, Optical
+
+   CSST科学综述，设计寿命10年。CSST采用离轴三反射镜消像散(TMA)光学系统，主镜直径2米，焦距28米。
+
+   **主要科学目标**
+
+   1. 宇宙学
+      - 测量宇宙演化历史，揭示暗能量观测特性
+      - 测量不同尺度的暗物质宇宙结构，测试暗物质理论
+      - 通过弱引力透镜、星系团、重子声学振荡(BAO)等精确测量宇宙学参数
+      - 研究引力理论和宇宙大尺度结构
+   2. 星系和活动星系核(AGN)
+      - 测量不同红移星系的结构参数
+      - 构建大样本AGN，研究黑洞与宿主星系的共同演化
+      - 研究星系形态多样性和演化过程
+   3. 银河系和近邻星系
+      - 研究银河系和近邻星系的结构、形成和演化
+      - 研究星际介质(ISM)和星系生态系统
+      - 精确测量暗物质分布和质量
+   4. 恒星
+      - 研究恒星形成、结构和演化
+      - 探测致密天体(如中子星、黑洞)和恒星活动
+   5. 系外行星
+      - 直接成像邻近类木行星和原行星盘
+      - 探测银河系中心方向的系外行星
+      - 研究行星形成和演化
+   6. 太阳系天体
+      - 探索太阳系小天体的空间分布和物理化学性质
+      - 发现新小行星、彗星等
+
+   **配备了五种科学仪器**
+
+   1. 巡天相机(SC)
+      - 主焦平面探测器：30个9k×9k CCD
+      - 7个测光成像波段(NUV,u,g,r,i,z,y)和3个无缝光谱波段(GU,GV,GI)
+      - 空间分辨率：0.074"/像素
+      - 视场：1.72平方度(全视场)，1.1平方度(主成像区)
+      - 计划进行17,500平方度宽视场和400平方度深视场巡天
+   2. 多通道成像仪(MCI)
+      - 分为近紫外、光学蓝和光学红三个通道
+      - 每个通道使用CCD覆盖7.5'×7.5'视场
+      - 角尺寸：0.05"/像素
+      - 主要用于建立高精度流量校准星表和进行极深场观测
+   3. 积分视场光谱仪(IFS)
+      - 视场≥6"×6"
+      - 空间分辨率~0.2"
+      - 光谱范围：0.35-1μm，分辨率R≥1000
+      - 主要用于研究星系中心区域、强引力透镜等
+   4. 冷行星成像日冕仪(CPI-C)
+      - 对比度成像≥10⁻⁸(600-900nm)
+      - 内工作角(IWA)≤0.55"(633nm)
+      - 主要用于搜索邻近类太阳恒星周围的成熟类木行星和超级地球
+   5.  太赫兹光谱仪(TS)
+      - 频率范围：0.41-0.51 THz
+      - 瞬时带宽(IBW)>1 GHz
+      - 主要用于探测天体化学成分和星际介质
+
+   **多种观测模式**
+
+   - 17,500平方度宽视场巡天(测光和光谱)
+   - 400平方度深视场巡天
+   - 9平方度超深场(UDF)观测
+   - 300平方角分极深场(XDF)观测
+   - 目标机会(ToO)观测
+
+   <img src="./Figures/image-20250712203802511.png" alt="image-20250712203802511" width="680px" />
+
+7. [Chromatic activity window of periodic FRBs: FRB 20121102A and FRB 20180916B](https://arxiv.org/abs/2507.04609)
+
+   > Fast Radio Burst, Period, Periodicity, Statistics
+
+   统计FRB121102和180916的周期在不同频率下的表现。发现
+
+   - **FRB 20180916B**：活动窗口在高频下开始较早且变窄，符合之前的发现。
+   - **FRB 20121102A**：活动窗口在高频下开始较早但变宽，这是一种新发现的色散行为。
+
+   <img src="./Figures/image-20250712204029961.png" alt="image-20250712204029961" width="680px" />
+
+8. [RRAT-like behaviour of PSR B0656+14 observed with I-LOFAR](https://arxiv.org/abs/2507.04518)
+
+   > Pulsar, Observation
+
+   LOFAR对PSR B0656+14的观测，在低频下表现出高度可变、无记忆的发射特性，类似于某些RRATs。需要异常大量的脉冲才能达到轮廓稳定性，反映了其发射机制的复杂性。流量密度分布呈现混合行为(对数正态+幂律)，单脉冲谱指数变化显著。尽管DM测量精度高(14.053±0.005 pc cm⁻³)，但仍不足以用于太阳风研究。
+
+   <img src="./Figures/image-20250712204537663.png" alt="image-20250712204537663" width="680px" />
+
+9. [Crowded Field Photometry with Rubin: Exploring 47 Tucanae with Data Preview 1](https://arxiv.org/abs/2507.03228)
+
+   > Stellar, Cluster
+
+   利用Vera C. Rubin天文台的Data Preview 1（DP1）数据对球状星团47 Tucanae（47 Tuc）进行拥挤场测光分析。尽管当前的摄影测量管道在密集区域存在局限性，但通过强制摄影测量方法，可以显著扩展对星团内部区域的探测。最终通过**diaForcedSource**，恢复了14744个可能的47 Tucanae成员。
+
+   <img src="./Figures/image-20250712204845070.png" alt="image-20250712204845070" width="680px" />
+
+10. [Continued radio observations of the persistent radio source associated with FRB20190520B provides insights into its origin](https://arxiv.org/abs/2507.03113)
+
+    > Fast Radio Burst, PRS, Observation
+
+    对FRB190520的PRS的观测，PRS在1.5 GHz和3 GHz波段呈现缓慢衰减（约4年），叠加间歇性增亮和变暗现象。低于1 GHz的观测（uGMRT数据）表明存在光谱截断（700 MHz–1.3 GHz），可能由同步自吸收导致。
+
+    <img src="./Figures/image-20250712205116606.png" alt="image-20250712205116606" width="680px" />
+
+    结合磁星风星云模型和闪烁效应模型，估计PRS的年龄约为53年，尺寸的下限为> 0.52 pc。
+
+11. [Radio Morphology of Gamma-ray Sources -- II. Giant Radio Galaxies](https://arxiv.org/abs/2507.03105)
+
+    > Galaxy, High Energy
+
+    巨型射电源(GRGs)在γ射线波段的特性。GRGs是活动星系核(AGN)宿主相对论性喷流的产物，其投影长度超过0.7 Mpc。这些天体对于理解射电源的演化及其与周围环境的相互作用至关重要。
+
+    研究通过低分辨率射电巡天数据，成功识别并研究了16个伽马射线星系，揭示了其在伽马射线波段的辐射特性和射电形态的多样性。
+
+    <img src="./Figures/image-20250712205331184.png" alt="image-20250712205331184" width="680px" />
+
+## 2025-07-09
+
+1. [Localisation and host galaxy identification of new Fast Radio Bursts with MeerKAT](https://arxiv.org/abs/2507.05982)
+
+   > Fast Radio Burst, Galaxy, Localization
+
+   MeerKAT射电望远镜对15个新的非重复FRB的定位，并成功识别了其中11个的宿主星系，红移范围从0.32到0.85，展示了MeerKAT对高红移FRB的敏感性。
+
+   <img src="./Figures/image-20250712205734576.png" alt="image-20250712205734576" width="680px" />
+
+2. [What ZTF Saw Where Rubin Looked: Anomaly Hunting in DR23](https://arxiv.org/abs/2507.06217)
+
+   > Stellar, Variable, Machine Learning
+
+   使用**PineForest算法**「基于主动学习的改进版Isolation Forest，通过专家反馈迭代优化异常排名」在[light-curve](https://github.com/light-curve/light-curve-python)提取的参数上，在ZTF与LSSTComCam重叠观测区域中系统性地搜索天文异常现象，发现了6个新的变星。
+
+## 2025-07-10
+
+1. [Denoising radio pulses from air showers using machine-learning methods](https://arxiv.org/abs/2507.06688)
+
+   > Radio, Deep Learning
+
+   使用Encoder-Decoder对来自宇宙射线空气簇射（EAS）的无线电脉冲进行降噪的研究。
+
+   <img src="./Figures/image-20250712210440321.png" alt="image-20250712210440321" width="680px" />
+
+   该方法在SNR>4时去噪效率超过95%，同时保持误报率在控制范围内，并保留了信号的峰值位置和幅度。
+
+   <img src="./Figures/image-20250712210516642.png" alt="image-20250712210516642" width="680px" />
+
+2. [The Distribution of Atomic Hydrogen in the Host Galaxies of FRBs](https://arxiv.org/abs/2507.06594)
+
+   > Fast Radio Burst, Galaxy, Statistics
+
+   对14个FRB宿主星系的HI观测，揭示了其扰动和不对称性的趋势。通过多种不对称性指标，识别出6个宿主星系存在显著的扰动，4个未发现扰动，3个需要进一步观测。扰动与未扰动的宿主星系比例为11:4。
+
+   <img src="./Figures/image-20250712210706783.png" alt="image-20250712210706783" width="680px" />
+
+3. [Astro-COLIBRI: A Comprehensive Platform for Real-Time Multi-Messenger Astrophysics](https://arxiv.org/abs/2507.06616)
+
+   > Astronomy, Transient, Software
+
+   [Astro-COLIBRI](https://astro-colibri.com/)是一个为实时多信使天体物理学设计的综合平台，旨在解决现代时域和多信使(TDAMM)天体物理学面临的数据洪流挑战。该平台由法国CEA巴黎萨克雷大学IRFU研究所的团队开发，能够处理来自伽马射线暴(GRBs)、快速射电暴(FRBs)、恒星耀斑、新星和超新星等多种瞬变现象的警报，同时整合高能中微子和引力波等新型宇宙信使的数据。
+
+   <img src="./Figures/image-20250712210823156.png" alt="image-20250712210823156" width="680px" />
+
+4. [Measuring cosmic baryon density with FRB and GW data](https://arxiv.org/abs/2507.06841)
+
+   > Fast Radio Burst, Cosmology
+
+   结合快速射电暴（FRB）和引力波（GW）数据来精确测量宇宙重子密度。
+
+   <img src="./Figures/image-20250712211007125.png" alt="image-20250712211007125" width="680px" />
+
+5. [Model-independent observational constraints with fast radio bursts](https://arxiv.org/abs/2507.06975)
+
+   > Fast Radio Burst, Cosmology
+
+   利用快速射电暴（FRBs）作为宇宙学探针，通过两种模型无关的方法（人工神经网络重建和宇宙学参数化）来约束宇宙学参数。
+
+6. [Ray-tracing Fast Radio Bursts Through IllustrisTNG: Cosmological Dispersion Measures from Redshift 0 to 5.5](https://arxiv.org/abs/2507.07090)
+
+   > Fast Radio Burst, Cosmology
+
+   通过宇宙学数值模拟研究了快速射电暴（FRB）的色散测量（DM）在宇宙大尺度结构的分布，还生成了全天空DM图。
+
+   <img src="./Figures/image-20250712211405528.png" alt="image-20250712211405528" width="680px" />
+
+7. [The Nineteenth Data Release of the Sloan Digital Sky Survey](https://arxiv.org/abs/2507.07093)
+
+   > Survey, Review
+
+   斯隆数字化巡天（SDSS）的第五次代（SDSS-V）的第一次重要的数据发布。DR19包含了来自SDSS-V三大科学“映射器”（MWM、BHM和LVM）的新数据。
+
+   包括光学BOSS光谱和近红外APOGEE光谱，覆盖了从银河系到本地星系团的广泛天体。可以通过[Zora](https://dr19.sdss.org/zora)在线查看。
+
+   <img src="./Figures/image-20250712211542533.png" alt="image-20250712211542533" width="680px" />
+
+## 2025-07-11
+
+1. [Imaging-Spectroscopic diagnosis of the Giant Sloshing Spiral in the Virgo Cluster with the Einstein Probe Follow-up X-ray Telescope](https://arxiv.org/abs/2507.07412)
+
+   > High Energy, Galaxy
+
+   使用爱因斯坦探针的FXT对Virgo星系团进行的深度观测研究，揭示了该星系团中一个巨大的气体晃动螺旋结构。螺旋结构具有低温、低熵和高密度的特点，支持了由小并合事件引起的气体摆动机制。
+
+   <img src="./Figures/image-20250712211911762.png" alt="image-20250712211911762" width="680px" />
+
+2. [Detecting Galactic Rings in the DESI Legacy Imaging Surveys with Semi-Supervised Deep Learning](https://arxiv.org/abs/2507.07552)
+
+   > Galaxy, Deep Learning
+
+   提出了一种名为[GC-SWGAN](https://github.com/zjluo-code/GC-SWGAN-Rings)「结合了半监督生成对抗网络SGAN和带梯度惩罚的Wasserstein GAN」的半监督深度学习模型，用于从DESI Legacy Imaging Surveys(DESI-LS)的高分辨率图像中识别盘状星系的环状结构。
+
+   <img src="./Figures/image-20250712212158881.png" alt="image-20250712212158881" width="680px" />
+
+3. [Circular polarization of fast radio bursts by asymmetric erosion in longitudinally magnetized plasma](https://arxiv.org/abs/2507.07561)
+
+   > Fast Radio Burst, Theory
+
+   研究了快射电暴在磁星磁层中传播时产生圆偏振的物理机制。通过一维粒子模拟研究了强射电波在纵向磁化电子主导等离子体中的非线性传播，发现磁场可以显著改变LCP和RCP脉冲的侵蚀速率，从而生成圆偏振模式。
+
+4. [Constraining the origin of the long term periodicity of FRB 20180916B with Polarization Position Angle](https://arxiv.org/abs/2507.07651)
+
+   > Fast Radio Burst, Periodicity, Polarization
+
+   通过对FRB 20180916B的偏振位置角进行详细测量和分析，揭示了其短时间尺度和长时间尺度的变化特性。
+
+   FRB 20180916B的PA在短时间尺度内（小于四小时）的变化范围不超过7度。在活动周期内，PA的变化率约为每小时1度，表明存在显著的日内变化。
+
+   <img src="./Figures/image-20250712212534709.png" alt="image-20250712212534709" width="680px" />
+
+5. [Evaluating Retrieval-Augmented Generation Agents for Autonomous Scientific Discovery in Astrophysics](https://arxiv.org/abs/2507.07155)
+
+   > Astronomy, LLM
+
+   提出了[CosmoPaperQA](https://github.com/CMBAgents/cmbagent)和[SciRag](https://github.com/CMBAgents/scirag)框架，用于解决天体物理学中RAG代理的系统评估问题。
+
+   - **CosmoPaperQA:** 构建了一个包含105个专家验证的问题-答案对的基准数据集。该数据集从五篇高影响力的天体物理学文献中提取问题，涵盖了观测、理论和计算方面的现代宇宙学研究。
+
+   - **Sci Rag:** 开发了一个模块化框架，用于系统地集成和基准测试多种RAG代理。该框架支持商业API（如OpenAI Assistant和VertexAI Assistant）、混合架构（如ChromaDB与OpenAI/Gemini嵌入模型）、学术工具（如PaperQA2）和搜索增强系统（如Perplexity）。
+
+     <img src="./Figures/image-20250712212838412.png" alt="image-20250712212838412" width="680px" />
+
+   人类评估结果显示，使用OpenAI嵌入和生成模型的RAG代理表现最佳，准确率达到91.4%。
+
+   <img src="./Figures/image-20250712212821039.png" alt="image-20250712212821039" width="680px" />
+
+## 2025-07-14
+
