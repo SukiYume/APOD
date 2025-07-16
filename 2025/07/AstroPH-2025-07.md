@@ -451,3 +451,52 @@
 
 ## 2025-07-14
 
+1. [SN 2023ixf: The Closest Supernova of the Decade](https://arxiv.org/abs/2507.08078)
+
+   > Supernovae, Review
+
+   SN 2023ixf于2023年5月18日在M101（6.85Mpc）爆发，这是过去十年距离我们最近的超新星。这篇文章总结了对这个超新星的多波段观测。
+
+   <img src="./Figures/image-20250714153555761.png" alt="image-20250714153555761" width="680px" />
+
+2. [A survey for radio pulsars and transients in the 10 pc region around Sgr A*](https://arxiv.org/abs/2507.08534)
+
+   > Transient, Survey
+
+   用Effelsberg在Sgr A*周围10pc的区域进行暂现源搜索，观测频段4-8GHz，搜索脉冲星（PuslarX）、单脉冲（TransientX）和线偏振搜索。只检测到已知脉冲星PSR J1746-2850，和来自磁星SGR J1745-2900的单脉冲。
+
+   <img src="./Figures/image-20250714155525514.png" alt="image-20250714155525514" width="680px" />
+
+3. [Einstein Probe discovery of the short period intermediate polar EP J115415.8-501810](https://arxiv.org/abs/2507.08304)
+
+   > Transient, High Energy, Observation
+
+   EP探测到X射线暂现源EP240309a，后续光学观测这个你认为它是一个灾变变星，自转周期为238.2s、轨道周期3.76小时的白矮星。这里报道EP的后续观测，在0.3-2keV检测到231s的周期，2-10keV没有明显脉冲。ASKAP和MWA的观测没有射电信号。
+
+   <img src="./Figures/image-20250714160100441.png" alt="image-20250714160100441" width="680px" />
+
+## 2025-07-15
+
+1. [Bridging Literature and the Universe Via A Multi-Agent Large Language Model System](https://arxiv.org/abs/2507.08958)
+
+   > Cosmology, LLM
+
+   [SimAgents](https://github.com/xwzhang98/SimAgents)通过双智能体协作，自动化宇宙学模拟的参数配置和初步分析，从而加速物理学研究。
+
+   - **Physics Agent**：利用宇宙学领域知识从论文中提取参数（如宇宙学常数、模拟盒子大小、红移等）。
+   - **Software Agent**：根据软件用户手册验证参数的覆盖范围和有效性，生成符合格式要求的参数文件。
+
+   <img src="./Figures/image-20250715130621398.png" alt="image-20250715130621398" width="680px" />
+
+## 2025-07-16
+
+1. [Mapping Diffuse Radio Sources Using TUNA: A Transformer-Based Deep Learning Approach](https://arxiv.org/abs/2507.11320)
+
+   > Deep Learning, Galaxy, Radio
+
+   用Transformer实现的Unet，用于射电图像中弥漫射电源的检测和分割。
+
+   <img src="./Figures/image-20250716204603115.png" alt="image-20250716204603115" width="680px" />
+
+## 2025-07-17
+
