@@ -120,3 +120,130 @@
 
 ## 2025-08-11
 
+1. [CLAPP: The CLASS LLM Agent for Pair Programming](https://arxiv.org/abs/2508.05728)
+
+   > LLM, Cosmology
+
+   [CLAPP](https://github.com/santiagocasas/clapp/)是一个专门为宇宙学研究者设计的AI编程助手，旨在帮助研究人员更高效地使用爱因斯坦-玻尔兹曼求解器[CLASS](https://github.com/lesgourg/class_public)，用于计算宇宙微波背景各向异性和大尺度结构观测值。
+
+   <img src="./Figures/image-20250811211057733.png" alt="image-20250811211057733" width="680px" />
+
+   使用AG2打包了多个LLM（包括GPT4.1、Gemini-2.5-pro等），结合RAG，给出CLASS画图的代码，示例包括绘制CMB温度功率谱、中微子质量对物质功率谱的抑制效应。
+
+2. [Fast Radio Bursts from non-resonant Alfvén waves and synchrotron maser emission in the magnetar wind](https://arxiv.org/abs/2508.05840)
+
+   > Fast Radio Burst, Theory
+
+   提出了一种基于磁星（magnetar）风中非共振阿尔芬波与相对论性等离子体相互作用引发同步辐射脉泽（SME）产生FRB的模型。模型支持FRB高线偏振，但无法解释少数FRB的偏振角快速变化。
+
+3. [Fast radio bursts by stellar wind microlensing of a faint background source](https://arxiv.org/abs/2508.05947)
+
+   > Fast Radio Burst, Theory, Lensing
+
+   传统引力透镜理论认为光线会因引力向质量聚集处弯曲，而等离子体透镜效应（如恒星风）会导致光线**远离**透镜（恒星）。
+
+   前景恒星以典型速度（300 km/s）穿过背景射电源视线时，等离子体微透镜可在毫秒级时间内将稳态射电源放大≥200倍，表现为FRB。全天约80次/天，仅占观测FRB总数的1-2%，不影响FRB整体各向同性分布。若透镜为双星系统，成员周期性穿过视线可触发重复爆发，爆发间隔（小时至天）与恒星风密度波动功率谱一致（需密度比太阳风高数倍）。
+
+## 2025-08-12
+
+1. [Pushchino Multibeam Pulsar Search. VIII. Pulsar with a period of 40.9~s in observations of the LPA LPI](https://arxiv.org/abs/2508.06983)
+
+   > Pulsar, Observation
+
+   长周期脉冲星J0311+1402（周期P=40.9秒）前在分米波段被发现，但其低频辐射特性、周期性及单脉冲行为尚不明确。用俄罗斯的LPA望远镜数据，结合快速折叠算法（FFA）和单脉冲搜索技术，对J0311+1402进行周期性辐射和单脉冲检测。
+
+   FFA分析未检测到周期性信号，表明脉冲星可能具有极高的消零比例。在米波段表现为典型的RRAT，辐射呈高度间歇性，与分米波段的连续辐射模式形成对比。
+
+2. [No Metallicity Preference in Fast Radio Burst Host Galaxies](https://arxiv.org/abs/2508.07688)
+
+   > Fast Radio Burst, Galaxy, Statistics
+
+   发现 FRB 宿主星系的金属丰度范围很广，并且大体上与星系形成星系群体的 SFR 加权质量-金属丰度关系一致。FRB形成不依赖金属丰度，意味着第金属丰度的高红移星系中也能形成。
+
+3. [Large Model Driven Solar Activity AI Forecaster: A Scalable Dual Data-Model Framework](https://arxiv.org/abs/2508.06892)
+
+   > Solar, Deep Learning
+
+   提出了太阳活动AI预报器，用于解决太阳耀斑预测问题。
+
+   **情境感知模块（SPNet）**：该模块通过多模态变换器动态整合多种类型的太阳图像（如磁图、EUV图像、Hα图像），识别并映射关键太阳特征（如活动区、日冕洞、丝状物），生成每日太阳情境感知地图。
+
+   **深入分析工具（IATools）**：该模块对SPNet生成的太阳情境感知地图进行分析，自动计算各种物理参数（如磁中性线R值、Hale磁性类型、McIntosh形态分类、耀斑指数FI），并提供太阳活动的定量描述和历史爆发信息。
+
+   **耀斑预测模块（FPNet）**：该模块基于SPNet和IATools的数据和分析结果，构建端到端模型，提供全盘和各个活动区的强耀斑（≥M级）的概率预测和二元预测。
+
+   <img src="./Figures/image-20250814162757136.png" alt="image-20250814162757136" width="680px" />
+
+## 2025-08-13
+
+1. [Possible detection of HFQPOs associated with 'unknown' variability class of GRS 1915+105](https://arxiv.org/abs/2508.08594)
+
+   > High Energy, Periodicity, QPO
+
+   GRS 1915+105表现出极其复杂的时间变化特性，已有15种已知的变异类别，但在某些时间段内，源可能会展示出不同于这些类别的行为。
+
+   <img src="./Figures/image-20250813190704083.png" alt="image-20250813190704083" width="680px" />
+
+   研究了GRS 1915+105在2017年6月期间的光谱时间特性，发现了一种新的“未知”变异类别（特征是低计数“凹陷”和相邻的“爆发”状特征交替出现，形成均匀的“C”形分布），并探测到可能的HFQPOs特征（频率分别为71 Hz和152 Hz）。
+
+   <img src="./Figures/image-20250813190725411.png" alt="image-20250813190725411" width="680px" />
+
+## 2025-08-14
+
+1. [Studying Exoplanets in the Radio from the Moon](https://arxiv.org/abs/2508.09222)
+
+   > Exoplanet, Radio, Instrument
+
+   电离层阻挡了来自类地行星和类海王星系外行星的预期低频信号（<10 MHz）。月球射电观测任务（如LuSEE-Night）将通过周期叠加和Lomb-Scargle周期图分析技术，提升对微弱射电信号的探测能力。FarView和FARSIDE等未来月球射电阵列将进一步扩展探测范围，覆盖从类地行星到气态巨行星的多种系外行星系统，并首次实现统计性研究。
+
+   <img src="./Figures/image-20250814160334313.png" alt="image-20250814160334313" width="680px" />
+
+2. [Machine Learning for Exoplanet Detection: A Comparative Analysis Using Kepler Data](https://arxiv.org/abs/2508.09689)
+
+   > Machine Learning, Variable, Light Curve
+
+   评估各种机器学习方法在Kepler光变曲线上的性能，随机森林表现最优，K近邻次之，决策树和逻辑回归过拟合。[SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)（Synthetic Minority Over-sampling Technique used for over-sampling）可以提升模型的分类能力。
+
+3. [New Metrics for Identifying Variables and Transients in Large Astronomical Surveys](https://arxiv.org/abs/2508.09441)
+
+   > Transient, Method
+
+   高斯过程回归提供了一种无需预设光变曲线形状的通用方法，能够有效表征射电光变曲线的变异性。其超参数（尤其是σ_M32和σ_SE）可作为变源和暂现源的强判别指标，性能优于传统统计量。该方法适用于多波段巡天数据，未来可扩展至其他大规模时域巡天项目（如LSST和SKA）。https://github.com/shihchingfu/fu2025_transients_gp
+
+## 2025-08-15
+
+1. [Arecibo Wow! II: Revised Properties of the Wow! Signal from Archival Ohio SETI Data](https://arxiv.org/abs/2508.10657)
+
+   > SETI, Radio
+
+   再分析Wow!信号。从1977年8月13日至17日的打印输出中提取数据，并使用OCR工具将其转换为数字格式，并结合历史校准源和现代射电天文数据库（如HI4PI和NVSS）进行交叉验证。
+
+   - 通过高斯拟合和望远镜指向校准，将信号的赤经精度提高到±3秒，并确定了两个可能的来源区域ra=19h25m02s±3s或19h27m55s±3s，dec=-26°57′±20′
+   - 重新校准后，信号的峰值通量密度超过250 Jy，显著高于此前估计的54-212 Jy。
+   - 修正后的频率为1420.726±0.005 MHz，对应径向速度为-84 km/s（蓝移），表明信号可能源自银河系内的高速中性氢（HI）云或其他天体物理现象。
+   - 通过分析卫星轨道、太阳活动及仪器内部噪声，排除了人为或自然干扰的可能性。
+
+   确认了小型冷氢云可以产生类似于Wow!信号的窄带信号，这可能表明它们有共同的起源。
+
+   <img src="./Figures/image-20250815154733934.png" alt="image-20250815154733934" width="680px" />
+
+2. [Teaching LLMs to Speak Spectroscopy](https://arxiv.org/abs/2508.10075)
+
+   > Spectrum, LLM
+
+   从SDSS DR16中选取3,000个星系光谱（红移范围0<z<0.5）作为训练集，1,000个作为验证集。使用LORA在LLaMA-3.1-8B上进行微调，直接将光谱流量的数字当作token输入（例如[4.56,7.54, 11.2]变为"4|5|6, 7|5|4, 1|1|2|0"）。
+
+   测试结果表明，模型预测红移接近专用光谱模型的性能，在AstroBench上保留85.2%的问答性能，通用任务保留89.4%，证明其语言和科学推理能力未显著退化。
+
+3. [The Southern-sky MWA Rapid Two-metre (SMART) pulsar survey -- III. A census of millisecond pulsars at 154 MHz](https://arxiv.org/abs/2508.10330)
+
+   > Pulsar, Survey
+
+   利用澳大利亚默奇森宽场阵列（MWA）的“南天快速两米巡天”（SMART）项目数据，对赤纬低于+30°的154颗MSP进行观测。通过电压捕获系统（VCS）记录原始电压数据，并采用相干消色散和极化合成技术处理数据。观测频段为139-170 MHz（中心频率154.24 MHz），时间分辨率达781 ns。通过RM合成和RM-CLEAN算法分析偏振特性，结合电离层校正模型（SPINIFEX）分离星际介质与电离层对RM的贡献。
+
+   共检测到40颗MSP，其中11颗为首次在300 MHz以下被探测到（如PSRs J0125-2327、J1543-5149）。
+
+   <img src="./Figures/image-20250815155528241.png" alt="image-20250815155528241" width="680px" />
+
+## 2025-08-18
+
