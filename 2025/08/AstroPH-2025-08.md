@@ -247,3 +247,129 @@
 
 ## 2025-08-18
 
+1. [Search of RRATs on declinations from +42 to +55 with a neural network](https://arxiv.org/abs/2508.11462)
+
+   > Transient, Deep Learning
+
+   基于俄罗斯Pushchino射电天文台的大型相控阵（LPA）望远镜的PUMPS巡天数据，使用最简单的神经网络识别动态频谱中的色散延迟信号。
+
+   <img src="./Figures/image-20250818182207299.png" alt="image-20250818182207299" width="680px" />
+
+   神经网络成功检测到15颗已知脉冲星的弱脉冲（部分S/N < 5）和3个新的RRATs（J0101+46、J0841+46、J2053+50），DM范围7.2-59.9，脉冲宽度20-300ms。
+
+## 2025-08-19
+
+1. [Tera-Hertz Counterparts to Fast Radio Bursts from Coherent Cherenkov Radiation by Tilted Bunches](https://arxiv.org/abs/2508.11736)
+
+   > Fast Radio Burst, Theory
+
+   相干切伦科夫辐射（CChR）可能产生FRB，如果是这样的机制，FRB可能存在THz对应体。
+
+2. [How many stars form in compact clusters in the local Milky Way?](https://arxiv.org/abs/2508.12788)
+
+   > Stellar, Cluster, Statistics
+
+   基于Hunt & Reffert（2024，HR24）提供的致密疏散星团样本，估算恒星形成面密度率，结果显著高于以往研究，支持聚集形成模型作为银河系局部恒星形成的主要模式。
+
+3. [Rings around giant planets and smaller bodies](https://arxiv.org/abs/2508.11963)
+
+   > Planetary Science, Review
+
+   总结了太阳系内巨行星和小天体的环系统特征，探讨了它们的起源和演化过程。研究表明，不同行星环系统的特征差异显著，其形成和维持机制也各不相同。
+
+   <img src="./Figures/image-20250819151913980.png" alt="image-20250819151913980" width="680px" />
+
+   **土星环系统**：土星环主要由水冰组成，厚度较薄，约为10米。环中的粒子在低速度下相互碰撞，形成自引力尾流结构。
+
+   **天王星环系统**：天王星环包括密集的窄环和尘埃环。窄环的轨道周期与附近卫星的轨道周期存在共振关系，尘埃环中可能存在未被发现的小卫星。
+
+   **木星环系统**：木星环主要由微米级尘埃粒子组成，分为晕环、主环、Amalthea环和Thebe环。环中的尘埃粒子受到太阳风和Poynting-Robertson拖曳的影响，不断被辐射和扩散。
+
+   **海王星环系统**：海王星环主要由尘埃粒子组成，光学深度较小，约为0.1。环中的粒子同样受到太阳风和Poynting-Robertson拖曳的影响，不断被辐射和扩散。
+
+   **小天体环系统**：Chariklo、Haumea和Quaoar等小天体也拥有环系统。这些环系统的形成机制可能与卫星的潮汐破坏、碰撞或彗星撞击有关。
+
+4. [Magnetars in Binaries as the Engine of Actively Repeating Fast Radio Bursts](https://arxiv.org/abs/2508.12119)
+
+   > Fast Radio Burst, Theory
+
+   双星系统中的对齐磁星是活跃重复FRB的主要引擎，其几何构型和伴星相互作用可合理解释观测到的无周期性、RM演化多样性及高重复率等特征。
+
+   <img src="./Figures/image-20250819152017178.png" alt="image-20250819152017178" width="680px" />
+
+## 2025-08-20
+
+1. [Multiwavelength Observations of the Apparently Non-repeating FRB 20250316A](https://arxiv.org/abs/2508.13999)
+
+   > Fast Radio Burst, Observation
+
+   多波段观测FRB20250316A，非重复暴，EP发现附近有X射线源，但是偏了7角秒，应该对不上。
+
+   <img src="./Figures/image-20250820221641071.png" alt="image-20250820221641071" width="680px" />
+
+2. [A τ-DM relation for FRB hosts?](https://arxiv.org/abs/2508.13317)
+
+   > Fast Radio Burst, Galaxy, Statistics
+
+   探讨了通过测量FRB的散射时间来推断宿主DM及其红移的可能性。尽管$\tau$和DM之间可能有联系，但由于银河系DM值、中间晕和宇宙大尺度结构的波动，这种关系在观测数据中难以测量。
+
+3. [Hyperactive Magnetar Eruptions: Giant Flares, Baryon Ejections, and FRBs](https://arxiv.org/abs/2508.13419)
+
+   > Fast Radio Burst, Theory
+
+   提出双极扩散驱动的磁星爆发模型统一解释了巨型耀斑、重子抛射和FRB的物理关联。数值模拟证实磁场环迁移与物质抛射的可行性，并预测多波段辐射特征。
+
+## 2025-08-21
+
+1. [Breaking the Baryon Density - Hubble Constant Degeneracy in Fast Radio Burst Applications with Associated Gravitational Waves](https://arxiv.org/abs/2508.14434)
+
+   > Fast Radio Burst, Cosmology
+
+   利用GW-FRB联合事件的DM和DL数据，并结合独立FRB的DM-z测量结果，对H0和Ωb进行联合约束。模拟结果表明，当前一代引力波探测器（如LIGO-Virgo-KAGRA网络）的观测数据难以提供有意义的约束。
+
+   未来的第三代引力波探测器（如爱因斯坦望远镜和Cosmic Explorer）将能够利用这一方法，为哈勃常数的独立测量提供重要数据，并进一步检验当前宇宙学模型中的“哈勃张力”问题。
+
+2. [Surya: Foundation Model for Heliophysics](https://arxiv.org/abs/2508.14112)
+
+   > Solar, Deep Learning
+
+   [Surya](https://github.com/NASA-IMPACT/Surya)是一个包含3.66亿参数的时空Transformer模型，通过太阳动力学观测台（SDO）的8个大气成像仪（AIA）通道和5个日震与磁成像仪（HMI）产品进行预训练，任务为高分辨率太阳图像预测。
+
+3. [Machine learning revolution for exoplanet direct imaging detection: transformer architectures](https://arxiv.org/abs/2508.14508)
+
+   > Exoplanet, Deep Learning
+
+   在JWST模拟图像时间序列中，结合CNN特征提取器与Transformer编码器，利用时序信息建模行星在观测序列中的相干运动特征。模型通过两个任务头输出：分类（行星存在概率）和回归（行星位置坐标）。
+
+   <img src="./Figures/image-20250822153325295.png" alt="image-20250822153325295" width="680px" />
+
+   <img src="./Figures/image-20250822153348664.png" alt="image-20250822153348664" width="680px" />
+
+4. [Parkes transient events: II. Pulsar single pulses database containing raw data segment](https://arxiv.org/abs/2508.14403)
+
+   > Transient, Pulsar, Statistics
+
+   对Parkes在1997-2001年之间的单脉冲进行验证，做统计。
+
+   最终数据库包含165,592个单脉冲，来自363个已知的脉冲星，脉冲星的单脉冲辐射在不同观测期间表现出显著的变化。例如，J1602-5100在一个10天的观测期间内，事件率变化了两个数量级。
+
+## 2025-08-22
+
+1. [Long-term simultaneous 2.25/8.60~GHz monitoring of the newly-discovered repeating FRB~20240114A](https://arxiv.org/abs/2508.15615)
+
+   > Fast Radio Burst, Observation
+
+   上海天马望远镜对FRB20240114A的1年观测，在2.2-2.3GHz（S波段）和8.2-9.0GHz（X波段）的观测，在2.25 GHz检测到155次爆发，而在8.60 GHz未检测到任何爆发，表明该源在低频段更活跃。爆发宽度中值为3 ms，窄于低频观测结果；等待时间分布峰值约1019秒，符合泊松过程。
+
+   <img src="./Figures/image-20250822154406094.png" alt="image-20250822154406094" width="680px" />
+
+2. [Single Epoch Measurements of Dispersion Measure Gradients Towards PSR B0834+06](https://arxiv.org/abs/2508.15270)
+
+   > Pulsar, Scintillation
+
+   脉冲星色散量（Dispersion Measure, DM）的演化研究对于高精度计时实验和天体测量至关重要。然而，传统DM监测方法受限于观测时间分辨率和单视线探测能力，难以捕捉星际介质（ISM）中小尺度DM变化。本研究提出了一种基于脉冲星闪烁测量（scintillometry）的新方法，利用多路径传播效应同时探测多条视线上的DM梯度，从而克服传统方法的局限性。
+
+   <img src="./Figures/image-20250822155250110.png" alt="image-20250822155250110" width="680px" />
+
+## 2025-08-25
+
