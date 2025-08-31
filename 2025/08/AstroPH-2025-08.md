@@ -373,3 +373,101 @@
 
 ## 2025-08-25
 
+1. [New method for subtraction of common background fluctuation for radio camera: Chunked Principal Component Analysis method](https://arxiv.org/abs/2508.16155)
+
+   > Machine Learning
+
+   [Chunked PCA](https://github.com/pranshu-mandal/Chunked_PCA)用于天文成像中背景涨落的去除。步骤包括
+
+   1.通过初步PCA或中值滤波识别源信号所在像素； 2.将数据分块并标记每个块内的“空白天空”像素；3. 对每个块内的空白天空像素应用PCA计算共同模式；4. 将共同模式从所有像素的数据中扣除；5. 通过拼接所有块的数据得到最终清理后的结果。
+
+## 2025-08-26
+
+1. [Crustal Quakes Spark Magnetospheric Blasts: Imprints of Realistic Magnetar Crust Oscillations on the Fast Radio Burst Signal](https://arxiv.org/abs/2508.18033)
+
+   > Fast Radio Burst, Theory, Simulation
+
+   通过三维相对论性电阻性FFE模拟磁层响应，将星壳表面运动作为边界条件，研究磁层波的激发与非线性演化。发现星壳活动与磁层扰动的全局耦合动力学，表明星震触发的非线性磁层波能产生丰富的观测现象（如激波、电流片和QPOs），但能量转换效率较低。
+
+2. [A Target Search for Fast Radio Bursts Associated with Two Fast Blue Optical Transients: AT2018cow and CSS161010](https://arxiv.org/abs/2508.17656)
+
+   > Fast Radio Burst, Multiwavelength
+
+   快速蓝色光学暂现源（FBOTs）是一类具有高光度、快速演化和蓝色光谱特征的极端暂现天体，其中心引擎可能由新生磁星驱动，并与快速射电暴（FRBs）存在潜在关联。使用FAST对两个邻近的FBOTs（AT2018cow和CSS161010）进行了深度射电观测，没探测到信号，给出流量限制。
+
+3. [RRAT J2325-0530: A Rotating Radio Transient with an Atypical Waiting-time Distribution](https://arxiv.org/abs/2508.17657)
+
+   > Pulsar, Transient, Observation
+
+   FAST对RRAT J2325-0530的观测，单脉冲的等待时间分布符合形状参数k≥1的威布尔分布，表明发射过程具有准随机性，且“开启窗口”（on-window）略长于自转周期。
+
+4. [Solar Observation with MeerKAT: Demonstration of Technical Readiness and Initial Science Highlight](https://arxiv.org/abs/2508.17983)
+
+   > Solar, Radio, Observation
+
+   MeerKAT太阳图像与SDO/AIA的EUV图像形态高度一致，验证了校准和成像流程的可靠性。UHF波段可捕获大尺度日冕结构，而L波段在高频端因基线限制存在部分流量缺失。
+
+   <img src="./Figures/image-20250826151927189.png" alt="image-20250826151927189" width="680px" />
+
+## 2025-08-27
+
+1. [The Atacama Cosmology Telescope: Release of A databaSe of millimeTeR ObservatioNs of Asteroids Using acT (ASTRONAUT)](https://arxiv.org/abs/2508.18300)
+
+   > Asteroids, Software
+
+   [ASTRONAUT](https://github.com/ACTCollaboration/ASTRONAUT)托管于亚马逊云存储服务（AWS S3），包含170颗小行星的观测时间、归一化通量、通量误差和权重因子。数据以FITS文件格式存储，并支持用户通过Python脚本或Jupyter Notebook进行查询和分析。此外，团队还提供了示例代码和教程，指导用户如何生成小行星的光变曲线。
+
+## 2025-08-28
+
+1. [Probe the missing baryons in cosmic filaments with Fast Radio Bursts](https://arxiv.org/abs/2508.19861)
+
+   > Fast Radio Burst, Cosmology
+
+   使用FRB的DM结合DESI的数据，通过DisPerSE算法识别宇宙纤维结构，并分析FRB视线是否穿过这些纤维结构。通过比较穿过（“Pass”组）与未穿过（“NoPass”组）纤维结构的FRB的DM-红移关系差异，推断纤维结构中的重子含量。
+
+   结果发现，纤维结构中的重子质量分数随红移下降，支持纤维结构是“缺失重子”的重要储存场所。
+
+2. [Identification of Strongly Lensed Gravitational Wave Events Using Squeeze-and-Excitation Multilayer Perceptron Data-efficient Image Transformer](https://arxiv.org/abs/2508.19311)
+
+   > Gravitational Wave, Deep Learning
+
+   通过ViT对引力波做分类。
+
+   <img src="./Figures/image-20250831212648452.png" alt="image-20250831212648452" width="680px" />
+
+   - 提出了一种名为Squeeze-and-Excitation Multilayer Perceptron Data-efficient Image Transformer（SEMD）的深度学习模型，基于Vision Transformers（ViT），结合了Squeeze-and-Excitation（SE）通道注意力机制和多层感知器（MLP）。SE模块用于敏感地提取幅度差异，MLP用于增强局部形态特征的区分能力。
+   - 时间域的GW信号通过Q变换转换为时频表示，生成时间-频率谱图对。对于透镜事件，选择每个多重图像中最亮的两个谱图进行垂直拼接；对于非透镜事件，从不同的独立事件中随机选择两个组合成合成图像对。
+   - 实验结果表明，该模型在不同探测器灵敏度和物理条件下均表现出良好的泛化能力
+
+3. [FRB 20200428 and potentially associated hard X-ray bursts: Maser emission and synchrotron radiation of electrons in a weakly magnetized plasma?](https://arxiv.org/abs/2508.19315)
+
+   > Fast Radio Burst, Theory
+
+   提出了一种基于弱磁化等离子体团的等离子体同步辐射脉泽（maser）和电子同步辐射的模型，以解释FRB 20200428及其可能的X射线暴关联。
+
+4. [On Ultra-long Period (53.8 min) Pulsar ASKAP J1935+2148: Coherent Radio Emission Triggered by Local Superstrong Magnetic Reconnection](https://arxiv.org/abs/2508.19801)
+
+   > LPT, Theory
+
+   近年来发现的八颗超长周期脉冲星（ULPPs）的周期（76秒至2.9小时）远超普通脉冲星（0.016秒至23.5秒），其起源、自转演化及辐射机制仍存在诸多未解之谜。
+
+   <img src="./Figures/image-20250831212924054.png" alt="image-20250831212924054" width="680px" />
+
+   本文以周期为53.8分钟的ASKAP J1935+2148（ASKAP J1935）为例，探究其超长周期的形成机制，并提出其射电辐射可能由局域超强磁场的重联过程触发。
+
+## 2025-08-30
+
+1. [Cosmo-Learn: code for learning cosmology using different methods and mock data](https://arxiv.org/abs/2508.20971)
+
+   > Cosmology, Software
+
+   [Cosmo-Learn](https://github.com/reggiebernardo/cosmo_learn)旨在模拟宇宙学数据并利用现代统计和机器学习方法进行推断。该工具支持多种宇宙学观测数据的模拟，包括宇宙计时器（CC）、Ia 型超新星（SNe Ia）、重子声学振荡（BAO）、红移空间畸变（RSD）和引力波亮警报（GW bright sirens），并提供了多种学习和推断方法，如马尔可夫链蒙特卡洛（MCMC）、遗传算法（GA）、高斯过程（GP）、贝叶斯岭回归（BRR）和人工神经网络（ANN）。
+
+2. [Using Symbolic Regression to Emulate the Radial Fourier Transform of the Sérsic profile for Fast, Accurate and Differentiable Galaxy Profile Fitting](https://arxiv.org/abs/2508.20266)
+
+   > Galaxy, Symbolic Regression
+
+   [pysersic](https://github.com/pysersic/pysersic/tree/sersic_fourier_emulator)基于符号回归（Symbolic Regression）的仿真方法，通过数值计算Sérsic轮廓的径向傅里叶变换（Hankel变换），并训练符号回归模型（使用pysr包）生成高效、可微的近似表达式。
+
+   <img src="./Figures/image-20250831215100863.png" alt="image-20250831215100863" width="680px" />
+
