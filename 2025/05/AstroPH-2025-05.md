@@ -300,7 +300,7 @@
 
    > Fast Radio Burst, Observation
 
-   对ASKAP探测到的35个FRB的高时间分辨率动态谱Figures/分析，所有FRBs可能都由多个成分组成，高度散射的FRBs中成分可能被掩盖。
+   对ASKAP探测到的35个FRB的高时间分辨率动态谱分析，所有FRBs可能都由多个成分组成，高度散射的FRBs中成分可能被掩盖。
 
    <img src="./Figures/image-20250526160251624.png" alt="image-20250526160251624" width="680px" />
 

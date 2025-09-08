@@ -455,7 +455,7 @@
 
    本文以周期为53.8分钟的ASKAP J1935+2148（ASKAP J1935）为例，探究其超长周期的形成机制，并提出其射电辐射可能由局域超强磁场的重联过程触发。
 
-## 2025-08-30
+## 2025-08-29
 
 1. [Cosmo-Learn: code for learning cosmology using different methods and mock data](https://arxiv.org/abs/2508.20971)
 
