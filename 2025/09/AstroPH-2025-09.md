@@ -94,3 +94,163 @@
 
 ## 2025-09-09
 
+1. [A Spatial Gap in the Sky Distribution of Fast Radio Burst Detections Coinciding with Galactic Plasma Overdensities](https://arxiv.org/abs/2509.06721)
+
+   > Fast Radio Burst, ISM
+
+   CHIME/FRB Catalog 2中发现的FRB探测空间分布中的一个显著“探测缺口”（detection gap），该缺口与银河系内的电离气体过密区（如天鹅座X区域）重合。
+
+   <img src="./Figures/image-20250909203239557.png" alt="image-20250909203239557" width="680px" />
+
+   通过非均匀泊松过程模型，计算了缺口区域内FRB零探测的概率，发现其显著性达4.2σ，表明缺口并非偶然现象。缺口区域的散射时间尺度在600MHz达到31.87ms，可以把信号散射到CHIME探测阈值以下。
+
+   <img src="./Figures/image-20250909203552140.png" alt="image-20250909203552140" width="680px" />
+
+   110个FRB视线与已知H II区域交叉，但其散射时间尺度未显著高于非交叉视线，可能因CHIME对高度散射FRB的选择偏差。
+
+   <img src="./Figures/image-20250909203614459.png" alt="image-20250909203614459" width="680px" />
+
+2. [Repeating vs. Non-Repeating FRBs: A Deep Learning Approach To Morphological Characterization](https://arxiv.org/abs/2509.06208)
+
+   > Fast Radio Burst, Statistics
+
+   CHIME/FRB Catalog 2，包含4545个FRB事件，其中3564个为非重复暴，981个为重复暴。通过ConvNext模型，在这些事件的图像上进行训练，准确率85%。
+
+   <img src="./Figures/image-20250909204939650.png" alt="image-20250909204939650" width="680px" />
+
+   此外，模型在fitburst生成的合成数据上也表现出良好的性能，进一步揭示了FRB形态特征与分类结果之间的关系。例如，窄频带且时间宽度较大的FRB更可能被归类为重复暴，而多子脉冲的周期性特征与非重复暴相关。
+
+3. [A long period transient search method for the Murchison Widefield Array](https://arxiv.org/abs/2509.06315)
+
+   > LPT, Method
+
+   MWA探测长周期暂现源的方法。
+
+   步骤包括：从观测数据中减去天空模型，形成图像立方体，应用三种滤波器来检测不同时间尺度和脉冲形态的瞬变候选体
+
+   - **Spike滤波器**：检测短时间尺度的尖峰信号。
+   - **时间相关高斯（TCG）滤波器**：检测宽度约为10秒的高斯形状脉冲。
+   - **均方根（RMS）滤波器**：检测高度变化的随机源。
+
+   生成一个布尔图，标记出任何一种滤波器超过阈值的区域。然后使用3×3的连通矩阵检测岛屿，并为每个岛屿分配有效的TCG、Spike和RMS标志。将检测到的岛屿与GLEAM目录进行交叉匹配，以标记闪烁的已知源。
+
+   <img src="./Figures/image-20250909204125961.png" alt="image-20250909204125961" width="680px" />
+
+   最终有7个候选者被确认为真实瞬变，包括一个新的LPT GLEAM-X J0704-37和一个新的脉冲星PSR J0031-57。
+
+4. [A Deep SETI Search for Technosignatures in the TRAPPIST-1 System with FAST](https://arxiv.org/abs/2509.06310)
+
+   > SETI, Radio
+
+   TRAPPIST-1系统因其拥有多个位于宜居带内的类地行星而成为地外智慧生命（SETI）搜索的重要目标。FAST对其观测没有找到技术特征信号。
+
+   <img src="./Figures/image-20250909204307577.png" alt="image-20250909204307577" width="680px" />
+
+5. [Long-term monitoring of a dynamically new comet C/2020 V2 (ZTF)](https://arxiv.org/abs/2509.05902)
+
+   > Comet, Planetary Science
+
+   彗星C/2020 V2（ZTF）是一颗动态新长周期彗星（Dynamically New Comet, DNC），首次进入内太阳系。长时间的观测发现其具有典型的碳组成和尘埃丰富的特征，其物理化学性质在轨道演化过程中表现稳定。研究结果表明，这类动态新彗星在早期轨道阶段可能已具备均匀的组成，支持其形成于太阳系早期均匀混合的区域。
+
+   <img src="./Figures/image-20250909204613586.png" alt="image-20250909204613586" width="680px" />
+
+6. [FAST Observations of the Microstructure in Interpulse Pulsars](https://arxiv.org/abs/2509.05957)
+
+   > Pulsar, Periodicity
+
+   通过FAST研究了四颗具有中间脉冲的脉冲星（PSRs J0953+0755、J0627+0706、J0826+2637和J1946+1805）的微结构特性。首次在中间脉冲中成功探测到微结构，并发现微结构普遍存在。重新确认了中子星群体中微结构周期与自转周期的幂律关系：
+   $$
+   P\mu({\rm ms})=(1.337\pm0.114)\times P({\rm s})^{1.063\pm0.038}
+   $$
+   <img src="./Figures/image-20250909205345100.png" alt="image-20250909205345100" width="680px" />
+
+7. [Probing baryonic feedback and cosmology with 3 x 2-point statistic of FRBs and galaxies](https://arxiv.org/abs/2509.05866)
+
+   > Fast Radio Burst, Cosmology
+
+   本研究提出了一种基于3x2点相关统计的方法，结合FRB色散测量（DM）与星系数密度场的角功率谱分析。FRB与星系的3x2点联合分析能够有效区分重子反馈与宇宙学效应，弥补了传统星系巡天在非线性尺度上的不足。尽管FRB样本的散粒噪声限制了其单独约束能力，但结合星系数据后，该方法可为下一代巡天（如SKA、CHORD）提供互补的观测策略，实现反馈模型的高精度和宇宙学参数的联合约束。
+
+   <img src="./Figures/image-20250909205548366.png" alt="image-20250909205548366" width="680px" />
+
+8. [Solar Interior](https://arxiv.org/abs/2509.05401)
+
+   > Solar, Review
+
+   太阳内部动力学研究通过多学科交叉，逐步揭示了磁场生成、输运和浮现的物理机制。尽管在三维发电机模型、子午环流深层结构及磁通量浮现的精细过程等方面仍存在挑战，观测技术的进步（如SDO/HMI、Hinode等）与数值模拟的结合为未来研究提供了方向。理解这些过程对预测太阳活动周期及空间天气效应具有重要意义。
+
+   <img src="./Figures/image-20250909205920977.png" alt="image-20250909205920977" width="680px" />
+
+9. [PowerBin: Fast Adaptive Data Binning with Centroidal Power Diagrams](https://arxiv.org/abs/2509.06903)
+
+   > Astronomy, Software
+
+   现代天文学观测（如积分场光谱）产生的大规模数据集通常需要自适应分箱（adaptive binning）以提高信噪比（S/N），从而确保模型拟合的可靠性。然而，现有的Voronoi分箱方法及其变体存在两个主要问题：计算复杂度高（通常为O(N²)），难以处理现代天文调查中的大规模数据；且可能生成非凸或不连通的箱体，影响空间分辨率。
+
+   [PowerBin](https://pypi.org/project/powerbin/)基于最优传输理论（optimal transport）和质心功率图（Centroidal Power Diagram, CPD）框架，解决了传统方法的局限性。
+
+   <img src="./Figures/image-20250909210257754.png" alt="image-20250909210257754" width="680px" />
+
+## 2025-09-10
+
+1. [Constraining Baryon Fractions in Galaxy Groups and Clusters with the First CHIME/FRB Outrigger](https://arxiv.org/abs/2509.07097)
+
+   > Fast Radio Burst, Cosmology
+
+   利用CHIME/FRB Outrigger样本中三个FRB的观测数据，结合星系群和星系团的密度模型，探讨了重子分数在低质量星系群中的分布及其与现有X射线观测结果的对比。
+
+2. [An all-sky 3D dust map Based on Gaia and LAMOST](https://arxiv.org/abs/2509.07640)
+
+   > ISM
+
+   LAMOST DR11提供了恒星大气参数（有效温度、表面重力、金属丰度），结合Gaia XP合成的B/V波段测光数据，计算了约460万颗恒星的消光值，典型精度为~0.01 mag。通过自适应多分辨率天空分区方法（HEALPix），将天空划分为不同分辨率的视向（3.4′至58′），并采用参数化模型对每条视向的消光-距离关系进行建模。模型考虑了局部气泡（Local Bubble）、弥散星际介质（DIM）和潜在分子云的贡献，从而构建了银河系的三维尘埃消光图。
+
+   <img src="./Figures/image-20250910115427382.png" alt="image-20250910115427382" width="680px" />
+
+3. [A Machine Learning empowered search for Sub-Minute Optical Transient Events with the Deeper, Wider, Faster programme](https://arxiv.org/abs/2509.07592)
+
+   > Transient, Optical, Machine Learning
+
+   亚分钟级光学瞬变事件（持续时间小于1分钟）的系统性研究尚未开展，这类事件可能揭示新的天体物理现象（如快速射电暴的光学对应体或恒星耀发）。
+
+   使用CNN对Deeper, Wider, Faster (DWF) 巡天数据的图像差分进行分类，筛选暂现源。对5,477个高分候选体进行人工检查，最终选出2个高质量候选体。
+
+   **DWF040654.511-544056.411**：可能具有宿主星系，g波段星等20.25±0.05。**DWF041117.877-542554.144**：无宿主星系，g波段星等20.55±0.04，可能为银河系内事件（如恒星耀发）。
+
+   <img src="./Figures/image-20250910120809620.png" alt="image-20250910120809620" width="680px" />
+
+## 2025-09-11
+
+1. [Discovery of a z~0.8 Ultra Steep Spectrum Radio Halo in the MeerKAT-South Pole Telescope Survey](https://arxiv.org/abs/2509.08062)
+
+   > Radio, Galaxy
+
+   使用MeerKAT UHF波段（0.58 - 1.09 GHz）对SPT-CLJ2337-5942星系团进行观测，该星系团由南极望远镜（SPT）在100平方度深场中发现。观测时间为116小时，使用32k相关器模式，每个指向观测约1小时，达到每指向深度为10uJy/beam。
+
+   在SPT-CLJ2337-5942星系团中心发现了一个扩展的弥散射电辐射，最大线性尺寸（LLS）约为800千秒差距，具有复杂的形态，分类为射电晕。谱指数1.76，表明其为超高陡谱射电晕（USSRH）。
+
+   <img src="./Figures/image-20250911115025988.png" alt="image-20250911115025988" width="680px" />
+
+## 2025-09-12
+
+1. [Magnetic fields in galactic environments probed by Fast Radio Bursts](https://arxiv.org/abs/2509.08896)
+
+   > Fast Radio Burst, Galaxy, Magnetic Field
+
+   分析14个定位FRB的观测RM，推断FRB宿主星系及其前景星系晕中的总磁场强度。结果表明，前景星系晕的磁场贡献在分析未来FRB样本时不可忽视。
+
+   <img src="./Figures/image-20250912121714593.png" alt="image-20250912121714593" swidth="680px" />
+
+2. [Unraveling the emission mechanism powering long period radio transients from interacting white dwarf binaries via kinetic plasma simulations](https://arxiv.org/abs/2509.09057)
+
+   > LPT, Theory, Simulation
+
+   由白矮星-M型矮星双星系统相互作用驱动的长周期射电瞬变源（ULPTs，如GLEAM-X J0704-37和ILTJ1101+5521）的辐射机制，证明了电子回旋脉泽不稳定性（ECMI）的可行性，在现实的WD-MD条件下，ECMI可以达到高的能量转换效率，并且辐射主要为线性偏振。
+
+3. [Magnetic White Dwarf -- M Dwarf Binaries in Pre-polar Phase as Special Population of Long-Period Radio Transients](https://arxiv.org/abs/2509.09224)
+
+   > LPT, Theory
+
+   杨元培的文章。最近ILT J1101+5521 和 GLEAM-X J0704-37，已被确认源自白矮星（WD）- M 矮星（MD）双星系统，提出至少部分 LPTs 源自处于`pre-polar phase`阶段的 WD - MD 双星系统。
+
+## 2025-09-15
+
