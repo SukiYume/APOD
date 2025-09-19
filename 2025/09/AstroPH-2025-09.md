@@ -254,3 +254,96 @@
 
 ## 2025-09-15
 
+1. [Encyclopedia of Astrophysics: The Expanding Universe](https://arxiv.org/abs/2509.09954)
+
+   > Cosmology, Review
+
+   总结了宇宙膨胀的理论基础，包括宇宙学原理、距离和速度的计算、以及加速膨胀的动力学，讨论了相关的观测现象和理论挑战。
+
+   - **宇宙学原理**：宇宙学原理认为宇宙在大尺度上是均匀和各向同性的，这意味着我们并不处于一个特殊的位置。这一原理是现代宇宙学的基础，并得到了大规模观测的支持。
+   - **哈勃-勒梅特定律**：哈勃-勒梅特定律指出，星系的退行速度与其距离成正比，即v=Hd。这一关系是宇宙均匀膨胀的直接结果，并且退行速度可以超过光速而不违反相对论，因为这些速度不是相对于任何惯性参考系的。
+   - **弗里德曼方程**：弗里德曼方程描述了宇宙膨胀率随时间的变化。这些方程可以从广义相对论推导出来，但在大多数情况下，也可以使用牛顿力学进行近似计算，因为宇宙非常稀薄，处于弱引力场状态。
+   - **宇宙的密度和压力**：不同成分（如物质、辐射和暗能量）对宇宙膨胀的影响不同。物质的能量密度随尺度因子*a*的变化为$\rho_M\propto a^{-3}$，辐射为$\rho_R\propto a^{-4}$，而暗能量（如宇宙常数）的能量密度保持不变。
+   - **宇宙的命运**：根据当前的标准模型（ΛCDM），宇宙将继续加速膨胀，最终进入一个“大冻结”状态，即宇宙将无限膨胀并逐渐冷却。其他可能的命运包括大挤压、大反弹、大撕裂等。
+
+## 2025-09-16
+
+1. [Neural networks in the search for fast radio bursts with RATAN-600](https://arxiv.org/abs/2509.11215)
+
+   > Fast Radio Burst, Search, Deep Learning
+
+   [EfficientNet1D_FRB](https://github.com/DKudryavtsev/EfficientNet1D_FRB)使用1D卷积的EfficientNet，用于在RATAN-600的少数通道时间序列中搜索FRBs。
+
+   <img src="./Figures/image-20250916114553382.png" alt="image-20250916114553382" width="680px" />
+
+2. [Revealing Event Rate of Repeating Fast Radio Bursts](https://arxiv.org/abs/2509.12016)
+
+   > Fast Radio Burst, Statistics
+
+   研究高于/低于1GHz的FRB随红移的变化。发现高低频率FRB的光度分布和事件率演化模式不同，且重复FRB的事件率在红移*z*<1时显著高于SFR。
+
+3. [YOLO-CIANNA: Galaxy detection with deep learning in radio data: II. Winning the SKA SDC2 using a generalized 3D-YOLO network](https://arxiv.org/abs/2509.12082)
+
+   > Galaxy, Radio, Deep Learning
+
+   使用3DYOLO做三维射电星系检测。
+
+   <img src="./Figures/image-20250916115432680.png" alt="image-20250916115432680" width="680px" />
+
+## 2025-09-17
+
+1. [Who Uses Whose Telescopes? Analyzing the Knowledge Geography and Research Dominance of Global Astronomical Facilities](https://arxiv.org/abs/2509.12551)
+
+   > Astronomy, Statistics
+
+   研究了全球天文设施的地理分布、使用情况和领导地位。使用自然语言处理技术从出版物摘要和致谢中提取设施实体，并将142,000篇使用设施的论文与533个设施匹配。定义了
+
+   - **设施库存（Stock）**：一个国家托管的设施数量。
+   - **设施使用（Usage）**：在年份t内承认使用位于国家c的设施的出版物数量。
+   - **影响（Impact）**：基于引用的指标，包括h指数和每篇论文的平均引用次数。
+   - **效率（Efficiency）**：设施使用论文数与托管设施数的比率。
+   - **领导（Leadership）**：第一作者和对应作者的论文总数。
+   - **参与（Participation）**：非第一、非对应作者的论文比例。
+
+   发现：使用和影响高度集中在少数几个设施中心、科学领导力比获取或使用更加不平等、主办和领导力往往分离——智利和南非等国家的中介作用很大，但并未相应获得领导地位。
+
+   <img src="./Figures/image-20250917130022489.png" alt="image-20250917130022489" width="680px" />
+
+2. [A high fraction of close massive binary stars at low metallicity](https://arxiv.org/pdf/2509.12828)
+
+   > Stellar, Binary, Statistics
+
+   现有研究表明，在高金属丰度环境下，大多数大质量恒星至少有一个紧密的恒星伴侣。然而，对于低金属丰度环境，特别是高红移星系中的大质量恒星，其双星性质的约束仍然不足。
+
+   这篇论文通过多历元径向速度测量，研究了小麦哲伦云中大质量O型恒星的双星性质，发现即使在低金属丰度环境下，大质量恒星的紧密双星系统也是普遍存在的。
+
+   <img src="./Figures/image-20250917130439079.png" alt="image-20250917130439079" width="680px" />
+
+## 2025-09-18
+
+1. [Searching for radio emission from radio quiet magnetars with MeerKAT](https://arxiv.org/abs/2509.14043)
+
+   > Magnetar, Fast Radio Burst, Radio, Observation
+
+   使用MeerKAT对13个射电宁静磁星进行了观测，搜索了单脉冲、周期脉冲和PRS，都没有探测。
+
+   <img src="./Figures/image-20250918142422657.png" alt="image-20250918142422657" width="680px" />
+
+## 2025-09-19
+
+1. [LOFAR 58 MHz Legacy Survey of the 3CRR Catalog](https://arxiv.org/abs/2509.15115)
+
+   > Radio, Catalog, Observation
+
+   首次在超低频（58 MHz）下对3CRR目录中的所有射电源进行了高分辨率成像，提供了独立的流量密度测量和高质量的低频射电图像。
+
+   <img src="./Figures/image-20250919203204068.png" alt="image-20250919203204068" width="680px" />
+
+2. [Gaia DR3 Variable White Dwarfs vetted by ZTF](https://arxiv.org/abs/2509.15133)
+
+   > Stellar, White Dwarf, Variable
+
+   利用Gaia DR3和ZTF DR23数据，识别并分类了1423个变白矮星候选，其中864个有ZTF时间序列，141个呈现显著周期性。通过无监督聚类技术，将这些对象分类为已知类别，包括3个ZZ Ceti星、15个GW Vir星、1个V777 Her星和24个WD-MS双星。
+
+## 2025-09-22
+
