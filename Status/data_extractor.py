@@ -30,16 +30,16 @@ def extract_data(markdown_path):
         with open(md, 'r', encoding='utf-8') as f:
             data = f.read()
         data = [i for i in data.split('## 20') if i.startswith('2')]
-        
+
         for d in range(len(data)):
             if re.match(r'^\d{2}-\d{2}-\d{2}\s+$', data[d]):
                 continue
-                
+
             date = '20' + re.search(r'(\d{2}-\d{2}-\d{2})', data[d]).group(1)
             title = re.findall(r'\s+\d+\.\s+\[(.+)\]', data[d])
             arxiv = re.findall(r'\d+\.\s+\[.+\]\(h{1,2}ttps.+/(.+)\)', data[d])
             kw_content = re.split(r'\s+\d+\.\s+\[.+\]\(.+\)\s+', data[d])[1:]
-            
+
             keyword, content = [], []
             for kc in kw_content:
                 kw = re.search(r'^>\s+([A-Za-z0-9_ \,]+)', kc)
@@ -49,10 +49,10 @@ def extract_data(markdown_path):
                 else:
                     keyword.append('')
                     content.append(kc)
-                    
+
             if len(title) == len(arxiv) == len(content) == 0:
                 title, arxiv, keyword, content = [''], [''], [''], [re.search(r'\d{2}-\d{2}-\d{2}\s+(.+)\s+', data[d]).group(1)]
-                
+
             data_format = pd.DataFrame({
                 'month': re.search(r'(\d{4}-\d{2})', date).group(1),
                 'date': date,
@@ -62,7 +62,7 @@ def extract_data(markdown_path):
                 'content': content
             }, columns=['month', 'date', 'arxiv', 'title', 'keyword', 'content'])
             data_list.append(data_format)
-            
+
     data = pd.concat(data_list)
     noupdate = data.loc[data.content.str.contains('停更')]
     data = data.loc[~data.content.str.contains('停更')]

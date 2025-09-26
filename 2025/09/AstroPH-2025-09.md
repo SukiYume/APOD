@@ -70,7 +70,7 @@
 
    > Fast Radio Burst, Galaxy, Localization
 
-   EVN对FRB20190417A进行了25次观测，实现了毫角秒级别的精确定位。定位在一个低金属丰度的矮星系中，红移z=0.12817，PRS的物理尺度<23.1pc，射电光度为7.4e28 erg/s/Hz，宿主星系贡献DM高达212.0pc/cc，是目前已知FRB中最大的宿主DM贡献。
+   EVN对FRB20190417A进行了25次观测，实现了毫角秒级别的精确定位。定位在一个低金属丰度的矮星系中，红移z=0.12817，PRS的物理尺度<23.1pc，射电光度为7.4e28 erg/s/Hz，宿主星系贡献DM高达1212.0pc/cc，是目前已知FRB中最大的宿主DM贡献。
 
    <img src="./Figures/image-20250908170719509.png" alt="image-20250908170719509" width="680px" />
 
@@ -346,4 +346,140 @@
    利用Gaia DR3和ZTF DR23数据，识别并分类了1423个变白矮星候选，其中864个有ZTF时间序列，141个呈现显著周期性。通过无监督聚类技术，将这些对象分类为已知类别，包括3个ZZ Ceti星、15个GW Vir星、1个V777 Her星和24个WD-MS双星。
 
 ## 2025-09-22
+
+1. [Evidence for a brief appearance of gamma-ray periodicity after a compact star merger](https://arxiv.org/abs/2509.15824)
+
+   > High Energy, Theory
+
+   在GRB 230307A中检测到一个909赫兹的伽马射线周期性信号，这可能表明该事件的中心引擎是一个快速旋转的中子星（毫秒磁星）。
+
+   <img src="./Figures/image-20250922121514941.png" alt="image-20250922121514941" width="680px" />
+
+2. [The Thousand-Pulsar-Array programme on MeerKAT -- XVIII. Complex sub-pulse modulation patterns, bi-drifting and mode changing of nine radio pulsars](https://arxiv.org/abs/2509.15949)
+
+   > Pulsar, Observation
+
+   在MeerKAT单脉冲调查中发现的九颗射电脉冲星的子脉冲调制模式，揭示了这些脉冲星复杂的漂移方向变化、双漂移和模式转换现象。
+
+   <img src="./Figures/image-20250922121803485.png" alt="image-20250922121803485" width="680px" />
+
+## 2025-09-23
+
+1. [A HyperFlash and ÈCLAT view of the local environment and energetics of the repeating FRB 20240619D](https://arxiv.org/abs/2509.16374)
+
+   > Fast Radio Burst, Observation
+
+   使用那几个荷兰的25m的望远镜观测FRB 20240619D。500个小时探测到217次爆发，DM变了0.41，RM增加了80，观测到两个闪烁屏。
+
+   最亮的爆发中，观察到子爆发之间的DM变化，可能是由于等离子体透镜效应或可变发射高度引起的。
+
+   <img src="./Figures/image-20250923113923418.png" alt="image-20250923113923418" width="680px" />
+
+## 2025-09-24
+
+1. [Ultra-Wideband Polarimetry of the April 2021 Profile Change Event in PSR J1713+0747](https://arxiv.org/abs/2509.18972)
+
+   > Pulsar, Observation
+
+   研究了毫秒脉冲星（MSP）PSR J1713+0747在2021年4月发生的显著脉冲轮廓变化事件。研究分析了Stokes I和线偏振残差的主成分得分，PCA分析显示，事件发生后，主成分得分（PC1）显著增加，随后逐渐衰减。
+
+   <img src="./Figures/image-20250924135024909.png" alt="image-20250924135024909" width="680px" />
+
+   事件的发生更可能是由于脉冲星磁层内的变化，而不是星际介质中的传播效应。轮廓变化事件后，脉冲轮廓并未完全恢复到原始状态，表明可能存在长期的渐近恢复过程或脉冲星磁场的重新配置。
+
+2. [VLA Observations at 6 and 19 GHz of a Complete Sample of Radio Loud Quasars with redshifts between 2.5 and 5.28: II. Sample definition, radio images, and analysis](https://arxiv.org/abs/2509.18380)
+
+   > Radio, Galaxy
+
+   红移在2.5到5.28之间的射电噪类星体的高分辨率观测。
+
+   <img src="./Figures/image-20250924140354343.png" alt="image-20250924140354343" width="680px" />
+
+   论文展示了113个高红移类星体的样本，包括它们的红移、位置、形态类型、通量密度等。大多数类星体显示出与光学位置重合的紧凑射电源。提供了48个显著解析的类星体的图像，分析了它们的结构特性，如双射电源、喷流等。讨论了核心频谱指数的分布，发现高频端的频谱变陡，可能是由于辐射损失所致。
+
+   <img src="./Figures/image-20250924140330821.png" alt="image-20250924140330821" width="680px" />
+
+## 2025-09-25
+
+1. [Nulling baryonic feedback in weak lensing surveys using cross-correlations with fast radio bursts](https://arxiv.org/abs/2509.19514)
+
+   > Fast Radio Burst, Cosmology
+
+   重子反馈通过改变小尺度上的物质功率谱，复杂化了宇宙剪切功率谱的解释，并限制了现有数据的约束能力。通过使用弱引力透镜剪切图和快速射电暴（FRB）色散测量的交叉相关来抵消重子反馈的影响。
+
+2. [Vacuum birefringence in the polarized X-ray emission of a radio magnetar](https://arxiv.org/abs/2509.19446)
+
+   > Magnetar, High Energy
+
+   量子电动力学（QED）理论预测，在超强磁场中，量子真空会变得双折射，导致不同偏振模式的光子传播速度不同。
+
+   使用成像X射线偏振探测器（IXPE）对射电磁星1E 1547.0-5408进行相位和能量分辨的X射线偏振测量。在2-3 keV能段，偏振度达到最大值59±5%，在某些旋转相位下甚至接近80%。在4-8 keV能段，偏振度降低至40±11%。支持真空双折射的存在。
+
+   <img src="./Figures/image-20250925191818773.png" alt="image-20250925191818773" width="680px" />
+
+3. [Radio Galaxy Zoo EMU: Harnessing Citizen Science and AI to Advance Open Science Catalogues](https://arxiv.org/abs/2509.19787)
+
+   > Galaxy, Deep Learning
+
+   使用澳大利亚平方公里阵列探路者（ASKAP）望远镜的演化宇宙图（EMU）巡天数据，选择了6,230个扩展源，这些源的形态复杂性从简单到高度不规则不等。
+
+   <img src="./Figures/image-20250925193524313.png" alt="image-20250925193524313" width="680px" />
+
+   - 优先对高图像复杂性的源进行分类，复杂性通过粗粒度的Kolmogorov测度量化。选择具有更高复杂性值的6'x6'图像切片，确保志愿者看到最具挑战性的形态。结合投影角大小和复杂性，进一步优化源的选择。
+   - 志愿者标记相关的射电组件，识别宿主星系，并分配简单的描述性形态标签。这些标签基于语义分类法，简化为一组约10个标签，如“沙漏”、“弯曲”、“追踪宿主星系”。
+   - 随着项目的进展，主动学习循环将公民科学结果整合到训练集中，允许迭代改进AI管道。最终输出将输入到EMUCAT目录中，生成更完整和可靠、可用于科学研究的目录。
+
+## 2025-09-26
+
+1. [Einstein@Home Searches for Gamma-ray Pulsars in the Inner Galaxy](https://arxiv.org/abs/2509.21307)
+
+   > Pulsar, Observation
+
+   费米大视场望远镜（Fermi-LAT）在银河系中心附近发现了一个神秘的GeV伽马射线辐射过剩现象。这种现象可能由银河系核球中的未解析脉冲星群，特别是毫秒脉冲星（MSPs）的发射所解释。
+
+   使用Einstein@Home分布式志愿计算系统对银河系中心附近的伽马射线脉冲星进行的搜索。使用Fermi-LAT探测到的伽马射线光子到达时间，结合估计的到达方向，作为Einstein@Home脉冲星搜索的输入。
+
+   在55个候选源中，发现了4个新的伽马射线脉冲星，包括一个孤立的MSP和一个与银河系中心角分离最小的脉冲星（0.93°），均位于银河系盘面内，不太可能是解释银河系中心伽马射线过剩现象的MSPs群体成员。
+
+   <img src="./Figures/image-20250927001711551.png" alt="image-20250927001711551" width="680px" />
+
+   在已知的射电脉冲星数据库中搜索了新发现的脉冲星的射电波束，但未发现任何射电对应物。对两个脉冲星进行了MeerKAT成像观测，也未发现显著的点源。
+   <img src="./Figures/image-20250927001738024.png" alt="image-20250927001738024" width="680px" />
+
+2. [Plasma lens with frequency-dependent dispersion measure effects on fast radio bursts](https://arxiv.org/abs/2509.20424)
+
+   > Fast Radio Burst, Lensing
+
+   FRB穿过等离子体时，透镜效应会使DM随频率变化。提出了一个频率依赖的色散测量（DM）的幂律模型$DM=A\nu^\gamma+B$，其中$\gamma$是频率指数。
+
+   对FRB 180814.J0422+73的子脉冲进行分析，发现其峰值通量密度随中心频率降低而减小，符合频率依赖的放大效应。
+
+   <img src="./Figures/image-20250927001640891.png" alt="image-20250927001640891" width="680px" />
+
+3. [Constraints on an optical counterpart for the long-period radio transient GPM J1839-10](https://arxiv.org/abs/2509.20438)
+
+   > LPT, Multiwavelength
+
+   使用HiPERCAM多色测光仪对GPM J1839-10进行光学观测，未能直接检测到白矮星，但数据中存在与射电周期谐波相关的周期性信号，支持白矮星场景的假设。
+
+   <img src="./Figures/image-20250927001920617.png" alt="image-20250927001920617" width="680px" />
+
+4. [Discovery of Two Highly Scattered Pulsars from Image-Based Circular Polarization Searches with the Australian SKA Pathfinder](https://arxiv.org/abs/2509.20611)
+
+   > Pulsar, Discovery, Observation
+
+   在ASKAP圆偏振图像中发现两个高度散射的脉冲星。
+
+   <img src="./Figures/image-20250927002059267.png" alt="image-20250927002059267" width="680px" />
+
+5. [Millisecond Pulsar Discoveries in an Image-based MeerKAT Survey of the Galactic Bulge](https://arxiv.org/abs/2509.20614)
+
+   > Pulsar, Discovery, Observation
+
+   通过MeerKAT对银河系中心及周围区域的成像调查，发现并确认新的脉冲星，特别是毫秒脉冲星（MSPs）。研究的核心问题是探索银河系中心区域的脉冲星种群，以澄清该区域GeV辐射过剩的起源。
+   在16个圆形偏振候选源中，检测到9个脉冲星，这些脉冲星的旋转周期在2.46毫秒到85.85毫秒之间，DM值在18.4到329.4 pc/cc之间。六个新发现的脉冲星中有四个显示出明显的轨道调制迹象，表明它们可能处于双星系统中。
+
+   <img src="./Figures/image-20250927002325174.png" alt="image-20250927002325174" width="680px" />
+
+## 2025-09-29
 
