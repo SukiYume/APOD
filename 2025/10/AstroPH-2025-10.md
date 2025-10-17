@@ -280,3 +280,106 @@
 
 ## 2025-10-13
 
+1. [Generalized Distributions of Host Dispersion Measures in the Fast Radio Burst Cosmology](https://arxiv.org/abs/2510.09463)
+
+   > Fast Radio Burst, Cosmology
+
+   使用125个定位的FRB测量哈勃常数。改变DMhost的分布可以让H0的测量结果可以与Planck 2018和SH0ES的结果一致。
+
+2. [Foundation Models for Astrobiology: Paper I -- Workshop and Overview](https://arxiv.org/abs/2510.08636)
+
+   > Astrobiology, LLM
+
+   探讨了基础模型（Foundation Models, FMs）在天体生物学中的应用潜力，并提出了一个多模态的天体生物学基础模型的开发框架。
+
+   整合不同数据模态（如分子、地质、化学等）以检测生命迹象、开发一个专门的天体生物学任务模型（AMM），用于任务设计和操作阶段的决策支持、开发一个基于大型语言模型（LLM）的文本接口（AB-Chat），用于整合和检索天体生物学文献和数据。
+
+   <img src="./Figures/image-20251013103616110.png" alt="image-20251013103616110" width="680px" />
+
+## 2025-10-14
+
+1. [Revisiting FRB 20121102A: milliarcsecond localisation and a decreasing dispersion measure](https://arxiv.org/abs/2510.11352)
+
+   > Fast Radio Burst, Observation
+
+   EVN对FRB121102的重定位，位置跟原来一致，跟PRS横向差12pc，且PRS在毫角秒的尺度上的亮度与更大角度尺度上的测量结果一致，表明PRS仍然紧凑。
+
+   <img src="./Figures/image-20251014143901154.png" alt="image-20251014143901154" width="680px" />
+
+   使用NRT探测到18个爆发，结合之前的观测，发现FRB 20121102A的DM在过去五年中下降了约25 pc/cc。
+
+   <img src="./Figures/image-20251014143927852.png" alt="image-20251014143927852" width="680px" />
+
+2. [Slitless Spectroscopy Source Detection Using YOLO Deep Neural Network](https://arxiv.org/pdf/2510.10922)
+
+   > Spectrum, Deep Learning, Object Detection
+
+   使用YOLOv8检测CSST无缝光谱中的天体源，对于天体密集区域，裁切放大以提高检测完备度。
+
+   <img src="./Figures/image-20251014173456386.png" alt="image-20251014173456386" width="680px" />
+
+3. [Fisher Matrix for Beginners](https://arxiv.org/abs/2510.09683)
+
+   > Astronomy, Method
+
+   Fisher信息矩阵提供了一种在不进行实际数据分析的情况下，预测实验精度的有效方法。通过构建模型、计算Fisher矩阵并求逆，可以得到模型参数的协方差矩阵，从而评估不同实验设计的优劣。
+
+4. [Fast radio bursts shed light on direct gravity test on cosmological scales](https://arxiv.org/abs/2510.11022)
+
+   > Fast Radio Burst, Cosmology
+
+   利用FRBs的色散测量（DM）作为物质过密度$\delta_m$的代理，从而测量宇宙学尺度上的引力常数$G_{\rm light}$。
+
+5. [Deep Learning in Astrophysics](https://arxiv.org/abs/2510.10713)
+
+   > Astronomy, Deep Learning, Review
+
+   丁元森写的深度学习在天文中的应用的综述，展示了其在数据处理、模拟推断、异常检测和自主研究中的潜力。
+
+   <img src="./Figures/image-20251014174530676.png" alt="image-20251014174530676" width="680px" />
+
+## 2025-10-15
+
+1. [The PHANGS-MUSE/HST-Halpha Nebulae Catalogue](https://arxiv.org/abs/2510.11778)
+
+   > Nebulae, Catalog
+
+   通过高分辨率的哈勃空间望远镜（HST）和MUSE积分场光谱仪（IFS）成像数据，解析附近星系中的离子化星云。构建了一个包含5177个空间分辨星云的目录，其中4882个被分类为HII区域。将3349个HII区域与PHANGS-HST恒星关联目录中的恒星群体关联，发现中位年龄约为3百万年。
+
+   <img src="./Figures/image-20251015150933922.png" alt="image-20251015150933922" width="680px" />
+
+## 2025-10-16
+
+1. [Simulation-Based Pretraining and Domain Adaptation for Astronomical Time Series with Minimal Labeled Data](https://arxiv.org/abs/2510.12958)
+
+   > Light Curve, Deep Learning
+
+   基于分类器的架构，并结合对比学习和对抗性目标进行增强，在ZTF和LSST的模拟数据上进行训练，生成光变曲线。结果表明，在分类、红移估计和异常检测的任务重，few-shot表现出非常好的性能。
+
+   <img src="./Figures/image-20251017153320138.png" alt="image-20251017153320138" width="680px" />
+
+   <img src="./Figures/image-20251017153356170.png" alt="image-20251017153356170" width="680px" />
+
+## 2025-10-17
+
+1. [StarStream: Automatic detection algorithm for stellar streams](https://arxiv.org/abs/2510.14929)
+
+   > Stellar, Cluster, Software
+
+   [StarStream](https://github.com/ybillchen/StarStream)基于物理启发模型的恒星流自动检测算法。通过混合模型来区分流成员和背景恒星、使用粒子喷射算法生成围绕前身球状星团的模拟流，、通过高斯核密度估计（KDE）估计流和背景的PDF、通过优化混合模型来最大化对数似然函数，得到最佳拟合的流和背景概率密度。在银纬度|b| > 30 度的范围内实现了至少 65%的纯度和完整性。
+
+2. [Extracting latent representations from X-ray spectra. Classification, regression, and accretion signatures of Chandra sources](https://arxiv.org/abs/2510.14102)
+
+   > High Energy, Deep Learning
+
+   使用钱德拉源目录（CSC）中点源的X射线光谱（包含约25,000个光谱，其中约3,200个光谱具有已知类别标签），训练自编码器。
+
+   在光谱重构、分类和回归任务中表现出色
+
+   - 在AGN和恒星质量致密天体的二分类任务中，平衡准确率提高到约69%
+   - AGN和YSO在潜在空间中占据两个不同的区域，尽管存在一些混淆，但潜在空间能够编码一些物理属性，如硬度比
+   - 使用潜在空间作为输入的Huber回归模型在预测物理参数方面表现出色，特别是硬度比和氢柱密度
+   - 符号回归结果显示，某些潜在维度与X射线通量的非线性组合（如硬度比）显著相关
+
+## 2025-10-20
+
