@@ -383,3 +383,134 @@
 
 ## 2025-10-20
 
+1. [HyperAIRI: a plug-and-play algorithm for precise hyperspectral image reconstruction in radio interferometry](https://arxiv.org/abs/2510.15198)
+
+   > Radio, Interferometry, Method
+
+   `HyperAIRI`用于射电干涉测量中光谱图像重建的即插即用（PnP）算法。
+
+   <img src="./Figures/image-20251020154817975.png" alt="image-20251020154817975" width="680px" />
+
+   在射电干涉测量中，傅里叶采样模式随观测频率变化，低频通道具有较低的空间分辨率但较高的灵敏度，高频通道则相反。`HyperAIRI`基于幂律光谱模型，假设射电发射的连续同步辐射随频率平滑变化，通量密度按幂律缩放。采用前向-后向算法结构（FB），交替进行数据保真步骤和正则化步骤。去噪器通过学习到的深度神经网络（DNN）实现，输入包括当前通道图像估计、相邻通道图像估计和光谱指数图，输出为去噪后的图像。
+
+2. [Magnetic fields in planetary nebulae detected through non-thermal radio continuum emission](https://arxiv.org/abs/2510.15571)
+
+   > Radio, Observation, Nebula
+
+   行星状星云的射电连续谱发射主要是热辐射，非热辐射（如同步辐射）较为罕见。1960年代以来，科学家们一直在寻找行星状星云中的非热辐射，直到2015年才在IRAS 15103-5754中首次发现。
+
+   通过LOFAR在144 MHz频率下观测北半球的行星状星云样本。在30个PNe中发现了非热射电辐射，这些PN的光谱指数均低于-0.1。大多数PN是双极的，表明它们可能源自双星系统。
+
+   <img src="./Figures/image-20251020155115312.png" alt="image-20251020155115312" width="680px" />
+
+## 2025-10-21
+
+1. [Discovery of 30 Galactic radio transient pulsars with MeerTRAP](https://arxiv.org/abs/2510.17723)
+
+   > Transient, Radio, Pulsar, Observation
+
+   MeerTRAP单脉冲搜索找到30个河内暂现源，9个精确定位，14个测量周期121ms到7.623s。
+
+   <img src="./Figures/image-20251021112501484.png" alt="image-20251021112501484" width="680px" />
+
+2. [A Brief History of Inference in Astronomy](https://arxiv.org/abs/2510.17433)
+
+   > Astronomy, Review
+
+   总结了天文学中推理方法的历史演变。线性回归、贝叶斯推理、期望最大EM、MCMC、近似贝叶斯ABC、Amortized inference（梯度下降神经网络）。
+
+   <img src="./Figures/image-20251021112953058.png" alt="image-20251021112953058" width="680px" />
+
+3. [Order-by-order Modeling of Exoplanet Radial Velocity Data](https://arxiv.org/abs/2510.16139)
+
+   > Exoplanet, Method, Light Curve
+
+   通过多波段的径向速度拟合系外行星轨道参数，代码在[这里](https://github.com/langfzac/obo-paper)。测试了三种方法，对多波段数据进行加权平均后再拟合、对多波段数据分别拟合不同的开普勒轨道后对参数加权平均、对多波段数据拟合同一个模型加jitter。后两者的拟合要比第一个好。
+
+4. [Graph-Based Light-Curve Features for Robust Transient Classification](https://arxiv.org/abs/2510.17721)
+
+   > Transient, Deep Learning, Classification
+
+   将光变曲线映射为三种可见性图视图：水平可见性图（HVG）、有向可见性图（DHVG）和加权可见性图（W-HVG），并从中提取网络描述符，做分类。
+
+   1. **可见性图构建**:**水平可见性图（HVG）**: 两个观测点之间如果所有中间点的值都小于这两个点中较低的一个，则认为它们是相互可见的。HVG不依赖于采样时间的间隔，且对严格单调变换具有不变性。**有向可见性图（DHVG）**: 通过将有向可见性关系向前时间定向，编码时间不对称性。每个无向HVG边变为一个从较早到较晚观测点的单向弧。**加权可见性图（W-HVG）**: 在HVG或DHVG的基础上，附加边权重以反映振幅对比或测量不确定性。
+   2. **网络描述符提取**:**度统计**: 包括平均度、度标准差和度偏度等。**聚类和模体**: 包括无向聚类系数均值、三角形计数和小子图频率等。**同配性**: 包括皮尔逊度-度同配性和有向同配性变体。**路径/效率**: 包括全局效率和巨分量上的平均最短路径长度。**谱摘要**: 包括邻接矩阵和拉普拉斯矩阵的主导特征值、谱半径和代数连通性。**加权统计**: 包括节点强度、差异、加权聚类和强度矩。
+
+   使用MANTRA参考数据集，包含八类天文瞬变事件：超新星（SN）、激变变星（CV）、活动星系核（AGN）、高自行速度恒星（HPM）、耀变体、恒星耀斑（Flare）、其他类（Other）和非瞬变类（Non-Tr.）。
+
+   <img src="./Figures/image-20251021114619703.png" alt="image-20251021114619703" width="680px" />
+
+## 2025-10-22
+
+1. [Deep Synoptic Array Science: Searching for Long Duration Radio Transients with the DSA-110](https://arxiv.org/abs/2510.18136)
+
+   > LPT, Instrument
+
+   介绍了Deep Synoptic Array（DSA-110）的Not-So-Fast Radio Burst（NS-FRB）搜索方法，对1.4GHz图像搜134毫秒到160.8秒的单脉冲。图像数据经过中值减法、去色散和盒式滤波处理，计算信噪比（S/N），通过CNN排除RFI。
+
+   <img src="./Figures/image-20251022153913879.png" alt="image-20251022153913879" width="680px" />
+
+2. [AION-1: Omnimodal Foundation Model for Astronomical Sciences](https://arxiv.org/abs/2510.17960)
+
+   > Astronomy, LLM
+
+   [AION](https://github.com/PolymathicAI/AION/)是一个用于天文科学的多模态基础模型。
+
+   对来自五个大规模调查（Legacy Survey, Hyper Suprime-Cam, Sloan Digital Sky Survey, Dark Energy Spectroscopic Instrument, Gaia）的数据进行预处理。
+
+   - 对于图像数据，使用了子采样的线性投影和自编码器进行降维，然后使用有限尺度量化（FSQ）进行离散化。对于光谱数据，使用了卷积神经网络（ConvNeXt-V2）进行特征提取，然后使用Look-up-Free Quantizer（LFQ）进行量化。对于标量数据，直接进行高斯归一化和等宽分箱。
+
+   基于Transformer的编码器-解码器框架，通过在所有可用的模态上随机掩码输入并重建掩码内容来进行训练。AION-1在多个下游任务中展示了强大的性能，包括星系和恒星属性估计、星系形态分类、相似性检索、星系图像分割和光谱超分辨率。
+
+   <img src="./Figures/image-20251022155207616.png" alt="image-20251022155207616" width="680px" />
+
+3. [4 Second and 169 Second Rotation of Two Isolated, Ultramassive, Strongly Magnetic White Dwarfs](https://arxiv.org/abs/2510.18044)
+
+   > White Dwarf, Observation
+
+   通过对SDSS J1557+0411和PG 1312+099的观测，发现了已知第二和第三快的孤立旋转白矮星，二者的周期分别是168.94秒和83.72秒，支持了强磁场白矮星可能是由双简并系统合并形成的理论。
+
+   <img src="./Figures/image-20251022160653256.png" alt="image-20251022160653256" width="680px" />
+
+## 2025-10-23
+
+1. [Application and development of advanced mathematical tools for population and time series analysis in pulsar astrophysics](https://arxiv.org/abs/2510.19434)
+
+   > Pulsar, Machine Learning, Thesis
+
+   一个博士论文，使用最小生成树+PCA对脉冲星和FRB种群进行分类。
+
+   <img src="./Figures/image-20251023155611711.png" alt="image-20251023155611711" width="680px" />
+
+2. [Fast Radio Bursts](https://arxiv.org/abs/2510.19143)
+
+   > Fast Radio Burst, Review
+
+   探讨了快速射电暴的发现、性质、能量学、亮度、识别、来源、重复与非重复特性、发射过程、环境以及相关理论模型。
+
+3. [Exoplanetary radio emission predictions and detectability in the SKA era](https://arxiv.org/abs/2510.19776)
+
+   > Exoplanet, Radio
+
+   从系外行星百科全书中提取1259颗系外行星的数据，包括行星质量、恒星质量、半径、有效温度和距离等参数。使用RBL模型估算系外行星的射电辐射功率和特征频率，考虑恒星风的速度、行星的旋转速率和磁场强度等因素。
+
+   对上面的数据和计算结果，使用随机森林进行回归，使用行星质量、半径、轨道半长轴和地球-行星距离作为特征，预测射电辐射的通量和特征频率。
+
+   最终确定了248颗系外行星在SKA的观测范围内。其中，58颗行星的发射频率在SKA-Low频段（50-350 MHz），69颗在SKA-Mid频段（0.35-1.76 GHz和4.6-15.4 GHz）。
+
+   <img src="./Figures/image-20251023160249460.png" alt="image-20251023160249460" width="680px" />
+
+## 2025-10-24
+
+1. [Doubling the Number of Blue Large-Amlitude Pulsators: Final Results of Searches for BLAPs in the OGLE Inner Galactic Bulge Fields](https://arxiv.org/abs/2510.20823)
+
+   > Variable, Periodicity
+
+   在OGLE（光学引力透镜实验）内银河系核球场中发现的88个新的蓝大振幅脉动星（BLAPs），使已知BLAPs的总数几乎翻倍，达到近200个。
+
+   BLAPs是一类新发现的短周期（≤80分钟）大振幅脉动变星，其起源和性质尚不明确。新发现的BLAPs的脉动周期范围为5到76分钟，其中最短的周期为5.36分钟（OGLE-BLAP-153），最长的周期为76.36分钟（OGLE-BLAP-181）。光变曲线形态多样，包括经典的锯齿形、带有额外峰或凹陷的形态。
+
+   <img src="./Figures/image-20251024121127650.png" alt="image-20251024121127650" width="680px" />
+
+## 2025-10-27
+
