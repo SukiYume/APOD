@@ -514,3 +514,61 @@
 
 ## 2025-10-27
 
+1. [Spectroscopic Classification of Extragalactic Transients from CRTS](https://arxiv.org/abs/2510.20989)
+
+   > Transient, Survey, Supernovae
+
+   Catalina实时瞬变调查（CRTS）在2007年至2019年间发现了多于16,000个瞬变候选体，CRTS发现的最常见瞬变事件是超新星，其中约50%为Ia型超新星。此外，还发现了大量I型和II型超新星，以及由于周围介质相互作用而具有发射特征的超新星（如IIn型超新星）。
+
+## 2025-10-28
+
+1. [Solar flare forecasting with foundational transformer models across image, video, and time-series modalities](https://arxiv.org/abs/2510.23400)
+
+   > Solar, Deep Learning
+
+   使用Transformer进行太阳耀斑预测。图像数据使用SigLIP2，视频数据使用VideoMAE，时间序列使用Moirai2。结果表明，尽管图像和视频模型能够捕捉到磁场的静态和动态特征，但时间序列模型在预测性能上表现最佳，特别是在利用辐射度的时间演化信息方面。
+
+   <img src="./Figures/image-20251028114558744.png" alt="image-20251028114558744" width="680px" />
+
+## 2025-10-29
+
+1. [In Search of the Unknown Unknowns: A Multi-Metric Distance Ensemble for Out of Distribution Anomaly Detection in Astronomical Surveys](https://arxiv.org/abs/2510.23702)
+
+   > Light Curve, Machine Learning
+
+   [DiMMAD](https://github.com/sidchaini/dimmad/)使用多种距离度量来计算特征点之间的距离。对于每个测试对象，计算其与所有已知类别的距离，并使用两种聚合统计量（类聚合：最小/中位数；度量聚合：中位数）来生成最终的多度量异常评分。
+
+   <img src="./Figures/image-20251029111922848.png" alt="image-20251029111922848" width="680px" />
+
+   结果表明，DiMMAD在分布外（类间）异常检测表现可以，在稀有内部分布（类内）异常检测表现不如iForest。
+
+2. [New Trends in Astrophysical Self-Organized Criticality](https://arxiv.org/abs/2510.23825)
+
+   > Astronomy, Statistics, Review, SOC
+
+   对ADS中关于SOC文章的总结。多种现象符合SOC的表现，包括：太阳耀斑的面积、峰值电子温度、峰值电子密度和能量、等待时间 / 太阳光球层、色球层事件大小分布 / 日冕物质抛射等待时间 / 恒星耀斑大小分布 / 脉冲星Glitch、GRB、SGR。
+
+## 2025-10-30
+
+1. [Place of the Radcliffe Wave in the Local System](https://arxiv.org/abs/2510.25570)
+
+   > Radcliffe Wave, Review
+
+   综述了Radcliffe波的研究进展，特别是其在分子云、星际尘埃、年轻恒星和开放星团中的分布和运动。通过多种方法和分析手段，揭示了Radcliffe波的主要特性和可能的形成机制。研究表明，Radcliffe波的形成可能与银河系磁场的Parker不稳定性有关，且其存在对恒星形成过程有重要影响。
+
+## 2025-10-31
+
+1. [Pulsar Detection with Deep Learning](https://arxiv.org/abs/2510.25774)
+
+   > Pulsar, Deep Learning, Thesis
+
+   用GAN生成模拟脉冲星信号，用CNN在presto折叠图上进行分类识别脉冲星候选。
+
+2. [A Natural Language Interface for Efficient Data Retrieval in SDSS](https://arxiv.org/abs/2510.25953)
+
+   > Astronomy, Catalog, LLM
+
+   [SDSS_Agent](https://github.com/tamhanepd/SDSS_Agent/)用自然语言-SQL语言对微调Phi-2，旨在用自然语言生成查询SDSS数据集的SQL语句。
+
+   <img src="./Figures/image-20251031122338446.png" alt="image-20251031122338446" width="680px" />
+
