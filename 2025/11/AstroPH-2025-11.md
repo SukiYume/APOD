@@ -104,3 +104,128 @@
 
 ## 2025-11-10
 
+1. [HiSAXy: A fast methodology for solar wind structure identification in millions of time series](https://arxiv.org/abs/2511.04759)
+
+   > Time Series, Method, Machine Learning
+
+   `HiSAXy`结合了索引符号聚合近似（iSAX）和HDBSCAN，识别时间序列中的模式簇。与单独使用iSAX和HDBSCAN相比，HiSAXy在识别更大簇的同时，不牺牲簇内自相似性。
+
+   <img src="./Figures/image-20251110160541549.png" alt="image-20251110160541549" width="680px" />
+
+2. [Unsupervised Discovery of High-Redshift Galaxy Populations with Variational Autoencoders](https://arxiv.org/abs/2511.05439)
+
+   > Galaxy, Deep Learning
+
+   使用VAE来分析高红移星系的光谱数据。数据来自DAWN JWST Archive，选取红移大于4的星系，共2743个对象。对光谱数据进行去红移处理，重采样到静止波长，并进行归一化和arcsinh变换，以保留连续谱和发射线的信息。
+
+   通过VAE重建光谱，提取潜空间变量，通过UMAP降维和GMM聚类，识别出12个星系群体，包括**淬灭/后星暴星系（SB）**、**莱曼-α发射体（LAEs）**、**极端发射线星系（EELGs）**、**高红移星系（High-z）**、**小红点（LRDs）**。
+
+   <img src="./Figures/image-20251110161358595.png" alt="image-20251110161358595" width="680px" />
+
+3. [Detecting FRB by DANCE: a method based on DEnsity ANalysis and Cluster Extraction](https://arxiv.org/abs/2511.04966)
+
+   > Fast Radio Burst, Software
+
+   [DANCE](https://github.com/Yuanao/DANCE_v-test)使用小波变换去除RFI，通过DBSCAN聚类提取FRB信号。
+
+   <img src="./Figures/image-20251110160155551.png" alt="image-20251110160155551" width="680px" />
+
+4. [Unusual periodic modulation in the radio emission of the methane dwarf binary WISEP J101905.63+652954.2](https://arxiv.org/abs/2510.25475)
+
+   > White Dwarf, Periodicity, Radio
+
+   使用LOFAR观测甲烷矮星双星系统WISEP J101905.63+652954.2（简称J1019+65）的射电辐射，找到两个不寻常的周期性信号，分别是约3小时和约0.787小时。其中一个可能是另一个棕矮星的旋转周期。需要进一步的红外观测来确认这一假设。
+
+   <img src="./Figures/image-20251110205542375.png" alt="image-20251110205542375" width="680px" />
+
+## 2025-11-11
+
+1. [Formation Channels of Magnetars](https://arxiv.org/abs/2511.06554)
+
+   > Magnetar, Theory
+
+   通过种群合成模拟研究了磁星的形成通道，发现尽管大多数磁星作为孤立对象被观测到，但很大一部分来自双星系统的演化。双星演化通道，特别是双星破坏和潮汐自转加速，是主要的磁星形成途径。
+
+   <img src="./Figures/image-20251111125711404.png" alt="image-20251111125711404" width="680px" />
+
+2. [MeerKAT observations of the spiral galaxy NGC 2997 in the S band. Detection of high dynamo modes](https://arxiv.org/abs/2511.06317)
+
+   > Galaxy, Radio, Observation
+
+   使用MeerKAT的S波段接收机对NGC 2997进行全偏振观测，揭示了星系中的复杂磁场结构。
+
+   <img src="./Figures/image-20251111130109934.png" alt="image-20251111130109934" width="680px" />
+
+## 2025-11-12
+
+1. [Probing Supernovae through gravitational wave entropy](https://arxiv.org/abs/2511.08010)
+
+   > Gravitational Wave, Entropy
+
+   对引力波信号进行分类，寻找核心坍缩超新星的引力波信号。
+
+   数据有三种，分别是时域$X(t)$，短时傅里叶变化谱$S(t, f)$和连续小波变化$W(t, f)$，将图或者时间序列归一化成概率分布
+   $$
+   p_{t, f}=\frac{T(t, f)}{\sum_{t, f}T(t, f)}
+   $$
+   计算了四种熵
+
+   - Shannon 熵：$-\sum p_i\log p_i$
+   - Rényi 熵（阶数 α 可调）：$1/(1-\alpha)\log\sum p_i^\alpha$，对集中/稀疏分布更敏感，特别适合时频平面复杂度衡量。
+   - Tsallis 熵（参数 q）：$(1-\sum p_i^q)/(q-1)$
+   - 指数熵：$\sum p_ie^{1-p_i}$，把概率大的格点权得更重、对集中度变化也很灵敏。
+
+   对全部数据计算一个全局熵，然后将时间轴、频率/尺度轴分块或滑窗，每块单独算熵，再对这些值做统计汇总（如均值、标准差、分位数、最小/最大等），把这些统计量拼成特征向量。
+
+   使用k-最近邻（k-NN）、支持向量机（SVM）、随机森林（RF）、逻辑回归（LR）、朴素贝叶斯（NB）和极端梯度提升（XGBoost）进行分类，通过GridSearchCV进行超参数调优，确保模型的最佳性能。
+
+   结果发现CWT + Rényi 熵在分类表现上最好。
+
+2. [An Overview of Exocomets](https://arxiv.org/abs/2511.08270)
+
+   > Comet, Review
+
+   探讨了外彗星（exocomets）的定义、观测和研究现状。
+
+## 2025-11-13
+
+1. [Search for host galaxies of unlocalized Fast Radio Bursts in the SDSS IV catalog](https://arxiv.org/abs/2511.08960)
+
+   > Fast Radio Burst, Galaxy, Statistics
+
+   从文献中整理了已确认有宿主星系的FRBs，并从中排除了与星系团相关的FRBs和宿主定位较差的FRBs。最终得到了112个已确认红移的FRBs。
+
+   根据这些已知红移的FRB，用不同的模型拟合DM-z（线性、对数抛物线、幂律、三者组合）。使用SDSS IV目录中的星系数据，计算每个未知红移的FRB与星系之间的角度偏移，并使用上述四种模型来预测FRBs的红移。
+
+   <img src="./Figures/image-20251113133632695.png" alt="image-20251113133632695" width="680px" />
+
+2. [JW-Flare: Accurate Solar Flare Forecasting Method Based on Multimodal Large Language Models](https://arxiv.org/abs/2511.08970)
+
+   > Solar Flare, LLM
+
+   `JW-Flare`基于Qwen2 VL-7B-Instruct进行监督微调，通过微调太阳活动区的文本物理参数和磁场图像来实现耀斑识别。
+
+   <img src="./Figures/image-20251113134504826.png" alt="image-20251113134504826" width="680px" />
+
+## 2025-11-14
+
+1. [Searching for Long-Period Radio Transients in ASKAP EMU Data with 10-Second Imaging](https://arxiv.org/abs/2511.09770)
+
+   > Transient, LPT, Survey
+
+   ASKAP的演化宇宙图（EMU）巡天数据，覆盖南天极区域，中心频率为943.5 MHz，带宽为288 MHz，光谱分辨率为1 MHz。每个字段的观测时间为10小时，每10秒记录一次可见度数据。
+
+   选择了20个EMU字段，覆盖总天数为750平方度，观测时间为200小时。这些字段位于银河系平面，纬度绝对值小于10度（因为大多数已知的孤立LPTs都靠近银河平面）。
+
+   <img src="./Figures/image-20251114122327504.png" alt="image-20251114122327504" width="680px" />
+
+   在200小时的观测数据中，发现了六个瞬变源，其中三个通过与SIMBAD数据库的交叉匹配和手动检查动态光谱进一步确认。这些瞬变源与六颗恒星相关联，至少有一个瞬变源在射电波段是首次被探测到。
+
+   <img src="./Figures/image-20251114122347311.png" alt="image-20251114122347311" width="680px" />
+
+   这些瞬变源的峰值信噪比在14.6 mJy到3000 mJy之间，脉冲宽度从几分钟到几小时不等。所有瞬变源都表现出强圆偏振，部分瞬变源还表现出线性偏振。
+
+   <img src="./Figures/image-20251114122440036.png" alt="image-20251114122440036" width="680px" />
+
+## 2025-11-17
+
