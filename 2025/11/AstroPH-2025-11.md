@@ -229,3 +229,115 @@
 
 ## 2025-11-17
 
+1. [Practical Author Name Disambiguation under Metadata Constraints: A Contrastive Learning Approach for Astronomy Literature](https://arxiv.org/abs/2511.10722)
+
+   > Astronomy, Deep Learning
+
+   文献中普遍存在姓名歧义，无法准确的讲工作和具体的某个人联系起来。这里使用`Siamese`神经网络，使用出版物的元数据（作者姓名、标题、摘要），将消歧任务表征为相似性学习问题。
+
+   <img src="./Figures/image-20251117134220329.png" alt="image-20251117134220329" width="680px" />
+
+   构建了大规模[物理学 ORCiD 关联数据集](https://zenodo.org/records/11489161)，通过交叉匹配 NASA/ADS 出版物 ORCiD 来评估神经作者姓名消歧器。模型在成对消歧中达到高达 94%的准确率，在将出版物聚类到其研究者身份中时超过 95%的 F1 分数。
+
+2. [Evolutionary Map of the Universe: A pilot survey to detect high Galactic latitude pulsars in variance images with ASKAP](https://arxiv.org/abs/2511.10886)
+
+   > Transient, Radio, Survey, Pulsar
+
+   在ASKAP的宇宙演化地图 EMU巡天数据中，使用方差成像凸显变源，搜索高银纬脉冲星。脉冲星可以通过独特的星际闪烁特征在连续谱图像中与其他点状射电源区分开来。
+
+   <img src="./Figures/image-20251117134928712.png" alt="image-20251117134928712" width="680px" />
+
+   在约 480 平方度的调查区域内检测到的 59,800 个致密射电源中，识别出 20 个变化剧烈的源。其中，9 个是已知脉冲星，1 个是已知射电星，1 个是超长周期源，3 个是射电星候选源，其余 6 个是脉冲星候选源。
+
+## 2025-11-18
+
+1. [High-impact Scientific Software in Astronomy and its creators](https://arxiv.org/abs/2511.12195)
+
+   > Astronomy, Review, Software
+
+   [统计了3432个天文软件](https://github.com/deepthought-initiative/architects-of-modern-astronomy)，使用论文引用量作为影响力指标。发现一半的开发工作是美国相关机构进行的，大量高影响力的工具是个人领导。下图使用[matplotlib-extra](https://github.com/chenyulue/matplotlib-extra)画的。
+
+   <img src="./Figures/image-20251118124142630.png" alt="image-20251118124142630" width="680px" />
+
+2. [AstroMLab 5: Structured Summaries and Concept Extraction for 400,000 Astrophysics Papers](https://arxiv.org/abs/2511.12353)
+
+   > Astronomy, Deep Learning
+
+   [AstroMLab 5](https://github.com/tingyuansen/astro-ph_knowledge_graph)天文知识图谱。使用arXiv从1992年到2025年7月的408590篇astro-ph文章，提取`背景、动机、方法、结果、解释、启示`的结构化摘要，构成了一个包含3.8 百万篇论文-概念关联的数据集，并为所有概念提供了语义嵌入。
+
+   <img src="./Figures/image-20251118124714438.png" alt="image-20251118124714438" width="680px" />
+
+3. [From Images to Physics: Probabilistic Inference of Galaxy Parameters and Emission Lines via VAE & Normalizing Flows](https://arxiv.org/abs/2511.12737)
+
+   > Galaxy, Deep Learning
+
+   使用归一化流（VAE-Normalizing Flow）从 SDSS gri成像和测光数据中推断星系属性和发射线流量。
+
+   <img src="./Figures/image-20251118124842160.png" alt="image-20251118124842160" width="680px" />
+
+4. [Kosmos: An AI Scientist for Autonomous Discovery](https://arxiv.org/abs/2511.02824)
+
+   > LLM
+
+   [Kosmos](https://github.com/jimmc414/Kosmos)和[kosmos-figures](https://github.com/EdisonScientific/kosmos-figures)通过LLM实现科学发现。
+
+## 2025-11-19
+
+1. [Low-energy Radio Bursts from Magnetar XTE J1810-197: Implications for Fast Radio Bursts](https://arxiv.org/abs/2511.13856)
+
+   > Fast Radio Burst, Magnetar
+
+   GBT在300 MHz 至 6.15 GHz的频率范围内，对磁星 XTE J1810-197进行了4.5年242次观测，探测到超过97000个爆发。XTE J1810-197 在脉冲星状和巨脉冲星状发射状态之间快速切换，并且像 XTE J1810-197 这样的磁星仍然是可行的 FRB 发射源，以能量与 FRB 相当的巨脉冲形式发射。
+
+2. [The Dawes Review 13: A New Look at The Dynamic Radio Sky](https://arxiv.org/abs/2511.10785)
+
+   > Radio, Transient, LPT, Review
+
+   对时间尺度从秒到年量级的暂现源巡天的总结。
+
+   <img src="./Figures/image-20251119150452994.png" alt="image-20251119150452994" width="680px" />
+
+## 2025-11-20
+
+1. [Tidal Disruption Events](https://arxiv.org/abs/2511.14911)
+
+   > TDE, Review
+
+   黑洞撕裂恒星产生TDE事件，光变在周-月的时间尺度上发生，光变曲线取决于黑洞的性质，可以约束超大质量黑洞质量函数的下限。
+
+   <img src="./Figures/image-20251120122913801.png" alt="image-20251120122913801" width="680px" />
+
+2. [Advancing Identification method of Gamma-Ray Bursts with Data and Feature Enhancement](https://arxiv.org/abs/2511.15470)
+
+   > GRB, Deep Learning
+
+   通过合成GRB数据，训练一维CNN来从光变曲线中找GRB。
+
+   <img src="./Figures/image-20251120123135026.png" alt="image-20251120123135026" width="680px" />
+
+   <img src="./Figures/image-20251120123152980.png" alt="image-20251120123152980" width="680px" />
+
+## 2025-11-21
+
+1. [Decoding the Radio Sky: Bayesian Ensemble Learning and SVD-Based Feature Extraction for Automated Radio Galaxy Classification](https://arxiv.org/abs/2511.15788)
+
+   > Galaxy, Machine Learning, Classification
+
+   通过奇异值分解（SVD）提取特征，加上多个分类器（逻辑回归、支持向量机、LightGBM、多层感知器）打包集成对射电星系进行分类。
+
+   <img src="./Figures/image-20251124133444646.png" alt="image-20251124133444646" width="680px" />
+
+## 2025-11-24
+
+1. [Quantifying the impact of selection effects on FRB DM-z relation cosmological inference](https://arxiv.org/abs/2511.16850)
+
+   > Fast Radio Burst, Cosmology
+
+   观测到的FRB会有选择效应，包括设备灵敏度、DM搜索效率、FRB源群体等效应。这里通过前向模拟FRB群体，研究选择效应对DM-z关系的影响。
+
+   发现在小样本（100个FRB）时，影响小于0.8sigma，意味着当前的宇宙学研究还是稳健的。当样本比较大时（1e4个FRB），巡天对不同DM的搜索效率会导致3sigma的偏差。
+
+   <img src="./Figures/image-20251124134026480.png" alt="image-20251124134026480" width="680px" />
+
+## 2025-11-25
+
