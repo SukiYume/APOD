@@ -341,3 +341,112 @@
 
 ## 2025-11-25
 
+1. [Fast Radio Bursts from White Dwarf Binary Mergers: Isolated and Triple-Induced Channels](https://arxiv.org/abs/2511.18678)
+
+   > Fast Radio Burst, Theory
+
+   FRB可能是大质量白矮星合并形成发射FRB的中子星。通过模拟表明，三体系统相对于双星系统使Ia效率翻倍，产生的速率和红移演化与观测结果吻合。 
+
+   <img src="./Figures/image-20251125121953511.png" alt="image-20251125121953511" width="680px" />
+
+2. [Enhancing Fast Radio Transient Detection with Mask R-CNN Image Segmentation](https://arxiv.org/abs/2511.19014)
+
+   > Fast Radio Burst, Method
+
+   在MeerKAT的数据上，使用MASK-RCNN对Time-DM图进行爆发检测。对FRB20240114A的观测测试，探测到传统阈值之上的所有爆发，同时检测到两个较弱的爆发。
+
+3. [Broadband X-ray observations of the periodic optical source ZTF J185139.81+171430.3 and its identification as a massive intermediate polar](https://arxiv.org/abs/2511.17800)
+
+   > Transient, Variable, White Dwarf Pulsar, LPT
+
+   通过 XMM、NICER 和 NuSTAR对周期性光学源 ZTF J185139.81+171430.3进行了X射线观测。这个源的短周期（12min）和高调值光变曲线被认为是白矮星脉冲星系统。
+
+   在X射线的观测探测到周期为12.2640分钟的周期性信号（使用[Stingray](https://github.com/StingraySoftware/stingray)的z_n_search），能量延伸至40keV。明亮的硬 X 射线发射排除了 WD 脉冲星或超致密 X 射线双星的可能性。高温等离子体和 Fe 发射线表明 ZTF J1851 是一个以 12.264 分钟自转的intermediate polar spinning。
+
+   <img src="./Figures/image-20251125122817074.png" alt="image-20251125122817074" width="680px"/>
+
+## 2025-11-26
+
+1. [Radio Burst Phenomenology of AD Leonis and Associated Signatures of Propagation Effects](https://arxiv.org/abs/2511.20396)
+
+   > Stellar, Radio, Flare, Transient
+
+   FAST对AD Leonis的观测，探测到复杂的时频结构。提出调制带可能是传播效应，因为射电波在穿越 AD Leo 磁层中不均匀、规则结构的等离子体区域时会产生这种效应。
+
+   <img src="./Figures/image-20251126120642130.png" alt="image-20251126120642130" width="680px" />
+
+2. [Hurst exponent and planetary rings](https://arxiv.org/abs/2511.20583)
+
+   > Statistics, Planetary Science
+
+   使用赫斯特指数来分析**土星环亮度随半径的变化序列**，不同切片、不同图片算出来的 H =0.93 非常一致，表明光环结构具有强烈的正相关性，高密度区域还是高密度，稀疏处附近更可能还是稀疏（块状结构成片出现）。
+
+   <img src="./Figures/image-20251126124433646.png" alt="image-20251126124433646" width="680px" />
+
+   使用掩星的光变曲线进行分析，直接计算高分辨率数据H=0.87，当把分辨率降低到跟图像一致时，H=0.93跟图像一致。计算天王星的掩星光变曲线，H=0.9，同样表现出强正自相关和分形结构。
+
+   ::: tip 赫斯特指数
+
+   赫斯特指数（Hurst exponent，常记作 **H**）是用来度量**时间序列是否存在长期记忆、趋势性或均值回复特性**的一个指标，常用于金融、气象、水文、互联网流量等领域。
+
+   赫斯特指数 H 的取值范围一般在 0～1 之间：
+
+   - H = 0.5 左右：表示序列近似随机游走（无记忆）
+
+     - 类似抛硬币：过去发生什么，对未来没什么影响
+
+     - 在金融里，H≈0.5 常被视作“有效市场、随机漫步”
+
+   - 0.5 < H < 1：序列有长期记忆、趋势更持久
+
+     - 长期正相关 / 趋势性（Persistence）
+
+     - 顺势特性：
+       - 上涨之后未来继续上涨的概率偏大
+       - 下跌之后未来继续下跌的概率偏大
+
+   - 0 < H < 0.5：序列更抖、常常跟过去反着来
+
+     - 长期负相关 / 反持久性（Anti-persistence）
+
+     - 均值回复特性：
+       - 涨得越多，越容易回落
+       - 跌得越多，越容易反弹
+
+   :::
+
+## 2025-11-27
+
+1. [Mapping the Galaxy Color-Star Formation Rate Relation with Manifold Learning and Infrared Image Stacking](https://arxiv.org/abs/2511.20900)
+
+   > Galaxy, 
+
+   用自组织映射（SOM）量化星系颜色空间，按 SOM cell 堆叠不同设备的红外图像，从堆叠光谱拟合 L_IR 和 SFR。从而在没有单独红外观测的情况下，也能给大量暗弱星系估算比较靠谱的 SFR。
+
+   <img src="./Figures/image-20251127112059666.png" alt="image-20251127112059666" width="680px" />
+
+## 2025-11-28
+
+今日停更
+
+
+
+
+
+
+
+<!--
+$$
+\mathcal{L}(\theta)=
+\sum_{i=1}^{N}\Bigg[
+-\log\Bigg(
+\frac{\exp\!\big(\mathbf{w}_{y_i}^{\top}\phi_\theta(\mathbf{x}_i)+b_{y_i}\big)}
+{\sum\limits_{k=1}^{K}\exp\!\big(\mathbf{w}_{k}^{\top}\phi_\theta(\mathbf{x}_i)+b_{k}\big)}
+\Bigg)
++\lambda\|\theta\|_2^2
++\beta\sum_{j=1}^{M}\Big(\alpha_j\log(1+\exp(-z_{ij}))+(1-\alpha_j)\log(1+\exp(z_{ij}))\Big)
+\Bigg]
++\gamma\int_{0}^{T}\left\|\frac{d^2}{dt^2}\mathbf{s}(t)\right\|^2dt
++\delta\prod_{p=1}^{P}\left(1+\frac{\sin(\omega_p t+\varphi_p)}{1+\omega_p^2}\right)
+$$
+-->
