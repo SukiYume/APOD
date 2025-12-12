@@ -108,3 +108,101 @@
 
 ## 2025-12-08
 
+1. [A Persistently Active Fast Radio Burst source Embedded in an Expanding Supernova Remnant](https://arxiv.org/abs/2512.05448)
+
+   > Fast Radio Burst, Observation
+
+   190520色散下降。
+
+2. [A new Gaia census of OB associations within 1 kpc](https://arxiv.org/abs/2512.05854)
+
+   > Star Cluster, Statistics
+
+   OB 星协是恒星形成和银河结构的原始示踪器。使用Gaia数据，在太阳1kpc以内的范围内，找到了25000个O型和B型恒星，使用HDBSCAN最终生成了57个OB星协目录。发现其中41个OB星协在至少一个方向上表现出显著的膨胀模式，膨胀模式是各项异性的。
+
+   <img src="./Figures/image-20251208150927153.png" alt="image-20251208150927153" width="680px" />
+
+   把OB星协在3D空间位置中跟Radcliffe Wave进行匹配，之前已经有工作表明 Radcliffe Wave 被 **年轻恒星、开放星团和分子云**所追踪；这篇文章补充说明：**大量大质量 OB 协会也沿着 Radcliffe Wave 排布**。
+
+   <img src="./Figures/image-20251208150854246.png" alt="image-20251208150854246" width="680px" />
+
+## 2025-12-09
+
+1. [Evidence of young magnetars in massive binary embedded in a supernova remnant as sources of active fast radio bursts](https://arxiv.org/abs/2512.07140)
+
+   > Fast Radio Burst, Theory
+
+   从FRB190520的色散下降认为周围存在超新星遗迹，同时对比FRB121102和FRB190417的RM变化，认为重复FRB是在SNR中的年轻磁星+大质量伴星的双星系统。
+
+   <img src="./Figures/image-20251209163246524.png" alt="image-20251209163246524" width="680px" />
+
+2. [Back-End System of BURSTT](https://arxiv.org/abs/2512.07300)
+
+   > Fast Radio Burst, Transient, Instrument
+
+   BURSTT的后端介绍，通过RFSoC完成波束合成，在CPU集群进行消色散和脉冲搜索（使用的CHIME的bonsai算法进行单脉冲搜索）。在$60^\circ\times120^\circ$超大视场上实现实时波束合成、通道化和消色散搜索，并触发基带数据记录。已经可以探测到Crab的巨脉冲和PSR B0329+54的单脉冲。
+
+   <img src="./Figures/image-20251209163700658.png" alt="image-20251209163700658" width="680px" />
+
+3. [Revealing Hidden Repeaters in the CHIME/FRB Catalog: Semi-Supervised Insights into the Fast Radio Burst Population](https://arxiv.org/abs/2512.06316)
+
+   > Fast Radio Burst, Statistics, Machine Learning
+
+   基于 CHIME/FRB Catalog 与 Blinkverse 数据库，构建了一套半监督机器学习框架，用于在表面非重复FRB 中挖掘隐藏的重复源。结合UMAP降维，使用随机森林、SVM、逻辑回归、AdaBoost、Gradient Boost在有标签的已知重复源/非重复源和大量无标签事件上迭代训练。
+
+   <img src="./Figures/image-20251209164138182.png" alt="image-20251209164138182" width="680px" />
+
+   结果表明色散量 DM、峰值频率和辐射量是区分重复源与非重复源的主导特征，模型识别出 36 个额外的重复候选，并指出“重复 vs 非重复”的差异可能既包含物理起源，也包含观测偏差。
+
+   <img src="./Figures/image-20251209164453025.png" alt="image-20251209164453025" width="680px" />
+
+4. [FIP-TOI: Fast Imaging Pipeline for Pulsar Localisation with a Transient-Oriented Radio Astronomical Imager](https://arxiv.org/abs/2512.06254)
+
+   > Radio, Transient, Software
+
+   [FIP-TOI](https://github.com/egbdfX/SVDimager)用于干涉阵中射电暂现源的快速成像。基于奇异值分解（SVD）并在 NVIDIA GPU 上并行实现，专门针对短时间尺度、多快照宽视场成像中的 w-term 问题进行优化，实现比传统 WSClean 成像器约快十倍的定位速度（4K×4K 图像）。
+
+## 2025-12-10
+
+1. [Machine learning classification of baseband data of CHIME FRBs](https://arxiv.org/abs/2512.08308)
+
+   > Fast Radio Burst, Statistics, Machine Learning
+
+   在 12 个已知重复源和 128 个“非重复”事件组成的 baseband 样本中，作者利用 16 个物理参数进行聚类，最终在 122 个标记为非重复的 FRB 中识别出 15 个重复源候选，同时将 31 个之前工作提出的重复候选重新归类为更像非重复的事件。
+
+   <img src="./Figures/image-20251210133443341.png" alt="image-20251210133443341" width="680px" />
+
+   这 15 个候选中有 14 个与以往的候选列表重合，1 个是新发现，而且其中一例后来被 CHIME/FRB 证实为真正的重复源。
+
+2. [The Milky Way Imaging Scroll Painting Survey: Data Release 1 ](https://arxiv.org/abs/2512.08260)
+
+   > Radio, Survey
+
+   银河画卷[数据释放](https://doi.org/10.57760/sciencedb.27351)。
+
+   <img src="./Figures/image-20251210133646776.png" alt="image-20251210133646776" width="680px" />
+
+## 2025-12-11
+
+1. [Discovery of the redback millisecond pulsar PSR J1728-4608 with ASKAP](https://arxiv.org/abs/2512.09339)
+
+   > ASKAP, Pulsar, Observation
+
+   ASKAP发现新的 redback 脉冲星，PSR J1728-4608，周期2.86ms，轨道周期5.05小时。对食变机制的建模表明，同步吸收是造成无线电波段观测到的食变的主要原因。
+
+## 2025-12-12
+
+1. [Irregularity in Active Fast Radio Burst Repeaters and Magnetar Periodic Radio Pulses: Time, Energy, and Frequency Analyses](https://arxiv.org/abs/2512.10249)
+
+   > Fast Radio Burst, Statistics
+
+   Shotaro使用我们的方法统计FRB和磁星的另一个工作。
+
+2. [The Space-Based Time-Domain Revolution in Astrophysics](https://arxiv.org/abs/2512.10002)
+
+   > Light Curve, Time Domain, Review
+
+   回顾了过去 20 年里 **空间时间域光度测量**（CoRoT、Kepler/K2、TESS 等）如何通过连续、高精度的光变曲线，改变从恒星物理到银河、河外天体和太阳系在内的几乎所有天体物理分支，包括恒星震荡、对流与颗粒噪声、恒星自转与磁活动、耀发和年轻恒星、双星、银河考古、黑洞与中子星、爆发现象、活动星系核、潮汐瓦解事件以及小行星和行星大气等方面。
+
+## 2025-12-15
+
