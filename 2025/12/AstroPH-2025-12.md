@@ -206,3 +206,259 @@
 
 ## 2025-12-15
 
+1. [The energy structure function of fast radio bursts supports a stochastic origin model](https://arxiv.org/abs/2512.11283)
+
+   > Fast Radio Burst, Statistics
+
+   FRB能量结构函数
+
+2. [Type II and Type III Solar Radio Burst Classification Using Transfer Learning](https://arxiv.org/abs/2512.11487)
+
+   > Solar Flare, Deep Learning
+
+   从 e-Callisto 射电动态谱中标注了太阳耀斑的II型暴和III型暴，使用迁移学习微调多种模型（VGGNet-19、MobileNetV2、ResNet-152、DenseNet-201、YOLOv8），其中YOLOv8效果最好。
+
+## 2025-12-16
+
+1. [Pre-training vision models for the classification of alerts from wide-field time-domain surveys](https://arxiv.org/abs/2512.11957)
+
+   > Time Domain, Light Curve, Deep Learning
+
+   在不同预训练策略上比较天文图像分类的效果。结果发现，在Galaxy Zoo星系图像上预训练比ImageNet预训练或从零训练效果好，标准模型结构比自建CNN效果好。
+
+   <img src="./Figures/image-20251216124738068.png" alt="image-20251216124738068" width="680px" />
+
+2. [The automation of optical transient discovery and classification in Rubin-era time-domain astronomy](https://arxiv.org/abs/2512.11959)
+
+   > Time Domain, Light Curve, Instrument, Review
+
+   LSST正在加速瞬变源的发现速度，光学时域天文学需要工作流程的自动化。
+
+   当前巡天普遍采用`图像差分 → 告警流 → broker → 过滤 → 人工扫描 → 光谱随访`的架构，ML 在 real/bogus 判别上已能做到 99% 准确率，但每个新巡天都要重新标注数据、训练模型，成本很高。目前过度依赖 PLAsTiCC / ELAsTiCC 等模拟数据、缺乏统一基准，导致不同模型难以公平比较。
+
+   <img src="./Figures/image-20251216125109423.png" alt="image-20251216125109423" width="680px" />
+
+3. [The MeerKLASS UHF On-the-Fly Continuum Survey -- Data Release I](https://arxiv.org/abs/2512.11964)
+
+   > Radio, Survey
+
+   MeerKAT大面积巡天项目MeerKLASS的首次数据发布，在816MHz的连续谱图像，12个小时的观测800平方度的观测区域。识别出95483个射电源。
+
+   <img src="./Figures/image-20251216125818397.png" alt="image-20251216125818397" width="680px" />
+
+4. [Detection of Partial Coherence due to Multipath Propagation for FRB 20220413B with CHIME/FRB](https://arxiv.org/abs/2512.11969)
+
+   > Fast Radio Burst, Lensing
+
+   当 FRB 信号经过星际或星系际等离子体时，会出现多径传播、散射和透镜效应。使用CHIME基带数据， 对FRB 20220413B 进行逐频道的电场相关和强度相关分析，以寻找频率间距大于常规散射带宽时仍然存在的相关性，这类信号被视为“部分相干”的证据。
+
+   尽管爆发形态可以通过等离子体透镜进行建模，但时间延迟相关中存在的相干特征与共同散射屏幕的预期相符但不是相干等离子体透镜。
+
+   <img src="./Figures/image-20251216130230724.png" alt="image-20251216130230724" width="680px" />
+
+5. [Semantic search for 100M+ galaxy images using AI-generated captions](https://arxiv.org/abs/2512.11982)
+
+   > Galaxy, LLM
+
+   在 Galaxy Zoo-DECaLS 上，用 VLM（如 GPT-4.1-mini）给完全未标注的星系图像自动写天文学风格的描述，选出性价比最好的模型+提示词，大规模生成 25 万多张图像的说明文字，然后用这些描述来训练一个 CLIP 式的检索模型 [AION-Search](https://github.com/NolanKoblischke/AION-Search)。
+
+   <img src="./Figures/image-20251216130958002.png" alt="image-20251216130958002" width="680px" />
+
+   在“螺旋星系、并合星系、强引力透镜”三类科学目标上，AION-Search 用纯文本查询就能零样本检索出结果，明显优于各种自监督相似度检索基线，再加一层 GPT-4.1 复查重排后（用 GPT-4.1 按是不是强引力透镜打 1–10 分，然后按得分重排），强透镜在 top-100 里的召回几乎翻倍。
+
+6. [NICER Magnetar Burst Catalog](https://arxiv.org/abs/2512.12291)
+
+   > Magnetar, Catalog
+
+   基于约 8 年的 NICER 观测，系统搜寻并整理了磁星的短时 X 射线爆发，构建了一个统一的爆发目录。在 23 个磁星源的观测中识别出 1130 个短爆发，对每个爆发给出了持续时间、能量通量、光谱参数等物理量，并指出样本中 SGR 1935+2154 占主导。
+
+   <img src="./Figures/image-20251216131133455.png" alt="image-20251216131133455" width="680px" />
+
+7. [The disk precession in a Be star-magnetar binary and its application to the rotation measure of FRB 20201124A](https://arxiv.org/abs/2512.12995)
+
+   > Fast Radio Burst, Theory
+
+   假设 FRB 20201124A  来自一颗磁星，而它与一颗带有致密盘的 Be 星构成双星系统，并考虑盘平面与轨道平面存在一定倾角，因此盘会发生进动。通过对磁星磁层、恒星风以及 Be 盘的电子密度和磁场结构建模，计算观测视线所穿过物质对 RM 的贡献，并随时间（轨道相位 + 盘进动相位）演化，解释FRB 20201124A 随时间大幅变化的RM。
+
+   <img src="./Figures/image-20251216131427325.png" alt="image-20251216131427325" width="680px" />
+
+   <img src="./Figures/image-20251216131446400.png" alt="image-20251216131446400" width="680px" />
+
+8. [Super-resolving Herschel - a deep learning based deconvolution and denoising technique](https://arxiv.org/abs/2512.13353)
+
+   > Radio, Deep Learning
+
+   使用Spitzer 24 μm 与 SPIRE 多波段图像作为输入，使用Swin-Unet进行图像降噪。
+
+   <img src="./Figures/image-20251216131756343.png" alt="image-20251216131756343" width="680px" />
+
+9. [Multiband neural network classification of ZTF light curves as LSST proxies](https://arxiv.org/abs/2512.13395)
+
+   > Light Curve, Deep Learning
+
+   使用ZTF的g和r波段的光变曲线，经过相位折叠后画图，作为输入，加上周期等数值特征作为额外输入，对 5 类变星（经典 / Ⅱ型造父变星、δ Scuti、食双星、RR Lyrae）进行监督学习。在验证集上达到 ~95.6% 的准确率。
+
+   <img src="./Figures/image-20251216132016054.png" alt="image-20251216132016054" width="680px" />
+
+10. [Unveiling the white dwarf in the eclipsing polar HU Aquarii](https://arxiv.org/abs/2512.13489)
+
+    > White Dwarf, Observation
+
+    极向星是没有吸积盘的磁性 CV 系统，吸积物质沿磁场直接落在白矮星表面。HU Aqr 是一颗亮且被广泛研究的食极向星，而在以往高 / 中吸积态下，强烈的吸积辐射会掩盖白矮星本体。
+
+    <img src="./Figures/image-20251216132550336.png" alt="image-20251216132550336" width="680px" />
+
+    利用 VLT 上的 ULTRACAM 在 HU Aquarii （轨道周期0868203980天）低吸积态时获得的 u、r 双波段高速测光数据，第一次清晰测量到其白矮星食的各个接触点，精确测得白矮星质量和轨道倾角。
+
+11. [Identification of periodicities with arbitrary shapes in AGN light curves](https://arxiv.org/abs/2512.13688)
+
+    > Light Curve, Gaussian Process, Periodicity, Method
+
+    MBHB（超大质量黑洞双星）在 AGN 里可能通过多种机制
+
+    - circumbinary 盘间歇供给 → 类“锯齿”或爆发型周期；
+    - 多普勒增亮（尤其是圆轨道 + 恒定吸积）→ 近似正弦；
+    - 互相的引力透镜 → 尖锐的周期性峰值。
+
+    产生光变周期，除了最理想的多普勒增亮场景，多数物理机制都不会给出简洁的正弦波，而是怪形状的周期。当前大多数搜索（尤其是巡天预选）都基于 Lomb–Scargle 周期图，本质假设信号像正弦，导致对复杂波形的周期检出率很差。
+
+    用**通用周期核**来在 AGN 光变曲线中寻找任意形状的周期信号，相比 Lomb–Scargle 周期图和余弦核 GP，它能找回更多的周期信号，尤其是在锯齿形、对称爆发型等非正弦周期情况下。
+
+## 2025-12-17
+
+1. [Detection and characterisation of submm transient sources with a large single-dish telescope](https://arxiv.org/abs/2512.13924)
+
+   > Transient, White Paper, Instrument
+
+   综述了亚毫米波段暂现源（submm transients）的主要种类和科学价值，包括
+
+   银河内
+
+   - 爆发恒星（flaring stars），典型持续时间 < 3 天
+   - 原恒星/原行星盘，因吸积率变化出现月–年的亮度变化
+   - 行星/小行星等太阳系天体，在亚毫米波段表现为快速移动的暂现源
+
+   河外
+
+   - GRBs、超新星（SNe）、潮汐撕裂事件（TDEs）、fast blue optical transients（FBOTs）、变源 AGN 等，光变时间尺度多为周–月，在 mm/submm 波段有重要诊断能力。
+
+   <img src="./Figures/image-20251217142808716.png" alt="image-20251217142808716" width="680px" />
+
+   讨论了现有/即将运行的 CMB 望远镜（如 ACT、SPT、Simons Observatory）在发现 submm 暂现源上的能力，并指出要进行深入表征和发现更暗弱的群体，需要一台大口径、视场大、频带宽的单碟望远镜。
+
+2. [INTEGRAL IBIS catalog of magnetar bursts](https://arxiv.org/abs/2512.14356)
+
+   > Magnetar, Catalog
+
+   基于 INTEGRAL 卫星 IBIS 仪器 20 多年的存档数据，对 34 个磁星及候选体进行了系统搜索，构建了一个包含 1349 个爆发现象的磁星 burst 目录。
+
+   <img src="./Figures/image-20251217142935199.png" alt="image-20251217142935199" width="680px" />
+
+3. [Multi-messenger and time-domain astronomy in the 2040s](https://arxiv.org/abs/2512.14546)
+
+   > Time Domain, Review, White Paper
+
+   面向 2040 年代的多信使与时域天文学白皮书，评估 GW、中微子、电磁多波段等即将上线的重大设施，将如何构建一个高频率的多波段触发生态。
+
+   <img src="./Figures/image-20251217143205779.png" alt="image-20251217143205779" width="680px" />
+
+   ::: tip 按科学主题列出了 2040s MMA 要攻克的关键问题
+
+   1. **Chemical Evolution & Nucleosynthesis**
+      - 利用成百上千个 BNS/NSBH 事件的 GW 信息（率、质量分布、延迟时间）+ tens–hundreds 个 kilonova 的 UVOIR 光谱（Sr, Ce, Te 线等），
+      - 追踪宇宙历史中 r 过程元素的产生，确定其中有多少来自致密并合而非其他途径。
+   2. **Jet Physics**
+      - GW 给出距离与倾角约束；
+      - 光学–射电–TeV 的光变与偏振+高分辨成像给出喷流结构、Lorentz 因子、磁化程度、能量耗散位置等，
+      - 从而区分不同喷流启动机制、检验中央引擎模型。
+   3. **Cosmic Particle Acceleration**
+      - 联合高能中微子+γ+射电/光学，锁定宇宙线加速器，区分 hadronic vs leptonic 渠道；
+      - 研究喷流在宇宙反馈中的作用。
+   4. **Stellar Evolution & Supernovae**
+      - GW 合并率 + EM 宿主性质，约束双星演化路径；
+      - 对于罕见的银河系核心坍缩 SN：GW 追踪内部非对称、ν 光曲线追踪核心条件、EM 追踪抛射物组成与激波传播。
+   5. **Supermassive Black Holes and Cosmology**
+      - LISA 提供合并 SMBH 的提前数周–数月预警，但定位仍是 10–1000 deg² 量级，需要大视场光学/近红外光谱巡天去找对应 AGN 变光；[arXiv](https://arxiv.org/pdf/2512.14546)
+      - 大量明亮标准警报事件可将 H_0 和暗能量状态方程测到亚百分点精度，并利用 GW 传播性质测试修正引力；
+      - 高能中微子的能量依赖到达时间还能强约束洛伦兹不变性。
+   6. **Dense Matter EOS**
+      - BNS / NSBH 并合中的潮汐形变、post-merger 振荡频率等，可精细约束致密物质 EoS，搜索从 hadronic 到夸克物质的相变迹象。
+
+   :::
+
+4. [Attention-Based Preprocessing Framework for Improving Rare Transient Classification](https://arxiv.org/abs/2512.14644)
+
+   > Transient, Optical, Deep Learning
+
+   光学暂现源样本不均衡（SN 有几千个，SLSN-I 只有 87 个，TDE 只有 64 个）、图像有坏点、大量前景背景源，导致CNN分类性能不行。
+
+   这里通过ResNet挑出坏图像，用结构相似性（SSIM）修复，然后用阈值+DBSCAN保留瞬变源和它的宿主，把其他亮源和无关像素用噪声填充。通过三种方式补样本：使用GP建模光变曲线，移动到不同红移、光变+遮罩交叉配对、focal loss偏向稀有类别。来让CNN真正学会看暂现源。
+
+   <img src="./Figures/image-20251217175802443.png" alt="image-20251217175802443" width="680px" />
+
+## 2025-12-18
+
+1. [An updated efficient galaxy morphology classification model based on ConvNeXt encoding with UMAP dimensionality reduction](https://arxiv.org/abs/2512.15137)
+
+   > Galaxy, Deep Learning
+
+   科大搞的一个星系形态分类工具`USmorph`，这里改进了一下，把原来的 USmorph 无监督模块升级成“ConvNeXt特征提取 + UMAP降维”的两段式框架，用迁移学习获得更强的形态表征。
+
+   <img src="./Figures/image-20251218154550928.png" alt="image-20251218154550928" width="680px" />
+
+2. [Spectroscopic Alerts for the Time-Domain Era](https://arxiv.org/abs/2512.15555)
+
+   > Time Domain, Spectrum
+
+   未来 LSST 等巡天每年会产生1e9 级别的光变源告警，但全球光谱跟进能力只有1e4-1e5，存在巨大缺口。提出spectroscopic alerts（新发射/吸收分量、离化态快速变化、速度结构演化等）这一概念，即由光谱自身的实时演化来触发告警，让光谱本身成为发现通道，而不只是光度跟进工具。
+
+3. [The Galactic White Dwarf Population](https://arxiv.org/abs/2512.14763)
+
+   > White Paper, White Dwarf
+
+   Gaia的白矮星普查揭示 HR 图中的复杂结构（如 A/B/Q 分支及其他异常序列），同时也暴露出大气成分、谱演化、结晶、磁场、并合通道等关键未解问题。要解读这些结构必须依赖高质量光谱来获得 Teff、log g 等，从而推导质量、冷却年龄、光度函数等基本量。
+
+   <img src="./Figures/image-20251218155446502.png" alt="image-20251218155446502" width="680px" />
+
+   文章提出需要大规模多目标巡天光谱能力：在 10–15m 级望远镜上做低分辨率 R~2000–5000 覆盖到 G~23–25，以及对更亮目标做高分辨率 R~10,000–40,000，以在几年时间里完成百万级样本的无偏光谱普查。
+
+4. [White Dwarf Binaries: Probes of Future Astrophysics](https://arxiv.org/abs/2512.14800)
+
+   > White Paper, White Dwarf
+
+   白矮星双星可同时约束双星演化（共同包层、角动量损失）、低频引力波前景（双白矮主导的银河前景噪声）、以及 Ia 型超新星前身通道。
+
+   <img src="./Figures/image-20251218155607687.png" alt="image-20251218155607687" width="680px" />
+
+   对 LSST 发现且现有设施难以覆盖的紧致白矮双星（到 G<23）做系统的识别光谱与相位分辨（phase-resolved）观测，从而得到轨道周期、径向速度、质量等核心参数。
+
+   文章给出明确技术需求：高复用（一次观测成千上万目标）、大口径 >8m、短曝光 1–5min 仍能 SNR≳5、低分辨率通道 R≈5000 且宽波段 300–2500nm、高分辨率通道 R>20,000 覆盖巴耳末系，并建议配备 IFU 用于环境/壳层结构研究。
+
+## 2025-12-19
+
+1. [Radio frequency interference identification using eigenvalue decomposition for multi-beam observations](https://arxiv.org/abs/2512.16278)
+
+   > Radio, RFI
+
+   `mRAID` 对多波束观测的互相关矩阵做特征值分解，用本征值结构来自动识别 RFI。
+
+   <img src="./Figures/image-20251219140411185.png" alt="image-20251219140411185" width="680px" />
+
+   首先为每个时间子积分和频道构造多束数据的互相关矩阵，然后对其进行特征值分解：若存在 RFI，占主导的本征模会显著偏离纯噪声的统计预期。通过对特征值谱设定阈值，该方法可以快速标记出受干扰的时间–频率单元。
+
+2. [Inferring the Intrinsic Energy Function of FRB 20220912A](https://arxiv.org/abs/2512.16122)
+
+   > Fast Radio Burst, Statistics
+
+   研究FAST带宽选择效应对能量分布的影响。
+
+   <img src="./Figures/image-20251219140707451.png" alt="image-20251219140707451" width="680px" />
+
+3. [Pulsar Science with the SKA Observatory](https://arxiv.org/abs/2512.16152)
+
+   > Pulsar, SKA, White Paper
+
+   SKA 脉冲星专题特刊的引言文章，概述 SKA-Low 和 SKA-Mid 望远镜的关键性能与观测模式。对特刊中 11 篇脉冲星科学论文逐一做了概览（致密物质状态方程、强场引力检验、引力波探测、星际介质与磁场、脉冲星风和高能物理等）。
+
+## 2025-12-22
+
