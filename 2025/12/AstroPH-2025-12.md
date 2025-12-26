@@ -378,7 +378,7 @@
       - GW 合并率 + EM 宿主性质，约束双星演化路径；
       - 对于罕见的银河系核心坍缩 SN：GW 追踪内部非对称、ν 光曲线追踪核心条件、EM 追踪抛射物组成与激波传播。
    5. **Supermassive Black Holes and Cosmology**
-      - LISA 提供合并 SMBH 的提前数周–数月预警，但定位仍是 10–1000 deg² 量级，需要大视场光学/近红外光谱巡天去找对应 AGN 变光；[arXiv](https://arxiv.org/pdf/2512.14546)
+      - LISA 提供合并 SMBH 的提前数周–数月预警，但定位仍是 10–1000 deg² 量级，需要大视场光学/近红外光谱巡天去找对应 AGN 变光；
       - 大量明亮标准警报事件可将 H_0 和暗能量状态方程测到亚百分点精度，并利用 GW 传播性质测试修正引力；
       - 高能中微子的能量依赖到达时间还能强约束洛伦兹不变性。
    6. **Dense Matter EOS**
@@ -461,4 +461,106 @@
    SKA 脉冲星专题特刊的引言文章，概述 SKA-Low 和 SKA-Mid 望远镜的关键性能与观测模式。对特刊中 11 篇脉冲星科学论文逐一做了概览（致密物质状态方程、强场引力检验、引力波探测、星际介质与磁场、脉冲星风和高能物理等）。
 
 ## 2025-12-22
+
+1. [Pulsed radio emission from a Central Compact Object](https://arxiv.org/abs/2512.17214)
+
+   > Pulsar, Observation
+
+   使用南非的 MeerKAT 阵列在 UHF/L 波段，首次探测到原型 CCO 1E 1207.4−5209 的 424 ms 射电脉冲，确认它是一颗极其微弱的射电脉冲星 PSR J1210−5226。
+
+## 2025-12-23
+
+1. [Nanohertz Gravitational Waves](https://arxiv.org/abs/2512.18822)
+
+   > Gravitational Wave, PTA, Review
+
+   关于 nHz 引力波的长篇综述，核心是如何用 PTA（脉冲星计时阵列）观测到的共同红噪声信号来理解纳赫兹引力波宇宙。
+
+   <img src="./Figures/image-20251225124929189.png" alt="image-20251225124929189" width="680px" />
+
+   文章先从 PTA 检测到的 Hellings–Downs 关联信号出发，解释一个纳赫兹随机引力波背景如何在时域残差中表现出来。接着，它详细讨论了由超大质量黑洞双星并合叠加而成的背景，并指出环境耦合、轨道偏心率以及 PTA 稀疏采样等因素会显著改变谱的斜率和统计性质，从而既增加理论不确定性也提供区分天体物理起源的“手柄”。在宇宙学部分，作者综述了暴胀期间或之后产生的各种早期宇宙引力波背景，包括一阶相变、湍流、声波和拓扑缺陷（如宇宙弦），并讨论这些模型如何拟合 PTA 数据。最后，文章讨论了 PTA 在高能物理和宇宙学中的前景，例如约束相变能标、早期宇宙物质成分和暗物质候选者等。
+
+2. [On the Diversity of Pulsar's Frequency-Dependent Circular Polarization](https://arxiv.org/abs/2512.19056)
+
+   > Pulsar, Polarization
+
+   北大的论文，研究脉冲星随频率变化的圆偏振。
+
+   采用传播过程中模式耦合的描述：在限制偏振（limiting polarization）区域，传播模式由各向异性等离子体折射率、磁场几何和观测频率共同控制，从而导致输出圆偏振随频率出现翻转、增强或减弱。文章将这一模型参数化，并用贝叶斯方法和数据进行比较，得到等离子体多重性大约在 1–10²，粒子洛伦兹因子在 10^0.5–10² 的约束。结果表明，单脉冲圆偏振的频率依赖性可以成为探测脉冲星磁层动力学与等离子体性质的有力工具。
+
+3. [Identifying Quasi-Periodic Micropulses in Pulsars with FAST Using Convolutional Neural Networks](https://arxiv.org/abs/2512.19235)
+
+   > Pulsar, Deep Learning
+
+   贵师大的文章，用CNN分辨脉冲星脉冲中是否有准周期。
+
+4. [Towards DM-free search for Fast Radio Bursts with Machine Learning -- I. An implementation on multibeam data](https://arxiv.org/abs/2512.19249)
+
+   > Fast Radio Burst, Deep Learning
+
+   广州大学的文章，用EfficientNet分类数据中是否存在FRB的曲线。
+
+5. [Solar jet-induced perturbation propagating through coronal loops and in-loop electron beam transport indicated by type II and type N radio bursts](https://arxiv.org/abs/2512.18657)
+
+   > Solar Flare, Observation
+
+   分析了一次 C3.1 级耀斑伴随的小尺度喷流事件，在频谱中可以看到清晰带分裂的metric型II暴，并且之前还有多个III型暴，其中一个具有N型暴特征。
+
+   通过成像追踪射电源在日冕中的位置演化，发现II型沿着喷流扰动前沿在邻近的闭合磁环中以约 880 km/s 的速度传播，而不是跟随速度更慢的喷流主前沿。结合磁场和 Alfvén 速度估计，推断喷流在闭合环中的扰动可以在局部转化为激波，满足电子加速和射电辐射的条件。该工作说明，即便在没有 CME 的情况下，弱耀斑+喷流仍可通过这种机制产生高频II型暴。
+
+   <img src="./Figures/image-20251225130227366.png" alt="image-20251225130227366" width="680px" />
+
+6.  [Searches for Prompt Low-Frequency Radio Counterparts to Gravitational Wave Event S250206dm with the OVRO-LWA Time Machine](https://arxiv.org/abs/2512.18543)
+
+   > Gravitational Wave, Fast Radio Burst
+
+   利用 OVRO-LWA 的Time Machine系统，对引力波事件 S250206dm 进行了事后回溯的低频（69–86 MHz）射电快速爆发搜索。OVRO-LWA Time Machine 通过环形缓冲和两级电压处理管线，能连续缓存几乎半个天空视场的原始数据，因此在引力波警报发布后仍能回看事件发生前后的数据。
+
+   <img src="./Figures/image-20251225130454995.png" alt="image-20251225130454995" width="680px" />
+
+7. [A recurrent 70-100 minute quasi-periodic pulsation in the intermediate-aged mid-M dwarf GJ 3512](https://arxiv.org/abs/2512.18086)
+
+   > Stellar, Periodicity, QPO
+
+   在中龄 M5.5V 矮星 GJ 3512 的多次 TESS 观测中，发现了一个 70–100 分钟周期的可重复准周期脉动（QPP）信号。倾向于将这种长期、低振幅 QPP 归因于日冕层中的磁场/热结构振荡，为低质量恒星的星冕动力学提供了新的观测约束。
+
+   <img src="./Figures/image-20251225130716481.png" alt="image-20251225130716481" width="680px" />
+
+## 2025-12-24
+
+1. [Obtaining Magnetization of Super-Alfvénic Turbulence with the Structure Functions of Gradient Directions](https://arxiv.org/pdf/2512.19816)
+
+   > ISM,, Magnetic Field, Structure Function, Turbulence
+
+   从光谱观测与同步辐射强度图中，用**梯度方向（gradient directions）的结构函数**来测量超阿尔芬湍流从流体（hydro）到 MHD 的过渡尺度。
+
+2. [The AI Scaling Wall of Diminishing Returns: Of LLMs, Electric Dogs, and General Relativity](https://arxiv.org/pdf/2512.20264)
+
+   > LLM, Astronomy
+
+   用已有的 loss–compute 标度律思路，把“模型训练算力（compute）”映射到 “MMLU-Pro 准确率”这一性能坐标上，讨论 LLM 规模化是否会撞到“收益递减墙”。
+
+   <img src="./Figures/image-20251224121403382.png" alt="image-20251224121403382" width="680px" />
+
+   每增加 10 倍算力带来的边际准确率提升”（对 log compute 的导数）来量化 ROI，并对高算力区间做幂律拟合，给出指数约 0.5540.5540.554 的经验结果，意味着每 10 倍算力大约只换来 1–2 个百分点提升。
+
+## 2025-12-25
+
+1. [The Office of Astronomy for Development Impact Cycle](https://arxiv.org/abs/2512.21292)
+
+   > Astronomy
+
+   IAU Office of Astronomy for Development（OAD）认为天文学助力发展必须走**科学评估**这条路：知道什么项目有效、对谁有效、在什么条件下有效。
+
+   <img src="./Figures/image-20251225124321538.png" alt="image-20251225124321538" width="680px" />
+
+   把项目生命周期拆成“资源 → 项目创意 → 优化设计 → 评估 → 知识库 → 大规模推广”六大环节，并为每一环节配套具体工具：如 PICO、Theory of Change、评估类型与数据体系等。
+
+   文章的目标是通过一套可复制、可评估的流程，让天文学相关项目尽可能**基于证据、可量化影响、可扩展**，从而更有效地服务教育、技能培训、减贫、性别平等等发展挑战。
+
+## 2025-12-26
+
+今日停更。
+
+## 2025-12-29
 
