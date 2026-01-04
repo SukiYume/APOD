@@ -564,3 +564,54 @@
 
 ## 2025-12-29
 
+1. [Long-term monitoring of repeating FRB 20220912A with the uGMRT at low radio frequencies](https://arxiv.org/abs/2512.21889)
+
+   > Fast Radio Burst, Observation
+
+   uGMRT对FRB20220912A的观测。
+
+2. [From emission to absorption: the FAST observation of the OH 18-cm lines from the Comet C2025/A6](https://arxiv.org/abs/2512.21969)
+
+   > Comet, Radio
+
+   FAST超宽带接收机对C/2025 A6彗星的观测，探测到OH 18厘米谱线，在2025年10月23日至11月5日期间经历了从发射到吸收的转变，这主要是由日心速度的变化引起的。
+
+   <img src="./Figures/image-20251229142152615.png" alt="image-20251229142152615" width="680px" />
+
+   通过对 1665/1667 MHz 线型做梯形拟合，他们从线底宽度估算出彗发中的水/OH 气体膨胀速度，发现其随日心距离减小而增大，符合太阳驱动的彗发出气模型。
+
+## 2025-12-30
+
+1. [Revisiting the Reported Period of FRB 20201124A Using MCMC Methods](https://arxiv.org/abs/2512.23392)
+
+   > Fast Radio Burst, Periodicity, Statistics
+
+   phase folding后，用Von Mises分布拟合FRB爆发在相位空间中的分布，评估周期。
+   $$
+   f(\theta|\mu,\kappa)=\frac{1}{2\pi I_0(\kappa)}\exp\left[\kappa\cos\left(\theta-\mu\right)\right]
+   $$
+   <img src="./Figures/image-20251230125851770.png" alt="image-20251230125851770" width="680px" />
+
+2. [Galaxy Zoo Evo: 1 million human-annotated images of galaxies](https://arxiv.org/abs/2512.23691)
+
+   > Galaxy, LLM
+
+   [Galaxy Zoo Evo](https://github.com/mwalmsley/gz-evo)包含82.3万个星系图像，与1.04亿条标签，用于天文图像基础模型，每个星系包含一套细粒度问答式标注（如旋臂数量、缠绕程度、是否并合等）。
+
+   <img src="./Figures/image-20251230130336190.png" alt="image-20251230130336190" width="680px" />
+
+   文章里还有一个看起来有点意思的网页[Galaxy Zoo Decision Trees](https://data.galaxyzoo.org/gz_trees/gz_trees.html)。
+
+3. [Why Machine Learning Models Systematically Underestimate Extreme Values II: How to Fix It with LatentNN](https://arxiv.org/abs/2512.23138)
+
+   > Astronomy, Deep Learning
+
+   带有输入测量误差时，神经网络回归也会出现衰减偏差（attenuation bias），表现为极端值被系统性低估、动态范围被压缩。
+
+   <img src="./Figures/image-20251230130652158.png" alt="image-20251230130652158" width="680px" />
+
+   [LatentNN](https://github.com/tingyuansen/LatentNN)把真实输入当作潜变量，与网络参数一起，通过最大化观测到输入与输出的联合似然来共同优化。
+
+## 2025-12-31
+
+今日停更。
