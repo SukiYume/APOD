@@ -5,9 +5,13 @@
 
 import os
 import re
+import warnings
+warnings.filterwarnings('ignore', category=UserWarning, module='jieba')
+
 import numpy as np
 import pandas as pd
-import pkuseg
+import jieba
+import jieba.posseg as pseg
 from collections import Counter
 
 
@@ -120,17 +124,20 @@ def content_count(data, flag='title'):
             string_all += string + '\n'
         stop_words_path = 'data/stop_words.txt'
 
-    seg = pkuseg.pkuseg(user_dict='data/dict.txt', postag=True)
-    text = seg.cut(string_all)
+    # 加载自定义词典
+    jieba.load_userdict('data/dict.txt')
+    # 使用词性标注模式分词
+    text = pseg.cut(string_all)
     with open(stop_words_path, encoding='utf-8') as f:
-        stopwords = f.read()
-        
+        stopwords = set(f.read().split())
+
     new_text = []
-    for w in text:
-        if w[0] not in stopwords:
-            if 'n' in w[1]:
-                new_text.append(w[0])
-                
+    for word, flag in text:
+        if word not in stopwords:
+            # jieba词性标注：n-名词, nr-人名, ns-地名, nt-机构名, nz-其他专名
+            if flag.startswith('n'):
+                new_text.append(word)
+
     new_text = [re.sub('fast_radio_bursts', 'fast radio bursts', i) for i in new_text]
     new_text = [re.sub('milky_way', 'milky way', i).capitalize() for i in new_text]
     counter = Counter(new_text)
