@@ -247,3 +247,136 @@
 
 ## 2026-01-19
 
+1. [The Role of Plasma Lensing in Fast Radio Bursts](https://arxiv.org/abs/2601.11122)
+
+   > Fast Radio Burst, Theory, Lensing
+
+   在一维高斯等离子体透镜模型下，论证 FRB 波前入射角的缓慢单调变化可以自然产生子爆发的向下或向上频率漂移。
+
+   多条透镜成像路径采样到不同的旋转量 RM 时，可在 GHz 频段产生近似正交的偏振角跃迁，而且所需 RM 反差只在几十 rad m 的负 2 次方量级。
+
+2. [Zero-Shot Detection of Elastic Transient Morphology Across Physical Systems](https://arxiv.org/abs/2601.11415)
+
+   > Astronomy, Anomaly Detection, Deep Learning
+
+   检验一种跨物理系统迁移的想法：用引力波干涉仪中的非高斯瞬态毛刺训练出的神经编码器，可作为冻结的“形态算子”去分析完全不同传感器的数据。 
+
+   在不做再训练、不做微调、没有目标域标签的前提下，它把该编码器用于滚动轴承振动数据，构造健康指数并实现固定虚警率监测，在多个轴承数据集上得到较强区分效果。
+
+## 2026-01-20
+
+今日停更
+
+## 2026-01-21
+
+1. [Pushchino Multibeam Pulsar Search. IX. Detection of a minute-long transient on the LPA antenna](https://arxiv.org/abs/2601.11950)
+
+   > LPT, Observation
+
+   俄罗斯人发现了一个长周期暂现源，LPA J0108+13，坐标RA=01h08m49s，DEC=13d18m。流量在几十到几百Jy之间，爆发持续时间1-4分钟，在2013-2025年间探测到这个源的6次爆发。
+
+   <img src="./Figures/image-20260121145918285.png" alt="image-20260121145918285" width="680px" />
+
+2. [Unveiling Hidden Clustering: An Unsupervised Machine Learning Study of Repeating FRB 20220912A](https://arxiv.org/abs/2601.14065)
+
+   > Fast Radio Burst, Statistics, Machine Learning
+
+   用UMAP+HDBSCAN对我们FRB20220912A的数据进行聚类。
+
+   <img src="./Figures/image-20260121150132983.png" alt="image-20260121150132983" width="680px" />
+
+3. [Prediction of Multi-Wavelength Afterglows Associated with FRB 20200120E and FRB 20201124A](https://arxiv.org/abs/2601.11887)
+
+   > Fast Radio Burst, Theory
+
+   建立了一个统一的理论框架，来模拟存在于双星系统中的 FRB 的多波段余辉。结果表明，射电余晖最容易探测，光学余晖持续时间短，LSST可能探测，X射线余晖太微弱难探测。
+
+4. [Detection of a Millisecond Periodicity in BATSE Short Gamma-Ray Bursts](https://arxiv.org/abs/2601.12108)
+
+   > GRB, Periodicity
+
+   在 BATSE 的 532 个短伽马暴时间标记事件数据中系统搜索毫秒级相干周期信号。发现了GRB 960616，在约 30 ms 主辐射段出现 1100 Hz 的相干调制，320 keV 以上最强，分数量级振幅约 47%。
+
+   <img src="./Figures/image-20260121151528938.png" alt="image-20260121151528938" width="680px" />
+
+5. [Prospecting MeerKAT Continuum Data for Enigmatic Radio Sources with Unsupervised Vector-Quantised Variational Autoencoders](https://arxiv.org/abs/2601.13901)
+
+   > Radio, Deep Learning, Anomaly Detection
+
+   用VQ-VAE在MeerKAT MGCLS 的 1.28 GHz 深度连续谱图像上训练，用重建误差作为异常度量来筛选结构反常的射电源。
+
+   <img src="./Figures/image-20260121152155647.png" alt="image-20260121152155647" width="680px" />
+
+## 2026-01-22
+
+1. [Small scale turbulence alongside with large scale turbulence in a z~sim 2 star Forming Galaxy with outflowing wind, revealed by Multi-point structure functions](https://arxiv.org/abs/2601.14887)
+
+   > Galaxy, ISM, Turbulence
+
+   用多点结构函数对星系视向速度进行分析，在星云气体速度场与外流风速度场里都看到了结构函数斜率的断点与平台，对应的小尺度最大注入尺度分别约 240 pc 和 290 pc。
+
+   <img src="./Figures/image-20260122140540409.png" alt="image-20260122140540409" width="680px" />
+
+2. [DeepInflation: an AI agent for research and model discovery of inflation](https://arxiv.org/abs/2601.14288)
+
+   > Cosmology, LLM
+
+   [DeepInflation](https://github.com/pengzy-cosmo/DeepInflation)是面向暴涨模型研究与势函数发现的 AI agent，根据给定的观测目标（例如指定 ns 和 r，或以 ACT DR6 约束为例）自动搜索并验证单场慢滚暴涨势函数，同时把输出与既有文献背景对齐。系统架构包含主代理与符号回归子代理
+
+   - 主 LLM 代理负责理解用户自然语言需求、规划步骤与调度工具
+   - 子代理使用PySR配合自定义损失函数做数值验证
+
+   <img src="./Figures/image-20260122152418690.png" alt="image-20260122152418690" width="680px" />
+
+3. [Sample-efficient non-Gaussian noise reduction in gravitational wave data via learnable wavelets](https://arxiv.org/abs/2601.14326)
+
+   > Deep Learning, Gravitational Wave
+
+   [WaveletNet](https://github.com/Arush-Pimpalkar/WaveletNet)基于小波的神经网络架构，用于识别并抑制引力波数据中的非高斯噪声 glitch，重点针对形态上类似小波的高质量双黑洞候选混淆噪声。
+
+   <img src="./Figures/image-20260122153028441.png" alt="image-20260122153028441" width="680px" />
+
+4. [ExoMiner++ 2.0: Vetting TESS Full-Frame Image Transit Signals](https://arxiv.org/abs/2601.14877)
+
+   > Light Curve, Software
+
+   凌日系外行星巡天卫星（TESS）全帧图像（FFIs）为数百万颗恒星提供了光度时间序列。开发[ExoMiner++ 2.0](https://github.com/nasa/ExoMiner)用于行星与非行星。
+
+   <img src="./Figures/image-20260122155108983.png" alt="image-20260122155108983" width="680px" />
+
+## 2026-01-23
+
+1. [OmniSpectra: A Unified Foundation Model for Native Resolution Astronomical Spectra](https://arxiv.org/abs/2601.15351)
+
+   > Spectrum, Deep Learning
+
+   `OmniSpectra`光谱预训练模型。
+
+   在原始分辨率下直接处理任意长度天文光谱的基础模型，不需要重采样或插值。模型用自监督的掩码重建目标，在多套光谱巡天数据上联合预训练，并用有效性注意力掩码处理 padding 区域。它在源分类、红移估计、恒星与星系性质回归等任务上展现出很强的零样本与少样本迁移能力，整体优于多种现有谱模型。
+
+   <img src="./Figures/image-20260123130945459.png" alt="image-20260123130945459" width="680px" />
+
+2. [Optimizing Optical Searches for Supermassive Black Hole Binaries in AGN Light Curves: Fourier versus Bayesian Periodicity Detection](https://arxiv.org/abs/2601.15379)
+
+   > Light Curve, Method, Periodicity
+
+   在模拟AGN光变曲线上，比较[Lomb-Scargle](https://pyastronomy.readthedocs.io/en/latest/pyTimingDoc/pyPeriodDoc/gls.html)、[嵌套采样的贝叶斯模型选择 NBS](https://johannesbuchner.github.io/UltraNest/)、以及 [WWZ](https://github.com/skiehl/wwz/tree/main)的性能，结果显示NBS效果最好，NBS 与 GLSP 联合筛选能显著降低误报。
+
+3. [Unveiling the Spectral Morphological Division of Fast Radio Bursts with CHIME/FRB Catalog 2](https://arxiv.org/abs/2601.16048)
+
+   > Fast Radio Burst, Statistics, Machine Learning
+
+   UMAP+DBSCAN分析CHIME Catalog2。
+
+4. [Radio-Interferometric Image Reconstruction with Denoising Diffusion Restoration Models](https://arxiv.org/abs/2601.15844)
+
+   > Radio Interferometry, Deep Learning
+
+   [diffusionRI](https://github.com/epfl-radio-astro/diffusionRI)在 VLA FIRST 的射电星系图像上训练 DDPM，再在模拟的 VLA、EHT、ALMA 观测上用 DDRM 重建图像，得到显著优于 CLEAN 的画质与指标。
+
+   <img src="./Figures/image-20260123132024787.png" alt="image-20260123132024787" width="680px" />
+
+## 2026-01-26
+
+
+
