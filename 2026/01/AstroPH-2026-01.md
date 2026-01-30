@@ -378,5 +378,91 @@
 
 ## 2026-01-26
 
+1. [Multi-wavelength Study of A Superflare on RS CVn-type Star HD22468 Triggered at Hard X-ray by SVOM](https://arxiv.org/abs/2601.16558)
 
+   > Transient, High Energy
+
+   SVOM 的硬 X 射线相机 ECLAIRs 在 2025 年 1 月 9 日触发到一次瞬变，并通过地面光学监测与后随光谱确认它来自 RS CVn 型系统 HD 22468 的一次超级耀斑。
+
+## 2026-01-27
+
+1. [Baryonification III: An accurate analytical model for the dispersion measure probability density function of fast radio bursts](https://arxiv.org/abs/2601.18784)
+
+   > Fast Radio Burst, ISM, Cosmology
+
+   开发了一个完全解析的框架，用于预测使用重子化（BFC）模型快速射电暴（FRB）的色散测量（DM）的一点概率分布函数（PDF）。
+
+   作者进一步分析哪些气体剖面参数主导 PDF 形状，并检验常用的对数正态近似，结论是 Mc、μ、δ 等直接控制气体剖面的参数最关键，而对数正态在几百个 FRB 样本量下通常够用。 
+
+2. [AI-based separation of turbulence from coherent background flows in decaying hydrodynamic turbulence](https://arxiv.org/abs/2601.18163)
+
+   > Turbulence, Deep Learning
+
+   训练一个 Swin Transformer 编码器加 U-Net 解码器的模型，输入场 O(x,y) 是背景 B(x,y) 与湍流 I(x,y) 的叠加，网络输出是对 I(x,y) 的估计。
+
+   模型在早期与中期能稳定恢复湍流结构，在后期湍动能显著衰减时仍能给出视觉与谱上合理的湍流分量，并保持惯性区间的谱标度。 
+
+   <img src="./Figures/image-20260128113629365.png" alt="image-20260128113629365" width="680px" />
+
+## 2026-01-28
+
+1. [Constraining FRB Microstructure with Polarised Shot Noise](https://arxiv.org/abs/2601.19254)
+
+   > Fast Radio Burst, Theory
+
+   FRB爆发是多个高斯形微脉冲在强度上非相干叠加，能解释多样的偏振。
+
+2. [Low-frequency-selected Fast Radio Burst Host Galaxy Candidates](https://arxiv.org/pdf/2601.19525)
+
+   > Fast Radio Burst, Galaxy
+
+   把 CHIME 的 baseband 定位 FRB 与 LOFAR 的 LoTSS DR2 144 MHz 射电源表进行交叉匹配，从射电端寻找宿主候选体。
+
+   <img src="./Figures/image-20260128114322978.png" alt="image-20260128114322978" width="680px" />
+
+## 2026-01-29
+
+1. [Twenty-four thousand hours of GREENBURST observations with the GBT](https://arxiv.org/abs/2601.20143)
+
+   > Radio, Transient, Observation
+
+   介绍GreenBurst使用GBT累计24186小时的观测，找到50个脉冲星和3个FRB，包括一个新的脉冲星PSR J0039+5407。并且展示了一个看起来像FRB，但是因为是单波束，无法区分是FRB还是RFI。
+
+   <img src="./Figures/image-20260129160017002.png" alt="image-20260129160017002" width="680px" />
+
+2. [The Role of Long Period Variable Stars in Observational Astrophysics](https://arxiv.org/abs/2601.19984)
+
+   > Stellar, Review, Variable
+
+   关于长周期变星（LPVs）的综述，包括分类、光变形态与关键观测关系。后半部分集中在可直接用于天体物理的“关系式与应用”，比如不同波段与不同环境下的周期 光度关系如何做距离尺，如何用 LPV 追踪银河系结构与演化，还扩展到哈勃常数与系外行星线索等方向。
+
+3. [The Sound of Noise: Leveraging the Inductive Bias of Pre-trained Audio Transformers for Glitch Identification in LIGO](https://arxiv.org/abs/2601.20034)
+
+   > Gravitational Wave, Deep Learning
+
+   把引力波探测器的时频图当作音频问题来处理，用在大规模音频数据上预训练的 Audio Spectrogram Transformer 来提取 glitch 的表征。用 PCA 与 t-SNE 把高维嵌入空间可视化并做聚类，发现形成的簇与 Gravity Spy 的 glitch 类别高度一致。
+
+   <img src="./Figures/image-20260129161435874.png" alt="image-20260129161435874" width="680px" />
+
+4. [RM-Tools: Software for Analyzing Polarized Radio Spectra](https://arxiv.org/abs/2601.20092)
+
+   > Fast Radio Burst, Software
+
+   RM-Tools用来做FRB的RM测量。
+
+## 2026-01-30
+
+1. [Extreme-Value Distribution Analysis of the Second CHIME/FRB Catalog: Assessing the Rarity of the One-off FRB 20250316A](https://arxiv.org/abs/2601.21870)
+
+   > Fast Radio Burst, Statistics
+
+   用极值理论里的广义极值分布（GEV）去建模CHIME/FRB catalog2中非重复FRB 的亮度尾部，用来量化 FRB 20250316A 到底有多罕见。
+
+   <img src="./Figures/image-20260130161215384.png" alt="image-20260130161215384" width="680px" />
+
+2. [Cross-correlating galaxies and cosmic dispersion measures: Constraints on the gas-to-halo mass relation from 2MASS galaxies and 133 localized fast radio bursts](https://arxiv.org/abs/2601.21336)
+
+   > Fast Radio Burst, Cosmology
+
+   把 2MASS 星系（2MRS）的大尺度结构与 133 个已定位 FRB 的“宇宙色散量”做互相关，试图测到星系周围自由电子导致的 DM 增量信号。
 
