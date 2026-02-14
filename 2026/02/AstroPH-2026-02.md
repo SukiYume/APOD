@@ -80,3 +80,127 @@
 
 ## 2026-02-09
 
+1. [An Archival Optical Counterpart Search for Extragalactic Fast X-Ray Transients Discovered by Einstein Probe](https://arxiv.org/abs/2602.06321)
+
+   > High Energy, Multi Wavelength
+
+   对EP的X射线暂现源找光学对应体。将EP240506a与光学暂现源AT 2024ofs关联起来，并用VLT光谱给出宿主星系红移 z≈0.12，同时结合多波段早期数据判断其光度与演化符合核坍缩超新星起源。
+
+   <img src="./Figures/image-20260209131432266.png" alt="image-20260209131432266" width="680px" />
+
+## 2026-02-10
+
+1. [Imagining the Alien: Human Projections and Cognitive Limitations](https://arxiv.org/abs/2602.07284)
+
+   > SETI
+
+   回顾了人类长期以来对外星生命的想象史，指出这些形象往往来自地球生命形态与人类文化心理的映射。
+
+   <img src="./Figures/image-20260210124309293.png" alt="image-20260210124309293" width="680px" />
+
+   文中用多个案例说明这种映射如何在宗教叙事，伪发现与科幻母题中反复出现，并把它解释为个体与集体层面的认知局限。
+
+   文章进一步讨论了更偏数据驱动的技术迹象搜索，以及快速演化的 AI 可能如何帮助我们减少人类中心偏差，从而改进对高级外星智能的设想与搜索策略。
+
+2. [Toward Vision-Language Assistants for Radio Astronomical Source Analysis](https://arxiv.org/abs/2602.07469)
+
+   > Radio, LLM
+
+   测试开源与商用视觉语言模型在六个射电天文图像任务（弥散结构检测，形态分类，扩展射电星系识别，成像伪影检测，图像复杂度判别，以及 FR I 与 FR II 等射电星系形态二分类）上的零样本能力。
+
+   结果表明，微调后做任务能力变强，但是导致多模态能力下降，纯视觉模型仍然显著更强。
+
+   <img src="./Figures/image-20260210124554214.png" alt="image-20260210124554214" width="680px" />
+
+3. [A MeerKAT search for persistent radio sources towards twenty-five localised Fast Radio Bursts](https://arxiv.org/abs/2602.07716)
+
+   > Fast Radio Burst, PRS
+
+   MeerKAT对25个定位FRB搜索PRS，在1.28GHz找到14个射电源，12个没有（其中一个观测3次，2次有，1次没有）。结合X射线数据，认为射电源更像恒星形成区，致密与否还需要更高分辨率的观测。
+
+   <img src="./Figures/image-20260210131121947.png" alt="image-20260210131121947" width="680px" />
+
+   目前有PRS的源有，FRB20121102A、FRB20190520B、FRB20190417A、FRB20240114A。另外，FRB20201124A的PRS亮度低，像恒星形成区。
+
+## 2026-02-11
+
+1. [astromorph: Self-supervised machine learning pipeline for astronomical morphology analysis](https://arxiv.org/abs/2602.09223)
+
+   > Astronomy, Deep Learning
+
+   [astromorph](https://github.com/onsala-space-observatory/astromorph)用BYOL自监督表征学习，把天文图像压缩到形态嵌入空间，从而支持相似样本检索、聚类和可视化探索。
+
+   <img src="./Figures/image-20260211143704924.png" alt="image-20260211143704924" width="680px" />
+
+2. [Talking with the Latents -- how to convert your LLM into an astronomer](https://arxiv.org/abs/2602.09670)
+
+   > Astronomy, LLM
+
+   LLM很难从恒星光谱直接推理。这里先用一个已经很擅长处理光谱的基础模型，把光谱压成一段高维 latent 特征，然后训练一个很轻量的MLP，把 2048 维的 latent 映射成 K 个伪 token 的 embedding，跟文字拼在一起，送进 LLM 生成答案。
+
+   从巡天管线里拿到恒星参数（比如有效温度 Teff、表面重力 log g、金属丰度 [Fe/H]），把这些参数喂给 teacher（文中用 Gemini 2.5 flash 生成），让它以天文学家的口吻写一段不超过 50 词的描述；训练的 student 是 Llama 1B、Llama 8B、Qwen 32B 这些更小的 LLM，但它们在训练时并不是直接看参数，而是看由光谱基础模型从真实光谱提取出的 latent。
+
+   <img src="./Figures/image-20260211180349194.png" alt="image-20260211180349194" width="680px" />
+
+## 2026-02-12
+
+1. [The indiscriminate adoption of AI threatens the foundations of academia](https://arxiv.org/abs/2602.10165)
+
+   > Astronomy, LLM
+
+   用vibe coding和多智能体式研究流程举例，强调速度提升背后会带来可解释性与可复现性下降，以及错误更难被发现的问题。
+
+2. [Why do we do astrophysics?](https://arxiv.org/abs/2602.10181)
+
+   > Astronomy, LLM
+
+   在 LLM 能参与科研的背景下，写了一份白皮书来梳理天体物理学的目标、规范与价值。
+
+   用一组“points of agreement”来回答“什么算天体物理”。核心标准很清晰：一个项目只要在研究宇宙时产出科学新颖性，也就是做出新的测量、新的解释或预测、方法改进、发现新对象，并且和现有文献里的重要问题发生联系，它就算“在做天体物理”。
+
+3. [Constraining the Evolution of the HI Spin Temperature with Fast Radio Bursts](https://arxiv.org/abs/2602.10328)
+
+   > Fast Radio Burst, Galaxy, HI
+
+   用 FRB 作为背景光源搜索宿主星系的 HI 吸收线。
+
+   <img src="./Figures/image-20260213004748035.png" alt="image-20260213004748035" width="680px" />
+
+   用 ASKAP 的 FRB 20211127I 配合 MeerKAT 的 HI 发射观测做概念验证，给出积分光学厚度的上限，并据此得到 Tspin 的下限约 26 K。
+
+4. [A 682-second X-ray Periodicity in CH Cygni: Evidence for a Magnetic White Dwarf](https://arxiv.org/abs/2602.10511)
+
+   > White Dwarf, High Energy
+
+   在 XMM Newton 的 X 射线光变中发现 CH Cyg 存在显著的 682.5 s 相干周期信号。文章把该周期解释为白矮星自转周期，从而为 CH Cyg 含磁白矮星提供直接证据，并指出它将成为继 R Aqr 之后第二个确认存在 X 射线脉动的共生星系统。
+
+   <img src="./Figures/image-20260213004846236.png" alt="image-20260213004846236" width="680px" />
+
+5. [GECAM discovery of the second FRB-associated Magnetar X-ray Burst from SGR J1935+2154](https://arxiv.org/abs/2602.10895)
+
+   > Fast Radio Burst, Magnetar
+
+   报告 GECAM 在 2022 年 10 月 14 日探测到来自 SGR J1935+2154 的一次明亮磁星 X 射线暴，并与 CHIME 和 GBT 记录到的 FRB 事件对应起来。
+
+   <img src="./Figures/image-20260213005018040.png" alt="image-20260213005018040" width="680px" />
+
+## 2026-02-14
+
+1. [DeepRed: an architecture for redshift estimation](https://arxiv.org/abs/2602.11281)
+
+   > Galaxy, Redshift, Deep Learning
+
+   `DeepRed`用多种现代视觉网络从天文图像里直接回归红移，覆盖星系，引力透镜，引力透镜超新星等不同形态目标。还用 SHAP 做可解释性可视化与定量定位评估，验证模型关注区域与目标位置一致。
+
+   <img src="./Figures/image-20260214004807758.png" alt="image-20260214004807758" width="680px" />
+
+2. [NE2025: An Updated Electron Density Model for the Galactic Interstellar Medium](https://arxiv.org/abs/2602.11838)
+
+   > ISM, Fast Radio Burst, Pulsar
+
+   NE2005
+
+   <img src="./Figures/image-20260214004949790.png" alt="image-20260214004949790" width="680px" />
+
+## 2026-02-17
+
