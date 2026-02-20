@@ -184,7 +184,7 @@
 
    <img src="./Figures/image-20260213005018040.png" alt="image-20260213005018040" width="680px" />
 
-## 2026-02-14
+## 2026-02-13
 
 1. [DeepRed: an architecture for redshift estimation](https://arxiv.org/abs/2602.11281)
 
@@ -202,5 +202,157 @@
 
    <img src="./Figures/image-20260214004949790.png" alt="image-20260214004949790" width="680px" />
 
+## 2026-02-16
+
+1. [Astrophysics Wrapped 2025: Year-in-Review of Every Astrophysics arXiv Paper from 2025](https://arxiv.org/abs/2602.12303)
+
+   > Astronomy, Review
+
+   统计2025年astro-ph的文章，用到的最多的望远镜，每个国家出现的最多的目录。
+
+   <img src="./Figures/image-20260216163733301.png" alt="image-20260216163733301" width="680px" />
+
+   <img src="./Figures/image-20260216163821138.png" alt="image-20260216163821138" width="680px" />
+
+2. [CHIME/Slow overview and pilot survey: A new backend to search for second-duration radio transients with the CHIME telescope](https://arxiv.org/abs/2602.12793)
+
+   > Instrument, LPT
+
+   CHIME/Slow，用来做秒级暂现源的后端。用约17天的归档数据做先导巡天，探测到9个爆发事件，其中包含一个新的非重复源以及来自已知高活跃重复源 FRB 20220912A 的 8 个爆发。
+
+   <img src="./Figures/image-20260216163958515.png" alt="image-20260216163958515" width="680px" />
+
+3. [Anomaly Hunter for Alerts (AHA): Anomaly Detection in the ZTF Transient Alert Stream](https://arxiv.org/abs/2602.12955)
+
+   > Transient, Anomaly Detection
+
+   在 ZTF 的实时告警流中，针对三种告警数据模态训练三个自编码器，包括对象特征表、三联图像切片、以及光变曲线，做异常事件排序与筛选。在 25 天的在线运行里筛出 87 个值得后续跟进的异常超新星候选，且不同模态检出的异常集合重叠很小。
+
 ## 2026-02-17
+
+1. [Detection of Cyclotron Absorption in the Radio Emission of GPM 1839-10](https://arxiv.org/abs/2602.13742)
+
+   > Transient, LPT, Observation
+
+   FAST观测GPM J1839-10，看到正交偏振模式（OPM）变换与偏振度下降相关联，支持多模态非相干叠加导致的消偏振。
+
+   <img src="./Figures/image-20260217214446513.png" alt="image-20260217214446513" width="680px" />
+
+2. [Predicting New Concept-Object Associations in Astronomy by Mining the Literature ](https://arxiv.org/abs/2602.14335)
+
+   > Astronomy, LLM
+
+   [Astro Link Forecasting](https://github.com/JinchuLi2002/astro-link-forecasting)从 astro-ph 全量语料构建“概念–天体对象”的知识图谱，然后把问题定义为时间预测任务，在多个时间截断点上预测未来会出现的“概念–对象新关联”，并提出统一的推理期概念相似度平滑来缓解聚类概念的语义重叠。
+
+   <img src="./Figures/image-20260217214730393.png" alt="image-20260217214730393" width="680px" />
+
+3. [Estimation of neutron star mass and radius of FRB 20240114A by identification of crustal oscillations](https://arxiv.org/abs/2602.14353)
+
+   > Fast Radio Burst, Theory
+
+   把 FRB 20240114A 报告的准周期振荡（QPO）解释为中子星地壳扭转振荡模，并结合核物质饱和性质的实验约束来反推致密星结构参数。
+
+## 2026-02-18
+
+1. [Well-being and career instability across genders in the Spanish Astronomical Society](https://arxiv.org/abs/2602.15085)
+
+   > Astronomy
+
+   对西班牙天文学会（SEA）的研究人员做了一次覆盖面较广的问卷调查，系统评估了幸福感，职业满意度与家庭与工作的协调情况，并按性别与职业阶段做了对比分析。
+
+   <img src="./Figures/image-20260218132947002.png" alt="image-20260218132947002" width="680px" />
+
+   结果显示，职业不稳定，家庭与工作难以兼顾，以及发表压力等因素与较低的幸福感和更强的离开学界意愿高度相关。“获得tenure前做博士后年限随时间增长”呈现职业稳定性在长期变差。
+
+## 2026-02-19
+
+1. [A targeted machine learning approach for detecting diffuse radio emission with Astronomaly: Protege](https://arxiv.org/abs/2602.15930)
+
+   > Galaxy, Radio, Deep Learning, Anomaly Detection
+
+   把BYOL这类自监督方法用从射电切图里抽特征，并结合 Astronomaly 里的 PROTEGE 框架做迭代式的人机协同标注与重排序，把“疑似弥散源”排到前面。
+
+   <img src="./Figures/image-20260221000751550.png" alt="image-20260221000751550" width="680px" />
+
+2. [A fast radio burst cyclone in technicolour: evidence of plasma lensing](https://arxiv.org/abs/2602.16409)
+
+   > Fast Radio Burst, Observation
+
+   Parkes超宽带对FRB20240114A的观测，认为FRB的谱时变化与**前景等离子体透镜放大**一致，并用极端散射事件 ESE 的高斯透镜模型去拟合爆发率随时间的变化。
+
+   <img src="./Figures/image-20260221001904971.png" alt="image-20260221001904971" width="680px" />
+
+3. [The LOFAR Two-metre Sky Survey: VII. Third Data Release](https://arxiv.org/abs/2602.15949)
+
+   > LOFAR, Survey, Catalog
+
+   发布 LoTSS 的第三次数据发布 DR3，给出覆盖北天大部分区域的 120–168 MHz 连续谱拼接图与超大规模源表。
+
+   <img src="./Figures/image-20260221002205437.png" alt="image-20260221002205437" width="680px" />
+
+## 2026-02-20
+
+1. [A positive period derivative in the quasi-periodic eruptions of ZTF19acnskyy](https://arxiv.org/abs/2602.16776)
+
+   > Transient, Period
+
+   在 QPE 源 ZTF19acnskyy 里首次直接测到了周期导数，周期在平滑变长，pdot=1.7e-2 d/d。评估了多类物理解释，但这些方案都无法把观测到的周期增长完整自洽地解释掉。
+
+   <img src="./Figures/image-20260220224135891.png" alt="image-20260220224135891" width="680px" />
+
+2. [Testing the cosmic distance-duality relation with localized fast radio bursts: a cosmological model-independent study ](https://arxiv.org/abs/2602.16869)
+
+   > Fast Radio Burst, Cosmology
+
+   使用定位的FRB，用ANN建立红移和DM之间的关系，然后预测哈勃常数，发现跟Ia型超新星给出的结果没有显著偏离。
+
+   <img src="./Figures/image-20260220224417536.png" alt="image-20260220224417536" width="680px" />
+
+3. [Kolmogorov analysis of pulsar TOA](https://arxiv.org/abs/2602.17188)
+
+   > Pulsar, Statistics
+
+   把 Kolmogorov stochasticity parameter（KSP）用于 NANOGrav 的 68 颗脉冲星 TOA 数据白噪声分量，量化随机性程度。
+
+   发现不同脉冲星的白噪声随机性存在明显不均一性，并且随机性随时间变化，提示可能存在非平稳的物理或系统过程影响计时。
+
+   ::: tip KSP
+
+   在这篇文章里，Kolmogorov stochasticity parameter（KSP）用一组样本的经验累计分布函数和某个参考的理论累计分布函数之间的最大偏差来定义。先给定理论分布的 CDF
+   $F(x)\equiv \Pr(X\le x)$。对观测样本 $x_1,\ldots,x_n$ 定义经验 CDF
+   $$
+   F_n(x)\equiv \frac{1}{n}\sum_{i=1}^{n}\mathbf{1}{x_i\le x}.
+   $$
+   然后定义一元 Kolmogorov 距离
+   $$
+   D_n \equiv \sup_{x\in \mathbb{R}} |F_n(x)-F(x)|.
+   $$
+   KSP 就是它的缩放形式
+   $$
+   \lambda_n \equiv \sqrt{n},D_n ;=; \sqrt{n}\sup_{x\in \mathbb{R}} |F_n(x)-F(x)|.
+   $$
+   文中还提醒，在零假设 $X_1,\ldots,X_n\sim F$ 且 $F$ 连续时，$\lambda_n$ 的分布函数收敛到 Kolmogorov 的极限分布
+   $$
+   \Phi(\lambda)=\sum_{k=-\infty}^{+\infty}(-1)^k e^{-2k^2\lambda^2},\quad \Phi(0)=0.
+   $$
+
+   :::
+
+4. [Deeper detection limits in astronomical imaging using self-supervised spatiotemporal denoising](https://arxiv.org/abs/2602.17205)
+
+   > JWST, Deep Learning
+
+   [ASTERIS](https://github.com/freemercury/ASTERIS_THU)一种自监督的时空去噪算法，把多次曝光的时序与空间信息联合起来抑制相关噪声。在保持 PSF 与测光准确度的同时，ASTERIS 能在 90% 完整度与纯度标准下把探测极限推进约 1 等。
+
+   <img src="./Figures/image-20260220224850163.png" alt="image-20260220224850163" width="680px" />
+
+5. [The CGM with local universe FRBs: evidence of strong AGN feedback in a massive elliptical galaxy](https://arxiv.org/abs/2602.16781)
+
+   > Fast Radio Burst, ISM, Cosmology
+
+   选择5个local宇宙中的FRB，其宿主星系的DM可忽略，来限制每个晕中 CGM 的质量。发现其中一个FRB，唯一一个大质量椭圆宿主星系，已经失去了其重子。该星系显示出过去 AGN 活动的证据，这与星系团尺度晕中强 AGN 反馈的图像一致。
+
+   <img src="./Figures/image-20260220235449750.png" alt="image-20260220235449750" width="680px" />
+
+## 2026-02-23
 
