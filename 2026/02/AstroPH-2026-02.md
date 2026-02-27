@@ -356,3 +356,95 @@
 
 ## 2026-02-23
 
+1. [Euclid: An automated system to match Rubin transient alerts to Euclid observations](https://arxiv.org/abs/2602.18173)
+
+   > Transient, Optical, Light Curve
+
+   做了一个原型系统，用来把 Rubin 的瞬变告警自动匹配到 Euclid 的观测数据，并生成可直接用于科学分析的联合产物。
+
+   <img src="./Figures/image-20260225001412507.png" alt="image-20260225001412507" width="680px" />
+
+## 2026-02-24
+
+1. [Probing the maximum energy of fast radio bursts using thousands of sources from the Second CHIME/FRB Catalog](https://arxiv.org/abs/2602.19335)
+
+   > Fast Radio Burst, Statistics
+
+   用第二版 CHIME/FRB catalog 里的 2998 个一次性 FRB，统计约束 FRB 群体最大各向同性等效能量的下限。提出一个结合 DM、fluence 与 P(z|DM) 的推断框架，并用模拟样本评估高 DM 离群值对最大能量估计的抬高效应。
+
+   得到 E_iso 最大值下限范围约为 1.2×10^41 到 1.9×10^42 erg，最佳估计约 1.2×10^42 erg，并指出大量 FRB 的能量分布在约 10^42 erg 附近呈现集体上限迹象。
+
+2. [Potential periodic signals in blazars: significance, forecasting and deep learning](https://arxiv.org/abs/2602.19214)
+
+   > High Energy, Period, Deep Learning
+
+   重新分析了 6 个耀变体的 Fermi LAT 伽马射线光变曲线，用 LSP 和 WWZ 检查周期性与瞬态性。用 STL 分解做去趋势，发现去趋势通常会提高主 QPO 信号的显著性，同时 WWZ 显示除了 PG 1553+113 之外，多数源都存在约 4000 天以内的瞬态衰减行为。
+
+   用统计方法 STLForecaster 和 Transformer 进行 4 年外推预测，测试集上 Transformer 更准，并给出可验证的预言，例如 PG 1553+113 的 QPO 持续增强，以及 PKS 0139 09 的新生 QPO 信号在未来几年变强。
+
+   <img src="./Figures/image-20260225001826046.png" alt="image-20260225001826046" width="680px" />
+
+## 2026-02-25
+
+1. [ASKAP J005512.2–255834: A Luminous, Long-Lived Radio Transient at z = 0.1 — an Orphan Afterglow or an off-nuclear TDE from an IMBH?](https://arxiv.org/abs/2602.20522)
+
+   > Transient, LPT
+
+   ASKAP J0055–2558，最初在寻找引力波相关 orphan afterglow 的项目中发现，但没有引力波对应。
+
+   该源在不到 250 天内亮度上升约 20 倍，并且在首次探测后 1000 多天仍可被探测到，0.3 到 9 GHz 的谱演化与同步辐射一致。
+
+   综合射电光变、谱演化、宿主环境和多波段缺失信号后，作者认为它更像是长 GRB 的晚期 orphan afterglow 或一次来自 IMBH 的偏核 TDE，但当前数据还不能完全定论。
+
+   <img src="./Figures/image-20260226000936498.png" alt="image-20260226000936498" width="680px" />
+
+2. [Glance: A Comprehensive Framework for Galactic Archaeology](https://arxiv.org/abs/2602.20389)
+
+   > Stellar, Software
+
+   [Glance](https://gitlab.com/iris.b/glance)用来把光度学、恒星种群、气体性质、运动学和动力学建模整合到一条统一管线里。它把 Fado、Starlight、RemoveYoung、pPXF、Bayes-LOSVD、Dynamite 等常用工具串起来，并补齐消光校正、退红移、Voronoi 分箱、星云连续谱校正等预处理步骤。作者用 NGC 1566 的 MUSE 数据做示范，展示了该流程如何从 IFS 数据得到动力学分解结果，并指出其内盘结构明显偏离常见的指数盘假设。
+
+   <img src="./Figures/image-20260226001220844.png" alt="image-20260226001220844" width="680px" />
+
+## 2026-02-26
+
+1. [The MeerKAT 1.3 GHz Survey of the Large Magellanic Cloud](https://arxiv.org/abs/2602.21353)
+
+   > MeerKAT, Galaxy, Radio, Observation
+
+   MeerKAT对大麦哲伦云在1.3 GHz的射电连续谱。核心卖点是高灵敏度、高分辨率、全 Stokes 成像。
+
+   <img src="./Figures/image-20260227002546383.png" alt="image-20260227002546383" width="680px" />
+
+## 2026-02-27
+
+1. [A steadily declining dispersion measure for the repeating fast radio burst FRB 20220529A: Evidence for an FRB engine embedded in an expanding supernova remnant](https://arxiv.org/abs/2602.22309)
+
+   > Fast Radio Burst, Observation
+
+   CHIME对FRB20220529在3.2年之间的观测，发现其 DM 以每年约 0.881 pc/cc 的速率稳定下降，说明源附近电子柱密度在持续减小。还看到一次短时的 DM 上升，并且它紧挨着此前报告过的 RM 暴涨事件。认为这个 FRB 很可能位于一个年轻的、正在膨胀的超新星遗迹中。
+
+   <img src="./Figures/image-20260227114253411.png" alt="image-20260227114253411" width="680px" />
+
+2. [Trial dispersion measure spacing in fast radio burst searches with HEIMDALL](https://arxiv.org/abs/2602.22753)
+
+   > Fast Radio Burst, Software
+
+   测试Heimdall的DM参数该如何设置，默认的dm_tol=1.25会漏掉很多东西。如果需要最低响应在 80% 到 90%，需要 `dm_tol` 大致在 `1.05` 到 `1.16` 之间。
+
+3. [The ASKAP Variables and Slow Transients (VAST) Extragalactic Survey - Data Release 1](https://arxiv.org/abs/2602.22739)
+
+   > Survey, Radio, Catalog, LPT, Transient
+
+   发布了 VAST 河外巡天 DR1，数据覆盖 276 个视场、约 12300 平方度、2945 次观测，频率为 888 MHz，典型 rms 为 0.24 mJy/beam，每个视场大多有 10 到 11 次观测。
+
+   把原始样本整理成约 0.5 百万个可靠源和 640 万条测量，做了一个非定向的变源搜索，最终找到 117 个天体物理学上的真实变源，包括 27 个脉冲星、40 个射电恒星、44 个 AGN、2 个已知超新星、1 个超新星候选体、1 个棕矮星，以及 2 个暂时无法识别的源。最后有个表，还有土星和水星。
+
+4. [Tight bounds on the Mawell-Carroll-Field-Jackiw parameters using Fast Radio Bursts](https://arxiv.org/abs/2602.22996)
+
+   > Fast Radio Burst, Cosmology
+
+   把 FRB 的到达时延和法拉第旋转放到 Maxwell-Carroll-Field-Jackiw 电动力学框架下讨论，研究宇宙手征介质中的 CPT-odd / Lorentz-violating 参数约束。
+
+   结果表明，用 DM 可约束到 10⁻²⁶ 到 10⁻²⁴ GeV 量级，用 RM 则能压到 10⁻⁴³ GeV，明显比脉冲星 RM 约束更紧。
+
