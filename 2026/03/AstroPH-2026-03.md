@@ -225,3 +225,109 @@
 
 ## 2026-03-16
 
+1. [Gravitational self-lensing of Fast Radio Bursts in neutron star magnetospheres: II. Applications to strong repeaters and the CHIME population](https://arxiv.org/abs/2603.12386)
+
+   > Fast Radio Burst, Gravitational Lensing, Theory
+
+   把中子星磁层内自引力透镜模型拿去和FAST重复暴源、以及CHIME总体样本做比较。发现FRB 20121102A的双峰能量分布可以用两个热点来解释，要求自转轴、视线和热点位置都非常对齐，夹角大致在2°以内；FRB 20201124A和FRB 20220912A也支持类似几何。文中还指出，自转轴进动可以解释FRB 20121102A能量分布的长期演化和一段时间的消失，而把模型推广到随机取向的宇宙学总体后，也能较好复现CHIME样本的距离分布和流量分布。
+
+   <img src="./Figures/image-20260316124102254.png" alt="image-20260316124102254" width="680px" />
+
+2. [The influence of plasma lensing magnification to the luminosity function of fast radio bursts](https://arxiv.org/abs/2603.12691)
+
+   > Fast Radio Burst, Plasma Lensing, Theory
+
+   研究等离子体透镜会怎样扭曲FRB的光度函数。作者在多透镜平面上放置高斯气体团块，测试不同电子密度分布和两种本征光度函数模型。结果表明，等离子体透镜一方面会把一部分源压到探测阈值以下，比例大约在1%到15%之间；另一方面又会把少数事件放大到异常明亮的高光度端，因此会给FRB总体统计带来系统偏差。论文还指出，这种效应和自由电子密度功率谱有关，但宿主星系或银河系内的散射会削弱这种透镜效应。
+
+## 2026-03-17
+
+1. [The extinction distances for over a thousand planetary nebulae with Gaia measurements](https://arxiv.org/abs/2603.15139)
+
+   > Planetary Nebula, Distance, Gaia
+
+   用 Gaia DR3 的恒星消光-距离关系来给行星状星云测距离，结合改进的 blue-edge 方法和 extinction-jump 模型，构建了一个包含 1066 个 PN 的均一样本。
+
+## 2026-03-18
+
+1. [Optimising the FRB Search Pipeline for the Northern Cross Radio Telescope](https://arxiv.org/abs/2603.16345)
+
+   > Fast Radio Burst, Pipeline, Radio Telescope
+
+   给 Northern Cross 的 FRB 搜索流水线做参数优化。作者往真实噪声 filterbank 数据里注入人工 FRB 脉冲，系统扫描 Heimdall 里的 DM tolerance、boxcar filter 宽度和 gulp size，比较不同配置下的检出精度和运行速度。结果表明，FRB 搜索里灵敏度和吞吐率之间有很明显的 trade-off，不能只盯着单个指标调参；他们找到了一个经验最优配置，既能较稳地恢复注入信号，又能在单块 GPU 上轻松满足实时处理需求。
+
+2. [Explainable machine learning workflows for radio astronomical data processing](https://arxiv.org/abs/2603.16350)
+
+   > Radio Astronomy, Machine Learning, Explainability
+
+   讨论怎么把“可解释机器学习”引进射电天文数据处理流程。作者把模糊推理和深度学习结合起来，用 Takagi-Sugeno-Kang fuzzy system 处理射电干涉测量里 direction-dependent calibration 的离群源选择问题，目标是在保持自动化效果的同时，让天文学家能看懂模型为什么这么选。模拟结果显示，这种带 fuzzy input layer 的模型，性能和纯数据驱动方法差不多，在高噪声下可能更稳；同时还能识别冗余输入、发现训练样本覆盖不足的情形，并判断哪些输入特征真正重要。 
+
+3. [Metastable helium in the thermosphere](https://arxiv.org/abs/2509.14499)
+
+   > Atmosphere, SPHEREx, Helium
+
+   SPHEREx 在 commissioning 数据里看到的 1.083 um 亮发射线，其实是地球高层热层里的 He I 1.0833 um 三重线，来自亚稳态氦对太阳光子的共振散射。
+
+## 2026-03-19
+
+1. [A Mass Transferring Brown Dwarf Binary on a 57 Minute Orbit](https://arxiv.org/abs/2603.17038)
+
+   > Brown Dwarf, Binary, Accretion
+
+   发现一个正在稳定传质的褐矮星双星系统 ZTF J1239+8347，轨道周期只有 57.41 分钟。作者用 ZTF 的高振幅短周期光变先把它捞出来，再结合 Gaia 视差和光学/近红外光谱，推断吸积热点温度约 8904 K，吸积星大气温度约 1500 K。这个系统看起来是 direct-impact accretor，更像极短周期双白矮星里的直接撞击吸积，而不是普通CV。
+
+   <img src="./Figures/image-20260319155034770.png" alt="image-20260319155034770" width="680px" />
+
+2. [Scatter in the Relation between Persistent Radio Source Luminosity and Fast Radio Burst Rotation Measure: A Window into Circum-burst Environments](https://arxiv.org/abs/2603.17615)
+
+   > Fast Radio Burst, Persistent Radio Source, Environment
+
+   研究重复FRB对应的持续射电源（PRS）光度和爆发RM之间关系里的弥散，想用弥散成都来约束FRB周围星云的演化。从五个已确认的 FRB-PRS 系统出发，建立 $L_\nu \propto R^\epsilon |{\rm RM}|$ 的标度关系，并用残差统计约束组合演化指数 $\alpha|\epsilon| = 1.5 \pm 0.7$。这个结果不太支持 Sedov-Taylor 阶段的 SNR、SNR/ISM 自由膨胀阶段的反向激波、以及由衰减脉冲星风驱动的老 PWN；反而更接近年轻、快速膨胀的星云，比如自由膨胀阶段的前向激波或近似恒定风驱动的年轻 PWN。
+
+   <img src="./Figures/image-20260319154942443.png" alt="image-20260319154942443" width="680px" />
+
+## 2026-03-20
+
+1. [Discovery of Bimodal Drift Rate Structure in FRB 20240114A: Evidence for Dual Emission Regions](https://arxiv.org/abs/2603.18109)
+
+   > Fast Radio Burst, Statistics, Machine Learning
+
+   对 FAST 观测到的重复暴 FRB 20240114A 的 233 个 upward-drifting burst cluster 做无监督聚类，用 UMAP + HDBSCAN 在 8 维特征空间里找子类。
+
+   <img src="./Figures/image-20260320140635986.png" alt="image-20260320140635986" width="680px" />
+
+   识别出一个由 45 个 burst cluster 组成的极端子样本 C1，它们的平均 drift rate 比其余 upward-drifting 事件高约 2.5 倍（245.6 vs 98.1 MHz/ms），同时峰值频率更低、持续时间更短。进一步用 GMM、Ashman’s D 和 gap analysis 检验后，发现这个 bimodality 在只保留单峰 U1 事件时仍然成立，因此不像是分类定义带来的假信号。
+
+   作者把它解释为磁层里可能存在两个空间分离的辐射区，分别产生不同 drift rate 的 upward-drifting bursts。
+
+2. [Setting SAIL: Leveraging Scientist-AI-Loops for Rigorous Visualization Tools](https://arxiv.org/abs/2603.18145)
+
+   > Astronomy, LLM, Visualization
+
+   提出一个 Scientist-AI-Loop（SAIL）工作流，核心想法是把科学逻辑和代码实现拆开：研究者负责物理假设、边界条件和科学正确性，LLM 负责快速写交互式前端和可视化代码。
+
+   <img src="./Figures/image-20260320140743716.png" alt="image-20260320140743716" width="680px" />
+
+   这种人机回路能把原本要花很久的交互工具开发压缩到几天内，同时尽量避免“代码能跑但科学上不对”的问题。文章用两个浏览器端案例来演示这个流程，一个是引力透镜可视化工具，另一个是大尺度结构形成 sandbox。
+
+3. [Learning to See Sharper: A Physics-Informed Artificial Intelligence Framework for Super-Resolving Galaxy Spectra](https://arxiv.org/abs/2603.18357)
+
+   > Galaxy, Spectroscopy, Deep Learning
+
+   用深度学习做星系光谱的 super-resolution，把低分辨率 JWST/NIRSpec prism 光谱增强到接近中分辨率 grating 光谱的效果。训练集来自 JADES 的 1187 组配对观测，覆盖 1–5 μm；模型分三步，先做初步超分，再估红移，最后用 physics-informed 的残差模块去恢复发射线形状和连续谱细节。
+
+   测试结果表明，模型能把 [O II]、Hβ、[O III]、Hα 等关键诊断线的信噪比明显提高，还能把 prism 里本来混在一起的 [O III] 双线和 Hβ 分开。
+
+   <img src="./Figures/image-20260320140843132.png" alt="image-20260320140843132" width="680px" />
+
+4. [A systematic search for physical associations between fast radio bursts and astrophysical transients](https://arxiv.org/abs/2603.18487)
+
+   > Fast Radio Burst, Transient, Bayesian Inference
+
+   系统搜索 FRB 和其他高能暂现源之间的物理关联，样本包括 3765 个 FRB（第二版 CHIME/FRB catalog 加上 124 个有红移的精确定位 FRB）。
+
+   建立了一个 3D Bayesian 框架，同时考虑角距离、定位误差和红移约束，来计算 FRB-AT 候选对的关联概率。交叉匹配后找到了 14 对 FRB-光学暂现源候选和 15 对 FRB-GRB 候选；其中之前就有人提过的 FRB 20180916B 和 AT 2020hur 关联概率达到 0.9998，而另一个常被讨论的 FRB 20190309A 和短暴 GRB 060502B 只有 0.83，不够显著。
+
+   总体结论是：除了已知那一例，没有新的统计显著 FRB-AT 关联被找到；小角距离本身不够，真正关键的是高精度定位。 
+
+## 2026-03-23
+
