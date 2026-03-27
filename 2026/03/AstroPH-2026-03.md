@@ -331,3 +331,121 @@
 
 ## 2026-03-23
 
+1. [The Vera C. Rubin Observatory Prompt Processing System](https://arxiv.org/abs/2603.19541)
+
+   > Rubin, Pipeline, Transient
+
+   介绍 Rubin 天文台的实时 Prompt Processing 系统，目标是在每晚约 10 TB 原始图像上做低延迟处理，在快门关闭后 60–120 秒内产出瞬变告警。系统采用按 visit-detector 拆分任务的 Kubernetes/KEDA 架构，支持最高约 1700 个 pod 并行处理；在 commissioning 中，团队已经向 broker 连续发送过每晚约 400 万条告警，验证了整体吞吐能力，不过共享数据库和中心仓库仍然是延迟与可靠性的主要瓶颈。
+
+   <img src="./Figures/image-20260324135112607.png" alt="image-20260324135112607" width="680px" />
+
+2. [SpecZoo: An AI-Powered Platform for Spectral Analysis and Visualization in Science and Education](https://arxiv.org/abs/2603.19555)
+
+   > Spectroscopy, AI, Platform
+
+   构建了一个面向天文光谱分析的 AI 平台[SpecZoo](https://nadc.china-vo.org/speczoo-system/)，把交互式可视化、自动分类、物理参数估计、红移测量、异常识别、光谱标注和多模态数据整合放到一个网页系统里。平台已经直接服务于国家天文科学数据中心里的 LAMOST、SDSS、DESI 等项目；方法上集成了 MSPC-Net、SLAM 等模型，既能做自动预分类，也支持人工复核和模板比对。
+
+## 2026-03-24
+
+1. [DETECT: A Pipeline to Quantify Detection Thresholds in Rubin for Nearby Targets Embedded in Bright Host Galaxies](https://arxiv.org/abs/2603.20374)
+
+   > Rubin, Supernova, Image Subtraction
+
+   [DETECT](https://github.com/tobiasgeron/detect)用于处理Rubin中目标嵌在明亮近邻星系里、普通图像相减容易出假信号的问题。在宿主星系相似位置做注源、图像相减和强制测光，给出这个位置真正的探测效率和上限。作者先在 Rubin DP0 模拟数据上验证，再在 DP1 的 15 个目标上测试，结果表明它能更稳地识别 pre-SN variability，同时给出更可靠的 upper limit；假阳性主要出现在 SNR 5–10，SNR 大于 10 时基本没有假阳性。
+
+2. [Magnetic white dwarfs from DESI](https://arxiv.org/abs/2603.20487)
+
+   > White Dwarf, Magnetic Field, Spectroscopy
+
+   在 DESI 的白矮星光谱样本里系统搜索磁白矮星，发现了 137 颗新的 MWD。后续分析和大气模型计算表明，这些 MWD 的磁场强度范围约为 1 至近 500 MG。
+
+   <img src="./Figures/image-20260324201411799.png" alt="image-20260324201411799" width="680px" />
+
+3. [FAST Polarization Catalog of FRB 20240114A](https://arxiv.org/abs/2603.20663)
+
+   > Fast Radio Burst, Polarization, Catalog
+
+   FAST 在 2024-01-28 到 2025-05-30 期间探测到 FRB20240114A 的 17,356 个爆发，选出其中 6,131 个高信噪比 burst，测了到达时刻、DM、宽度、带宽、RM、线偏振和圆偏振比例、以及本征偏振角。结果发现 RM 先稳定、后在约 200 天内线性下降约 200 rad m-2，形成双峰分布，而 DM 基本稳定。 
+
+4. [Transient narrowband radio bursts from 1E 1547.0-5408](https://arxiv.org/abs/2603.21450)
+
+   > Magnetar, Radio Burst, FRB
+
+   在磁星 1E 1547.0−5408 的 2009 年爆发后一个月，用 Parkes 望远镜看到了 84 个窄带射电脉冲。这些 burst 大多在毫秒时间尺度上不分辨，且只出现在 2009-02-23 到 25 日短暂出现的一个脉冲轮廓分量里；这个阶段还伴随着视线方向磁场几何的剧烈变化，以及一个新出现的硬 X 射线脉冲成分。论文据此认为，这些窄带 burst 很可能来自闭合磁力线上的 pair cascade，并把它看成重复暴 FRB 机制的低能版本，进一步加强了FRB 来自年轻高磁场中子星的联系。
+
+   <img src="./Figures/image-20260324201642214.png" alt="image-20260324201642214" width="680px" />
+
+5. [Solar Radio Burst in the metric to kilometric range](https://arxiv.org/abs/2603.22087)
+
+   > Solar, Radio Burst, Review
+
+   这是一篇面向 SKA 时代的太阳射电暴综述。文章回顾了从米波到千米波段的太阳射电暴现象学，包括它们和耀斑、CME、粒子加速、日冕磁场与等离子体过程之间的关系；同时总结了现有地基和空间观测的能力与限制。重点在于说明：SKA 未来凭借更高的灵敏度、时间/频率/空间分辨率、动态范围和宽带偏振成像能力，可以更细致地研究射电暴细结构、冲击波、粒子传播、日冕磁场和空间天气相关过程。
+
+## 2026-03-25
+
+1. [Detailed Analysis of the NGC 2168 Cluster, Leveraging Gaia DR3](https://arxiv.org/abs/2603.22410)
+
+   > Open Cluster, Gaia, Dynamics
+
+   用 Gaia DR3 和 2MASS 重新分析 M35（NGC 2168）的成员、结构和动力学性质。作者先做成员筛选，得到约 1397 个高可信成员，再用等时线拟合得到年龄约 $190\pm12$ Myr、距离约 $840\pm54$ pc、金属丰度约 $[M/H]\approx-0.048$。径向密度分布可以用 King 模型描述，但同时还看到一个比较松散的延展 halo；星团形状还呈现出近乎垂直于银道面的拉长，作者把它解释成盘穿越导致的垂直潮汐加热或 disk shocking 的迹象。整体上，这篇就是用 Gaia DR3 把 M35 的成员、尺度、质量分布和轨道性质都重新厘清了一遍。
+
+2. [Probing the Bias of Large-Scale Structure with Unlocalized Fast Radio Bursts](https://arxiv.org/abs/2603.22832)
+
+   > Fast Radio Burst, Cosmology, Large-Scale Structure
+
+   研究没有精确定位的 FRB，能不能也拿来做大尺度结构示踪。作者搭了一个从头到尾的统计框架：用 Landy-Szalay 两点相关函数、带定位误差的前向模型、以及 lognormal mock 生成协方差，来反推未定位 FRB 样本的线性 bias。
+
+3. [The Persistent Radio Sources and Multi-wavelength Counterparts of Fast Radio Bursts in Massive Binary Systems](https://arxiv.org/abs/2603.23144)
+
+   > Fast Radio Burst, PRS, Theory
+
+   假设活跃重复暴 FRB 来自“磁星 + 大质量恒星”双星系统，去统一解释它们的PRS和多波段对应体。作者认为，亮度在$10^{38}-10^{39}{\rm erg/s}$的亮 PRS 可以由年轻磁星风星云产生，源年龄只需要几十年，长期射电流量变化则可以由磁星内部磁场衰减解释；而比较暗的 PRS，尤其像 FRB 20201124A 这种，则可以用双星风碰撞形成的 bow shock 辐射来解释。
+
+## 2026-03-26
+
+1. [A generalized method for estimating solar wind speeds and densities using spectral broadening for a Kolmogorov turbulence spectrum](https://arxiv.org/abs/2603.23929)
+
+   > Solar, Solar Wind, Radio Occultation
+
+   用航天器射电信号的多普勒谱展宽，同时反演近太阳日冕里的太阳风速度和电子密度，并把这个方法推广成对通信频段近似无关的统一公式。假设电子密度涨落满足 Kolmogorov 湍流谱，用印度火星探测器 MOM 的 S 波段数据和日本 Akatsuki 的 X 波段数据做验证：在 5-8$R_\odot$ 量到约 100-150 km/s 的太阳风，在更靠近日冕洞区域能到约 400 km/s，同时得到随半径变化一致的电子密度分布。
+
+2. [Investigating the radio emission in the Perseus cluster with LOFAR sub-80 MHz LBA](https://arxiv.org/abs/2603.23587)
+
+   > Cluster, Radio Halo, LOFAR
+
+   用 LOFAR LBA 的 30.0-57.7 MHz 低频观测研究英仙座星系团的弥散射电辐射，既看到了中心 mini-halo，也看到了包裹它的 giant radio halo。
+
+   <img src="./Figures/image-20260326172557079.png" alt="image-20260326172557079" width="680px" />
+
+3. [Machine Learning-Based Classification of Active Galaxies and Estimation of Supermassive Black Hole Masses](https://arxiv.org/abs/2603.24435)
+
+   > Galaxy, Machine Learning, SMBH
+
+   用机器学习把活动星系和恒星形成星系分开，并顺手估计超大质量黑洞质量。作者基于 SDSS 的 Galaxy Zoo 1 样本，选了红移、恒星速度弥散、恒星质量、颜色和光度等特征，用 BPT 图给出的标签训练分类器；结果是 SVC 和 Random Forest 表现最好，分类准确率都在约 93% 左右。
+
+## 2026-03-27
+
+1. [A Probabilistic Autoencoder for Galaxy SED Reconstruction and Redshift Estimation: Application to Mock SPHEREx Spectrophotometry](https://arxiv.org/abs/2603.24668)
+
+   > Galaxy, SED, Photo-z
+
+   用 probabilistic autoencoder（PAE）+ normalizing flow，对 SPHEREx 的 102 波段 mock spectrophotometry 做星系 SED 重建和光度红移估计。核心思路是把传统 template fitting 的离散模板，换成一个连续的、可做 Bayesian 推断的 SED latent manifold。实验里，PAE 在 source recovery、3σ outlier fraction 和 posterior calibration 上整体优于 template fitting。
+
+   <img src="./Figures/image-20260327140115065.png" alt="image-20260327140115065" width="680px" />
+
+2. [Constraints on the Physical Association between ICECAT1 Neutrinos and Fast Radio Bursts Using the Second CHIME/FRB Catalogue](https://arxiv.org/abs/2603.24983)
+
+   > Fast Radio Burst, Neutrino, Multi-messenger
+
+   用第二版 CHIME/FRB catalog 和 IceCube 的 ICECAT1 高能中微子 alert-track catalog 做时空交叉匹配，系统搜索 FRB 的中微子对应体。结果没有找到统计显著关联。
+
+3. [Implementation of a Near-Realtime Recording and Reporting System of Solar Radio Bursts](https://arxiv.org/abs/2603.25446)
+
+   > Solar, Radio Burst, Deep Learning
+
+   搭了一个太阳射电暴的近实时记录和上报系统，部署在 Owens Valley Radio Observatory 的 Long Wavelength Array 上。系统直接从 realtime buffer 裁剪数据，实时生成 dynamic spectrum，再喂给基于 YOLO 的深度学习模块去识别 III 型射电暴；训练数据不是纯手工标注，而是用 physics-based 模型合成出来的 type III / IIIb burst。最终这套系统可以在 burst 出现后约 10 秒内自动上报；模型训练时 precision、recall 和 mAP 都收敛到 0.9 以上，在 5000 张合成测试图上，type III 和 type IIIb 的识别正确率分别约 95% 和 94%。
+
+   <img src="./Figures/image-20260327135942034.png" alt="image-20260327135942034" width="680px" />
+
+## 2026-03-30
+
