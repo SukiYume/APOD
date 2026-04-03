@@ -449,3 +449,62 @@
 
 ## 2026-03-30
 
+1. [The YREC Stellar Evolution Code: Public Data Release](https://arxiv.org/abs/2603.25792)
+
+   > Stellar Evolution, Code, Open Source
+
+   公开发布 Yale Rotating Evolution Code（YREC），把这套老牌恒星演化程序的输入物理、数值实现、测试套件、示例脚本和文档系统整理出来。YREC覆盖从较热棕矮星到恒星、从 pre-MS 到氦燃烧阶段，还支持旋转、角动量演化、旋转诱导混合、引力沉降和星斑等物理。作者还给出和 MIST、PARSEC 的对比，并提供了可用于教学的网页版 [yreclab](https://github.com/yreclab/yrec)。
+
+2. [Can LLMs Produce Original Astronomy Research in a Semester? A Graduate Class Experiment](https://arxiv.org/abs/2603.25984)
+
+   > Astronomy, LLM, Education
+
+   让一门研究生星系课程里的学生在一个学期内用 LLM 做原创研究，直接测试 LLM 到底能不能真正帮科研提速。结果是所有学生都写出了针对未解星系问题的论文草稿，但只有大约一半觉得确实省了时间；LLM 在文献梳理、选题收敛和简单代码上有帮助，但大约 20% 的时候会给出假的引用、链接或论文总结，而且不擅长复杂可运行代码、调用 API 和自动抓取天文数据库。
+
+3. [New star clusters discovered towards the Galactic anticentre direction using Gaia DR3 data](https://arxiv.org/abs/2603.26572)
+
+   > Open Cluster, Gaia, Milky Way Structure
+
+   基于 Gaia DR3，在银心反方向、英仙臂缺口附近的 220 个 1平方度天区里系统搜索新疏散星团，发现了 31 个新星团，其中 8 个可能已经在向疏散星团残骸演化。它们大多位于 3–5 kpc、年龄约 20 Myr 到 1 Gyr。这批新样本把该方向 3–4 kpc 的星团普查数提高了 31%，4 kpc 之外提高了 12%，并暗示这些目标更可能在 Outer Norma 臂上，而不是 Perseus 臂上。
+
+4. [e-CALLISTO FITS Analyzer: A Software Framework for CALLISTO Solar Radio Data](https://arxiv.org/abs/2603.26086)
+
+   > Solar, Radio Burst, Software
+
+   做了一个[跨平台的 e-CALLISTO 动态谱分析工具](https://github.com/SaanDev/e-Callisto_FITS_Analyzer)，专门解决太阳射电暴数据里 15 分钟切帧、台站频率设置不统一、RFI 和背景噪声太强的问题。这个软件支持时间/频率拼接、均值背景扣除、交互式多边形选区提 burst、提取最大强度 backbone，再做幂律拟合来估计 drift rate，并用 Newkirk 模型反演激波高度和速度。
+
+   <img src="./Figures/image-20260330141453760.png" alt="image-20260330141453760" width="680px" />
+
+## 2026-03-31
+
+1. [The ASKAP-FLASH survey: A first look at the multiwavelength properties and redshift distribution of compact radio sources](https://arxiv.org/abs/2603.26878)
+
+   > Radio Survey, Photo-z, HI Absorption
+
+   给 ASKAP-FLASH 巡天里超过 4.5 万个亮致密射电源做光学对应体和光度红移分析。这批源是专门为 HI 21 cm 吸收统计挑出来的背景连续源，作者把它们和 DESI Legacy Imaging Surveys DR10 交叉匹配，再用 PICZL 做 photo-z，最后估计出整体红移分布：约 13% 在 (z<0.42)，约 35% 落在 FLASH 的可探测红移范围 $0.42\le z\le 1$，约 52% 在 (z>1)。
+
+   
+
+2. [ASTER -- Agentic Science Toolkit for Exoplanet Research](https://arxiv.org/abs/2603.26953)
+
+   > Exoplanet, LLM, Agent
+
+   做了一个面向系外行星大气研究的 agent 框架 [ASTER](https://github.com/emipanek/aster)，把 LLM 和领域工具接起来，自动串联数据库查询、观测数据获取、TauREx 正演光谱生成和 Bayesian retrieval。论文用 WASP-39b 做完整案例，展示它如何在不同档案数据之间切换、自动生成合适的 forward model，并恢复出和文献一致的大气参数。
+
+   <img src="./Figures/image-20260331122031279.png" alt="image-20260331122031279" width="680px" />
+
+3. [A MeerKAT view of the Neutral Atomic Gas in Stephan’s Quintet](https://arxiv.org/abs/2603.27097)
+
+   > Galaxy Group, HI, MeerKAT
+
+   用 MeerKAT 的 21 cm 线观测重新看 Stephan’s Quintet 里的中性氢分布和速度结构，补上了很多 VLA 时代没看清的细节。论文首次探测到 NGC 7319 和 NGC 7320C 的 HI，还在 SQ-A 一带确认了额外的高速度分量，并发现了连接 NGC 7319 和 NGC 7318B 的气体桥、以及另一条从 NGC 7319 连到 SQ-A 的北侧桥。总 HI 质量约为 $3.5\pm0.4\times10^{10}M_\odot$，高于旧的 VLA 估计，和 FAST 的结果接近。
+
+   <img src="./Figures/image-20260331150150177.png" alt="image-20260331150150177" width="680px" />
+
+4. [Euclid Quick Data Release (Q1). The Strong Lensing Discovery Engine F -- Bright and low-redshift strong lenses](https://arxiv.org/abs/2603.28580)
+
+   > Strong Lensing, Euclid, Survey
+
+   在 Euclid Q1 的 63.1 平方度数据里，补找到了 72 个新的星系-星系强透镜候选体，专门针对之前搜索里容易漏掉的“亮而低红移”系统。原因是早先的预筛选把 Gaia 目录中的对象排掉了，因此漏掉了一批近邻亮透镜；这次补搜后新增样本相当于把此前结果又增加了 10% 以上。72 个候选里有 38 个 grade A、34 个 grade B，半自动 lens modeling 至少确认了其中 41 个系统；作者据此把 Euclid 宽天区未来高可信强透镜的预期总数提高到约 12 万个。 
+
+   <img src="./Figures/image-20260331150241026.png" alt="image-20260331150241026" width="680px" />
