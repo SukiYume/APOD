@@ -15,6 +15,25 @@ import jieba.posseg as pseg
 from collections import Counter
 
 
+def _print_parse_error(md_file, date_text, item_index, reason, raw_text, max_lines=8):
+    """打印解析失败的定位信息和附近文本，便于快速修复 markdown。"""
+    print("[extract_data] 数据解析失败")
+    print(f"[extract_data] 文件: {md_file}")
+    print(f"[extract_data] 日期: {date_text}")
+    if item_index is not None:
+        print(f"[extract_data] 条目序号: {item_index}")
+    print(f"[extract_data] 原因: {reason}")
+    print("[extract_data] 附近文本:")
+
+    lines = raw_text.splitlines()
+    if not lines:
+        print("[extract_data] <empty>")
+        return
+
+    for line in lines[:max_lines]:
+        print(line)
+
+
 def get_markdown_path(path):
     """获取所有AstroPH开头的markdown文件路径"""
     g = os.walk(path)
@@ -39,17 +58,26 @@ def extract_data(markdown_path):
             if re.match(r'^\d{2}-\d{2}-\d{2}\s+$', data[d]):
                 continue
 
-            date = '20' + re.search(r'(\d{2}-\d{2}-\d{2})', data[d]).group(1)
+            date_match = re.search(r'(\d{2}-\d{2}-\d{2})', data[d])
+            if not date_match:
+                _print_parse_error(md, 'unknown', None, '未匹配到日期字段', data[d])
+                raise ValueError(f'Failed to parse date in file: {md}')
+
+            date = '20' + date_match.group(1)
             title = re.findall(r'\s+\d+\.\s+\[(.+)\]', data[d])
             arxiv = re.findall(r'\d+\.\s+\[.+\]\(h{1,2}ttps.+/(.+)\)', data[d])
             kw_content = re.split(r'\s+\d+\.\s+\[.+\]\(.+\)\s+', data[d])[1:]
 
             keyword, content = [], []
-            for kc in kw_content:
+            for item_index, kc in enumerate(kw_content, start=1):
                 kw = re.search(r'^>\s+([A-Za-z0-9_ \,]+)', kc)
                 if kw:
                     keyword.append(kw.group(1))
-                    content.append(re.search(r'^>\s+[A-Za-z0-9_ \,]+\s+(.+)\s*', kc).group(1))
+                    content_match = re.search(r'^>\s+[A-Za-z0-9_ \,]+\s+(.+)\s*', kc)
+                    if not content_match:
+                        _print_parse_error(md, date, item_index, '关键词格式不符合旧正则（可能包含连字符等字符）', kc)
+                        raise ValueError(f'Failed to parse keyword/content in file: {md}, date: {date}, item: {item_index}')
+                    content.append(content_match.group(1))
                 else:
                     keyword.append('')
                     content.append(kc)

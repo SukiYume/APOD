@@ -214,3 +214,205 @@
 
 ## 2026-04-13
 
+1. [Radio Astronomy with the Arecibo 305m Telescope: In Contemporaneous Context](https://arxiv.org/abs/2604.08775)
+
+   > Radio, Arecibo, Review
+
+   文章按时间梳理了 Arecibo 在类星体时代早期射电源定位、月掩星和行星际闪烁、脉冲星与双中子星、HI 与 OH 谱线、毫秒脉冲星与系外行星、Gregorian upgrade 之后的高频观测、ALFA 巡天、SETI、VLBI 等方面的关键贡献。
+
+2. [The Northern High Time Resolution Universe pulsar survey III. Single-pulse search continuation, follow-up observations, and initial results](https://arxiv.org/abs/2604.09080)
+
+   > Pulsar, Single-pulse Search, FRB
+
+   继续处理北天 HTRU 巡天里的 single-pulse 数据，目前搜索完成度约 21%，并给出了第一批结果。最亮眼的发现是 Effelsberg 100 米望远镜的第一例 FRB 20110220A，最优 DM 约 501.0 pc cm$^{-3}$，宽度 $11.9\pm3.5$ ms，流量约 $0.6\pm0.1$ Jy ms。除此之外，作者还拿到了 RRAT J2028+28 的首个 L 波段探测、发现了一颗新的 RRAT J0404+53，并找到了 8 组新的 single-pulse train 和 272 个很暗的孤立 single-pulse 候选。
+
+   <img src="./Figures/image-20260413161003182.png" alt="image-20260413161003182" width="680px" />
+
+3. [Radio Monitoring Campaign of Active Repeater FRB 20220912A with CHIME](https://arxiv.org/abs/2604.09098)
+
+   > Fast Radio Burst, Repeater, Monitoring
+
+   用 CHIME/Pulsar 对高活跃重复暴 FRB 20220912A 做了约 1.5 年的长期监测，累计约 200 小时，分析了 400–800 MHz 里 828 个 burst。结果显示，这个源在发现后大约 10 周内一直很活跃，并且等待时间分布是双峰的。环境演化方面，他们报告了一个 2.3σ 的 DM 线性增加趋势，约 $1.4\pm0.6\ {\rm pc\ cm^{-3}\ yr^{-1}}$，但 RM 没看到显著变化。
+
+   <img src="./Figures/image-20260413161107164.png" alt="image-20260413161107164" width="680px" />
+
+4. [Long-period transiting exoplanets: advances in detection and characterization](https://arxiv.org/abs/2604.09254)
+
+   > Exoplanet, Transit, Review
+
+   这是一篇关于长周期凌星系外行星的综述，重点讲过去几年在“怎么找”和“怎么做深入刻画”上的进展。相比容易发现但受恒星强烈照射的 hot Jupiter，长周期的 warm/temperate planets 更接近形成和迁移后的原始状态，因此对理解行星形成、盘迁移和轨道演化更关键。
+
+   内容上主要包括：TESS 时代的 monotransit/duotransit 搜索方法、单次凌星如何结合恒星密度去估轨道周期、后随光谱与测光如何补全质量和半径，以及这些长周期行星在内部结构、整体金属丰度、大气成分、卫星和行星环搜索方面的科学价值。
+
+5. [Machine Learning as a Transformative Tool for (Exo-)Planetary Science](https://arxiv.org/abs/2604.09152)
+
+   > Exoplanet, Planetary Science, Machine Learning, Review
+
+   这是一篇综述性质的章节，讨论机器学习怎样在行星科学和系外行星科学里变成方法学层面的基础工具。作者把应用大致分成三类挑战
+
+   - sequence modelling，比如处理径向速度和光变这类一维时序数据
+   - pattern recognition，比如用卷积网络做图像和空间模式提取、异常检测、无监督聚类
+   - generative models 和 emulator-based Bayesian analysis，比如给行星内部结构、形成演化和数值模拟做快速代理模型。
+
+   文章的重点不是提出单个新算法，而是总结 NCCR PlanetS 团队在这些方向上的代表性做法，并说明 ML 正在如何改变异构、大规模、高维数据以及高代价物理模型的处理方式。
+
+## 2026-04-14
+
+1. [Learning What’s Real: Disentangling Signal and Measurement Artifacts in Multi-Sensor Data, with Applications to Astrophysics](https://arxiv.org/abs/2604.09787)
+
+   > Astronomy, Foundation Model, Representation Learning
+
+   把“不同仪器看到的同一个天体”当成天然自监督配对，可以学到更接近真实物理的表征。作者用同一个星系被不同巡天重复观测的数据，训练一个 dual-encoder + counterfactual generation 模型：一个编码器学物理本征信息，另一个编码器学仪器系统学和噪声，再通过条件生成去重建目标图像。文章用 DESI Legacy Imaging Survey 和 HSC 的星系图像做例子，说明这种表示学习可以支持跨仪器的 counterfactual 图像生成、去除测量混淆后的参数推断，以及仪器无关的相似源检索。
+
+   <img src="./Figures/image-20260414141741608.png" alt="image-20260414141741608" width="680px" />
+
+2. [To understand the radiative processes of pulsars and fast radio bursts with the FAST](https://arxiv.org/abs/2604.09987)
+
+   > Pulsar, Fast Radio Burst, Review
+
+   这是一篇围绕 FAST 观测成果展开的综述，核心目标是借助 FAST 近年来在脉冲星和 FRB 上的突破，重新审视**相干射电辐射机制**这个老问题。文章一方面总结了 FAST 在银河面脉冲星巡天、RRAT、毫秒脉冲星、单脉冲行为、偏振和脉冲形态等方面的关键结果；另一方面也回顾了 FAST 对重复暴 FRB 的高灵敏度观测，强调 pulsar 和 FRB 两类源在单脉冲现象学上的相似性，为统一理解相干辐射物理提供了新视角。
+
+3. [Daily Predictions of F10.7 and F30 Solar Indices with Deep Learning](https://arxiv.org/abs/2604.10045)
+
+   > Solar, Space Weather, Deep Learning
+
+   提出一个深度学习模型 [SINet](https://nature.njit.edu/solardb/)，做太阳 F10.7 和 F30 指数的**日尺度中期预报**，预报时长覆盖 1 到 60 天。作者使用 NOAA 以及 Toyokawa/Nobeyama 的历史数据训练模型，并把它和 5 种相关的统计或深度学习方法比较。结果显示，SINet 在 F10.7 预测上整体优于这些基线；同时它也是作者所称的第一种针对 F30 的深度学习预测方法。到第 60 天时，SINet 对 F10.7 和 F30 的平均 MAPE 分别约为 10.1% 和 9.5%。
+
+   <img src="./Figures/image-20260414141934906.png" alt="image-20260414141934906" width="680px" />
+
+4. [A Multi-modal Fusion Network for Star-Galaxy Classification from CSST Simulated Datasets](https://arxiv.org/abs/2604.10086)
+
+   > Galaxy, Classification, Deep Learning, CSST
+
+   用 CSST 模拟数据做星/系分类，并把**图像**和**测光 catalog** 两种模态融合进一个网络里。作者构建了一个包含 32,371 颗恒星和 93,525 个星系的数据集，用 ResNet-50 处理图像，用 BiLSTM 处理 catalog 特征，再在高层做特征融合。结果显示，经过 50 个 epoch 训练后，模型对星系和恒星的 recall 分别达到 99.81% 和 99.66%。作者还专门检查了数据增强和多模态融合的作用，并指出这个模型对暗弱天体和高红移星系也仍然有较高准确率。
+
+5. [Joint Observation of SGR J1935+2154 with Insight-HXMT and KM40m during the active episode of October 2022](https://arxiv.org/abs/2604.10131)
+
+   > Magnetar, Fast Radio Burst, X-ray Burst
+
+   报告 2022 年 10 月 SGR J1935+2154 活跃期里，Insight-HXMT 和 KM40m 的联合观测结果。作者在两台设备重叠观测时间内一共找到了 60 个 magnetar X-ray burst，但只探测到 1 个射电脉冲；其中 2022-10-21 的一个 X 射线暴（MXB 221021）和这个射电脉冲在时间上相关联。论文强调，这个关联事件的形态与此前著名的 MXB/FRB 200428 很不一样，而且系统比较后发现，和没有射电对应体的普通 MXB 相比，MXB 221021 在时域和能谱性质上也有一些特别之处。核心意思是：磁星不是每次 X 射线暴都会伴随射电暴，而“会出射电”的那一类 X 射线暴可能本身就有不同的物理条件。
+
+   <img src="./Figures/image-20260414142132685.png" alt="image-20260414142132685" width="680px" />
+
+6. [Searching for Gamma Ray Bursts associated with CHIME Fast Radio bursts](https://arxiv.org/abs/2604.10629)
+
+   > Fast Radio Burst, Gamma-Ray Burst, Association
+
+   系统搜索 CHIME 第二版 FRB catalog 和 Swift GRB 之间是否存在时空关联。和以前只用位置误差椭圆不同，这篇直接用了 CHIME 提供的**完整 localization probability maps** 来做空间交叉匹配，因此先找到了 130 对候选体；再加上红移一致性要求后，缩减到 45 对；最后再施加一个有物理动机的时间顺序条件——要求长暴在前、短暴在后——只剩 26 对。作者用 Monte Carlo 模拟评估后发现，这些候选的总体过量并没有统计显著性，各个 localization confidence level 上的分布也和随机结果一致。结论就是：目前还看不到可靠的 FRB–GRB 总体关联信号，但这个问题很可能被定位误差和大量偶然重合淹没了。
+
+7. [A Falsifiable Timing Test for the Double-White-Dwarf Model of Long-Period Transients](https://arxiv.org/abs/2604.11317)
+
+   > LPT, White Dwarf Binary, Timing, Theory
+
+   针对新近出现的长周期射电暂现源（LPT），提出一个可证伪的**双白矮星模型计时检验**。作者以 CHIME/ILT J1634+44 为例：它有 841 s 的短周期、4206 s 的长周期调制，以及显著的负周期导数，这些性质让超紧致双星解释很有吸引力。如果把 841 s 看成轨道钟、4206 s 看成 spin-orbit beat，那么这个长周期调制就不再是自由参数，而必须和轨道周期、自转周期一起随引力波损失、磁耗散和潮汐相互作用共同演化。文章估计，对 J1634 这类参数，beat 周期漂移大约有 $|\dot P_b|\sim10^{-10}\ {\rm s,s^{-1}}$，对应一年内 O-C 漂移可达几十秒。也就是说，只要后续把短周期、长周期及其导数都量准，就能对超紧致双白矮星起源做一个非常直接的 timing falsification test。
+
+   <img src="./Figures/image-20260414142219496.png" alt="image-20260414142219496" width="680px" />
+
+## 2026-04-15
+
+1. [A sample of short-lived Galactic radio transients from ASKAP VAST](https://arxiv.org/abs/2604.11881)
+
+   > Transient, ASKAP, White Dwarf Binary, Survey
+
+   用 ASKAP 的 VAST 巡天在银河平面里系统搜索射电暂现源，最终新找到 6 个和以往 GCRT/GRT 类似的 Galactic radio transients。结合档案数据后，作者认为这些源大致可分成两类：一类是分钟级、脉冲式的 sporadic radio emission；另一类是持续数周的 flare-like outburst。论文进一步把短时变那一类和已有的 optically bright long-period radio transients 联系起来，猜测它们可能来自宽轨道白矮星双星；而长时标爆发那一类，则可能和被尘埃遮挡的白矮星双星爆发现象有关。
+
+   <img src="./Figures/image-20260415133647479.png" alt="image-20260415133647479" width="680px" />
+
+2. [Probing Collapsed Dark Matter Halos with Fast Radio Bursts](https://arxiv.org/abs/2604.12189)
+
+   > Fast Radio Burst, Dark Matter, Gravitational Lensing
+
+   这篇文章提出用 FRB 的强引力透镜效应来探测 **core-collapsed SIDM halo**。如果暗物质有自相互作用，halo 在经历 gravothermal core collapse 之后会形成比标准 CDM 更陡的中心密度分布，这会增大透镜截面，并让 FRB 多像之间的时间延迟更长。
+
+3. [FRTSearch: Unified Detection and Parameter Inference of Fast Radio Transients using Instance Segmentation](https://arxiv.org/abs/2604.12344)
+
+   > Fast Radio Burst, Deep Learning
+
+   [FRTSearch](https://github.com/BinZhang109/FRTSearch)用Mask R-CNN分割动态谱中的DM信号曲线，配合 IMPIC 算法把几何轨迹坐标反推出 DM 和 ToA。结果显示，在 FAST-FREX 基准上，FRTSearch 的 recall 达到 98.0%，相比 PRESTO 的误报数降低了 99.9% 以上，同时处理速度最高快到 13.9 倍；无需重训就成功检出了 ASKAP 的 19 个测试 FRB。
+
+   <img src="./Figures/image-20260415134343316.png" alt="image-20260415134343316" width="680px" />
+
+4. [Gravitational Gertsenshtein–Zel’dovich mechanism for the Association between GW190425 and FRB 20190425A](https://arxiv.org/abs/2604.12775)
+
+   > Fast Radio Burst, Gravitational Wave, Magnetar, Theory
+
+   针对 GW190425 和 FRB 20190425A 那个 2.5 小时延迟的候选关联，提出一个替代于 “supramassive neutron star collapse” 的新物理机制。作者设想：在双中子星并合点约 2.5 光时之外，恰好有一颗 magnetar。并合产生的 kHz 引力波先到达这颗磁星，在其强磁场里通过 Gertsenshtein–Zel’dovich 效应转化成 kHz 电磁波；然后这些低频电磁波再被相对论粒子做逆康普顿散射，提升到 GHz 波段，形成观察到的 FRB。地球直接先收到 GW，另一束 GW 传播到磁星后再“转手”生成 FRB，所以自然得到约 2.5 小时延迟。
+
+   <img src="./Figures/image-20260415134450687.png" alt="image-20260415134450687" width="680px" />
+
+5. [The spectrum of the persistent radio source associated with FRB 20190417A](https://arxiv.org/abs/2604.12791)
+
+   > Fast Radio Burst, Persistent Radio Source, Spectrum
+
+   这篇文章系统测量了 FRB 20190417A 对应持续射电源的宽频谱，频率覆盖从 144 MHz 到 6 GHz。作者结合 uGMRT、VLA、VLASS 和 LoTSS 数据发现，这个 PRS 在 GHz 频段基本服从幂律谱，1–6 GHz 的谱指数约为 $\alpha = 0.20 \pm 0.05$，但在 144 MHz 没有探测到，因此把低频 turn-over 频率限制在 >370 MHz（95% 置信度）。这意味着它是一个相对平坦谱、并且在低频发生自吸收或吸收截断的源。作者将其与 magneto-ionic nebula 尤其是年轻 flaring magnetar 在超新星抛射物后方吹起的 nebula 模型进行比较，认为这种解释是相容的；在 multi-zone magnetar wind nebula 图景下，他们估计该源年龄 t<250 年、半径 R<0.4 pc。
+
+   <img src="./Figures/image-20260415134708192.png" alt="image-20260415134708192" width="680px" />
+
+## 2026-04-16
+
+1. [BROOM: a python package for model-independent analysis of microwave astronomical data](https://arxiv.org/abs/2604.14088)
+
+   > CMB, Component Separation, Software
+
+   发布一个做微波天文数据盲源分离的 Python 包 [BROOM](https://github.com/alecarones/broom)，核心是把各种 ILC / NILC / GILC 一类的 minimum-variance 方法系统化，既能重建 CMB、SZ 和 foreground moments，也能做微波天空模拟、估计残余前景污染、计算角功率谱。
+
+   <img src="./Figures/image-20260416131014195.png" alt="image-20260416131014195" width="680px" />
+
+2. [The 256-antenna Coherent All-Sky Monitor](https://arxiv.org/abs/2604.13903)
+
+   > Fast Radio Burst, Radio Instrumentation, Aperture Array
+
+   介绍正在 OVRO 部署的 256 天线 Coherent All-Sky Monitor（CASM-256），工作在 375–500 MHz，是一个大视场、全数字、实时 GPU 处理的低频 aperture array。它的目标很明确：用大约 (10^4) 平方度的视场和较高点源灵敏度，系统寻找本地宇宙 FRB、银河系 FRB analog、脉冲星 giant pulse 以及长周期射电暂现源，并已经展示了前两打天线的 on-sky 数据和实时 FRB 搜索流水线。文章还特别强调这套思路的可扩展性，认为未来扩展到上万天线后，有机会探测到百万级 FRB。
+
+   <img src="./Figures/image-20260416131123907.png" alt="image-20260416131123907" width="680px" />
+
+3. [Requiem for a belt: A spatial and kinematical reinterpretation of Gould’s Belt in light of Gaia](https://arxiv.org/abs/2604.13225)
+
+   > Gaia, Gould’s Belt, Local Structure
+
+   用 Gaia DR3 的年轻大质量恒星和近邻年轻星团重新审视 Gould’s Belt，结论相当直接：它不像一个真实存在的、统一的、倾斜膨胀旋转环，而更像是几个星团家族——主要是 αPer、Cr135、M6 和 γVel——在本地银河环境里碰巧排成的一个 3D asterism。作者指出，经典上归因于 Gould’s Belt 的扩张、旋转和整体运动，可以由这些 cluster families 的叠加、太阳反射运动以及对 LSR 的历史假设来解释，而它那条著名的倾斜几何则很大程度上来自 Radcliffe Wave 的起伏。换句话说，这篇是在给 “Gould’s Belt 是一个物理结构” 这件事写悼词。
+
+   <img src="./Figures/image-20260416131228022.png" alt="image-20260416131228022" width="680px" />
+
+4. [An Information-Theoretic Metric for Transient Classification and Novelty Detection](https://arxiv.org/abs/2604.13207)
+
+   > Rubin, Transient Classification, Information Theory
+
+   提出一个面向 Rubin/LSST 时域科学的新 metric，用信息论里的 cross-entropy 去量化**一个新瞬变在已知瞬变总体里到底有多意外**。作者把 LSST 夜间 triplet 观测映射到离散的 observable phase space，再比较新观测和已知 transient population 的经验分布，从而同时服务几个问题：不同瞬变类之间的可分性、观测策略和 alert pipeline 的优化、稀有/新奇源的发现，以及后随资源该优先分给谁。
+
+   <img src="./Figures/image-20260416131332181.png" alt="image-20260416131332181" width="680px" />
+
+5. [Secular Brightness Trends of Starlink and OneWeb Satellites](https://arxiv.org/abs/2604.13145)
+
+   > Satellite, Light Pollution, Survey Monitoring
+
+   用 MMT9 机器人台站在 2021–2026 年间积累的约 160 万条卫星测光，研究 Starlink 和 OneWeb 在运营轨道上的长期亮度变化。结果是：Starlink VisorSat 在这五年里显著变亮了约 0.6 等，对应约每年 0.122 等；OneWeb 则显著变暗了约 0.4 等，对应约每年 0.078 等；而 Starlink V1.5 也有变亮趋势，但统计上不显著。
+
+   <img src="./Figures/image-20260416131410898.png" alt="image-20260416131410898" width="680px" />
+
+## 2026-04-17
+
+1. [A fast X-ray transient with chromatic flares: signatures of violent collisions induced by late-time central engine reactivation](https://arxiv.org/abs/2604.14341)
+
+   > Fast X-ray Transient, Central Engine, Shell Collision
+
+   报告 Einstein Probe 发现的一例明亮河外快 X 射线暂现源 EP250302a，红移 z=1.131。后随阶段出现了一个针状的 X 射线 flare，同时光学波段却表现为更平滑的再增亮。作者据此认为，这很像两团相对论壳层在晚期发生了剧烈碰撞，其中 X 射线的尖锐 flare 和光学的平滑 bump 反映了不同辐射区和不同碰撞动力学；而这种 violent shell collision 又强烈暗示中心引擎在晚期被重新激活。
+
+   <img src="./Figures/image-20260417133333910.png" alt="image-20260417133333910" width="680px" />
+
+2. [Closing the Observational Gap in Cosmic Dynamics: AI-Enabled Reconstruction of the Universe’s Vorticity and Rotational Flow Morphology](https://arxiv.org/abs/2604.14653)
+
+   > Cosmology, Vorticity, AI Reconstruction
+
+   这篇文章尝试直接从 SDSS 星系分布里重建宇宙大尺度结构的三维速度场和涡度场，目标是补上“宇宙旋转流形态一直难以直接观测”的缺口。作者用 $\Lambda$CDM 模拟训练一个 U-Net 类深度网络，再把它应用到 SDSS DR7 星系数据上，恢复出 cluster、filament、void 里的 coherent vortical structures 和 spiral-like flows。重建结果给出的速度场、涡度场功率谱都与 $\Lambda$CDM 预测统计一致，而且用这个速度场去消除 redshift-space distortion 之后，星系聚类信号也变得接近各向同性。
+
+   <img src="./Figures/image-20260417133413609.png" alt="image-20260417133413609" width="680px" />
+
+3. [A Generalized Algorithmic Framework for Detecting Faraday Rotation Measure Flares in Repeating Fast Radio Bursts](https://arxiv.org/abs/2604.15012)
+
+   > Fast Radio Burst, Rotation Measure, Algorithm
+
+   重复暴的 RM 演化可以很平滑、也可以很混乱，再加上观测时间采样很不均匀，所以很难把真正短时、局域的 magneto-ionic 结构穿越事件，与一般性的长期漂移或随机波动区分开。为此，他们设计了一个自适应时间窗、稳健基线估计和显著性评分结合的 pipeline，用来统一识别和刻画 RM flare。把这套方法应用到 15 个 RM 有明显变化的重复暴之后，结果发现高置信 RM flare 其实非常罕见，只有 FRB 20220529A 在标准参数下显示出统计显著的事件，其他活跃源更多表现为本征大幅波动或长期 secular evolution。
+
+## 2026-04-20
+
