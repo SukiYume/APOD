@@ -416,3 +416,131 @@
 
 ## 2026-04-20
 
+1. [Induced Scattering of Strong Waves in Pair Plasmas](https://arxiv.org/abs/2604.15798)
+
+   > Fast Radio Burst, Plasma Physics, Theory
+
+   研究 FRB 强电磁波在 pair plasma 里传播时的 induced scattering 问题。作者重新推导了任意振幅线偏振电磁波在 pair plasma 中的稳态解，指出真正控制非线性的不是通常的强度参数 $a_0$，而是 $a_0\omega_{\rm pe}/\omega_0$。散射饱和程度由 $a_0\omega_0/\omega_{\rm pe}$ 控制，当这个量很大时，入射波几乎不会被显著散射。对 FRB 来说，强波不一定会被磁星风中的等离子体严重散射掉，前提是频率足够高、等离子体频率足够低。
+
+2. [Probing Primordial Black Holes with upcoming Radio Telescopes: a case study for LOFAR2.0, FAST Core Array and BINGO](https://arxiv.org/abs/2604.16154)
+
+   > Fast Radio Burst, Primordial Black Hole, Gravitational Lensing
+
+   用未来 FRB 样本中的引力透镜事件，预报 LOFAR2.0、FAST Core Array 和 BINGO 对原初黑洞暗物质比例$f_{\rm PBH}$的约束能力。方法上，作者把 PBH 当作点质量透镜，计算 FRB 被透镜后两个像之间的时间延迟、放大比和 survey optical depth，再结合不同望远镜的 SNR、时间分辨率和预期 FRB 数量做 forecast。结果显示，LOFAR2.0 预计可在 $M_{\rm PBH}>1M_\odot$ 处约束到$f_{\rm PBH}<0.16$；FAST Core Array 可在 $M_{\rm PBH}>10M_\odot$ 处约束到 $f_{\rm PBH}<0.39$；BINGO 则可在 $M_{\rm PBH}>10^{-2}M_\odot$ 处给出 $f_{\rm PBH}<0.39$ 量级约束。虽然这些限制不一定比现有最强约束更紧，但 FRB lensing 是独立且互补的 PBH 探针，未来随着 FRB 数量增加会更有价值。
+
+   <img src="./Figures/image-20260420155826358.png" alt="image-20260420155826358" width="680px" />
+
+3. [Solar Cycle Prediction: Challenges, Progress, and Future Perspectives](https://arxiv.org/abs/2604.16183)
+
+   > Solar, Space Weather, Solar Cycle, Review
+
+   这是一篇太阳周预测综述，系统比较了 precursor、非线性曲线拟合、统计/机器学习、dynamo 和 surface flux transport 等方法在过去太阳周上的表现。作者统计了约 100 个对 Solar Cycle 24 的预测和 130 多个对 Solar Cycle 25 的预测，结论比较悲观：多数方法都没能提前准确预测峰值，Cycle 24 往往被预测成强周期，而 Cycle 25 又常被预测成弱周期；只有在太阳周已经开始上升之后，预测才明显接近真实情况。机器学习方法的表现也不理想。文章认为，极区磁场及其 proxy 仍然是物理上最可靠的预测量，但如果在太阳极小之前太早使用，也容易出错；dynamo 和 SFT 模型正在改进，但需要更好地同化极区磁场、经向流变化等观测和物理过程。一个重要结论是：**在前一个太阳周峰值之前就预测下一个太阳周，本质上没有物理意义。**
+
+   <img src="./Figures/image-20260420160028632.png" alt="image-20260420160028632" width="680px" />
+
+## 2026-04-21
+
+1. [AstroSURE: Learning to Remove Noise from Astronomical Images Without Ground Truth Data](https://arxiv.org/abs/2604.16793)
+
+   > Astronomy Imaging, Denoising, Deep Learning
+
+   做了一个不需要干净 ground truth 图像的天文图像去噪框架 `AstroSURE`，比较 Noise2Noise、SURE 和 blind-spot/self-supervised 类方法在低光子数天文图像上的表现。这里的去噪更适合帮助检出弱源，不等价于能直接用于精密测光、形态测量或 PSF 敏感分析。
+
+2. [Search for galactic structures and study of their kinematics in the Gaia era](https://arxiv.org/abs/2604.16948)
+
+   > Milky Way, Gaia, Stellar Kinematics, Review
+
+   这是一篇 Gaia 时代银河系结构和运动学研究的简短综述，回顾了 Gaia 的视差、自行和径向速度数据怎样改变了近邻年轻星协、银河旋转、旋臂结构、Radcliffe Wave 和 phase spiral 的研究。文章特别讨论了 200 pc 内年轻星群的膨胀运动、Radcliffe Wave 的空间和速度波动、以及它是否在银河其他位置有类似物。作者指出，先前有人提出的 Carina-Sagittarius 到 Scutum arm 之间的 maser 链并不显示 Radcliffe Wave 那样明显的 $z$ 和 $V_z$ 周期扰动，因此不像是它的类似物；而 Gaia 发现的 $z-V_z$ phase spiral 则说明银河盘在过去受到过大尺度扰动，很可能和 Sagittarius 矮星系的近心通过有关。
+
+   <img src="./Figures/image-20260421130704873.png" alt="image-20260421130704873" width="680px" />
+
+3. [Simple approximations of some statistical functions](https://arxiv.org/abs/2604.17094)
+
+   > Statistics, Observation Processing, Approximation
+
+   给观测数据处理中常用的几个统计函数提供简单快速近似公式，包括标准正态分布反函数、Student (t) 分布分位数，以及离群值剔除准则里的统计阈值。
+
+4. [Signatures of Suppressed Matter Clustering revealed by Fast Radio Bursts](https://arxiv.org/abs/2604.17162)
+
+   > Fast Radio Burst, Baryon Feedback, Cosmology
+
+   用有红移和 DM 的 109 个 FRB，直接约束反馈过程对小尺度物质聚集的抑制。FRB 的 cosmic DM 视线间散布来自电离气体密度涨落，而这些涨落受星系形成反馈调控，因此可以反推出 halo 气体分布和 matter power spectrum suppression。作者用 halo model 做贝叶斯推断，发现现有 FRB 样本已经能在 $k\sim0.1-3\,h\,{\rm Mpc}^{-1}$ 的尺度上对反馈强度给出约束。结果倾向于较温和的反馈，约 $2\sigma$ 排除 Illustris 和 OWLS-AGN 这类极端大尺度反馈情形。
+
+   <img src="./Figures/image-20260421130908528.png" alt="image-20260421130908528" width="680px" />
+
+5. [Spatio-temporal Characteristics of Very Long-periodic Pulsations in Solar Metrewave Bursts: Implications for Their Origins](https://arxiv.org/abs/2604.17724)
+
+   > Solar Radio Burst, QPP, MHD Wave
+
+   研究 2024-02-14 太阳米波 I 型暴链里的 very long-periodic pulsations。CBSm、DART 和 MUSER-L 同时在 210–280 MHz 附近看到 7 组重复的射电脉动结构，FFT 得到准周期约 $160^{+11}_{-6}$ s。结合 DART 成像和 SDO 观测，作者发现这些 I 型暴链位于两组太阳黑子本影上方，并由日冕环连接；黑子本影和日冕环中也能看到约 170 s 的准周期。由于这些暴链具有强圆偏振和高亮温，并且与新浮现磁通有时空相关，作者认为 I 型暴主要由 plasma emission 产生，而其中的长周期调制很可能来自黑子本影激发的 slow magnetoacoustic waves；射电暴链的频率漂移则可能反映日冕环中密度沿高度衰减。
+
+   <img src="./Figures/image-20260421130940193.png" alt="image-20260421130940193" width="680px" />
+
+## 2026-04-22
+
+1. [Machine Learning Supports Existence of Previously Unrecognized Transient Astronomical Phenomena in Historical Observatory Images](https://arxiv.org/abs/2604.18799)
+
+   > Astronomy, Transient, Historical Plate, Machine Learning, Artifact
+
+   这篇文章研究的是 Sputnik 发射之前的历史天文底片中，那些**出现后又很快消失**的星点状暂现源到底是不是底片缺陷。作者之前声称这类暂现源在地球阴影中数量会下降（shadow deficit），并且在核试验前后一天内更容易出现（nuclear window），但这个结论一直有争议，因为反对意见认为自动管线识别出的很多暂现源只是照相底片缺陷。
+
+   这次作者用机器学习做了一层筛选：训练集是 250 对相隔 30 分钟拍摄的暂现源图像，由专家目视标注真实源/底片缺陷”。在控制 ML 识别出的伪影之后，核试验时间窗内的暂现源数量仍然显著偏高；被模型判定为更可能真实的候选也更倾向于落在核试验时间窗内。同时，地球阴影中的暂现源缺失也仍然显著，而且在更可能真实的那部分候选中最明显。作者因此认为，历史底片中可能**确实存在一类尚未被认识的暂现现象**。
+
+   <img src="./Figures/image-20260423115212492.png" alt="image-20260423115212492" width="680px" />
+
+2. [White dwarf + M dwarf Detached Binaries in Long Period Radio Transients: Observed Binary Parameters, Evolution, and Population Constraints](https://arxiv.org/abs/2604.18688)
+
+   > Long Period Radio Transient, White Dwarf, M Dwarf, Binary, Stellar Evolution
+
+   长周期射电暂现源（LPT）是一类周期从几分钟到数小时的慢速射电脉冲源。目前已发表的 13 个 LPT 中，有两个源 ILT J1101+5521 和 GLEAM-X J0704-37 通过光学光谱与**白矮星 + M 矮星**近距双星联系起来。
+
+   这篇文章对 ILT J1101+5521 做了新的 Keck I/LRIS 光学光谱观测，看到来自 M 矮星的 Hα 发射，并确认其轨道周期几乎等于射电周期，大约是 2.092 小时。作者还比较了 ILT J1101+5521 和 GLEAM-X J0704-37，发现两个系统的射电脉冲都大致出现在 M 矮星红移最大之后，如果射电周期就是轨道周期，这说明射电脉冲相位和双星轨道几何之间可能有稳定关系。
+
+   两个系统都有又冷又重的白矮星，质量约 $0.84-1.0,M_\odot$，有效温度约 $5200-7300,\mathrm{K}$，意味着它们的碳氧核几乎已经高度结晶。两个系统也都很接近 face-on，倾角约 $13^\circ-28^\circ$；作者因此猜测，LPT 的相干射电脉冲产生可能强烈依赖观测倾角。
+
+   最后作者根据这两个已知系统估计 WD+M dwarf LPT 的空间密度下限约 $\rho \gtrsim 10^{-8},\mathrm{pc}^{-3}$；如果当前射电搜索在 2 kpc 内的完备性是 100% 或 10%，那么 2 kpc 内可能分别有约 100 或 2000 个类似系统。Rubin/LSST 未来应该能看到这些系统中 M 矮星的光学对应体。
+
+   <img src="./Figures/image-20260423115355658.png" alt="image-20260423115355658" width="680px" />
+
+## 2026-04-23
+
+1. [Quasi-Periodic Microstructures in Pulsar Emission: Automated Detection and Archival Survey](https://arxiv.org/abs/2604.19883)
+
+   > Pulsar, Radio, Microstructure, Survey
+
+   开发了 Python 工具 **QMIST**，自动从去色散的脉冲星单脉冲时间序列中搜索准周期微结构。作者用 GMRT、GBT 和 Parkes 档案数据对 27 颗脉冲星做多历元巡天，回收了已有微结构探测，并首次在 B1451−68、B1706−16、B1845−19 中发现准周期微结构；还给已知有微结构但周期不明的 B0540+23 测出典型周期。
+
+2. [SN 2007it on the RISE -- a radio detection of an interacting supernova 18 years post-explosion](https://arxiv.org/abs/2604.20076)
+
+   > Supernova, Radio, CSM, Multiwavelength
+
+   RISE 项目用 ATCA 首次探测到 II 型超新星 **SN 2007it** 的射电辐射，时间是爆炸后 18 年多。2026 年 4 月 8 日在 5.5 GHz 测到 $3.30\pm0.13,{\rm mJy}$，在 9.0 GHz 测到 $3.54\pm0.24,{\rm mJy}$，谱指数约 $\alpha=0.1\pm0.2$。ASKAP 在 2026 年 1 月 11 日 0.88 GHz 没探测到，说明它可能快速增亮，或低频被内部吸收压低；后者意味着有较厚的星周物质。
+
+   <img src="./Figures/image-20260423121844668.png" alt="image-20260423121844668" width="680px" />
+
+3. [Neo: Photometric Super-Resolution for Improving Galaxy Morphological Measurements using Conditional Generative Adversarial Networks](https://arxiv.org/abs/2604.20195)
+
+   > Galaxy, Deep Learning, Super-Resolution, Morphology
+
+   提出 [Neo](https://purl.archive.org/neo/code)，一个条件 GAN，把地面 HSC 图像转换成接近 HST 质量的 6 倍超分辨率图像，用来改善星系形态参数测量。训练数据来自 COSMOS 中 HSC i-band 与 HST/ACS F814W 的重叠区域：HSC 像素尺度 0.168″、PSF FWHM 约 1.3″；HST 像素尺度 0.03″、PSF FWHM 约 0.09″。训练约 150 万个 cutout，验证约 40 万个 cutout。结果显示，Neo 生成图像在有效半径、FWHM、轴比、浓度和方向角等参数上比直接用 HSC 更接近 HST，文章概括为 2–10 倍精度提升；还展示了大图 mosaic 拼接和在 DEEP2-3 区域上的泛化。限制主要是饱和源和背景扣除不佳。
+
+   <img src="./Figures/image-20260423181442484.png" alt="image-20260423181442484" width="680px" />
+
+4. [Review: A new method for estimation and use of systematic errors in Poisson regression](https://arxiv.org/abs/2604.20632)
+
+   > Statistics, Poisson Regression, Systematic Errors, X-ray Spectrum
+
+   综述一种在 Poisson 回归中加入系统误差的方法，面向天文计数数据，尤其是 X-ray 光谱。做法是保留 Poisson 数据模型，但把模型均值 $M_i$ 当成带内禀变化的随机变量，系统误差用相对量 $f_i=\sigma_{{\rm int},i}/\hat\mu_i$ 表示；这样 Cash statistic 可推广为 $C_{\rm min,sys}$，同时估计拟合优度和系统误差水平。例子是 XMM-Newton/RGS 对 1ES 1553+113 的光谱：原始 $C_{\rm min}=1861.8$、自由度 1478，名义上拟合很差；用该方法估计平均系统误差为 $1.8\pm0.2%$，若假设 2% 系统误差，拟合的 p-value 变为 0.83。对一个候选 O VII 吸收线，$\Delta C=6.6$ 原本对应 $p=0.010$，但若有 5% 系统误差则变为 $p=0.036$，说明弱线探测需要显式考虑系统误差。
+
+## 2026-04-24
+
+可以，按你要的“**目的是啥 / 怎么干的 / 结果如何**”来写：
+
+1. [The Dyson Minds 2025 Workshop: SETI around Black Holes](https://arxiv.org/abs/2604.21886)
+
+   > SETI, 黑洞, technosignature
+
+   如果有非常高级的文明，不是住在行星上，而是在**超大质量黑洞附近收集能量、做超大规模计算**，那天文学家有没有可能从观测数据里把它们找出来。作者认为，最值得找的信号仍然是**废热**，也就是中红外多出来的热辐射；但不能只看这个，还应该同时留意**异常光谱、异常变光、偏振异常、X 射线掩食**之类的信号。文章最实际的建议是：用**异常检测**方法，重新筛查 WISE、JWST、EHT 等已经存在的档案数据，看看里面有没有被常规流程漏掉的异常源。
+
+## 2026-04-27
+
