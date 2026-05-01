@@ -534,8 +534,6 @@
 
 ## 2026-04-24
 
-可以，按你要的“**目的是啥 / 怎么干的 / 结果如何**”来写：
-
 1. [The Dyson Minds 2025 Workshop: SETI around Black Holes](https://arxiv.org/abs/2604.21886)
 
    > SETI, 黑洞, technosignature
@@ -544,3 +542,160 @@
 
 ## 2026-04-27
 
+1. [Euclid Quick Data Release (Q1). AstroVink: A vision transformer approach to find strong gravitational lens systems](https://arxiv.org/abs/2604.21977)
+
+   > Gravitational Lensing, Vision Transformer, Deep Learning
+
+   Euclid 里强透镜太稀少、人工筛选太慢。把 DINOv2 的 vision transformer 微调成一个叫 AstroVink 的分类器，先用模拟透镜和非透镜训练，再把 Q1 里已经确认的透镜，以及一批最容易混淆的假阳性样本加进去重训。原始模型在测试集中 top 500 能找回 88/110 个已知透镜，平均看 5.7 个候选能找到 1 个；重训后 top 500 能找回 **110/110**，效率提高到 **看 4.5 个候选就能找到 1 个透镜**。
+
+   <img src="./Figures/image-20260427155141916.png" alt="image-20260427155141916" width="680px" />
+
+2. [Large language models are not the problem](https://arxiv.org/abs/2604.22071)
+
+   > LLM, Astronomy
+
+   如果一个 LLM 真能完整复制你的科研贡献，那问题往往不在 LLM，而在这类工作本来就太机械、太依赖流水线。文中先用自己的使用方式举例：把 LLM 当成第一轮讨论对象，用来 stress-test 论证、找思路漏洞、快速摸清陌生技术；AI 辅助写代码也可以，但前提是代码最后必须经过验证、同行审阅和版本控制。她真正担心的，是让 AI 在几乎没有人类负责的情况下，自己设计、执行、写作并投稿。
+
+   作者最后把矛头指向学术生态本身：**publish-or-perish、用发文量代替质量、学生培养被“生产力逻辑”挤压，这些问题都早在 LLM 之前就存在。** 所以她主张的不是全面禁用，而是区分“自动化科研”和“增强研究者”：前者值得警惕，后者本质上和望远镜、计算机一样，只是帮人更好地思考和工作。文章给出的实际建议也很朴素：披露 LLM 的使用方式、作者必须能解释并负责文中的分析、评价体系少看数量多看质量。**核心结论是：LLM 不是天体物理的主要威胁，它只是把原本就有的问题照得更亮。**
+
+3. [Backlighting the Cosmic Web with Fast Radio Bursts: An Anthology of Dispersion Measure Cross-Correlations with Large-Scale Structure and Baryon Tracers](https://arxiv.org/abs/2604.22105)
+
+   > FRB, DM, Cosmology
+
+   这篇想把 FRB 的色散量 DM 从单个源的一条积分量变成给宇宙网做背光的统计探针：如果一条 FRB 视线穿过更多电子、更致密的环境，它的 DM 就应该系统性更大。作者用 3455 个 CHIME/FRB 源，把 DM 和十类 tracer 做角互相关，包括星系、弱透镜、CIB、CMB lensing、tSZ、X-ray 结构和射电连续谱。文中的基本写法是把 DM 涨落场写成
+   $$
+   D(\hat x)=\int_0^{\chi_H} d\chi, W_D(\chi),\delta_e(\hat x,\chi),
+   $$
+   也就是把视线上的电子密度涨落投影到天球上，再看它和各种大尺度结构 tracer 有没有一起涨。十类 probe 都看到了显著正相关，显著性大约在 2.6–5σ，例如 galaxies 是 2.8σ、weak lensing 是 2.6σ、CIB 是 4.0σ、CMB lensing 是 3.3σ、tSZ 是 3.8σ、X-ray clusters 是 5.0σ、SXRB 是 4.1σ。这说明穿过更致密环境的 FRB 视线，DM 的确更大。
+
+4. [Variability of Sagittarius A* at 3 GHz on minute-scale with MeerKAT](https://arxiv.org/abs/2604.22638)
+
+   > Radio, Transient, MeerKAT
+
+   这篇想摸清 Sgr A* 在低频射电、特别是 **3 GHz 附近分钟尺度** 上怎么变，因为这个区间以前基本没被系统看过。作者用 MeerKAT 连续看了 8 小时，在 uv-domain 里做点源拟合，拿到 1 分钟分辨率的光变曲线和子频段谱指数。测到的平均流量是 $(827 \pm 0.1_{\rm stat} \pm 33_{\rm sys})$ mJy，调制度 6.11%，平均谱指数 $\alpha=0.08\pm0.03$。他们还用二阶结构函数去估计特征时间尺度，得到斜率 $0.81\pm0.05$，对应的特征时间大约120 分钟。
+
+   更关键的是两个子频段之间测到了$826\pm97$ 秒的时延，这明显大于简单绝热膨胀模型给出的约 390–490 秒，所以作者认为**这次 3 GHz 的变光不太像单纯的绝热膨胀**。
+
+   ## 2026-04-28
+
+   1. [A machine learning approach to meteor classification](https://arxiv.org/abs/2604.22986)
+
+      > Meteor, Machine Learning, Classification, Composition
+
+      使用13个直接观测到的流星参数，对LO-CAMS 2023年的28177个高质量流星事件建立可扩展分类框架，并用GMN中的已知流星雨辅助解释结果。传统$K_b$参数只使用少数进入大气参数，这里通过因子分析和高斯混合模型从多维观测量中恢复运动学、激活阈值、尺寸和观测几何等潜在因子。
+
+      最终给出$H_{\rm class}$硬度分类，用数据驱动方式把流星体从富铁或碳质等较硬材料到较软彗星物质排序。3、6、11类模型展示了逐渐细化的物理结构，轨道空间检查与彗星族、JFC和小行星来源的预期基本一致。配套Python实现[hcmm](https://github.com/sammmelg/hcmm)用于把GMN数据转换并应用11类模型。
+
+      <img src="./Figures/image-20260428213859357.png" alt="image-20260428213859357" width="680px" />
+
+   2. [Beyond the Final Label: Exploiting the Untapped Potential of Classification Histories in Astronomical Light Curve Analysis](https://arxiv.org/abs/2604.23792)
+
+      > Light Curve, Classification, Deep Learning, LSST
+
+      面向Rubin LSST实时警报场景，问题不是只给完整光变曲线的最终分类，而是利用分类概率随时间演化的历史。基于ELAsTiCC合成光变曲线和多个警报经纪系统输出的分类概率序列，构造输入为原始流量、五类超新星概率历史和时间特征的序列模型。
+
+      模型采用单层LSTM加additive attention，并提出基于Wasserstein距离的早期稳定分类指标，用来评价概率分布是否更早收敛且保持准确。相对ELAsTiCC基线分类器，分类历史能提高准确率和加权F1，弱基线上的收益最明显；同时减少标签反复跳变。代码和数据在[GitHub](https://github.com/grantzzhou/LSST_beyond_the_final_label)和[Zenodo](https://zenodo.org/records/18748762)。
+
+      <img src="./Figures/image-20260428221200085.png" alt="image-20260428221200085" width="680px" />
+
+   3. [SCAT Data Release 1: 1810 optical spectra of 1330 transients](https://arxiv.org/abs/2604.23794)
+
+      > Transient, Supernova, Spectroscopy, Data Release
+
+      发布SCAT巡天第一批光谱瞬变数据，覆盖2018年3月至2023年1月的UH 2.2 m望远镜SNIFS观测。数据包括1330个瞬变源的1810条光谱，并合并公开多波段光变曲线、光变拟合、爆发或首光时间估计、峰值亮度、宿主星系匹配、红移和距离信息。
+
+      <img src="./Figures/image-20260428221242226.png" alt="image-20260428221242226" width="680px" />
+
+      DR1包含722个Ia型超新星、275个II型超新星、78个Ibc型超新星、48个核区瞬变、172个恒星现象和35个其他类别对象的光谱，为实时光度分类和光变分类管线提供训练和验证样本。数据发布在[Zenodo](https://zenodo.org/records/19188201)，其中包含FITS和ASCII光谱、汇总图、光变曲线和文档。
+
+   4. [LStein: A new approach to visualizing sparse 2.5-dimensional data](https://arxiv.org/abs/2604.24034)
+
+      > Visualization, Light Curve, Tool, Method
+
+      提出[LStein](https://github.com/TheRedElement/LStein)，用于把稀疏2.5维数据投影到二维图中，核心动机是多波段天文光变曲线：时间和流量构成曲线，波长或通带维度稀疏采样且常被普通多面板图忽略。方法用环形扇区面板编码第三维关系，使相近通带在图上也更接近。
+
+      与多面板、单面板和3D图比较后，LStein更适合保留通带间距、减少曲线脱离波长关系的问题，但仍建议与传统可视化结合使用。Python实现支持matplotlib和Plotly后端，可生成静态出版图或交互网页图；文档在[Read the Docs](https://lstein.readthedocs.io/en/latest/)。示例扩展到超新星光谱演化、射电脉冲星频段、机器学习超参数搜索等稀疏第三维数据。
+
+      <img src="./Figures/image-20260428221325367.png" alt="image-20260428221325367" width="680px" />
+
+   5. [SVOM Real-time Response and Collaboration System](https://arxiv.org/abs/2604.24265)
+
+      > Gamma Ray Burst, SVOM, Instrument, BeiDou
+
+      介绍SVOM任务的实时响应和协同观测系统，重点是使用北斗三号短报文服务完成卫星到地面触发告警下行，以及ToO观测指令上行。系统覆盖星上触发、北斗链路、地面接收和融合、任务规划、Swift与Einstein Probe协同观测等流程。
+
+      首年在轨运行中，摘要给出SVOM探测172个伽马暴，并执行1040次观测，包括122次ToO EX、48次ToO MM和870次ToO NOM；结论段又写触发184个伽马暴，全文对总数存在口径差异。北斗链路使瞬变源告警可在秒级传到地面，ToO指令从接收到成功上行平均少于30分钟、最快少于2分钟，提升了多卫星联合响应效率。
+
+      <img src="./Figures/image-20260428221410048.png" alt="image-20260428221410048" width="680px" />
+
+   7. [StarCLR: Contrastive Learning Representation for Astronomical Light Curves](https://arxiv.org/abs/2604.24516)
+
+      > Variable Star, Light Curve, Deep Learning, Contrastive Learning
+
+      提出StarCLR，用对比学习为天文光变曲线学习可迁移的时间表示，减少对手工特征和单一巡天专用模型的依赖。模型是Transformer encoder，输入为观测时间和流量；预训练时从部分重叠子序列构造正样本对，在TESS前69个sector的764986条光变曲线上学习表示。
+
+      微调阶段冻结主干，只训练分类头，并在TESS、ZTF和Gaia变星分类数据上评估。macro F1分别达到84.35%、87.82%和92.73%，相对从零训练的LSTM和Transformer在TESS、ZTF上更好，稀疏采样ZTF上的收益最明显；Gaia结果很大程度还依赖静态天体物理特征。推理代码和预训练权重在[StarCLR-Inference](https://github.com/dj-y/StarCLR-Inference)。
+      
+      <img src="./Figures/image-20260428221439254.png" alt="image-20260428221439254" width="680px" />
+
+## 2026-04-29
+
+1. [The effects of image augmentations when training machine learning models in astronomy](https://arxiv.org/abs/2604.24862)
+
+   > Galaxy, Deep Learning, Data Augmentation
+
+   测试天文图像分类中数据增强是否总能提高模型表现，具体任务是用Zoobot对Galaxy Zoo DECaLS星系形态进行分类。实验使用约230000张GZD 5星系图像，按80/20划分训练和测试集，并从训练集中取10%、25%、50%、100%四种规模；同一EfficientNet B0版Zoobot分别使用Original、Rotation plus Flip、Rotation、Flips、Zoom、None六种增强配置训练。
+
+   数据增强通常有帮助，尤其在训练集较小时，不做增强的模型表现明显较差。随着训练集变大，不同合理增强方案之间差异变小，固定容量模型会接近饱和点，此后增加复杂增强主要增加训练时间，性能收益有限。
+
+   <img src="./Figures/image-20260429151756998.png" alt="image-20260429151756998" width="680px" />
+
+2. [Rotation Measure Substructures Induced by the Ponderomotive Force of Inertial Alfvén Waves](https://arxiv.org/abs/2604.25469)
+
+   > Fast Radio Burst, Rotation Measure, Plasma, Theory
+
+   解释重复FRB中短时标$RM$子结构，尤其是FRB 20201124A和FRB 20220529中叠加在长期$RM$演化上的快速下降和恢复。模型把FRB源附近环境视为低$\beta$磁化等离子体，大尺度Alfvén扰动通过湍流级联或磁重联产生惯性Alfvén波，波的ponderomotive force会把电子从波包核心排出，形成电子密度空穴。
+
+   解析计算把密度耗尽、波电流强度、$RM$和$DM$变化联系起来，并与观测到的$RM$ dips比较。典型磁星和大质量伴星双星风参数下，约$15R_\odot$尺度的IAW湍流区可产生$\Delta RM \sim -40$到$-60\,{\rm rad\,m^{-2}}$，可解释FRB 20201124A的部分短时下降，也能覆盖FRB 20220529较大波动的一部分。
+
+3. [Enabling real-time multi-messenger follow-up of transient events with Astro-COLIBRI](https://arxiv.org/abs/2604.25529)
+
+   > Transient, Multi Messenger, Tool, Alert
+
+   [Astro COLIBRI](https://astro-colibri.com/)是面向瞬变源实时跟进的平台，用于把GRB、FRB、超新星、新星、AGN flare、引力波和高能中微子等事件放入多信使、多波段上下文中。系统包含公共RESTful API、实时数据库、云端推送、网页端和iOS/Android移动端，持续监听GCN、TNS、Fink等警报流，并按用户过滤规则推送事件。
+
+   平台界面提供时间线、事件卡片、天图、10度锥形搜索、可见性曲线、外部报告链接和ToO提交入口，也可调用tilepy为定位较差事件生成铺砖计划。数据库自2016年以来已归档超过100000个事件，主要贡献是把分散的瞬变警报、观测条件和多波段信息集中到一个可操作的跟进工具中。API文档在[这里](https://astro-colibri.science/apidoc)。
+
+4. [Fast radio burst dispersion is an unbiased tracer of matter on large scales](https://arxiv.org/abs/2604.25828)
+
+   > Fast Radio Burst, Cosmology, Dispersion Measure, Large Scale Structure
+
+   论证FRB的色散量$DM$在大尺度上可作为近似无偏的物质分布示踪量。核心依据是重子数守恒：在大尺度线性区，全部重子场必须以单位bias追踪总物质场；FRB色散主要追踪弥散电离气体，而这部分包含约90%的重子，因此只需对恒星和中性气体成分做百分量级修正。
+
+## 2026-04-30
+
+1. [TwinSpecNet: Extending APOGEE’s chemical reach to low-S/N spectra via empirical paired learning](https://arxiv.org/abs/2604.26491)
+
+   > Milky Way, Spectroscopy, Deep Learning, Stellar Abundance
+
+   TwinSpecNet利用APOGEE多次观测同一恒星的特点，把低$S/N$ visit光谱和同一恒星的高$S/N$合并光谱组成经验配对样本，学习低信噪比谱中的可恢复化学信息。模型采用Vision Transformer编码器，先用320万组visit combined光谱对做去噪重建预训练，再用550354条带ASPCAP标签的visit光谱做恒星参数和丰度回归，并输出校准不确定度。在$S/N_{\rm visit}\sim20$–60区间，TSN相对visit级ASPCAP显著降低标签散布，同时保持在ASPCAP标尺上。
+
+   <img src="./Figures/image-20260430144421000.png" alt="image-20260430144421000" width="680px" />
+
+2. [Cosmological evolution of fast radio bursts and its rapid decline relative to star formation rate](https://arxiv.org/abs/2604.26574)
+
+   > Fast Radio Burst, Cosmology, CHIME, Population
+
+   使用[CHIME/FRB Catalog 2](https://zenodo.org/records/18843430)研究非重复FRB的宇宙学演化。样本从3558个一次性爆发出发，按银河系和河外$DM$贡献、流量及流量误差筛选后得到2982个FRB，并在0.2 Jy和0.5 Jy两个流量阈值下分析；红移由IllustrisTNG给出的$DM$概率分布反推伪红移，并同时测试上下限。
+
+   通过Efron Petrosian方法校正截断效应后，FRB光度存在强红移演化，约为$L_0\propto(1+z)^{6.38}$。去演化后用Lynden Bell $C^{-}$方法得到的光度函数可由broken power law描述，断点约对应毫秒爆发能量$\sim10^{38}$ erg；共动形成率在高红移快速下降，$\rho(z)\propto(1+z)^{-5.38\pm0.02}$。该演化不直接追踪宇宙恒星形成率，更接近短伽马暴，指向带明显时延的老年族群通道。
+
+3. [Coronal Diagnostics Via Modelling Periodic-Beaded Stripes of Solar Radio Bursts](https://arxiv.org/abs/2604.26783)
+
+   > Solar, Radio Burst, Corona, Periodicity
+
+   基于中国子午工程二期CBSm米波太阳射电频谱仪的高时间和频率分辨率数据，分析Type IV连续谱中的periodic beaded stripes。此类条纹多出现在耀斑后相，也可在耀斑前出现，常位于复杂磁结构附近；条纹以0.2–1.5 s周期首尾相接，单条持续0.3–2 s、带宽0.3–5 MHz，并带有约0.1 s的珠状调制和低频侧吸收。
+
+   用double plasma resonance不稳定性的线性动理论建模链状条纹，密度和磁场的缓慢演化控制整体漂移和条纹连续性，密度或磁场扰动产生珠状结构和畸变。对5天内30组stripe chains的拟合给出源区磁场约0.2–1.7 G、电子密度约$(1$–$7)\times10^8\,{\rm cm^{-3}}$。这些结果支持多谐波upper hybrid波产生周期条纹、低频MHD波调制珠状结构的图像，并把这种精细结构转化为日冕磁场和密度诊断工具。
+
+   <img src="./Figures/image-20260430144651621.png" alt="image-20260430144651621" width="680px" />
