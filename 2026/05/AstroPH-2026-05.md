@@ -1,7 +1,5 @@
 ## 2026-05-01
 
-## 2026-05-01
-
 1. [The Solar System Notification Alert Processing System (SNAPS): Public access to SNAPS data and products](https://arxiv.org/abs/2604.27420)
 
    > Solar System, Asteroid, Tool, Database
