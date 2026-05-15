@@ -220,3 +220,195 @@
 
 ## 2026-05-11
 
+1. [A PINK update: Improvements to the CELEBI fast radio burst data reduction and analysis pipeline](https://arxiv.org/abs/2605.06766)
+
+   > Fast Radio Burst, Pipeline, Polarization, Tool
+
+   PINK 是 CELEBI 管线的一组升级，用于把 ASKAP/CRAFT 的原始电压数据处理成 FRB 的亚角秒定位和最高 3 ns 时间分辨率的偏振数据。更新包括 RACS 天测校正、沿波束轴的定位误差处理、time and frequency gating、matched filter imaging、near field imaging，以及新的偏振泄漏建模和校准流程。高 DM、低 S/N 的 FRB 20251019A 展示了 matched filter imaging 对定位精度的提升，但目前仍未确认宿主星系。结构最大化 DM 工具 [SHRINE](https://github.com/marcinglowacki/SHRINE) 和 Docker 化的 [celebi-container](https://github.com/marcinglowacki/celebi-container) 已公开，容器化后 CELEBI 可迁移到 OzSTAR 以外的计算环境，并使典型运行时间提升超过两倍。
+
+2. [Machine Learning Techniques for Astrophysics and Cosmology: Photometric Redshifts](https://arxiv.org/abs/2605.06790)
+
+   > Photometric Redshift, Machine Learning, Cosmology, Review
+
+   综述 photometric redshift 在 LSST、Euclid 等 Stage IV 巡天中的作用：光谱红移精确但无法覆盖数十亿暗弱星系，photo-z 只能从多波段光度、颜色和星系族群先验中推断个体红移或整体 $N(z)$。传统 discriminative AI 包括 MLP、Gaussian Process、mixture density network、random forest、SVM、SOM 等，主要依赖带光谱标签的训练集；主要瓶颈来自训练样本不代表目标星系族群、光谱失败和错误红移、blending、样本方差以及测光系统误差，目前均值红移精度仍比 Stage IV 弱透镜要求差约一个数量级。
+
+   另一条路线是 generative AI 和 forward modelling：显式建模星系族群先验、SED、图像生成、测量过程、selection function 和 blending，再用 simulation based inference、normalizing flow、diffusion model、neural emulator 等把 Bayesian photo-z 推断扩展到大样本。核心结论是，photo-z 问题不能只靠更强的回归器解决；面向宇宙学的关键量是校准后的 redshift distribution 和后验覆盖率，需要 posterior predictive checks、coverage tests、模型错设测试和端到端宇宙学参数偏移检验。
+
+4. [You Only Stack Once (YOSO): A Motion-Filtered, Deep-Learning Framework for Detecting Faint Moving Sources](https://arxiv.org/abs/2605.06913)
+
+   > TNO, Deep Learning, Solar System, Method
+
+   YOSO 面向宽场巡天中的暗弱移动天体检测，核心是 Gaussian Motion Filter：对每个像素的时间序列做与移动点源经过像素时近似高斯响应匹配的滤波，只生成一张 motion filtered stack，再用 YOLOv8-L 识别轨迹。测试数据来自 DECam Ecliptic Exploration Project 的 B1 象限 4 个 field nights；训练集由合成移动源、MPC 已知天体、空背景、宇宙线和伪迹组成，共 16000 张图像、68420 个对象，训练约 200 epochs。
+
+   在 4 个 DEEP field nights 上，YOSO 找回 KBMOD 已报告的 73 个 TNO 中的 45 个，并发现 11 个新的 TNO；它的极限星等平均比 KBMOD 亮约 0.88 mag，但 false positive 很低，后续 shift and stack refinement 后 purity 接近 99%。同一单速度 GMoF 设置还识别出 216 个此前未报告、视运动 10–60 arcsec hr$^{-1}$ 的近太阳系天体，以及 27 个超过 60 arcsec hr$^{-1}$ 的对象。该方法适合作为 shift and stack 的互补管线，尤其适合 LSST deep drilling fields、NEO Surveyor 和其他需要增强运动相关弱信号的时域图像场景。
+
+## 2026-05-12
+
+1. [Discovery of 30 Repeating Fast Radio Burst Sources and Uniform Population Statistics of 80 Repeating Sources from CHIME/FRB](https://arxiv.org/abs/2605.08410)
+
+   > Fast Radio Burst, CHIME, Repeater, Population, Observation
+
+   面向FRB重复源人口统计和所有FRB是否都会重复的问题，CHIME/FRB从第二目录的4539个爆发中识别重复源候选。分析使用RA、Dec和$DM$空间中的DBSCAN聚类，并用非均匀泊松过程的机会重合概率筛选显著候选；随后结合曝光、灵敏度阈值和统一到5 Jy ms的爆发率，比较重复源与表观一次性FRB。
+
+   新增30个重复FRB源，使CHIME/FRB观测到的重复源样本达到80个。重复源观测比例为$2.4\pm0.4\%$，随观测时间没有显著增长；重复源爆发率与一次性源的上限分布没有显示清晰双峰。基于[zDM](https://github.com/FRBs/zdm)的人口建模在当前数据下仍允许50–100%的表观一次性FRB来自重复源分布。另有4个重复源显示年尺度近似线性$DM$变化，提示局域环境或传播效应可能随时间演化。
+
+   <img src="./Figures/image-20260512120006286.png" alt="image-20260512120006286" width="680px" />
+
+2. [Tracing the kinematic perturbations of the Milky Way spiral arms with APOGEE DR17 and Gaia DR3](https://arxiv.org/abs/2605.10092)
+
+   > Milky Way, Spiral Arm, Kinematics, Gaia
+
+   利用APOGEE DR17与Gaia DR3构建红巨星样本，最终选出46330颗盘星并平滑得到二维银心径向速度场，用来约束银河系旋臂对恒星运动的非轴对称扰动。模型采用两臂对数螺旋势，在稳态径向速度响应中同时保留$V_{R,\sin}$和$V_{R,\cos}$项，并用AGAMA轨道积分和dynesty贝叶斯参数恢复验证。写文章的时候，方法这部分可以抄。
+
+   改进模型能在模拟速度场中恢复相位和振幅到约2%水平，明显优于只含$V_{R,\sin}$的处理。观测数据给出的旋臂俯仰角约为$10^\circ$，太阳半径处局部面密度反差约5–18%，旋臂图案速度倾向于$\Omega_p \approx 10$–$20\ {\rm km\ s^{-1}\ kpc^{-1}}$。Lindblad共振和共转共振会强烈改变径向速度场，因此共振处理是从恒星流运动反推旋臂结构的关键限制。
+
+   <img src="./Figures/image-20260512120045351.png" alt="image-20260512120045351" width="680px" />
+
+3. [From Large Telescopes to the MUltiplexed Survey Telescope (MUST)](https://arxiv.org/abs/2605.10102)
+
+   > Astronomy, Spectroscopy, Instrument, Survey, Review
+
+   围绕宽视场高复用光谱能力在2030年代的缺口，回顾大型光学望远镜和光谱巡天的发展，并以MUST作为Stage V光谱巡天设施案例。MUST设计为6.5米宽视场光谱望远镜，可在约5平方度视场内同时获取超过2万个目标的光谱，焦面采用6.2 mm间距的模块化机器人光纤定位器。
+
+   <img src="./Figures/image-20260512120159376.png" alt="image-20260512120159376" width="680px" />
+
+   设计目标是在8年巡天中覆盖超过10000平方度，获得超过1亿个星系和类星体的光谱红移，支持暗能量、结构增长、原初非高斯性、中微子质量、暗物质、星系演化、银河系考古和时域天文学。当前方案包括Ritchey Chretien加宽视场改正器、21168个光纤定位器、约40台三通道光谱仪，波长覆盖约370–960 nm，分辨率约$R\sim1900$–5000；焦面、光纤、光谱仪和高海拔运行环境仍是主要工程挑战。
+
+   <img src="./Figures/image-20260512120224329.png" alt="image-20260512120224329" width="680px" />
+
+4. [Application of Machine Learning to 21 cm Cosmology](https://arxiv.org/abs/2605.10105)
+
+   > 21 cm Cosmology, Machine Learning, SKA, Review
+
+   综述机器学习在宇宙黎明和再电离时期红移21 cm观测中的作用，重点面向SKA Low时代的科学分析。21 cm信号由密度、电离状态、自旋温度和辐射背景共同决定，具有强非高斯性；实际观测还受到前景污染、RFI、电离层扰动、校准误差和高维参数推断成本限制。
+
+   <img src="./Figures/image-20260512120250444.png" alt="image-20260512120250444" width="680px" />
+
+   机器学习方法被分为三类：观测域方法处理RFI筛选、前景建模、校准残差和图像重建；理论域方法用仿真代理模型或摘要统计加速前向建模；推断域方法用CNN、回归器或simulation based inference从功率谱、图像、light cone和全局信号中约束天体物理与宇宙学参数。可靠路径不是用端到端神经网络替代物理模型，而是在保留物理结构、传播不确定度、进行覆盖率和域偏移检验的前提下，把ML作为混合分析管线中的加速和正则化组件。
+
+5. [Characterizing Pulsar Distances Using H I Kinematics](https://arxiv.org/abs/2605.10881)
+
+   > Pulsar, H I, Kinematics, Distance, Tool
+
+   更新脉冲星中性氢$H I$运动学距离，用归档$H I$吸收和发射径向速度为66条脉冲星视线重新计算距离约束。方法采用Reid et al. 2019银河系旋转曲线，把$H I$速度上下限、单侧限和切点速度转化为距离范围，并对英仙臂方向的特殊运动和云团随机运动加入修正。
+
+   距离结果发布在[Zenodo](https://doi.org/10.5281/zenodo.19775798)，同时提供估算脉冲星$H I$运动学距离的[Python脚本](https://github.com/stella-ocker/psr-HI-kinematics)。新距离与Frail & Weisberg 1990目录平均相差约10%，主要来自不同旋转曲线；具有视差距离的样本中，几乎全部在$1\sigma$内一致，少数在$2\sigma$内一致。与NE2025银河电子密度模型的预测总体相符，但系统误差、特殊运动修正和$H I$测量本身仍是限制精度的主要来源。
+   
+   <img src="./Figures/image-20260512120332326.png" alt="image-20260512120332326" width="680px" />
+
+## 2026-05-13
+
+1. [Survey Footprint Explorer: A Browser-Based Interactive Tool for Visualizing and Cross-Matching Astronomical Survey Footprints](https://arxiv.org/abs/2605.11099)
+
+   > Astronomy, Survey, Tool, Visualization
+
+   [Survey Footprint Explorer](https://www.lammimahad.com/survey-footprint-explorer) 是一个零安装的浏览器工具，用来显示、比较和交叉匹配大型天文巡天的天空覆盖区域。工具用客户端JavaScript实现，核心覆盖计算由WebAssembly版Rust MOC库完成，不需要服务器；界面同时提供Aladin Lite交互天球和D3全天天图投影。
+
+   当前版本包含13个巡天足迹，包括Euclid DR1、LSST WFD、Roman HLWAS和HLTDS、DESI Legacy DR9、DES、HSC、KiDS、UNIONS、eRASS1和ACT。足迹用MOC/HEALPix表示，可计算多巡天重叠面积，上传CSV或TSV源表后为每个源追加是否落入各巡天区域的布尔列，也支持用户上传自定义MOC足迹。主要贡献是把多巡天覆盖区比较、源表成员判定和可导出的全天天图整合到一个轻量级网页工具中。
+
+   <img src="./Figures/image-20260513143144508.png" alt="image-20260513143144508" width="680px" />
+
+2. [Quantifying the Reconstructability of Astrophysical Methods with Large Language Models and Information Theory: A Case Study in Spectral Reconstruction](https://arxiv.org/abs/2605.11154)
+
+   > Astronomy, LLM, Reproducibility, Information Theory, Method
+
+   提出一种用LLM和信息论评估天体物理方法可复现性的框架，问题被表述为从论文文本$X$重建算法$Y$的条件分布$P(Y|X)$。方法用不同文本层级（标题、标题加摘要、标题加摘要加方法）提示模型生成候选算法，再在关键词空间和代码语义嵌入空间中聚类，用Shannon entropy、Jensen Shannon divergence、mutual information和与ground truth的距离衡量论文文本对算法空间的约束能力。
+
+   案例是从稀疏光度测量重建TNO光谱。实验1用DeepSeek R1 Distill Qwen 14B和GPT oss 20B各生成200个样本，实验2用Gemini 3.1 Pro、ChatGPT 5.2和Claude 4.6 Sonnet生成可执行Python流程。结果显示，增加方法文本能把模型推向正确的大框架，例如PCA、KDE和机器学习组合，但不能消除实现层面的残余分散；LLM通常能生成可运行流程，却会漏掉非负反射率、潜空间协方差、Gaussian copula等隐含专家约束，导致结果过度自信或科学校准不足。信息论框架代码在[astro_entropy](https://github.com/sevenlin123/astro_entropy)，光谱重建流程在[spectra_reconstructor](https://github.com/sevenlin123/spectra_reconstructor/)。
+
+3. [Periodic Emission Frequency Modulation in a Hyperactive Fast Radio Burst](https://arxiv.org/abs/2605.12098)
+
+   > Fast Radio Burst, Periodicity, Spectrum, Observation
+
+   针对超活跃重复FRB 20240114A的频谱演化，使用Parkes 64米望远镜Murriyang的UWL接收机数据分析爆发中心频率是否存在长周期调制。观测覆盖约16个月，原始样本包含5526个$S/N \geq 7.5$爆发；周期搜索只使用$S/N>20$的高信噪比爆发，以降低去色散和中心频率测量误差。周期性由Lomb Scargle periodogram和phase folding两种方法独立检验。
+
+   中心发射频率存在显著的约112.91天周期调制，单周期内频率从低频向高频系统漂移；Lomb Scargle和phase folding的保守显著性均超过$6\sigma$，尾部分布外推给出更高显著性。FAST同期数据呈现相近的中心频率演化趋势，但爆发到达时间本身没有显著周期性。单纯自由自由吸收难以解释高频缺失而低频仍可见的现象，更可行的解释包括双星系统中随轨道相位变化的吸收和回旋共振吸收，或磁星自由进动导致视线角度周期变化。
+   
+   <img src="./Figures/image-20260513143259544.png" alt="image-20260513143259544" width="680px" />
+
+## 2026-05-14
+
+1. [Magnetar-powered long gamma-ray bursts and connection to superluminous supernovae and fast radio bursts](https://arxiv.org/abs/2605.13440)
+
+   > Gamma Ray Burst, Magnetar, Supernova, FRB, Theory
+
+   针对长GRB的磁星中心引擎问题，从Swift XRT余辉光变中筛选169个具有平台后接近 $t^{-2}$ 衰减特征的LGRB，其中78个有光谱红移，其余用Amati关系估计伪红移。通过MCMC拟合平台光度 $L_0$ 和断裂时间 $t_b$，再在磁偶极自旋下降模型中反推出初始自转周期 $P_0$ 和极向磁场 $B_p$。
+
+   样本满足Dainotti相关，斜率接近 $-1$，支持平台期近似恒定能量注入；推得 $B_p \sim 2.6 \times 10^{15}$ G、$P_0 \sim 4.0$ ms，并得到 $B_p \propto P_0^{0.8}$ 的正相关。与SLSNe和FRB相关磁星相比，GRB磁星的磁场约高一个数量级，指向更强磁化的坍缩条件或不同能量释放通道。
+
+2. [DEFROST: Detecting Excess in Faraday Rotation thrOugh Sophisticated analysis Techniques](https://arxiv.org/abs/2605.13605)
+
+   > Radio, Faraday Rotation, Cosmology, Method
+
+   DEFROST面向RM-grid中的河外磁场测量问题，用Bayesian Information Field Theory同时分离银河系Faraday rotation、河外贡献和观测噪声；输入为点源Faraday depth目录及红移、Stokes I光度等辅助信息，实现基于[NIFTy](https://ift.pages.mpcdf.de/nifty/)。河外Faraday rotation被建模为零均值高斯方差项，并拆成源内亮度相关项和沿视线环境红移相关项。
+
+   用基于NVSS、LoTSS和Van Eck等目录特性的合成样本测试算法边界。银河磁场功率谱以大尺度为主时更容易分离银河和河外项；在当前类似NVSS/LoTSS的数据密度和噪声下，远离银道面的样本更稳健，$|b|>45^\circ$ 时河外参数恢复效果最好。结果说明现有RM目录已可用于统计约束河外Faraday excess，但精确红移和未来SKA级高密度RM-grid会显著改善宇宙磁场测量。
+
+   <img src="./Figures/image-20260514153344855.png" alt="image-20260514153344855" width="680px" />
+
+3. [Detector for fast wave trains in the solar radio emission](https://arxiv.org/abs/2605.13728)
+
+   > Solar, Radio, QFP, Deep Learning
+
+   面向太阳射电动态谱中快速准周期传播波列QFP的自动识别，使用HiRAS在2011年的20 MHz到2.5 GHz、1秒时间分辨率数据，并以50个全球日冕EUV波作为目标事件。检测器由合成flare时间序列训练的CNN/FCN分类网络和相邻频率时间轮廓相关性筛选组成，用不同平滑窗口覆盖不同QFP时间尺度。
+
+   自动搜索得到75个QFP候选检测，对重复宽带事件合并后为50个独立候选，其中13个与全球EUV波相连。射电QFP与全球波的关联比例为26%，Wilson 95%区间为16%到39%，随机符合概率估计低于10%，Z-score为4.0。结果支持部分全球日冕波事件在射电波段存在快速波列响应，但候选事件仍需要EUV、硬X射线或多台站观测进一步验证。
+
+   <img src="./Figures/image-20260514153418033.png" alt="image-20260514153418033" width="680px" />
+
+## 2026-05-15
+
+1. [Determining star formation histories and age-metallicity relations with convolutional neural networks](https://arxiv.org/abs/2605.13973)
+
+   > Galaxy, Star Formation History, Deep Learning, PHANGS
+
+   面向近邻星系中空间分辨的恒星形成历史和年龄金属丰度关系恢复，构建结合卷积层、注意力机制和共享潜空间的CNN，同时输入PHANGS-MUSE积分场光谱和PHANGS-HST五个NUV/光学波段测光，输出16个年龄bin中的恒星质量比例和平均金属丰度。训练集包含165,000组合成光谱和HST测光，覆盖不同SFH、金属丰度演化、尘埃消光和SNR，并与pPXF全谱拟合比较。
+
+   CNN在合成测试集上给出更低偏差和散布，平均年龄散布约0.12 dex、金属丰度散布约0.03 dex，推理速度比传统全谱拟合快约$5\times10^3$到$2\times10^4$倍。应用到NGC 3627时，恢复出与旋臂和恒星形成区一致的年轻星族结构，以及空间连续的年龄和金属丰度分布。
+
+   <img src="./Figures/image-20260515171415359.png" alt="image-20260515171415359" width="680px" />
+
+2. [The Homogeneous MeerKAT and Swift/XRT X-ray Binary Radio:X-ray Plane](https://arxiv.org/abs/2605.14003)
+
+   > XRB, MeerKAT, Swift, Radio, Observation
+
+   利用ThunderKAT五年MeerKAT射电监测和Swift KAT准同时Swift/XRT观测，构建目前最大的同质X射线双星radio:X-ray平面；数据包括948个射电点和1029个X射线点，射电采用MeerKAT核心通量密度，X射线采用吸收修正后的1–10 keV通量。机器可读数据和交互页面在[ThunderKAT网站](https://thunderkat.physics.ox.ac.uk/)，分析与作图代码在[GitHub](https://github.com/JustineCrook/Radio_X-ray_Plane_Paper_2026)。
+
+   软态中经常检测到未分辨核心射电辐射，主要可能来自此前抛出的喷流物质，而非重新建立的紧致喷流。黑洞和黑洞候选体的全样本回归给出$L_R-L_X$斜率约$\beta=0.57$，与经典标准轨道一致；中子星样本受上限和数量限制更大，但整体比黑洞系统射电暗约10–100倍。不同源在平面上的分支和散布说明吸积盘与喷流耦合随源性质和吸积状态演化，单一普适关系不足以描述全部样本。
+
+   <img src="./Figures/image-20260515171452266.png" alt="image-20260515171452266" width="680px" />
+
+3. [Beyond AI as Assistants: Toward Autonomous Discovery in Cosmology](https://arxiv.org/abs/2605.14791)
+
+   > Cosmology, AI Agent, LLM, Method
+
+   探索AI从辅助工具走向自主科学发现的工作流，提出两个互补系统：CMBEvolve用于有明确量化指标的任务，通过LLM引导的代码演化和树搜索迭代改进候选算法；CosmoEvolve用于开放式研究任务，模拟由PI agent和多个student scientist agents组成的虚拟实验室，通过工具、技能、记忆和共享状态协作。
+
+   CMBEvolve在[FAIR Universe Weak Lensing ML Uncertainty Challenge](https://www.codabench.org/competitions/10902/)的弱引力透镜图像分布外检测任务中通过代码演化逐步提高评分。CosmoEvolve在[ACT DR6](https://lambda.gsfc.nasa.gov/product/act/act_dr6.02/)温度图数据上自主生成split cross pseudo-$C_\ell$和多频相干性诊断，识别出频段对和尺度依赖的稳定窗口。结果仍是初步演示，但说明宇宙学可以同时提供可评分benchmark和开放式真实数据任务，用于检验AI scientist系统。
+
+   <img src="./Figures/image-20260515171515309.png" alt="image-20260515171515309" width="680px" />
+
+4. [Imaging without visibilities: FAST-Effelsberg scintillometry of PSR B1508+55](https://arxiv.org/abs/2605.15004)
+
+   > Pulsar, Scintillation, ISM, Method
+
+   针对没有传统visibility的双站观测能否做散射屏精密天测的问题，使用FAST和Effelsberg 100米望远镜对PSR B1508+55进行两次成功的同步观测。动态谱经过RFI清理、频率和时间网格对齐后，利用强度交叉次级谱、地球自转造成的投影基线变化、闪烁弧曲率和MCMC模型拟合，约束一屏和两屏散射模型。
+
+   <img src="./Figures/image-20260515171549257.png" alt="image-20260515171549257" width="680px" />
+
+   两个历元都能在约0.1 mas分辨率下重建脉冲星散射像，对应星际介质中约0.01 AU尺度；近屏散射像高度一维各向异性，但存在小尺度偏离。屏方向角的单历元约束优于多年单站弧曲率监测，并显示近屏方向正在演化。只要有清晰闪烁弧，两台望远镜的同步闪烁观测可以作为低成本VLBI替代方案，用于未来散射屏成像和ISM小尺度结构研究。
+
+   <img src="./Figures/image-20260515171610082.png" alt="image-20260515171610082" width="680px" />
+
+5. [Strong Gravitational Lensing with the James Webb Space Telescope](https://arxiv.org/abs/2605.15189)
+
+   > JWST, Strong Lensing, Cosmology, Review
+
+   综述JWST时代强引力透镜的主要科学应用，覆盖透镜基础、暗物质和宇宙学约束、高红移星系、早期星系光度函数、再电离、透镜AGN和SMBH、星团、极端放大的单颗恒星、透镜超新星和星系团演化。JWST的近红外深度、角分辨率和光谱能力与透镜放大和多像验证结合，使HST时代难以到达的低光度、高红移、小尺度和瞬变源成为常规目标。
+
+   GLASS、UNCOVER、CANUCS、PEARLS、GLIMPSE、MAGNIF、SLICE和VENUS等项目已经把JWST强透镜样本扩展到数十个星系团。GLIMPSE等深场通过透镜把高红移光度函数推进到$M_{\rm UV}\sim -12$量级；JWST还发现更多极端放大恒星、星团、little red dots、Population III候选体和透镜超新星，包括$z=5.13$的SN Eos。强透镜正在把JWST推向更暗、更远和更小尺度的源，并与ALMA、Euclid、LSST、Roman和未来ELT形成互补。
+   
+   <img src="./Figures/image-20260515171640827.png" alt="image-20260515171640827" width="680px" />
+
+## 2026-05-18
+
