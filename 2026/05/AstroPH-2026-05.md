@@ -16,7 +16,7 @@
 
    偏振度从 25 GHz 的约 $3.18\%$ 降到 11 GHz 的约 $0.69\%$，低频去偏振更符合同步自吸收影响。观测RM为 $RM=-6250\pm70\ {\rm rad\ m^{-2}}$，换算到 GRB 红移为 $RM_{\rm int}=-8300\pm90\ {\rm rad\ m^{-2}}$；银河系和星系际介质贡献不足以解释该值，更可能来自大质量恒星前身周围的致密磁化 HII 区。较低的高频偏振度也指向小尺度斑块状磁场，而非全局有序喷流磁场。
 
-   <img src="./Figures/image-20260501211730926.png" alt="image-20260501211730926" width="680px" />
+   <img src="./Figures/image-20260520155232765.png" alt="image-20260520155232765" width="680px" />
 
 3. [An Extended Evaluation Split for DeepSpaceYoloDataset](https://arxiv.org/abs/2604.27593)
 
@@ -411,4 +411,183 @@
    <img src="./Figures/image-20260515171640827.png" alt="image-20260515171640827" width="680px" />
 
 ## 2026-05-18
+
+1. [Rotationally modulated highly circularly polarised radio pulses from the rapidly rotating M dwarf ASKAP J181335-604720](https://arxiv.org/abs/2605.15587)
+
+   > M Dwarf, Radio, Polarization, Observation
+
+   针对早中型M矮星中相干射电爆发究竟来自耀发还是磁层过程的问题，使用ASKAP对ASKAP J181335-604720进行800–1088 MHz观测，并与TESS光学测光严格同步。ASKAP在2025年6月4日获得10小时观测，另有2025年5月29日独立历元；TESS Sector 93的Lomb–Scargle周期为$P=5.607\pm0.003$ h，对应恒星自转。Gaia/eROSITA对应体显示该源位于84 pc，$T_{\rm eff}=3405$ K，符合M3–M4矮星。
+
+   射电脉冲在固定自转相位重复出现，主脉冲宽约20 min，另有较弱次脉冲，峰值圆偏振接近100%，但同步TESS数据中没有对应光学耀发。保守估计亮温$T_b\gtrsim1.8\times10^{12}$ K，超过非相干辐射极限；800–1088 MHz的电子回旋脉泽解释要求发射区磁场至少约$190$–$390$ G。结果支持大尺度磁层控制的auroral-like ECM辐射，而不需要近距离行星相互作用或长周期射电暂现源解释；同步射电和光学观测能有效区分M矮星磁层相干辐射与经典耀发活动。
+   
+   <img src="./Figures/image-20260518190040554.png" alt="image-20260518190040554" width="680px" />
+
+## 2026-05-19
+
+1. [The Rapid ASKAP Continuum Survey VII: Spectra and Polarisation In Cutouts of Extragalactic Sources (SPICE-RACS) Second Data Release -- Unveiling the Magnetised Sky](https://arxiv.org/abs/2605.16917)
+
+   > Radio, Polarization, RM, Survey
+
+   发布SPICE-RACS第二版数据，用ASKAP RACS-low3的800–1088 MHz低频巡天数据构建南天到赤纬$+49^\circ$的偏振源和旋转量网格。处理流程围绕总强度源制作Stokes $I,Q,U$ cutout谱立方体，对约400万射电源、550万个射电成分提取偏振谱，并用RM synthesis测量宽带Faraday旋转量；数据产品指向[CSIRO DAP](https://doi.org/10.25919/jr11-yj30)和[CASDA](https://data.csiro.au/domain/casda)。
+
+   去重后在$8\sigma$线偏振阈值下得到246509个可靠RM，在$6\sigma$阈值下得到342606个唯一偏振成分，成为目前最大的单一RM星表，面密度约$6.7^{+1.8}_{-1.7}\ {\rm deg^{-2}}$，有效角分辨率约$23'$，宽带RM典型不确定度约$2\ {\rm rad\ m^{-2}}$。新的RM网格揭示了银河系中心、旋臂、麦哲伦云、Vela超新星遗迹和G353-34等区域的磁化电离结构，并为POSSUM、MeerKAT和SKA的深偏振巡天提供宽天区参考。
+   <img src="./Figures/image-20260519125302072.png" alt="image-20260519125302072" width="680px" />
+
+2. [Search for the Highest-energy Quasiperiodic Oscillation in the Black Hole X-Ray Binary Candidate Swift J1727.8-1613](https://arxiv.org/abs/2605.18050)
+
+   > Black Hole, X Ray Binary, QPO, High Energy
+
+   针对黑洞X射线双星候选体Swift J1727.8-1613在2023年爆发中的低频QPO高能延伸，使用Insight-HXMT硬X射线观测搜索100 keV以上的调制信号。由于QPO频率随时间演化，分析采用Hilbert-Huang transform从26–150 keV光变中提取瞬时相位，再把更高能段光子按相位折叠，并用$\chi^2$检验和与低能模板互相关评估显著性。
+
+   NaI探测器中QPO轮廓可延伸到250 keV以上，互相关显著性约$8.9\sigma$；CsI探测器在100–300 keV也显示清晰QPO轮廓，250–300 keV显著性约$5.7\sigma$。QPO fractional rms在100 keV以上单调下降，到300 keV约1%，相对26–40 keV的软相位滞后随能量增加并在200 keV以上快速变大。这些能谱和相位滞后行为支持type-C LFQPO的几何起源，较自然地对应小尺度喷流进动。
+
+3. [A 4200-hour HyperFlash and ÉCLAT campaign on the hyperactive FRB 20240114A: constraining energetics with the most brilliant bursts](https://arxiv.org/abs/2605.18513)
+
+   > Fast Radio Burst, Observation, Energetics, Magnetar
+
+   对超活跃重复FRB 20240114A进行4233.58小时监测，结合HyperFlash的Onsala、Stockert、Toruń、Westerbork、Dwingeloo和ÉCLAT的Nançay观测，重点约束高能爆发、累积能量释放和DM演化。主要样本包含178个HyperFlash爆发，其中176个在L波段约1.4 GHz，搜索和处理使用[FRB-baseband](https://github.com/pharaofranz/frb-baseband)、SFXC phased array和Dwingeloo管线等工具。
+
+   这些高能爆发的各向同性等效累积射电能量约$4.4\times10^{42}$ erg，是FAST约11553个低能爆发样本累积能量的约2倍。最亮单个爆发STROOP达到$1.4\times10^{42}$ erg，贡献整个L波段样本约三分之一能量，说明极少数最亮爆发可主导能量预算。累积能量分布在约$2\times10^{40}$ erg附近出现折断，低能和高能段斜率不同；DM在318天内线性增加$+0.96\pm0.06\ {\rm pc\ cm^{-3}}$。结果整体符合磁星来源图景，并暗示低能与高能FRB可能对应磁星中等耀发和巨耀发一类不同能量释放通道。
+   
+   <img src="./Figures/image-20260519125501669.png" alt="image-20260519125501669" width="680px" />
+
+## 2026-05-20
+
+1. [Hyrax: An Extensible Framework for Rapid ML Experimentation and Unsupervised Discovery in the Era of Rubin, Roman, and Euclid](https://arxiv.org/abs/2605.18959)
+
+   > Astronomy, Machine Learning, Tool, Unsupervised Learning
+
+   [Hyrax](https://github.com/lincc-frameworks/hyrax)是面向Rubin、Roman、Euclid等大规模巡天的开源Python机器学习框架，解决天文ML项目中数据获取、训练、推理、实验比较、向量检索和潜空间可视化分散且难复用的问题。框架支持Rubin LSST和HSC数据获取、多模态数据集、PyTorch模型训练、多GPU运行、MLflow/TensorBoard监控、Optuna调参、向量数据库相似搜索，以及二维/三维交互式潜空间探索；文档和示例在[这里](https://hyrax.readthedocs.io/)。
+
+   五个示例覆盖无监督表示学习、星系团尺度引力弧候选搜索、ZTF早期暂现源多模态分类、太阳系远距天体shift and stack假阳性过滤、以及HSC/LSST类图像中的半分辨矮星系检测。Rubin DP1 ECDFS约$4\times10^5$个星系的无监督应用找到了未出现在Euclid Q1和DES LSB参考星表中的并合星系与低表面亮度候选，同时把成像伪迹分离到潜空间低密度区域；矮星系检测示例中，合成源注入训练的CNN达到0.2%的假阳性率。主要贡献是把天文ML中可复用的工程基础设施标准化，使无监督发现和快速方法迭代更接近常规工作流。
+
+   <img src="./Figures/image-20260520155355248.png" alt="image-20260520155355248" width="680px" />
+
+2. [Faraday Complexity and Depolarization in LOFAR Two-metre Sky Survey (LoTSS-DR2) Polarized Radio Sources](https://arxiv.org/abs/2605.19226)
+
+   > Radio, Polarization, Faraday Rotation, AGN
+
+   利用LoTSS-DR2 RM Grid中1565个偏振射电源的120–168 MHz LOFAR HBA频段Stokes $Q,U$谱，研究低频偏振源的Faraday复杂性和退偏振机制。分析对每个源拟合1到3个RM成分，并在Faraday thin、外部Faraday dispersion、内部differential Faraday rotation及混合模型之间用BIC选择；RM Grid和对应频率谱可在[LoFAR MKSP数据页](https://lofar-mksp.org/data/)获取。（是不是可以从LoTSS-DR2中找点光变源用FAST来看看）
+
+   43.2%的源需要两个或三个Faraday成分，说明多成分磁电离结构很常见；54.1%的源由外部屏主导，60.2%显示显著外部Faraday dispersion，只有10.3%符合纯内部differential Faraday rotation。多成分模型中的本征偏振角差通常小于$30^\circ$，RM差值峰值约$20\ {\rm rad\ m^{-2}}$，更像同一或平滑变化磁电离环境中的相关发射区。静止系$\sigma_{\rm RM,rest}$随红移和射电光度增加，其中红移是更主要驱动因素，指向高红移射电AGN周围更湍动、更致密或更强磁化的环境。
+
+   <img src="./Figures/image-20260520155850809.png" alt="image-20260520155850809" width="680px" />
+
+3. [Evidence for Intermediate-Mass Black Holes From Microlensing Signatures in CHIME/FRB catalog 2](https://arxiv.org/abs/2605.19653)
+
+   > Fast Radio Burst, Microlensing, Black Hole, PBH
+
+   针对中等质量黑洞难以直接确认的问题，利用FRB毫秒级动态谱中的微透镜回声信号搜索致密透镜。分析基于CHIME/FRB Catalog 2的4539个爆发，重点筛选340个多峰FRB；流程先用光变自相关函数寻找同一时间延迟的峰对，再检查到达顺序、频率漂移和不同频段的hardness ratio一致性，公开动态谱来自[CANFAR](https://www.canfar.net/storage/list/AstroDataCitationDOI/CISTI.CANFAR/25.0066/data)，筛选代码在[MICRO-FRB](https://github.com/Huan-Zhou-spec/MICRO-FRB)。
+
+   最终保留FRB 20190131D和FRB 20211115A两个候选微透镜事件，对应透镜质量分别约为$[1544,2571]\,M_\odot$和$[539,609]\,M_\odot$，落在IMBH区间。如果视线方向没有星系或星系团等介入结构，这些透镜可能是孤立且原初起源；在这种解释下，相关质量段PBH约占暗物质的4%。如果两个候选都不是真实引力透镜信号，则CHIME/FRB Catalog 2给出$M>300\,M_\odot$的中等质量PBH丰度约13%的95%置信上限。论文也强调FRB内禀发射或等离子体传播效应可能产生类透镜结构，需要偏振、更高时间分辨率和更完整光谱模型来确认。
+
+4. [Spectral classification of brown dwarfs using machine learning](https://arxiv.org/abs/2605.20146)
+
+   > Brown Dwarf, Machine Learning, Photometry
+
+   针对褐矮星光谱型难以通过简单颜色关系确定的问题，使用2MASS和WISE多波段光度训练监督分类器，在缺少高信噪比光谱时估计光谱类型。样本来自UltracoolSheet，剔除大质量伴星和潜在未分辨双星后得到1723个孤立褐矮星；输入特征包括$J,H,W1$绝对星等和$W1-W2$、$J-H$、$J-W1$、$J-W2$颜色，目标分为M6–M9、L0–L4、L5–L9、T0–T4、T5–T9和Y六类，训练/测试按70/30划分并做5折交叉验证。
+
+   Random Forest和Gaussian Processes在测试集上分别达到F1=0.86和0.87；在196个有文献光谱型的直接成像褐矮星外部样本上，两者与已知分类的一致率超过80%，非相邻类别误分比例约为3%和7%。随后应用到21个无既有光谱型的直接成像孤立褐矮星，多数被归入M6–M9或L0–L4。主要限制来自晚型尤其Y矮星训练样本不足，但多颜色机器学习分类已经能捕捉传统二维颜色图中不明显的复杂趋势，可作为大规模光度巡天中光谱跟进前的初筛工具。
+
+## 2026-05-21
+
+1. [Robustness Analysis of USmorph: II. Optimizing Feature Extraction, Dimensionality Reduction, and Clustering for Unsupervised Galaxy Morphology Classification](https://arxiv.org/abs/2605.20871)
+
+   > Galaxy, Morphology, Machine Learning, Method
+
+   针对大规模巡天中无标签星系形态分类的稳定性问题，系统测试[USmorph](https://github.com/IAAA-246011/USmorph)无监督模块中的特征提取、降维和聚类配置。样本为COSMOS场近10万个$I$波段星系，红移范围$0.2<z<1.2$、$I_{\rm mag}<25$；流程先用预训练CNN抽取形态特征，再降维、聚类，并用聚类标签构造后续监督分类训练集。
+
+   ImageNet预训练AlexNet在五种特征编码器中最适合提取星系形态结构；UMAP在保留局部和全局结构、计算效率与聚类准确率之间表现最好；K-means、Birch和Agglomerative clustering组合成Bagging式多聚类投票后，标签一致性和纯度更稳定。最终采用$K=16$作为聚类数，在分类粒度和人工验证成本之间取得平衡；t-SNE可视化显示更紧凑的形态分离，分类结果在参数空间中也符合星系演化预期，为CSST等未来深场巡天的自动形态分析提供可扩展方案。
+
+   <img src="./Figures/image-20260521131249732.png" alt="image-20260521131249732" width="680px" />
+
+2. [Type-III solar radio bursts with spike-like toppings](https://arxiv.org/abs/2605.20937)
+
+   > Solar, Radio, Type III Burst, Polarization
+
+   使用中国子午工程二期Chashan Broadband Solar radio spectrometer at meter wavelengths（CBSm）的90–600 MHz高时间和高频率分辨率数据，统计研究type III太阳射电暴高频起始端的spike-like cluster。样本包含2023年11月至2025年10月间35个事件中的502个spike–type III配对，其中309对有可用偏振数据；识别时结合偏振、频谱形态、时间和频率分离，并在复杂重叠情形下使用强度阈值和互相关辅助分离。
+
+   spike-like cluster通常先于对应type III暴出现：87%的配对提前0.5–3 s，80%的配对在频率上高出3–30 MHz。spike结构形态多样，包括点状、团块状、单向和双向漂移、弥散结构；部分漂移结构显示正负两个方向的频率漂移，指向源区既有朝向太阳也有远离太阳的运动。偏振差异更显著，64%的spike cluster最大圆偏振超过0.6，而82%的type III暴低于0.4。结果支持spike辐射来自多尺度、不均匀且快速演化的电子加速区，type III暴则在电子逃逸后沿开放磁力线向外传播时产生。
+
+   <img src="./Figures/image-20260521131335649.png" alt="image-20260521131335649" width="680px" />
+
+3. [Searching for links between energetic millisecond pulsars and repeating fast radio bursts](https://arxiv.org/abs/2605.21331)
+
+   > Fast Radio Burst, Pulsar, Giant Pulse, Observation
+
+   针对FRB 20200120E位于M81球状星团、可能不是年轻磁星而是毫秒脉冲星巨脉冲的解释，使用Parkes Murriyang望远镜UWL接收机观测银河系最高自转能损率毫秒脉冲星M28A（PSR B1821-24A）。观测覆盖0.7–4.0 GHz、时间分辨率$2.0\,\mu$s，在8.77小时数据中检测到156个信噪比超过7的巨脉冲，并进行全带和子带单脉冲搜索；相关代码和数据产品在[Zenodo](https://doi.org/10.5281/zenodo.19283133)。
+
+   M28A巨脉冲可呈现700–4000 MHz宽带谱，并带有约100 MHz尺度的窄带谱峰，但没有发现真正孤立的窄带巨脉冲。与FRB 20200120E相比，M28A巨脉冲持续时间短约50倍、谱光度低约$10^5$倍，具有清晰自转周期性和Poisson等待时间分布；FRB 20200120E则无显著周期性并可出现burst storm。两者共同点是能量分布较陡、DM变化都很小。整体上没有强证据支持M28A类毫秒脉冲星巨脉冲与FRB 20200120E直接相连，但仍不能排除FRB 20200120E属于没有银河系对应体的罕见MSP类源。
+
+   <img src="./Figures/image-20260521131437935.png" alt="image-20260521131437935" width="680px" />
+
+4. [Compact Object Astrophysics with Frontline Astrometry](https://arxiv.org/abs/2605.21375)
+
+   > Compact Object, Astrometry, Black Hole, Review
+
+   围绕高精度天体测量在致密天体物理中的作用展开综述，重点是微角秒到毫角秒级位置、视差和自行测量如何约束中子星、恒星级黑洞和超大质量黑洞的运动学。Gaia和VLBI已经把致密天体研究从单纯光变和光谱推进到三维空间速度测量，可用于估计超新星natal kick、检验黑洞直接塌缩或回落超新星形成通道，并发现非吸积的休眠黑洞伴星系统，如Gaia BH类候选体。
+
+   综述还讨论了超大质量黑洞并合后的引力波反冲、离核或逃逸SMBH候选、以及用月掩星重新发展高角分辨率X射线天体测量的可能性。未来Gaia DR4/DR5将改进双星轨道解和致密天体速度测量；Roman可通过近红外巡天和微透镜寻找孤立恒星级黑洞；Gaia-NIR、Theia、JASMINE、SKA-VLBI、ngVLA和空间X射线干涉仪则有望把更暗的脉冲星、X射线双星、暂现源和并合星系核心纳入精密天体测量范围。核心结论是，高精度天体测量会成为连接超新星物理、致密天体增长和星系演化的重要观测约束。
+
+   <img src="./Figures/image-20260521131511718.png" alt="image-20260521131511718" width="680px" />
+
+5. [The giant pulse population of PSR B0355+54](https://arxiv.org/abs/2605.21469)
+
+   > Pulsar, Giant Pulse, Polarization, Observation
+
+   使用Quasar VLBI网络Badary 32 m射电望远镜在1.46 GHz附近对PSR B0355+54进行7.97小时观测，每个圆偏振通道带宽128 MHz，搜索其巨脉冲群体。折叠和单脉冲流程在全自转相位盲搜亮脉冲，分别处理右旋和左旋圆偏振，并用同一扫描的平均轮廓归一化峰值强度，以降低闪烁和偏振相关增益变化的影响。
+
+   共识别432个含亮脉冲的自转周期，约每424个自转出现一次，按偏振单独计数为551个事件。巨脉冲集中在普通射电脉冲窗口内两个紧凑经度区，二者相隔1.91 ms；早到达经度组更少但相位更紧，偏向右旋圆偏振，晚到达经度组更丰富且更宽，偏向左旋圆偏振。脉冲中位宽度$W_{50}=290.3\,\mu$s，峰值相对平均轮廓可达$S_{\rm pk}/\langle S_{\rm pk}\rangle=149.7$。固定经度和相反圆偏振偏好说明这些亮脉冲来自磁层中不同的相干或放大态发射区域，闪烁主要调制探测到的事件数，而不是产生这种相位和偏振结构。
+   
+   <img src="./Figures/image-20260521131553214.png" alt="image-20260521131553214" width="680px" />
+
+## 2026-05-22
+
+1. [A Generalized Template Matching Algorithm for Correcting Jitter Noise in Pulsar Timing](https://arxiv.org/abs/2605.21750)
+
+   > Pulsar, Timing, Method, Gravitational Wave
+
+   针对毫秒脉冲星计时中的jitter noise，提出一种广义模板匹配方法。传统TOA估计假设脉冲轮廓只是固定模板的平移、缩放和加白噪声，但单脉冲幅度和形状的短时变化会让平均轮廓偏离模板，从而把轮廓残差转化为TOA误差。新方法把主成分分析引入模板匹配，把脉冲形状变化作为可拟合的主成分项，同时保持shift covariance，避免把引力波等真实整体相位延迟错误吸收掉。
+
+   通过多高斯成分脉冲模拟比较普通模板匹配、PCA回归校正、skewness校正和广义模板匹配。若jitter主要来自各成分幅度变化，校正方法可大幅降低TOA误差，很多情况下广义模板匹配表现最好，误差可降低90%以上；若jitter包含成分相位漂移，校正效果明显受限，说明这类随机相位扰动可能构成更基本的计时精度限制。下一步需要在真实脉冲星数据中验证这种方法能否稳定提升PTA计时精度。
+
+2. [Machine Learning applications to Galaxy Clusters](https://arxiv.org/abs/2605.21991)
+
+   > Galaxy Cluster, Machine Learning, Cosmology, Review
+
+   综述机器学习在星系团研究中的主要应用，重点是用SZ、X射线、光学、动力学和引力透镜观测推断星系团质量。传统质量估计依赖静力平衡、球对称和标度关系，容易受到质量偏差、投影效应、动力学状态和星系团核心复杂重子物理影响；机器学习可直接从模拟中学习多波段观测量到总质量的非线性映射，并利用图像形态、相空间结构和多波段信息降低散布。文中也提到基于CNN的全天天区星系团质量估计项目[DeepPlanck](https://github.com/The300th/DeepPlanck)。
+
+   深度学习已用于SZ图、X射线图像、相空间图、弱透镜剪切图和多波段质量图重建，常能比单一标度关系减少质量散布；GNN、normalizing flow和simulation based inference进一步提供误差估计或后验分布。主要限制来自simulation to reality gap：训练集中的反馈模型、选择效应和未解析物理会传递为质量偏差。综述强调，未来精密星系团宇宙学需要标准化benchmark、可解释性、可靠不确定度估计，以及能边缘化重子物理不确定性的模拟训练策略。
+
+   <img src="./Figures/image-20260522153929642.png" alt="image-20260522153929642" width="680px" />
+
+3. [Self-Supervised ConvLSTM for Fermi Large Area Telescope Transient Detection](https://arxiv.org/abs/2605.22112)
+
+   > High Energy, Deep Learning, Transient, Fermi
+
+   针对Fermi-LAT全天伽马射线暂现源搜索，构建一个可复现实验框架：用Fermitools中的`gtobssim`生成约10年的Fermi-LAT式合成天空，再把每日counts和exposure图作为双通道时间序列输入ConvLSTM。模拟采用P8R3_SOURCE_V3响应、标准银河系和各向同性弥散背景以及编目源模型，天空分成192个HEALPix tile、时间按约90天分块并行生成；模型文件工具在[fermimodel](https://github.com/ideare-ds/fermimodel)，合成数据集在[Hugging Face](https://huggingface.co/datasets/Idea-re/fermi-lat-synthetic-daily-sky-maps)。
+
+   ConvLSTM以自监督方式学习正常天空的日尺度时空演化，预测下一帧全天图，再用像素级MSE残差、训练集自适应阈值和空间连通性过滤生成异常候选。候选源与4FGL-DR4交叉匹配后更偏向高变源，说明流程确实优先捕捉可变和暂现活动；案例检查中能标记GRB 080916A和3C 279在2015年的强耀发。当前版本仍受能量积分输入、曝光非平稳性和定位较粗限制，后续需要能量分辨序列、观测状态条件化和注入实验来量化探测效率与误报率。
+
+   <img src="./Figures/image-20260522153335333.png" alt="image-20260522153335333" width="680px" />
+
+4. [Spectra as Language: Large Language Models for Scalable Stellar Parameter and Abundance Inference](https://arxiv.org/abs/2605.22162)
+
+   > Stellar, LLM, Spectroscopy, Abundance
+
+   将恒星光谱视为按波长排序的数值语言序列，用LLaMA-3.1-8B Instruct构建两阶段恒星参数反演框架。输入为3800–8700 Å归一化光谱通量序列；第一阶段用150万条LAMOST低分辨率光谱和LAMOST管线大气参数标签训练，学习$T_{\rm eff}$、$\log g$和$[\mathrm{Fe/H}]$等基础参数；第二阶段用约$10^5$条与APOGEE交叉匹配的LAMOST光谱和APOGEE DR16元素丰度标签微调，扩展到近20种元素丰度的联合估计。训练采用QLoRA、DeepSpeed ZeRO Stage 3和8:2训练测试划分。
+
+   LLM在多数光谱型上的基础参数误差散布低于LightGBM、ResNet-50、GRU和小型CNN等基线，低信噪比和类别不均衡样本中更稳定；例如M型星的$T_{\rm eff}$散布明显低于ResNet-50，F/G/K型星与Gaia-ESO和GALAH DR4外部高分辨率巡天也保持较好一致性。元素丰度方面，LLM对若干元素优于ResNet-50，但并非全面超过CNN，弱线、混合线和A型/M型样本仍是难点。结果支持spectra as language的可扩展性，训练样本从$10^5$到$1.5\times10^6$增大时，三项基础参数的偏差趋近零、散布继续降低。
+
+5. [Hostless extragalactic transients in Fink: Results from the ELEPHANT pipeline](https://arxiv.org/abs/2605.22407)
+
+   > Transient, Supernova, Survey, Tool
+
+   评估Fink broker中的ELEPHANT无宿主星系暂现源筛选管线，目标是在实时告警中自动发现ZTF和Rubin/LSST的hostless候选。管线只依赖告警stamp和少量Fink聚合特征：先用science/template stamp中的亮像素筛选，再用频域像素统计、Wasserstein距离和KS检验判断图像中是否存在宿主结构；ZTF版本代码在[Fink science](https://github.com/astrolabsoftware/fink-science/tree/master/fink_science/ztf/hostless_detection)，Rubin版本在[这里](https://github.com/astrolabsoftware/fink-science/blob/master/fink_science/rubin/hostless_detection/processor.py)。
+
+   对2023年9月1日至2025年12月31日的ZTF流进行回溯分析，共有3193902条告警、156110个ZTF对象，ELEPHANT标记3272条告警、877个对象为hostless候选，其中276个有TNS光谱分类。主要类别是SN Ia 162个和SLSN-I 30个，主要污染来自30个CV和3个高自行恒星；在只把非河外源和恒星变源视作污染的定义下，准确率约84%。深度巡天交叉匹配和人工检查后，约65个暂现源保留为真正hostless候选，另有51个存在当前星表和ZTF stamp中都不可见、但在更深图像中可见的宿主。Rubin适配版已加入移动天体过滤和LSST告警字段处理，自2026年2月开始处理Rubin告警。
+   
+   <img src="./Figures/image-20260522153523661.png" alt="image-20260522153523661" width="680px" />
+
+## 2026-05-25
 
