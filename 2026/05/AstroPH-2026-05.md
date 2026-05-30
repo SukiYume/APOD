@@ -591,3 +591,187 @@
 
 ## 2026-05-25
 
+1. [Performance analysis of extragalactic classifications in Gaia Data Release 4](https://arxiv.org/abs/2605.23388)
+
+   > Gaia, Galaxy, Quasar, Machine Learning, Catalog
+
+   面向 Gaia DR4 中类星体和星系候选体的自动分类质量评估。DSC 分类器使用 Gaia 66 个月观测得到的天体测量、光度和 XP 低分辨率光谱信息，将源分为 quasar、galaxy 和 star；训练标签主要来自 SDSS DR17 的光谱确认类星体和星系，并用经验先验控制银河系恒星的强类别不平衡。
+
+   相比 Gaia DR3，DR4 分类更强调纯度而牺牲部分完备性。在 $G<20$ 时，最优分类器对河外类别达到至少 88% 完备性和 96% 纯度；到 $20<G<20.5$ 性能明显下降。加入 CatWISE 红外光度可提高河外样本，尤其是暗弱类星体的完备性，但会略降低纯度。推荐的高完备性组合分类器可给出约 300 万类星体和 200 万星系候选，高纯度设置则约为 200 万类星体和 130 万星系候选，并需结合 Gaia 天体测量和光度质量切进一步压低污染。
+
+   <img src="./Figures/image-20260525124619491.png" alt="image-20260525124619491" width="680px" />
+
+2. [Imaging spectroscopy reveals spike-like repeating radio burst pairs in the solar corona](https://arxiv.org/abs/2605.23484)
+
+   > Solar, Radio, LOFAR, Observation
+
+   研究太阳日冕中成对重复出现的窄带短时射电爆发。LOFAR LBA 在 30–80 MHz 频段获得 10 ms、12.2 kHz 分辨率的动态谱和成像谱，分析 2017 年 7 月 9 日事件中的 613 对 burst pairs；每对由两个 0.1–2 s 的 spike-like 成分组成，频率几乎相同，典型间隔约 4 s。
+
+   成像结果把源区定位到活动区上方的锥形磁结构，前一成分更集中、更亮、更短，延迟成分空间上偏移且频率漂移率更低。射电波传播模拟表明，延迟成分更符合谐波辐射在各向异性湍动日冕等离子体中散射和回波产生的结果，而非独立的第二次电子加速。LOFAR 数据和 SDO 数据分别可从[项目页面](https://www.astro.gla.ac.uk/users/eduard/L599637/)和[SDO](https://sdo.gsfc.nasa.gov/data/)获取，射电传播模拟基于 [radio_waves](https://github.com/edkontar/radio_waves/)。
+
+   <img src="./Figures/image-20260525124652877.png" alt="image-20260525124652877" width="680px" />
+
+3. [A Markov-Chain-Monte-Carlo-based Hybrid Noise Inference for Continuous Wavelet Power Spectra: with Applications to Solar and Stellar Oscillatory Signals](https://arxiv.org/abs/2605.23587)
+
+   > Solar, Stellar, Wavelet, Method
+
+   面向太阳和恒星非平稳时间序列中的振荡检测，尤其是 flare 背景下的 quasi periodic pulsation。传统 Fourier 方法缺少时间定位，常规 CWT 加 AR(1) 噪声模型又容易在真实红噪声偏离平稳假设时误估显著性；这里把连续小波变换和 MCMC 噪声推断结合，在小波域逐时刻估计背景功率谱。
+
+   背景模型采用 power law 加白噪声常数项，参数随时间平滑变化；Metropolis Hastings MCMC 用于估计局部背景和 95% 显著性阈值，并与 FFT+MCMC、CWT+AR(1) 对比。合成数据测试显示，该方法能恢复非平稳振荡，减少 detrending 引入的伪结构；可检测周期受小波分辨率限制，稳定检测通常需要 $\mathrm{SNR}\sim2$ 以上。GOES 软 X 射线 flare 应用中，该方法能定位有 QPP 的局部时频结构，在无明显振荡的 flare 中不引入显著假阳性。代码和数据见 [Zenodo](https://doi.org/10.5281/zenodo.19446731)。
+
+   <img src="./Figures/image-20260525124752492.png" alt="image-20260525124752492" width="680px" />
+
+4. [HiFAST: An HI data calibration and imaging pipeline for the FAST IV: The stray-radiation correction](https://arxiv.org/abs/2605.23685)
+
+   > FAST, Radio, HI, Instrument, Tool
+
+   解决 FAST HI 数据中旁瓣 stray radiation 对扩展源总流量和空间结构的影响。工作测量 FAST L 波段 19 波束接收机在 1050–1140 MHz 和 1330–1420 MHz 的 beam pattern，发现各波束主瓣效率在 L 波段均高于 90%，但远离中心波束时约 2%–7% 的总流量仍会进入旁瓣。
+
+   校正模块按波束使用不同 beam pattern 和主瓣效率，迭代估计真实天区亮温并并入 [HiFAST](https://hifast.readthedocs.io)。点源通常受影响较小，强梯度扩展源需要逐源评估；M33 的校正幅度可达约 20%，一次迭代通常已接近收敛。模块和 15 个频率 bin 的 beam pattern 数据可在 HiFAST 文档和 [Science Data Bank](https://www.scidb.cn/s/bqQRNv) 获取。
+
+   <img src="./Figures/image-20260525124834984.png" alt="image-20260525124834984" width="680px" />
+
+5. [A Wavelet-Integrated Search Pipeline for Narrowband Technosignatures in FAST Observations of 33 Exoplanet Systems](https://arxiv.org/abs/2605.23739)
+
+   > SETI, FAST, Technosignature, Deep Learning, RFI
+
+   面向 FAST 33 个系外行星系统 L 波段观测中的窄带 technosignature 搜索，目标是把大量含 RFI 的时频图压缩成可审查的候选流。[WaveSETI](https://github.com/Riko-Neko/waveseti) 使用 MSWNet 进行多尺度小波 U Net 式特征重建，再用轻量 endpoint 回归定位漂移窄带轨迹，并经过形态筛选、原始数据 S/N 验证和 19 波束反符合 veto。
+
+   FAST 数据覆盖 1.05–1.45 GHz，频率分辨率约 7.5 Hz、时间分辨率 10 s；训练数据用真实干净背景叠加 setigen 模拟的线性和加速漂移窄带信号以及 RFI 类污染。实际搜索产生 139127 个单波束 detections，合并为 6402 个多波束 events，经反符合后得到 803 个 candidates。复现了先前 Kepler 438 事件，并识别出 K2 155 方向 1148.4167 MHz、漂移率约 $-0.038$ Hz s$^{-1}$ 的 NBS 260108；进一步的偏振、同日多目标复现和频率梳状结构检查显示其更可能是人造或仪器 RFI，因此只作为低优先级内部跟进候选，而非可靠探测。
+
+   <img src="./Figures/image-20260525124920487.png" alt="image-20260525124920487" width="680px" />
+
+6. [Astrophysical Parameters of 5056 Open Star Clusters from Bayesian Nested Sampling with PARSEC Isochrones](https://arxiv.org/abs/2605.23802)
+
+   > Gaia, Open Cluster, Bayesian, Catalog
+
+   为 5056 个开放星团统一推断年龄、初始金属丰度、日心距离和红化，样本来自 Unified Cluster Catalogue 中高质量的 AA 和 AB 类成员表。每个星团用 Gaia DR3 颜色星等图与 PARSEC 等年龄线拟合，参数空间为 $\log(\mathrm{Age})$、$Z_{\rm ini}$、距离和 $E(G_{\rm BP}-G_{\rm RP})$；距离先验来自 Gaia DR3 成员星中位视差，1346 个星团使用 Gaia XP 光谱光度金属丰度作为软先验，其余采用环境相关的宽均匀先验。
+
+   nested sampling 对全部 5056 个星团独立运行，其中 5045 个收敛，3766 个达到高质量拟合标记。星团年龄覆盖 $\log(\mathrm{Age/yr})=6.53$–9.74，中位数 8.33；距离为 88–19011 pc，中位数 2150 pc；光度金属丰度为 $[\mathrm{Fe/H}]=-1.17$ 到 +0.42 dex。与 Hunt and Reffert、Dias、Cantat Gaudin 等目录比较显示年龄系统偏差低于 0.07 dex；与 OCCAM DR19 的 127 个光谱金属丰度交叉样本相比，金属丰度偏差约 +0.029 dex。参数表通过 CDS/VizieR 发布，流水线源码入口为 [ucc-ns-parsec](https://github.com/oplevne/ucc-ns-parsec)。
+   
+   <img src="./Figures/image-20260525125006137.png" alt="image-20260525125006137" width="680px" />
+
+## 2026-05-26
+
+1. [Fast and Flexible Characterisation of Astronomical Light Curves Using Multi-Time Attention](https://arxiv.org/abs/2605.24095)
+
+   > Time Domain, Deep Learning, Supernova, AGN
+
+   使用 Multi Time Attention Network 对不规则、稀疏、部分覆盖的天文光变曲线做无监督表征学习，目标是为 Rubin LSST 时代的大规模实时暂现源分类提供轻量特征。数据来自 Fink broker 获取的 ZTF alert，覆盖 2021 年 7 月到 2022 年底的 $g/r$ 波段光变曲线；质量筛选后保留 15652 条光变曲线，其中样本强烈偏向 AGN。模型采用 mTAN encoder decoder，直接从观测时间和星等学习连续时间注意力表示，不依赖 GP 插值、固定网格或红移、宿主星系等辅助信息。
+
+   模型能以约 0.01 mag 偏差和 0.1 mag scatter 插值稀疏光变曲线，潜空间与持续时间、峰值时间、变幅、颜色等物理相关特征相关，同时对观测星等和观测点数较稳健；即使训练样本 AGN 占多数，也能整体分离 SN 和 AGN。对训练中未见过的长周期变星和 TDE 有合理泛化，但无法解析周期约 0.4–0.5 天的 RR Lyrae，因为采用了 2 天时间分辨率。模型体量只有数百 kB，推理约为 CPU 0.01 s、GPU $3\times10^{-4}$ s 每条光变曲线；代码在 [astro-mtan](https://github.com/Yash-10/astro-mtan)，ZTF 数据来自 [Fink Data Transfer](https://ztf.fink-portal.org/download)。
+
+   <img src="./Figures/image-20260526135620023.png" alt="image-20260526135620023" width="680px" />
+
+2. [Pushing the Limit of Asteroseismic Detection for Cool Dwarfs using TESS and Deep Learning](https://arxiv.org/abs/2605.24269)
+
+   > Asteroseismology, TESS, Deep Learning, Cool Dwarf
+
+   面向冷主序星和次巨星中低振幅太阳型振荡的自动搜索。太阳型振荡由近表面对流随机激发，通常在功率谱中表现为低频 granulation 背景加高斯状 power excess；冷矮星信号弱、频率高，TESS 2 分钟 cadence 的 Nyquist 频率又限制了接近 4167 $\mu$Hz 的候选。训练集包含 Hatt et al. 的 4177 个已确认太阳型振荡源和 Balona 目录中 82204 个非太阳型振荡变量或非变量星，输入为 TESS 120 s 光变曲线的 Lomb Scargle periodogram，经对数频率 binning 到 4096 点。
+
+   一维卷积 autoencoder 将 periodogram 压缩到 128 维 latent space，再接分类头识别 SOLR 和 NonSOLR；实现见 [ae_classifier](https://github.com/waleey/ae_classifier.git)。独立测试集上准确率 99.8%，Precision 0.945、Recall 0.998、F1 0.971。应用到 Asteroseismic Target List 中约 8.2 万个有 TESS 光变的冷于 G0 的目标后，初筛得到 3463 个概率高于 0.5 的候选，再用 pySYD 检查 $\nu_{\max}$、背景校正功率谱、自相关函数、échelle diagram 和背景星污染，最终保留 24 个低信噪比候选。候选包括两个 M dwarf、若干 K/G dwarf 和稍演化 K dwarf，需要径向速度或更高 cadence 光度后续观测确认。
+
+   <img src="./Figures/image-20260526135654897.png" alt="image-20260526135654897" width="680px" />
+
+3. [skysurvey: a pure python package to simulate the transient sky](https://arxiv.org/abs/2605.25840)
+
+   > Transient, Simulation, Tool, Supernova
+
+   [skysurvey](https://github.com/MickaelRigault/skysurvey) 是一个纯 Python 暂现源巡天模拟工具，目标是用比 SNANA 更易安装、易迭代的方式模拟任意天体族群被 ZTF、LSST 等巡天观测到的光变曲线。核心结构由三个对象组成：`Target` 描述自然界中的天体族群和参数分布，`Survey` 描述巡天 footprint 与观测日志，`DataSet` 将二者匹配并生成观测数据；参数生成依赖独立包 [modeldag](https://modeldag.readthedocs.io/en/latest/)，用 DAG 表示参数间依赖，光谱光度模板主要通过 `sncosmo` 处理。
+
+   工具内置多种暂现源目标、ZTF GridSurvey 和 LSST Survey，并支持自定义 survey logs、银河系消光、宿主或目标参数相关性、选择函数和 dask 并行。示例复现 ZTF SN Ia DR2：按 2018 年 3 月到 2020 年底、$z<0.18$ 和体积率生成约 123k 个自然发生的 SNe Ia，其中约 88k 落入 ZTF footprint，约 18k 通过 well sampled cuts，再加入光谱分类选择效应后得到约 2900 个目标，接近真实 DR2 的 2960 个 well sampled SNe Ia，并复现红移分布。工具适合暂现源选择效应、速率、宇宙学样本和 simulation based inference 的快速实验。
+   
+   <img src="./Figures/image-20260526135725090.png" alt="image-20260526135725090" width="680px" />
+
+## 2026-05-27
+
+1. [Mars, a Post-Habitable Planet?](https://arxiv.org/abs/2605.26138)
+
+   > Mars, Exoplanet, Habitability, HWO, Observation
+
+   将火星作为已经失去表面液态水的类地行星样本，用于理解宜居行星如何走向 post habitable 状态。核心科学目标是用 Habitable Worlds Observatory 对火星进行整盘和外逸层光谱观测，约束水损失、大气逃逸、D/H 或 H$_2$O/HDO 同位素比、臭氧、云和尘埃的时空变化，并把这些结果用于校准岩质系外行星宜居性和大气演化模型。
+
+   观测方案强调 UV/VIS integral field spectroscopy，辅以 NIR 光谱：UV 覆盖热层、外逸层 H/C/O 发射、臭氧和尘埃云，NIR 用于水汽和同位素比。火星亮度和视直径对 HWO 设计只有中等约束，但高分辨率 D/H 与 H$_2$O/HDO 测量需要较高光谱分辨率。该白皮书还提出 HWO 可为未来火星任务提供长期天气和空间天气监测，特别是尘暴、云、风场和质子极光。
+
+   <img src="./Figures/image-20260527103647801.png" alt="image-20260527103647801" width="680px" />
+
+2. [Inversion of CHASE H$\alpha$ Spectral Line during Solar Flares Based on RADYN Dataset via Deep Learning](https://arxiv.org/abs/2605.26511)
+
+   > Solar, Flare, Deep Learning, CHASE, Spectral Inversion
+
+   用深度学习从 CHASE 的 H$\alpha$ 光谱快速反演耀斑色球物理量，目标是得到电子数密度、温度和等离子体速度的高度分布。训练数据来自 RADYN F CHROMA 一维耀斑模拟库，共 79 个耀斑模型、39574 个时间片；合成 H$\alpha$ 光谱先卷积 CHASE 点扩散函数，并重采样到 6562.82 Å $\pm$ 1.5 Å 范围内的 64 个波长点，输出物理量插值到 0–2000 km 的 400 个高度点。
+
+   三个独立 FCNN 分别反演电子数密度、温度和速度，输入为 64 维 H$\alpha$ 强度，输出为 400 维高度剖面。测试集覆盖不同电子束能量和耀斑相位，密度和温度反演与 RADYN 剖面一致性较好，速度误差更大但能保留主要动力学趋势。模型应用到 2024 年 10 月 1 日 AR 13842 的 X7.1 级耀斑 CHASE 观测，给出 750–1500 km 色球区域的时空演化，显示耀斑峰值时上色球强加热，并在约 1400 km 附近出现类似色球凝聚的速度结构；方法对近盘心 flare ribbon 更可靠，对边缘事件、环结构和异常谱型需谨慎。
+
+   <img src="./Figures/image-20260527104027497.png" alt="image-20260527104027497" width="680px" />
+
+3. [Constraining the Supernova Remnant Environment of FRB 190520B with Dispersion Measure and Scattering Timescale](https://arxiv.org/abs/2605.26553)
+
+   > Fast Radio Burst, SNR, Dispersion Measure, Scattering, Theory
+
+   检验 FRB 190520B 是否来自大质量恒星核心坍缩后嵌在超新星遗迹中的年轻中心引擎。模型采用风环境中的自相似 SNR 演化，考虑 $n=2,4,6,8$ 的抛射物密度剖面和 5 种等离子体散射 prescription，用 646 个 DM 测量和 95 个散射时标测量做 MCMC 约束；自由参数包括抛射物质量、动能、前身星质量损失率、源年龄和宿主星系 DM 贡献。
+
+   20 种组合中只有 6 种能同时拟合 DM 和散射，且都对应较浅抛射物剖面 $n=2$ 或 4。保留解给出年轻 SNR 年龄 $t_0=79.8$–169.8 yr，抛射物质量 $8.7$–$19.2\,M_\odot$，动能 $0.1$–$7.3\times10^{51}$ erg，质量损失率 $0.3$–$14.8\times10^{-5}\,M_\odot\,{\rm yr}^{-1}$。长期 DM 下降比散射时标演化拟合得更好；散射残差随时间上移，暗示还需要额外散射成分或 SNR 内小尺度湍动结构。所有保留解在 1.25 GHz 下都会在推断年龄之前变得自由自由吸收透明，最优综合解为 E2，表示宿主星系和局部 SNR 都对总 DM 有重要贡献。
+
+## 2026-05-28
+
+1. [Probabilistic Data-Driven Modelling of Astrophysical Transients: The Neural Process Family for Ultrafast and Class-Agnostic Light Curve Reconstruction with NightLANP](https://arxiv.org/abs/2605.27527)
+
+   > Time Domain, Deep Learning, Transient, LSST, Tool
+
+   面向 Rubin LSST 稀疏、不规则、六波段暂现源光变重建，[NightLANP](https://github.com/sidchaini/NightLANP) 使用 Attentive Neural Process 作为类别无关的概率插值模型。模型输入为已观测的时间、波段和流量点，输出任意目标时间和波段的流量均值与不确定度；确定性路径用 self attention 和 cross attention 建模上下文点与目标点关系，潜变量路径刻画全局不确定性。训练使用基于 PLAsTiCC/RESSPECT 的模拟暂现源光变，覆盖 15 个建模类别；测试时将光变放入 LSST WFD 天区并施加 Rubin OpSim v5.1.1 的真实 cadence，每条测试光变生成 10 个观测实现。
+
+   结果显示，ANP 在回归误差、峰值时间和峰值亮度恢复、CRPS、NLPD、PIT 等概率校准指标上整体优于 Gaussian Process、Bayesian Neural Network、Normalizing Flow 和 MLP 基线。单条光变推理达到微秒量级，可同时插值所有波段，速度比 GP 快约五个数量级；不确定度相比常规神经网络不过度自信，相比 GP 不明显过宽。当前验证仍以模拟爆发现象为主，观测流量误差尚未作为上下文输入显式使用。
+
+   <img src="./Figures/image-20260528134249906.png" alt="image-20260528134249906" width="680px" />
+
+2. [A Semi-Supervised Variational Autoencoder for Generating Neutron Star Equations of State](https://arxiv.org/abs/2605.27562)
+
+   > Neutron Star, Equation of State, Deep Learning, Bayesian
+
+   面向中子星致密物质状态方程的低维、可解释生成建模，[SSVAE_EOS](https://github.com/sotzee/SSVAE_EOS) 使用半监督变分自编码器把 Skyrme EOS 压缩到由两个受监督观测量和一个无监督潜变量组成的 latent space。输入为压力网格上的声速平方 $c_s^2(P)$ 以及壳核过渡和最大稳定星中心处的边界条件；受监督变量为最大质量 $M_{\max}$ 和典型半径 $R_{1.4}$，EOS 经过 TOV 方程求解得到质量半径关系。
+
+   选定模型用 $M_{\max}$、$R_{1.4}$ 和一个潜变量即可高精度重建 Skyrme EOS，decoder 对 $M_{\max}$ 和 $R_{1.4}$ 的平均百分比误差约为 0.14% 和 0.12%。$M_{\max}$ 主要控制高密度刚性和质量半径曲线高质量端，$R_{1.4}$ 主要关联中等密度压力，额外潜变量主要调节壳核过渡附近的低密度 EOS。采样 latent space 生成的新 EOS 保持因果性和热力学稳定性，可作为多信使中子星观测贝叶斯推断中的紧凑参数化形式。
+   
+   <img src="./Figures/image-20260528134316055.png" alt="image-20260528134316055" width="680px" />
+
+## 2026-05-29
+
+1. [First head-to-head comparison of agentic AI applied to the analysis of simulated data of the Einstein Telescope](https://arxiv.org/abs/2605.28916)
+
+   > Agentic AI, Gravitational Wave, Einstein Telescope, Workflow Automation, Tool
+
+   这篇论文用一个受控的引力波数据分析任务比较 Claude Code 和 Codex 两类 agentic AI 系统：二者都接收同一份 Markdown 规范，在无人干预下对 Einstein Telescope 模拟噪声中的 100 个双黑洞波形注入执行七步 PyCBC 匹配滤波验证流程，并自动生成诊断结果与论文草稿。任务包括从 10 个 GWF 文件估计 PSD、生成约 3400 个 IMRPhenomD 模板、注入 2 s 噪声片段、以 $\rho \ge 8$ 搜索恢复信号，并在高 SNR 与中等 SNR 两轮实验中记录科学输出和行为轨迹。
+
+   两个 agent 在科学结果上高度一致：第一轮均恢复 100/100 个注入，平均 SNR 约 299；第二轮接近阈值时，Claude Code 将目标 SNR 下限从 7 静默改为 8 并得到 100% 恢复率，Codex 按字面使用 $[7,50]$ 并记录一次 $\rho\simeq7.97$ 的漏检。主要差异在工程行为：Claude Code 更快，约 3.5 分钟完成并倾向静默修正；Codex 较慢，约 6–16 分钟，但会显式诊断、补丁和重启，留下更清晰审计轨迹。论文的意义在于指出 ET 等高事件率设施可能需要 agent 编排，但自然语言边界条件必须精确化，否则不同 agent 会在不提示用户的情况下生成不同实验设计。
+
+2. [The MeerKAT Thousand-Pulsar Polarization Array I: Properties of the Polarization and Rotation Measure Time Series Data](https://arxiv.org/abs/2605.29106)
+
+   > Pulsar, Polarization, Rotation Measure, MeerKAT, Axion Dark Matter
+
+   这篇论文分析 MeerKAT Thousand Pulsar Array 中 513 个脉冲星的偏振角和旋转量时序，为构建首个常规脉冲星 Polarization Array 并搜索超轻 axion like dark matter 做数据表征。作者从 1237 个 TPA 脉冲星中筛选出每源超过 20 个有效历元的样本，定义相对中位偏振模板的 PA offset，分别建模电离层 Faraday rotation、星际介质长期多项式漂移、一年周期视线变化，以及 EFAC、EQUAD 白噪声和红噪声，并用 Bayesian MCMC 和 Bayes factor 比较不同噪声与传播模型。
+
+   数据覆盖约 6.5 年，平均约 60 个观测历元；spinifex 电离层校正整体优于 ionFR，能去除多数季节性 PA 变化，但月尺度残差仍存在。大多数脉冲星只需白噪声描述，仅 18 个源显示明确红噪声证据；RM synthesis 与由 PA offset 推得的 RM offset 大多一致，说明主导旋转仍是 Faraday 机制。未发现与数据时间跨度相符的强振荡残余 RM 信号，但若干特殊源显示非标准行为，包括 J1428−5530 的正交偏振模式、J1141−6545 和 J1105−6107 等源的残余 RM 线性变化，以及若干可能由星际介质导致的长期 RM 漂移，这些结果为后续暗物质搜索提供了必要的系统误差基线。
+
+   <img src="./Figures/image-20260530182157241.png" alt="image-20260530182157241" width="680px" />
+
+3. [DELOS: Detecting Shallow Transits in Kepler Photometry Using a Contrastive-Learning Framework](https://arxiv.org/abs/2605.29428)
+
+   > Exoplanet Detection, Transit Photometry, Contrastive Learning, Kepler, Tool
+
+   这篇论文提出 DELOS，即用对比学习在 Kepler 光变曲线中搜索浅凌星的框架，目标是绕过传统先由 BLS/TLS 产生 TCE、再用机器学习筛选的流程，直接对密集试探周期上的相位折叠光变曲线给出 transit likeness score。DELOS 结合 GPU 加速相位折叠、4096 bin 的优化分箱、监督对比学习和一维卷积编码器，聚焦 100–150 天的 intermediate to long period 低 SNR 凌星；训练集由真实 Kepler 噪声特性和物理凌星模型生成，共 2000 万条合成光变曲线。
+
+   在合成验证集上 DELOS 达到 99.3% 准确率；注入恢复实验中，在低 SNR 区间相对 BLS 的 precision recall 综合表现提高 15.5%，相对 TLS 提高 11.25%，并在相同采样配置下比 BLS 快约 3–5 倍、比 TLS 快约 74–80 倍。应用到 Kepler DR25 真实样本时，DELOS 恢复了 60 个已确认的 100–150 天浅凌星信号，周期误差小于 0.01%，对 3493 个无凌星控制样本的红噪声测试显示阈值 0.95 可把经验 false alarm probability 降到 1% 以下。作者强调 DELOS 分数应作为候选排序统计量，而非已校准天体物理概率；高分信号仍需独立搜索、污染检查和完整验证。
+
+   <img src="./Figures/image-20260530182418635.png" alt="image-20260530182418635" width="680px" />
+
+4. [The Northern Cross Fast Radio Burst project: VI. The INCART public database](https://arxiv.org/abs/2605.30192)
+
+   > Fast Radio Burst, Public Database, Northern Cross, Radio Transient, Tool
+
+   这篇论文发布 Italian Northern Cross Atlas of Radio Transients，即 [INCART](https://ngc-frb-incart.ira.inaf.it/)，用于公开 Northern Cross 射电望远镜探测到的 FRB 数据产品。Northern Cross 目前在 408 MHz 附近工作，带宽约 14.8 MHz，1024 个频率通道，时间分辨率 138.24 μs；自 2021 年首次探测 FRB 至 2025 年底，已记录 6 个 FRB 源的 31 次事件。数据处理链包括波束形成、filterbank 转换、RFI 清理、HEIMDALL 去色散搜索和 FETCH 候选验证。
+
+   INCART 同时作为 FRB 参数目录和短时 filterbank cutout 数据仓库，提供动态谱、去色散时间序列、time DM 图、logfile、FITS 目录与最佳拟合物理参数，允许用户用独立方法重新拟合复杂 burst、检查高时间分辨率子结构或开展多频多历元比较。其关键工程取舍是只保存围绕事件的短时间片段，而非完整原始电压或小时级波束形成数据；对 900 个 FRB 事件的估算显示，这可相对处理后完整数据节省约 $10^4$ 的存储量。该设计为 NG Croce 升级后的更高灵敏度、多波束和实时缓冲数据提供了可扩展的公开归档方案。
+   
+   <img src="./Figures/image-20260530182556989.png" alt="image-20260530182556989" width="680px" />
+
