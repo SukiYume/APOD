@@ -276,3 +276,215 @@
 
 ## 2026-06-08
 
+1. [VLA Observations Confirm AT 2023mfm as an Off-nuclear Tidal Disruption Event](https://arxiv.org/abs/2606.06595)
+
+   > TDE, Radio, Black Hole, Observation
+
+   AT 2023mfm 是系统搜索中筛出的高可信 off nuclear TDE 候选体。ZTF/PS1 暂现源位置与 SDSS、PS1、DESI Legacy Surveys 的宿主星系中心存在显著偏移；2026 年 4 月 11 日的 VLA A configuration C band 6 GHz 高分辨率成像进一步把射电辐射分解成两个点源：东南源与 TDE 光学位置一致，西北源与宿主星系核一致。
+
+   两个射电源相距 $0.651\pm0.036''$，对应 $1.06\pm0.06$ kpc；东南源流量密度为 $46\pm9\,\mu{\rm Jy}$，西北源为 $60\pm6\,\mu{\rm Jy}$。X band 和 Ku band 也探测到核源，并在 Ku band 对 TDE 位置有约 $3\sigma$ 候选探测。附近没有其他 ZTF 或 TNS 暂现源，晚期光变 bump 前后的光学位置也一致，支持东南射电源来自 AT 2023mfm 本身。宿主恒星质量约 $10^{10.7}$–$10^{11.0}\,M_\odot$，低面亮度结构和可能的卫星星系暗示并合历史；核源具有紧致 AGN 类谱指数，off nuclear TDE 更可能来自同一星系中的额外离心 massive black hole，而不是中央黑洞整体反冲。
+
+   <img src="./Figures/image-20260608125914721.png" alt="image-20260608125914721" width="680px" />
+
+2. [From Cosmic Web to Supernova Remnants: Modeling FRB DM to Trace Baryons across Multiple Scales](https://arxiv.org/abs/2606.06963)
+
+   > Fast Radio Burst, Cosmology, Simulation, Baryon, SNR
+
+   围绕 FRB 色散量 $DM$ 的多尺度来源建立统一建模框架，把宇宙网、前景 halo、CGM、宿主星系和源区等离子体分层处理。大尺度部分使用基于 GADGET3/4 OSAKA 的 CROCODILE 水动力模拟，包含恒星形成、超新星反馈和 AGN 反馈，构建 light cone、气体密度剖面和 $DM$ 统计；局域部分用一维水动力、非平衡电离和辐射冷却模型，模拟年轻 magnetar 嵌在超新星遗迹中的 $DM_{\rm source}$ 和 $RM_{\rm source}$ 演化。SNR 数据产品在 [Zenodo](https://doi.org/10.5281/zenodo.20486710)，代码为 [SNR_FRB](https://github.com/zhaojosephzhang/SNR_FRB)；宇宙学 FRB 模拟分析框架 ARCOS 在 [Zenodo](https://doi.org/10.5281/zenodo.20487842) 和 [GitHub](https://github.com/zhaojosephzhang/ARCOS)。
+
+   到 $z=1$ 的 $DM$–$z$ 关系给出 diffuse baryon fraction $f_{\rm diff}=0.865^{+0.101}_{-0.165}$，无黑洞反馈模型为 $0.856^{+0.101}_{-0.162}$。AGN 反馈会降低 halo 中心气体密度、改变 CGM 与 IGM 的边界，并显著调制前景 halo 对 FRB 视线的 $DM$ 贡献；$10^{12.5}$–$10^{13.5}\,M_\odot$ halo 中反馈对中心 $DM$ 的压低最强。宿主项高度依赖环境：中心 dwarf case 通常低于 $100\,{\rm pc\,cm^{-3}}$，MW like spiral 中心可到百量级，cluster 环境可超过 $1300\,{\rm pc\,cm^{-3}}$。SNR 源区模型显示可变 $DM$ 主要来自未激波 ejecta，激波区通常只贡献 $\lesssim10\,{\rm pc\,cm^{-3}}$；早期 $DM\propto t^{-\alpha}$，$\alpha\simeq1.8$–1.9。匹配 FRB 20190520B 和 FRB 20121102 的 $dDM/dt$ 需要几十到数百 ${\rm pc\,cm^{-3}}$ 的本地 SNR 贡献，多数模型在 $\lesssim70$ yr 内对 GHz FRB 透明，说明精确 FRB 宇宙学必须同时建模前景 halo、宿主环境和源区演化。
+
+   <img src="./Figures/image-20260608130205333.png" alt="image-20260608130205333" width="680px" />
+
+3. [A series of unfortunate events: CHIME/FRB misclassification of a Galactic pulsar as a periodic fast radio burst](https://arxiv.org/abs/2606.07087)
+
+   > Fast Radio Burst, Pulsar, CHIME, Instrument
+
+   FRB 20191221A 原先被报告为具有显著 217 ms 周期的长持续时间 FRB，信号约 3 s、包含 9 个显著峰；按当时定位方向估算，其 $DM$ 超过银河电子密度模型预测约 4 倍。新的 CHIME/Slow 探测和 Second CHIME/FRB Baseband Catalog 中的 twin bursts 显示，该事件的周期、$DM$、RA 和 Faraday rotation 与已知银河脉冲星 PSR J0248+6021 一致，只是 Dec 偏差约 $20^\circ$，因此 FRB 20191221A 实际是该高 $DM$ 银河脉冲星的少数脉冲被错误定位。
+
+   误分类来自一次罕见的 CHIME 校准故障。2019 年 12 月 21 日强降雨导致部分 feeds 异常，测试中的 RFI excision 在校准源 transit 期间把高频段数据标记为坏数据，校准流程可能使用了 stale visibility data；得到的 gain solution 在 $\gtrsim600$ MHz 产生随南北 feed 位置变化的相位梯度，beamforming 后造成频率相关的 Dec 指向偏移，约为 $20^\circ$。PSR J0248+6021 本身位于致密 H II 区附近、$DM$ 异常高，并具有类似 rotating radio transient 的爆发式发射，进一步增强了 FRB 外观。新的日增益诊断会搜索非零 offset 的次峰；已检查所有 CHIME/FRB 已发表事件，包括第二目录，只有 2019 年 12 月 21 日和无 FRB 探测的 2019 年 3 月 11 日出现大范围频道偏移，支持该问题没有影响其他 FRB 定位。
+   
+   <img src="./Figures/image-20260608125726601.png" alt="image-20260608125726601" width="680px" />
+
+## 2026-06-09
+
+1. [Do Vision-Language Models See Dwarf Galaxies the Way We Do?](https://arxiv.org/abs/2606.07779)
+
+   > VLM, Galaxy
+
+   评估VLM在识别超暗矮星系上的性能。结果发现零样本的VLM能较好复现人工结果。
+
+   <img src="./Figures/image-20260609200203173.png" alt="image-20260609200203173" width="680px" />
+
+2. [Faraday Complexity and Depolarisation in a High-Rotation-Measure Radio Galaxy from the Spectra and Polarisation In Cutouts of Extragalactic Sources (SPICE-RACS) DR2](https://arxiv.org/abs/2606.07919)
+
+   > Polarization, Galaxy
+
+   ASKAP对RACS\_0900-28\_7036这个射电源的观测，测量到其偏振有一个 Burn-slab 成分和两个外部法拉第色散成分（1 Slab + 2 EFD）。
+
+3. [Modern Time-Series and Spectral Methods for Analyzing Solar and Stellar Oscillatory Signals](https://arxiv.org/abs/2606.07966)
+
+   > Time Series, Light Curve, Period, Method
+
+   对比基于傅里叶变换的方法、基于非线性拟合的方法（Lomb-Scargle 周期图）、时频方法（小波变换和同步压缩变换）以及自适应分解技术（经验模态分解）这些方法在恒星光变曲线找周期的性能。
+
+   FFT 和 LSP 适合平稳或准平稳周期信号，wavelet 更适合暂现和非平稳振荡，EMD/HHT 更灵活但容易 mode mixing，SWT 频率分辨率更好但缺少成熟显著性检验。作者特别提醒，太阳和恒星数据里的背景噪声常常是 red noise / power-law noise，不能简单用白噪声或 AR(1) 显著性检验，否则会把随机涨落误判成 QPP，或者因为不当 detrending 人为制造周期信号。
+
+   <img src="./Figures/image-20260609203847752.png" alt="image-20260609203847752" width="680px" />
+
+4. [Fast Astronomical Transients in Archival Photographic Plates: Using optical aberrations as a tool for discerning real images, from plate artifacts](https://arxiv.org/abs/2606.08319)
+
+   > Optical, Transient
+
+   用历史天文底片里的**光学像差**来判断所谓 fast optical transients 是否真的是经过望远镜成像的天体信号，而不是底片缺陷。作者利用 APPLAUSE 档案中 Hamburger Sternwarte Doppel-Reflektor 0.6 m 望远镜的 532 对底片；这台望远镜的离轴点源会带明显 coma，因此真正的星像应该和周围恒星一样带有朝向视场中心的彗差形态，而底片划痕、灰尘、乳剂缺陷等伪影不会自然复现这种光学结构。最终找到 11 个 transient，其中多个显示出和同场参考星一致的 coma signature，因此支持它们确实由穿过望远镜光路的光造成，而不是普通 plate artifacts。
+
+   <img src="./Figures/image-20260609204013491.png" alt="image-20260609204013491" width="680px" />
+
+5. [Fast Radio Bursts produced during collapse of macroscopic X-mode in magnetized pair plasma](https://arxiv.org/abs/2606.09417)
+
+   > Fast Radio Burst, Theory
+
+   提出一种磁星磁层中产生 FRB 的等离子体机制：高度磁化 pair plasma 里的大尺度 X-mode 电磁扰动，在接近 current starvation、且扰动磁场幅度约等于或超过 guide field 的窄参数区间内，会发生 nonlinear wave collapse / breaking。
+
+## 2026-06-10
+
+1. [Radio precursors of monster shocks: a mechanism for fast radio bursts from SGR 1935+2154](https://arxiv.org/abs/2606.10189)
+
+   > Fast Radio Burst, Magnetar, Plasma Shock
+
+   Beloborodov 提出一种解释 SGR 1935+2154 弱 FRB 的机制：活跃磁星中的 kHz magnetosonic 扰动会在 $r\sim10^8$ cm 处演化成 “monster radiative shock”，冲击产生 X 射线，同时在冲击前方产生半相干射电 precursor。关键在于这个 radio precursor 会强烈作用于上游磁层等离子体，使辐射自调节；最终 GHz 射电爆发主要在 $r\sim10^9$ cm 产生，持续亚毫秒，能量约 $E_{\rm FRB}\sim10^{34}E_{38}^{0.2}$ erg。模型自然给出 X 射线比射电晚毫秒级到来，也解释了为什么 SGR 1935+2154 的 X 射线爆发很少伴随射电：GHz burst 往外逃逸时容易在光柱附近被吸收，只有视线方向等离子体密度比典型活跃磁星低约 30 倍时才看得到。**磁层内 monster shock 可以解释银河磁星的弱 FRB，但效率太低，不能直接解释 $E_{\rm FRB}\gtrsim10^{38}$ erg 的明亮宇宙学 FRB。**
+
+2. [Integral Field Unit Spectroscopy with One Fiber](https://arxiv.org/abs/2606.10197)
+
+   > Galaxy Spectroscopy, Foundation Model, IFU
+
+   提出一个多模态、概率式 foundation model，用宽波段图像、红移和指定 fiber 位置，直接预测星系任意空间位置的高分辨率光谱及不确定度。模型基于 masked autoencoder，训练数据不是 IFU datacube，而是 470 万个 DESI 图像和单 fiber 光谱；作者利用 DESI fiber 天然落在星系不同位置的分布，以及星系内部形态自相似性，让模型学会“某类局部形态对应某类光谱”。把 fiber 位置在图像上扫描一遍后，就能合成近似 IFU datacube。和独立 MaNGA IFU 数据比较时，模型能恢复 Hα flux map 和局部谱线结构，zero-shot 表现接近直接用 MaNGA 训练的监督 baseline。核心意思是：大规模单孔径光谱巡天里其实藏着空间分辨信息，足够大的多模态模型可以把“一根 fiber”扩展成近似 IFU 能力。
+
+   <img src="./Figures/image-20260610122229434.png" alt="image-20260610122229434" width="680px" />
+
+3. [Updating the PATH framework with FRB host galaxy models](https://arxiv.org/abs/2606.10538)
+
+   > Fast Radio Burst, Host Galaxy, Bayesian Association
+
+   升级 FRB 宿主星系匹配工具 PATH。原始 PATH 主要用 FRB 定位误差、星系位置、星系亮度和一个简化的“宿主不可见”先验来给候选宿主分配概率；作者现在把 FRB 的 DM 信息也纳入进去，用 $P(z|\mathrm{DM})$ 预测红移，再用 $P(m_r|z)$ 预测宿主 apparent magnitude，从而给出更物理的宿主亮度先验和 unseen-host 概率。他们测试了 Marnoch23、Loudas25 和一个新的 Naive 模型，并用 32 个 ASKAP/CRAFT ICS FRB 拟合。结果是，新先验通常会提高已知最可能宿主的置信度；同时显示 FRB 宿主整体比单纯按 star formation 加权预期的星系更暗，而质量加权模型更不合适。作者建议默认用较简单的 Marnoch23 模型生成 PATH prior，并强调 $P(U)$ 不该是固定常数，而应该随 DM 和图像深度变化。高红移端目前样本太少，宿主金属丰度或对大质量高散射宿主的探测偏差，可能是下一步要区分的解释。
+
+4. [The Thousand-Pulsar-Array programme on MeerKAT XIX: Single-pulse data analysis, nulling and pulse energy distributions](https://arxiv.org/abs/2606.10807)
+
+   > Pulsar, MeerKAT, Nulling
+
+   发布并分析 MeerKAT Thousand Pulsar Array 的单脉冲数据集：1192 颗脉冲星，每颗通常约 1000 个连续脉冲，并介绍 MeerTime Single Pulse pipeline 如何校准、去 RFI、生成单脉冲数据产品。作者用 Bayesian 框架同时拟合 pulse energy distribution 和 nulling fraction。对可靠样本而言，约一半脉冲星可用单一能量分布解释，另一半需要多成分模型；nulling 在大多数源中被探测或约束。最清楚的群体趋势是：nulling fraction 几乎随自转周期近线性增加，而对 $\dot P$ 依赖很弱，暗示 nulling 更可能和磁层几何、光柱半径、极冠尺寸有关，而不是简单由 spin-down power 控制。作者还发现能量分布形状随 $\dot E$ 有轻微演化迹象；低 $\dot E$ 脉冲星的单个亮脉冲有时可达到甚至超过长期 spin-down luminosity，这也让一些超长周期射电暂现源的高亮脉冲显得没那么“异类”。
+
+   <img src="./Figures/image-20260610122647254.png" alt="image-20260610122647254" width="680px" />
+
+5. [The Ohio SETI Program - The Last Decades](https://arxiv.org/abs/2606.11102)
+
+   > SETI, Radio Transient, Wow! Signal
+
+   回顾 Ohio State University Radio Observatory “Big Ear” 在后几十年的 SETI 工作。Big Ear 在完成 Ohio Sky Survey 后，于 1973 年转为世界上第一个全职 SETI 观测站，一直运行到 1998 年拆除；期间从 8-channel hydrogen-line receiver 发展到 50-channel、LOBES、SERENDIP 等系统，长期覆盖约 70% 的射电天空。文章重点不只是 Wow! Signal：这个信号确实符合强窄带、近氢线、天球点源等特征，但只经过一个波束且从未重复，因此仍是未解事件。更有意思的是，Ohio SETI 还留下 4 万多个短时窄带 transient 事件，其中一些在银河中心附近和极轴方向呈现非随机集中。作者把 Big Ear archive 放进现代时域射电天文学语境里看：它既是 SETI 遗产，也是早期 radio transient 档案；Arecibo Wow! project 正在重新数字化和分析这些数据，未来可能还会从这个老档案里挖出新东西。
+
+   <img src="./Figures/image-20260610122801693.png" alt="image-20260610122801693" width="680px" />
+
+## 2026-06-11
+
+1. [A magnetar formation in binary neutron star merger](https://arxiv.org/abs/2606.11299)
+
+   > Binary Neutron Star, Magnetar, Theory, Simulation
+
+   双中子星并合后能否在毫秒尺度形成磁星，通过全局广义相对论中微子辐射转移磁流体模拟检验。模拟使用 `NANASI`，采用 DD2 核物质状态方程、$1.35+1.35,M_\odot$ 等质量双中子星、约 44.4 km 初始间距，并用 $A_\varphi \propto \max(P-0.0004P_{\rm max},0)^2$ 初始化内部磁场，最大初始磁场为 $3.16\times10^{12},{\rm G}$。最高空间分辨率达到 6.25 m，覆盖并合接触面和 Kelvin Helmholtz 不稳定性区域。
+
+   两颗中子星接触后，Kelvin Helmholtz 不稳定性先在小尺度指数放大磁场，再推动恒星尺度磁场增长。电磁能在并合后约 5 ms 达到 $\sim10^{50}$ erg 量级；功率谱中动能谱接近 Kolmogorov $k^{-5/3}$，磁能谱出现 Kazantsev $k^{3/2}$，指向小尺度动力学发电机过程。恒星尺度磁场从 $3.16\times10^{12},{\rm G}$ 增至约 $10^{15},{\rm G}$，即使考虑湍流电阻率外推可能高估约一个数量级，仍可达到 $\sim10^{14},{\rm G}$。并合后若不立即塌缩为黑洞，短暂磁星形成可能较普遍；不过得到的强磁场主要位于赤道附近且不是偶极结构，后续仍需要磁转动不稳定性等机制形成极区大尺度场和相对论喷流。
+
+   <img src="./Figures/image-20260611150205397.png" alt="image-20260611150205397" width="680px" />
+
+2. [Time Series Analysis in Machine Learning](https://arxiv.org/abs/2606.11746)
+
+   > Time Series, Machine Learning, Deep Learning, Review
+
+   面向天文学、宇宙学和其他时域数据的机器学习时间序列综述，梳理从经典统计模型到深度学习模型的主要路线。内容覆盖平稳性、自相关、季节性等基本概念，以及 ARIMA、指数平滑、状态空间模型、HMM、Lomb Scargle 周期图、Gaussian Process、CARMA/DRW 等经典方法；其中 GP 和连续时间模型适合不规则采样光变曲线，但普通 GP 的计算代价随样本数快速上升，LSST 时代的大规模光变曲线需要更可扩展的实现。
+
+   机器学习部分把时间序列任务分为特征工程加通用模型、距离或形状方法、集成树模型、ROCKET 类随机卷积核方法，以及 RNN、LSTM、CNN、Transformer、时间序列 foundation model 等端到端模型。关键实践点是验证必须保持时间顺序，随机 k 折会引入未来信息泄漏；天文应用还要处理不规则采样、异方差测量误差、类别不平衡和稀有事件。整体结论偏方法论：小数据、可解释或季节性问题仍适合经典模型和树模型；大规模复杂序列可用深度学习和 Transformer，但需要更多数据、调参和不确定性校准；科学场景中，物理约束、可解释性和面向天文噪声特性的基准评估仍是主要挑战。
+
+## 2026-06-12
+
+1. [Multifractal Signatures of Hamiltonian Chaos in Hyperion's Rotational Dynamics](https://arxiv.org/abs/2606.12491)
+
+   > Planetary, Hamiltonian Chaos, Time Series, Method
+
+   土卫七 Hyperion 的混沌自转已经由理论和航天器成像支持，关键问题是稀疏、有噪声的地基光变能否给出正面的混沌诊断。合成光变先由三轴刚体在 Saturn 潮汐力矩下的 Euler 方程生成：
+
+   $$
+   A\dot{\omega}_{x}-(B-C)\omega_y\omega_z=N_x,\quad B\dot{\omega}_{y}-(C-A)\omega_z\omega_x=N_y,\quad C\dot{\omega}_{z}-(A-B)\omega_x\omega_y=N_z
+   $$
+
+   $$
+   N_x=\frac{3GM}{r^3}(C-B)u_yu_z,\quad N_y=\frac{3GM}{r^3}(A-C)u_zu_x,\quad N_z=\frac{3GM}{r^3}(B-A)u_xu_y
+   $$
+
+   姿态再通过三轴椭球的投影面积转成光变：
+
+   $$
+   S(t)=\pi\sqrt{ b^2c^2(\hat O\cdot \hat x_b)^2+ c^2a^2(\hat O\cdot \hat y_b)^2+ a^2b^2(\hat O\cdot \hat z_b)^2 }
+   $$
+
+   真实 Klavetter 1989 光变和合成光变都用自然样条重采样到均匀网格，再做 MFDFA。核心诊断不是直接测 Lyapunov 指数，而是从光变序列构造 profile：
+
+   $$
+   Y(i)=\sum_{k=1}^{i}[x_k-\langle x\rangle]
+   $$
+
+   对不同尺度窗口计算局部去趋势方差和 $q$ 阶 fluctuation function：
+
+   $$
+   F^2(\nu,s)=\frac{1}{s}\sum_{i=1}^{s} \{Y[(\nu-1)s+i]-y_\nu(i)\}^2
+   $$
+
+   $$
+   F_q(s)= \left\{ \frac{1}{2N_s} \sum_{\nu=1}^{2N_s} [F^2(\nu,s)]^{q/2} \right\}^{1/q}
+   $$
+
+   若满足标度律：
+
+   $$
+   F_q(s)\sim s^{h(q)}
+   $$
+
+   则由斜率得到 generalized Hurst exponent $h(q)$，再用 Legendre 变换得到奇异谱：
+
+   $$
+   \alpha=h(q)+qh'(q),\quad f(\alpha)=q[\alpha-h(q)]+1
+   $$
+
+   谱宽定义为：
+
+   $$
+   \Delta\alpha=\alpha_{\max}-\alpha_{\min}
+   $$
+
+   这里 $\Delta\alpha$ 只作为同一套预处理和参数下的相对诊断量，不被解释成通用混沌强度。混沌翻滚在稀疏采样和噪声过滤后仍保留宽的多重分形谱，合成观测混沌模型给出 $\Delta\alpha\approx1.13$，Klavetter 数据为 $\Delta\alpha=1.42\pm0.08$；规则快自转在相同观测窗口下被混叠成近似噪声，谱宽约 $\Delta\alpha\approx0.13$。shuffled 和 IAAFT surrogate 的谱宽显著塌缩，说明宽谱主要来自非线性相位相关和 Hamiltonian 相空间 stickiness，而不是振幅分布、线性相关或有限数据长度。MFDFA 因此可在传统 Lyapunov 或相空间重构不可行时，从稀疏行星光变中识别混沌翻滚。
+
+2. [What I Wish I had Known When I Began Building Astronomical Instruments](https://arxiv.org/abs/2606.12653)
+
+   > Astronomy, Instrument, Review
+
+   面向刚进入天文仪器研制领域的研究者，总结地基望远镜仪器项目中的经验性规则。核心判断是科学目标先于技术新颖性：仪器概念、需求追踪、预算和排期都应从关键科学观测反推，而不是由可用技术或空白功能清单驱动。系统工程在小项目中也不能省略，项目负责人需要理解科学目标、工程取舍和需求边界，避免把失败归因于已委托出去的局部任务。
+
+   具体建议覆盖团队组织、工程沟通、光学、结构、运动机构、探测器、电子学、软件、供应商和仪器全生命周期。仪器控制、数据处理和观测规划软件需要及早纳入项目；没有可用的数据处理流程，仪器很难真正完成 commissioning。装配、集成和测试应尽量在实验室中暴露问题，望远镜现场不适合首次发现基础缺陷。仪器投入使用后还需要持续响应异常行为，并尽早撰写 instrument paper、硬件手册和观测者手册，把性能和维护知识固定下来。
+
+3. [Finding Novel Precursors for Solar Wind Stream Interaction Regions with Interpretable Deep Learning](https://arxiv.org/abs/2606.12661)
+
+   > Solar Wind, Space Weather, Deep Learning, Tool
+
+   太阳风 stream interaction regions 传统上依赖人工目视和阈值标注，边界主观且容易漏掉弱压缩或复杂形态事件。SIREN 使用 Wind/SWE 和 MFI 的原位太阳风数据，对 Chi2018 目录中的事件做逐时间步 SIR 检测；每个样本覆盖 stream interface 前后三天，共 864 个 10 分钟步长，输入 11 个磁场、速度和热力学参数。质量筛选后保留 676 个事件，按 473/101/102 分成训练、验证和测试集。模型是约 99,985 参数的两层 Transformer encoder，使用加权 binary cross entropy、cosine annealing 学习率和 Platt scaling 输出校准概率。代码、训练权重和特征归因流程在 [Zenodo](https://doi.org/10.5281/zenodo.20531966)。
+
+   独立测试集上 ROC-AUC 为 0.93，F1 为 0.78，TSS 为 0.67，HSS 为 0.70；self-attention 主要集中在 stream interface 和压缩区。Integrated Gradients 显示质子密度贡献 24.3%、总磁场强度 21.6%、温度 13.9%、体速度 12.1%，共同构成主要 SIR 诊断量；横向速度 $V_y$ 和东西向流角合计贡献 13–17%，把 flow deflection 定量识别为稳定但以往低估的 SIR 前兆。连续概率输出比二元目录更适合阈值可调的业务监测和自动 catalog 构建。
+
+4. [A Delayed Multi-channel Progenitor for Apparently Nonrepeating Fast Radio Bursts](https://arxiv.org/abs/2606.12960)
+
+   > Fast Radio Burst, CHIME, Population, Progenitor
+
+   针对 apparently nonrepeating FRB 的红移演化，使用 CHIME/FRB Catalog 2 Gold Sample 中的 1973 个高质量事件做统计人口分析。多数 CHIME FRB 缺少宿主星系红移，因此用更新的 $\mathrm{DM_E}-z$ 关系从银河系外色散量统计推断红移，并同时拟合 fluence、各向同性能量和红移的累积分布。模型中包含经验探测效率、带指数截断的幂律能量函数，并比较直接追踪恒星形成历史 SFH 的模型、Gaussian/log normal/power law 延迟模型、BNS 相关模型、中子星年龄窗口模型，以及 BNS 和年龄窗口的混合模型。
+
+   纯 SFH 模型拟合最差，$\mathrm{BIC}=21146.27$；延迟模型显著改善，其中 Gaussian delay 的 $\mathrm{BIC}=5008.74$。物理动机模型中，BNS 相关通道和中子星年龄窗口通道的混合模型最好，$\mathrm{BIC}=3653.80$，有效平均延迟时间为 $\bar{\tau}=1.426^{+0.032}*{-0.035},\mathrm{Gyr}$，混合权重 $w*{\rm BNS}=0.657^{+0.015}_{-0.018}$。结果支持 one-off FRB 的红移分布包含延迟演化和多通道成分，但混合权重只是模型空间中两种红移分布形状的相对权重，不能直接解释为真实物理分支比例。
+
+## 2026-06-15
+
