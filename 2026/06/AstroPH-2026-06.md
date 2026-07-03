@@ -1032,3 +1032,216 @@
 
 ## 2026-06-29
 
+1. [The Karl G. Jansky Very Large Array Sky Survey (VLASS). Data Products](https://arxiv.org/abs/2606.27414)
+
+    > Radio, VLASS, Data Release, Survey
+
+    VLASS 是 VLA 在 2--4 GHz 的全天射电连续谱巡天，覆盖 VLA 可见天区约 33,885 平方度，角分辨率约 2.5 角秒，并以约 32 个月间隔重复观测 3.5 轮，用于静态源、偏振源和时变源研究。数据产品包括原始能见度和校准表、Quick Look 连续谱图像、Single Epoch 连续谱图像、粗频谱立方体、累计图像和 PyBDSF 源表；产品入口包括 [NRAO VLASS archive](https://archive-new.nrao.edu/vlass/) 和 [VLASS catalogs](https://vlass-dl.nrao.edu/vlass/se_continuum_imaging/catalogs)。
+
+    Quick Look 图像适合快速检索和源发现，Single Epoch 图像通过自校准、掩膜和更精细像素显著改善成像质量。主要技术难点来自大视场 w 项校正、RFI、旁瓣伪迹、亮源动态范围和 Starlink 等卫星干扰；论文给出产品状态、质量控制流程和已知限制，强调早期 Quick Look 版本存在小幅位置和通量系统误差，精密测量应优先使用后续校正产品。
+
+    <img src="./Figures/image-20260629155225389.png" alt="image-20260629155225389" width="680px" />
+
+2. [The Impact and Environment of Massive Stars and Stellar Clusters](https://arxiv.org/abs/2606.27502)
+
+    > Massive Star, Star Cluster, SKA, Review
+
+    面向 SKA 时代的大质量恒星和星团反馈研究，核心问题是辐射、光致电离、恒星风、激波和宇宙线如何塑造 HII 区、分子云和星际介质。射电观测不受尘埃遮挡，可同时追踪热自由自由辐射、非热同步辐射、射电复合线和磁场，是研究嵌埋大质量恒星形成区的关键手段。
+
+    主要方法是用 SKA 的高灵敏度、高角分辨率和宽频覆盖测量 HII 区层级结构、H/He/C 射电复合线、超致密 HII 区周围 PDR、恒星风谱指数、非热激波辐射和 Zeeman 磁场信号。估算显示，SKA Band 5 可在约 0.2 角秒尺度上探测高发射量致密电离气体，Band 2 可通过碳复合线 Zeeman 效应约束部分 PDR 磁场；SKA 将把大质量恒星反馈从少数明亮目标扩展到银河系尺度样本。
+
+    <img src="./Figures/image-20260629155257975.png" alt="image-20260629155257975" width="680px" />
+
+3. [The Astrophysics of Fast Radio Bursts](https://arxiv.org/abs/2606.27546)
+
+    > Fast Radio Burst, SKA, Transient, Review
+
+    快速射电暴的本体问题集中在辐射机制、重复暴与非重复暴差异、磁星或其他致密天体前身星、局域环境和多波段对应体。SKA 的价值在于覆盖低频到高频、具备高时间分辨率和高灵敏度，并能与 Rubin/LSST 等南天巡天形成宿主星系和瞬变源联动。
+
+    SKA Low 可在低频检验散射、自由自由吸收和等离子体环境，对已由 SKA Mid 或其他望远镜发现的 FRB 进行延迟触发搜索；SKA Mid 可在 1 GHz 以上发现更高红移、更低散射的样本，并在 5 GHz 以上探索目前样本很少的高频 FRB。毫角秒到几十毫角秒定位、偏振、RM、DM、谱漂移和多频同时观测将区分局域环境、磁化介质和辐射带宽，SKA 的独特贡献在于补充 CHORD、DSA 等大样本设施难以覆盖的频率和定位参数空间。
+
+    <img src="./Figures/image-20260629155324523.png" alt="image-20260629155324523" width="680px" />
+
+4. [Searching for Extraterrestrial Intelligence with the SKA](https://arxiv.org/abs/2606.27565)
+
+    > SETI, Technosignature, SKA, Review
+
+    技术文明信号搜索的关键难点是从天体物理瞬变和地面 RFI 中识别人工窄带、漂移、脉冲或宽带信号。SKA 的高灵敏度、大视场、干涉成像和南天覆盖可把 SETI 从少数目标星扩展为大量常规观测的伴随搜索，尤其适合在恒星、系外行星系统、银道面和河外目标方向开展 technosignature 检索。
+
+    论文比较了相干波束、图像域搜索、动态谱和 VLBI 验证等模式：相干波束适合高频谱分辨率窄带搜索，图像域方法更利于定位和 RFI 排除，VLBI 可用亚毫角秒位置和多台站一致性检验候选信号。相关软件和流程包括 [RIMS](https://github.com/saopicc/RIMS)、[TurboSETI](https://github.com/UCBerkeleySETI/turbo_seti)、[seticore](https://github.com/lacker/seticore)、[hyperseti](https://hyperseti.readthedocs.io/en/latest/) 和 [pickles](https://github.com/UCBerkeleySETI/pickles)；SKA 的限制主要来自可处理带宽、极高频谱分辨率数据率和实时 RFI 分类。
+
+    <img src="./Figures/image-20260629155347327.png" alt="image-20260629155347327" width="680px" />
+
+5. [Mapping the Milky Way with Masers](https://arxiv.org/abs/2606.27692)
+
+    > Milky Way, Maser, VLBI, Astrometry
+
+    甲醇和水脉泽的三角视差与自行可直接测量银河系旋臂、棒结构、3 kpc 臂、太阳运动和旋转曲线。现有 BeSSeL 和 VERA 样本偏向北天，南天和第四银经象限覆盖不足，限制了银河系整体结构和暗物质晕质量约束。
+
+    SKA Mid 加入 VLBI 后，可用 6.7 和 12.2 GHz 甲醇脉泽进行微角秒级天体测量；MultiView 相位校准能降低低频电离层误差。六个历元的视差观测可在约数百小时内把现有高精度脉泽视差样本翻倍，并首次系统覆盖南天远端旋臂。12.2 GHz 更适合远距离结构，6.7 GHz 可加密近邻旋臂采样；主要风险包括 12 GHz 附近卫星下行链路 RFI。
+
+    <img src="./Figures/image-20260629155419988.png" alt="image-20260629155419988" width="680px" />
+
+6. [The Variability of Radio Stars](https://arxiv.org/abs/2606.27706)
+
+    > Radio Star, Variability, SKA, Review
+
+    射电恒星覆盖超冷矮星、主序活动星、磁活动双星和大质量恒星，辐射机制包括非相干陀螺同步辐射、相干电子回旋脉泽或等离子体辐射，以及大质量恒星风的热自由自由辐射。射电变源搜索中，恒星通常是除 AGN 闪烁外最常见的变源类别之一，可用于研究恒星磁场、日冕、空间天气、恒星风和恒星行星相互作用。
+
+    识别策略包括活动星目标观测、图像域变源搜索、Stokes V 圆偏振筛选、Gaia 交叉匹配和自行一致性检验。SKA Mid 的重复巡天有望在少于全天 1/40 的区域内发现上万量级射电恒星，SKA Low 的低频圆偏振巡天也可发现数百个强相干辐射源；重复观测是关键，因为许多恒星只在耀发或活动窗口中可见。
+
+    <img src="./Figures/image-20260629155500913.png" alt="image-20260629155500913" width="680px" />
+
+7. [Fast Radio Bursts as Cosmological Probes](https://arxiv.org/abs/2606.27714)
+
+    > Fast Radio Burst, Cosmology, SKA, Review
+
+    FRB 的 $DM$、$RM$、散射和红移可共同探测宇宙重子、星系际磁场、星系晕气体、强引力透镜和基本物理。论文用 [zdm](https://github.com/FRBs/zdm) 类 FRB 群体模拟估计 SKA Low 和 SKA Mid 的探测率，并结合 Rubin/LSST 宿主星系可见性评估可用于宇宙学的定位样本。
+
+    一年观测中，SKA Low 可能贡献最多 FRB，SKA Mid Band 1/2 则提供高灵敏度、高定位精度和较高红移样本；多数 SKA FRB 宿主在 Rubin 深度下可见。大样本可通过 Macquart 关系约束宇宙重子和膨胀历史，通过前景星系数量与 $DM/RM$ 统计关系测量星系晕和星系际磁场，并寻找强透镜 FRB、微透镜事件和光子质量或等效原理偏离信号。SKA 的优势不只在样本数，还在低频传播效应、偏振精度和亚角秒定位带来的系统误差控制。
+
+    <img src="./Figures/image-20260629155533038.png" alt="image-20260629155533038" width="680px" />
+
+8. [A Unified Model for the Emission of Supernova-Associated Fast X-ray Transients: Case Studies of EP240414a, EP250108a, and GRB~171205A](https://arxiv.org/abs/2606.28115)
+
+    > Fast X Ray Transient, Supernova, Magnetar, Theory
+
+    研究对象是 Einstein Probe 发现并与 Ic BL 型超新星相关的快速 X 射线暂现源 EP240414a/SN 2024gsa 和 EP250108a/SN 2025kg，并与 GRB 171205A/SN 2017iuk 比较。统一图像是大质量恒星坍缩后形成快速旋转磁星，磁星同时驱动 Poynting 通量主导的结构化喷流和近各向同性磁星风；喷流穿过恒星包层形成热 cocoon，磁星风与抛射物作用形成嵌入 cocoon 的 PWN。
+
+    多波段光变曲线用 cocoon、PWN、磁星和 $^{56}{\rm Ni}$ 供能超新星、双组分喷流余辉共同拟合，EP240414a 和 EP250108a 的 cocoon/PWN/SN 参数通过 `emcee` MCMC 估计，GRB 171205A 采用文献参数作验证。早期约 1 天内的蓝色热辐射由 cocoon 冷却给出，中期约 1--10 天的非热再增亮由 PWN 泄漏给出，晚期由磁星和 $^{56}{\rm Ni}$ 供能的 Ic BL 超新星主导；去掉 PWN 无法解释 EP240414a 的中期再增亮，去掉 cocoon 无法解释 EP250108a 的早期光度。结果支持这类 FXT SN 与部分低光度 GRB SN 共享喷流、cocoon、PWN 和磁星中心引擎框架。
+
+    <img src="./Figures/image-20260629155556748.png" alt="image-20260629155556748" width="680px" />
+
+9. [The Role of Scintillation in Detecting HI Absorption in FRB Spectra](https://arxiv.org/abs/2606.28314)
+
+    > Fast Radio Burst, HI Absorption, Scintillation, Method
+
+    21 cm 中性氢吸收可把 FRB 用作极细视线探针，测量银河系、宿主星系、前景星系甚至高红移 minihalo 中的冷 HI；主要障碍除了接收机噪声，还有衍射闪烁在频率方向造成的强烈通量起伏。论文建立薄散射屏模型，模拟 FRB 通过湍动物质后的闪烁谱结构，并用公开的 [ScintillationMaker](https://github.com/SprengerT/ScintillationMaker/tree/main) 做方法稳健性对比。
+
+    HI 吸收线在闪烁主导的高信噪比谱中可被检出，前提是闪烁去相关带宽与吸收线宽度尺度明显不同；两者相近时，吸收槽会被频率起伏掩盖。重复暴可通过叠加降低闪烁影响，但相邻暴发间隔必须超过衍射闪烁时间，否则频率调制仍然相关。将重复 FRB 位置与银河系 CO 分子云目录交叉匹配后，FRB 20180916B 的视线可能穿过一个银河系分子云；在同时考虑闪烁和噪声时，现有或计划望远镜通常需要叠加约千个量级的暴发才能达到 $5\sigma$ HI 吸收检出。
+    
+    <img src="./Figures/image-20260629155655359.png" alt="image-20260629155655359" width="680px" />
+
+## 2026-06-30
+
+1. [Domain-Informed Multi-View Self-Distillation for Astronomical Light-Curve Representation Learning with JEPA](https://arxiv.org/abs/2606.28446)
+
+    > Astronomy, Deep Learning, Light Curve, Method
+
+    面向不规则采样、噪声复杂、时间尺度跨度大的天文光变曲线表示学习，使用[domain-informed-lightcurve-jepa](https://github.com/ruiyicheng/domain-informed-lightcurve-jepa)把原始序列、Generalized Lomb-Scargle 周期图和相位折叠光变曲线作为多视图输入，通过 JEPA 自蒸馏学习统一表示，并用 C-RoPE 处理不规则观测时间、EANE 编码测量不确定性。模型在 LEAVES 上训练，在 StarEmbed 分类基准和 PYRREGULAR 不规则时间序列数据集上评估；少样本线性探测、相似源检索、参数估计和零点漂移检测都显示出领域约束带来的收益，说明天文光变曲线不能简单依赖通用时间序列架构。
+
+    <img src="./Figures/image-20260630170619482.png" alt="image-20260630170619482" width="680px" />
+
+2. [The Role of Artificial Intelligence in the SKA Era](https://arxiv.org/abs/2606.28493)
+
+    > SKA, AI, Deep Learning, Review
+
+    综述 SKA 时代 AI 在射电天文中的角色，覆盖干涉成像、天空模拟、RFI 抑制、校准、EoR 和 21 cm 宇宙学、射电星系识别、脉冲星和暂现源、宇宙磁场、引力透镜等任务。核心需求来自 SKA 的数据量、实时处理压力和复杂系统误差，常用方法包括 CNN、U-Net、Transformer、扩散模型、基础模型、仿真推断、物理约束神经网络和强化学习。结论强调 AI 需要和物理约束、贝叶斯不确定性、可解释性、MLOps 与持续验证结合，否则容易受到模拟到真实数据域差异和伪结构生成的限制。
+
+3. [Enhancing VLBI Capability with the SKA-Mid and the Jingdong 120-m Radio Telescope](https://arxiv.org/abs/2606.28722)
+
+    > VLBI, SKA, Instrument, Astrometry
+
+    讨论景东 120 米射电望远镜与 SKA-Mid 加入 VLBI 后对灵敏度、uv 覆盖和南天观测能力的提升。景东望远镜位于云南，计划覆盖 1–18 GHz，可观测约 90% 天区，并提供每年约 800 小时 VLBI 时间；与 SKA-Mid 共同观测时可为 EVN、EAVN 和 LBA 增加长基线。模拟显示，加入 SKA-Mid 和景东后，EAVN 与 LBA 的成像灵敏度提升尤为明显，并可服务于 PSR J0437−4715 微角秒天体测量、M60* 内喷流、银河系外甲醇脉泽和距离尺度研究。
+
+    <img src="./Figures/image-20260630170835168.png" alt="image-20260630170835168" width="680px" />
+
+4. [TOA_SP: A Multi-Strategy Framework for Single-Pulse Timing](https://arxiv.org/abs/2606.28822)
+
+    > Pulsar, Fast Radio Burst, Tool, Timing
+
+    [toa_sp](https://github.com/songqiii/toa_sp) 是一个从 PSRFITS search-mode 数据中直接提取单脉冲 TOA 的 Python 工具，面向 RRAT、FRB 和轮廓变化强的单脉冲源，避免依赖稳定折叠模板。框架包含九类计时策略、MCMC 不确定度估计、AICc 模型选择、子带交叉验证和收敛诊断。对 FAST 观测的 RRAT J1913+1330 的 688 个单脉冲，残差加权 RMS 为 1.33 ms，比 PSRCHIVE 折叠流程提高约 24%，且保留全部脉冲；FRB 20220529 的亮脉冲测试显示，不同形态脉冲需要不同 TOA 估计策略。
+
+    <img src="./Figures/image-20260630170920077.png" alt="image-20260630170920077" width="680px" />
+
+5. [The Long-Period Radio Transient and Cataclysmic Variable ASKAP J1745-5051: Evidence for a 15,000 K White Dwarf and a Sub-Stellar Donor](https://arxiv.org/abs/2606.28993)
+
+    > Long Period Transient, White Dwarf, Cataclysmic Variable, Observation
+
+    针对长周期射电暂现源和磁激变变星 ASKAP J1745−5051，重新构建远紫外到近红外 SED，以澄清其双星组成和演化状态。处理上修正消光估计，剔除邻近恒星污染的测光点，加入 VISTA/VHS 近红外 PSF 测光，并用 DA 白矮星和低质量伴星大气模型拟合。结果支持约 14,500–15,000 K 白矮星加约 0.05 太阳质量亚恒星伴星的模型，距离约 300–320 pc，说明该系统可能是越过周期最小值后的 period bouncer，为长周期射电暂现源、磁激变变星和缺失的 period-bouncer 种群提供联系。
+
+    <img src="./Figures/image-20260630170958867.png" alt="image-20260630170958867" width="680px" />
+
+6. [Citizen Science Research with the Square Kilometre Array Observatory (SKAO)](https://arxiv.org/abs/2606.29170)
+
+    > SKA, Citizen Science, Radio Astronomy, Review
+
+    讨论 SKAO 数据环境下公民科学的科学和组织模式，重点参考 Galaxy Zoo、Radio Galaxy Zoo、RGZ LOFAR 和 RAD@home 的经验。人类识别能力适合发现稀有、异常或训练集中不足的射电形态，例如复杂射电星系、喷流相互作用、ORC 和星系团激波结构。建议的 SKA@home 包含面向全球用户的在线分类和异常标注流，以及更深入的协作研究模式，通过培训、初步报告、溯源和去重机制连接 SKAO 数据库与后续观测。结论强调公民科学应与机器学习形成互补，并建立志愿者署名和贡献认可机制。
+
+    <img src="./Figures/image-20260630171031313.png" alt="image-20260630171031313" width="680px" />
+
+7. [Giant Planet Atmospheres](https://arxiv.org/abs/2606.29362)
+
+    > Planetary Science, Giant Planet, Atmosphere, Review
+
+    综述木星、土星、天王星和海王星大气的结构、能量收支、环流、云和霾、化学、闪电、极光加热与上层大气温度问题。观测基础包括 Voyager、Galileo、Cassini、Juno、HST、JWST、ALMA 和 VLA；Galileo 探针仍是唯一深入巨行星大气的原位测量。主要开放问题包括天王星内部热流异常低、巨行星上层大气过热、木星和土星与冰巨星风场差异、季节和化学变化机制，以及未来 JUICE、Europa Clipper、Uranus Orbiter and Probe 和 30 米级望远镜可提供的新约束。
+
+    <img src="./Figures/image-20260630171058618.png" alt="image-20260630171058618" width="680px" />
+
+8. [PIE-ADA: Physics-Informed Ensemble with Adaptive Data Augmentation for Photometric Transient Classification](https://arxiv.org/abs/2606.29367)
+
+    > Transient, Deep Learning, Data Augmentation, Method
+
+    面向 Rubin/LSST 每夜大量暂现源警报和稀有类别样本极少的问题，PIE-ADA 用物理约束的数据增强生成少数类光变曲线，加入相关噪声、宇宙学时间膨胀、尘埃消光和观测相位变化，再从六个波段提取 271 个统计、时域、峰值、颜色、频域和宿主星系特征。PLAsTiCC 数据集上，LightGBM 在增强后取得最佳表现，测试加权 log loss 约 0.590、准确率约 0.801；M-dwarf flare 的召回率从 17% 提升到 100%。结果说明物理约束增强比普通 SMOTE 更适合天文光变曲线，但 Type Ibc 和 91bg 等光度上相近的类别仍难区分。
+
+    <img src="./Figures/image-20260630171129999.png" alt="image-20260630171129999" width="680px" />
+
+9. [Probing the Baryon Distribution with Fast Radio Bursts](https://arxiv.org/abs/2606.29388)
+
+    > Fast Radio Burst, Baryon, Cosmology, SKA, Review
+
+    综述如何用 FRB 的色散量探测宇宙电离重子分布，重点包括 Macquart 关系散布、DM 场统计、与星系巡天和弱引力透镜的交叉相关、CGM 散射、EoR 和氦再电离信号。SKA 与 Rubin、Euclid、Roman 等 Stage IV 几何探针结合后，可通过大量定位 FRB 约束重子反馈和电子分布；更强反馈会使电子分布更平滑，并降低 DM-redshift 关系散布。SKA-Low 的低频能力还可通过 CGM 散射探测晕内 AU 尺度冷气体结构，极高红移 FRB 则有潜力约束再电离历史，但数量和红移测量仍是关键限制。
+
+10. [Constraints on Dark Energy and Modified Gravity Models from Fast Radio Bursts and Late-Time Geometric Probes](https://arxiv.org/abs/2606.29583)
+
+    > Fast Radio Burst, Cosmology, Dark Energy, Modified Gravity
+
+    使用[MCMC-cosmo](https://github.com/bwesley92/MCMC-cosmo)把 104 个定位 FRB 与 cosmic chronometers、Pantheon+ 超新星和 DESI DR2 BAO 联合进贝叶斯 MCMC，比较 LambdaCDM、wCDM、CPL 和三类 f(R) 修正引力模型。FRB 似然中边缘化 IGM 和宿主 DM，并采用固定代表性银河系晕 DM。加入 FRB 后，Omega_b、H0 和超新星绝对星等约束明显收紧，wCDM 和 CPL 的暗能量参数也有一定改善；f(R) 参数改善较弱，仍受几何探针和模型退化限制。AIC 倾向若干扩展模型，BIC 更保守，说明当前 FRB 样本已经能帮助重子和 H0 退化破缺，但还不足以稳健确认暗能量或引力偏离 LambdaCDM。
+
+11. [Radio Wave Propagation as a Probe of the Solar Corona and Solar Wind](https://arxiv.org/abs/2606.29594)
+
+     > Solar, Solar Wind, Radio Propagation, SKA, Review
+
+     综述利用射电波在太阳日冕和太阳风中的角展宽、闪烁和相位结构函数来探测密度湍流、磁场拓扑、内尺度、太阳风加热、CME、流冕和彗星尾。SKA-Low 和 SKA-Mid 的灵敏度与短基线覆盖可显著增加近太阳背景射电源数量，从而支持随日心距离和太阳活动周期的统计测量。模型通常把密度涨落功率谱写成带内尺度截断的各向异性幂律，并从观测推断湍流强度和密度调制指数。结论是 SKAO 能把传播效应本身变成日冕和太阳风诊断工具，也能帮助区分太阳射电爆发的本征结构和传播展宽。
+
+     <img src="./Figures/image-20260630171224814.png" alt="image-20260630171224814" width="680px" />
+
+12. [Magnetic Reconnection in Galaxy Clusters](https://arxiv.org/abs/2606.29670)
+
+     > Galaxy Cluster, Magnetic Reconnection, Cosmic Ray, SKA
+
+     讨论星系团冷锋附近磁重联是否能解释弥散射电辐射和宇宙线再加速。MeerKAT、GMRT 和 ATCA 对 MRC B0600−399 / Abell 3376 与 MRC B1407−425 / CIZA J1410.4−4246 的观测显示，冷锋附近存在谱指数平台、高偏振、Faraday 深度不连续和喷流弯折等现象，简单同步辐射老化难以解释。MHD 模拟表明，冷锋压缩和拉伸可形成约 10 微高斯的局部强磁场和电流片，使等离子体 beta 接近 1，从而触发磁重联。SKA 的高分辨率、多频谱指数和 Faraday tomography 可检验这种再加速机制是否普遍存在。
+
+     <img src="./Figures/image-20260630171246442.png" alt="image-20260630171246442" width="680px" />
+
+13. [VLBI Astrometry of Magnetars](https://arxiv.org/abs/2606.29671)
+
+     > Magnetar, VLBI, Astrometry, SKA, Review
+
+     提出用 SKA-VLBI 对磁星射电爆发进行多历元监测，以测量自行、视差和与超新星遗迹的关联，从而检验磁星形成和高磁场起源。MONSTER 项目设想在爆发期间获得约 50 微角秒位置精度和约 50 微角秒每年的速度精度；对银道面中心区域，弱关联通常需要约 60 mas/yr 的自行精度，强关联需要约 50 mas/yr。SKA-Mid 的高灵敏度和高频基线可在 12 GHz 等频段提供亚毫角秒分辨率，适合穿透散射并追踪爆发源。附带数据还可约束磁星宽带射电谱、脉冲轮廓、FRB 关联和轴子类粒子导致的偏振效应。
+
+     <img src="./Figures/image-20260630171309195.png" alt="image-20260630171309195" width="680px" />
+
+14. [Estimating Cosmological Parameters from Localized Fast Radio Bursts: A Method for Removing Milky Way Dispersion-Measure Contributions](https://arxiv.org/abs/2606.29761)
+
+     > Fast Radio Burst, Cosmology, Method
+
+     针对 FRB 宇宙学中银河系 ISM 和晕 DM 不确定性，提出在同一天区内比较定位 FRB 的差分 DM 方法，使银河系贡献近似相消，避免依赖具体银河系电子密度模型和晕 DM 先验。模拟中把天空分成 64 个区域，剔除低银纬和 Gum-Vela 区域，每区用最低红移 FRB 作为参考，差分项约束 Gamma，即 Omega_b、H0 和弥散重子比例的组合。200 个模拟 FRB 能恢复输入 Gamma；实际 99 个定位 FRB 给出 Gamma=2.88±0.33，对应固定 Planck 参数下 f_d=0.867±0.099。传统绝对 DM 方法给出更高的 Gamma，说明银河系 DM 处理已成为当前样本的重要系统误差。【有定位的所有FRB，可以用表】
+
+     <img src="./Figures/image-20260630171402238.png" alt="image-20260630171402238" width="680px" />
+
+15. [ESOFinder: an LLM-powered tool to help users navigate ESO documentation](https://arxiv.org/abs/2606.30029)
+
+     > Astronomy, LLM, RAG, Tool
+
+     ESOFinder 是面向 ESO 文档体系的本地 RAG 问答工具，用来帮助用户检索超过 3500 个链接、100 多本文档和 620 万词内容。系统离线解析 PDF 和网页，进行层次化切块和上下文增强，同时使用 ChromaDB 向量检索与 Elasticsearch BM25，经过 bge reranker 融合候选，再由本地部署的 Mistral-Small-3.1-24B-Instruct-2503 在 LangGraph 流程中完成问题改写、领域分类、查询扩展、检索评估、带来源回答和自检。三轮内部评测中，平均评分从约 3.0 提升到 3.84，中位数达到 5；主要限制来自表格和图像信息、ALMA 文档整合、原始文档缺口和大型观测运行场景。
+
+     <img src="./Figures/image-20260630171429463.png" alt="image-20260630171429463" width="680px" />
+
+16. [Streak detection in the VST/OmegaCAM archive using deep learning](https://arxiv.org/abs/2606.30286)
+
+    > Astronomy, Deep Learning, Space Debris, Tool
+
+    使用[ODLE](https://github.com/elisabethrachith/odle)和[Zenodo 数据集](https://zenodo.org/records/18097841)在 VST/OmegaCAM 档案中自动检测卫星和空间碎片条纹，用于评估天文图像污染并支持空间目标表征。流程先用改造的 Hough transform lookup CNN 在原始图像中检测条纹，再结合端点精修、天体测量和 Space-Track 交叉匹配，最后用 VGG6 分类器剔除假阳性；训练集包含 384,000 个人工标注图像块，并加入物理模拟条纹。增强数据测试中 F1 约 0.958，真实 2023 年数据上分类器把精度提升到 0.990，同时保留约 97% 真阳性。应用到 1,246,048 个 OmegaCAM CCD 帧后发现 25,335 条条纹，超过 20% 无法匹配已编目目标，约 16.9% 图像受到不同程度污染。
+    
+    <img src="./Figures/image-20260630171500620.png" alt="image-20260630171500620" width="680px" />
