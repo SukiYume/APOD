@@ -192,3 +192,361 @@
 
 ## 2026-07-06
 
+今日停更
+
+## 2026-07-07
+
+1. [Helical radio jets as probes of magnetised cluster environments: Periodic Faraday Rotation Revealed in the Corkscrew Galaxy by POSSUM](https://arxiv.org/abs/2607.02665)
+
+    > AGN, Radio, Polarization, Magnetic Field
+
+    使用 ASKAP/POSSUM 对 Norma 星系团中的 Corkscrew Galaxy 进行 1.3 GHz 偏振观测，检验螺旋形射电喷流是否会在法拉第旋转中留下周期性结构。处理 Stokes $IQU$ 数据立方体并进行 RM synthesis，结合喷流骨架提取、周期图和互相关分析，比较喷流横向偏移与 $RM$ 变化。
+
+    喷流附近的 $RM$ 呈现非随机、准周期结构，主导空间尺度与螺旋形喷流偏移一致，单纯银河前景或星系团前景屏难以解释。结果支持喷流鞘层和局部星系团介质共同贡献法拉第屏，说明类似系统可用于探测星系团磁化等离子体。
+
+    <img src="./Figures/image-20260707085524583.png" alt="image-20260707085524583" width="680px" />
+
+2. [The Stellar Observations Network Group (SONG) -- A Legacy Archive of Stellar Time-Domain Spectroscopy](https://arxiv.org/abs/2607.02775)
+
+    > Stellar, Spectroscopy, Time Domain, Data
+
+    介绍 SONG 高分辨率恒星时域光谱遗产库 [SODA](https://soda.phys.au.dk/)，覆盖 2014–2025 年的亮星和太阳观测，包含超过 580,000 条光谱、3091 颗恒星，以及碘池或钍氩校准得到的径向速度。数据来自 Tenerife、Mt Kent、Lenghu 和 APO 等站点，服务于星震学、恒星活动、双星、系外行星和 TESS/PLATO 协同观测。
+
+    SONG 的优势在于高 cadence、长时间基线和多经度覆盖，后续 Lenghu 与 APO 站点会改善全天候连续观测能力。该档案把分散的 SONG 光谱和径向速度整理成长期可复用资源，特别适合研究恒星振荡、活动噪声和行星径向速度信号。
+
+3. [Revisiting the Radial Velocities of Nearby Open Clusters using Gaia DR3](https://arxiv.org/abs/2607.02923)
+
+    > Open Cluster, Gaia, Radial Velocity
+
+    重新评估 500 pc 内开放星团的 Gaia DR3 径向速度，重点处理热星、冷星和双星导致的速度弥散偏大问题。样本包含 246 个开放星团、53,584 个成员星，其中 20,383 个有 Gaia DR3 径向速度；核心筛选采用 $0.2 \leq (BP-RP)_0 \leq 1.2$ 的颜色范围，并要求每个星团至少 20 个径向速度成员。
+
+    平均径向速度与文献整体一致，但颜色筛选后中位径向速度弥散从 3.76 km/s 降至 2.79 km/s，仍显著高于切向速度弥散，说明 Gaia 误差和未分辨双星仍会抬高弥散。少数红团簇巨星给出的径向速度弥散约 1.6 km/s，更接近切向速度弥散，是 Gaia-only 星团运动学中更稳健的示踪体。
+
+    <img src="./Figures/image-20260707085652581.png" alt="image-20260707085652581" width="680px" />
+
+4. [No Strong Evidence for Plasma Lensing in FRB 20240114A](https://arxiv.org/abs/2607.02939)
+
+    > Fast Radio Burst, Plasma Lensing, FAST
+
+    针对 FRB 20240114A 的等离子体透镜解释进行检验，比较 Parkes 和 FAST 的爆发率调制、候选 burst storm、形态相似的 burst pair、能量分布和频宽压缩。分析使用一维高斯等离子体透镜模型拟合爆发率，并通过模拟考虑仪器阈值、频率覆盖和能量幂律分布的选择效应。
+
+    若干局部结构可被透镜模型拟合，但整体证据不强。Parkes 与 FAST 的透镜事件中心和 trough 在重叠时段不一致，FAST 的未透镜化爆发率也可低于模型 trough；相似 burst pair 的偶然出现概率不可忽略，能量增强可由内禀 rate energy 相关解释，频宽也没有系统性压缩。FRB 20240114A 的复杂活动更可能主要来自源内禀变化。
+
+5. [Time Domain Studies of Active Galactic Nuclei with the SKA telescopes](https://arxiv.org/abs/2607.02994)
+
+    > AGN, SKA, Time Domain, Review
+
+    综述 SKA 在 AGN 射电时域研究中的科学目标和技术需求。射电 AGN 变源既可追踪超大质量黑洞附近喷流的内禀演化，也可通过闪烁和极端散射事件探测银河系小尺度电离介质；关键观测能力包括高灵敏度、宽视场、宽频段、偏振、VLBI 和从分钟到多年的多尺度 cadence。
+
+    SKA-Mid 和 SKA-Low 将系统扩展现有 intra-hour variability、ESE、对称消色差变化、紧致对称源和窄线 Seyfert 1 星系变源研究。内禀变化可约束喷流形成、膨胀和环境相互作用，传播效应则可反推出小尺度散射屏和银河系隐含重子结构。
+
+6. [Rapid Response Triggering for Radio Transients with the SKA Observatory](https://arxiv.org/abs/2607.03024)
+
+    > Radio Transient, SKA, Trigger, Multi Messenger
+
+    讨论 SKA 的快速响应触发体系，即望远镜根据外部多信使警报或内部 transient 数据流自动调整观测。内容覆盖 GCN Kafka/VOEvent 警报解析、自动排程、子阵列、低延迟指向、缓冲数据转储、多频段协同和 VLBI 触发。
+
+    科学场景包括 GRB、引力波电磁对应体、FRB、长周期射电暂现源、新星、X 射线双星、脉冲星、磁星、太阳和恒星活动。SKA-Mid 对 FRB 的探测还可利用色散延迟触发 SKA-Low，在 50 MHz 到 15 GHz 的宽频段上补充早期射电行为；整体结论是低延迟响应能力会直接决定 SKA 对快速暂现源和多信使事件的发现效率。
+
+    <img src="./Figures/image-20260707085802594.png" alt="image-20260707085802594" width="680px" />
+
+7. [FAST Pulsar Database III. Snapshots of nulling, mode-changing and subpulse modulation of 374 pulsars](https://arxiv.org/abs/2607.03047)
+
+    > Pulsar, FAST, Observation, Database
+
+    基于 FAST L 波段 1.0–1.5 GHz 单脉冲序列，整理 374 颗脉冲星的 nulling、mode changing 和 subpulse modulation 快照。全文转换不可用，PDF 规模很大，因此这里只按摘要信息保守概括。
+
+    识别到 160 颗脉冲星存在 nulling，其中 127 颗为首次报告；52 颗存在 mode changing，其中 51 颗为首次报告；272 颗存在 subpulse modulation，其中 180 颗为新发现，且多数表现为 subpulse drifting。具有 nulling 或调制的脉冲星倾向于更老、更长周期和更低自转能损率，调制周期 $P_3$ 主要与自转周期、磁场和自转能损率相关。
+
+    <img src="./Figures/image-20260707085848067.png" alt="image-20260707085848067" width="680px" />
+
+8. [Galactic Centre Pulsars with the SKAO](https://arxiv.org/abs/2607.03078)
+
+    > Pulsar, Galactic Centre, SKA, Review
+
+    综述 SKAO 搜索银河中心脉冲星的科学回报和观测策略。目前 Sgr A* 投影 100 pc 内只发现 7 颗脉冲星，实际族群很可能更大，但强散射、灵敏度和搜索算法限制了发现率；高频 SKA-Mid 搜索对穿透银河中心散射尤其关键。
+
+    如果发现绕 Sgr A* 运行的脉冲星，可用于检验广义相对论和替代理论、测量黑洞参数、刻画银河中心磁化等离子体，并约束暗物质、恒星形成和反馈历史。文章还强调保留 search-mode 数据的重要性，因为后续改进的算法和轨道模型可能从归档数据中找出漏检源。
+
+    <img src="./Figures/image-20260707085912667.png" alt="image-20260707085912667" width="680px" />
+
+9. [Exploring the Magnetic Field Structure of the Milky Way with Pulsars in the SKA Era](https://arxiv.org/abs/2607.03314)
+
+    > Pulsar, Magnetic Field, Milky Way, SKA
+
+    脉冲星的 $DM$ 和 $RM$ 是银河系磁场三维结构的关键探针，因为脉冲星分布在盘、旋臂和晕中，本征法拉第旋转通常很小，可与只积分整条视线的河外源互补。SKA1 AA4 和 AA* 将显著扩展已知脉冲星与脉冲星 $RM$ 样本，并与 FAST 的天空覆盖互补。
+
+    宽带偏振观测能提高 $DM$ 和 $RM$ 精度，使远端银盘、银晕、旋臂磁场反转和三维磁离子介质结构得到更密集约束。SKA 时代的核心贡献是把目前稀疏的脉冲星法拉第网格扩展为可用于银河磁场建模的大样本数据集。
+
+    <img src="./Figures/image-20260707085947272.png" alt="image-20260707085947272" width="680px" />
+
+10. [Long-period radio transient PSR J0901-4046 is not an Isolated White Dwarf Pulsar](https://arxiv.org/abs/2607.03848)
+
+    > Long Period Transient, Pulsar, Chandra, Magnetar
+
+    用 Chandra 检验长周期射电暂现源 PSR J0901−4046 是否可能是孤立白矮星脉冲星。该源周期 75.89 s，距离约 467 pc；Chandra ACIS-S 在 2025 年 3 月和 8 月累计观测约 41 ks，在位置误差圈内没有探测到 0.5–8 keV 光子。
+
+    X 射线光度上限为数个 $10^{28}$ erg/s，比 Swift 约深 50 倍。该上限与中子星自转能损率相当，却比白矮星模型预期的自转功率低约四个数量级，也低于白矮星情形下通常预期的 X 射线辐射。结果排除了孤立白矮星解释的主要空间，更支持中子星或磁星式能量来源，长周期射电发射可能由磁能耗散或重联驱动。
+
+11. [Cross-validation of six dispersion measure estimation methods for FRB 20240114A](https://arxiv.org/abs/2607.03877)
+
+     > Fast Radio Burst, Dispersion Measure, FAST, Method
+
+     使用 FAST 在 2024 年 3 月 12 日 4.4 小时观测到的 2874 个 FRB 20240114A 爆发，交叉比较六种 $DM$ 估计方法，并提出基于结构化动态谱密度过滤的峰度最大化和熵最小化方法。分析系统考察信噪比、形态复杂度和 RFI 对 $DM$ 估计的影响，数据在 [Science Data Bank](https://doi.org/10.57760/sciencedb.Fastro.00033)，代码在 [DM_cross](https://github.com/loganlun/DM_cross.git)。
+
+     单成分高信噪比 burst 的不同方法结果较一致，多成分和漂移子结构会产生显著方法间差异；即使筛选低散布 burst，表观 $DM$ 仍在 528–534 pc cm$^{-3}$ 间变化。秒到分钟尺度的真实电子柱密度变化不太可能，频率相关的内禀发射时间结构更可能伪装成色散变化。
+
+     <img src="./Figures/image-20260707090049436.png" alt="image-20260707090049436" width="680px" />
+
+12. [A Model Context Protocol Server for Astrophysical RAG: Unified Access to HI, Dwarf, Globular Cluster, IntZ, and ALPINE Kinematic Corpora with FAISS Semantic Search](https://arxiv.org/abs/2607.03946)
+
+     > Astronomy, RAG, MCP, Tool
+
+     介绍 EPS Research Astro-RAG MCP Server v2.3.0，用 Model Context Protocol 为天体物理 RAG 提供统一检索接口。系统整合 5 个运动学语料库，共 2064 个天体，覆盖 HI 旋转曲线、矮星系和不规则星系、银河系球状星团、中红移星系以及 ALPINE 高红移样本；检索使用 MiniLM-L6-v2 嵌入和 FAISS 语义索引。
+
+     该工具同时提供浏览器查询、REST API 和 LLM-native MCP 访问，支持元数据过滤和确定性召回。项目代码在 [GitHub](https://github.com/eps-research/rag-corpus-series)，在线服务部署在 [Hugging Face Spaces](https://dflynn5656-astro-rag-mcp.hf.space)，目标是让 LLM 可直接访问带出处的天体物理运动学语料，而不是依赖非结构化网页检索。
+
+     <img src="./Figures/image-20260707090113513.png" alt="image-20260707090113513" width="680px" />
+
+13. [Measuring the Angular Auto-power Spectrum of Fast Radio Burst Dispersion Measures as a Robust Cosmological Probe and Baryon Tracer](https://arxiv.org/abs/2607.04106)
+
+     > Fast Radio Burst, Cosmology, Baryon, Method
+
+     基于 CHIME/FRB Catalog 2 中 3455 个表观非重复 FRB，首次测量 FRB 残余 $DM$ 场的角向自功率谱。处理流程先扣除银河系 ISM 贡献，再用 NaMaster catalog estimator 估计 bandpower，并通过随机化 $DM$ 检验得到超过 $3\sigma$ 的角相关信号。
+
+     该方法把 $DM$ 角相关与 $\Omega_b h^2$、$H_0$ 和大尺度结构重子比例联系起来，不需要单个 FRB 红移，只需要红移分布，因此比传统 $DM_{\rm LSS}$ redshift 方法更不依赖宿主星系 $DM$。当前限制主要来自样本量、天空覆盖和银河前景建模，未来 DSA-2000 和 SKA 样本可显著提高约束能力。
+
+14. [Evidence for a Delayed Progenitor Population for CHIME non-repeating Fast Radio Bursts using a Self-Consistent Forward and Backward Inference Framework](https://arxiv.org/abs/2607.04792)
+
+     > Fast Radio Burst, Population, CHIME, Statistics
+
+     使用 CHIME/FRB Catalog 2 中超过 1000 个非重复 FRB，结合加权 Lynden-Bell $C^-$ 反演和前向 Monte Carlo 族群合成，在 $DM_{\rm ext}$ fluence 空间同时处理选择效应、baseband 到 catalog fluence 校正和概率 $DM$ redshift 映射。
+
+     推断的内禀红移分布在 $z \sim 1$ 附近达到峰值，偏离纯恒星形成历史在 $z \sim 1.7$ 的峰值，支持存在延迟 progenitor 成分。能量分布在 $10^{42}$ erg 以下近似幂律并在高能端变陡；前向模拟显示纯恒星形成历史与观测 $DM_{\rm ext}$ 分布强烈不符。结果倾向于非重复 FRB 中有较老环境贡献，但不排除部分活跃重复源来自年轻恒星形成区域。
+
+     <img src="./Figures/image-20260707090158213.png" alt="image-20260707090158213" width="680px" />
+
+15. [CausticFlow: An Efficient Machine Learning Framework Combining Neural Differential Equations and Normalizing Flows for Binary Microlensing Parameter Inference](https://arxiv.org/abs/2607.04955)
+
+     > Microlensing, Deep Learning, Method
+
+     CausticFlow 用 neural controlled differential equations 和 conditional normalizing flows 推断双星微引力透镜参数。输入是不规则采样光变曲线，模型先把光变曲线路径编码成表示，再输出双透镜参数后验；训练数据为 KMTNet-like 模拟光变曲线和简化白噪声模型。
+
+     在 GPU 上约 1 秒可生成 $10^5$ 个后验样本，典型 MAP 精度约为质量比 $q$ 的 17% 和投影间距 $s$ 的 3%。作为后续局部优化的 proposal 时，少量后验样本即可把精度推进到 $q < 5\%$、$s < 1\%$；10 个真实双星透镜事件中恢复 7 个，失败主要来自弱异常、训练范围外参数或轨道运动等高阶效应。
+
+     <img src="./Figures/image-20260707090216646.png" alt="image-20260707090216646" width="680px" />
+
+16. [A cornucopia of null results: A statistical analysis of fireballs reported to the American Meteor Society](https://arxiv.org/abs/2607.05071)
+
+     > Meteor, Statistics, Observation
+
+     统计检验 AMS 关于 2026 年第一季度大型 fireball 增多和 February fireballs 的说法。数据来自 American Meteor Society fireball 报告数和辐射点信息，方法是 Poisson 回归和广义线性模型，并显式考虑多重检验；七条公开说法中有五条可由数据直接测试。
+
+     2026 年第一季度报告数与长期报告增长趋势一致，没有证据表明大火流星比例、报告数分布、延迟声事件比例或辐射点分布发生异常变化。February fireballs 也未获支持，11 月较高报告率更可能与天气、夜长和人类活动有关。空结果不能证明真实天体事件完全不存在，但说明现有 AMS 报告不足以支持异常增强声明。
+
+     <img src="./Figures/image-20260707090241448.png" alt="image-20260707090241448" width="680px" />
+
+17. [Commensal image plane transient search methods with the SKAO](https://arxiv.org/abs/2607.05118)
+
+     > Radio Transient, SKA, Imaging, Method
+
+     综述 SKAO 共时成像平面暂现源搜索方法，重点是如何在非专门 transient survey 的常规成像数据中寻找稀有和未知射电暂现源。内容覆盖短曝光快照、多 epoch 成像、模型扣除、差分图像、候选过滤、图像到光变曲线流水线、机器学习和 citizen science 辅助筛选。
+
+     触发后可通过重成像、动态谱、图像平面去色散和社区警报提高确认与跟踪效率。该类方法适合秒到年尺度 transient，尤其是长周期射电暂现源等发现空间大的目标；从 SKA-Mid 和 SKA-Low 的 AA* 阶段起，commensal image-plane 搜索就会成为 SKAO 暂现源科学的重要组成。
+
+     <img src="./Figures/image-20260707090305387.png" alt="image-20260707090305387" width="680px" />
+
+18. [Spectropolarimetric detection of baryonic mass loading in a transient relativistic jet: application to the black hole X-ray binary Swift J1727.8-1613](https://arxiv.org/abs/2607.05182)
+
+     > Black Hole, X Ray Binary, Polarization, Jet
+
+     使用 MeerKAT L 波段全 Stokes 观测研究黑洞 X 射线双星 Swift J1727.8−1613 在 2023 年爆发期间的射电喷流，重点分析最亮 radio flaring 阶段的法拉第复杂结构。处理包括 full-Stokes 校准、RM synthesis 和参数化 $QU$ fitting；MeerKAT 数据来自 SARAO 档案，机器可读数据和分析脚本在 [GitHub](https://github.com/AKHughes1994/SwJ1727_2023_Outburst)。
+
+     源在 flare 前主要表现为法拉第简单结构，flare 期间需要多个 Faraday-thick 成分，约一周后恢复简单状态。复杂偏振结构与射电 flare 同步出现，前景法拉第屏稳定，支持其来自喷流内部而非 ISM 或外部屏。由于纯电子正电子等离子体会抑制内部法拉第旋转，结果支持喷流中存在电子质子主导的重子载荷；结合同步自吸收尺度估计，Faraday-rotating 质量约为 $10^{21}$ g，只占 flare 期间可用吸积质量的约 $10^{-3}$。
+
+     <img src="./Figures/image-20260707090333978.png" alt="image-20260707090333978" width="680px" />
+
+19. [AU or pc? Inferring the distance of magnetized plasma near FRBs from propagation diagnostics](https://arxiv.org/abs/2607.05289)
+
+     > Fast Radio Burst, Propagation, Magnetized Plasma, Method
+
+     提出用 $RM$ 变化、去偏振和时间散射联合约束 FRB 附近磁化等离子体距离的方法，目标是在 AU 级双星环境和 pc 级超新星遗迹环境之间做区分。框架尽量不依赖具体源模型，把源到屏距离 $D_S$ 与多种传播诊断联系起来，并应用于多个有重复 $RM$ 测量的活跃重复 FRB。
+
+     FRB 20190303A、FRB 20190417A 和 FRB 20190520B 更偏向超新星遗迹尺度磁化环境；FRB 20180916B 和 FRB 20201124A 与双星尺度环境也相容；FRB 20121102A 看起来接近 SNR 情形，但其 $RM$ 演化可能由局部 SNR 快速膨胀主导。现有数据仍受非同时观测和本地散射约束不足限制，需要长期、宽带、同步的 $RM$、去偏振和散射监测。
+
+     <img src="./Figures/image-20260707090357582.png" alt="image-20260707090357582" width="680px" />
+
+20. [Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification](https://arxiv.org/abs/2607.05393)
+
+    > Astronomy, Deep Learning, Transient, Uncertainty
+
+    面向时域巡天中的 Real Bogus 分类，构建不依赖人工标注真实样本的深度学习流程。训练数据由物理动机的注入暂现源和 bogus-dominated 巡天数据组成，模型使用双网络非对称 co-teaching 处理两类不同噪声水平，并用带标注子集、潜空间可视化和不确定性估计评估性能。
+
+    在强污染条件下仍能保持稳健分类，提出的低成本混合不确定性估计接近或优于 MC dropout 和 deep ensemble 等基线，同时计算代价更低。方法还扩展到光变曲线分类并取得接近完美的标注集表现；补充可视化和标注工具示例在 [Zenodo](https://doi.org/10.5281/zenodo.18434676)。
+    
+    <img src="./Figures/image-20260707090432607.png" alt="image-20260707090432607" width="680px" />
+
+## 2026-07-08
+
+1. [Understanding Pulsar Magnetospheres with the SKAO](https://arxiv.org/abs/2607.05432)
+
+    > Pulsar, Magnetosphere, SKA, Review
+
+    综述过去十年脉冲星磁层物理的进展，并围绕五个问题组织：中子星磁场几何、脉冲星本征射电谱、射电脉冲和自转能损率的时变来源、全局磁层物理，以及脉冲星族群随时间的演化。重点使用射电脉冲强度、偏振、单脉冲行为、频率演化、长时标监测和多波段观测来连接观测现象与等离子体模拟。
+
+    SKA-Low 和 SKA-Mid 的宽频段、高灵敏度、高保真偏振校准和子阵列能力适合大样本长期监测，也适合对双脉冲星、磁星、长周期射电暂现源和特殊新发现源进行高时间分辨率跟踪。核心建议是用 SKA 做大规模脉冲星监测，并配合特定源的高信噪比、全 Stokes、宽频段观测，建立脉冲星磁层行为的整体图像。
+
+    <img src="./Figures/image-20260708091624732.png" alt="image-20260708091624732" width="680px" />
+
+2. [Unveiling the Local Environment of FRB 20220912A: Sub-arcsecond 4–26 GHz Radio Continuum Mapping](https://arxiv.org/abs/2607.05950)
+
+    > Fast Radio Burst, VLA, Star Formation, Observation
+
+    使用 VLA A 和 BnA 构型对活跃重复 FRB 20220912A 的宿主环境做 4–26 GHz 高分辨率连续谱成像，检验其局部射电源是类似 FRB 20121102A 的紧致持续射电源，还是宿主星系内的恒星形成结构。观测在 C、X、Ku、K 波段覆盖宽频率范围，并通过相位校准源位置偏差修正保证亚角秒天体测量可靠性。
+
+    在 FRB 位置探测到连续谱源，距离宿主星系中心约 300 mas，即约 450 pc；高频图像给出未分辨角尺度 $\lesssim 130 \times 120$ mas，9.51 GHz 峰值流量为 $44.8 \pm 3.9~\mu{\rm Jy~beam^{-1}}$，谱指数约 $-0.73$。结合 VLBI 非探测，辐射区物理直径被限制在 75–190 pc，亮温 $T_b < 100$ K，局部恒星形成率面密度 $\Sigma_{\rm SFR} \gtrsim 13~M_\odot~{\rm yr^{-1}~kpc^{-2}}$。这些特征更符合紧致恒星形成结，而非中心引擎驱动的超紧致 PRS，支持该重复 FRB 位于年轻大质量恒星形成环境中。
+
+    <img src="./Figures/image-20260708091705928.png" alt="image-20260708091705928" width="680px" />
+
+3. [Exploring the Galactic plasma with pulsars in the SKA Era](https://arxiv.org/abs/2607.06096)
+
+    > Pulsar, Galactic Plasma, SKA, Review
+
+    综述如何用脉冲星传播效应研究银河、太阳风和地球电离层等离子体。核心观测量包括 $DM$、$RM$、$DM$ 时变、频率相关色散、闪烁、脉冲展宽、散射、脉冲星距离模型、太阳风和电离层贡献，以及 HI 吸收中的 AU 尺度结构。
+
+    SKA 的宽频段和高灵敏度将把 $DM$ 误差推进到当前望远镜之下，SKA-Mid AA4 对典型毫秒脉冲星可达到约 $10^{-6}~{\rm pc~cm^{-3}}$，SKA-Low 可接近 $10^{-8}~{\rm pc~cm^{-3}}$，但低频结果会更受电离层限制。更精确的银河自由电子分布会改进脉冲星距离、FRB 银河前景扣除和 PTA 噪声建模，也会让脉冲星成为探测小尺度等离子体结构的常规工具。
+
+    <img src="./Figures/image-20260708091741250.png" alt="image-20260708091741250" width="680px" />
+
+4. [Executable verification through formalized expert reasoning in astronomical spectroscopy](https://arxiv.org/abs/2607.06128)
+
+    > Astronomy, Spectroscopy, LLM, Tool
+
+    提出 [FORMA](https://github.com/SpecSurvey-In-AI-era/FORMA)，把天文光谱专家目检中的证据抽取、物理约束假设、替代解释测试和审计判断形式化成可执行验证流程。输入是观测光谱和 Redrock 等模板拟合给出的候选红移，数值测量由确定性 Python 工具完成，LLM 负责在工具和知识库约束下进行物理推理、交叉审计和报告生成。
+
+    在 DESI EDR 视觉检查目录的 1149 条光谱上零样本评估，medium 或更高可信度阈值得到 331 个 definite predictions，与专家裁定二分类的一致率为 95.5%；QSO、LRG、ELG 和 BGS 的分类一致率分别约为 97.1%、93.8%、94.5% 和 95.0%。可信度分数随红移一致性和分类可靠性提高而改善，低可信度样本被路由到人工审查，说明自动推断可以通过显式证据链和物理一致性审计进入可追溯的科学使用流程。
+
+    <img src="./Figures/image-20260708091812908.png" alt="image-20260708091812908" width="680px" />
+
+5. [Pulsars in Globular Clusters With the SKAO](https://arxiv.org/abs/2607.06154)
+
+    > Pulsar, Globular Cluster, SKA, Review
+
+    综述 SKAO 在球状星团脉冲星搜索中的发现空间。球状星团单位恒星质量中的射电脉冲星数量约为银河场的 1000 倍，目前已在 45 个星团中发现 345 颗射电脉冲星；这些系统可用于强引力、致密物质状态方程、双星动力学、星团气体和磁场研究。
+
+    搜索策略结合 SKA-MID 和 SKA-LOW 的 tied-array beam、短周期双星的 acceleration 或 jerk search、成像搜索、baseband 数据分析、FFA 和分布式计算。基于球状星团性质和光度函数的估计显示，SKA-MID AA4 对所有可见银河球状星团的 2 小时巡天可探测约 1700 颗脉冲星，约为当前样本的 5 倍；更保守地看，在已有脉冲星的 45 个星团中，SKA-MID AA* 或 AA4 约可新增 150 或 250 颗。归档 search-mode 数据同样关键，完整巡天原始量级约 2 PB，压缩和按星团 $DM$ 子带化后长期保存约 700 TB，可支撑后续算法复搜和新发现源定轨。
+
+6. [Exploring Image–Text Alignment for Radio Galaxy Morphologies](https://arxiv.org/abs/2607.06305)
+
+    > Radio Galaxy, Vision Language Model, Deep Learning
+
+    检验文本 caption 是否能承载射电星系图像中的 FR-I 和 FR-II 形态信息。实验使用 MiraBest 数据集，排除 uncertain 样本后保留 833 张 confident 图像，并用 104 张作为测试集；Gemini 2.5 Flash 生成通用 caption 和领域提示下的 curated caption，再用 SigLIP-2 计算图文嵌入，并比较冻结模型和 LoRA 微调后的线性探针、KNN 与相似度指标。
+
+    图像和文本嵌入都能区分 FR-I/FR-II，领域化 caption 相比通用 caption 只带来小幅分类提升。LoRA 微调增强了类别局部结构，视觉编码器或全模型微调比只微调文本编码器更有效，但图文全局配对相似度并未明显改善，拼接图像和文本特征在测试集上也没有稳定收益。结果说明自然语言形态描述可作为射电星系图像标签的低资源补充，但目前更擅长类别级形态信息，而非实例级图文对齐。
+
+## 2026-07-09
+
+1. [Fast Graph-based Higher-Order Clustering Statistics on the GPU](https://arxiv.org/abs/2607.06604)
+
+    > Cosmology, GPU, Method, Tool
+
+    面向 DESI 这类大规模星系巡天的高阶聚类统计计算，重点加速图算法下的三点和四点相关函数。新版 [GRAMSCI](https://github.com/csabiu/Gramsci) 用 merge-walk 替代二分查找式邻接交集，将 3pCF 内层复杂度降到线性，并把 4pCF、宇称分解 4pCF、连通 4pCF 的断开项扣除和 Python 接口整合到同一框架；GPU 版本基于 OpenACC，并支持超出显存的 out of core 图分块。
+
+    CPU 上 merge-walk 对 3pCF 加速约 1.5–2 倍、对 4pCF 加速约 2.8–3.8 倍；单张消费级 GPU 相对 64 线程 CPU 节点可获得约 2.6–9 倍加速，并能在 24 GB 显存卡上处理 BAO 尺度的 90 亿边图。DESI DR1 LRG 应用中，3pCF 在 50–150 h$^{-1}$ Mpc 尺度与 EZmock 一致，连通 4pCF 在 20–65 h$^{-1}$ Mpc 尺度也与模拟散布相符；宇称奇 4pCF 在 Quijote 宇称对称模拟中通过零信号检验。
+
+    <img src="./Figures/image-20260708202539312.png" alt="image-20260708202539312" width="680px" />
+
+2. [Kinetic Processes to Radio Burst: First Observational-driven Study in Coronal Loops](https://arxiv.org/abs/2607.06991)
+
+    > Solar, Radio Burst, Simulation, Plasma
+
+    慢正漂移爆发 SPDB 是太阳射电动态谱中频率随时间升高但漂移率远低于 III 型爆发的一类相干辐射。研究对象来自 2014 年 5 月 10 日 C8.7 级耀斑期间的 Ondřejov RT5 和 BLEN7M Callisto 观测，频段约 600–2000 MHz，观测漂移率约 54–90 MHz/s，为日冕环内电子束传播和等离子体辐射建模提供约束。
+
+    模型分三层：先用 NLFFF 外推活动区磁场，再用导心近似跟踪注入环顶附近的高能电子，最后把约一个反弹周期后的演化速度分布函数输入 PIC 模拟。静水平衡密度模型给出与观测谱相当的等离子体频率梯度；电子束经历磁镜、俯仰角散射、湍流发展和部分沉降后，主要激发束驱动 Langmuir 波和基频等离子体辐射。模拟辐射强度从环顶向足点减弱，谐波辐射效率低，时间演化能再现约 4 s 持续时间和正频漂特征，说明 SPDB 可由日冕环中的等离子体辐射机制解释。
+
+    <img src="./Figures/image-20260708202611924.png" alt="image-20260708202611924" width="680px" />
+
+3. [Detection of Quasiperiodic Oscillations in the Blazar PKS 0735+178 with TESS](https://arxiv.org/abs/2607.07200)
+
+    > Blazar, QPO, TESS, Observation
+
+    PKS 0735+178 的 TESS 71 和 72 扇区光变覆盖约 49 天，用 200 s cadence 的全帧图像切片和比较星做差分光度，并结合 Fermi LAT 伽马射线光变作对照。周期搜索使用 WWZ、Lomb Scargle periodogram 和 PDM，并通过 10^5 条模拟光变估计假警报概率和显著性。
+
+    71 扇区出现一个约 4.6 天的双成分温和光学耀发；72 扇区末段出现约 11.2 小时的瞬态 QPO，Lomb Scargle 给出约 4.11 sigma 局部显著性和 3.06 sigma 全局显著性，PDM 和非正弦模拟也支持同一周期。Fermi LAT 在光学耀发和 QPO 附近只有弱增强且误差较大，无法做可靠周期检验，提示光学 QPO 可能来自喷流中的激波、湍流涡旋、螺旋喷流结构，或靠近黑洞的吸积盘热斑和进动，但多波段同源性仍不确定。
+
+    <img src="./Figures/image-20260708202844069.png" alt="image-20260708202844069" width="680px" />
+
+4. [Beyond traditional emission-line diagnostics: using autoencoders to uncover active galactic nuclei in DESI spectra](https://arxiv.org/abs/2607.07329)
+
+    > Galaxy, AGN, Deep Learning, DESI
+
+    传统 BPT、WHAN 等发射线诊断依赖少数谱线和信噪比阈值，容易漏掉弱线、低信噪比或被宿主星形成稀释的 AGN。这里用 DESI DR1 的 50,241 个星系光谱训练 SPENDER 自编码器，将观测光谱压缩到 10 维潜空间，再用 k-d tree 最近邻把 FastSpecFit 标签传播为 AGN、star-forming、Other/passive 三类，以及 NL AGN、BL、composite、star-forming、passive、retired、Other 七类。数据和复现实验代码分别放在 Zenodo：[10.5281/zenodo.20490011](https://doi.org/10.5281/zenodo.20490011) 和 [10.5281/zenodo.21069095](https://doi.org/10.5281/zenodo.21069095)。
+
+    三分类中 AGN 准确率为 0.952、AUC 为 0.976，七分类中 broad line AGN 准确率为 0.965、AUC 为 0.973。潜空间不仅分离 AGN 与非 AGN，也与恒星质量、SFR 等物理量相关。与 DESI AGN/Galaxy VAC、堆叠光谱、BPT 和 WHAN 交叉验证后，许多被传统单一诊断漏掉但被模型判为 AGN 的源显示出真实 AGN 特征；预测为 AGN 但传统标签为 Other/passive 的样本中，93.5% 至少被一个独立诊断支持为 AGN。性能指标因此更像保守下限，框架适合扩展到更大 DESI 光谱样本。
+
+    <img src="./Figures/image-20260708202920568.png" alt="image-20260708202920568" width="680px" />
+
+5. [Double-periodic pulsations simultaneously detected in mid-infrared and hard X-ray emissions during an X1.5 flare](https://arxiv.org/abs/2607.07442)
+
+    > Solar, Flare, QPP, Observation
+
+    2024 年 12 月 30 日 X1.5 级白光耀斑中，AIMS 8–10 micron 中红外、Fermi 26–50 keV、ASO S HXI 20–50 keV、NoRP 2 GHz、WST、SDO AIA 和 HMI 提供了从中红外到硬 X 射线的联合观测。FFT 和 Morlet 小波分析在中红外与硬 X 射线中同时检测到约 8.5 s 和 4.6 s 的双准周期，NoRP 微波中主要出现较长的 8.5 s 周期；硬 X 射线中还可见约 17.2 s 的较长成分。
+
+    HXI CLEAN 重建显示中红外、白光和硬 X 射线源在空间上相互对应，DEM 分析给出耀斑环结构的热等离子体环境。中红外调制深度低于 0.1%，硬 X 射线和微波约为 1%–5%，但脉冲时序高度相关，说明中红外 QPP 与非热电子沉降密切相关。双周期更可能来自振荡式磁重联的准周期粒子加速，并由快 sausage 波的准谐波调制。
+
+    <img src="./Figures/image-20260708203010308.png" alt="image-20260708203010308" width="680px" />
+
+6. [Radio emission from close-in exoplanets: Can we extend the radio-magnetic scaling law to the sub-Alfvénic stellar wind regime?](https://arxiv.org/abs/2607.07704)
+
+    > Exoplanet, Radio, Magnetosphere, Simulation
+
+    太阳系行星的射电磁标度律 RMSL 建立在超 Alfvenic 太阳风环境中，直接外推到近恒星热木星可能高估射电辐射。这里用 3D MHD 模拟把一个 1 G 偶极磁场的类木星行星放在不同轨道距离，比较类太阳风 B1 和更强磁化风 B10 两种环境，并加入大气光电离对电离层电子密度和 ECMI 逃逸条件的影响。射电功率由极光 Poynting 通量、风到磁层的转移函数和经太阳系超 Alfvenic 情形标定的常数射电效率给出。
+
+    超 Alfvenic 情形下模拟射电功率与 RMSL 匹配；进入 sub Alfvenic 风后，B1 中 RMSL 约高估一阶数量级，B10 中偏差可增至约两阶数量级，原因是风能到极光 Poynting 通量的转移效率随风磁化增强而下降。光电离会在近恒星轨道提高电离层电子密度，使满足 ECMI 产生和逃逸的区域偏向夜侧和较大轨道距离，并可再降低约一阶数量级的可逃逸射电功率。更强磁化风能通过开放磁通和重联外流清空部分等离子体、改善 ECMI 条件，但整体能量转移效率不足，近恒星行星的射电可探测性仍可能低于传统 RMSL 预期。
+    
+    <img src="./Figures/image-20260708203036964.png" alt="image-20260708203036964" width="680px" />
+
+## 2026-07-10
+
+1. [Blind Line Search System: BLiSS](https://arxiv.org/abs/2607.07783)
+
+    > X Ray Spectroscopy, Emission Line Detection, X Ray Binary, Tool
+
+    BLiSS 是面向一维高分辨率 X 射线光谱的开源 Python 发射线盲搜工具，无需预设谱线位置或先建立物理连续谱模型。程序以多尺度 sigma-clipped 滑动平均的下包络构造经验基线，从正残差中寻找候选区域并进行局部多高斯拟合；观测谱和基于基线生成的合成零假设光谱经过同一流程，再用高斯混合模型按候选线的信噪比、等效宽度和形态等特征给出经验可靠度。可选步骤包括全谱多高斯联合拟合和原子跃迁匹配，代码、文档与教程见 [BLiSS GitHub 仓库](https://github.com/xragua/BLiSS)。
+
+    Vela X-1 的两条 Chandra/HETGS 硬度分段光谱和一条 XRISM/Resolve 光谱用于验证。BLiSS 恢复了主要的 Ne、Mg、Si 复合线，并在没有输入实验室能量或双线间距的情况下，将 Fe K$\alpha$ 结构分解为 $6.4039\pm0.0002$ 和 $6.3904\pm0.0003$ keV 两个高可靠候选，与专门物理拟合结果一致，线面积则约低 30%；所选能段的单次搜索耗时为 8.7–22.3 s。它适合作为物理建模前的快速候选生成器，但结果仍依赖分箱、经验基线和选择阈值，混合线区的高斯分量及自动原子匹配不能直接视为最终物理认定。
+
+    <img src="./Figures/image-20260710090513256.png" alt="image-20260710090513256" width="680px" />
+
+2. [Catching Disguised Transients with ASTRANet: Anomaly-Aware Spectroscopic Classification and Conformal Calibration](https://arxiv.org/abs/2607.08044)
+
+    > Transient, Spectroscopy, Deep Learning, Anomaly Detection, Conformal Prediction
+
+    ASTRANet 针对闭集光谱分类器会把未知暂现源高置信度归入已知类别的问题，将分层分类、异常检测和保形不确定性量化整合为统一流程。输入光谱保留在观测者系的 $3850$–$9000~\text{\AA}$ 范围并插值为 4096 点，分类器通过多尺度卷积、膨胀 TCN、注意力池化和可选 FiLM 元数据生成 192 维嵌入，推理时不要求宿主红移或光谱相位。六模型集成之上的 ASTRANet-Sentinel 用 LightGBM 非线性融合不确定性、距离、密度和混合四类共 16 个异常分数；ASTRANet-CP 则输出 Mondrian 保形 $p$ 值、候选类别集合及偶然和认知不确定性，并进一步按预测类别和异常分数分位构造 AD-MCP。
+
+    七类常见暂现源的 3396 条测试光谱上，分类准确率为 87%，宏平均召回率为 83%。在训练中刻意排除的 11 类、289 条稀有或分类体系外光谱上，无泄漏五折评估显示：异常暴露微调后的三种子平均模型在 1% 假警率下检出 $238/289$（82.4%），而最强单一分数族仅检出 $86/289$；种子并集在约 3% 假警率下达到 $244/289$（84.4%）。在 $\alpha=0.05$ 时，AD-MCP 将五个异常分位的覆盖率稳定在 $0.952\pm0.001$，其中最高异常分位由普通 Mondrian 的 0.824 提升至 0.953，说明分类器内部不确定性和嵌入空间异常度分别捕捉类内边界错误与分布外伪装，联合使用才能可靠筛选稀有暂现源。
+
+    <img src="./Figures/image-20260710090537856.png" alt="image-20260710090537856" width="680px" />
+
+3. [The Southern-sky MWA Rapid Two-metre (SMART) pulsar survey--IV. Survey update and an atlas of 205 non-recycled southern pulsars](https://arxiv.org/abs/2607.08106)
+
+    > Pulsar, MWA, Survey, Observation, Data Release
+
+    SMART 巡天利用 Murchison Widefield Array 的大视场和电压记录能力，在 140–170 MHz 搜索脉冲星与快速射电暂现源。2018–2023 年间以 71 个相互重叠的指向覆盖赤纬 $+30^\circ$ 以南全天，单次驻留 4800 s，原生时间和频率分辨率为 $100~\mu{\rm s}$ 和 10 kHz，累计数据约 3.9 PB。处理链完成 MWAX 电压数据校准、相控阵波束形成、非相干去色散、折叠、RFI 清理、精细 $DM$ 搜索、脉宽测量、通量定标和法拉第深度分析，并发布 205 颗非再循环脉冲星的低频图谱、时间序列、多频段折叠档案以及 $DM$、$RM$ 和 154 MHz 流量测量。
+
+    本篇的 205 个对象中包含 2 颗早期 SMART 发现；连同此前报告的 40 颗毫秒脉冲星，目前目录共有 245 个对象，另有 23 颗深度搜索新发现尚待后续发表，因此 SMART 数据中累计检测到 268 颗脉冲星、其中 25 颗由该巡天发现。117 颗非再循环脉冲星获得了 $RM$ 测量，加入此前的毫秒脉冲星后总数为 142，其中 5 个为首次测量、29 个比现有目录值更精确。与 MeerKAT 重合样本的两点谱指数均值为 $-1.56\pm0.13$，但 154 MHz 流量尚未计入闪烁变化且依赖模拟波束，只能视为初步估计。这一持续更新的低频南天目录可用于 SKA-Low 调试和巡天预测，也能约束本地星际介质的电子密度、湍流与银河磁场模型。
+
+    <img src="./Figures/image-20260710090624873.png" alt="image-20260710090624873" width="680px" />
+
+4. [DegenDetector: Symbolic Recovery of Parameter Degeneracies in Bayesian Posteriors](https://arxiv.org/abs/2607.08755)
+
+    > Bayesian Inference, Symbolic Regression, Cosmology, Tool
+
+    DegenDetector 自动识别贝叶斯后验中参与参数简并的变量，并将简并关系恢复为可解释的闭式方程。流程先用 $k$ 近邻互信息估计器计算参数两两依赖，并按互信息总和排列候选参数组；随后把简并曲面写成可分离水平集 $\sum_i g_i(\theta_i)=c$，通过交替的一维 PySR 符号回归求解各分量，再用 SymPy 化简并恢复原始尺度。LogDegen 可在对数坐标中搜索乘法型简并，拟合质量则以样本到隐式曲面的正交距离定义。代码和复现实验已发布在 [DegenDetector GitHub 仓库](https://github.com/chaipattira/degen_detector)。
+
+    四组含强非高斯简并的合成后验中，候选参数和函数形式均被正确恢复，所有拟合的正交 $R_\perp^2>0.98$。在 Planck 2018 TTTEEE+lowl+lowE+lensing 的 25,225 个七参数后验样本上，系统在没有输入宇宙学先验关系的情况下选出 $(H_0,\Omega_m)$，得到 $123.97\log H_0+42.07\log\Omega_m={\rm const}$，正交 $R_\perp^2\approx0.98$；系数比 2.947 与预期的 $\Omega_m h^3\approx{\rm const}$ 接近。主要限制是可分离函数假设，真正不可分离的高阶简并仍需多变量符号回归或学习式重参数化。
+    
+    <img src="./Figures/image-20260710090647146.png" alt="image-20260710090647146" width="680px" />
+
+## 2026-07-13
+
