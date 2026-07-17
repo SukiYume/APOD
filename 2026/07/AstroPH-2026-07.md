@@ -550,3 +550,163 @@
 
 ## 2026-07-13
 
+1. [The SPOTLIGHT Pulsar Search Pipeline: A GPU-Accelerated FFT Approach](https://arxiv.org/abs/2607.08854)
+
+    > Pulsar, uGMRT, Survey, GPU Computing, Tool
+
+    SPOTLIGHT 是部署于 uGMRT 的 GPU 加速共生观测后端，在执行实时快速射电暴搜索与定位的同时保存波束形成数据，使周期脉冲星巡天无需额外占用望远镜时间。当前系统从 640 个后相关相干波束中记录 160 个，并同时记录一个非相干阵列波束，时间分辨率为 1.3 ms、频谱划分为 4096 个通道。公开的 [ver0 搜索流水线](https://github.com/jyotirmoydas5392/spotlight_pulsar_search_pipeline) 依次完成 RFI 抑制、GPU 消色散、FFT 与谐波叠加、多波束候选聚类、候选折叠和机器学习分类；FFT 主流程覆盖约 10 ms–1 s 的周期范围，更慢的脉冲星由配套 FFA 搜索补充。
+
+    基于 PsrPopPy2 和 uGMRT 历史指向的种群模拟预计，约 3.5 年共生巡天可发现约 450 颗新脉冲星，精确模拟结果为 448 颗。2025 年 7 月至 2026 年 5 月的 ver0 运行已覆盖约 $245.92~{\rm deg}^2$，重新探测到跨越较宽周期、色散量和流量范围的已知脉冲星，并能保留信噪比低至约 $4$–$5\sigma$ 的候选，但尚未确认新的脉冲星。满参数处理一次 40 分钟观测约需 1 小时，已足以按周清空数据积压；后续重点是加入加速度搜索，并解除目前每次仅保存 160/640 个相干波束所造成的覆盖限制。
+
+    <img src="./Figures/image-20260712213523639.png" alt="image-20260712213523639" width="680px" />
+
+2. [Tentative detection of circularly polarized bursty radio emissions from the HD 189733 exoplanetary system using NenuFAR beamformed observations](https://arxiv.org/abs/2607.08910)
+
+    > Exoplanet, Auroral Radio Emission, NenuFAR, Observation
+
+    针对此前 NenuFAR 成像数据中 HD 189733 系统附近约 50 MHz 的圆偏振爆发信号，研究独立分析了 2023 年 9 月 28 日 19:31–22:47 UTC 同步取得的波束形成观测。UnDySPuTeD 接收系统联合 53 个 mini-arrays、共 1007 根天线，在 21–58 MHz 同时设置一个目标 ON 波束和三个空场 OFF 波束；BOREALIS 流水线在多种时间尺度上处理 Stokes $V$，校正增益与 RFI，并通过三个 OFF 波束和 10,000 组高斯噪声实现检验区分天体信号与电离层、仪器或残余干扰。
+
+    19:40–19:56 UTC 在目标方向发现一组以约 27–40 MHz 为主、持续时间约 1 s 的左旋圆偏振短爆发，比成像数据中的信号早约一小时。频率积分统计量达到 $7.4\sigma$，另一统计量相对高斯噪声约为 $10\sigma$，峰值流量密度约 3.9 Jy，对应亮温约 $(4$–$6)\times10^{16}$ K。若信号确属天体物理来源，其特征最接近恒星风与行星磁层相互作用产生的行星极光射电辐射，并暗示行星表面磁场约为 12–18 G；不过 OFF 波束也存在一定非高斯和相关噪声，恒星极端耀斑尚不能排除，因此目前只能视为试探性探测，仍需重复观测和轨道周期性检验。
+
+    <img src="./Figures/image-20260712213556257.png" alt="image-20260712213556257" width="680px" />
+
+3. [Fast Radio Bursts Trace Cosmic Star Formation with Little Delay](https://arxiv.org/abs/2607.09109)
+
+    > Fast Radio Burst, CHIME, Star Formation, Bayesian Inference, Population Study
+
+    快速射电暴究竟主要来自恒星形成后迅速出现的年轻致密天体，还是具有数十亿年延迟的双致密星并合系统，可由其宇宙红移分布相对恒星形成史的偏移加以检验。分析使用 CHIME/FRB Catalog 1 中的 225 个源，其中九个重复源仅计入首次爆发，并联合具有精确基带流量测量的子样本以及四个拥有宿主星系光谱红移的定位源。无分箱层级贝叶斯前向模型采用非齐次泊松似然，同时利用五百万次人工信号注入中通过筛选的 14,514 个事件刻画波束响应、RFI 和探测完备性；相应的 [CHIME/FRB 注入数据](https://chime-frb-open-data.github.io/injections/) 已公开。
+
+    固定延迟、对数正态延迟和幂律延迟模型得到的事件率峰值红移分别约为 $1.82^{+0.05}_{-0.20}$、$1.77\pm0.05$ 和 $1.72^{+0.10}_{-0.20}$，相对恒星形成率峰值的回看时间偏移仅为 $0.09^{+0.41}_{-0.09}$、$0.19\pm0.10$ 和 $0.29^{+0.44}_{-0.19}$ Gyr。所有模型均在 90% 置信水平排除超过 1 Gyr 的特征延迟，整体偏好约 0.1–0.3 Gyr、且在 $2\sigma$ 内与零延迟相容，因而支持年轻磁星或其他与大质量恒星核心坍缩相关的通道主导当前样本。不同延迟分布之间的贝叶斯证据差异仍满足 $|\Delta\ln Z|<1$，现有数据尚不足以确定延迟分布的具体形状，也不排除少量来自老年恒星环境的 FRB。
+
+4. [Overview of the Canadian Hydrogen Observatory and Radio Transient Detector (CHORD) Project](https://arxiv.org/abs/2607.09374)
+
+    > Radio Instrumentation, Interferometry, 21 cm Cosmology, Fast Radio Burst, Pulsar
+
+    CHORD 是正在加拿大 Dominion Radio Astrophysical Observatory 建造和调试的新一代宽带漂移扫描射电干涉阵，面向 21 cm 强度映射宇宙学、快速射电暴和脉冲星时域观测、谱线星系巡天及 VLBI。核心阵列由 512 面直径 6 m 的固定天线组成，覆盖 300–1500 MHz，集光面积约 $14{,}500~{\rm m^2}$；Hat Creek 和 Green Bank 还将各部署一座含 64 面天线的外站，以形成洲际基线。系统采用超宽带馈源、约 30 K 接收机、RFSoC 直接采样和 GPU 相关器，可同时运行干涉关联、FRB 搜索、脉冲星波束形成与高谱分辨率后端；数字处理分别建立在公开的 [chFPGA 固件框架](https://winterlandcosmology.bitbucket.io/chfpga/) 和 [Kotekan 数据流框架](https://ascl.net/2504.030) 之上。
+
+    由三面天线构成的工程阵列已经完成端到端验证，并于 2025 年 10 月 29 日对 Cassiopeia A 获得首批干涉条纹；实测主波束与电磁模拟相符，600–1100 MHz 范围内的平均系统温度与模型相差不超过约 5 K。到 2026 年 4 月 28 日，64 面天线的 pathfinder 已全部安装，完整核心阵列计划于 2027 年底建成并在 2028 年继续调试。相较 CHIME，约两倍的集光面积、三倍的瞬时带宽和更低的系统噪声预计可将 FRB 发现率提高约一个数量级，外站则有望实现 1–10 mas 的暂现源定位；这些仍是完整阵列的设计预期，而非当前工程阵列已经达到的性能。
+
+    <img src="./Figures/image-20260712213646968.png" alt="image-20260712213646968" width="680px" />
+
+5. [Characterising the Kinematics and Evolution of Young Stellar Groups within 1 kpc of the Sun Using Gaia DR3](https://arxiv.org/abs/2607.09464)
+
+    > Young Stellar Object, Gaia, Star Formation, Kinematics, Observation
+
+    Gaia DR3 的天体测量、测光、视向速度和消光估计被用于构建太阳附近 1 kpc 内年轻恒星群的统一运动学样本。首先在消光改正后的颜色—星等图上，以 PARSEC 20 Myr 等龄线和双星序列选出约 74 万个候选体，再在位置与速度组成的六维相空间中运行 HDBSCAN，初步得到 161 个群、6916 颗成员星；结合 0.1–20 Myr PARSEC 等龄线拟合、蒙特卡洛误差传播及序列质量筛选后，最终保留 145 个群和 5713 颗恒星。群成员及物理参数收录于公开的 [YSO group catalogue](https://nadc.china-vo.org/res/r101835/)。
+
+    这些星群遵循 $\sigma_v=(1.10\pm0.13)r^{0.38\pm0.03}$ 的尺度—速度弥散关系；按年龄划分为小于 10 Myr、10–14 Myr 和大于 14 Myr 后，幂律指数分别为 $0.35\pm0.12$、$0.39\pm0.04$ 和 $0.37\pm0.07$。尽管整体速度弥散随年龄增加，这一标度关系在约 20 Myr 内基本稳定，表明从母分子云继承的湍流运动可能长期保留，恒星反馈和磁场尚未显著重塑群体运动学。空间分布同时重现 Orion、Perseus、Scorpius–Centaurus 和 Vela 等结构，最年轻的群倾向于靠近 Radcliffe Wave 与 Split；但 Gaia 视向速度样本偏向明亮、光学可见恒星，深度嵌入的 Class 0/I 源明显不足，因此该目录不能视为完备的年轻恒星普查。
+    
+    <img src="./Figures/image-20260712213713540.png" alt="image-20260712213713540" width="680px" />
+
+## 2026-07-14
+
+1. [Do we understand the star formation history of the universe?](https://arxiv.org/abs/2607.09848)
+
+    > Galaxy Evolution, Star Formation, Stellar Mass Function, JWST, Cosmology
+
+    星系恒星质量—恒星形成率主序与其随时间积分得到的恒星质量函数长期存在不自洽问题。研究反向询问观测到的恒星质量增长要求怎样的平均恒星形成率，汇总地面和空间巡天测得的恒星形成及宁静星系质量函数，在 $z=0.1$–$9$、$10^8\leq m_\star/M_\odot\leq10^{11}$ 范围进行连续 Schechter 函数拟合。方法通过连续性方程沿星系增长轨迹反演主序，同时纳入并合、淬火、恒星质量返还和 Eddington 偏差，以覆盖从本地宇宙到大爆炸后约 5 亿年的星系演化。
+
+    反演主序与 $z\sim2$–$7$ 的 JWST 光谱测量、$z\lesssim3$ 的非参数恒星形成史 SED 拟合以及层级结构形成模型较为一致，但其归一化低于常用的 Speagle/Popesso 综合关系，低红移演化也明显更缓。中等质量区间的斜率由本地约 0.75 缓慢降至 $z\sim9$ 时约 0.5，而 $m_\star\lesssim10^{8.5}M_\odot$ 的低质量端在高红移陡化至约 1.5。将该主序与质量函数积分后，$z\sim2$ 的宇宙恒星形成率密度峰值比基于光度密度的结果低约 2–3 倍，说明质量积累与瞬时恒星形成率之间的张力仍未消除；恒星质量标定、可能演化的 IMF 和宇宙方差是当前反演的主要系统误差。
+
+    <img src="./Figures/image-20260713220904312.png" alt="image-20260713220904312" width="680px" />
+
+2. [A spectacular multi-wavelength transient associated with an off-axis relativistic jet](https://arxiv.org/abs/2607.10047)
+
+    > Radio Transient, Tidal Disruption Event, Relativistic Jet, Black Hole, Observation
+
+    VLASS 搜索发现的 AT 2019ijn 将一次快速蓝色光学耀发与延迟约一年出现、持续超过六年的明亮射电暂现源联系起来。ZTF 光变在静止系约 $6.9\pm0.4$ 天内升至 $M_g=-21.1\pm0.1$，随后维持较缓慢的衰减；VLASS、VLA、ASKAP/RACS、eROSITA、Keck 和 Magellan 的多波段资料表明，事件位于 $z=0.2729$ 的恒星形成矮星系，光学与射电位置偶然重合的概率仅约 $10^{-8}$。射电对应体的峰值 $\nu L_\nu$ 约为 $1.8\times10^{41}\ {\rm erg\,s^{-1}}$，动力学建模所需能量约为 $10^{52}$ erg。
+
+    球对称同步辐射激波可以拟合单个射电谱，却只能给出约 50–300 天的传播时间，远短于实际约 1000–2000 天的观测历时；窄角偏轴喷流则可同时解释频谱和时间尺度。在爆发后 1997 天，代表性解给出 $R\sim10^{19}$ cm、$\Gamma\simeq3.3$ 和 $n\sim0.04\ {\rm cm^{-3}}$，观测阶段从能量预算看更可能满足 $\Gamma<5$。宿主标度关系暗示中心黑洞质量约为 $1.1\times10^4$–$7.3\times10^5\,M_\odot$，因而最偏好中低质量黑洞产生的喷流型潮汐瓦解事件，但黑洞—恒星并合仍不能排除。早期射电覆盖缺失使喷流发射时刻和初始速度无法确定，而且偏轴喷流本身不足以解释光学耀发的缓慢衰减。
+
+    <img src="./Figures/image-20260713220931156.png" alt="image-20260713220931156" width="680px" />
+
+3. [Discovering and Characterising Exoplanets and Ultracool Dwarfs with the Square Kilometre Array](https://arxiv.org/abs/2607.11507)
+
+    > Exoplanet, Ultracool Dwarf, Square Kilometre Array, Radio Emission, Review
+
+    这篇综述结合定量模拟评估 SKA 通过极光射电辐射测量系外行星和超冷矮星磁场的能力。巨行星部分从 [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) 的 6028 颗行星中筛得 613 个目标，以等温 Parker 恒星风、活跃或不活跃主星以及 25/100 G 行星磁场预测流量和回旋辐射峰值频率。不活跃主星情形全部低于 SKA-Low 的 8 小时 AA4 阈值；在活跃主星和 100 G 行星场假设下，AA*/AA4 用 1 小时预计分别探测 5/8 个系统，用 8 小时增至 11/16 个，$\tau$ Boo b、TOI-2109 b 和 WASP-18 b 等是较有希望的目标。
+
+    超冷矮星部分使用公开的 [CHARM](https://github.com/robkavanagh/charm) 磁力线模型模拟 100 万颗位于 2–300 pc 的对象，随机抽取磁场、转动周期、磁轴倾角、视线方向和射电光度。SKA-Mid 对 25 pc 内极光源的预测完备度为 9.8%–18.5%，结合约 75% 天区覆盖可累计探测 1600–8000 颗；未分辨辐射带的对应比例为 66%–85%。与全球 VLBI 联合后，约 300 个 17 pc 内系统的辐射带可能得到空间分辨，22 pc 内质量约 10 个地球质量、周期 1000 天的行星也可能通过宿主反射运动被发现。这些均为预测而非实际发现，产额高度依赖所有 UCD 均具有极光或辐射带、偶极磁场几何和现有亮源光度分布等强先验，因而更接近观测策略的上限情景。
+
+    <img src="./Figures/image-20260713221004173.png" alt="image-20260713221004173" width="680px" />
+
+4. [AT2019ijn: a fast-rising, slow-decaying blue optical transient with exceptionally bright radio emission](https://arxiv.org/abs/2607.11545)
+
+    > Optical Transient, Radio Transient, Relativistic Jet, Tidal Disruption Event, Observation
+
+    另一项独立分析同样聚焦 AT2019ijn，联合 ZTF、ATLAS、Keck、FIRST、VLASS、ASKAP、VLA 和 uGMRT 数据，从光学黑体、同步辐射自吸收、等分分析及 MCMC 余辉模型约束其中央能源。事件在 $5.26\pm0.29$ 天内升至 $M_g=-21.05$，半峰上升时间仅 $3.7\pm0.2$ 天，半峰衰减时间却达 $46.3\pm1.5$ 天，并在约 47 天内保持 $(1.5$–$1.6)\times10^4$ K 的高温。3 GHz 射电于光学发现后 641 天才达到 $2.0\times10^{31}\ {\rm erg\,s^{-1}\,Hz^{-1}}$，随后以 $\alpha=1.21\pm0.06$ 缓慢衰减，并持续至至少 2331 天；部分光学和 ASKAP/RACS 数据可分别通过 [ATLAS 强制测光服务](https://fallingstar-data.com/forcedphot/) 与 [CASDA](https://data.csiro.au/domain/casda) 获取。
+
+    top-hat 偏轴喷流拟合给出核心半张角 $\theta_c=7.5^{+3.5}_{-2.5}$°、观测角 $\theta_{\rm obs}=38.9^{+7.0}_{-6.1}$° 和初始 $\Gamma_0\geq19$；随微观磁场参数变化，各向同性等效动能约为 $(0.7$–$7)\times10^{54}$ erg。MOSFiT 的潮汐瓦解模型对应黑洞质量 $1.32^{+1.19}_{-0.67}\times10^5\,M_\odot$，因此最偏好中等质量黑洞瓦解低质量恒星并发射窄相对论喷流的解释；磁星模型能够拟合光学曲线，却需要高度微调的喷流能量和准直条件。现有成像只能将事件限制在宿主中心约 1.3 kpc 内，尚不能确认其严格位于星系核，模型也依赖均匀介质和固定微观参数，仍需 HST 级深成像与毫角秒 VLBI 定位检验 TDE 起源。
+    
+    <img src="./Figures/image-20260713221025717.png" alt="image-20260713221025717" width="680px" />
+
+## 2026-07-15
+
+1. [A genetic algorithm for peer-review panel composition](https://arxiv.org/abs/2607.12757)
+
+    > Peer Review, Genetic Algorithm, Telescope Time Allocation, Optimization
+
+    在固定小组人数、预设组长等硬约束下，将专家池分配至多个评审组并同时平衡专业覆盖与人口统计特征，是规模增长极快的组合优化问题；仅将 24 名专家分入四个六人组就约有 $2.3\times10^{12}$ 种配置。方案以染色体编码每位专家所属的小组，通过跨组成员交换和带人数配额的引导均匀交叉维持合法配置，再以专业关键词、性别、所属国家和职业资历四项不均衡指标构造适应度。各指标先用随机配置与局部爬山搜索得到近似归一化边界，再按可调权重合并，使评审机构能够在专业多样性和人口结构之间调整优先级。
+
+    DEAP 实现使用 ESO Period 117 招募的 78 名真实评审测试，重点展示恒星演化类别中 24 名专家、四个六人组的配置；演示种群包含 3000 个个体，交叉和变异概率均为 0.5，并运行 200 代。最优候选在最初几代便迅速改善，种群的均值、中位数和离散程度则持续下降，约 100 代后接近收敛。该流程的价值还在于输出一批适应度相近的高质量配置，可进一步按时区、利益冲突等运营条件筛选。现有测试没有证明全局最优，结果依赖人工设定的指标、权重和近似归一化边界，而且详细案例仅覆盖一个 ESO 科学类别；自报关键词形成的专业画像也可能存在偏差。
+
+2. [Overview: Cosmology with the SKAO](https://arxiv.org/abs/2607.12887)
+
+    > SKAO, Radio Cosmology, HI Intensity Mapping, Large Scale Structure, Review
+
+    这篇路线图综述汇总 SKA 先导项目、AA* 中间阶段和完整 AA4 阵列的宇宙学能力，将 H I 星系红移巡天与强度映射、连续谱星系成团、射电弱引力透镜、快速射电暴、引力波标准汽笛及光学巡天交叉关联纳入统一框架。代表性 AA4 方案包括 Mid Band 2 约 $5000~{\rm deg}^2$、总计 10,000 小时、覆盖 $0<z<0.4$ 的中深巡天，其连续谱深度约为 $3~\mu{\rm Jy\,beam^{-1}}$；Mid Band 1 宽巡天则用约 10,000 小时覆盖 $20{,}000~{\rm deg}^2$ 和 $0.35<z<3$，填补主流光学宇宙学巡天较难覆盖的红移区间。
+
+    H I 星系、强度映射和连续谱星系的多示踪体分析预计可在超过 $5000~{\rm deg}^2$ 的面积上探测大尺度相对论效应；与 LSST 类光学巡天联合后，局域型原初非高斯性的预测精度可达到 $\sigma(f_{\rm NL}^{\rm local})<1$。FRB 色散量对重子分布和反馈的测量，有望使部分宇宙学参数相对单独使用下一代光学巡天改善约 2–5 倍。上述均为指示性预测：AA* 已可开展较多 H I 强度映射和连续谱科学，并用于完善标定、前景去除和分析流水线；射电弱透镜及高精度交叉关联则依赖 AA4 的长基线、高保真成像和足够高的已分辨星系面密度。系统误差控制而非单纯灵敏度，将是检验暗能量、原初非高斯性、宇宙各向同性和广义相对论的主要门槛。
+
+## 2026-07-15
+
+1. [Semi-supervised morphological classification of fast radio bursts from the second CHIME/FRB catalogue](https://arxiv.org/abs/2607.13148)
+
+    > Fast Radio Burst, CHIME, Machine Learning, Morphology, Population Study
+
+    CHIME/FRB 的时频瀑布图被用于建立半监督形态分类框架，以检验数据能否自动恢复人工识别的 FRB 类型，以及形态能否预测信号源是否重复。400–800 MHz、时间分辨率 0.983 ms 的样本包括 DR1 的 536 个爆发和 DR2 的 4539 个脉冲，其中分别有 98/981 个来自 18/83 个已知重复源。卷积自编码器以 7500 个模拟爆发训练、2500 个独立样本验证，将瀑布图压缩为 256 维表征并接入重复性分类头；潜变量再经 PCA、UMAP 和 HDBSCAN 完成无监督聚类。数据预处理所用 notebook 可从 [CHIME/FRB Open Data](https://chime-frb-open-data.github.io/) 获取。
+
+    DR1 中识别出的七个形态群在更大的 DR2 样本中合并为四个，说明多数 FRB 形态沿连续分布变化，但 G4、G6 和 G7 三个极端群在两版数据中都保持独立：G7 由较长、窄带且常含向低频漂移子爆发的事件构成并富集重复源，G4/G6 则主要是短时标、覆盖接近整个 CHIME 频段的单次探测事件，两者分别表现出强散射和弱散射。重复性分类在 DR1/DR2 上的召回率为 0.85/0.86，precision 仅为 0.40/0.35，表明形态只能提供重复概率，不能将重复源和单次源清晰分开。CHIME 旁瓣可能把本征宽带信号变成表观窄带，当前总强度数据也无法解析亚毫秒结构；使用 DR2 基带数据才能进一步区分真实形态连续性与仪器偏差。
+
+    <img src="./Figures/image-20260716000518826.png" alt="image-20260716000518826" width="680px" />
+
+2. [Advanced Techniques in Stability Analysis of Trans-Neptunian Objects](https://arxiv.org/abs/2607.13629)
+
+    > Trans Neptunian Object, Kuiper Belt, Chaos Indicators, Machine Learning, Review
+
+    海王星外约 30–50 AU 区域的平均运动共振、长期共振、共振重叠和混沌输运共同保存了海王星迁移及外太阳系演化的信息。这篇综述比较 Lyapunov 指数、频率图分析、MEGNO、SALI/GALI 等经典稳定性指标，以及 Lagrangian descriptors、FAIR 共振识别、熵指标、异常扩散和基于 Poincaré recurrence plots 的新方法。短 Lyapunov 时间并不必然对应快速轨道迁移：轨道可在共振岛附近长期黏滞，因此还需使用 $\langle(\Delta a)^2\rangle\propto t^\alpha$ 等输运度量，区分共振长期俘获导致的次扩散（$\alpha<1$）和近遇或共振重叠驱动的超扩散（$\alpha>1$）。复现熵指标示例的 [Julia 代码](https://doi.org/10.5281/zenodo.20799458) 已公开。
+
+    机器学习可利用短积分完成稳定性分类，以代理模型加速大规模参数扫描，并结合观测总体对行星迁移情景进行贝叶斯反演。作为方法代表，SPOCK 使用约 $10^4$ 个轨道周期的短积分预测 $10^9$ 周期的多行星系统稳定性，训练集约含十万个三行星系统，相对直接积分最高加速约 $10^5$ 倍；但这类结果主要来自紧密多行星系统、理想化三体问题或 Lorenz 系统，尚未证明能以同等性能处理 TNO。较可靠的方向是将机器学习约束在哈密顿动力学和可验证的数值积分之内，同时显式建模巡天完备度与选择偏差。海王星迁移究竟平滑还是随机、冷经典带如何形成以及共振成员的长期泄漏率仍是主要未解问题。
+
+    <img src="./Figures/image-20260716000626751.png" alt="image-20260716000626751" width="680px" />
+
+3. [phoptic -- a Python package for reducing astronomical images](https://arxiv.org/abs/2607.14014)
+
+    > Optical Photometry, Data Reduction, Astronomical Software, Tool
+
+    `phoptic` 是开源 Python 光学测光流水线，用可扩展的仪器接口降低传统约化软件与单一设备之间的耦合。软件最初为墨西哥 San Pedro Mártir 2.1 m 望远镜上的三相机高速成像仪 OPTICAM 开发，现可通过 `Instrument` 子类或 JSON 模板处理其他仪器产生的标准 FITS 图像；[源代码](https://github.com/OPTICAM-instrument/phoptic)和[使用文档](https://phoptic.readthedocs.io/en/latest)均已公开。流水线覆盖 bias、dark、flat-field 和宇宙线校正、背景估计、源检测与配准、强制及相对测光、误差传播和快速时序分析，并已用 OPTICAM、ULTRACAM、HiPERCAM 与 MEXMAN 数据验证；与 Source-Extractor 采用近似配置时，三个波段的结果平均相差不到 1%。
+
+    每个 OPTICAM 相机 3501 幅图像的多核测试中，源目录构建、孔径测光和 optimal photometry 相对单进程分别获得 31.2、32.4 和 29.0 倍加速。孔径测光快 18%–32%，更适合 quick-look；optimal photometry 在天空背景主导的理想场景中预计可将信噪比提高约 10%，但在五个明亮测试源上仅使 RMS 平均降低 1.4%、最佳降低 3.2%。当前默认参数仍偏向 OPTICAM，只原生支持 bias、dark 和 flat-field 校正并假设 Gaussian PSF；HiPERCAM 条纹、复杂 PSF 以及 ULTRACAM/HiPERCAM 的窗口读出数据仍需额外转换或自定义处理。
+    
+    <img src="./Figures/image-20260716000712253.png" alt="image-20260716000712253" width="680px" />
+
+## 2026-07-17
+
+1. [Temporal Memory in Repeating Fast Radio Bursts: Epsilon-Machine Reconstruction of Causal Structure in Burst Timing](https://arxiv.org/abs/2607.14421)
+
+    > Fast Radio Bursts, Temporal Memory, Epsilon Machine, CSSR
+
+    作者利用计算力学中的 $\varepsilon$-machine，检验重复快速射电暴的等待时间序列是否包含可预测结构。研究分析了 FAST 探测的 FRB 20121102A（1652 次暴发、39 个观测时段、1613 个时段内等待时间）和 FRB 20201124A（881 次暴发、4 个时段、877 个等待时间），以及 CHIME 探测的 FRB 20220912A（353 次暴发、160 个短过境时段、193 个等待时间）。等待时间被分位数离散为 $k=2$–5 个符号，再通过 CSSR 算法重建最小预测模型，并用 1000 个随机排列序列检验统计复杂度 $C_\mu$。在 $k=4$ 时，FRB 20121102A 和 FRB 20201124A 分别得到 $C_\mu=1.116$ 和 $0.986$ bit，原始 $p=0.005$ 和 $0.009$，逐源 FDR 校正后仍显著（$p_{\rm adj}=0.020$ 和 $0.028$）；FRB 20220912A 则在所有分箱尺度上均为 $C_\mu=0$。不过若把三个源、四种分箱的全部 12 项检验合并校正，两个最强信号均为 $p_{\rm adj}=0.054$，略高于常用显著性阈值。使用的公开资源包括 [FRB 20121102A FAST 数据](https://doi.org/10.11922/sciencedb.01092)、[FRB 20201124A FAST 数据](https://doi.org/10.57760/sciencedb.06762)、[CHIME/FRB 目录](https://www.chime-frb.ca/catalog)和 [`emic` 软件包](https://pypi.org/project/emic/)。
+
+    检出的约一比特记忆主要来自跨观测时段的活动率变化，而不是已经证实的逐暴发因果记忆：FRB 20121102A 的时段排列本身具有预测性（session-shuffle $p=0.020$），对应小时至数周的活动状态演化；FRB 20201124A 对时段顺序不敏感（$p=0.376$），信号主要反映四个异质时段之间的差别。两者都没有可靠的时段内预测记忆。将 FAST 数据截成 CHIME 式短过境窗口会使 $C_\mu$ 基本归零，约需连续 $\gtrsim60$ min 的观测才能稳定恢复类似结构，因此 FRB 20220912A 的零结果仍无法区分真实无记忆与观测窗口过短。由于样本仅含三个源、结果依赖离散化和 CSSR 参数，而且跨时段活动变化可能与增益、RFI 和完备性变化混淆，该结论应理解为对活动包络中隐藏状态的模型无关约束，而非对具体发射机制或隐藏状态数的直接识别。
+
+2. [Testing the Isotropy of the Universe with the CHIME/FRB Catalog I](https://arxiv.org/abs/2607.14982)
+
+    > Fast Radio Bursts, Cosmic Isotropy, 2PACF, Sigma Map, CHIME
+
+    作者利用第一版 CHIME/FRB Catalog 中的 536 个快速射电暴检验宇宙的大尺度统计各向同性；分析中将每个重复源只计一次，并剔除朝向银河系内区的事件，但没有报告处理后的最终天区源数。研究依据 CHIME 的曝光、波束响应和[公开注入数据](https://chime-frb-open-data.github.io/injections/)构造随机天区样本，以校正非均匀覆盖、完备性和选择效应。一方面使用 [`TreeCorr`](https://github.com/rmjarvis/TreeCorr) 和 Landy–Szalay 估计量测量 $0^\circ$–$80^\circ$ 内的两点角相关函数（2PACF），通过 200 个对数正态 mock catalog 和 20 份 jackknife 样本估计协方差；另一方面把 768 个天空球冠中的局域相关变化编码为 sigma-map，并用 100 次 Monte Carlo 实现评估其低阶球谐功率谱。原始目录和相关文档可由 [CHIME/FRB Open Data](https://chime-frb-open-data.github.io/) 获取。
+
+    2PACF 的幂律最佳拟合为 $A_w=0.0958^{+0.0032}_{-0.0071}$、$\gamma=1.536^{+0.162}_{-0.129}$，但 mock 协方差对应的约化 $\chi^2\sim16$ 不能解释为可靠的模型失配或各向异性探测：协方差矩阵严重病态且由少数特征模式主导，jackknife 误差在多数角距区间又比 mock 估计大约 1.5–2 倍。sigma-map 的 $C_\ell$ 从 $\ell=1$ 到 5 下降，所有多极矩均在各向同性预期的 $3\sigma$ 范围内，且 $C_\ell^{\rm mean}/C_\ell^{\rm std}\sim1$–2，说明结果由样本方差和散粒噪声支配。因此论文没有发现统计显著的宇宙各向异性，但这只是低统计功效下的“未检出”，并非对各向同性的严格验证；更强约束需要规模至少扩大一个数量级、同时具备公开注入数据以校正观测偏差的后续 CHIME/FRB 样本。
+
+## 2026-07-20
+
