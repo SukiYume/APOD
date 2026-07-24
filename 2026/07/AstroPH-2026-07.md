@@ -710,3 +710,195 @@
 
 ## 2026-07-20
 
+1. [Observations of X-ray quasi-periodic eruptions](https://arxiv.org/abs/2607.15359)
+
+    > QPE, X-ray Astronomy, Tidal Disruption Event, Review
+
+    这篇邀请综述汇总截至写作时已知的 13 个 X 射线准周期爆发（QPE）系统，综合 XMM-Newton、eROSITA、NICER、Chandra、Swift 及多波段宿主观测。QPE 表现为星系核中的热软 X 射线爆发：黑体温度约 60–250 eV，升温先于光度峰并形成温度—光度滞回；$0.3$–$2\ {\rm keV}$ 峰值光度约为 $10^{41}$–$10^{43}\ {\rm erg\,s^{-1}}$，比静默态增强 10–100 倍，持续约 20 min–3 d，复发间隔覆盖 2.5 h 至 $\gtrsim12$ d。静默辐射通常来自 $T_{\rm in}\sim50$–100 eV、外半径仅数百至数千 $R_g$ 的紧致热吸积盘，而爆发峰值谱需要额外黑体成分，说明 QPE 是叠加在长期吸积流上的独立辐射过程；不同源在多年尺度上又可保持稳定、熄灭后重启，或发生周期和光度突变。
+
+    时间关联、紧致新生盘和宿主性质共同支持 QPE 与潮汐瓦解事件（TDE）的密切联系：100 个具有晚期 X 射线覆盖的光学 TDE 中有 3 个出现 QPE，对应瓦解后五年内的发生比例 $q=0.09^{+0.09}_{-0.05}$；QPE 宿主通常含 $10^5$–$10^7\,M_\odot$ 的低质量黑洞，6/13 位于绿谷，MUSE/IFU 观测还在 9/13 中发现无法由 QPE 本身供能的延展发射线区。不过，13 个源来自异质的盲检和 TDE 定向跟踪，低占空比、超软能谱及仪器响应带来强烈选择偏差。EMRI/星—盘碰撞模型能解释稳定时钟、长短爆发交替和谱滞回，却难以覆盖长时爆发能量及部分超周期行为；盘不稳定模型更灵活，但缺少独特、可证伪的预言，因此尚无单一机制能够统一全部观测现象。
+
+    <img src="./Figures/image-20260720231151646.png" alt="image-20260720231151646" width="680px" />
+
+2. [Update on the Physics of the Cosmic Microwave Background (2015-2025)](https://arxiv.org/abs/2607.15666)
+
+    > Cosmic Microwave Background, Cosmology, Polarization, Observation, Review
+
+    这篇综述更新 2015–2025 年宇宙微波背景观测进展，串联 Planck、ACT、SPT、POLARBEAR、BICEP/Keck 和 Simons Observatory 等实验，从 $TT$、$TE$、$EE$、$BB$ 功率谱、前景分离、再电离、Sunyaev–Zeldovich 效应和 CMB 引力透镜评估六参数 $\Lambda$CDM。Planck 将温度功率谱测至约 $\ell=2500$，解析出七个声学峰和七个声学谷；综述汇总的约束包括 $n_s=0.9649\pm0.0042$、$N_{\rm eff}=2.99\pm0.17$、$\sum m_\nu<0.12\ {\rm eV}$ 和再电离光深 $\tau=0.054\pm0.007$，其中完全尺度不变的原初谱被排除约 $8\sigma$。CMB 引力透镜在 Planck 温度图和偏振图中的探测显著性分别达到约 $40\sigma$ 和 $5$–$9\sigma$；相关实验资料可由 [NASA LAMBDA 的 CMB 实验档案](https://lambda.gsfc.nasa.gov/product/expt/)获取。
+
+    六参数标准模型整体仍与 CMB 数据高度相容，但若干核心问题没有消失：Planck 推断的 $H_0=67.4\pm0.5\ {\rm km\,s^{-1}\,Mpc^{-1}}$ 与局域距离梯的 $73.30\pm1.04\ {\rm km\,s^{-1}\,Mpc^{-1}}$ 相差超过 $5\sigma$；BICEP2 早期报告的 $r\simeq0.20$ 信号后来可由银河系偏振尘埃解释，书章采用的 BICEP/Keck 上限已收紧至 $r<0.036$（95% 置信度）。由于 $TT$、$TE$ 和 $EE$ 在原初各向异性主导的尺度上逐渐接近宇宙方差极限，下一阶段的信息增量将主要来自更灵敏的 $BB$ 测量、前景控制与去透镜、CMB 透镜和星系巡天互相关，以及频谱畸变实验。Simons Observatory 已成为中期重点，而 LiteBIRD 的范围和进度仍可能调整，书章记录的 CMB-S4 取消也使长期实验路线存在明显不确定性。
+
+    <img src="./Figures/image-20260720231224004.png" alt="image-20260720231224004" width="680px" />
+
+3. [Explainable AI for Solar Flare Prediction: Quantitative Magnetic Field Analysis of Model-Focused Regions](https://arxiv.org/abs/2607.15719)
+
+    > Solar Flare, Explainable AI, Grad CAM, Magnetic Field, Observation
+
+    使用 SDO/HMI 在 2010–2022 年记录的 2699 个活动区斑块构建约 3.0 万个磁图样本，训练 ResNet 风格 CNN 预测未来 24 h 内是否发生 C 级或更强耀斑，再用 Grad-CAM 和 OTSU 阈值分割提取模型关注区域 MFR。输入包含 $B_{\rm los}$、$B_r$、$B_p$ 和 $B_t$ 四个磁场分量；基线 CNN 在合并测试集上得到 precision 0.860、recall 0.890、F1 0.875 和 TSS 0.748。进一步在 MFR、完整 SHARP 区域和极性反转线（PIL）掩膜内分别计算 16 个磁场参数，并用 FCNN、随机森林和 SVM 检验其预测能力；以随机森林为例，三者 TSS 分别为 0.5408、0.5543 和 0.4331，表明 MFR 几乎保留了完整 SHARP 区域的信息，并明显优于空间覆盖较窄的 PIL。数据划分、CNN 训练、Grad-CAM/MFR 生成和参数分析代码已在[公开仓库](https://github.com/ZZsolar/XAI-for-Solar-Flare-Prediction)提供。
+
+    新定义的极性不平衡指数显示，耀斑正例中提高预测概率的区域通常是由一方极性占优的复杂混合磁场，其 $PII_p$ 密度峰约为 0.33；降低耀斑概率的区域则趋近单极或弥散结构，$PII_n$ 接近 1。这种定量对应关系与复杂磁场更容易积累并释放能量的物理认识一致，说明 CNN 确实学到了具有物理意义的表征。不过，不同尺寸活动区被统一缩放到 $512\times512$，会改变有效物理像素尺度；与训练集共享活动区的 Test2 得到 TSS 0.762，高于完全独立活动区 Test1 的 0.734，显示信息泄漏会高估新活动区上的泛化能力。负例还从真实约 20:1 的不平衡分布被大幅下采样，因此这些结果主要验证模型归因与磁场结构的关联一致性，尚不能直接证明耀斑触发机制或实际运行中的概率校准能力。
+
+    <img src="./Figures/image-20260720231258395.png" alt="image-20260720231258395" width="680px" />
+
+4. [Compressing radio interferometric visibility data into a probabilistic model using sparse Gaussian processes](https://arxiv.org/abs/2607.15860)
+
+    > Radio Interferometry, Gaussian Process, Data Compression, Simulation, Tool
+
+    将射电干涉可见度表示为连续的稀疏变分高斯过程，以少量诱导点保存后验均值和不确定度，从而替代逐条保存大量重复采样和热噪声实现。概念验证使用 CASA `simalma` 模拟的 ALMA M51 H$\alpha$ 观测：43 根天线、330.076 GHz 中心频率、50 MHz 带宽、1800 s 总积分和 10 s 采样，共得到 162,540 条可见度，并通过将源亮度缩放为 1、1/10 和 1/30 测试不同信噪比。模型分别拟合可见度实部和虚部，采用 Matérn-5/2 核、500 个诱导点、4096 的 minibatch，并利用厄米对称性把输入折叠到半个 $uv$ 平面。低信噪比下，后验均值在均匀加权成像中恢复出直接网格平均未能辨认的 M51 潮汐尾；自然加权时两种结果则基本相同。
+
+    当前小型模拟中，原始 Measurement Set 为 5.2 MB，两部分 GP 模型共 2.0 MB，实际压缩率只有约 2.5；更醒目的结果来自尺度外推：8 h、197 面天线、0.14 s 采样的 SKA-Mid 单频单偏振可见度约为 127 GB，若仍用 500 个诱导点，估计压缩率可达 $\sim6\times10^4$，在使用 1000–2000 个诱导点时仍约为 $10^3$–$10^5$。这种表示还能在任意 $uv$ 坐标预测可见度及误差，避免预先固定视场和像素尺度；复现实验的代码见 [`uv_flow`](https://github.com/takafumi291/uv_flow)。不过，目前尚未在真实 SKA 级数据上验证训练时间、硬件需求和压缩—精度权衡，也未纳入完整的加权、反卷积和频谱轴；所有可见度共享单一噪声方差，无法描述基线、历元、RFI 和校准残差造成的异方差。因此 $10^3$–$10^5$ 应视为基于模型尺寸的存储估算，而非已经实测的端到端压缩性能。
+    
+    <img src="./Figures/image-20260720231342812.png" alt="image-20260720231342812" width="680px" />
+
+## 2026-07-21
+
+1. [Planet-wide, Concentric Density Waves in Venus's Upper Atmosphere Revealed through Polarimetry?](https://arxiv.org/abs/2607.16557)
+
+    > Venus, Polarimetry, Gravity Wave, Radiative Transfer, Observation
+
+    2010 年，William Herschel Telescope 上的 Extreme Polarimeter 偶然获得一组金星可见光成像偏振数据：Hα、Hα continuum 和 Na 滤镜中出现覆盖大部分受光盘面的近同心环，偏振通量振荡约为峰值总通量的 $10^{-4}$，但总通量图中没有对应结构。环系中心位于太阳下点下风约 $20^\circ$、即约 2100 km 处；若信号来自金星大气，其水平波长约为 100–1000 km，并随远离可能的激发区而缩短。双光束交换与双差分设计、实验室测试以及其他 ExPo 观测均未找到明显的仪器来源，但仍不能完全排除未知伪影。
+
+    包含多次散射和完整 Stokes 量的矢量辐射转移计算表明，云和霾层以上约 5%–10% 的 CO$_2$ 气体密度扰动可以产生同量级的偏振环，同时几乎不改变总通量，因而可能对应此前未识别的全球尺度重力波。证据的局限十分突出：它只来自一次观测条件持续变化的偶然序列，绝对偏振零点仅校准到 1%–2%，ExPo 此后又被拆除，无法用相同仪器复测。因此结果证明的是这种解释在物理上可行，而不是已经确证金星存在全球同心密度波。
+
+    <img src="./Figures/image-20260720232333651.png" alt="image-20260720232333651" width="680px" />
+
+2. [Continuous Ultra-Low-Frequency Solar Radio Monitoring with ALBATROS from the High Arctic](https://arxiv.org/abs/2607.16923)
+
+    > Solar Radio Burst, Low Frequency Radio, ALBATROS, Spectropolarimetry, Observation
+
+    加拿大高北极的连续夏季日照、低射频干扰和较低的极区电离层等离子体频率，为接近地面电离层截止频率的长期太阳射电监测提供了独特条件。位于努纳武特 Axel Heiberg Island 的 ALBATROS 由 8 个自主台站组成，基线覆盖 175 m–8.7 km，可以用 61 kHz、6.44 s 的频率和时间分辨率记录 1–125 MHz 全 Stokes 动态谱，同时保存原生时间分辨率为 16 $\mu$s 的基带电压。2024 年 8 月 1 日与 M6.3 级耀斑相关的爆发从当地电离层截止频率延伸到 100 MHz 以上，呈现 III 型爆发特有的快速漂移和精细结构，其频率积分射电光变与 GOES/EXIS 软 X 射线光变在零延迟附近出现强互相关峰。
+
+    8 月 5 日与 X1.1 级耀斑相关的事件同时表现出 II 型和 III 型结构，$Q/I$ 随频率显著变化，圆偏振 $|V/I|$ 约达 10%；全部 8 个台站均测得一致的归一化光变和谱形，支持信号的太阳来源并验证了阵列稳定性。当前结果主要确立了 ALBATROS 的观测能力，尚不是完备的太阳爆发统计样本：绝对流量、天空响应和偏振标定仍在进行，50–60 MHz 存在疑似仪器特征，20 MHz 以下还受到地面 HF 通信干扰，因此暂时不能对爆发偏振、源位置或射电—X 射线关系作精确定量推断。
+
+    <img src="./Figures/image-20260720232400676.png" alt="image-20260720232400676" width="680px" />
+
+3. [Constraints on Primordial Black Hole Dressed by Dark Matter Halo from Microlensing Effect of Fast Radio Bursts](https://arxiv.org/abs/2607.17338)
+
+    > Primordial Black Hole, Fast Radio Burst, Microlensing, Dark Matter Halo, Theory
+
+    快速射电暴的毫秒结构可用于搜索点质量透镜造成的延迟双脉冲，从而限制原初黑洞（PBH）在暗物质中的占比。研究考虑物质主导时期吸积形成、密度满足 $\rho_h\propto r^{-9/4}$ 的 PBH 暗物质小晕，以 PBH 与晕的总爱因斯坦半径定义等效裸 PBH 质量，并据此重新计算微透镜截面和光学深度；同时推导了把单色质量分布的丰度上限转换为任意扩展质量分布上限的积分关系。数值预报假设未来取得 $10^5$ 个相互独立的 FRB 且没有发现透镜事件，并采用统一的红移分布、0.1 或 1 ms 平均脉宽、最大像通量比 5 和 1 min 观测窗。
+
+    在这一零检出情景下，单色质量分布的最强 95% 上限由裸 PBH 的 $f_{\rm PBH}=2.1\times10^{-3}$ 收紧至带晕 PBH 的 $1.0\times10^{-4}$，改善约 20 倍；对于对数正态扩展质量分布，相应极限分别为 $2.1\times10^{-3}$ 和 $1.9\times10^{-4}$。增强来自暗晕提高有效质量、爱因斯坦半径和透镜截面，说明未来 FRB 微透镜有望把恒星质量至中等质量区间的 PBH 丰度约束推进到 $10^{-4}$。这些数字并非现实观测限制，而是强依赖零检出假设、FRB 选择函数和简化晕剖面的预报；PBH 聚团、重子吸积、暗晕演化以及真实透镜识别效率都可能改变最终结果。
+
+    <img src="./Figures/image-20260720232423861.png" alt="image-20260720232423861" width="680px" />
+
+4. [Beyond Spin: QCD Magnetars](https://arxiv.org/abs/2607.17556)
+
+    > Magnetar, Quark Matter, Fast Radio Burst, Population Synthesis, Theory
+
+    这项理论工作提出“QCD 磁星”统一模型：质量超过临界值的中子星在自转减慢后发生夸克退禁闭，形成具有约 $10^{18}$ G 铁磁场的双味夸克核心，对应约 $10^{15}$ G 的恒星表面磁场。伴随的 Quark Nova 抛出约 $10^{-2}M_\odot$、动能约 $10^{50}$ erg 的富中子星壳，使新生混合星在数百年内没有固体壳层；夸克核与强子包层之间的磁场失配可产生上浮磁通绳并驱动无 X 射线对应体的重复 FRB，壳层重新形成后则表现为 AXP/SGR。若前身星自转足够快，旋转能注入 Quark Nova 抛射物：辐射能够直接逃逸时形成快速蓝色光学暂现源（LFBOT），被更外层超新星物质吸收和再处理时则表现为 I 型超亮超新星。
+
+    对 AXP/SGR、SLSN-I、LFBOT 和超新星遗迹关联比例进行贝叶斯人口拟合后，得到退禁闭临界质量 $M_{\rm dec}=2.05^{+0.30}_{-0.32}M_\odot$，快转阈值 $P_{\rm fast}=5.45^{+4.86}_{-3.11}$ ms；多数发生率可落入现有经验范围，但预测的 LFBOT/核心坍缩超新星比 $1.1\times10^{-3}$ 略高于采用的 $10^{-3}$ 上限。模型预言 QCD 磁星应集中在高质量中子星尾部、Quark Nova 伴随 r-process/kilonova 信号，且年轻无壳源产生的 FRB 缺少同步 X 射线爆发。不过这仍是探索性的统一框架：拟合链长度只有约 26–34 个自相关时间，低于常用的 50 倍标准；夸克物质铁磁基态、磁通绳不稳定性和 FRB 辐射过程也尚缺乏多维数值模拟，因而发生率吻合不能视为对模型的观测确认。
+
+5. [The science of the cycle of matter in our Galaxy with the SKA](https://arxiv.org/abs/2607.18065)
+
+    > SKA, Milky Way, Interstellar Medium, Star Formation, Review
+
+    这篇综述性路线图汇总 SKAO“银河系”科学工作组的 13 个专题，说明 SKA 如何从原子气体、分子云和恒星形成一路追踪到恒星反馈、超新星遗迹及星际介质再循环。主要观测手段包括 H I 与 OH 吸收和发射、射电复合线、Zeeman 分裂、脉泽和连续谱巡天；SKA 的高灵敏度、角分辨率、光谱分辨率和天体测量能力，可研究冷中性介质及分子云形成、银河系中心数百 au 尺度结构、恒星形成区磁场、反常微波辐射、恒星磁层和风、超新星遗迹中的宇宙线加速，以及利用脉泽视差重建银河系三维结构。
+
+    需求汇总显示，全部 13 个专题都依赖 SKA-Mid，其中 12 个需要完整 AA4 配置，7 个在缩减阵列阶段仍可取得有价值结果；只有 3 个明确需要 SKA-Low，另有 3 个提出超越 AA4 的远期能力需求。这些章节共同强调多频段、宽视场巡天与高精度偏振和谱线观测的协同价值，但文章本身没有报告新的观测数据或统计发现，而是为 SKA 研究银河系物质循环所需的阵列配置、巡天策略和关键科学问题提供总体规划。
+
+## 2026-07-22
+
+1. [Enhanced Astrometry of the Rapid ASKAP Continuum Survey: Mid and High Frequency Epochs](https://arxiv.org/abs/2607.18775)
+
+    > ASKAP, Radio Astrometry, RACS, Catalogue, Observation
+
+    Rapid ASKAP Continuum Survey（RACS）的中频和高频历元各包含 1493 次未拼接扫描、53,748 个波束。修正流程直接处理波束级源表，避免图像拼接边界引入的位置偏差：先以修正后的 RACS-Low1 或 VLASS 捕捉最大约 $12''$ 的大尺度偏移，再与高源密度的 WISE 进行 $2''$ 精细交叉匹配，把误差分解为跨扫描共享的波束偏移和扫描内共享的整体偏移，并用 FIRST 与毫角秒精度的 Radio Fundamental Catalog 独立验证。
+
+    修正后两个历元的赤经、赤纬中位残差均接近零；在约 $1\ {\rm deg}^2$ 区域内平均的位置残差，其 68% 区间由多数天区的 $\gtrsim0.4''$ 缩小到 $\lesssim0.18''$，单源位置在大部分天空达到约 $0.25''$ 的 $1\sigma$ 精度。误差分布具有明显的非高斯长尾，银道面内建议采用约 $\pm0.35''$ 的保守误差，银道面外约为 $\pm0.25''$；赤纬高于 $+30^\circ$ 时还会因 ASKAP 低仰角观测而恶化。波段匹配的参考源表可减少源结构随频率和分辨率变化造成的质心偏移，从而改善 ASKAP 快速射电暴的宿主星系关联；相应数据产品以未拼接的波束级 VOTable 源表发布。
+
+    <img src="./Figures/image-20260722081154394.png" alt="image-20260722081154394" width="680px" />
+
+2. [A Type Ia Supernova Candidate at $z\sim4.3$: A Transient Interloper in the Search for $z\sim14$ Galaxies](https://arxiv.org/abs/2607.18972)
+
+    > Type Ia Supernova, JWST, High Redshift Galaxy, Transient, Observation
+
+    JWST/NIRCam 在 2024 年 6 月的 16 波段、0.7–4.8 $\mu$m 成像中发现 beacon_1420-5253_4770，最初因强烈的短波截止而被选为 $z_{\rm p}\sim13.7$ 的明亮点状星系；但大约一年前和一年后的深度成像均未检出该源，说明它是暂现源。利用 SNCosmo 中的 Ia 型和多类核坍缩超新星光变模型，以及 SN 2011fe 的多时期光谱模板进行颜色、亮度、光变和 SED 拟合后，普通 Ia 型超新星在峰值后约 0–10 天、$z\simeq4.0$–4.6 的解释最一致；其中 $z=4.3$、峰值后 3.4 天的模板给出 $\chi^2/{\rm dof}=3.0$。Ia 型超新星静止系紫外波段的铁族元素强吸收恰好可伪装成 $z\sim14$ 星系的 Lyman break。
+
+    根据约 $400\ {\rm arcmin}^2$ 的 BEACON 调查面积和有效搜索时窗，单个候选体对应的 $z\sim4.3$ Ia 型超新星率下限为 $1.7^{+3.9}_{-1.4}\times10^{-6}\ {\rm Mpc}^{-3}\,{\rm yr}^{-1}$，倾向于要求恒星形成至爆炸的最短延迟时间小于 1 Gyr。若把该暂现源误计为极高红移星系，相关明亮星系数密度可被抬高约 0.25 dex，即约 1.8 倍，说明重复成像是排除暂现源污染的关键手段。不过分类完全基于光度和模板拟合，缺少光谱确认；发生率又只由一个候选体推得，并采用探测效率为 1 和完整调查面积等保守假设，因此其超新星类型、红移及延迟时间约束仍需后续观测验证。
+
+    <img src="./Figures/image-20260722081237355.png" alt="image-20260722081237355" width="680px" />
+
+3. [NAPTIME: A Neural-Process Framework for Rubin Alert Classification](https://arxiv.org/abs/2607.19236)
+
+    > Rubin Observatory, Transient Classification, Neural Process, Tidal Disruption Event, Machine Learning
+
+    NAPTIME 面向 Rubin Observatory 稀疏、不规则且持续累积的多波段警报光变，将每条光变拆分为已知的上下文点和待重建的目标点，通过一维 ConvGNP 风格的高斯集合卷积投影到规则时间网格，再结合全局潜变量、可选的宿主星系与光度红移分支，同时优化概率光变重建和多类别分类。主要测试使用 ELAsTiCC2 模拟数据，将源类型合并为 15 个物理类别，包含约 131 万个训练对象和 23 万个验证对象；MALLORN 则作为规模更小、没有宿主信息的光度型潮汐瓦解事件（TDE）辅助基准。
+
+    在 ELAsTiCC2 上，加入元数据的模型达到 macro F1=0.903、macro AUROC=0.991，纯光度版本分别为 0.874 和 0.986；将输出解释为 TDE 对其余类别的排序时，平均精度由 0.979 提高到 0.985。元数据在早期预警阶段最有价值：仅使用最早 10% 的探测点时，macro F1 约由 0.34 提升到 0.42，其中宿主星系星等和恒星质量贡献最大。MALLORN 上的 macro F1 和 macro AUROC 分别为 0.693 和 0.958。当前性能主要来自模拟数据和封闭类别集，未知暂现源仍会被强制归入已有类别，而且尚未验证从模拟巡天到真实 Rubin 警报的域偏移，也缺少与人工特征模型相当的可解释性；实际部署仍需加入拒识、异常检测和真实数据迁移校准。
+    
+    <img src="./Figures/image-20260722081329514.png" alt="image-20260722081329514" width="680px" />
+
+## 2026-07-23
+
+1. [A Deep Learning Framework for Predicting Solar EUV Irradiance During Significant Flares](https://arxiv.org/abs/2607.19597)
+
+    > Solar Flare, EUV Irradiance, Deep Learning, Space Weather, Forecasting
+
+    FlareEUV 根据太阳耀斑开始前 24 小时至开始时刻的 SDO 全日面图像，预测耀斑当天及随后两天的 6.5 nm 日均极紫外辐照度。样本包含太阳活动周 24 中 2011–2014 年的 33 个 M5.0 级以上耀斑；每个时刻使用 8 个 AIA EUV/UV 通道和 5 个 HMI 磁场或连续谱通道，五个时间点经通道内平均后形成 $13\times256\times256$ 输入。模型以 ImageNet 预训练的 ResNet-34 为骨干，在四个残差阶段加入 squeeze-and-excitation 通道注意力，并用权重 $[0.5,0.3,0.2]$ 的损失分别监督 $T_0$、$T_0+1$ 天和 $T_0+2$ 天。评估采用 33 折 leave-one-flare-out，每折只有 31 个训练耀斑、1 个验证耀斑和1个测试耀斑；目标辐照度来自公开的 [SDO/EVE Level 3 数据](https://lasp.colorado.edu/lisird/data/sdo_eve_ssi_1nm_l3/)。
+
+    汇总 33 个测试耀斑和三个预测时段后，AIA+HMI 模型达到 Pearson 相关系数 0.927、MAE $4.41\times10^{-6}\ {\rm W\,m^{-2}\,nm^{-1}}$，优于 AIA-only 的 0.868 和 $5.38\times10^{-6}$，以及 HMI-only 的 0.835 和 $7.32\times10^{-6}$。三个时段的相关系数依次为 0.935、0.932 和 0.913，说明磁场信息对较长时段预测具有补充作用；SE 模块只比普通 ResNet-34 增加约 4.35 万个参数，却使相关性提高 5.5%、MAE 降低 23.2%。不过模型总计约 2149 万个参数，当前只在同一活动周的 33 个强耀斑上验证，并未测试太阳活动周 25、较弱耀斑或真实实时数据流，因此现有结果更适合作为小样本交叉验证基准，尚不足以证明跨活动周的业务化泛化能力。
+
+    <img src="./Figures/image-20260722232746315.png" alt="image-20260722232746315" width="680px" />
+
+2. [Microlensing Detection and Inference via Learned Bayes Factors](https://arxiv.org/abs/2607.20260)
+
+    > Microlensing, Roman Space Telescope, Bayes Factor, Simulation Based Inference, Machine Learning
+
+    面向 Roman Space Telescope 的海量不规则采样光变，框架用 Evidence Network 学习微引力透镜信号相对纯噪声模型的 Bayes 因子，再以 Neural Posterior Estimation（NPE）推断有限源点透镜模型的 $t_0$、$u_0$、$t_E$、源半径比 $\rho$ 和混光比例 $f_s$。两个模块使用六层、八头的 Transformer 编码器，无需插值或填补缺测点；Evidence Network 在 10 万条信号与噪声各半的模拟光变上训练，NPE 则以 8 万条模拟样本训练、2 万条验证，并通过条件 Masked Autoregressive Flow 输出五维后验。模拟加入 0–3 个观测缺口、最高 60% 随机丢点及 0.1%–2% 高斯测光噪声，时间尺度覆盖 0.1–20 天。
+
+    在 5000 个模拟信号和 5000 个纯高斯噪声样本上，以 $\log_{10}K>0.8$ 为阈值时检出 4996 个信号，效率为 99.9%；噪声样本中未出现假阳性，对应假阳性率的 95% 上限为 $6\times10^{-4}$。在极端有限源区域 $\rho\gtrsim5$，检出率约为 95%，明显高于传统硬阈值的约 65%；即使重新调节硬阈值并让其使用真实注入参数，整体效率仍只有约 97%。NPE 的可信区间通过覆盖率检验，生成 10,000 个后验样本的中位耗时约 21 ms，而对照 MCMC 约为 346 s。必须注意，这些结果只涵盖单透镜信号与高斯噪声，没有恒星耀斑、食双星、脉动星、坏像素、相关噪声等天体或仪器混淆源，并采用简化的箱形先验、20 天固定窗口和可恢复性预筛选，因此 99.9% 不能解释为 Roman 真实巡天的检出效率或纯度。训练与复现实现在[公开代码仓库](https://github.com/NolanSmyth/evidence_networks_sbi_microlensing)中提供。
+    
+    <img src="./Figures/image-20260722232810467.png" alt="image-20260722232810467" width="680px" />
+
+## 2026-07-23
+
+1. [A New Model for the Milky Way Halo Dispersion Measure with the ENGAWA Simulations: Low DMs and Large Anisotropy](https://arxiv.org/abs/2607.20601)
+
+    > Fast Radio Bursts, Dispersion Measure, Circumgalactic Medium, Cosmological Simulations
+
+    文章利用 ENGAWA 高分辨率宇宙学放大模拟估计银河系晕对快速射电暴色散量（DM）的贡献。样本包括四个银河系质量星系及共 14 种分辨率设置，CGM 的最高空间分辨率达到 200 pc；作者用 COLT 后处理电子密度，切除星系盘后，从半径 8 kpc 太阳圆上的 360 个不同方位向维里半径进行 HEALPix 射线积分。不同模拟的全天空 DM 中值为 19–39 pc cm⁻³，除一个低分辨率模型外，均值也低于 Yamasaki–Totani 模型的 47.6 pc cm⁻³。提高 CGM 分辨率会解析出更多结构，使天空分布明显更不均匀：极区视线可低于 10 pc cm⁻³，最低达到约 3–8 pc cm⁻³，同时部分低纬视线可超过 400 pc cm⁻³。太阳方位造成的相对不确定度呈约 0.33 和 0.53 的双峰分布，在银盘附近可升至约 0.7，说明将银河晕 DM 当作单一常数会低估 FRB 前景误差。
+
+    逐视线比较显示，O VII 柱密度与 DM 不但缺乏正相关，甚至因高温、低密度极区的存在而呈反相关；Hα 强度则是更有效的代理量，CGM-only 模拟给出 `log₁₀(DM)=0.32 log₁₀(I_Hα/R)+1.93`，但加入本地星际介质后只能把它视为上限。全天空平均 DM 与 CGM 气体分数也没有清晰关系，部分原因是模拟中 30%–50% 的 CGM 气体为中性态。作者据两套最高分辨率模拟构造了十阶银经—银纬多项式，并公开了包含原始 HEALPix 图、拟合图以及逐方向 16%–84% 区间的 [`l26halodm` Python 包](https://github.com/slucchini/l26halodm)。主要限制是仅模拟四个星系、分辨率尚未严格收敛，而且没有纳入麦哲伦云和麦哲伦流——后者可使南天部分方向额外增加约 40 pc cm⁻³。
+
+    <img src="./Figures/image-20260724023613460.png" alt="image-20260724023613460" width="680px" />
+
+2. [How to Craft the Right Language AI Policy For Your Research Group (Some Assembly Required)](https://arxiv.org/abs/2607.20836)
+
+    > Language AI, Research Policy, Scientific Integrity, Data Governance
+
+    这是一篇面向天文学研究团队的政策白皮书，而非检验某种 AI 使用方式的实证研究。作者认为不存在适用于所有实验室的统一语言 AI 政策，并提出四种有意简化的团队原型：追求产出和效率、把 AI 当作“力量倍增器”的 **High Leverage**；重视研究者能力培养、把 AI 当作导师的 **Craftsmanship**；优先考虑可复现性和方法严谨性、只接受经验证输出的 **Trustworthiness**；以及强调安全、隐私、合规和长期责任、把 AI 限制在受控环境中的 **Data Stewardship**。真实团队通常是这些原型的混合体，因此政策设计应先明确团队如何权衡研究生产力、科学家培养、科学诚信和数据治理，再决定代码生成、文献总结、论文起草、自主代理、公共云服务及敏感数据上传等具体用途是允许、附条件允许还是禁止。
+
+    文章建议由全组共同制定一份可定期修订的“活文档”，明确不同数据敏感级别对应的工具类型、必须保留的人类审查环节、AI 参与的披露方式，以及使用者对代码、引用、分析结论和最终作品的责任。附录中的示例政策把判断压缩为五个问题：方法是否安全、是否愿意以专业声誉担保结果、是否具备独立评估结果的能力、是否仍对作品拥有适当的智力所有权，以及是否符合提交场所的学术诚信规范；另附一份供成员分别填写并讨论分歧的工作表。作者特别强调，示例不能原样照搬，四种原型也只是暴露价值冲突的讨论工具；论文给出的是政策对齐框架，而不是关于 AI 能否提高天文学研究质量的因果证据。
+
+    <img src="./Figures/image-20260724023643330.png" alt="image-20260724023643330" width="680px" />
+
+3. [Accurate Extragalactic Magnetic Fields from Faraday Rotation with Optimal Dispersion Measure Estimators](https://arxiv.org/abs/2607.20985)
+
+    > Faraday Rotation, Dispersion Measure, Galactic Magnetic Fields, MHD Simulations
+
+    法拉第旋转量满足 RM 与电子密度和视向磁场积分的乘积关系，因此从背景连续射电源的 RM 反推磁场，关键在于估计通常无法直接测得的 DM。作者对三套高分辨率 GIZMO 理想 MHD 模拟进行辐射转移后处理：孤立银河系型旋涡星系、孤立 LMC 型矮星系，以及受到银河系 CGM 风压剥离的 LMC 型矮星系；分别抽取约 3,000、20,000 和 10,000 条视线，合成 RM、真实 DM、由 Hα 或自由—自由辐射推得的发射量 EM、21 cm H I 柱密度、光深和自旋温度。作者按平均电离分数达到 60% 的位置区分中心区和电离占优的外区，并拟合 `DM = K EM^α N_HI^β`。当 EM 可用时，推荐参数为 `α≈0.22–0.44、β=0`：H I 几乎不再提供额外信息，恢复电子密度加权视向磁场的散度通常小于 0.1 dex，即约几十个百分点；自由—自由辐射估计的 EM 略优于 Hα，但差别通常不超过 0.02 dex。
+
+    如果没有 EM，H I 是次优代理量：中心区的中性气体与电离气体空间分离，因而改善很有限；在星系外区，微量 H I 能追踪以电离态为主的总气柱，采用 `β≈0.16–0.23` 可达到约 0.2 dex。EM 和 H I 都不可用时，只能使用依星系类型和区域校准的平均 DM，误差约 0.3 dex。该方法针对的是电子密度加权磁场；RM 对中性气体中的磁场约束很弱，质量加权磁场的散度会恶化至约 0.2–0.5 dex。文中误差还应视为下限，因为合成观测未完整处理尘埃消光、同步辐射与自由—自由辐射分离、仪器噪声，而且孤立星系模型缺少真实 CGM，结论也可能依赖 GIZMO 的散度清理和反馈实现。相关[原始模拟数据已公开](https://datacommons.anu.edu.au/DataCommons/rest/display/anudc%3A6387)，后处理数据则需向作者申请。
+
+4. [Fast Inference on Astronomical Time Series with Trans-Dimensional Flow Matching Posterior Estimation](https://arxiv.org/abs/2607.21134)
+
+    > Simulation, Flow Matching, Trans-Dimensional Models, Fast Transients
+
+    文章提出 trans-dimensional Flow Matching Posterior Estimation（t-FMPE），用于同时推断瞬变光变曲线中的脉冲数目及各脉冲参数。当前模型把长度固定为 1,000 个等间隔采样点的单变量时间序列分解为若干双边指数脉冲，每个脉冲含峰值时间、振幅、上升时间和偏斜度四个参数；一个分类器先估计 `p(N|y)`，Transformer 再在掩码控制的可变长度参数序列上学习条件流场，并通过 200 步 ODE 积分生成后验样本。四个网络分别针对泊松或高斯噪声以及 `N_max=5、10、20` 训练，最大网络约 1,220 万参数，在 A100 上训练约 29 小时。单峰模拟中，t-FMPE 与固定维 MCMC 的 C2ST 分类准确率为 54.8%，接近不可区分；五峰案例则升至 92%，主要因为 t-FMPE 后验明显更宽，表明随维数增加，其保守性和校准误差也在增加。
+
+    观测测试包括 SGR J1550-5418 的一次 Fermi/GBM X 射线暴，以及 CHIME 的 FRB20190115B、FRB20190122C 和 FRB20190124F。对磁星暴，t-FMPE 与 trans-dimensional nested sampling 都把脉冲数后验峰值放在约 14，但后者具有延伸到 21–27 的长尾，而网络受 `N_max=20` 限制；生成约 1,000 个样本耗时由 10 分钟缩短至 10 秒。三个 FRB 的后验预测光变总体能重建观测，其中 FRB20190115B 倾向于三个分量，但与固定三分量 MCMC 比较的 C2ST 仍达 86%；FRB20190124F 所需分量数明显多于目视峰数，暴露了双边指数形状失配会被大量低振幅分量补偿的问题。高维 80 参数情况下速度约为每秒 100 个后验样本，但这是付出一次性训练成本后的摊销速度。当前限制还包括固定 1,000 点输入、仅使用频率积分后的单变量光变、固定背景和先验、缺少全参数空间覆盖率验证；死时间、DM 不确定性及完整动态谱目前只是可加入模拟器的后续方向，并未在本文中完成实证检验。作者公开了[代码和预处理观测数据](https://github.com/Ninavd/FRB-flow)。
+
+    <img src="./Figures/image-20260724023734614.png" alt="image-20260724023734614" width="680px" />
+
+5. [Modeling Dependence Structures in Astronomical Multi-Band Time Series Data via Multi-Output Gaussian Processes](https://arxiv.org/abs/2607.21431)
+
+    > Gaussian Processes, AGN Variability, Reverberation Mapping, Power Spectral Density
+
+    文章把多波段高斯过程中的相关结构分成两种互补构造。**协方差式**方法直接指定矩阵值协方差函数，能够直接解释各观测波段的协方差、功率谱密度（PSD）和互谱，但必须保证整个矩阵半正定；文中采用的可分离多输出阻尼随机游走（DRW）因此要求所有波段共享同一特征时间尺度。**潜过程式**方法则让观测波段成为一个或多个潜在 GP 经线性混合、卷积或微分算子后的结果，正定性由 GP 在线性变换下的闭包性质自动保证，也更适合表达具体物理机制。两种构造最终使用相同的含异方差测量误差的高斯似然，区别不在推断算法，而在相关性是被直接描述还是由物理变换诱导。
+
+    在 SDSS Stripe 82 的五波段类星体 dbID 1540 上，协方差式 DRW 给出共同时间尺度 `553±341` 天，各波段相关系数为 0.84–0.99、频率无关的相干度为 0.71–0.99，说明它适合直接概括观测波段间的共同随机变化，但较大的时间尺度误差也显示样本约束有限。对 SDSS-RM 目标 RM840 的 r 波段连续谱和 Hα 发射线，作者以潜 DRW 加卷积比较固定宽度的 top-hat 与 Gaussian 转移函数；两者得到的平均时延分别为 136.51 和 138.68 天，观测区间内重建几乎相同，但高频响应明显不同，Gaussian 模型还以 `AIC=1100.98` 优于 top-hat 的 1112.13。响应宽度在自由拟合时贴近下界，说明数据主要约束平均时延而不能辨别细致的时延分布，因此统计偏好不应直接当成真实宽线区几何的证据。当前分析只使用最大似然和 Hessian 标准误，尚未把不确定性传播到 PSD、相干度和转移函数；稠密 GP 的 `O(N³)` 时间与 `O(N²)` 内存开销也是大规模巡天应用的主要障碍。论文相关 [R 脚本已经公开](https://github.com/hyungsuktak/mgp)。
+
+## 2026-07-27
+
