@@ -658,7 +658,7 @@
 
     H I 星系、强度映射和连续谱星系的多示踪体分析预计可在超过 $5000~{\rm deg}^2$ 的面积上探测大尺度相对论效应；与 LSST 类光学巡天联合后，局域型原初非高斯性的预测精度可达到 $\sigma(f_{\rm NL}^{\rm local})<1$。FRB 色散量对重子分布和反馈的测量，有望使部分宇宙学参数相对单独使用下一代光学巡天改善约 2–5 倍。上述均为指示性预测：AA* 已可开展较多 H I 强度映射和连续谱科学，并用于完善标定、前景去除和分析流水线；射电弱透镜及高精度交叉关联则依赖 AA4 的长基线、高保真成像和足够高的已分辨星系面密度。系统误差控制而非单纯灵敏度，将是检验暗能量、原初非高斯性、宇宙各向同性和广义相对论的主要门槛。
 
-## 2026-07-15
+## 2026-07-16
 
 1. [Semi-supervised morphological classification of fast radio bursts from the second CHIME/FRB catalogue](https://arxiv.org/abs/2607.13148)
 
@@ -852,7 +852,7 @@
     
     <img src="./Figures/image-20260722232810467.png" alt="image-20260722232810467" width="680px" />
 
-## 2026-07-23
+## 2026-07-24
 
 1. [A New Model for the Milky Way Halo Dispersion Measure with the ENGAWA Simulations: Low DMs and Large Anisotropy](https://arxiv.org/abs/2607.20601)
 
@@ -902,3 +902,132 @@
 
 ## 2026-07-27
 
+1. [Ensemble Kinematic Ages for 1.5 Million LAMOST Stars](https://arxiv.org/abs/2607.22309)
+
+    > Stellar Ages, Stellar Kinematics, Galactic Archaeology, Data Catalog
+
+    利用 Gaia DR3 运动学和 LAMOST 恒星参数，将大气与化学性质相近的恒星组成群体，以中位垂直作用量 $J_z$ 标定群体年龄。方法在约 20 万颗亚巨星上取得约 30%、即 2.6 Gyr 的精度，随后为约 150 万颗 LAMOST DR5 恒星估计年龄，典型不确定度约 2 Gyr。结果与星震、旋转、星团及其他等时线年龄总体一致，并发现一批可能与银盘并行形成有关的老年低 $\alpha$ 星，但该信号尚可能受到双星演化和系统误差影响。该年龄是群体统计量，不适用于低主序星、吸积星或并合产物，也难以区分约 10 Gyr 以上的年龄；[目录已发布于 Zenodo](https://zenodo.org/records/21178926)。
+
+2. [Discovery of a radio-flaring M dwarf in a commensal transient search of the LADUMA field](https://arxiv.org/abs/2607.22321)
+
+    > M Dwarf, Radio Transient, Stellar Flare, Multiwavelength Observation
+
+    在 41 个 MeerKAT LADUMA 历元中发现射电暂现源 MKT J032848.4−271904.6，其中 13 次达到探测阈值，816 MHz 峰值流量为 `1.041±0.043 mJy`。自行校正后的射电位置将其对应到距离 23 pc 的活动 M3.5 V 星 LP 888−63；TESS 显示约 5.8 天的可能自转周期，MeerLICHT 观测到频繁的蓝色白光耀发，归档光谱中的 Hα 发射也支持强磁活动。亮温约为 $4\times10^{10}$ K，与回旋同步辐射相容，但较小发射区对应的亮温允许相干辐射。由于射电数据是数小时平均且缺少动态谱和圆偏振测量，目前无法确认射电发射机制，也未发现明确同步的光学—射电耀发。
+    
+    <img src="./Figures/image-20260726220149164.png" alt="image-20260726220149164" width="680px" />
+
+## 2026-07-28
+
+1. [1000 cataclysmic variables identified from DESI spectroscopy](https://arxiv.org/abs/2607.22836)
+
+    > Cataclysmic Variables, DESI, Spectroscopy, Convolutional Neural Network
+
+    为减轻依赖爆发发现激变变星（CV）造成的选择偏差，作者把卷积神经网络、红移筛选和人工复核用于 DESI 的约 9897 万条光谱。最终得到 1029 个 CV，其中 221 个为新发现，且样本偏向以往漏掉的低吸积率系统；随文还发布候选目录和训练/测试数据。短周期亚型的空间密度与既有估计一致，但未分型目标使其仍是下限；更深测光缺失也让不少暗弱源的亚型和轨道周期尚不确定。
+
+    <img src="./Figures/image-20260727230629775.png" alt="image-20260727230629775" width="680px" />
+
+2. [Breakthrough Listen's Automated Commensal Technosignature Survey with MeerKAT](https://arxiv.org/abs/2607.23651)
+
+    > Technosignatures, SETI, MeerKAT, Commensal Survey
+
+    作者给出 MeerKAT 上 BLUSE 的端到端架构：系统在不占用主项目机时的情况下并行接收全阵列、全带宽数据，细分到约 1 Hz，形成相干波束并自动搜索窄带漂移信号；JWST 下行信号验证了整条链路。投入自主运行后，BLUSE 已处理约 120 万次可搜索指向，覆盖约 36 万个独立天体。相关[自动调度代码](https://github.com/UCBerkeleySETI/commensal-automator)已公开。本文主要是系统与进度报告，数据仍在分析，尚未给出全样本候选体结论，底层数据也只承诺按请求共享。
+
+     <img src="./Figures/image-20260727230759311.png" alt="image-20260727230759311" width="680px" />
+
+## 2026-07-29
+
+1. [AI's Capability in Assisting Scientific Research in Physics, Astrophysics, and Cosmology I: Literature Review](https://arxiv.org/abs/2607.25672)
+
+    > LLM, Literature Review, Scientific Research, Benchmark
+
+    以 8 个由物理、天体物理与宇宙学专家提出的真实研究课题为对照，专家和联网 LLM 按统一提示独立检索文献，再逐条核验相关性与书目信息。人机选中文献的重合率不足 6%，说明模型能补充专家遗漏，却不能替代专家检索；受测的 ChatGPT-4o、Deep Research 和 Gemini 所生成的真实文献中，64% 至少有一项元数据错误。较新模型虽在单一课题测试中未再出现引用错误，但样本过小，且结果依赖具体模型与工具链，不能据此泛化。
+
+    <img src="./Figures/image-20260728232458543.png" alt="image-20260728232458543" width="680px" />
+
+2. [The Lunar Farside Transients and Technology Telescope (LFT3) Mission](https://arxiv.org/abs/2607.25762)
+
+    > Lunar Farside, Radio Telescope, Mission Concept, Technosignatures, Transients
+
+    LFT3 是拟在月球背面近反地球点着陆的宽带射电任务概念，覆盖 0.1–2700 MHz，用 48 元双极化 UHF 相控阵配合 HF/VHF 天线和板载谱仪，搜寻低色散暂现源、太阳与行星辐射、谱线及技术特征。设计重点是利用地月轨道器尚少的短暂无线电静默窗口，并通过板载触发降低回传压力。论文给出 20 周任务的科学与运行框架及[项目白皮书](https://lft3.space/)。但这仍是提案而非在轨结果，灵敏度、热控、夜间功耗和下行能力都取决于后续工程实现。
+
+    <img src="./Figures/image-20260728232539749.png" alt="image-20260728232539749" width="680px" />
+
+3. [The IMF package: a toolkit implementing mass functions and statistical tools to analyze them](https://arxiv.org/abs/2607.26007)
+
+    > Initial Mass Function, Python, Tool, Stellar Population
+
+    `imf` 将常用恒星初始质量函数、核质量函数和原恒星质量函数封装为兼容 SciPy 的概率分布，统一提供 PDF/CDF、积分、随机抽样、确定性最优抽样和自定义组合；同一框架也能生成多星系统与星团。基准测试显示，随机抽样在多数实用场景低于 1 秒，但最优抽样会随星团质量线性变慢，大质量样本的计算成本明显更高。使用时需注意，默认函数描述恒星系统而非单颗恒星；软件已发布于 PyPI，源码与文档见 [GitHub](https://github.com/keflavich/imf)。
+
+    <img src="./Figures/image-20260728232607886.png" alt="image-20260728232607886" width="680px" />
+
+4. [Automated Solar Radio Burst Detection Using Deep Learning on Augmented e-Callisto Data](https://arxiv.org/abs/2607.26014)
+
+    > Solar Radio Burst, e Callisto, Deep Learning, Data Augmentation
+
+    FlareSense 用 e-Callisto 全球网络的 304,750 幅人工标注动态谱训练 ResNet，并把语音识别中的 SpecAugment 和 TimeWarp 迁移到太阳射电数据，以适应不同台站的噪声、标定差异与射频干扰。经二次人工核验的测试集上，模型精确率为 93%、召回率为 73.15%，在相同精确率下优于日常人工目录，数据增强也改善了对未见仪器的泛化。由于样本没有跨多个太阳活动周期进行一致标注，长期运行中的分布漂移仍未验证；[代码、模型与数据入口](https://github.com/i4Ds/FlareSense-v2)已公开。
+    
+    <img src="./Figures/image-20260728232640986.png" alt="image-20260728232640986" width="680px" />
+
+## 2026-07-30
+
+1. [The FRB--Galaxy Overdensity Cross-Correlation Statistic in Dispersion Space](https://arxiv.org/abs/2607.26135)
+
+    > FRB, Galaxy Clustering, Dispersion Measure, Cosmology, Theory
+
+    针对多数 FRB 没有宿主红移的问题，研究把 FRB 按色散量分箱、星系按红移分箱，构造二者过密度场的交叉功率谱 $f\times g$。推导表明，传统 DM–星系统计 $D\times g$ 只是 $f\times g$ 的一个 DM 矩，因此后者保留更多信息，并能分离自由电子聚集与 FRB 源聚集。Fisher 预报给出 CHIME×DESI(LS) 和 CHORD×Euclid 的总信噪比分别约 12 和 54，同时更好约束 FRB 红移分布、宿主 DM 与重子反馈尺度。结果仍是模型预报而非观测检出；其简单红移/功率谱参数化与高斯噪声假设可能低估真实误差。
+
+## 2026-07-31
+
+1. [Relativistic effects of PSR~J1856--0039 double neutron star system in a 2.36-hour compact orbit](https://arxiv.org/abs/2607.27333)
+
+    > Double Neutron Star, Pulsar Timing, General Relativity, Observation
+
+    FAST 在 GPPS 巡天中发现并持续计时 PSR J1856–0039；它处于 2.36 小时的偏心双中子星轨道，是一颗轻度再生毫秒脉冲星。近星点进动、爱因斯坦延迟和轨道衰减联合给出系统总质量 $2.48841\pm0.00015\,M_\odot$，为已知双中子星最低值。观测到的引力波轨道衰减与广义相对论预测之比为 $1.009\pm0.014$，两者一致，也使该系统成为新的强场引力实验室。后续更严格的检验受距离和视差不确定性限制，且源较暗使 VLBI 测距困难。
+
+    <img src="./Figures/image-20260730215607259.png" alt="image-20260730215607259" width="680px" />
+
+2. [Radio Follow-Up of Einstein Probe Fast X-Ray Transients](https://arxiv.org/abs/2607.27439)
+
+    > Fast X Ray Transient, Radio Follow Up, Einstein Probe, Relativistic Jet, Observation
+
+    该计划用 ATA 的 59 个历元并结合 MeerKAT、VLA、ATCA、eMERLIN 和 AMI-LA，追踪 20 个 Einstein Probe 快速 X 射线暂现源的早期射电余辉。仅 EP240315a 和 EP241021a 出现射电对应体：前者由高度相对论性喷流主导并随时间减速，后者更符合温和相对论性外流。检出与非检出共同表明 FXT 不是单一爆发现象，而可能混合 GRB/TDE 类喷流和较慢爆炸。多数源没有光谱红移，因而非检出的光度约束依赖 GRB 距离先验，尚不能排除普通宇宙学 GRB 余辉。
+
+    <img src="./Figures/image-20260730215638696.png" alt="image-20260730215638696" width="680px" />
+
+3. [Depolarization Induced by Rapid Polarization Angle Swings: A Common Feature of Pulsars and Fast Radio Bursts?](https://arxiv.org/abs/2607.27622)
+
+    > Pulsar, Fast Radio Burst, Polarization, Neutron Star, Theory
+
+    在旋转中子星的几何辐射框架中，同一可见区内不同偏振方向的非相干叠加，会使线偏振度随偏振角摆动速率增大而下降。对 190 颗有几何拟合的 FAST 脉冲星检验后，15 颗满足统计反相关阈值，其中仅 8 颗清楚呈现摆动峰与偏振低谷的相位对应，因此证据仍属初步。若该关系也存在于 FRB，可反推中子星自转周期和辐射区几何。现有 FRB 数据只是少数个例，且推断强烈依赖辐射粒子洛伦兹因子与简化磁场几何，尚不能证明 FRB 具有同一机制。
+
+    <img src="./Figures/image-20260730215730973.png" alt="image-20260730215730973" width="680px" />
+
+4. [PhySR: Physics-Informed Neural Network for Super-Resolution Reconstruction in Radio Synthesis Imaging](https://arxiv.org/abs/2607.27750)
+
+    > Radio Interferometry, Super Resolution, Physics Informed Neural Network, SKA, Simulation
+
+    PhySR 把主波束响应、合成波束卷积和观测域一致性直接写入 U-Net 训练，并用级联上采样与多尺度残差从低分辨率脏图恢复细节，无需高分辨率标签。模型在 9000 组 OSKAR 模拟的 SKA-Mid 洁净/脏图像对上训练与评估。在 4 倍超分辨率任务中，它达到 44.65 dB PSNR，并在回投观测域后保持物理一致性，优于所比较的传统和深度学习方法。当前证据完全来自受控模拟，尚未验证真实 MeerKAT、LOFAR 数据中的校准误差、噪声和域迁移。
+
+    <img src="./Figures/image-20260730215753574.png" alt="image-20260730215753574" width="680px" />
+
+5. [Tidal Disruption Events with the SKA](https://arxiv.org/abs/2607.27827)
+
+    > Tidal Disruption Event, SKA, Radio Transient, Black Hole, Review
+
+    这篇展望梳理 SKA 如何把潮汐瓦解事件的射电研究从零散个例推进到统一样本。方案以共生慢暂现巡天发现候选体，再结合快速触发、多频长期监测和 SKA–VLBI，测量喷流发生率、离轴外流、动能及核周介质密度，并扩展低质量和偏离星系核的黑洞统计。基准预报认为分阶段阵列每年可识别约 150–300 个核区射电 TDE，为喷流形成和黑洞人口学提供统计检验。该产额是性能与种群模型外推，强烈依赖射电响亮比例、候选分类、巡天节奏和 SKA 实际交付能力，不能当作已实现结果。
+
+    <img src="./Figures/image-20260730215818988.png" alt="image-20260730215818988" width="680px" />
+
+6. [The Study of Quasi-Periodic Pulsations in Solar and Stellar Flares with SKA](https://arxiv.org/abs/2607.27950)
+
+    > Quasi Periodic Pulsation, Solar Flare, Stellar Flare, SKA, Review
+
+    这篇综述把太阳与恒星耀斑的准周期脉动（QPP）归纳为磁流体波动、周期性磁重联和粒子加速调制等竞争机制，并讨论如何用 SKA 的宽带成像光谱与偏振观测加以区分。高频陀螺同步辐射可追踪日冕环中的非热粒子，低频相干辐射则定位粒子加速区，使弱耀斑和太阳—恒星比较进入空间分辨研究。分析上，FFT/小波对短时、非平稳 QPP 容易失真，EMD、贝叶斯拟合和机器学习应交叉验证；[SCOPE](https://github.com/Warwick-Solar/scope)提供带有色噪声显著性检验的 EMD 工具。当前结论主要是方法与能力展望，SKA 实测样本和可靠的自动分类仍待建立。
+
+7. [Multi-branch classification of diffuse cluster radio emission](https://arxiv.org/abs/2607.28349)
+
+    > Galaxy Cluster, Diffuse Radio Emission, Scattering Transform, Machine Learning, Observation
+
+    本文在仅 207 个带标签的 LoTSS-DR2/PSZ2 星系团图像上，比较简单 CNN、散射网络及带压缩—激励注意力的双分支分类器，用于识别低表面亮度弥散射电辐射。将固定散射变换与可学习卷积分支结合，并按合成波束数裁剪、进行 uv taper 后，DualSSN 的平均准确率为 $0.86\pm0.04$；对最佳模型软投票可升至 $0.94$，而堆叠多种预处理图像没有收益。样本过小导致不同训练划分波动很大，固定测试集还可能低估误差，因此最高分不能当作可迁移性能。[模型与处理代码](https://github.com/MarkusBredberg/dcreclass)已经公开。
+    
+    <img src="./Figures/image-20260730215911778.png" alt="image-20260730215911778" width="680px" />
