@@ -289,3 +289,141 @@
 
 ## 2026-08-17
 
+1. [H-$\alpha$ Integral Carrington Synoptic Maps Produced by NSO/NISP](https://arxiv.org/abs/2608.13812)
+
+    > Solar Physics, H alpha, Synoptic Map, GONG, Data Product
+
+    为给太阳活动周期、喷发事件前兆和长期色球层结构提供统一参照，报告把 GONG 多站 H-$\alpha$ 全日面观测加工为整周的 Carrington 综合图。流程以小时采样并在目标自转前后各扩展 7 天，校正台站相关的边缘昏暗、归一化亮度并剔除云层等低质帧，随后在日球坐标内重映射、以中心经线加权拼接。成品为 720×360 的 FITS 图，每个像元同时给出加权平均归一化强度、累计权重和空间 RMS，可连续追踪暗条、谱斑与活动区的经度演化。站间与日内转角误差未见足以改变产品的系统偏差，故不作显式校正；但数据未填补极区，且强度是跨站归一化量，不能直接当作完整太阳面或绝对 H-$\alpha$ 辐射测量。
+
+    <img src="./Figures/image-20260817100123238.png" alt="image-20260817100123238" width="680px" />
+
+## 2026-08-18
+
+1. [A Radio-Bright Local Little Red Dot Analog](https://arxiv.org/abs/2608.16200)
+
+    > Little Red Dot, Radio Continuum, AGN, Observation
+
+    利用 VLASS 四个历元堆叠图，并结合多次射电巡天的连续谱，对红移 $z=0.4332$ 的本地 Little Red Dot 类比体 J2048 进行了射电确认。其 3 GHz 通量为 $3.0\pm0.2$ mJy、射电光度达 $1.2\times10^{41}\,\mathrm{erg\,s^{-1}}$，远高于此前已报道的本地类比体；较平坦的谱形与中等光学厚度同步辐射相容，提示高红移 LRD 也可能存在可检出的射电成分。等高线图还见东南向微弱伸展，可能对应千秒差距喷流或并合系统的第二成分。现有角分辨率只给出不严格的亮温下限，尚不能判定射电是否来自紧致 AGN；需 VLBI 等高分辨率观测区分喷流、恒星形成和并合结构。
+
+    <img src="./Figures/image-20260817234445464.png" alt="image-20260817234445464" width="680px" />
+
+2. [Galaxy Morphology Classification: Uncertainty Modeling and Out of Distribution Detection](https://arxiv.org/abs/2608.16654)
+
+    > Galaxy Morphology, Deep Learning, Uncertainty, Out of Distribution Detection
+
+    基于 Galaxy Zoo DECaLS 星系切图，研究在统一的 ResNet-34 上比较交叉熵基线、以类别原型距离建模的 IsoMaxPlus，以及加入 MC Dropout 的混合模型，目标是在自动形态分类时同步识别分布外目标并量化不确定度。IsoMaxPlus 令已知与 OOD 样本在熵和最近原型距离上分离更清晰，TNR@TPR95 相对基线提高近 90%，同时仍保持约 97% 的分类准确率；混合模型亦减轻预测过度自信。图中的三组分布直观呈现这一变化。限制在于高熵或 OOD 标记不能自行区分罕见形态、低信噪目标与成像伪影，固定 DECaLS 子样本的类别不均衡及 MC Dropout 的推理代价也会制约跨巡天迁移。
+
+    <img src="./Figures/image-20260817235035598.png" alt="image-20260817235035598" width="680px" />
+
+3. [A Cross-Band (X-ray $\times$ Optical) Periodicity Search for Supermassive Black Hole Binaries: A Null Result and the First Completeness-Corrected Constraint](https://arxiv.org/abs/2608.16787)
+
+    > Supermassive Black Hole Binary, AGN, X ray, Periodicity
+
+    研究对 1,194 个 Swift-BAT 硬 X 射线 AGN 和 175 个 4XMM-DR14 AGN，要求 X 射线与光学光变在同一周期上均显著，再以 DRW 红噪声、Lomb-Scargle 周期图和蒙特卡洛校正筛查超大质量黑洞双星候选。所有源均未出现共周期信号；在真实双波段光变中共同注入调制并测得完备度后，当分数振幅 $A\gtrsim0.3$ 时，共周期比例的 95% 上限为 $\lesssim3\%$。图 5 同时展示联合恢复效率和这一幅度依赖的约束。硬 X 射线采样而非光学精度是主瓶颈，低振幅及稀疏 4XMM 数据无法给出有竞争力的约束，故零结果不能外推为超大质量黑洞双星的总体比例；代码与结果表已归档于 [Zenodo](https://doi.org/10.5281/zenodo.21386388)。
+
+    <img src="./Figures/image-20260817235107122.png" alt="image-20260817235107122" width="680px" />
+
+## 2026-08-19
+
+1. [A comprehensive cluster census of Orion. An application of the Significance Mode Analysis (SigMA) algorithm](https://arxiv.org/abs/2608.16989)
+
+    > Orion, Stellar Clusters, Gaia, Data Analysis
+
+    利用 Gaia DR3 的五维天体测量，研究将为远距区域校正视差误差拉伸的 DistantSigMA 应用于猎户座，并以多次聚类的一致性给出团簇持久度和个体成员概率。得到 47 个空间共位、运动共向的星群与 11,996 名可靠成员，新增 16 个同龄子结构候选，并更完整恢复极年轻群体。统一年龄和消光图把星群与周围 ISM 的时空结构关联起来。由于 Gaia 的光学选择会漏掉强嵌入的最年轻成员，且积分形丝状体的组成尚不能可靠拆分，该目录适合描述可见群体的精细分层，不应被当作完整形成史。
+
+    <img src="./Figures/image-20260818211548689.png" alt="image-20260818211548689" width="680px" />
+
+2. [pynucastro 3: A community library for nuclear astrophysics](https://arxiv.org/abs/2608.17049)
+
+    > Nuclear Astrophysics, Reaction Network, Scientific Software, Tool
+
+    pynucastro 3 将核反应率数据库、反应网络构建和代码导出整合为可交互的 Python 库，面向恒星燃烧与核合成模拟。此次版本加入近似、分支和修改反应率，恒星状态方程、StarLib 速率及不确定度，并以 NetworkX、刚性诊断和新的 C++/Fortran 导出后端扩展网络分析与复用。社区驱动的测试与 notebook 再现实例使用户可从选核素到生成模拟网络的流程可检查、可迁移；源代码见 [pynucastro](https://github.com/pynucastro/pynucastro)。但生成网络仍由所选反应库、近似和积分器决定，部分轻量导出后端尚不支持 StarLibRate，因此产物不应被视为对核物理输入或数值求解的独立验证。
+
+    <img src="./Figures/image-20260818211548764.png" alt="image-20260818211548764" width="680px" />
+
+3. [NMMA-Astro-COLIBRI: An Automated Light-Curve Supernovae Classification Service in the Multi-Survey Era](https://arxiv.org/abs/2608.17568)
+
+    > Supernova, Kilonova, Time Domain, Bayesian Inference, Tool
+
+    NMMA-Astro-COLIBRI 将 NMMA 的嵌套采样推断接入 Astro-COLIBRI 实时平台，自动质控多巡天光变，并用超新星与千新星模板的贝叶斯证据为候选瞬变排序。以一度被实时管线误报为千新星的 IIb 型超新星 SN 2021ugl 为例，只取前约 6 天的双波段测光便选中正确的 IIb 模板，比光谱确认早约 10 天；扩展到 47 天三波段数据后结论保持不变。它把竞争物理模型的比较转成可在线返回的 Bayes 因子，案例复现脚本和后验样本见 [repository](https://github.com/astro-transients/nmma-astrocolibri-sn2021ugl)。现有模板库仍无法覆盖罕见或异常瞬变，因此高证据只是在已纳入模型之间的相对判别，不能替代光谱或排除库外类别。
+
+    <img src="./Figures/image-20260818211548774.png" alt="image-20260818211548774" width="680px" />
+
+4. [A stochastic forward model for the intergalactic dispersion-measure distribution of Fast Radio Bursts](https://arxiv.org/abs/2608.17658)
+
+    > Fast Radio Burst, Dispersion Measure, Cosmology, Tool
+
+    turboFRB 构建 $\mathrm{DM}_{\rm IGM}$ 的半解析随机前向模型，将弥散 IGM、晕和丝状体的贡献逐条视线生成，并用潜在环境变量耦合后两者的相遇率。仅校准 4 个有效参数后，模型在 $0.5\le z\le2.5$ 对 IllustrisTNG 射线追踪基准的平均 DM 达百分比精度，逐红移 Jensen-Shannon 散度不超过 $5\times10^{-3}$，还可把高 DM 尾部归因于晕和丝状体。逐视线输出保留分布宽度和尾部概率，避免将非高斯结构压缩成单一经验 PDF；对定位 FRB 的闭环实验也能回收注入的 $H_0$。当前没有自洽宿主 DM 模型且只对单一流体力学基准校准，不能直接当作真实 FRB 宇宙学误差预算。
+
+    <img src="./Figures/image-20260818211548807.png" alt="image-20260818211548807" width="680px" />
+
+## 2026-08-20
+
+1. [Astro-Hunters: Machine Learning for Exoplanet Transit Detection in TESS Photometry](https://arxiv.org/abs/2608.18172)
+
+    > Exoplanet, Transit, TESS, Machine Learning, Data Analysis
+
+    Astro-Hunters 以 TESS 两分钟光变的逐点测量为对象，检验机器学习凌星识别最易被忽视的前提：训练标签如何获得。研究从已确认宿主的 189,279 个 cadence 出发，根据已发表星历完成 BJD–BTJD 转换并纳入系统中全部凌星行星，生成外部标签；再以七种滑窗统计量和恒星独立划分比较多类分类器。固定特征、模型和评测协议时，标签来源可令精确率–召回率表现相差 29 倍，远超架构选择的 1.8 倍；由同一特征训练的异常检测标签会制造循环性的高分。弱凌星必须靠相位折叠叠加信号，逐点分类无法替代这一操作。由于样本本身都是已确认行星宿主，输出只能作为未知目标的候选提示，仍需独立的假阳性检验。
+
+    <img src="./Figures/image-20260820005959608.png" alt="image-20260820005959608" width="680px" />
+
+2. [Radiation damage to the Hubble Space Telescope has been several years out of phase with the Solar cycle](https://arxiv.org/abs/2608.18214)
+
+    > Hubble Space Telescope, CCD, Radiation Damage, Solar Cycle, Instrumentation
+
+    基于 HST ACS/WFC CCD 长期积累的热像元电荷转移低效应（CTI）轨迹，研究把仪器的辐射损伤序列与太阳黑子、CME 高能质子通量及经验分段模型比较。黑子驱动拟合需约 430 日滞后，而让 CME 模型达到最佳形状又需显然不物理的 8 年滞后，表明近地轨道的损伤率并非太阳活动曲线的简单延迟映射。实用层面，拟合优良的经验校正可去除超过 99.5% 的图像 CTI 拖尾效应，帮助延长现有观测数据的可用性。其价值主要是后处理，不是预测：参数缺乏物理可信度，因而不能据此外推 HST 或未来任务的退化寿命。
+
+    <img src="./Figures/image-20260820005959672.png" alt="image-20260820005959672" width="680px" />
+
+3. [An invariant energy release hierarchy in a repeating fast radio burst](https://arxiv.org/abs/2608.18455)
+
+    > Fast Radio Burst, Repeater, Magnetar, Energy Distribution, Observation
+
+    FAST 与 Parkes 对高活跃重复暴 FRB 20220529 进行了 3.2 年监测，得到逾 1,300 个爆发。FAST 样本在完整性阈值以上以指数加幂律描述：低能支包含特征尺度 $E_0$，高能端则延续为尺度自由尾部，Parkes 的独立高能事件提供交叉检验。把数据按时间分段后，$E_0$ 仍落在 $(4.83\text{--}6.82)\times10^{28}\,\mathrm{erg\,Hz^{-1}}$，尽管总体爆发率明显衰减，支持稳定的局域耗散尺度与触发频率解耦。磁星磁层重联可解释两支成分分别对应局域亚临界耗散和近临界雪崩，但这一物理映射仍依赖辐射效率、束射和单源选择，尚不能推广为全部重复暴的普适能量律。
+
+    <img src="./Figures/image-20260820005959690.png" alt="image-20260820005959690" width="680px" />
+
+4. [Real-Time RFI Mitigation in SPOTLIGHT: A Two-Stage Approach for Transient Searches](https://arxiv.org/abs/2608.19102)
+
+    > Radio Transient, RFI, uGMRT, Signal Processing, Tool
+
+    SPOTLIGHT 在 uGMRT 的实时共生巡天中把 RFI 抑制拆为两级：VOLT 在相关和波束形成前处理天线电压，STRIPE 再在波束形成后的动态谱上清除残余时频干扰。框架以常规观测、76 次脉冲星测试及 PRESTO 的 rfifind 为基准，部署后将假触发率降低 98%，并使回收的天体脉冲信噪比提高 2.7 倍。两级处理把宽带脉冲干扰和窄带持续干扰分别放在最合适的数据域中处理，因而兼顾低延迟和保真度。当前 VOLT 在最宽带宽模式下仍需绕过，且性能来自 uGMRT 的特定硬件、RFI 环境和测试样本，跨望远镜推广仍须实测验证。
+
+    <img src="./Figures/image-20260820005959715.png" alt="image-20260820005959715" width="680px" />
+
+## 2026-08-21
+
+1. [Multi-lane type II radio bursts: Insights into shock propagation in the corona](https://arxiv.org/abs/2608.19295)
+
+    > Solar Radio Burst, Coronal Shock, Coronal Mass Ejection, Radio Imaging, Observation
+
+    一次CME伴随的多车道II型太阳射电暴被宽频动态频谱、Nançay射电日像和CME三维壳模型联合解析，射电源的空间演化因而可按车道逐一追踪。谱带分裂对应的压缩比为1.50–1.75，且三维校正后仍出现“高频源位反而更高”的高度—频率反转，说明多个同时发射的激波区具有不同的局地马赫数、斜激角和日冕密度，与单一均匀激波的解释不符。所选图把高度—时间点与动态谱相连，直观展示车道分离和反转。局限在于单次事件仍无法区分激波表面湍流褶皱与大尺度日冕非均匀性，具体机制尚不唯一。
+
+    <img src="./Figures/image-20260821002510001.png" alt="image-20260821002510001" width="680px" />
+
+2. [A Systematic Gaia--ZTF Search for Short-Period Blue Compact-Binary Candidates](https://arxiv.org/abs/2608.19493)
+
+    > Compact Binary, White Dwarf, Gaia, ZTF, Gravitational Wave
+
+    Gaia DR3的蓝色次主序筛选、ZTF DR23短周期检索和CNN形态排序被串联，并对入选光变逐一精修与再折叠，形成147个蓝色紧致双星候选，其中111个此前没有紧致双星分类。Gaia CMD和已有光谱显示样本跨越白矮星、热亚矮星及中间区域，因此应作为待鉴别对象库使用；在假定轨道与质量参数下，17个新增白矮星轨迹候选可达到LISA探测阈值。所选图将观测调制幅度与潮汐椭球形变的理论上限对照，显示绝大多数目标相差数个数量级，旋转磁性或化学不均匀单白矮星同样可产生这类周期。时序径向速度与高时间分辨多波段观测仍是确认双星和评估引力波前景的必要条件。
+
+    <img src="./Figures/image-20260821002510002.png" alt="image-20260821002510002" width="680px" />
+
+3. [Multi-scale Memory and Regime Shift in the Hyperactive Repeating FRB 20240114A](https://arxiv.org/abs/2608.19713)
+
+    > Fast Radio Burst, Repeater, Memory, Hurst Exponent, Observation
+
+    FAST对FRB 20240114A的11,553次爆发被用于联合分析事件率相干、等待时间分布、重标度极差和能量统计，以检验重复暴是否在不同时间尺度服从同一过程。最活跃日的事件率可保持约一小时的相干增长；全样本等待时间R/S曲线在相近尺度折断，Hurst指数由短尺度的0.63±0.02升至长尺度的1.04±0.02，支持短时近随机、长时系统性非平稳的状态转换。所选图以断点和双斜率直接呈现这项核心证据，日内样本则更接近随机过程。由于R/S以爆发序号而非物理时间索引、时间换算又依赖高度变化的平均率，约一小时标度及其机制解释仍需在更长观测窗内验证。
+
+    <img src="./Figures/image-20260821002510003.png" alt="image-20260821002510003" width="680px" />
+
+4. [Testing Statistical Isotropy in the FRB Sky Distribution: A Selection-Function-Aware Framework](https://arxiv.org/abs/2608.20135)
+
+    > Fast Radio Burst, Statistical Isotropy, Selection Function, Angular Correlation, Cosmology
+
+    4066个FRB的天球位置被置于Landy–Szalay两点角相关函数和分层各向同性模拟中，同时处理银河平面遮罩、逐巡天经验选择函数与协方差，以判别表观聚集是否来自观测足迹。原始样本强烈偏离各向同性，单独遮罩只能小幅降低张力；选择函数与遮罩一并纳入后，相关函数在所有角尺度均落入各向同性模拟带，SVD正则化约化χ²降至0.62，独立的绝对各向异性统计也给出一致结论。所选图展示最终基准情形的二维相关曲线。关键限制是选择函数由观测天图反推，可能同时吸收与巡天足迹对齐的真实各向异性，且样本受CHIME主导，故结果应读作“未发现残余各向异性”，并非强约束。
+
+    <img src="./Figures/image-20260821002510004.png" alt="image-20260821002510004" width="680px" />
+
+## 2026-08-24
+
