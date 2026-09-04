@@ -612,3 +612,45 @@
     <img src="./Figures/image-202608280000007.png" alt="image-202608280000007" width="680px" />
 
 ## 2026-08-31
+
+1. [High Dispersion Measure Fast Radio Bursts from Young, Dust-Poor H II Regions](https://arxiv.org/abs/2608.27779)
+
+    > FRB, H II Region, Metallicity, Simulation
+
+    以半解析的星协—中子星—FRB 人口模型配合一维辐射流体模拟，检验年轻大质量星协周围的本征 H II 区能否贡献高宿主 $DM$，并解释高 $DM$ 源偏好低金属丰度矮星系。模型跟踪时变电离光度、Lyman 连续谱尘埃吸收、H II 区膨胀、超泡及源的形成时刻和漂移。质量约 $10^5$–$10^6\,M_\odot$ 的低金属丰度星协，若 FRB 在 $\lesssim5$ Myr 便激活且仍嵌入气体，可给出 $DM_{\rm H\,II}\gtrsim10^3\ {\rm pc\,cm^{-3}}$；银河系类高金属环境因尘埃吸收显著压低该尾部。图中将激活时刻、宿主金属丰度和预测中位 $DM$ 同已定位 FRB 对齐，显示主控量是尘埃与电离光子预算，而非仅由星协质量决定。该解释仍依赖一维云结构、低金属尘埃和“中子星何时变成 FRB”的映射，故更适合作为局域 $DM$ 的物理通道，而非单个源的唯一分解。
+
+    <img src="./Figures/image-202608310000001.png" alt="image-202608310000001" width="680px" />
+
+2. [JUG: JAX-based Unified pulsar timinG](https://arxiv.org/abs/2608.27786)
+
+    > Pulsar Timing, PTA, JAX, Tool
+
+    JUG 是完全独立的 JAX 脉冲星计时包，将钟链与质心改正、延迟模型、WLS/GLS 拟合和 MAP 噪声估计写入可 JIT 融合的同一流程，面向迅速增长的 PTA 到达时间数据。它以缓存几何量和矢量化延迟核减少重复计算，同时提供 Python API 与图形界面。基准中，面对最高 $10^6$ 个 TOA 的模拟数据，JUG 相对 PINT 的加速最高约为 $56\times$，并在大数据量时接近 Tempo2 的快速 QR 求解器。对 NANOGrav 15 年数据，JUG 与 PINT 的残差差异 RMS 为 $5.25\,{\rm ps}$，拟合和注入恢复也保持在正式参数不确定度以内。当前版本仍假定相位已连通，尚非覆盖所有数据和求解任务的通用计时软件，GPU 对现有规模的线性计时拟合也未显示稳定优势。
+
+    <img src="./Figures/image-202608310000002.png" alt="image-202608310000002" width="680px" />
+
+3. [PIFFLE: Characterizing the Foreground Contributions from 4 Decades in Halo Mass to the FRB20230907D Dispersion Measure](https://arxiv.org/abs/2608.28374)
+
+    > FRB, Circumgalactic Medium, Galaxy Group, Observation
+
+    围绕偏离 Macquart 关系的 FRB20230907D，研究整合 Subaru/PFS 与 SDSS 前景光谱、Rubin/LSST 成像、eROSITA X 射线资料和公开群星系目录，重建整条视线的电子柱来源。FoF 群搜索在清除投影次结构后，确认一座 $z=0.089806$ 的巨大前景系统，其动力学质量约为 $5.2\times10^{14}\,M_\odot$，并获得光学星系过密度和热气体发射的独立支持。以 modified-NFW 热气体剖面进行蒙特卡洛预算，该系统贡献的观测者系 $DM$ 中位数约为 $150\ {\rm pc\,cm^{-3}}$；另一低红移群、Virgo 环境和弥散 IGM 共同填补了异常 $DM$。扣除这些项后，归给近投影矮星系 UGC 7596 的残余区间仍跨越零，因此不能视为其 CGM 的直接探测。群质量、热气体比例和径向剖面的系统误差仍很大，结论强调的是多重前景结构的共同作用，而非唯一归因。
+
+    <img src="./Figures/image-202608310000003.png" alt="image-202608310000003" width="680px" />
+
+4. [Relativistic outflows power a quasi-periodic eruption: constraints on energetics, mass loss, and emission mechanisms](https://arxiv.org/abs/2608.28507)
+
+    > QPE, X Ray, Relativistic Outflow, Observation
+
+    对 Ansky 两次连续准周期爆发的深度 XMM-Newton 观测显示，铁 L 壳层谱线在上升期到峰值形成快速演化的 P Cygni 轮廓，直接指向宽角、轻度相对论性光电离外流。时变风模型以迟滞时刻的质量损失率建立非稳态密度剖面，同时拟合爆发光变、电离参数、吸收和发射线的演化；图中两次爆发的测量均紧跟同一模型轨迹。模型推得单次爆发约抛出 $10^{-3}\,M_\odot$、携带 $\gtrsim10^{49}$ erg 动能；若质量库约为一个太阳质量，约束其活动寿命不超过约 30 年。这样的累计外流可能在数年后产生无线电余辉或红外回响，并为 EMRI 碰撞模型提供能量学约束。参数来自计算代价较高模型的粗网格而非完整后验，盘不稳定与其他 QPE 机制尚未被决定性排除。
+
+    <img src="./Figures/image-202608310000004.png" alt="image-202608310000004" width="680px" />
+
+5. [Fast and efficient nested sampling with BEST](https://arxiv.org/abs/2608.28514)
+
+    > Nested Sampling, Bayesian Evidence, Cosmology, Tool
+
+    这项工作为 TensorFlow 推断包 best 新增 XLA 优化的嵌套采样器：一次并行替换多个 live points，以充分利用向量化似然和 GPU，同时用排序与历史校正抑制证据估计的顺序偏差。二维 Gaussian、Rosenbrock 和多模测试表明，未校正的批处理在批量变大后会偏离真证据，而经验上将 $m/N_{\rm live}\lesssim0.1$ 并执行一次历史校正，可在准确度与并行效率间取得稳定折中。与 JAXNS、UltraNest 的比较中，best 通常运行更快；在 Planck 2018 加 BAO 的 27 维宇宙学模拟器上，批量更新的证据仍与顺序基准在误差内相容，同时明显缩短墙钟时间。高维或接近全批量更新时误差仍可能累积，若模型间证据接近，仍应缩小批量或顺序复算确认。软件已公开为 [best-inference](https://github.com/AndreasNygaard/best-inference)。
+
+    <img src="./Figures/image-202608310000005.png" alt="image-202608310000005" width="680px" />
+
+## 2026-09-01
