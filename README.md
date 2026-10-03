@@ -17,9 +17,10 @@ _✨ Based on [arXiv Astro-PH](https://arxiv.org/list/astro-ph/new), since Decem
 ## <div align="center">Description</div>
 
 
-<div align="center">Read preprints every day</div>
-<div align="center">Article selection has strong personal preference biases</div>
-<div align="center">Different topics will be involved</div>
+<div class="apod-description">
+  <p class="apod-description-lead">A daily reading journal of arXiv Astro-PH preprints.</p>
+  <p>Selections reflect personal research interests and curiosity, with topics spanning the breadth of astrophysics.</p>
+</div>
 
 
 ## <div align="center">Article Reading Count</div>
